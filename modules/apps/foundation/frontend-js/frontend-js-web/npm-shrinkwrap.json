@@ -6888,9 +6888,9 @@
 			"version": "0.3.0"
 		},
 		"liferay-amd-loader": {
-			"from": "liferay-amd-loader@2.1.0",
-			"resolved": "https://registry.npmjs.org/liferay-amd-loader/-/liferay-amd-loader-2.1.0.tgz",
-			"version": "2.1.0"
+			"from": "liferay-amd-loader@2.3.0",
+			"resolved": "https://registry.npmjs.org/liferay-amd-loader/-/liferay-amd-loader-2.3.0.tgz",
+			"version": "2.3.0"
 		},
 		"liferay-karma-config": {
 			"from": "liferay-karma-config@0.0.4",

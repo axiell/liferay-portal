@@ -4,7 +4,7 @@
 		"metal-soy": "^2.4.5"
 	},
 	"devDependencies": {
-		"liferay-module-config-generator": "^1.2.1",
+		"liferay-module-config-generator": "^1.3.3",
 		"metal-cli": "^4.0.1"
 	},
 	"name": "hello-soy-navigation-web",

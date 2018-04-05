@@ -381,7 +381,7 @@
 	</category>
 
 	<category name="com.liferay.portal.kernel.upgrade">
-		<priority value="DEBUG" />
+		<priority value="INFO" />
 	</category>
 
 	<category name="com.liferay.portal.kernel.util.ClassUtil">

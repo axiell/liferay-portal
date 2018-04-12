@@ -36,7 +36,7 @@ packaging=zip
 rm -rf ${repo_dir}/com/liferay/portal/${file}/${version}
 mkdir -p ${repo_dir}/com/liferay/portal/${file}/${version}
 pushd ${bundles_dir}
-zip -rX ${repo_dir}/com/liferay/portal/${file}/${version}/${file}-${version}.${packaging} osgi
+zip -rX ${repo_dir}/com/liferay/portal/${file}/${version}/${file}-${version}.${packaging} osgi -x */porygon-theme.war */user-dashboard-theme.war */westeros-bank-theme.war  */fjord-theme.war  */1975-london-theme.war */user-profile-theme.war
 popd
 deployFile ${file} ${packaging} ${version}
 

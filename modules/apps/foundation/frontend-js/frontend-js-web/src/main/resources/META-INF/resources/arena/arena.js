@@ -22,3 +22,14 @@
     }
   });
 })(jQuery);
+if (Liferay.Browser.isIe()) {
+  Liferay.Loader.addModule({
+    dependencies: [],
+    name: 'arena/polyfills',
+    path: '/o/frontend-js-web/arena/shim.js'
+  });
+} else {
+  Liferay.Loader.define('arena/polyfills', [], function () {
+    return {};
+  });
+}

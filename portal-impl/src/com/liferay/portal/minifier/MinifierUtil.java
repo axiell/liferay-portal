@@ -18,11 +18,11 @@ import com.liferay.portal.kernel.io.unsync.UnsyncStringReader;
 import com.liferay.portal.kernel.io.unsync.UnsyncStringWriter;
 import com.liferay.portal.kernel.log.Log;
 import com.liferay.portal.kernel.log.LogFactoryUtil;
-import com.liferay.portal.kernel.util.InstanceFactory;
-import com.liferay.portal.kernel.util.PortalClassLoaderUtil;
 import com.liferay.portal.kernel.util.StringBundler;
 import com.liferay.portal.util.PropsValues;
-
+import com.liferay.registry.Registry;
+import com.liferay.registry.RegistryUtil;
+import com.liferay.registry.ServiceTracker;
 import com.yahoo.platform.yui.compressor.CssCompressor;
 
 /**
@@ -32,120 +32,117 @@ import com.yahoo.platform.yui.compressor.CssCompressor;
  */
 public class MinifierUtil {
 
-	public static String minifyCss(String content) {
-		if (!PropsValues.MINIFIER_ENABLED) {
-			return content;
-		}
+    public static String minifyCss(String content) {
+        if (!PropsValues.MINIFIER_ENABLED) {
+            return content;
+        }
 
-		return _instance._minifyCss(content);
-	}
+        return _instance._minifyCss(content);
+    }
 
-	public static String minifyJavaScript(String resourceName, String content) {
-		if (!PropsValues.MINIFIER_ENABLED) {
-			return content;
-		}
+    public static String minifyJavaScript(String resourceName, String content) {
+        if (!PropsValues.MINIFIER_ENABLED) {
+            return content;
+        }
 
-		return _instance._minifyJavaScript(resourceName, content);
-	}
+        return _instance._minifyJavaScript(resourceName, content);
+    }
 
-	private static JavaScriptMinifier _getJavaScriptMinifier() {
-		try {
-			return (JavaScriptMinifier)InstanceFactory.newInstance(
-				PortalClassLoaderUtil.getClassLoader(),
-				PropsValues.MINIFIER_JAVASCRIPT_IMPL);
-		}
-		catch (Exception e) {
-			_log.error(
-				"Unable to instantiate " +
-					PropsValues.MINIFIER_JAVASCRIPT_IMPL,
-				e);
+    private MinifierUtil() {
+        Registry registry = RegistryUtil.getRegistry();
 
-			return new GoogleJavaScriptMinifier();
-		}
-	}
+        _javaScriptMinifierServiceTracker = registry.trackServices(
+                JavaScriptMinifier.class);
 
-	private MinifierUtil() {
-		_javaScriptMinifierInstance = _getJavaScriptMinifier();
-	}
+        _javaScriptMinifierServiceTracker.open();
+    }
 
-	private String _minifyCss(String content) {
-		UnsyncStringWriter unsyncStringWriter = new UnsyncStringWriter();
+    private String _minifyCss(String content) {
+        UnsyncStringWriter unsyncStringWriter = new UnsyncStringWriter();
 
-		try {
-			CssCompressor cssCompressor = new CssCompressor(
-				new UnsyncStringReader(content));
+        try {
+            CssCompressor cssCompressor = new CssCompressor(
+                    new UnsyncStringReader(content));
 
-			cssCompressor.compress(
-				unsyncStringWriter, PropsValues.YUI_COMPRESSOR_CSS_LINE_BREAK);
+            cssCompressor.compress(
+                    unsyncStringWriter, PropsValues.YUI_COMPRESSOR_CSS_LINE_BREAK);
 
-			return _processMinifiedCss(unsyncStringWriter.toString());
-		}
-		catch (Exception e) {
-			_log.error("Unable to minify CSS:\n" + content, e);
+            return _processMinifiedCss(unsyncStringWriter.toString());
+        }
+        catch (Exception e) {
+            _log.error("Unable to minify CSS:\n" + content, e);
 
-			unsyncStringWriter.append(content);
+            unsyncStringWriter.append(content);
 
-			return unsyncStringWriter.toString();
-		}
-	}
+            return unsyncStringWriter.toString();
+        }
+    }
 
-	private String _minifyJavaScript(String resourceName, String content) {
-		return _javaScriptMinifierInstance.compress(resourceName, content);
-	}
+    private String _minifyJavaScript(String resourceName, String content) {
+        JavaScriptMinifier javaScriptMinifier =
+                _javaScriptMinifierServiceTracker.getService();
 
-	private String _processMinifiedCss(String minifiedCss) {
-		int index = 0;
+        if (javaScriptMinifier == null) {
+            return content;
+        }
 
-		while ((index = minifiedCss.indexOf("calc(", index)) != -1) {
-			index += 5;
+        return javaScriptMinifier.compress(resourceName, content);
+    }
 
-			int parenthesesCount = 0;
-			int startIndex = index;
+    private String _processMinifiedCss(String minifiedCss) {
+        int index = 0;
 
-			for (parenthesesCount = 1;
-				parenthesesCount != 0 && index < minifiedCss.length();
-				index++) {
+        while ((index = minifiedCss.indexOf("calc(", index)) != -1) {
+            index += 5;
 
-				char c = minifiedCss.charAt(index);
+            int parenthesesCount = 0;
+            int startIndex = index;
 
-				if (c == '(') {
-					parenthesesCount++;
-				}
-				else if (c == ')') {
-					parenthesesCount--;
-				}
-			}
+            for (parenthesesCount = 1;
+                 parenthesesCount != 0 && index < minifiedCss.length();
+                 index++) {
 
-			if (parenthesesCount == 0) {
-				StringBundler sb = new StringBundler(3);
+                char c = minifiedCss.charAt(index);
 
-				sb.append(minifiedCss.substring(0, startIndex));
+                if (c == '(') {
+                    parenthesesCount++;
+                }
+                else if (c == ')') {
+                    parenthesesCount--;
+                }
+            }
 
-				String replacement = minifiedCss.substring(
-					startIndex, index - 1);
+            if (parenthesesCount == 0) {
+                StringBundler sb = new StringBundler(3);
 
-				replacement = replacement.replaceAll("\\+", " + ");
-				replacement = replacement.replaceAll("-", " - ");
-				replacement = replacement.replaceAll("\\*", " * ");
-				replacement = replacement.replaceAll("/", " / ");
+                sb.append(minifiedCss.substring(0, startIndex));
 
-				sb.append(replacement);
+                String replacement = minifiedCss.substring(
+                        startIndex, index - 1);
 
-				sb.append(minifiedCss.substring(index - 1));
+                replacement = replacement.replaceAll("\\+", " + ");
+                replacement = replacement.replaceAll("-", " - ");
+                replacement = replacement.replaceAll("\\*", " * ");
+                replacement = replacement.replaceAll("/", " / ");
 
-				index += replacement.length() - (index - startIndex);
+                sb.append(replacement);
 
-				minifiedCss = sb.toString();
-			}
-		}
+                sb.append(minifiedCss.substring(index - 1));
 
-		return minifiedCss;
-	}
+                index += replacement.length() - (index - startIndex);
 
-	private static final Log _log = LogFactoryUtil.getLog(MinifierUtil.class);
+                minifiedCss = sb.toString();
+            }
+        }
 
-	private static final MinifierUtil _instance = new MinifierUtil();
+        return minifiedCss;
+    }
 
-	private final JavaScriptMinifier _javaScriptMinifierInstance;
+    private static final Log _log = LogFactoryUtil.getLog(MinifierUtil.class);
+
+    private static final MinifierUtil _instance = new MinifierUtil();
+
+    private final ServiceTracker<JavaScriptMinifier, JavaScriptMinifier>
+            _javaScriptMinifierServiceTracker;
 
 }

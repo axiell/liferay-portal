@@ -12,22 +12,36 @@
  * details.
  */
 
-package com.liferay.portal.minifier;
+package com.frontend.js.minifier;
+
+import com.frontend.js.minifier.configuration.YahooJavaScriptMinifierConfiguration;
 
 import com.liferay.portal.kernel.io.unsync.UnsyncStringReader;
 import com.liferay.portal.kernel.io.unsync.UnsyncStringWriter;
 import com.liferay.portal.kernel.log.Log;
 import com.liferay.portal.kernel.log.LogFactoryUtil;
-import com.liferay.portal.util.PropsValues;
+import com.liferay.portal.kernel.util.StringBundler;
+import com.liferay.portal.minifier.JavaScriptMinifier;
+import com.frontend.js.minifier.configuration.ConfigurableUtil;
 
 import com.yahoo.platform.yui.compressor.JavaScriptCompressor;
+
+import java.util.Map;
 
 import org.mozilla.javascript.ErrorReporter;
 import org.mozilla.javascript.EvaluatorException;
 
+import org.osgi.service.component.annotations.Activate;
+import org.osgi.service.component.annotations.Component;
+import org.osgi.service.component.annotations.Modified;
+
 /**
  * @author Carlos Sierra Andrés
  */
+@Component(
+	immediate = true, property = "service.ranking:Integer=0",
+	service = JavaScriptMinifier.class
+)
 public class YahooJavaScriptMinifier implements JavaScriptMinifier {
 
 	@Override
@@ -41,11 +55,12 @@ public class YahooJavaScriptMinifier implements JavaScriptMinifier {
 					new JavaScriptErrorReporter());
 
 			javaScriptCompressor.compress(
-				unsyncStringWriter, PropsValues.YUI_COMPRESSOR_JS_LINE_BREAK,
-				PropsValues.YUI_COMPRESSOR_JS_MUNGE,
-				PropsValues.YUI_COMPRESSOR_JS_VERBOSE,
-				PropsValues.YUI_COMPRESSOR_JS_PRESERVE_ALL_SEMICOLONS,
-				PropsValues.YUI_COMPRESSOR_JS_DISABLE_OPTIMIZATIONS);
+				unsyncStringWriter,
+				_yahooJavaScriptMinifierConfiguration.jsLineBreak(),
+				_yahooJavaScriptMinifierConfiguration.jsMunge(),
+				_yahooJavaScriptMinifierConfiguration.jsVerbose(),
+				_yahooJavaScriptMinifierConfiguration.jsPreserveAllSemicolons(),
+				_yahooJavaScriptMinifierConfiguration.jsDisableOptimizations());
 		}
 		catch (Exception e) {
 			_log.error("Unable to minify JavaScript:\n" + content);
@@ -56,8 +71,19 @@ public class YahooJavaScriptMinifier implements JavaScriptMinifier {
 		return unsyncStringWriter.toString();
 	}
 
+	@Activate
+	@Modified
+	protected void activate(Map<String, Object> properties) {
+		_yahooJavaScriptMinifierConfiguration =
+			ConfigurableUtil.createConfigurable(
+				YahooJavaScriptMinifierConfiguration.class, properties);
+	}
+
 	private static final Log _log = LogFactoryUtil.getLog(
 		YahooJavaScriptMinifier.class);
+
+	private YahooJavaScriptMinifierConfiguration
+		_yahooJavaScriptMinifierConfiguration;
 
 	private static class JavaScriptErrorReporter implements ErrorReporter {
 
@@ -70,7 +96,10 @@ public class YahooJavaScriptMinifier implements JavaScriptMinifier {
 				_log.error(message);
 			}
 			else {
-				_log.error(line + ": " + lineOffset + ": " + message);
+				_log.error(
+					StringBundler.concat(
+						String.valueOf(line), ": ", String.valueOf(lineOffset),
+						": ", message));
 			}
 		}
 
@@ -97,7 +126,10 @@ public class YahooJavaScriptMinifier implements JavaScriptMinifier {
 				_log.warn(message);
 			}
 			else {
-				_log.warn(line + ": " + lineOffset + ": " + message);
+				_log.warn(
+					StringBundler.concat(
+						String.valueOf(line), ": ", String.valueOf(lineOffset),
+						": ", message));
 			}
 		}
 

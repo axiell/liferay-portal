@@ -502,7 +502,7 @@ svn://svn.liferay.com/repos/public/alloy/trunk/sandbox/taglibs.
 
 		<jarjar jarfile="${project.dir}/lib/portal/liferay-yui-compressor.jar.new">
 			<rule pattern="org.mozilla.**" result="com.yahoo.platform.yui.mozilla.@1" />
-			<zipfileset src="${project.dir}/tools/yuicompressor-2.4.7.jar" />
+			<zipfileset src="${project.dir}/tools/yuicompressor-2.4.8.jar" />
 		</jarjar>
 	</target>
 

@@ -23,12 +23,14 @@ import com.liferay.frontend.js.loader.modules.extender.npm.JSModule;
 import com.liferay.frontend.js.loader.modules.extender.npm.JSPackage;
 import com.liferay.frontend.js.loader.modules.extender.npm.JSPackageDependency;
 import com.liferay.frontend.js.loader.modules.extender.npm.NPMRegistry;
+import com.liferay.portal.kernel.log.Log;
+import com.liferay.portal.kernel.log.LogFactoryUtil;
+import com.liferay.petra.string.StringBundler;
 import com.liferay.petra.string.StringPool;
 import com.liferay.portal.kernel.json.JSONFactory;
 import com.liferay.portal.kernel.json.JSONObject;
 import com.liferay.portal.kernel.util.GetterUtil;
 import com.liferay.portal.kernel.util.ProxyFactory;
-import com.liferay.portal.kernel.util.StringBundler;
 import com.liferay.portal.kernel.util.StringUtil;
 import com.liferay.portal.kernel.util.Validator;
 
@@ -334,7 +336,13 @@ public class NPMRegistryImpl implements NPMRegistry {
 		}
 
 		Comparator<JSPackageVersion> comparator = Comparator.comparing(
-			JSPackageVersion::getVersion);
+				(JSPackageVersion jspPackageVersion) -> {
+					Version version = jspPackageVersion == null ? null : jspPackageVersion.getVersion();
+					if (version == null) {
+						_log.error("Null jsp package version");
+					}
+					return version;
+				});
 
 		jsPackageVersions.sort(comparator.reversed());
 
@@ -435,4 +443,5 @@ public class NPMRegistryImpl implements NPMRegistry {
 
 	}
 
+	private static final Log _log = LogFactoryUtil.getLog(NPMRegistryImpl.class);
 }

@@ -3,11 +3,10 @@
 #set -v -x
 set -u -e
 
-version=7.0.6a
-lexicon_version=1.0.25a
+version=7.1.0a
 repo_url=http://jenkins.axiell.local:8081
 repo_dir=~/.m2/repository
-bundles_dir=/opt/java/liferay/arena-7.0.6-ga7/bundles.org
+bundles_dir=/opt/java/liferay/arena-7.1.0-ga1/bundles.org
 
 function deployFile {
   local file=${1}
@@ -58,10 +57,6 @@ file=com.liferay.portal.web
 packaging=war
 deployFile ${file} ${packaging} ${version}
 
-file=com.liferay.webjars.lexicon
-packaging=jar
-groupId="com.liferay.webjars"
-deployFile ${file} ${packaging} ${lexicon_version} ${groupId}
 
 
 

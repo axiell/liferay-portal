@@ -55,11 +55,12 @@
 			<param name="artifact.id" value="portal-impl" />
 			<param name="packaging" value="jar" />
 		</antcall>
-
+<!--
 		<antcall target="deploy-artifact">
 			<param name="artifact.id" value="portal-parent" />
 			<param name="packaging" value="pom" />
 		</antcall>
+-->
 
 		<antcall target="deploy-artifact">
 			<param name="artifact.id" value="portal-kernel" />
@@ -251,12 +252,12 @@
 			<param name="artifact.id" value="portal-impl" />
 			<param name="packaging" value="jar" />
 		</antcall>
-
+<!--
 		<antcall target="install-artifact">
 			<param name="artifact.id" value="portal-parent" />
 			<param name="packaging" value="pom" />
 		</antcall>
-
+-->
 		<antcall target="install-artifact">
 			<param name="artifact.id" value="portal-kernel" />
 			<param name="packaging" value="jar" />

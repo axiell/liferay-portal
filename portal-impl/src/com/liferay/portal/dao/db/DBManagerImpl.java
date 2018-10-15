@@ -40,18 +40,7 @@ import java.util.Set;
 
 import javax.sql.DataSource;
 
-import org.hibernate.dialect.DB2Dialect;
-import org.hibernate.dialect.Dialect;
-import org.hibernate.dialect.HSQLDialect;
-import org.hibernate.dialect.MySQLDialect;
-import org.hibernate.dialect.Oracle8iDialect;
-import org.hibernate.dialect.Oracle9Dialect;
-import org.hibernate.dialect.PostgreSQLDialect;
-import org.hibernate.dialect.SQLServerDialect;
-import org.hibernate.dialect.Sybase11Dialect;
-import org.hibernate.dialect.SybaseASE15Dialect;
-import org.hibernate.dialect.SybaseAnywhereDialect;
-import org.hibernate.dialect.SybaseDialect;
+import org.hibernate.dialect.*;
 
 /**
  * @author Alexander Chow
@@ -145,9 +134,8 @@ public class DBManagerImpl implements DBManager {
 			return DBType.MYSQL;
 		}
 
-		if (dialect instanceof Oracle8iDialect ||
-			dialect instanceof Oracle9Dialect) {
-
+		// Arena
+		if (dialect instanceof Oracle10gDialect) {
 			return DBType.ORACLE;
 		}
 

@@ -8,6 +8,7 @@ dependencies {
 	compileOnly group: "biz.aQute.bnd", name: "biz.aQute.bndlib", version: "3.1.0"
 	compileOnly group: "com.liferay", name: "com.liferay.frontend.js.loader.modules.extender.api", version: "2.0.0"
 	compileOnly group: "com.liferay", name: "com.liferay.osgi.felix.util", version: "2.0.0"
+	compileOnly group: "com.liferay", name: "com.liferay.osgi.service.tracker.collections", version: "3.0.0"
 	compileOnly group: "com.liferay", name: "com.liferay.osgi.util", version: "4.0.0"
 	compileOnly group: "com.liferay", name: "com.liferay.petra.string", version: "2.0.0"
 	compileOnly group: "com.liferay", name: "com.liferay.portal.configuration.metatype.api", version: "1.0.0"

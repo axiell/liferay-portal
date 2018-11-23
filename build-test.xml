@@ -5824,7 +5824,7 @@ go</echo>
 								<replacevalue>
 									<![CDATA[
 										<resource-root path="hsql.jar" />
-										<resource-root path="ojdbc6.jar" />
+										<resource-root path="ojdbc8.jar" />
 									]]>
 								</replacevalue>
 							</replace>
@@ -7875,7 +7875,7 @@ custom.sql.function.isnotnull=CONVERT(VARCHAR,?) IS NOT NULL</echo>
 					</then>
 					<elseif>
 						<and>
-							<equals arg1="${database.version}" arg2="12.2.0.1" />
+							<equals arg1="${database.version}" arg2="18.3.0.0" />
 							<os family="windows" />
 						</and>
 						<then>

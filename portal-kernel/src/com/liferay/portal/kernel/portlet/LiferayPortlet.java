@@ -189,6 +189,8 @@ public class LiferayPortlet extends GenericPortlet {
 			Throwable cause = invocationTargetException.getCause();
 
 			if (cause != null) {
+				// Arena
+				_log.error(cause.getMessage(), cause);
 				throw new PortletException(cause);
 			}
 

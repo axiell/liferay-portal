@@ -153,7 +153,9 @@ Liferay-JS-Resources-Top-Head:\
 	/liferay/icon.js,\
 	/liferay/menu.js,\
 	/liferay/notice.js,\
-	/liferay/poller.js
+	/liferay/poller.js,\
+	\
+    /arena/arena.js
 Liferay-JS-Submodules-Bridge: frontend-js-web
 Provide-Capability:\
 	osgi.extender;\

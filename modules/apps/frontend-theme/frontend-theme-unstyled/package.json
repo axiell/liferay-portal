@@ -1,6 +1,6 @@
 {
 	"dependencies": {
-		"clay-css": "2.3.4"
+		"clay-css": "file:../../../../lib/npm/clay-css-2.3.100.tgz"
 	},
 	"name": "liferay-frontend-theme-unstyled",
 	"version": "3.0.16"

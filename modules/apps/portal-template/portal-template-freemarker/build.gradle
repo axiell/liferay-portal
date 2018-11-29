@@ -1,3 +1,5 @@
+task deployConfigs(type: Copy)
+
 dependencies {
 	compileInclude group: "com.liferay", name: "org.freemarker", version: "2.3.23.LIFERAY-PATCHED-4"
 
@@ -25,4 +27,17 @@ dependencies {
 
 liferayOSGi {
 	expandCompileInclude = true
+}
+
+deploy {
+	finalizedBy deployConfigs
+}
+
+deployConfigs {
+	ext {
+		autoClean = false
+	}
+
+	from "configs"
+	into new File(liferay.liferayHome, "osgi/configs")
 }

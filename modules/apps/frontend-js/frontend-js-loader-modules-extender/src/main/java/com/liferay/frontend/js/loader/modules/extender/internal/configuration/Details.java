@@ -55,4 +55,7 @@ public @interface Details {
 	@Meta.AD(deflt = "7", name = "wait-timeout", required = false)
 	public int waitTimeout();
 
+	@Meta.AD(deflt = "2000", name = "url-max-length", required = false)
+	public int urlMaxLength();
+
 }

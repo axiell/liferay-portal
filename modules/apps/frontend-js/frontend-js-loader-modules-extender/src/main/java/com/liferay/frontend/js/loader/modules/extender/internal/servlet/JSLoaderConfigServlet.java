@@ -108,6 +108,8 @@ public class JSLoaderConfigServlet extends HttpServlet {
 
 		stringWriter.write("Liferay.RESOLVE_PATH = \"" + url + "\";\n");
 
+		stringWriter.write("Liferay.URL_MAX_LENGTH = " + _details.urlMaxLength() + ";\n");
+
 		stringWriter.write(
 			"Liferay.WAIT_TIMEOUT = " + (_details.waitTimeout() * 1000) +
 				";\n");

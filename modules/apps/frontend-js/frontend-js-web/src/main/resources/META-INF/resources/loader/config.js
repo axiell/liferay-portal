@@ -48,5 +48,7 @@
 
 	__CONFIG__.logLevel = Liferay.LOG_LEVEL;
 
+	__CONFIG__.urlMaxLength = Liferay.URL_MAX_LENGTH;
+
 	__CONFIG__.waitTimeout = Liferay.WAIT_TIMEOUT;
 })();

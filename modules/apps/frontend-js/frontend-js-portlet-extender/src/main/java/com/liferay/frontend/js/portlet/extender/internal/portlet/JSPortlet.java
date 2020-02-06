@@ -165,7 +165,7 @@ public class JSPortlet extends MVCPortlet implements ManagedService {
 			String[] values = portletPreferences.getValues(
 				key, StringPool.EMPTY_ARRAY);
 
-			if (values.length > 1) {
+			if (values.length > 1 || values.length == 0) {
 				portletPreferencesJSONObject.put(key, values);
 			}
 			else {

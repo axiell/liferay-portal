@@ -1,5 +1,5 @@
 :
-version=6.2.5b
+version=6.2.5d
 repo_url=http://jenkins.axiell.local:8081
 packaging=jar
 for file in portal-client portal-service support-tomcat util-taglib portal-impl util-bridges portal-pacl util-java util-slf4j

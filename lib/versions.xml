@@ -1381,7 +1381,7 @@
 	</library>
 	<library>
 		<file-name>lib/portal/commons-collections.jar</file-name>
-		<version>3.2.1</version>
+		<version>3.2.2</version>
 		<project-name>Commons Collections</project-name>
 		<project-url>http://commons.apache.org/collections</project-url>
 		<licenses>
@@ -1617,7 +1617,6 @@
 		</licenses>
 		<comments>
 			This was recompiled for compatibility with JDK 5.
-
 			Removed org.apache.*, org.cyberneko.*, and org.w3c.* because it
 			conflicts with nekohtml.jar and xercesImpl.jar.
 		</comments>
@@ -1757,7 +1756,7 @@
 	</library>
 	<library>
 		<file-name>lib/portal/fontbox.jar</file-name>
-		<version>1.8.2</version>
+		<version>1.8.12</version>
 		<project-name>PDFBox</project-name>
 		<project-url>http://pdfbox.apache.org</project-url>
 		<licenses>
@@ -1821,7 +1820,11 @@
 				<license-url>http://en.wikipedia.org/wiki/BSD_licenses</license-url>
 			</license>
 		</licenses>
-	</library>
+		<comments>
+			This includes a public patch from GROOVY-7504 for CVE-2015-3253.
+			See the Ant target "build-groovy-jar" in portal-impl/build.xml.
+		</comments>
+		</library>
 	<library>
 		<file-name>lib/portal/hessian.jar</file-name>
 		<version>4.0.3</version>
@@ -1938,7 +1941,7 @@
 	</library>
 	<library>
 		<file-name>lib/portal/jabsorb.jar</file-name>
-		<version>1.3.1</version>
+		<version>1.3.2</version>
 		<project-name>jabsorb</project-name>
 		<project-url>http://jabsorb.org</project-url>
 		<licenses>
@@ -1949,6 +1952,7 @@
 		</licenses>
 		<comments>
 			Removed org.json.* because it json-java.jar.
+			Include patch for LPS-54420.
 		</comments>
 	</library>
 	<library>
@@ -2212,7 +2216,7 @@
 	</library>
 	<library>
 		<file-name>lib/portal/jempbox.jar</file-name>
-		<version>1.8.2</version>
+		<version>1.8.12</version>
 		<project-name>PDFBox</project-name>
 		<project-url>http://pdfbox.apache.org</project-url>
 		<licenses>
@@ -2582,7 +2586,6 @@
 			</license>
 		</licenses>
 	</library>
-
 	<library>
 		<file-name>lib/portal/lucene-analyzers.jar</file-name>
 		<version>3.5.0</version>
@@ -2881,7 +2884,7 @@
 	</library>
 	<library>
 		<file-name>lib/portal/pdfbox.jar</file-name>
-		<version>1.8.2</version>
+		<version>1.8.12</version>
 		<project-name>PDFBox</project-name>
 		<project-url>http://pdfbox.apache.org</project-url>
 		<licenses>

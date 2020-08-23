@@ -48,7 +48,7 @@ public class Database {
 	public static Database getOracleDataSource() {
 		return new Database(
 			"oracle.jdbc.OracleDriver", "jdbc:oracle:thin:@", "localhost", 1521,
-			"xe", "");
+			"arena", "");
 	}
 
 	public static Database getPostgreSQLDatabase() {

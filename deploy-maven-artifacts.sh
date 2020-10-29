@@ -3,10 +3,10 @@
 #set -v -x
 set -u -e
 
-version=7.3.4a
+version=7.3.5a
 repo_url=http://jenkins.axiell.local:8081
 repo_dir=~/.m2/repository
-bundles_dir=/opt/java/liferay/arena-7.3.4-ga5/bundles.org
+bundles_dir=/opt/java/liferay/arena-7.3.5-ga6/bundles.org
 
 function deployFile {
   local file=${1}

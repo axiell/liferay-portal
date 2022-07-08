@@ -771,7 +771,7 @@ public class LangBuilder {
 	}
 
 	private static final String[] _AUTOMATIC_COPY_LANGUAGE_IDS = {
-		"en_AU", "en_GB", "fr_CA"
+		"en_AU", "en_NZ", "en_GB", "fr_CA"
 	};
 
 	private final String[] _excludedLanguageIds;

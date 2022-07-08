@@ -450,6 +450,10 @@
 																	"className": "com.liferay.portal.kernel.repository.model.FileEntry",
 																	"classPK": "[$TREE_IMAGE_ID$]"
 																},
+																"en_NZ": {
+																	"className": "com.liferay.portal.kernel.repository.model.FileEntry",
+																	"classPK": "[$TREE_IMAGE_ID$]"
+																},
 																"en_GB": {
 																	"className": "com.liferay.portal.kernel.repository.model.FileEntry",
 																	"classPK": "[$TREE_IMAGE_ID$]"

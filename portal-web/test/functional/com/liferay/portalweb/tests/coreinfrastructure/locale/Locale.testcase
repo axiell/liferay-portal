@@ -357,7 +357,7 @@ definition {
 
 	@priority = "4"
 	test RestrictAvailableLocales {
-		property custom.properties = "locales=ca_ES,zh_CN,nl_NL,en_AU,en_GB,en_US,fi_FI,fr_FR,de_DE,it_IT,iw_IL,hu_HU,ja_JP,pt_BR,es_ES";
+		property custom.properties = "locales=ca_ES,zh_CN,nl_NL,en_AU,en_NZ,en_GB,en_US,fi_FI,fr_FR,de_DE,it_IT,iw_IL,hu_HU,ja_JP,pt_BR,es_ES";
 		property test.name.skip.portal.instance = "Locale#RestrictAvailableLocales";
 
 		User.firstLoginPG();

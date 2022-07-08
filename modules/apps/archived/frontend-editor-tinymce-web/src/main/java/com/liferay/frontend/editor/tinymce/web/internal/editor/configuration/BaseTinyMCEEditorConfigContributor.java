@@ -183,6 +183,8 @@ public abstract class BaseTinyMCEEditorConfigContributor
 		).put(
 			"en_GB", "en_GB"
 		).put(
+			"en_NZ", "en_GB"
+		).put(
 			"en_US", "en_GB"
 		).put(
 			"es_ES", "es"

@@ -486,7 +486,7 @@
 
 		<Logger level="ERROR" name="com.sun.faces" />
 
-		<Logger level="WARN" name="com.zaxxer.hikari" />
+		<Logger level="DEBUG" name="com.zaxxer.hikari" />
 
 		<Logger level="ERROR" name="de.hunsicker" />
 

@@ -533,6 +533,7 @@ public class DataSourceFactoryImpl implements DataSourceFactory {
 			StringUtil.equalsIgnoreCase(key, "connectionTimeout") ||
 			StringUtil.equalsIgnoreCase(key, "idleTimeout") ||
 			StringUtil.equalsIgnoreCase(key, "initializationFailFast") ||
+			StringUtil.equalsIgnoreCase(key, "keepaliveTime") ||
 			StringUtil.equalsIgnoreCase(key, "maximumPoolSize") ||
 			StringUtil.equalsIgnoreCase(key, "maxLifetime") ||
 			StringUtil.equalsIgnoreCase(key, "minimumIdle") ||

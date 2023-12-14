@@ -103,7 +103,7 @@ public class ImageImportDDMFormFieldValueTransformer
 
 			String fileEntryJSON = toJSON(
 				importedFileEntry, jsonObject.getString("type"),
-				jsonObject.getString("alt"));
+				jsonObject.getString("alt"), jsonObject.getString("url"));
 
 			value.addString(locale, fileEntryJSON);
 
@@ -159,7 +159,7 @@ public class ImageImportDDMFormFieldValueTransformer
 		return null;
 	}
 
-	protected String toJSON(FileEntry fileEntry, String type, String alt) {
+	protected String toJSON(FileEntry fileEntry, String type, String alt, String url) {
 		JournalArticle article = (JournalArticle)_stagedModel;
 
 		JSONObject jsonObject = JSONUtil.put(
@@ -176,6 +176,8 @@ public class ImageImportDDMFormFieldValueTransformer
 			"title", fileEntry.getTitle()
 		).put(
 			"type", type
+		).put(
+			"url", url
 		).put(
 			"uuid", fileEntry.getUuid()
 		);

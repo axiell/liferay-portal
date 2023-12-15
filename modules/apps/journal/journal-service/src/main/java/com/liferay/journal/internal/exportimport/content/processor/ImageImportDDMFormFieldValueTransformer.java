@@ -165,6 +165,8 @@ public class ImageImportDDMFormFieldValueTransformer
 		JSONObject jsonObject = JSONUtil.put(
 			"alt", alt
 		).put(
+			"description", alt
+		).put(
 			"fileEntryId", fileEntry.getFileEntryId()
 		).put(
 			"groupId", fileEntry.getGroupId()
@@ -177,11 +179,11 @@ public class ImageImportDDMFormFieldValueTransformer
 		).put(
 			"type", type
 		).put(
-			"url", url
-		).put(
 			"uuid", fileEntry.getUuid()
 		);
-
+		if (url != null) {
+			jsonObject.put("url", url);
+		}
 		return jsonObject.toString();
 	}
 

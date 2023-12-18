@@ -51,6 +51,8 @@ import java.util.Map;
 public class ImageImportDDMFormFieldValueTransformer
 	implements DDMFormFieldValueTransformer {
 
+	private static final String URL_PATTERN = "(/documents/)(\\d+)(/)";
+
 	public ImageImportDDMFormFieldValueTransformer(
 		String content, DLAppService dlAppService,
 		PortletDataContext portletDataContext, StagedModel stagedModel) {
@@ -101,9 +103,14 @@ public class ImageImportDDMFormFieldValueTransformer
 				continue;
 			}
 
+			String url = jsonObject.getString("url");
+			if (url != null) {
+				url = url.replaceAll(URL_PATTERN,"$1" + _portletDataContext.getScopeGroupId() + "$3");
+			}
+
 			String fileEntryJSON = toJSON(
 				importedFileEntry, jsonObject.getString("type"),
-				jsonObject.getString("alt"), jsonObject.getString("url"));
+				jsonObject.getString("alt"), url);
 
 			value.addString(locale, fileEntryJSON);
 

@@ -4,7 +4,7 @@
 set -u -e
 
 version=7.4.2b
-repo_url=http://artifactory.axiell.local:8081
+repo_url=https://artifactory.axiell.com
 repo_dir=~/.m2/repository
 bundles_dir=/opt/java/liferay/arena-7.4.2-ga3/bundles.org
 

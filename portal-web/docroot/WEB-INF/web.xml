@@ -79,6 +79,8 @@
 			<url-pattern>/en-AU/c/portal/protected</url-pattern>
 			<url-pattern>/en-CA/c/portal/protected</url-pattern>
 			<url-pattern>/en-GB/c/portal/protected</url-pattern>
+			<url-pattern>/en-NZ/c/portal/protected</url-pattern>
+			<url-pattern>/en_NZ/c/portal/protected</url-pattern>
 			<url-pattern>/en-US/c/portal/protected</url-pattern>
 			<url-pattern>/en_AU/c/portal/protected</url-pattern>
 			<url-pattern>/en_CA/c/portal/protected</url-pattern>
@@ -155,6 +157,8 @@
 			<url-pattern>/nb/c/portal/protected</url-pattern>
 			<url-pattern>/nb-NO/c/portal/protected</url-pattern>
 			<url-pattern>/nb_NO/c/portal/protected</url-pattern>
+			<url-pattern>/nn-NO/c/portal/protected</url-pattern>
+			<url-pattern>/nn_NO/c/portal/protected</url-pattern>
 			<url-pattern>/nl/c/portal/protected</url-pattern>
 			<url-pattern>/nl-BE/c/portal/protected</url-pattern>
 			<url-pattern>/nl-NL/c/portal/protected</url-pattern>

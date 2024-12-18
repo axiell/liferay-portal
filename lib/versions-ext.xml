@@ -651,6 +651,18 @@
 				</licenses>
 			</library>
 			<library>
+				<file-name>lib/development/ojdbc17.jar</file-name>
+				<version>23.6.0.24.10</version>
+				<project-name>Oracle Connector/J</project-name>
+				<project-url>http://www.mysql.com/products/connector/j</project-url>
+				<licenses>
+					<license>
+						<license-name>GPL 2.0</license-name>
+						<license-url>http://www.gnu.org/licenses/gpl-2.0.html</license-url>
+					</license>
+				</licenses>
+			</library>
+			<library>
 				<file-name>lib/development/objenesis.jar</file-name>
 				<version>2.1</version>
 				<project-name>Objenesis</project-name>

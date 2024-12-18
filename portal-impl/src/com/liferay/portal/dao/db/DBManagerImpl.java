@@ -38,6 +38,8 @@ import org.hibernate.dialect.HSQLDialect;
 import org.hibernate.dialect.MySQLDialect;
 import org.hibernate.dialect.Oracle8iDialect;
 import org.hibernate.dialect.Oracle9Dialect;
+import org.hibernate.dialect.Oracle10gDialect;
+import org.hibernate.dialect.Oracle12cDialect;
 import org.hibernate.dialect.PostgreSQL82Dialect;
 import org.hibernate.dialect.SQLServerDialect;
 import org.hibernate.dialect.Sybase11Dialect;
@@ -177,7 +179,9 @@ public class DBManagerImpl implements DBManager {
 		}
 
 		if (dialect instanceof Oracle8iDialect ||
-			dialect instanceof Oracle9Dialect) {
+			dialect instanceof Oracle9Dialect ||
+			dialect instanceof Oracle10gDialect ||
+			dialect instanceof Oracle12cDialect) {
 
 			return DBType.ORACLE;
 		}

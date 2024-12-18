@@ -21,6 +21,9 @@ String fontAwesomeVersion = "3.2.1"
 
 File themeDestinationDir = file("src/main/resources/META-INF/resources/_unstyled");
 
+File nodeModulesDir = new File(projectDir, 'node_modules')
+
+
 buildAlloyUITheme {
 	File alloyThemeDestinationDir = new File(themeDestinationDir, "images/aui")
 
@@ -146,7 +149,7 @@ buildClay {
 	}
 
 	eachFile new StripPathSegmentsAction(4)
-	from npmInstall.nodeModulesDir
+	from nodeModulesDir
 	include "@clayui/css/src/scss/"
 	includeEmptyDirs = false
 	into clayDestinationDir
@@ -162,7 +165,7 @@ buildClayFonts {
 	}
 
 	eachFile new StripPathSegmentsAction(3)
-	from npmInstall.nodeModulesDir
+	from nodeModulesDir
 	include "clay/release/fonts/"
 	includeEmptyDirs = false
 	into clayFontsDestinationDir
@@ -178,7 +181,7 @@ buildClayIcons {
 	}
 
 	eachFile new StripPathSegmentsAction(5)
-	from npmInstall.nodeModulesDir
+	from nodeModulesDir
 	include "@clayui/css/lib/images/icons/"
 	includeEmptyDirs = false
 	into clayIconsDestinationDir
@@ -194,7 +197,7 @@ buildLexiconIcons {
 	}
 
 	eachFile new StripPathSegmentsAction(5)
-	from npmInstall.nodeModulesDir
+	from nodeModulesDir
 	include "@clayui/css/lib/images/icons/"
 	includeEmptyDirs = false
 	into lexiconIconsDestinationDir

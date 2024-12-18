@@ -9,7 +9,9 @@ Liferay-JS-Resources-Top-Head:\
 	\
 	/liferay/global.bundle.js,\
 	/liferay/portlet.js,\
-	/liferay/workflow.js
+	/liferay/workflow.js,\
+	\
+   	/arena/arena.js
 Provide-Capability:\
 	osgi.extender;\
 		osgi.extender="liferay.js";\

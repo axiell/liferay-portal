@@ -373,6 +373,11 @@ public class Sidecar {
 
 		if (JavaDetector.isJDK17() || JavaDetector.isJDK21()) {
 			arguments.add("-Djava.security.manager=allow");
+			arguments.add("--add-opens=java.base/java.lang=ALL-UNNAMED");
+			arguments.add("--add-opens=java.base/java.lang.invoke=ALL-UNNAMED");
+			arguments.add("--add-opens=java.base/java.lang.reflect=ALL-UNNAMED");
+			arguments.add("--add-opens=java.base/java.net=ALL-UNNAMED");
+			arguments.add("--add-opens=java.base/sun.net.www.protocol.http=ALL-UNNAMED");
 		}
 
 		arguments.add(

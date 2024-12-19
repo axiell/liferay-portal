@@ -61,7 +61,7 @@ PluginPackage selPluginPackage = selTheme.getPluginPackage();
 			%>
 
 				<div class="c-mb-3">
-					<aui:input checked='<%= value.equals("true") %>' disabled="<%= true %>" label="<%= LanguageUtil.get(request, HtmlUtil.escape(name)) %>" labelCssClass="font-weight-normal" name="<%= LanguageUtil.get(request, HtmlUtil.escape(name)) %>" type="checkbox" wrapperCssClass="c-mb-3" />
+					<p class="text-default"><liferay-ui:message key="<%= HtmlUtil.escape(name) %>" />: <%= HtmlUtil.escape(LanguageUtil.get(request, value)) %></p>
 				</div>
 
 			<%

@@ -10,6 +10,12 @@ import com.liferay.petra.reflect.ReflectionUtil;
 import com.liferay.petra.string.CharPool;
 import com.liferay.petra.string.StringBundler;
 import com.liferay.petra.string.StringPool;
+import com.liferay.portal.kernel.service.ReleaseLocalServiceUtil;
+import com.liferay.portal.kernel.exception.PortalException;
+import com.liferay.portal.kernel.upgrade.OlderVersionException;
+import com.liferay.portal.kernel.model.Release;
+import com.liferay.portal.kernel.upgrade.util.UpgradeProcessUtil;
+import com.liferay.portal.kernel.upgrade.UpgradeProcess;
 import com.liferay.portal.kernel.bean.BeanLocatorException;
 import com.liferay.portal.kernel.bean.ClassLoaderBeanHandler;
 import com.liferay.portal.kernel.bean.PortalBeanLocatorUtil;
@@ -202,7 +208,7 @@ public class HookHotDeployListener
 		"terms.of.use.required", "theme.css.fast.load",
 		"theme.images.fast.load", "theme.jsp.override.enabled",
 		"theme.loader.new.theme.id.on.import", "theme.portlet.decorate.default",
-		"theme.portlet.sharing.default", "theme.shortcut.icon", "time.zones",
+		"theme.portlet.sharing.default", "theme.shortcut.icon", "upgrade.processes", "time.zones",
 		"user.notification.event.confirmation.enabled",
 		"users.email.address.generator", "users.email.address.validator",
 		"users.email.address.required", "users.form.add.identification",
@@ -1176,6 +1182,7 @@ public class HookHotDeployListener
 
 		portalProperties.remove(PropsKeys.RELEASE_INFO_BUILD_NUMBER);
 		portalProperties.remove(PropsKeys.RELEASE_INFO_PREVIOUS_BUILD_NUMBER);
+		portalProperties.remove(_PROPS_KEY_UPGRADE_PROCESSES);
 
 		_portalPropertiesMap.put(servletContextName, portalProperties);
 
@@ -1541,6 +1548,85 @@ public class HookHotDeployListener
 				liferayFilter.setFilterEnabled(filterEnabled);
 			}
 		}
+
+		if (unfilteredPortalProperties.containsKey(
+			PropsKeys.RELEASE_INFO_BUILD_NUMBER) ||
+			unfilteredPortalProperties.containsKey(
+				_PROPS_KEY_UPGRADE_PROCESSES)) {
+
+			String[] upgradeProcessClassNames = StringUtil.split(
+				unfilteredPortalProperties.getProperty(
+					_PROPS_KEY_UPGRADE_PROCESSES));
+
+			List<UpgradeProcess> upgradeProcesses =
+				UpgradeProcessUtil.initUpgradeProcesses(
+					portletClassLoader, upgradeProcessClassNames);
+
+			updateRelease(
+				servletContextName, upgradeProcesses,
+				unfilteredPortalProperties);
+		}
+	}
+
+	private void updateRelease(
+		String servletContextName, List<UpgradeProcess> upgradeProcesses,
+		Properties unfilteredPortalProperties)
+		throws Exception {
+
+		int buildNumber = GetterUtil.getInteger(
+			unfilteredPortalProperties.getProperty(
+				PropsKeys.RELEASE_INFO_BUILD_NUMBER));
+
+		int previousBuildNumber = GetterUtil.getInteger(
+			unfilteredPortalProperties.getProperty(
+				PropsKeys.RELEASE_INFO_PREVIOUS_BUILD_NUMBER),
+			buildNumber);
+
+		updateRelease(
+			servletContextName, upgradeProcesses, buildNumber,
+			previousBuildNumber);
+	}
+
+	private void updateRelease(
+		String servletContextName, List<UpgradeProcess> upgradeProcesses,
+		int buildNumber, int previousBuildNumber)
+		throws PortalException {
+
+		if (buildNumber <= 0) {
+			_log.error(
+				"Skipping upgrade processes for " + servletContextName +
+				" because \"release.info.build.number\" is not specified");
+
+			return;
+		}
+
+		Release release = ReleaseLocalServiceUtil.fetchRelease(servletContextName);
+
+		if (release == null) {
+			release = ReleaseLocalServiceUtil.addRelease(
+				servletContextName, previousBuildNumber);
+		}
+
+		if (buildNumber == release.getBuildNumber()) {
+			if (_log.isDebugEnabled()) {
+				_log.debug(
+					"Skipping upgrade processes for " + servletContextName +
+					" because it is already up to date");
+			}
+		}
+		else if (buildNumber < release.getBuildNumber()) {
+			throw new OlderVersionException(
+				"Skipping upgrade processes for " + servletContextName +
+				" because you are trying to upgrade with an older version");
+		}
+		else {
+			UpgradeProcessUtil.upgradeProcess(
+				release.getBuildNumber(), upgradeProcesses);
+		}
+
+		ReleaseLocalServiceUtil.updateRelease(
+			release.getReleaseId(), release.getSchemaVersion(), buildNumber,
+			null, true);
 	}
 
 	protected void initServices(
@@ -2040,6 +2126,9 @@ public class HookHotDeployListener
 					"JdkDynamicProxy and will not work with CGLIB");
 		}
 	}
+
+	private static final String _PROPS_KEY_UPGRADE_PROCESSES =
+		"upgrade.processes";
 
 	private static final String[] _PROPS_KEYS_EVENTS = {
 		LOGIN_EVENTS_POST, LOGIN_EVENTS_PRE, LOGOUT_EVENTS_POST,

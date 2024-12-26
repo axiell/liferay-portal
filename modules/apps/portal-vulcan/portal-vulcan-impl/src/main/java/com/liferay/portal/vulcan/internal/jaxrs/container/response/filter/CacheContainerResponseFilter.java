@@ -25,10 +25,11 @@ public class CacheContainerResponseFilter implements ContainerResponseFilter {
 			ContainerResponseContext containerResponseContext)
 		throws IOException {
 
-		MultivaluedMap<String, Object> headers =
-			containerResponseContext.getHeaders();
+		MultivaluedMap<String, Object> headers = containerResponseContext.getHeaders();
 
-		headers.putSingle("Cache-Control", "no-cache, no-store");
+        if (!headers.containsKey("Cache-Control")) {
+			headers.putSingle("Cache-Control", "no-cache, no-store");
+		}
 	}
 
 }

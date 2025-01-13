@@ -162,9 +162,12 @@ public class CKEditorConfigContributor extends BaseCKEditorConfigContributor {
 
 		return JSONUtil.putAll(
 			toJSONArray("['Undo', 'Redo']"),
-			toJSONArray("['Styles', 'Bold', 'Italic', 'Underline']"),
+			toJSONArray("['Styles', 'Bold', 'Italic', 'Underline', 'Strike']"),
+			toJSONArray("['RemoveFormat']"),
 			toJSONArray("['NumberedList', 'BulletedList']"),
+			toJSONArray("['JustifyLeft', 'JustifyCenter', 'JustifyRight', 'JustifyBlock']"),
 			toJSONArray("['Link', Unlink]"),
+			toJSONArray("['Anchor']"),
 			toJSONArray("['Table', 'ImageSelector', 'VideoSelector']")
 		).put(
 			() -> {
@@ -199,11 +202,11 @@ public class CKEditorConfigContributor extends BaseCKEditorConfigContributor {
 		return JSONUtil.putAll(
 			toJSONArray("['Undo', 'Redo']"), toJSONArray("['Styles']"),
 			toJSONArray("['FontColor', 'BGColor']"),
-			toJSONArray("['Bold', 'Italic', 'Underline', 'Strikethrough']"),
+			toJSONArray("['Bold', 'Italic', 'Underline', 'Strike']"),
 			toJSONArray("['RemoveFormat']"),
 			toJSONArray("['NumberedList', 'BulletedList']"),
 			toJSONArray("['IncreaseIndent', 'DecreaseIndent']"),
-			toJSONArray("['IncreaseIndent', 'DecreaseIndent']"),
+			toJSONArray("['JustifyLeft', 'JustifyCenter', 'JustifyRight', 'JustifyBlock']"),
 			toJSONArray("['Link', Unlink]")
 		).put(
 			() -> {

@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-set -v -x
+#set -v -x
 set -u -e
 
 version=7.4.10c

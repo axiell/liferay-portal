@@ -202,11 +202,11 @@ public class CKEditorConfigContributor extends BaseCKEditorConfigContributor {
 		return JSONUtil.putAll(
 			toJSONArray("['Undo', 'Redo']"), toJSONArray("['Styles']"),
 			toJSONArray("['FontColor', 'BGColor']"),
-			toJSONArray("['Bold', 'Italic', 'Underline', 'Strike']"),
+			toJSONArray("['Bold', 'Italic', 'Underline', 'Strikethrough']"),
 			toJSONArray("['RemoveFormat']"),
 			toJSONArray("['NumberedList', 'BulletedList']"),
 			toJSONArray("['IncreaseIndent', 'DecreaseIndent']"),
-			toJSONArray("['JustifyLeft', 'JustifyCenter', 'JustifyRight', 'JustifyBlock']"),
+			toJSONArray("['IncreaseIndent', 'DecreaseIndent']"),
 			toJSONArray("['Link', Unlink]")
 		).put(
 			() -> {

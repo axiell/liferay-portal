@@ -1,0 +1,106 @@
+{
+  "mcpServers": {
+    "elasticsearch": {
+      "type": "stdio",
+      "command": "npx",
+      "args": [
+        "-y",
+        "@elastic/mcp-server-elasticsearch"
+      ],
+      "env": {
+        "ES_URL": "http://localhost:9200"
+      }
+    },
+    "solr": {
+      "type": "stdio",
+      "command": "python3",
+      "args": [
+        "/home/wos/.local/share/mcp-servers/solr/run_server.py",
+        "--mode",
+        "mcp"
+      ],
+      "env": {
+        "SOLR_BASE_URL": "http://localhost:8983/solr",
+        "SOLR_COLLECTION": "entity-solr"
+      }
+    },
+    "sqlcl": {
+      "type": "stdio",
+      "command": "/usr/local/bin/sql",
+      "args": [
+        "-mcp"
+      ]
+    },
+    "postman": {
+      "type": "stdio",
+      "command": "npx",
+      "args": [
+        "-y",
+        "@postman/postman-mcp-server@latest"
+      ],
+      "env": {
+        "POSTMAN_API_KEY": "${POSTMAN_API_KEY}"
+      }
+    },
+    "context7": {
+      "type": "stdio",
+      "command": "npx",
+      "args": [
+        "-y",
+        "@upstash/context7-mcp@latest"
+      ],
+      "env": {
+        "CONTEXT7_API_KEY": "${CONTEXT7_API_KEY}"
+      }
+    },
+    "gitlab": {
+      "type": "stdio",
+      "command": "npx",
+      "args": [
+        "-y",
+        "@modelcontextprotocol/server-gitlab"
+      ],
+      "env": {
+        "GITLAB_API_URL": "https://gitlab.se1.axiellcloud.com/api/v4",
+        "NODE_TLS_REJECT_UNAUTHORIZED": "0",
+        "GITLAB_PERSONAL_ACCESS_TOKEN": "${GITLAB_PERSONAL_ACCESS_TOKEN}"
+      }
+    },
+    "github": {
+      "type": "stdio",
+      "command": "npx",
+      "args": [
+        "-y",
+        "@modelcontextprotocol/server-github"
+      ],
+      "env": {
+        "GITHUB_PERSONAL_ACCESS_TOKEN": "${GITHUB_PERSONAL_ACCESS_TOKEN}"
+      }
+    },
+    "playwright": {
+      "type": "stdio",
+      "command": "npx",
+      "args": [
+        "-y",
+        "@playwright/mcp@latest"
+      ]
+    },
+    "dockerhub": {
+      "type": "stdio",
+      "command": "docker",
+      "args": [
+        "run",
+        "-i",
+        "--rm",
+        "-e",
+        "HUB_PAT_TOKEN",
+        "mcp/dockerhub:1.0.0",
+        "--username=${DOCKERHUB_USERNAME}"
+      ],
+      "env": {
+        "HUB_PAT_TOKEN": "${HUB_PAT_TOKEN}",
+        "DOCKERHUB_USERNAME": "${DOCKERHUB_USERNAME}"
+      }
+    }
+  }
+}

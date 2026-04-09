@@ -1,0 +1,7 @@
+{
+  "permissions": {
+    "allow": [
+      "Read(//opt/projects/liferay/portal/arena-7.4.3.129/portal/modules/**)"
+    ]
+  }
+}

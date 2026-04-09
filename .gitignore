@@ -197,3 +197,13 @@
 /workspaces/node_modules
 _sass_cache_*.css
 poshi-warnings.xml
+# graphify knowledge graph (regenerate with: /graphify portal-kernel portal-impl)
+graphify-out/
+
+# Eclipse IDE project files
+.classpath
+.project
+bin/
+
+# Local development drivers
+lib/development/

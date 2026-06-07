@@ -1,0 +1,33 @@
+{
+  "hooks": {
+    "PreToolUse": [
+      {
+        "matcher": "Edit|Write",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "file=$(echo \"$CLAUDE_TOOL_INPUT\" | jq -r '.file_path // empty'); if [[ \"$file\" == */service/base/*Base.java ]] && [[ \"$file\" == */modules/* ]]; then echo \"BLOCK: $file is a generated Service Builder base class — edit the *Impl instead, or run buildService to regenerate.\"; exit 2; fi"
+          }
+        ]
+      }
+    ],
+    "PostToolUse": [
+      {
+        "matcher": "Edit|Write",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "file=$(echo \"$CLAUDE_TOOL_INPUT\" | jq -r '.file_path // empty'); if [[ \"$file\" == *.java ]] && [[ \"$file\" != */modules/* ]]; then cd /opt/projects/liferay/portal/arena-7.4.3.129-ga129/portal && ant compile 2>&1 | grep -E '(error:|BUILD FAILED|BUILD SUCCEEDED|\\[javac\\])' | tail -20; fi"
+          }
+        ]
+      }
+    ]
+  },
+  "permissions": {
+    "allow": [
+      "Bash(mkdir -p /opt/projects/liferay/portal/arena-7.4.3.129-ga129/portal/.claude/skills/plcb-diff)",
+      "Bash(mkdir -p /opt/projects/liferay/portal/arena-7.4.3.129-ga129/portal/.claude/skills/deploy-module)",
+      "Bash(mkdir -p /opt/projects/liferay/portal/arena-7.4.3.129-ga129/portal/.claude/agents)"
+    ]
+  }
+}

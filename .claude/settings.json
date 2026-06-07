@@ -27,7 +27,8 @@
     "allow": [
       "Bash(mkdir -p /opt/projects/liferay/portal/arena-7.4.3.129-ga129/portal/.claude/skills/plcb-diff)",
       "Bash(mkdir -p /opt/projects/liferay/portal/arena-7.4.3.129-ga129/portal/.claude/skills/deploy-module)",
-      "Bash(mkdir -p /opt/projects/liferay/portal/arena-7.4.3.129-ga129/portal/.claude/agents)"
+      "Bash(mkdir -p /opt/projects/liferay/portal/arena-7.4.3.129-ga129/portal/.claude/agents)",
+      "Skill(claude-obsidian:wiki-cli)"
     ]
   }
 }

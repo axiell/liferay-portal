@@ -1,0 +1,119 @@
+# Compiled Java output
+**/classes/
+**/bin/
+**/build/
+**/logs/
+**/dist/
+**/target/
+classes/
+bin/
+lib/
+**/*.jar
+**/*.bat
+**/*.sh
+**/*.war
+**/sdk/
+api/
+definitions/
+**/benchmarks/
+
+# Gradle caches
+.gradle/
+**/.gradle/
+
+# Maven local cache
+.m2/
+
+# Tools
+**/.git/
+**/.gitignore
+git-commit/
+graphify-out/
+.claude/
+.github/
+**/.idea/
+**/.settings/
+**/*.iml
+nbproject/
+
+# Node
+**/node_modules/
+**/node_modules_cache/
+**/.releng/
+**/.settings/
+
+# Test/generated artifacts
+**/test-results/
+**/tmp/
+**/test/
+**/tests/
+**/*.testcase
+tmp/
+
+# Docs/Images
+**/*.pdf
+**/*.mp4
+**/*.mp3
+**/*.mov
+**/*.ogg
+**/*.wav
+**/*.json
+**/*.toml
+**/*.svg
+**/*.png
+**/*.jpg
+**/*.jpeg
+**/*.gif
+**/*.md
+**/*.markdown
+**/*.json
+**/*.txt
+**/*.html
+**/learn-resources/
+**/readme/
+
+# Configs
+**/*.bnd
+**/*.xml
+**/*.xsd
+**/*.css
+**/*.scss
+**/*.tld
+**/*.properties
+**/*.yaml
+**/*.yml
+
+
+# Large non-source data
+sql/
+oss-licenses/
+LICENSES/
+find-security-bugs-false-positives.txt
+
+# Excluded code
+learn-resources/
+modules/
+portal/test/
+portal-test/
+portal-web/
+support-tomcat/
+util-bridges/
+util-java/
+util-slf4j/
+util-taglib/
+workspaces/
+tools/
+
+# Root-level doc files (excluded as documents, not just code)
+AGENTS.md
+CLAUDE.md
+DESIGN.md
+changes.txt
+copyright.txt
+title-casing.txt
+README.markdown
+
+# Root-level scripts not matched by **/*.sh
+deploy-maven-artifacts.sh
+gradlew
+

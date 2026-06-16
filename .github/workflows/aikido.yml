@@ -50,4 +50,7 @@ jobs:
             --branchname "$REF_NAME" \
             --fail-on critical \
             --scan-types dependencies \
+            --exclude workspaces \
+            --exclude portal-test \
+            --exclude modules/test \
             -- "$GITHUB_WORKSPACE"

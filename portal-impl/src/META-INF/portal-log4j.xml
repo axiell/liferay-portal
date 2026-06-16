@@ -97,7 +97,7 @@
 	</category>
 
 	<category name="com.liferay.portal.convert">
-		<priority value="DEBUG" />
+		<priority value="INFO" />
 	</category>
 
 	<category name="com.liferay.portal.dao.db">
@@ -201,15 +201,15 @@
 	</category>
 
 	<category name="com.liferay.portal.events.LogMemoryUsageAction">
-		<priority value="DEBUG" />
+		<priority value="INFO" />
 	</category>
 
 	<category name="com.liferay.portal.events.LogSessionIdAction">
-		<priority value="DEBUG" />
+		<priority value="INFO" />
 	</category>
 
 	<category name="com.liferay.portal.events.LogThreadCountAction">
-		<priority value="DEBUG" />
+		<priority value="INFO" />
 	</category>
 
 	<category name="com.liferay.portal.events.LoginPostAction">
@@ -513,7 +513,7 @@
 	</category>
 
 	<category name="com.liferay.portal.security.pacl.GeneratingPACLPolicy">
-		<priority value="DEBUG" />
+		<priority value="INFO" />
 	</category>
 
 	<category name="com.liferay.portal.security.pacl.PACLAdvice">
@@ -897,7 +897,7 @@
 	</category>
 
 	<category name="com.liferay.portal.util.MaintenanceUtil">
-		<priority value="DEBUG" />
+		<priority value="INFO" />
 	</category>
 
 	<category name="com.liferay.portal.util.MimeTypesUtil">
@@ -1261,11 +1261,11 @@
 	</category>
 
 	<category name="com.zaxxer.hikari">
-		<priority value="DEBUG" />
+		<priority value="INFO" />
 	</category>
 
 	<category name="org.apache.tomcat.jdbc">
-		<priority value="DEBUG" />
+		<priority value="INFO" />
 	</category>
 
 	<root>

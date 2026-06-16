@@ -330,6 +330,22 @@ public class WabProcessor {
 			_bundleVersion);
 	}
 
+	protected String getSymbolicName(String context) {
+		String symbolicName = context;
+
+		if (symbolicName.startsWith(StringPool.SLASH)) {
+			symbolicName = symbolicName.substring(1);
+		}
+
+		Matcher matcher = _symbolicNamePattern.matcher(symbolicName);
+
+		if (matcher.matches()) {
+			symbolicName = matcher.group(1);
+		}
+
+		return symbolicName;
+	}
+
 	protected String getWebContextPath() {
 		String webContextpath = MapUtil.getString(
 			_parameters, "Web-ContextPath");
@@ -556,6 +572,8 @@ public class WabProcessor {
 
 		Iterator<Entry<String, Resource>> iterator = entrySet.iterator();
 
+		String symbolicName = getSymbolicName(_context);
+
 		while (iterator.hasNext()) {
 			Entry<String, Resource> entry = iterator.next();
 
@@ -568,10 +586,12 @@ public class WabProcessor {
 			else if (path.startsWith("WEB-INF/lib/")) {
 
 				// Remove any other "-service.jar" or ignored jar so that real
-				// imports are used
+				// imports are used. The plugin's own service jar is also kept
+				// when its name matches the context without its version suffix
 
 				if ((path.endsWith("-service.jar") &&
-					 !path.endsWith(_context.concat("-service.jar"))) ||
+					 !path.endsWith(_context.concat("-service.jar")) &&
+					 !path.endsWith(symbolicName.concat("-service.jar"))) ||
 					_ignoredResourcePaths.contains(path)) {
 
 					iterator.remove();
@@ -1319,6 +1339,8 @@ public class WabProcessor {
 	private File _pluginDir;
 	private PluginPackage _pluginPackage;
 	private String _servicePackageName;
+	private final Pattern _symbolicNamePattern = Pattern.compile(
+		"(.*?)(?:-[0-9][0-9a-zA-Z.]*)?");
 	private final Pattern _tldPackagesPattern = Pattern.compile(
 		"<[^>]+?-class>\\p{Space}*?(.*?)\\p{Space}*?</[^>]+?-class>");
 	private final Pattern _versionMavenPattern = Pattern.compile(

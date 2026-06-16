@@ -4983,7 +4983,7 @@
 			</library>
 			<library>
 				<file-name>lib/portal/dom4j.jar</file-name>
-				<version>1.6.1</version>
+				<version>2.1.4</version>
 				<project-name>dom4j</project-name>
 				<project-url>http://dom4j.org</project-url>
 				<licenses>
@@ -6774,18 +6774,6 @@
 					</license>
 				</licenses>
 			</library>
-			<library>
-				<file-name>powwow-portlet.war!jericho-html.jar</file-name>
-				<version>3.1</version>
-				<project-name>Jericho HTML Parser</project-name>
-				<project-url>http://jericho.htmlparser.net</project-url>
-				<licenses>
-					<license>
-						<license-name>GNU Lesser General Public License (LGPL)</license-name>
-						<license-url>http://www.gnu.org/licenses/lgpl.txt</license-url>
-					</license>
-				</licenses>
-			</library>
-		</libraries>
+</libraries>
 	</version>
 </versions>

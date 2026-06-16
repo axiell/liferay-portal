@@ -93,6 +93,37 @@ public class WabProcessorTest {
 	}
 
 	@Test
+	public void testGetSymbolicName() throws Exception {
+		WabProcessor wabProcessor = new WabProcessor(
+			getClassLoader(), null, new HashMap<String, String[]>());
+
+		Assert.assertEquals(
+			"/powwow-portlet",
+			wabProcessor.getSymbolicName("/powwow-portlet-7.0.6f.27"));
+
+		Assert.assertEquals(
+			"/tasks-portlet",
+			wabProcessor.getSymbolicName("/tasks-portlet-7.0.6f.25"));
+
+		Assert.assertEquals(
+			"/social-bookmarks-hook",
+			wabProcessor.getSymbolicName(
+				"/social-bookmarks-hook-7.0.6f.9"));
+
+		Assert.assertEquals(
+			"/powwow-portlet",
+			wabProcessor.getSymbolicName("/powwow-portlet-7.0.0.27"));
+
+		Assert.assertEquals(
+			"/arena-portlet", wabProcessor.getSymbolicName("/arena-portlet"));
+
+		Assert.assertEquals(
+			"/frontend-columns-layouttpl",
+			wabProcessor.getSymbolicName(
+				"/frontend-columns-layouttpl-1.0.0"));
+	}
+
+	@Test
 	public void testClassicThemeWab() throws Exception {
 		File file = getFile("classic-theme.autodeployed.war");
 

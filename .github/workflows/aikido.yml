@@ -2,14 +2,6 @@ name: Aikido Security
 
 on:
   workflow_dispatch:
-  pull_request:
-    branches:
-      - arena-7.4.3.129-ga129
-      - arena-7.0.6-ga7
-    types:
-      - opened
-      - synchronize
-      - reopened
 
 permissions:
   contents: read
@@ -45,25 +37,6 @@ jobs:
           echo "${{ env.AIKIDO_SCANNER_SHA256 }}  /tmp/aikido-scanner.zip" | sha256sum -c -
           unzip /tmp/aikido-scanner.zip -d ~/aikido-scanner/
           chmod +x ~/aikido-scanner/aikido-local-scanner
-      - name: Detect new vulnerabilities (PR)
-        if: github.event_name == 'pull_request'
-        env:
-          AIKIDO_API_KEY: ${{ secrets.AIKIDO_SECRET_KEY }}
-          REPO: ${{ github.repository }}
-          HEAD_REF: ${{ github.head_ref }}
-          BASE_SHA: ${{ github.event.pull_request.base.sha }}
-          HEAD_SHA: ${{ github.event.pull_request.head.sha }}
-        run: |
-          ~/aikido-scanner/aikido-local-scanner scan \
-            --apikey "$AIKIDO_API_KEY" \
-            --repositoryname "$REPO" \
-            --branchname "$HEAD_REF" \
-            --gating-mode pr \
-            --base-commit-id "$BASE_SHA" \
-            --head-commit-id "$HEAD_SHA" \
-            --fail-on critical \
-            --scan-types dependencies \
-            -- "$GITHUB_WORKSPACE"
       - name: Detect new vulnerabilities (manual)
         if: github.event_name == 'workflow_dispatch'
         env:

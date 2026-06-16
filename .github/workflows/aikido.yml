@@ -14,7 +14,7 @@ jobs:
   aikido-scan:
     name: Aikido scan
     runs-on: ubuntu-latest
-    timeout-minutes: 30
+    timeout-minutes: 240
 
     steps:
       - name: Checkout code
@@ -52,4 +52,5 @@ jobs:
             --scan-types dependencies \
             --exclude portal-test \
             --exclude modules/test \
+            --debug \
             -- "$GITHUB_WORKSPACE"

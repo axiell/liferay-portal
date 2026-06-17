@@ -14,6 +14,7 @@ permissions:
 env:
   AIKIDO_SCANNER_VERSION: "1.0.139"
   AIKIDO_SCANNER_SHA256: "41b4368ee0ffbb195015a39119a7cc9db2ff0aefa8388bc01e48b747c6d4d2d1"
+  FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
 
 jobs:
   aikido-scan:
@@ -42,8 +43,7 @@ jobs:
           echo "${{ env.AIKIDO_SCANNER_SHA256 }}  /tmp/aikido-scanner.zip" | sha256sum -c -
           unzip /tmp/aikido-scanner.zip -d ~/aikido-scanner/
           chmod +x ~/aikido-scanner/aikido-local-scanner
-      - name: Detect new vulnerabilities (manual)
-        if: github.event_name == 'workflow_dispatch'
+      - name: Detect new vulnerabilities
         env:
           AIKIDO_API_KEY: ${{ secrets.AIKIDO_SECRET_KEY }}
           REPO: ${{ github.repository }}

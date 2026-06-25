@@ -1,0 +1,786 @@
+{
+  "nodes": [
+    {
+      "id": "function:com/liferay/portal/model/impl/SystemEventModelImpl:SystemEventModelImpl:getClassNameId",
+      "type": "function",
+      "name": "getClassNameId",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/SystemEventModelImpl.java",
+      "summary": "getClassNameId() in SystemEventModelImpl.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "function:com/liferay/portal/model/impl/SystemEventModelImpl:SystemEventModelImpl:setClassNameId",
+      "type": "function",
+      "name": "setClassNameId",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/SystemEventModelImpl.java",
+      "summary": "setClassNameId() in SystemEventModelImpl.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "function:com/liferay/portal/model/impl/SystemEventModelImpl:SystemEventModelImpl:getOriginalClassNameId",
+      "type": "function",
+      "name": "getOriginalClassNameId",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/SystemEventModelImpl.java",
+      "summary": "getOriginalClassNameId() in SystemEventModelImpl.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "function:com/liferay/portal/model/impl/SystemEventModelImpl:SystemEventModelImpl:getClassPK",
+      "type": "function",
+      "name": "getClassPK",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/SystemEventModelImpl.java",
+      "summary": "getClassPK() in SystemEventModelImpl.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "function:com/liferay/portal/model/impl/SystemEventModelImpl:SystemEventModelImpl:setClassPK",
+      "type": "function",
+      "name": "setClassPK",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/SystemEventModelImpl.java",
+      "summary": "setClassPK() in SystemEventModelImpl.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "function:com/liferay/portal/model/impl/SystemEventModelImpl:SystemEventModelImpl:getOriginalClassPK",
+      "type": "function",
+      "name": "getOriginalClassPK",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/SystemEventModelImpl.java",
+      "summary": "getOriginalClassPK() in SystemEventModelImpl.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "function:com/liferay/portal/model/impl/SystemEventModelImpl:SystemEventModelImpl:getClassUuid",
+      "type": "function",
+      "name": "getClassUuid",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/SystemEventModelImpl.java",
+      "summary": "getClassUuid() in SystemEventModelImpl.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "function:com/liferay/portal/model/impl/SystemEventModelImpl:SystemEventModelImpl:setClassUuid",
+      "type": "function",
+      "name": "setClassUuid",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/SystemEventModelImpl.java",
+      "summary": "setClassUuid() in SystemEventModelImpl.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "function:com/liferay/portal/model/impl/SystemEventModelImpl:SystemEventModelImpl:getReferrerClassNameId",
+      "type": "function",
+      "name": "getReferrerClassNameId",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/SystemEventModelImpl.java",
+      "summary": "getReferrerClassNameId() in SystemEventModelImpl.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "function:com/liferay/portal/model/impl/SystemEventModelImpl:SystemEventModelImpl:setReferrerClassNameId",
+      "type": "function",
+      "name": "setReferrerClassNameId",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/SystemEventModelImpl.java",
+      "summary": "setReferrerClassNameId() in SystemEventModelImpl.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "function:com/liferay/portal/model/impl/SystemEventModelImpl:SystemEventModelImpl:getParentSystemEventId",
+      "type": "function",
+      "name": "getParentSystemEventId",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/SystemEventModelImpl.java",
+      "summary": "getParentSystemEventId() in SystemEventModelImpl.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "function:com/liferay/portal/model/impl/SystemEventModelImpl:SystemEventModelImpl:setParentSystemEventId",
+      "type": "function",
+      "name": "setParentSystemEventId",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/SystemEventModelImpl.java",
+      "summary": "setParentSystemEventId() in SystemEventModelImpl.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "function:com/liferay/portal/model/impl/SystemEventModelImpl:SystemEventModelImpl:getSystemEventSetKey",
+      "type": "function",
+      "name": "getSystemEventSetKey",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/SystemEventModelImpl.java",
+      "summary": "getSystemEventSetKey() in SystemEventModelImpl.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "function:com/liferay/portal/model/impl/SystemEventModelImpl:SystemEventModelImpl:setSystemEventSetKey",
+      "type": "function",
+      "name": "setSystemEventSetKey",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/SystemEventModelImpl.java",
+      "summary": "setSystemEventSetKey() in SystemEventModelImpl.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "function:com/liferay/portal/model/impl/SystemEventModelImpl:SystemEventModelImpl:getOriginalSystemEventSetKey",
+      "type": "function",
+      "name": "getOriginalSystemEventSetKey",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/SystemEventModelImpl.java",
+      "summary": "getOriginalSystemEventSetKey() in SystemEventModelImpl.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "function:com/liferay/portal/model/impl/SystemEventModelImpl:SystemEventModelImpl:getType",
+      "type": "function",
+      "name": "getType",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/SystemEventModelImpl.java",
+      "summary": "getType() in SystemEventModelImpl.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "function:com/liferay/portal/model/impl/SystemEventModelImpl:SystemEventModelImpl:setType",
+      "type": "function",
+      "name": "setType",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/SystemEventModelImpl.java",
+      "summary": "setType() in SystemEventModelImpl.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "function:com/liferay/portal/model/impl/SystemEventModelImpl:SystemEventModelImpl:getOriginalType",
+      "type": "function",
+      "name": "getOriginalType",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/SystemEventModelImpl.java",
+      "summary": "getOriginalType() in SystemEventModelImpl.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "function:com/liferay/portal/model/impl/SystemEventModelImpl:SystemEventModelImpl:getExtraData",
+      "type": "function",
+      "name": "getExtraData",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/SystemEventModelImpl.java",
+      "summary": "getExtraData() in SystemEventModelImpl.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "function:com/liferay/portal/model/impl/SystemEventModelImpl:SystemEventModelImpl:setExtraData",
+      "type": "function",
+      "name": "setExtraData",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/SystemEventModelImpl.java",
+      "summary": "setExtraData() in SystemEventModelImpl.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "function:com/liferay/portal/model/impl/SystemEventModelImpl:SystemEventModelImpl:getColumnBitmask",
+      "type": "function",
+      "name": "getColumnBitmask",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/SystemEventModelImpl.java",
+      "summary": "getColumnBitmask() in SystemEventModelImpl.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "function:com/liferay/portal/model/impl/SystemEventModelImpl:SystemEventModelImpl:getExpandoBridge",
+      "type": "function",
+      "name": "getExpandoBridge",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/SystemEventModelImpl.java",
+      "summary": "getExpandoBridge() in SystemEventModelImpl.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "function:com/liferay/portal/model/impl/SystemEventModelImpl:SystemEventModelImpl:setExpandoBridgeAttributes",
+      "type": "function",
+      "name": "setExpandoBridgeAttributes",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/SystemEventModelImpl.java",
+      "summary": "setExpandoBridgeAttributes() in SystemEventModelImpl.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "function:com/liferay/portal/model/impl/SystemEventModelImpl:SystemEventModelImpl:toEscapedModel",
+      "type": "function",
+      "name": "toEscapedModel",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/SystemEventModelImpl.java",
+      "summary": "toEscapedModel() in SystemEventModelImpl.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "function:com/liferay/portal/model/impl/SystemEventModelImpl:SystemEventModelImpl:clone",
+      "type": "function",
+      "name": "clone",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/SystemEventModelImpl.java",
+      "summary": "clone() in SystemEventModelImpl.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "function:com/liferay/portal/model/impl/SystemEventModelImpl:SystemEventModelImpl:equals",
+      "type": "function",
+      "name": "equals",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/SystemEventModelImpl.java",
+      "summary": "equals() in SystemEventModelImpl.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "function:com/liferay/portal/model/impl/SystemEventModelImpl:SystemEventModelImpl:hashCode",
+      "type": "function",
+      "name": "hashCode",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/SystemEventModelImpl.java",
+      "summary": "hashCode() in SystemEventModelImpl.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "function:com/liferay/portal/model/impl/SystemEventModelImpl:SystemEventModelImpl:isEntityCacheEnabled",
+      "type": "function",
+      "name": "isEntityCacheEnabled",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/SystemEventModelImpl.java",
+      "summary": "isEntityCacheEnabled() in SystemEventModelImpl.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "function:com/liferay/portal/model/impl/SystemEventModelImpl:SystemEventModelImpl:isFinderCacheEnabled",
+      "type": "function",
+      "name": "isFinderCacheEnabled",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/SystemEventModelImpl.java",
+      "summary": "isFinderCacheEnabled() in SystemEventModelImpl.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "function:com/liferay/portal/model/impl/SystemEventModelImpl:SystemEventModelImpl:resetOriginalValues",
+      "type": "function",
+      "name": "resetOriginalValues",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/SystemEventModelImpl.java",
+      "summary": "resetOriginalValues() in SystemEventModelImpl.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "function:com/liferay/portal/model/impl/SystemEventModelImpl:SystemEventModelImpl:toCacheModel",
+      "type": "function",
+      "name": "toCacheModel",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/SystemEventModelImpl.java",
+      "summary": "toCacheModel() in SystemEventModelImpl.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "function:com/liferay/portal/model/impl/SystemEventModelImpl:SystemEventModelImpl:toString",
+      "type": "function",
+      "name": "toString",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/SystemEventModelImpl.java",
+      "summary": "toString() in SystemEventModelImpl.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "function:com/liferay/portal/model/impl/SystemEventModelImpl:SystemEventModelImpl:getColumnValue",
+      "type": "function",
+      "name": "getColumnValue",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/SystemEventModelImpl.java",
+      "summary": "getColumnValue() in SystemEventModelImpl.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "function:com/liferay/portal/model/impl/SystemEventModelImpl:SystemEventModelImpl:getColumnOriginalValue",
+      "type": "function",
+      "name": "getColumnOriginalValue",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/SystemEventModelImpl.java",
+      "summary": "getColumnOriginalValue() in SystemEventModelImpl.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "function:com/liferay/portal/model/impl/SystemEventModelImpl:SystemEventModelImpl:getColumnBitmask_2",
+      "type": "function",
+      "name": "getColumnBitmask",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/SystemEventModelImpl.java",
+      "summary": "getColumnBitmask() in SystemEventModelImpl.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "file:com/liferay/portal/kernel/model/SystemEvent",
+      "type": "file",
+      "name": "SystemEvent.java",
+      "filePath": "portal-kernel/src/com/liferay/portal/kernel/model/SystemEvent.java",
+      "summary": "SystemEvent.java - com/liferay/portal/kernel/model/SystemEvent",
+      "tags": [
+        "code",
+        "java",
+        "imported"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "file:com/liferay/portal/kernel/model/SystemEventModel",
+      "type": "file",
+      "name": "SystemEventModel.java",
+      "filePath": "portal-kernel/src/com/liferay/portal/kernel/model/SystemEventModel.java",
+      "summary": "SystemEventModel.java - com/liferay/portal/kernel/model/SystemEventModel",
+      "tags": [
+        "code",
+        "java",
+        "imported"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "file:com/liferay/portal/kernel/util/DateUtil",
+      "type": "file",
+      "name": "DateUtil.java",
+      "filePath": "portal-kernel/src/com/liferay/portal/kernel/util/DateUtil.java",
+      "summary": "DateUtil.java - com/liferay/portal/kernel/util/DateUtil",
+      "tags": [
+        "code",
+        "java",
+        "imported"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "file:com/liferay/portal/model/impl/TeamModelImpl",
+      "type": "file",
+      "name": "TeamModelImpl.java",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/TeamModelImpl.java",
+      "summary": "TeamModelImpl.java - com/liferay/portal/model/impl/TeamModelImpl",
+      "tags": [
+        "code",
+        "java",
+        "class-definition"
+      ],
+      "complexity": "high"
+    },
+    {
+      "id": "class:com/liferay/portal/model/impl/TeamModelImpl:TeamModelImpl",
+      "type": "class",
+      "name": "TeamModelImpl",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/TeamModelImpl.java",
+      "summary": "TeamModelImpl class in TeamModelImpl.java",
+      "tags": [
+        "class"
+      ],
+      "complexity": "high",
+      "methods": [
+        "TeamModelImpl",
+        "getPrimaryKey",
+        "setPrimaryKey",
+        "getPrimaryKeyObj",
+        "setPrimaryKeyObj",
+        "getModelClass",
+        "getModelClassName",
+        "getModelAttributes",
+        "setModelAttributes",
+        "getAttributeGetterFunctions",
+        "getAttributeSetterBiConsumers",
+        "getMvccVersion",
+        "setMvccVersion",
+        "getCtCollectionId",
+        "setCtCollectionId",
+        "getUuid",
+        "setUuid",
+        "getOriginalUuid",
+        "getTeamId",
+        "setTeamId",
+        "getCompanyId",
+        "setCompanyId",
+        "getOriginalCompanyId",
+        "getUserId",
+        "setUserId",
+        "getUserUuid",
+        "setUserUuid",
+        "getUserName",
+        "setUserName",
+        "getCreateDate",
+        "setCreateDate",
+        "getModifiedDate",
+        "hasSetModifiedDate",
+        "setModifiedDate",
+        "getGroupId",
+        "setGroupId",
+        "getOriginalGroupId",
+        "getName",
+        "setName",
+        "getOriginalName",
+        "getDescription",
+        "setDescription",
+        "getLastPublishDate",
+        "setLastPublishDate",
+        "getStagedModelType",
+        "getColumnBitmask",
+        "getExpandoBridge",
+        "setExpandoBridgeAttributes",
+        "toEscapedModel",
+        "clone",
+        "cloneWithOriginalValues",
+        "compareTo",
+        "equals",
+        "hashCode",
+        "isEntityCacheEnabled",
+        "isFinderCacheEnabled",
+        "resetOriginalValues",
+        "toCacheModel",
+        "toString",
+        "getColumnValue",
+        "getColumnOriginalValue",
+        "_setColumnOriginalValues",
+        "getColumnBitmask"
+      ],
+      "properties": [
+        "TABLE_NAME",
+        "TABLE_COLUMNS",
+        "TABLE_COLUMNS_MAP",
+        "TABLE_SQL_CREATE",
+        "TABLE_SQL_DROP",
+        "ORDER_BY_JPQL",
+        "ORDER_BY_SQL",
+        "ORDER_BY_SQL_INLINE_DISTINCT",
+        "DATA_SOURCE",
+        "SESSION_FACTORY",
+        "TX_MANAGER",
+        "ENTITY_CACHE_ENABLED",
+        "FINDER_CACHE_ENABLED",
+        "COLUMN_BITMASK_ENABLED",
+        "COMPANYID_COLUMN_BITMASK",
+        "GROUPID_COLUMN_BITMASK",
+        "NAME_COLUMN_BITMASK",
+        "UUID_COLUMN_BITMASK",
+        "MAPPING_TABLE_USERS_TEAMS_NAME",
+        "MAPPING_TABLE_USERS_TEAMS_COLUMNS",
+        "MAPPING_TABLE_USERS_TEAMS_SQL_CREATE",
+        "FINDER_CACHE_ENABLED_USERS_TEAMS",
+        "MAPPING_TABLE_USERGROUPS_TEAMS_NAME",
+        "MAPPING_TABLE_USERGROUPS_TEAMS_COLUMNS",
+        "MAPPING_TABLE_USERGROUPS_TEAMS_SQL_CREATE",
+        "FINDER_CACHE_ENABLED_USERGROUPS_TEAMS",
+        "LOCK_EXPIRATION_TIME",
+        "_mvccVersion",
+        "_ctCollectionId",
+        "_uuid",
+        "_teamId",
+        "_companyId",
+        "_userId",
+        "_userName",
+        "_createDate",
+        "_modifiedDate",
+        "_setModifiedDate",
+        "_groupId",
+        "_name",
+        "_description",
+        "_lastPublishDate",
+        "_attributeNames",
+        "_columnOriginalValues",
+        "_columnBitmasks",
+        "_columnBitmask",
+        "_escapedModel"
+      ]
+    },
+    {
+      "id": "function:com/liferay/portal/model/impl/TeamModelImpl:TeamModelImpl:getPrimaryKey",
+      "type": "function",
+      "name": "getPrimaryKey",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/TeamModelImpl.java",
+      "summary": "getPrimaryKey() in TeamModelImpl.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "function:com/liferay/portal/model/impl/TeamModelImpl:TeamModelImpl:setPrimaryKey",
+      "type": "function",
+      "name": "setPrimaryKey",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/TeamModelImpl.java",
+      "summary": "setPrimaryKey() in TeamModelImpl.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "function:com/liferay/portal/model/impl/TeamModelImpl:TeamModelImpl:getPrimaryKeyObj",
+      "type": "function",
+      "name": "getPrimaryKeyObj",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/TeamModelImpl.java",
+      "summary": "getPrimaryKeyObj() in TeamModelImpl.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "function:com/liferay/portal/model/impl/TeamModelImpl:TeamModelImpl:setPrimaryKeyObj",
+      "type": "function",
+      "name": "setPrimaryKeyObj",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/TeamModelImpl.java",
+      "summary": "setPrimaryKeyObj() in TeamModelImpl.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "function:com/liferay/portal/model/impl/TeamModelImpl:TeamModelImpl:getModelClass",
+      "type": "function",
+      "name": "getModelClass",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/TeamModelImpl.java",
+      "summary": "getModelClass() in TeamModelImpl.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "function:com/liferay/portal/model/impl/TeamModelImpl:TeamModelImpl:getModelClassName",
+      "type": "function",
+      "name": "getModelClassName",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/TeamModelImpl.java",
+      "summary": "getModelClassName() in TeamModelImpl.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "function:com/liferay/portal/model/impl/TeamModelImpl:TeamModelImpl:getModelAttributes",
+      "type": "function",
+      "name": "getModelAttributes",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/TeamModelImpl.java",
+      "summary": "getModelAttributes() in TeamModelImpl.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "function:com/liferay/portal/model/impl/TeamModelImpl:TeamModelImpl:setModelAttributes",
+      "type": "function",
+      "name": "setModelAttributes",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/TeamModelImpl.java",
+      "summary": "setModelAttributes() in TeamModelImpl.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "function:com/liferay/portal/model/impl/TeamModelImpl:TeamModelImpl:getAttributeGetterFunctions",
+      "type": "function",
+      "name": "getAttributeGetterFunctions",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/TeamModelImpl.java",
+      "summary": "getAttributeGetterFunctions() in TeamModelImpl.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "function:com/liferay/portal/model/impl/TeamModelImpl:TeamModelImpl:getAttributeSetterBiConsumers",
+      "type": "function",
+      "name": "getAttributeSetterBiConsumers",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/TeamModelImpl.java",
+      "summary": "getAttributeSetterBiConsumers() in TeamModelImpl.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "function:com/liferay/portal/model/impl/TeamModelImpl:TeamModelImpl:getMvccVersion",
+      "type": "function",
+      "name": "getMvccVersion",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/TeamModelImpl.java",
+      "summary": "getMvccVersion() in TeamModelImpl.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "function:com/liferay/portal/model/impl/TeamModelImpl:TeamModelImpl:setMvccVersion",
+      "type": "function",
+      "name": "setMvccVersion",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/TeamModelImpl.java",
+      "summary": "setMvccVersion() in TeamModelImpl.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "function:com/liferay/portal/model/impl/TeamModelImpl:TeamModelImpl:getCtCollectionId",
+      "type": "function",
+      "name": "getCtCollectionId",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/TeamModelImpl.java",
+      "summary": "getCtCollectionId() in TeamModelImpl.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "function:com/liferay/portal/model/impl/TeamModelImpl:TeamModelImpl:setCtCollectionId",
+      "type": "function",
+      "name": "setCtCollectionId",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/TeamModelImpl.java",
+      "summary": "setCtCollectionId() in TeamModelImpl.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "function:com/liferay/portal/model/impl/TeamModelImpl:TeamModelImpl:getUuid",
+      "type": "function",
+      "name": "getUuid",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/TeamModelImpl.java",
+      "summary": "getUuid() in TeamModelImpl.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "function:com/liferay/portal/model/impl/TeamModelImpl:TeamModelImpl:setUuid",
+      "type": "function",
+      "name": "setUuid",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/TeamModelImpl.java",
+      "summary": "setUuid() in TeamModelImpl.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "function:com/liferay/portal/model/impl/TeamModelImpl:TeamModelImpl:getOriginalUuid",
+      "type": "function",
+      "name": "getOriginalUuid",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/TeamModelImpl.java",
+      "summary": "getOriginalUuid() in TeamModelImpl.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "function:com/liferay/portal/model/impl/TeamModelImpl:TeamModelImpl:getTeamId",
+      "type": "function",
+      "name": "getTeamId",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/TeamModelImpl.java",
+      "summary": "getTeamId() in TeamModelImpl.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "function:com/liferay/portal/model/impl/TeamModelImpl:TeamModelImpl:setTeamId",
+      "type": "function",
+      "name": "setTeamId",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/TeamModelImpl.java",
+      "summary": "setTeamId() in TeamModelImpl.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "function:com/liferay/portal/model/impl/TeamModelImpl:TeamModelImpl:getCompanyId",
+      "type": "function",
+      "name": "getCompanyId",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/TeamModelImpl.java",
+      "summary": "getCompanyId() in TeamModelImpl.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low"
+    }
+  ],
+  "edges": []
+}

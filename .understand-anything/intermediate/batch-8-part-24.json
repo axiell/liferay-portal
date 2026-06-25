@@ -1,0 +1,702 @@
+{
+  "nodes": [
+    {
+      "id": "function:com/liferay/portal/model/impl/UserNotificationEventModelImpl:UserNotificationEventModelImpl:setUuid",
+      "type": "function",
+      "name": "setUuid",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/UserNotificationEventModelImpl.java",
+      "summary": "setUuid() in UserNotificationEventModelImpl.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "function:com/liferay/portal/model/impl/UserNotificationEventModelImpl:UserNotificationEventModelImpl:getOriginalUuid",
+      "type": "function",
+      "name": "getOriginalUuid",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/UserNotificationEventModelImpl.java",
+      "summary": "getOriginalUuid() in UserNotificationEventModelImpl.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "function:com/liferay/portal/model/impl/UserNotificationEventModelImpl:UserNotificationEventModelImpl:getUserNotificationEventId",
+      "type": "function",
+      "name": "getUserNotificationEventId",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/UserNotificationEventModelImpl.java",
+      "summary": "getUserNotificationEventId() in UserNotificationEventModelImpl.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "function:com/liferay/portal/model/impl/UserNotificationEventModelImpl:UserNotificationEventModelImpl:setUserNotificationEventId",
+      "type": "function",
+      "name": "setUserNotificationEventId",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/UserNotificationEventModelImpl.java",
+      "summary": "setUserNotificationEventId() in UserNotificationEventModelImpl.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "function:com/liferay/portal/model/impl/UserNotificationEventModelImpl:UserNotificationEventModelImpl:getCompanyId",
+      "type": "function",
+      "name": "getCompanyId",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/UserNotificationEventModelImpl.java",
+      "summary": "getCompanyId() in UserNotificationEventModelImpl.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "function:com/liferay/portal/model/impl/UserNotificationEventModelImpl:UserNotificationEventModelImpl:setCompanyId",
+      "type": "function",
+      "name": "setCompanyId",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/UserNotificationEventModelImpl.java",
+      "summary": "setCompanyId() in UserNotificationEventModelImpl.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "function:com/liferay/portal/model/impl/UserNotificationEventModelImpl:UserNotificationEventModelImpl:getOriginalCompanyId",
+      "type": "function",
+      "name": "getOriginalCompanyId",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/UserNotificationEventModelImpl.java",
+      "summary": "getOriginalCompanyId() in UserNotificationEventModelImpl.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "function:com/liferay/portal/model/impl/UserNotificationEventModelImpl:UserNotificationEventModelImpl:getUserId",
+      "type": "function",
+      "name": "getUserId",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/UserNotificationEventModelImpl.java",
+      "summary": "getUserId() in UserNotificationEventModelImpl.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "function:com/liferay/portal/model/impl/UserNotificationEventModelImpl:UserNotificationEventModelImpl:setUserId",
+      "type": "function",
+      "name": "setUserId",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/UserNotificationEventModelImpl.java",
+      "summary": "setUserId() in UserNotificationEventModelImpl.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "function:com/liferay/portal/model/impl/UserNotificationEventModelImpl:UserNotificationEventModelImpl:getUserUuid",
+      "type": "function",
+      "name": "getUserUuid",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/UserNotificationEventModelImpl.java",
+      "summary": "getUserUuid() in UserNotificationEventModelImpl.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "function:com/liferay/portal/model/impl/UserNotificationEventModelImpl:UserNotificationEventModelImpl:setUserUuid",
+      "type": "function",
+      "name": "setUserUuid",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/UserNotificationEventModelImpl.java",
+      "summary": "setUserUuid() in UserNotificationEventModelImpl.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "function:com/liferay/portal/model/impl/UserNotificationEventModelImpl:UserNotificationEventModelImpl:getOriginalUserId",
+      "type": "function",
+      "name": "getOriginalUserId",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/UserNotificationEventModelImpl.java",
+      "summary": "getOriginalUserId() in UserNotificationEventModelImpl.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "function:com/liferay/portal/model/impl/UserNotificationEventModelImpl:UserNotificationEventModelImpl:getType",
+      "type": "function",
+      "name": "getType",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/UserNotificationEventModelImpl.java",
+      "summary": "getType() in UserNotificationEventModelImpl.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "function:com/liferay/portal/model/impl/UserNotificationEventModelImpl:UserNotificationEventModelImpl:setType",
+      "type": "function",
+      "name": "setType",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/UserNotificationEventModelImpl.java",
+      "summary": "setType() in UserNotificationEventModelImpl.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "function:com/liferay/portal/model/impl/UserNotificationEventModelImpl:UserNotificationEventModelImpl:getOriginalType",
+      "type": "function",
+      "name": "getOriginalType",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/UserNotificationEventModelImpl.java",
+      "summary": "getOriginalType() in UserNotificationEventModelImpl.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "function:com/liferay/portal/model/impl/UserNotificationEventModelImpl:UserNotificationEventModelImpl:getTimestamp",
+      "type": "function",
+      "name": "getTimestamp",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/UserNotificationEventModelImpl.java",
+      "summary": "getTimestamp() in UserNotificationEventModelImpl.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "function:com/liferay/portal/model/impl/UserNotificationEventModelImpl:UserNotificationEventModelImpl:setTimestamp",
+      "type": "function",
+      "name": "setTimestamp",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/UserNotificationEventModelImpl.java",
+      "summary": "setTimestamp() in UserNotificationEventModelImpl.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "function:com/liferay/portal/model/impl/UserNotificationEventModelImpl:UserNotificationEventModelImpl:getOriginalTimestamp",
+      "type": "function",
+      "name": "getOriginalTimestamp",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/UserNotificationEventModelImpl.java",
+      "summary": "getOriginalTimestamp() in UserNotificationEventModelImpl.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "function:com/liferay/portal/model/impl/UserNotificationEventModelImpl:UserNotificationEventModelImpl:getDeliveryType",
+      "type": "function",
+      "name": "getDeliveryType",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/UserNotificationEventModelImpl.java",
+      "summary": "getDeliveryType() in UserNotificationEventModelImpl.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "function:com/liferay/portal/model/impl/UserNotificationEventModelImpl:UserNotificationEventModelImpl:setDeliveryType",
+      "type": "function",
+      "name": "setDeliveryType",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/UserNotificationEventModelImpl.java",
+      "summary": "setDeliveryType() in UserNotificationEventModelImpl.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "function:com/liferay/portal/model/impl/UserNotificationEventModelImpl:UserNotificationEventModelImpl:getOriginalDeliveryType",
+      "type": "function",
+      "name": "getOriginalDeliveryType",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/UserNotificationEventModelImpl.java",
+      "summary": "getOriginalDeliveryType() in UserNotificationEventModelImpl.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "function:com/liferay/portal/model/impl/UserNotificationEventModelImpl:UserNotificationEventModelImpl:getDeliverBy",
+      "type": "function",
+      "name": "getDeliverBy",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/UserNotificationEventModelImpl.java",
+      "summary": "getDeliverBy() in UserNotificationEventModelImpl.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "function:com/liferay/portal/model/impl/UserNotificationEventModelImpl:UserNotificationEventModelImpl:setDeliverBy",
+      "type": "function",
+      "name": "setDeliverBy",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/UserNotificationEventModelImpl.java",
+      "summary": "setDeliverBy() in UserNotificationEventModelImpl.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "function:com/liferay/portal/model/impl/UserNotificationEventModelImpl:UserNotificationEventModelImpl:getDelivered",
+      "type": "function",
+      "name": "getDelivered",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/UserNotificationEventModelImpl.java",
+      "summary": "getDelivered() in UserNotificationEventModelImpl.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "function:com/liferay/portal/model/impl/UserNotificationEventModelImpl:UserNotificationEventModelImpl:isDelivered",
+      "type": "function",
+      "name": "isDelivered",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/UserNotificationEventModelImpl.java",
+      "summary": "isDelivered() in UserNotificationEventModelImpl.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "function:com/liferay/portal/model/impl/UserNotificationEventModelImpl:UserNotificationEventModelImpl:setDelivered",
+      "type": "function",
+      "name": "setDelivered",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/UserNotificationEventModelImpl.java",
+      "summary": "setDelivered() in UserNotificationEventModelImpl.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "function:com/liferay/portal/model/impl/UserNotificationEventModelImpl:UserNotificationEventModelImpl:getOriginalDelivered",
+      "type": "function",
+      "name": "getOriginalDelivered",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/UserNotificationEventModelImpl.java",
+      "summary": "getOriginalDelivered() in UserNotificationEventModelImpl.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "function:com/liferay/portal/model/impl/UserNotificationEventModelImpl:UserNotificationEventModelImpl:getPayload",
+      "type": "function",
+      "name": "getPayload",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/UserNotificationEventModelImpl.java",
+      "summary": "getPayload() in UserNotificationEventModelImpl.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "function:com/liferay/portal/model/impl/UserNotificationEventModelImpl:UserNotificationEventModelImpl:setPayload",
+      "type": "function",
+      "name": "setPayload",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/UserNotificationEventModelImpl.java",
+      "summary": "setPayload() in UserNotificationEventModelImpl.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "function:com/liferay/portal/model/impl/UserNotificationEventModelImpl:UserNotificationEventModelImpl:getActionRequired",
+      "type": "function",
+      "name": "getActionRequired",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/UserNotificationEventModelImpl.java",
+      "summary": "getActionRequired() in UserNotificationEventModelImpl.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "function:com/liferay/portal/model/impl/UserNotificationEventModelImpl:UserNotificationEventModelImpl:isActionRequired",
+      "type": "function",
+      "name": "isActionRequired",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/UserNotificationEventModelImpl.java",
+      "summary": "isActionRequired() in UserNotificationEventModelImpl.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "function:com/liferay/portal/model/impl/UserNotificationEventModelImpl:UserNotificationEventModelImpl:setActionRequired",
+      "type": "function",
+      "name": "setActionRequired",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/UserNotificationEventModelImpl.java",
+      "summary": "setActionRequired() in UserNotificationEventModelImpl.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "function:com/liferay/portal/model/impl/UserNotificationEventModelImpl:UserNotificationEventModelImpl:getOriginalActionRequired",
+      "type": "function",
+      "name": "getOriginalActionRequired",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/UserNotificationEventModelImpl.java",
+      "summary": "getOriginalActionRequired() in UserNotificationEventModelImpl.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "function:com/liferay/portal/model/impl/UserNotificationEventModelImpl:UserNotificationEventModelImpl:getArchived",
+      "type": "function",
+      "name": "getArchived",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/UserNotificationEventModelImpl.java",
+      "summary": "getArchived() in UserNotificationEventModelImpl.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "function:com/liferay/portal/model/impl/UserNotificationEventModelImpl:UserNotificationEventModelImpl:isArchived",
+      "type": "function",
+      "name": "isArchived",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/UserNotificationEventModelImpl.java",
+      "summary": "isArchived() in UserNotificationEventModelImpl.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "function:com/liferay/portal/model/impl/UserNotificationEventModelImpl:UserNotificationEventModelImpl:setArchived",
+      "type": "function",
+      "name": "setArchived",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/UserNotificationEventModelImpl.java",
+      "summary": "setArchived() in UserNotificationEventModelImpl.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "function:com/liferay/portal/model/impl/UserNotificationEventModelImpl:UserNotificationEventModelImpl:getOriginalArchived",
+      "type": "function",
+      "name": "getOriginalArchived",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/UserNotificationEventModelImpl.java",
+      "summary": "getOriginalArchived() in UserNotificationEventModelImpl.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "function:com/liferay/portal/model/impl/UserNotificationEventModelImpl:UserNotificationEventModelImpl:getColumnBitmask",
+      "type": "function",
+      "name": "getColumnBitmask",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/UserNotificationEventModelImpl.java",
+      "summary": "getColumnBitmask() in UserNotificationEventModelImpl.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "function:com/liferay/portal/model/impl/UserNotificationEventModelImpl:UserNotificationEventModelImpl:getExpandoBridge",
+      "type": "function",
+      "name": "getExpandoBridge",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/UserNotificationEventModelImpl.java",
+      "summary": "getExpandoBridge() in UserNotificationEventModelImpl.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "function:com/liferay/portal/model/impl/UserNotificationEventModelImpl:UserNotificationEventModelImpl:setExpandoBridgeAttributes",
+      "type": "function",
+      "name": "setExpandoBridgeAttributes",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/UserNotificationEventModelImpl.java",
+      "summary": "setExpandoBridgeAttributes() in UserNotificationEventModelImpl.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "function:com/liferay/portal/model/impl/UserNotificationEventModelImpl:UserNotificationEventModelImpl:toEscapedModel",
+      "type": "function",
+      "name": "toEscapedModel",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/UserNotificationEventModelImpl.java",
+      "summary": "toEscapedModel() in UserNotificationEventModelImpl.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "function:com/liferay/portal/model/impl/UserNotificationEventModelImpl:UserNotificationEventModelImpl:clone",
+      "type": "function",
+      "name": "clone",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/UserNotificationEventModelImpl.java",
+      "summary": "clone() in UserNotificationEventModelImpl.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "function:com/liferay/portal/model/impl/UserNotificationEventModelImpl:UserNotificationEventModelImpl:equals",
+      "type": "function",
+      "name": "equals",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/UserNotificationEventModelImpl.java",
+      "summary": "equals() in UserNotificationEventModelImpl.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "function:com/liferay/portal/model/impl/UserNotificationEventModelImpl:UserNotificationEventModelImpl:hashCode",
+      "type": "function",
+      "name": "hashCode",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/UserNotificationEventModelImpl.java",
+      "summary": "hashCode() in UserNotificationEventModelImpl.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "function:com/liferay/portal/model/impl/UserNotificationEventModelImpl:UserNotificationEventModelImpl:isEntityCacheEnabled",
+      "type": "function",
+      "name": "isEntityCacheEnabled",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/UserNotificationEventModelImpl.java",
+      "summary": "isEntityCacheEnabled() in UserNotificationEventModelImpl.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "function:com/liferay/portal/model/impl/UserNotificationEventModelImpl:UserNotificationEventModelImpl:isFinderCacheEnabled",
+      "type": "function",
+      "name": "isFinderCacheEnabled",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/UserNotificationEventModelImpl.java",
+      "summary": "isFinderCacheEnabled() in UserNotificationEventModelImpl.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "function:com/liferay/portal/model/impl/UserNotificationEventModelImpl:UserNotificationEventModelImpl:resetOriginalValues",
+      "type": "function",
+      "name": "resetOriginalValues",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/UserNotificationEventModelImpl.java",
+      "summary": "resetOriginalValues() in UserNotificationEventModelImpl.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "function:com/liferay/portal/model/impl/UserNotificationEventModelImpl:UserNotificationEventModelImpl:toCacheModel",
+      "type": "function",
+      "name": "toCacheModel",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/UserNotificationEventModelImpl.java",
+      "summary": "toCacheModel() in UserNotificationEventModelImpl.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "function:com/liferay/portal/model/impl/UserNotificationEventModelImpl:UserNotificationEventModelImpl:toString",
+      "type": "function",
+      "name": "toString",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/UserNotificationEventModelImpl.java",
+      "summary": "toString() in UserNotificationEventModelImpl.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "function:com/liferay/portal/model/impl/UserNotificationEventModelImpl:UserNotificationEventModelImpl:getColumnValue",
+      "type": "function",
+      "name": "getColumnValue",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/UserNotificationEventModelImpl.java",
+      "summary": "getColumnValue() in UserNotificationEventModelImpl.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "function:com/liferay/portal/model/impl/UserNotificationEventModelImpl:UserNotificationEventModelImpl:getColumnOriginalValue",
+      "type": "function",
+      "name": "getColumnOriginalValue",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/UserNotificationEventModelImpl.java",
+      "summary": "getColumnOriginalValue() in UserNotificationEventModelImpl.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "function:com/liferay/portal/model/impl/UserNotificationEventModelImpl:UserNotificationEventModelImpl:getColumnBitmask_2",
+      "type": "function",
+      "name": "getColumnBitmask",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/UserNotificationEventModelImpl.java",
+      "summary": "getColumnBitmask() in UserNotificationEventModelImpl.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "file:com/liferay/portal/kernel/model/UserNotificationEvent",
+      "type": "file",
+      "name": "UserNotificationEvent.java",
+      "filePath": "portal-kernel/src/com/liferay/portal/kernel/model/UserNotificationEvent.java",
+      "summary": "UserNotificationEvent.java - com/liferay/portal/kernel/model/UserNotificationEvent",
+      "tags": [
+        "code",
+        "java",
+        "imported"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "file:com/liferay/portal/kernel/model/UserNotificationEventModel",
+      "type": "file",
+      "name": "UserNotificationEventModel.java",
+      "filePath": "portal-kernel/src/com/liferay/portal/kernel/model/UserNotificationEventModel.java",
+      "summary": "UserNotificationEventModel.java - com/liferay/portal/kernel/model/UserNotificationEventModel",
+      "tags": [
+        "code",
+        "java",
+        "imported"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "file:com/liferay/portal/model/impl/UserTrackerBaseImpl",
+      "type": "file",
+      "name": "UserTrackerBaseImpl.java",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/UserTrackerBaseImpl.java",
+      "summary": "UserTrackerBaseImpl.java - com/liferay/portal/model/impl/UserTrackerBaseImpl",
+      "tags": [
+        "code",
+        "java",
+        "class-definition"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "class:com/liferay/portal/model/impl/UserTrackerBaseImpl:UserTrackerBaseImpl",
+      "type": "class",
+      "name": "UserTrackerBaseImpl",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/UserTrackerBaseImpl.java",
+      "summary": "UserTrackerBaseImpl class in UserTrackerBaseImpl.java",
+      "tags": [
+        "class"
+      ],
+      "complexity": "low",
+      "methods": [
+        "persist"
+      ],
+      "properties": []
+    },
+    {
+      "id": "file:com/liferay/portal/kernel/model/UserTracker",
+      "type": "file",
+      "name": "UserTracker.java",
+      "filePath": "portal-kernel/src/com/liferay/portal/kernel/model/UserTracker.java",
+      "summary": "UserTracker.java - com/liferay/portal/kernel/model/UserTracker",
+      "tags": [
+        "code",
+        "java",
+        "imported"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "file:com/liferay/portal/kernel/service/UserTrackerLocalServiceUtil",
+      "type": "file",
+      "name": "UserTrackerLocalServiceUtil.java",
+      "filePath": "portal-kernel/src/com/liferay/portal/kernel/service/UserTrackerLocalServiceUtil.java",
+      "summary": "UserTrackerLocalServiceUtil.java - com/liferay/portal/kernel/service/UserTrackerLocalServiceUtil",
+      "tags": [
+        "code",
+        "java",
+        "imported"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "file:com/liferay/portal/model/impl/UserTrackerCacheModel",
+      "type": "file",
+      "name": "UserTrackerCacheModel.java",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/UserTrackerCacheModel.java",
+      "summary": "UserTrackerCacheModel.java - com/liferay/portal/model/impl/UserTrackerCacheModel",
+      "tags": [
+        "code",
+        "java",
+        "class-definition"
+      ],
+      "complexity": "medium"
+    },
+    {
+      "id": "class:com/liferay/portal/model/impl/UserTrackerCacheModel:UserTrackerCacheModel",
+      "type": "class",
+      "name": "UserTrackerCacheModel",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/UserTrackerCacheModel.java",
+      "summary": "UserTrackerCacheModel class in UserTrackerCacheModel.java",
+      "tags": [
+        "class"
+      ],
+      "complexity": "medium",
+      "methods": [
+        "equals",
+        "hashCode",
+        "getMvccVersion",
+        "setMvccVersion",
+        "toString",
+        "toEntityModel",
+        "readExternal",
+        "writeExternal"
+      ],
+      "properties": [
+        "mvccVersion",
+        "userTrackerId",
+        "companyId",
+        "userId",
+        "modifiedDate",
+        "sessionId",
+        "remoteAddr",
+        "remoteHost",
+        "userAgent"
+      ]
+    }
+  ],
+  "edges": []
+}

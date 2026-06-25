@@ -1,0 +1,847 @@
+{
+  "nodes": [
+    {
+      "id": "function:com/liferay/portal/model/impl/ResourceActionCacheModel:ResourceActionCacheModel:equals",
+      "type": "function",
+      "name": "equals",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/ResourceActionCacheModel.java",
+      "summary": "equals() in ResourceActionCacheModel.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "function:com/liferay/portal/model/impl/ResourceActionCacheModel:ResourceActionCacheModel:hashCode",
+      "type": "function",
+      "name": "hashCode",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/ResourceActionCacheModel.java",
+      "summary": "hashCode() in ResourceActionCacheModel.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "function:com/liferay/portal/model/impl/ResourceActionCacheModel:ResourceActionCacheModel:getMvccVersion",
+      "type": "function",
+      "name": "getMvccVersion",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/ResourceActionCacheModel.java",
+      "summary": "getMvccVersion() in ResourceActionCacheModel.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "function:com/liferay/portal/model/impl/ResourceActionCacheModel:ResourceActionCacheModel:setMvccVersion",
+      "type": "function",
+      "name": "setMvccVersion",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/ResourceActionCacheModel.java",
+      "summary": "setMvccVersion() in ResourceActionCacheModel.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "function:com/liferay/portal/model/impl/ResourceActionCacheModel:ResourceActionCacheModel:toString",
+      "type": "function",
+      "name": "toString",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/ResourceActionCacheModel.java",
+      "summary": "toString() in ResourceActionCacheModel.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "function:com/liferay/portal/model/impl/ResourceActionCacheModel:ResourceActionCacheModel:toEntityModel",
+      "type": "function",
+      "name": "toEntityModel",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/ResourceActionCacheModel.java",
+      "summary": "toEntityModel() in ResourceActionCacheModel.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "function:com/liferay/portal/model/impl/ResourceActionCacheModel:ResourceActionCacheModel:readExternal",
+      "type": "function",
+      "name": "readExternal",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/ResourceActionCacheModel.java",
+      "summary": "readExternal() in ResourceActionCacheModel.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "function:com/liferay/portal/model/impl/ResourceActionCacheModel:ResourceActionCacheModel:writeExternal",
+      "type": "function",
+      "name": "writeExternal",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/ResourceActionCacheModel.java",
+      "summary": "writeExternal() in ResourceActionCacheModel.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "file:com/liferay/portal/kernel/model/ResourceAction",
+      "type": "file",
+      "name": "ResourceAction.java",
+      "filePath": "portal-kernel/src/com/liferay/portal/kernel/model/ResourceAction.java",
+      "summary": "ResourceAction.java - com/liferay/portal/kernel/model/ResourceAction",
+      "tags": [
+        "code",
+        "java",
+        "imported"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "file:com/liferay/portal/model/impl/ResourceActionModelImpl",
+      "type": "file",
+      "name": "ResourceActionModelImpl.java",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/ResourceActionModelImpl.java",
+      "summary": "ResourceActionModelImpl.java - com/liferay/portal/model/impl/ResourceActionModelImpl",
+      "tags": [
+        "code",
+        "java",
+        "class-definition"
+      ],
+      "complexity": "medium"
+    },
+    {
+      "id": "class:com/liferay/portal/model/impl/ResourceActionModelImpl:ResourceActionModelImpl",
+      "type": "class",
+      "name": "ResourceActionModelImpl",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/ResourceActionModelImpl.java",
+      "summary": "ResourceActionModelImpl class in ResourceActionModelImpl.java",
+      "tags": [
+        "class"
+      ],
+      "complexity": "high",
+      "methods": [
+        "ResourceActionModelImpl",
+        "getPrimaryKey",
+        "setPrimaryKey",
+        "getPrimaryKeyObj",
+        "setPrimaryKeyObj",
+        "getModelClass",
+        "getModelClassName",
+        "getModelAttributes",
+        "setModelAttributes",
+        "getAttributeGetterFunctions",
+        "getAttributeSetterBiConsumers",
+        "getMvccVersion",
+        "setMvccVersion",
+        "getResourceActionId",
+        "setResourceActionId",
+        "getName",
+        "setName",
+        "getOriginalName",
+        "getActionId",
+        "setActionId",
+        "getOriginalActionId",
+        "getBitwiseValue",
+        "setBitwiseValue",
+        "getColumnBitmask",
+        "getExpandoBridge",
+        "setExpandoBridgeAttributes",
+        "toEscapedModel",
+        "clone",
+        "cloneWithOriginalValues",
+        "compareTo",
+        "equals",
+        "hashCode",
+        "isEntityCacheEnabled",
+        "isFinderCacheEnabled",
+        "resetOriginalValues",
+        "toCacheModel",
+        "toString",
+        "getColumnValue",
+        "getColumnOriginalValue",
+        "_setColumnOriginalValues",
+        "getColumnBitmask"
+      ],
+      "properties": [
+        "TABLE_NAME",
+        "TABLE_COLUMNS",
+        "TABLE_COLUMNS_MAP",
+        "TABLE_SQL_CREATE",
+        "TABLE_SQL_DROP",
+        "ORDER_BY_JPQL",
+        "ORDER_BY_SQL",
+        "DATA_SOURCE",
+        "SESSION_FACTORY",
+        "TX_MANAGER",
+        "ENTITY_CACHE_ENABLED",
+        "FINDER_CACHE_ENABLED",
+        "COLUMN_BITMASK_ENABLED",
+        "ACTIONID_COLUMN_BITMASK",
+        "NAME_COLUMN_BITMASK",
+        "BITWISEVALUE_COLUMN_BITMASK",
+        "LOCK_EXPIRATION_TIME",
+        "_mvccVersion",
+        "_resourceActionId",
+        "_name",
+        "_actionId",
+        "_bitwiseValue",
+        "_columnOriginalValues",
+        "_columnBitmasks",
+        "_columnBitmask",
+        "_escapedModel"
+      ]
+    },
+    {
+      "id": "function:com/liferay/portal/model/impl/ResourceActionModelImpl:ResourceActionModelImpl:getPrimaryKey",
+      "type": "function",
+      "name": "getPrimaryKey",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/ResourceActionModelImpl.java",
+      "summary": "getPrimaryKey() in ResourceActionModelImpl.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "function:com/liferay/portal/model/impl/ResourceActionModelImpl:ResourceActionModelImpl:setPrimaryKey",
+      "type": "function",
+      "name": "setPrimaryKey",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/ResourceActionModelImpl.java",
+      "summary": "setPrimaryKey() in ResourceActionModelImpl.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "function:com/liferay/portal/model/impl/ResourceActionModelImpl:ResourceActionModelImpl:getPrimaryKeyObj",
+      "type": "function",
+      "name": "getPrimaryKeyObj",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/ResourceActionModelImpl.java",
+      "summary": "getPrimaryKeyObj() in ResourceActionModelImpl.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "function:com/liferay/portal/model/impl/ResourceActionModelImpl:ResourceActionModelImpl:setPrimaryKeyObj",
+      "type": "function",
+      "name": "setPrimaryKeyObj",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/ResourceActionModelImpl.java",
+      "summary": "setPrimaryKeyObj() in ResourceActionModelImpl.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "function:com/liferay/portal/model/impl/ResourceActionModelImpl:ResourceActionModelImpl:getModelClass",
+      "type": "function",
+      "name": "getModelClass",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/ResourceActionModelImpl.java",
+      "summary": "getModelClass() in ResourceActionModelImpl.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "function:com/liferay/portal/model/impl/ResourceActionModelImpl:ResourceActionModelImpl:getModelClassName",
+      "type": "function",
+      "name": "getModelClassName",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/ResourceActionModelImpl.java",
+      "summary": "getModelClassName() in ResourceActionModelImpl.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "function:com/liferay/portal/model/impl/ResourceActionModelImpl:ResourceActionModelImpl:getModelAttributes",
+      "type": "function",
+      "name": "getModelAttributes",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/ResourceActionModelImpl.java",
+      "summary": "getModelAttributes() in ResourceActionModelImpl.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "function:com/liferay/portal/model/impl/ResourceActionModelImpl:ResourceActionModelImpl:setModelAttributes",
+      "type": "function",
+      "name": "setModelAttributes",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/ResourceActionModelImpl.java",
+      "summary": "setModelAttributes() in ResourceActionModelImpl.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "function:com/liferay/portal/model/impl/ResourceActionModelImpl:ResourceActionModelImpl:getAttributeGetterFunctions",
+      "type": "function",
+      "name": "getAttributeGetterFunctions",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/ResourceActionModelImpl.java",
+      "summary": "getAttributeGetterFunctions() in ResourceActionModelImpl.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "function:com/liferay/portal/model/impl/ResourceActionModelImpl:ResourceActionModelImpl:getAttributeSetterBiConsumers",
+      "type": "function",
+      "name": "getAttributeSetterBiConsumers",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/ResourceActionModelImpl.java",
+      "summary": "getAttributeSetterBiConsumers() in ResourceActionModelImpl.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "function:com/liferay/portal/model/impl/ResourceActionModelImpl:ResourceActionModelImpl:getMvccVersion",
+      "type": "function",
+      "name": "getMvccVersion",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/ResourceActionModelImpl.java",
+      "summary": "getMvccVersion() in ResourceActionModelImpl.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "function:com/liferay/portal/model/impl/ResourceActionModelImpl:ResourceActionModelImpl:setMvccVersion",
+      "type": "function",
+      "name": "setMvccVersion",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/ResourceActionModelImpl.java",
+      "summary": "setMvccVersion() in ResourceActionModelImpl.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "function:com/liferay/portal/model/impl/ResourceActionModelImpl:ResourceActionModelImpl:getResourceActionId",
+      "type": "function",
+      "name": "getResourceActionId",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/ResourceActionModelImpl.java",
+      "summary": "getResourceActionId() in ResourceActionModelImpl.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "function:com/liferay/portal/model/impl/ResourceActionModelImpl:ResourceActionModelImpl:setResourceActionId",
+      "type": "function",
+      "name": "setResourceActionId",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/ResourceActionModelImpl.java",
+      "summary": "setResourceActionId() in ResourceActionModelImpl.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "function:com/liferay/portal/model/impl/ResourceActionModelImpl:ResourceActionModelImpl:getName",
+      "type": "function",
+      "name": "getName",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/ResourceActionModelImpl.java",
+      "summary": "getName() in ResourceActionModelImpl.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "function:com/liferay/portal/model/impl/ResourceActionModelImpl:ResourceActionModelImpl:setName",
+      "type": "function",
+      "name": "setName",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/ResourceActionModelImpl.java",
+      "summary": "setName() in ResourceActionModelImpl.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "function:com/liferay/portal/model/impl/ResourceActionModelImpl:ResourceActionModelImpl:getOriginalName",
+      "type": "function",
+      "name": "getOriginalName",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/ResourceActionModelImpl.java",
+      "summary": "getOriginalName() in ResourceActionModelImpl.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "function:com/liferay/portal/model/impl/ResourceActionModelImpl:ResourceActionModelImpl:getActionId",
+      "type": "function",
+      "name": "getActionId",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/ResourceActionModelImpl.java",
+      "summary": "getActionId() in ResourceActionModelImpl.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "function:com/liferay/portal/model/impl/ResourceActionModelImpl:ResourceActionModelImpl:setActionId",
+      "type": "function",
+      "name": "setActionId",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/ResourceActionModelImpl.java",
+      "summary": "setActionId() in ResourceActionModelImpl.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "function:com/liferay/portal/model/impl/ResourceActionModelImpl:ResourceActionModelImpl:getOriginalActionId",
+      "type": "function",
+      "name": "getOriginalActionId",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/ResourceActionModelImpl.java",
+      "summary": "getOriginalActionId() in ResourceActionModelImpl.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "function:com/liferay/portal/model/impl/ResourceActionModelImpl:ResourceActionModelImpl:getBitwiseValue",
+      "type": "function",
+      "name": "getBitwiseValue",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/ResourceActionModelImpl.java",
+      "summary": "getBitwiseValue() in ResourceActionModelImpl.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "function:com/liferay/portal/model/impl/ResourceActionModelImpl:ResourceActionModelImpl:setBitwiseValue",
+      "type": "function",
+      "name": "setBitwiseValue",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/ResourceActionModelImpl.java",
+      "summary": "setBitwiseValue() in ResourceActionModelImpl.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "function:com/liferay/portal/model/impl/ResourceActionModelImpl:ResourceActionModelImpl:getColumnBitmask",
+      "type": "function",
+      "name": "getColumnBitmask",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/ResourceActionModelImpl.java",
+      "summary": "getColumnBitmask() in ResourceActionModelImpl.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "function:com/liferay/portal/model/impl/ResourceActionModelImpl:ResourceActionModelImpl:getExpandoBridge",
+      "type": "function",
+      "name": "getExpandoBridge",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/ResourceActionModelImpl.java",
+      "summary": "getExpandoBridge() in ResourceActionModelImpl.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "function:com/liferay/portal/model/impl/ResourceActionModelImpl:ResourceActionModelImpl:setExpandoBridgeAttributes",
+      "type": "function",
+      "name": "setExpandoBridgeAttributes",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/ResourceActionModelImpl.java",
+      "summary": "setExpandoBridgeAttributes() in ResourceActionModelImpl.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "function:com/liferay/portal/model/impl/ResourceActionModelImpl:ResourceActionModelImpl:toEscapedModel",
+      "type": "function",
+      "name": "toEscapedModel",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/ResourceActionModelImpl.java",
+      "summary": "toEscapedModel() in ResourceActionModelImpl.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "function:com/liferay/portal/model/impl/ResourceActionModelImpl:ResourceActionModelImpl:clone",
+      "type": "function",
+      "name": "clone",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/ResourceActionModelImpl.java",
+      "summary": "clone() in ResourceActionModelImpl.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "function:com/liferay/portal/model/impl/ResourceActionModelImpl:ResourceActionModelImpl:equals",
+      "type": "function",
+      "name": "equals",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/ResourceActionModelImpl.java",
+      "summary": "equals() in ResourceActionModelImpl.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "function:com/liferay/portal/model/impl/ResourceActionModelImpl:ResourceActionModelImpl:hashCode",
+      "type": "function",
+      "name": "hashCode",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/ResourceActionModelImpl.java",
+      "summary": "hashCode() in ResourceActionModelImpl.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "function:com/liferay/portal/model/impl/ResourceActionModelImpl:ResourceActionModelImpl:isEntityCacheEnabled",
+      "type": "function",
+      "name": "isEntityCacheEnabled",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/ResourceActionModelImpl.java",
+      "summary": "isEntityCacheEnabled() in ResourceActionModelImpl.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "function:com/liferay/portal/model/impl/ResourceActionModelImpl:ResourceActionModelImpl:isFinderCacheEnabled",
+      "type": "function",
+      "name": "isFinderCacheEnabled",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/ResourceActionModelImpl.java",
+      "summary": "isFinderCacheEnabled() in ResourceActionModelImpl.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "function:com/liferay/portal/model/impl/ResourceActionModelImpl:ResourceActionModelImpl:resetOriginalValues",
+      "type": "function",
+      "name": "resetOriginalValues",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/ResourceActionModelImpl.java",
+      "summary": "resetOriginalValues() in ResourceActionModelImpl.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "function:com/liferay/portal/model/impl/ResourceActionModelImpl:ResourceActionModelImpl:toCacheModel",
+      "type": "function",
+      "name": "toCacheModel",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/ResourceActionModelImpl.java",
+      "summary": "toCacheModel() in ResourceActionModelImpl.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "function:com/liferay/portal/model/impl/ResourceActionModelImpl:ResourceActionModelImpl:toString",
+      "type": "function",
+      "name": "toString",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/ResourceActionModelImpl.java",
+      "summary": "toString() in ResourceActionModelImpl.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "function:com/liferay/portal/model/impl/ResourceActionModelImpl:ResourceActionModelImpl:getColumnValue",
+      "type": "function",
+      "name": "getColumnValue",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/ResourceActionModelImpl.java",
+      "summary": "getColumnValue() in ResourceActionModelImpl.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "function:com/liferay/portal/model/impl/ResourceActionModelImpl:ResourceActionModelImpl:getColumnOriginalValue",
+      "type": "function",
+      "name": "getColumnOriginalValue",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/ResourceActionModelImpl.java",
+      "summary": "getColumnOriginalValue() in ResourceActionModelImpl.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "function:com/liferay/portal/model/impl/ResourceActionModelImpl:ResourceActionModelImpl:getColumnBitmask_2",
+      "type": "function",
+      "name": "getColumnBitmask",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/ResourceActionModelImpl.java",
+      "summary": "getColumnBitmask() in ResourceActionModelImpl.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "file:com/liferay/portal/kernel/model/ResourceActionModel",
+      "type": "file",
+      "name": "ResourceActionModel.java",
+      "filePath": "portal-kernel/src/com/liferay/portal/kernel/model/ResourceActionModel.java",
+      "summary": "ResourceActionModel.java - com/liferay/portal/kernel/model/ResourceActionModel",
+      "tags": [
+        "code",
+        "java",
+        "imported"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "file:com/liferay/portal/model/impl/ResourcePermissionModelImpl",
+      "type": "file",
+      "name": "ResourcePermissionModelImpl.java",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/ResourcePermissionModelImpl.java",
+      "summary": "ResourcePermissionModelImpl.java - com/liferay/portal/model/impl/ResourcePermissionModelImpl",
+      "tags": [
+        "code",
+        "java",
+        "class-definition"
+      ],
+      "complexity": "high"
+    },
+    {
+      "id": "class:com/liferay/portal/model/impl/ResourcePermissionModelImpl:ResourcePermissionModelImpl",
+      "type": "class",
+      "name": "ResourcePermissionModelImpl",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/ResourcePermissionModelImpl.java",
+      "summary": "ResourcePermissionModelImpl class in ResourcePermissionModelImpl.java",
+      "tags": [
+        "class"
+      ],
+      "complexity": "high",
+      "methods": [
+        "ResourcePermissionModelImpl",
+        "getPrimaryKey",
+        "setPrimaryKey",
+        "getPrimaryKeyObj",
+        "setPrimaryKeyObj",
+        "getModelClass",
+        "getModelClassName",
+        "getModelAttributes",
+        "setModelAttributes",
+        "getAttributeGetterFunctions",
+        "getAttributeSetterBiConsumers",
+        "getMvccVersion",
+        "setMvccVersion",
+        "getCtCollectionId",
+        "setCtCollectionId",
+        "getResourcePermissionId",
+        "setResourcePermissionId",
+        "getCompanyId",
+        "setCompanyId",
+        "getOriginalCompanyId",
+        "getName",
+        "setName",
+        "getOriginalName",
+        "getScope",
+        "setScope",
+        "getOriginalScope",
+        "getPrimKey",
+        "setPrimKey",
+        "getOriginalPrimKey",
+        "getPrimKeyId",
+        "setPrimKeyId",
+        "getOriginalPrimKeyId",
+        "getRoleId",
+        "setRoleId",
+        "getOriginalRoleId",
+        "getOwnerId",
+        "setOwnerId",
+        "getActionIds",
+        "setActionIds",
+        "getViewActionId",
+        "isViewActionId",
+        "setViewActionId",
+        "getOriginalViewActionId",
+        "getColumnBitmask",
+        "getExpandoBridge",
+        "setExpandoBridgeAttributes",
+        "toEscapedModel",
+        "clone",
+        "cloneWithOriginalValues",
+        "compareTo",
+        "equals",
+        "hashCode",
+        "isEntityCacheEnabled",
+        "isFinderCacheEnabled",
+        "resetOriginalValues",
+        "toCacheModel",
+        "toString",
+        "getColumnValue",
+        "getColumnOriginalValue",
+        "_setColumnOriginalValues",
+        "getColumnBitmask"
+      ],
+      "properties": [
+        "TABLE_NAME",
+        "TABLE_COLUMNS",
+        "TABLE_COLUMNS_MAP",
+        "TABLE_SQL_CREATE",
+        "TABLE_SQL_DROP",
+        "ORDER_BY_JPQL",
+        "ORDER_BY_SQL",
+        "DATA_SOURCE",
+        "SESSION_FACTORY",
+        "TX_MANAGER",
+        "ENTITY_CACHE_ENABLED",
+        "FINDER_CACHE_ENABLED",
+        "COLUMN_BITMASK_ENABLED",
+        "COMPANYID_COLUMN_BITMASK",
+        "NAME_COLUMN_BITMASK",
+        "PRIMKEY_COLUMN_BITMASK",
+        "PRIMKEYID_COLUMN_BITMASK",
+        "ROLEID_COLUMN_BITMASK",
+        "SCOPE_COLUMN_BITMASK",
+        "VIEWACTIONID_COLUMN_BITMASK",
+        "RESOURCEPERMISSIONID_COLUMN_BITMASK",
+        "LOCK_EXPIRATION_TIME",
+        "_mvccVersion",
+        "_ctCollectionId",
+        "_resourcePermissionId",
+        "_companyId",
+        "_name",
+        "_scope",
+        "_primKey",
+        "_primKeyId",
+        "_roleId",
+        "_ownerId",
+        "_actionIds",
+        "_viewActionId",
+        "_columnOriginalValues",
+        "_columnBitmasks",
+        "_columnBitmask",
+        "_escapedModel"
+      ]
+    },
+    {
+      "id": "function:com/liferay/portal/model/impl/ResourcePermissionModelImpl:ResourcePermissionModelImpl:getPrimaryKey",
+      "type": "function",
+      "name": "getPrimaryKey",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/ResourcePermissionModelImpl.java",
+      "summary": "getPrimaryKey() in ResourcePermissionModelImpl.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "function:com/liferay/portal/model/impl/ResourcePermissionModelImpl:ResourcePermissionModelImpl:setPrimaryKey",
+      "type": "function",
+      "name": "setPrimaryKey",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/ResourcePermissionModelImpl.java",
+      "summary": "setPrimaryKey() in ResourcePermissionModelImpl.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "function:com/liferay/portal/model/impl/ResourcePermissionModelImpl:ResourcePermissionModelImpl:getPrimaryKeyObj",
+      "type": "function",
+      "name": "getPrimaryKeyObj",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/ResourcePermissionModelImpl.java",
+      "summary": "getPrimaryKeyObj() in ResourcePermissionModelImpl.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "function:com/liferay/portal/model/impl/ResourcePermissionModelImpl:ResourcePermissionModelImpl:setPrimaryKeyObj",
+      "type": "function",
+      "name": "setPrimaryKeyObj",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/ResourcePermissionModelImpl.java",
+      "summary": "setPrimaryKeyObj() in ResourcePermissionModelImpl.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "function:com/liferay/portal/model/impl/ResourcePermissionModelImpl:ResourcePermissionModelImpl:getModelClass",
+      "type": "function",
+      "name": "getModelClass",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/ResourcePermissionModelImpl.java",
+      "summary": "getModelClass() in ResourcePermissionModelImpl.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "function:com/liferay/portal/model/impl/ResourcePermissionModelImpl:ResourcePermissionModelImpl:getModelClassName",
+      "type": "function",
+      "name": "getModelClassName",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/ResourcePermissionModelImpl.java",
+      "summary": "getModelClassName() in ResourcePermissionModelImpl.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "function:com/liferay/portal/model/impl/ResourcePermissionModelImpl:ResourcePermissionModelImpl:getModelAttributes",
+      "type": "function",
+      "name": "getModelAttributes",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/ResourcePermissionModelImpl.java",
+      "summary": "getModelAttributes() in ResourcePermissionModelImpl.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "function:com/liferay/portal/model/impl/ResourcePermissionModelImpl:ResourcePermissionModelImpl:setModelAttributes",
+      "type": "function",
+      "name": "setModelAttributes",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/ResourcePermissionModelImpl.java",
+      "summary": "setModelAttributes() in ResourcePermissionModelImpl.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "function:com/liferay/portal/model/impl/ResourcePermissionModelImpl:ResourcePermissionModelImpl:getAttributeGetterFunctions",
+      "type": "function",
+      "name": "getAttributeGetterFunctions",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/ResourcePermissionModelImpl.java",
+      "summary": "getAttributeGetterFunctions() in ResourcePermissionModelImpl.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low"
+    }
+  ],
+  "edges": []
+}

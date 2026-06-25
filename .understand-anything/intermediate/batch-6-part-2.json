@@ -1,0 +1,1548 @@
+{
+  "nodes": [
+    {
+      "id": "function:portal-impl/src/com/liferay/portal/model/impl/RecentLayoutRevisionCacheModel.java:equals",
+      "type": "function",
+      "name": "equals",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/RecentLayoutRevisionCacheModel.java",
+      "summary": "Exported function equals",
+      "tags": [
+        "java",
+        "function",
+        "exported"
+      ],
+      "complexity": "medium"
+    },
+    {
+      "id": "function:portal-impl/src/com/liferay/portal/model/impl/RecentLayoutRevisionCacheModel.java:hashCode",
+      "type": "function",
+      "name": "hashCode",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/RecentLayoutRevisionCacheModel.java",
+      "summary": "Exported function hashCode",
+      "tags": [
+        "java",
+        "function",
+        "exported"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "function:portal-impl/src/com/liferay/portal/model/impl/RecentLayoutRevisionCacheModel.java:getMvccVersion",
+      "type": "function",
+      "name": "getMvccVersion",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/RecentLayoutRevisionCacheModel.java",
+      "summary": "Exported function getMvccVersion",
+      "tags": [
+        "java",
+        "function",
+        "exported"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "function:portal-impl/src/com/liferay/portal/model/impl/RecentLayoutRevisionCacheModel.java:setMvccVersion",
+      "type": "function",
+      "name": "setMvccVersion",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/RecentLayoutRevisionCacheModel.java",
+      "summary": "Exported function setMvccVersion",
+      "tags": [
+        "java",
+        "function",
+        "exported"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "function:portal-impl/src/com/liferay/portal/model/impl/RecentLayoutRevisionCacheModel.java:toString",
+      "type": "function",
+      "name": "toString",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/RecentLayoutRevisionCacheModel.java",
+      "summary": "Exported function toString",
+      "tags": [
+        "java",
+        "function",
+        "exported"
+      ],
+      "complexity": "medium"
+    },
+    {
+      "id": "function:portal-impl/src/com/liferay/portal/model/impl/RecentLayoutRevisionCacheModel.java:toEntityModel",
+      "type": "function",
+      "name": "toEntityModel",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/RecentLayoutRevisionCacheModel.java",
+      "summary": "Exported function toEntityModel",
+      "tags": [
+        "java",
+        "function",
+        "exported"
+      ],
+      "complexity": "medium"
+    },
+    {
+      "id": "function:portal-impl/src/com/liferay/portal/model/impl/RecentLayoutRevisionCacheModel.java:readExternal",
+      "type": "function",
+      "name": "readExternal",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/RecentLayoutRevisionCacheModel.java",
+      "summary": "Exported function readExternal",
+      "tags": [
+        "java",
+        "function",
+        "exported"
+      ],
+      "complexity": "medium"
+    },
+    {
+      "id": "function:portal-impl/src/com/liferay/portal/model/impl/RecentLayoutRevisionCacheModel.java:writeExternal",
+      "type": "function",
+      "name": "writeExternal",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/RecentLayoutRevisionCacheModel.java",
+      "summary": "Exported function writeExternal",
+      "tags": [
+        "java",
+        "function",
+        "exported"
+      ],
+      "complexity": "medium"
+    },
+    {
+      "id": "file:portal-impl/src/com/liferay/portal/model/impl/RecentLayoutSetBranchBaseImpl.java",
+      "type": "file",
+      "name": "RecentLayoutSetBranchBaseImpl.java",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/RecentLayoutSetBranchBaseImpl.java",
+      "summary": "RecentLayoutSetBranch entity implementation in Liferay portal",
+      "tags": [
+        "java",
+        "code",
+        "base-impl",
+        "service-builder"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "class:portal-impl/src/com/liferay/portal/model/impl/RecentLayoutSetBranchBaseImpl.java:RecentLayoutSetBranchBaseImpl",
+      "type": "class",
+      "name": "RecentLayoutSetBranchBaseImpl",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/RecentLayoutSetBranchBaseImpl.java",
+      "summary": "RecentLayoutSetBranchBaseImpl class with 1 methods",
+      "tags": [
+        "java",
+        "class",
+        "methods:1"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "function:portal-impl/src/com/liferay/portal/model/impl/RecentLayoutSetBranchBaseImpl.java:persist",
+      "type": "function",
+      "name": "persist",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/RecentLayoutSetBranchBaseImpl.java",
+      "summary": "Exported function persist",
+      "tags": [
+        "java",
+        "function",
+        "exported"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "file:portal-impl/src/com/liferay/portal/model/impl/RecentLayoutSetBranchCacheModel.java",
+      "type": "file",
+      "name": "RecentLayoutSetBranchCacheModel.java",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/RecentLayoutSetBranchCacheModel.java",
+      "summary": "RecentLayoutSetBranch entity implementation in Liferay portal",
+      "tags": [
+        "java",
+        "code",
+        "cache-model",
+        "serialization"
+      ],
+      "complexity": "high"
+    },
+    {
+      "id": "class:portal-impl/src/com/liferay/portal/model/impl/RecentLayoutSetBranchCacheModel.java:RecentLayoutSetBranchCacheModel",
+      "type": "class",
+      "name": "RecentLayoutSetBranchCacheModel",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/RecentLayoutSetBranchCacheModel.java",
+      "summary": "RecentLayoutSetBranchCacheModel class with 8 methods",
+      "tags": [
+        "java",
+        "class",
+        "methods:8"
+      ],
+      "complexity": "high"
+    },
+    {
+      "id": "function:portal-impl/src/com/liferay/portal/model/impl/RecentLayoutSetBranchCacheModel.java:equals",
+      "type": "function",
+      "name": "equals",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/RecentLayoutSetBranchCacheModel.java",
+      "summary": "Exported function equals",
+      "tags": [
+        "java",
+        "function",
+        "exported"
+      ],
+      "complexity": "medium"
+    },
+    {
+      "id": "function:portal-impl/src/com/liferay/portal/model/impl/RecentLayoutSetBranchCacheModel.java:hashCode",
+      "type": "function",
+      "name": "hashCode",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/RecentLayoutSetBranchCacheModel.java",
+      "summary": "Exported function hashCode",
+      "tags": [
+        "java",
+        "function",
+        "exported"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "function:portal-impl/src/com/liferay/portal/model/impl/RecentLayoutSetBranchCacheModel.java:getMvccVersion",
+      "type": "function",
+      "name": "getMvccVersion",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/RecentLayoutSetBranchCacheModel.java",
+      "summary": "Exported function getMvccVersion",
+      "tags": [
+        "java",
+        "function",
+        "exported"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "function:portal-impl/src/com/liferay/portal/model/impl/RecentLayoutSetBranchCacheModel.java:setMvccVersion",
+      "type": "function",
+      "name": "setMvccVersion",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/RecentLayoutSetBranchCacheModel.java",
+      "summary": "Exported function setMvccVersion",
+      "tags": [
+        "java",
+        "function",
+        "exported"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "function:portal-impl/src/com/liferay/portal/model/impl/RecentLayoutSetBranchCacheModel.java:toString",
+      "type": "function",
+      "name": "toString",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/RecentLayoutSetBranchCacheModel.java",
+      "summary": "Exported function toString",
+      "tags": [
+        "java",
+        "function",
+        "exported"
+      ],
+      "complexity": "medium"
+    },
+    {
+      "id": "function:portal-impl/src/com/liferay/portal/model/impl/RecentLayoutSetBranchCacheModel.java:toEntityModel",
+      "type": "function",
+      "name": "toEntityModel",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/RecentLayoutSetBranchCacheModel.java",
+      "summary": "Exported function toEntityModel",
+      "tags": [
+        "java",
+        "function",
+        "exported"
+      ],
+      "complexity": "medium"
+    },
+    {
+      "id": "function:portal-impl/src/com/liferay/portal/model/impl/RecentLayoutSetBranchCacheModel.java:readExternal",
+      "type": "function",
+      "name": "readExternal",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/RecentLayoutSetBranchCacheModel.java",
+      "summary": "Exported function readExternal",
+      "tags": [
+        "java",
+        "function",
+        "exported"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "function:portal-impl/src/com/liferay/portal/model/impl/RecentLayoutSetBranchCacheModel.java:writeExternal",
+      "type": "function",
+      "name": "writeExternal",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/RecentLayoutSetBranchCacheModel.java",
+      "summary": "Exported function writeExternal",
+      "tags": [
+        "java",
+        "function",
+        "exported"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "file:portal-impl/src/com/liferay/portal/model/impl/RegionBaseImpl.java",
+      "type": "file",
+      "name": "RegionBaseImpl.java",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/RegionBaseImpl.java",
+      "summary": "Region entity implementation in Liferay portal",
+      "tags": [
+        "java",
+        "code",
+        "base-impl",
+        "service-builder"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "class:portal-impl/src/com/liferay/portal/model/impl/RegionBaseImpl.java:RegionBaseImpl",
+      "type": "class",
+      "name": "RegionBaseImpl",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/RegionBaseImpl.java",
+      "summary": "RegionBaseImpl class with 1 methods",
+      "tags": [
+        "java",
+        "class",
+        "methods:1"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "function:portal-impl/src/com/liferay/portal/model/impl/RegionBaseImpl.java:persist",
+      "type": "function",
+      "name": "persist",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/RegionBaseImpl.java",
+      "summary": "Exported function persist",
+      "tags": [
+        "java",
+        "function",
+        "exported"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "file:portal-impl/src/com/liferay/portal/model/impl/ReleaseBaseImpl.java",
+      "type": "file",
+      "name": "ReleaseBaseImpl.java",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/ReleaseBaseImpl.java",
+      "summary": "Release entity implementation in Liferay portal",
+      "tags": [
+        "java",
+        "code",
+        "base-impl",
+        "service-builder"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "class:portal-impl/src/com/liferay/portal/model/impl/ReleaseBaseImpl.java:ReleaseBaseImpl",
+      "type": "class",
+      "name": "ReleaseBaseImpl",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/ReleaseBaseImpl.java",
+      "summary": "ReleaseBaseImpl class with 1 methods",
+      "tags": [
+        "java",
+        "class",
+        "methods:1"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "function:portal-impl/src/com/liferay/portal/model/impl/ReleaseBaseImpl.java:persist",
+      "type": "function",
+      "name": "persist",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/ReleaseBaseImpl.java",
+      "summary": "Exported function persist",
+      "tags": [
+        "java",
+        "function",
+        "exported"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "file:portal-impl/src/com/liferay/portal/model/impl/ReleaseCacheModel.java",
+      "type": "file",
+      "name": "ReleaseCacheModel.java",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/ReleaseCacheModel.java",
+      "summary": "Release entity implementation in Liferay portal",
+      "tags": [
+        "java",
+        "code",
+        "cache-model",
+        "serialization"
+      ],
+      "complexity": "high"
+    },
+    {
+      "id": "class:portal-impl/src/com/liferay/portal/model/impl/ReleaseCacheModel.java:ReleaseCacheModel",
+      "type": "class",
+      "name": "ReleaseCacheModel",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/ReleaseCacheModel.java",
+      "summary": "ReleaseCacheModel class with 8 methods",
+      "tags": [
+        "java",
+        "class",
+        "methods:8"
+      ],
+      "complexity": "high"
+    },
+    {
+      "id": "function:portal-impl/src/com/liferay/portal/model/impl/ReleaseCacheModel.java:equals",
+      "type": "function",
+      "name": "equals",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/ReleaseCacheModel.java",
+      "summary": "Exported function equals",
+      "tags": [
+        "java",
+        "function",
+        "exported"
+      ],
+      "complexity": "medium"
+    },
+    {
+      "id": "function:portal-impl/src/com/liferay/portal/model/impl/ReleaseCacheModel.java:hashCode",
+      "type": "function",
+      "name": "hashCode",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/ReleaseCacheModel.java",
+      "summary": "Exported function hashCode",
+      "tags": [
+        "java",
+        "function",
+        "exported"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "function:portal-impl/src/com/liferay/portal/model/impl/ReleaseCacheModel.java:getMvccVersion",
+      "type": "function",
+      "name": "getMvccVersion",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/ReleaseCacheModel.java",
+      "summary": "Exported function getMvccVersion",
+      "tags": [
+        "java",
+        "function",
+        "exported"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "function:portal-impl/src/com/liferay/portal/model/impl/ReleaseCacheModel.java:setMvccVersion",
+      "type": "function",
+      "name": "setMvccVersion",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/ReleaseCacheModel.java",
+      "summary": "Exported function setMvccVersion",
+      "tags": [
+        "java",
+        "function",
+        "exported"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "function:portal-impl/src/com/liferay/portal/model/impl/ReleaseCacheModel.java:toString",
+      "type": "function",
+      "name": "toString",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/ReleaseCacheModel.java",
+      "summary": "Exported function toString",
+      "tags": [
+        "java",
+        "function",
+        "exported"
+      ],
+      "complexity": "medium"
+    },
+    {
+      "id": "function:portal-impl/src/com/liferay/portal/model/impl/ReleaseCacheModel.java:toEntityModel",
+      "type": "function",
+      "name": "toEntityModel",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/ReleaseCacheModel.java",
+      "summary": "Exported function toEntityModel",
+      "tags": [
+        "java",
+        "function",
+        "exported"
+      ],
+      "complexity": "high"
+    },
+    {
+      "id": "function:portal-impl/src/com/liferay/portal/model/impl/ReleaseCacheModel.java:readExternal",
+      "type": "function",
+      "name": "readExternal",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/ReleaseCacheModel.java",
+      "summary": "Exported function readExternal",
+      "tags": [
+        "java",
+        "function",
+        "exported"
+      ],
+      "complexity": "medium"
+    },
+    {
+      "id": "function:portal-impl/src/com/liferay/portal/model/impl/ReleaseCacheModel.java:writeExternal",
+      "type": "function",
+      "name": "writeExternal",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/ReleaseCacheModel.java",
+      "summary": "Exported function writeExternal",
+      "tags": [
+        "java",
+        "function",
+        "exported"
+      ],
+      "complexity": "high"
+    },
+    {
+      "id": "file:portal-impl/src/com/liferay/portal/model/impl/ResourceActionBaseImpl.java",
+      "type": "file",
+      "name": "ResourceActionBaseImpl.java",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/ResourceActionBaseImpl.java",
+      "summary": "ResourceAction entity implementation in Liferay portal",
+      "tags": [
+        "java",
+        "code",
+        "base-impl",
+        "service-builder"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "class:portal-impl/src/com/liferay/portal/model/impl/ResourceActionBaseImpl.java:ResourceActionBaseImpl",
+      "type": "class",
+      "name": "ResourceActionBaseImpl",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/ResourceActionBaseImpl.java",
+      "summary": "ResourceActionBaseImpl class with 1 methods",
+      "tags": [
+        "java",
+        "class",
+        "methods:1"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "function:portal-impl/src/com/liferay/portal/model/impl/ResourceActionBaseImpl.java:persist",
+      "type": "function",
+      "name": "persist",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/ResourceActionBaseImpl.java",
+      "summary": "Exported function persist",
+      "tags": [
+        "java",
+        "function",
+        "exported"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "file:portal-impl/src/com/liferay/portal/model/impl/ResourceImpl.java",
+      "type": "file",
+      "name": "ResourceImpl.java",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/ResourceImpl.java",
+      "summary": "Resource entity implementation in Liferay portal",
+      "tags": [
+        "java",
+        "code",
+        "model-impl"
+      ],
+      "complexity": "medium"
+    },
+    {
+      "id": "class:portal-impl/src/com/liferay/portal/model/impl/ResourceImpl.java:ResourceImpl",
+      "type": "class",
+      "name": "ResourceImpl",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/ResourceImpl.java",
+      "summary": "ResourceImpl class with 13 methods",
+      "tags": [
+        "java",
+        "class",
+        "methods:13"
+      ],
+      "complexity": "high"
+    },
+    {
+      "id": "function:portal-impl/src/com/liferay/portal/model/impl/ResourceImpl.java:getCodeId",
+      "type": "function",
+      "name": "getCodeId",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/ResourceImpl.java",
+      "summary": "Exported function getCodeId",
+      "tags": [
+        "java",
+        "function",
+        "exported"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "function:portal-impl/src/com/liferay/portal/model/impl/ResourceImpl.java:getCompanyId",
+      "type": "function",
+      "name": "getCompanyId",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/ResourceImpl.java",
+      "summary": "Exported function getCompanyId",
+      "tags": [
+        "java",
+        "function",
+        "exported"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "function:portal-impl/src/com/liferay/portal/model/impl/ResourceImpl.java:getName",
+      "type": "function",
+      "name": "getName",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/ResourceImpl.java",
+      "summary": "Exported function getName",
+      "tags": [
+        "java",
+        "function",
+        "exported"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "function:portal-impl/src/com/liferay/portal/model/impl/ResourceImpl.java:getPrimKey",
+      "type": "function",
+      "name": "getPrimKey",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/ResourceImpl.java",
+      "summary": "Exported function getPrimKey",
+      "tags": [
+        "java",
+        "function",
+        "exported"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "function:portal-impl/src/com/liferay/portal/model/impl/ResourceImpl.java:getResourceId",
+      "type": "function",
+      "name": "getResourceId",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/ResourceImpl.java",
+      "summary": "Exported function getResourceId",
+      "tags": [
+        "java",
+        "function",
+        "exported"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "function:portal-impl/src/com/liferay/portal/model/impl/ResourceImpl.java:getScope",
+      "type": "function",
+      "name": "getScope",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/ResourceImpl.java",
+      "summary": "Exported function getScope",
+      "tags": [
+        "java",
+        "function",
+        "exported"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "function:portal-impl/src/com/liferay/portal/model/impl/ResourceImpl.java:setCodeId",
+      "type": "function",
+      "name": "setCodeId",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/ResourceImpl.java",
+      "summary": "Exported function setCodeId",
+      "tags": [
+        "java",
+        "function",
+        "exported"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "function:portal-impl/src/com/liferay/portal/model/impl/ResourceImpl.java:setCompanyId",
+      "type": "function",
+      "name": "setCompanyId",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/ResourceImpl.java",
+      "summary": "Exported function setCompanyId",
+      "tags": [
+        "java",
+        "function",
+        "exported"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "function:portal-impl/src/com/liferay/portal/model/impl/ResourceImpl.java:setName",
+      "type": "function",
+      "name": "setName",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/ResourceImpl.java",
+      "summary": "Exported function setName",
+      "tags": [
+        "java",
+        "function",
+        "exported"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "function:portal-impl/src/com/liferay/portal/model/impl/ResourceImpl.java:setPrimKey",
+      "type": "function",
+      "name": "setPrimKey",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/ResourceImpl.java",
+      "summary": "Exported function setPrimKey",
+      "tags": [
+        "java",
+        "function",
+        "exported"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "function:portal-impl/src/com/liferay/portal/model/impl/ResourceImpl.java:setResourceId",
+      "type": "function",
+      "name": "setResourceId",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/ResourceImpl.java",
+      "summary": "Exported function setResourceId",
+      "tags": [
+        "java",
+        "function",
+        "exported"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "function:portal-impl/src/com/liferay/portal/model/impl/ResourceImpl.java:setScope",
+      "type": "function",
+      "name": "setScope",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/ResourceImpl.java",
+      "summary": "Exported function setScope",
+      "tags": [
+        "java",
+        "function",
+        "exported"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "function:portal-impl/src/com/liferay/portal/model/impl/ResourceImpl.java:toString",
+      "type": "function",
+      "name": "toString",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/ResourceImpl.java",
+      "summary": "Exported function toString",
+      "tags": [
+        "java",
+        "function",
+        "exported"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "file:portal-impl/src/com/liferay/portal/model/impl/ResourcePermissionImpl.java",
+      "type": "file",
+      "name": "ResourcePermissionImpl.java",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/ResourcePermissionImpl.java",
+      "summary": "ResourcePermission entity implementation in Liferay portal",
+      "tags": [
+        "java",
+        "code",
+        "model-impl"
+      ],
+      "complexity": "medium"
+    },
+    {
+      "id": "class:portal-impl/src/com/liferay/portal/model/impl/ResourcePermissionImpl.java:ResourcePermissionImpl",
+      "type": "class",
+      "name": "ResourcePermissionImpl",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/ResourcePermissionImpl.java",
+      "summary": "ResourcePermissionImpl class with 4 methods",
+      "tags": [
+        "java",
+        "class",
+        "methods:4"
+      ],
+      "complexity": "medium"
+    },
+    {
+      "id": "function:portal-impl/src/com/liferay/portal/model/impl/ResourcePermissionImpl.java:addResourceAction",
+      "type": "function",
+      "name": "addResourceAction",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/ResourcePermissionImpl.java",
+      "summary": "Exported function addResourceAction",
+      "tags": [
+        "java",
+        "function",
+        "exported"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "function:portal-impl/src/com/liferay/portal/model/impl/ResourcePermissionImpl.java:hasAction",
+      "type": "function",
+      "name": "hasAction",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/ResourcePermissionImpl.java",
+      "summary": "Exported function hasAction",
+      "tags": [
+        "java",
+        "function",
+        "exported"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "function:portal-impl/src/com/liferay/portal/model/impl/ResourcePermissionImpl.java:hasActionId",
+      "type": "function",
+      "name": "hasActionId",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/ResourcePermissionImpl.java",
+      "summary": "Exported function hasActionId",
+      "tags": [
+        "java",
+        "function",
+        "exported"
+      ],
+      "complexity": "low"
+    }
+  ],
+  "edges": [
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/model/impl/RecentLayoutSetBranchBaseImpl.java",
+      "target": "class:portal-impl/src/com/liferay/portal/model/impl/RecentLayoutSetBranchBaseImpl.java:RecentLayoutSetBranchBaseImpl",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/model/impl/RecentLayoutSetBranchBaseImpl.java",
+      "target": "class:portal-impl/src/com/liferay/portal/model/impl/RecentLayoutSetBranchBaseImpl.java:RecentLayoutSetBranchBaseImpl",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/model/impl/RecentLayoutSetBranchBaseImpl.java",
+      "target": "function:portal-impl/src/com/liferay/portal/model/impl/RecentLayoutSetBranchBaseImpl.java:persist",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/model/impl/RecentLayoutSetBranchBaseImpl.java",
+      "target": "function:portal-impl/src/com/liferay/portal/model/impl/RecentLayoutSetBranchBaseImpl.java:persist",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/model/impl/RecentLayoutSetBranchBaseImpl.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/model/RecentLayoutSetBranch.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/model/impl/RecentLayoutSetBranchBaseImpl.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/service/RecentLayoutSetBranchLocalServiceUtil.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/model/impl/RecentLayoutSetBranchCacheModel.java",
+      "target": "class:portal-impl/src/com/liferay/portal/model/impl/RecentLayoutSetBranchCacheModel.java:RecentLayoutSetBranchCacheModel",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/model/impl/RecentLayoutSetBranchCacheModel.java",
+      "target": "class:portal-impl/src/com/liferay/portal/model/impl/RecentLayoutSetBranchCacheModel.java:RecentLayoutSetBranchCacheModel",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/model/impl/RecentLayoutSetBranchCacheModel.java",
+      "target": "function:portal-impl/src/com/liferay/portal/model/impl/RecentLayoutSetBranchCacheModel.java:equals",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/model/impl/RecentLayoutSetBranchCacheModel.java",
+      "target": "function:portal-impl/src/com/liferay/portal/model/impl/RecentLayoutSetBranchCacheModel.java:equals",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/model/impl/RecentLayoutSetBranchCacheModel.java",
+      "target": "function:portal-impl/src/com/liferay/portal/model/impl/RecentLayoutSetBranchCacheModel.java:hashCode",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/model/impl/RecentLayoutSetBranchCacheModel.java",
+      "target": "function:portal-impl/src/com/liferay/portal/model/impl/RecentLayoutSetBranchCacheModel.java:hashCode",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/model/impl/RecentLayoutSetBranchCacheModel.java",
+      "target": "function:portal-impl/src/com/liferay/portal/model/impl/RecentLayoutSetBranchCacheModel.java:getMvccVersion",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/model/impl/RecentLayoutSetBranchCacheModel.java",
+      "target": "function:portal-impl/src/com/liferay/portal/model/impl/RecentLayoutSetBranchCacheModel.java:getMvccVersion",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/model/impl/RecentLayoutSetBranchCacheModel.java",
+      "target": "function:portal-impl/src/com/liferay/portal/model/impl/RecentLayoutSetBranchCacheModel.java:setMvccVersion",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/model/impl/RecentLayoutSetBranchCacheModel.java",
+      "target": "function:portal-impl/src/com/liferay/portal/model/impl/RecentLayoutSetBranchCacheModel.java:setMvccVersion",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/model/impl/RecentLayoutSetBranchCacheModel.java",
+      "target": "function:portal-impl/src/com/liferay/portal/model/impl/RecentLayoutSetBranchCacheModel.java:toString",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/model/impl/RecentLayoutSetBranchCacheModel.java",
+      "target": "function:portal-impl/src/com/liferay/portal/model/impl/RecentLayoutSetBranchCacheModel.java:toString",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/model/impl/RecentLayoutSetBranchCacheModel.java",
+      "target": "function:portal-impl/src/com/liferay/portal/model/impl/RecentLayoutSetBranchCacheModel.java:toEntityModel",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/model/impl/RecentLayoutSetBranchCacheModel.java",
+      "target": "function:portal-impl/src/com/liferay/portal/model/impl/RecentLayoutSetBranchCacheModel.java:toEntityModel",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/model/impl/RecentLayoutSetBranchCacheModel.java",
+      "target": "function:portal-impl/src/com/liferay/portal/model/impl/RecentLayoutSetBranchCacheModel.java:readExternal",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/model/impl/RecentLayoutSetBranchCacheModel.java",
+      "target": "function:portal-impl/src/com/liferay/portal/model/impl/RecentLayoutSetBranchCacheModel.java:readExternal",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/model/impl/RecentLayoutSetBranchCacheModel.java",
+      "target": "function:portal-impl/src/com/liferay/portal/model/impl/RecentLayoutSetBranchCacheModel.java:writeExternal",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/model/impl/RecentLayoutSetBranchCacheModel.java",
+      "target": "function:portal-impl/src/com/liferay/portal/model/impl/RecentLayoutSetBranchCacheModel.java:writeExternal",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/model/impl/RecentLayoutSetBranchCacheModel.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/model/CacheModel.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/model/impl/RecentLayoutSetBranchCacheModel.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/model/MVCCModel.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/model/impl/RecentLayoutSetBranchCacheModel.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/model/RecentLayoutSetBranch.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/model/impl/RegionBaseImpl.java",
+      "target": "class:portal-impl/src/com/liferay/portal/model/impl/RegionBaseImpl.java:RegionBaseImpl",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/model/impl/RegionBaseImpl.java",
+      "target": "class:portal-impl/src/com/liferay/portal/model/impl/RegionBaseImpl.java:RegionBaseImpl",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/model/impl/RegionBaseImpl.java",
+      "target": "function:portal-impl/src/com/liferay/portal/model/impl/RegionBaseImpl.java:persist",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/model/impl/RegionBaseImpl.java",
+      "target": "function:portal-impl/src/com/liferay/portal/model/impl/RegionBaseImpl.java:persist",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/model/impl/RegionBaseImpl.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/model/Region.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/model/impl/RegionBaseImpl.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/service/RegionLocalServiceUtil.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/model/impl/ReleaseBaseImpl.java",
+      "target": "class:portal-impl/src/com/liferay/portal/model/impl/ReleaseBaseImpl.java:ReleaseBaseImpl",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/model/impl/ReleaseBaseImpl.java",
+      "target": "class:portal-impl/src/com/liferay/portal/model/impl/ReleaseBaseImpl.java:ReleaseBaseImpl",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/model/impl/ReleaseBaseImpl.java",
+      "target": "function:portal-impl/src/com/liferay/portal/model/impl/ReleaseBaseImpl.java:persist",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/model/impl/ReleaseBaseImpl.java",
+      "target": "function:portal-impl/src/com/liferay/portal/model/impl/ReleaseBaseImpl.java:persist",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/model/impl/ReleaseBaseImpl.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/model/Release.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/model/impl/ReleaseBaseImpl.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/service/ReleaseLocalServiceUtil.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/model/impl/ReleaseCacheModel.java",
+      "target": "class:portal-impl/src/com/liferay/portal/model/impl/ReleaseCacheModel.java:ReleaseCacheModel",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/model/impl/ReleaseCacheModel.java",
+      "target": "class:portal-impl/src/com/liferay/portal/model/impl/ReleaseCacheModel.java:ReleaseCacheModel",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/model/impl/ReleaseCacheModel.java",
+      "target": "function:portal-impl/src/com/liferay/portal/model/impl/ReleaseCacheModel.java:equals",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/model/impl/ReleaseCacheModel.java",
+      "target": "function:portal-impl/src/com/liferay/portal/model/impl/ReleaseCacheModel.java:equals",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/model/impl/ReleaseCacheModel.java",
+      "target": "function:portal-impl/src/com/liferay/portal/model/impl/ReleaseCacheModel.java:hashCode",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/model/impl/ReleaseCacheModel.java",
+      "target": "function:portal-impl/src/com/liferay/portal/model/impl/ReleaseCacheModel.java:hashCode",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/model/impl/ReleaseCacheModel.java",
+      "target": "function:portal-impl/src/com/liferay/portal/model/impl/ReleaseCacheModel.java:getMvccVersion",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/model/impl/ReleaseCacheModel.java",
+      "target": "function:portal-impl/src/com/liferay/portal/model/impl/ReleaseCacheModel.java:getMvccVersion",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/model/impl/ReleaseCacheModel.java",
+      "target": "function:portal-impl/src/com/liferay/portal/model/impl/ReleaseCacheModel.java:setMvccVersion",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/model/impl/ReleaseCacheModel.java",
+      "target": "function:portal-impl/src/com/liferay/portal/model/impl/ReleaseCacheModel.java:setMvccVersion",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/model/impl/ReleaseCacheModel.java",
+      "target": "function:portal-impl/src/com/liferay/portal/model/impl/ReleaseCacheModel.java:toString",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/model/impl/ReleaseCacheModel.java",
+      "target": "function:portal-impl/src/com/liferay/portal/model/impl/ReleaseCacheModel.java:toString",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/model/impl/ReleaseCacheModel.java",
+      "target": "function:portal-impl/src/com/liferay/portal/model/impl/ReleaseCacheModel.java:toEntityModel",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/model/impl/ReleaseCacheModel.java",
+      "target": "function:portal-impl/src/com/liferay/portal/model/impl/ReleaseCacheModel.java:toEntityModel",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/model/impl/ReleaseCacheModel.java",
+      "target": "function:portal-impl/src/com/liferay/portal/model/impl/ReleaseCacheModel.java:readExternal",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/model/impl/ReleaseCacheModel.java",
+      "target": "function:portal-impl/src/com/liferay/portal/model/impl/ReleaseCacheModel.java:readExternal",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/model/impl/ReleaseCacheModel.java",
+      "target": "function:portal-impl/src/com/liferay/portal/model/impl/ReleaseCacheModel.java:writeExternal",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/model/impl/ReleaseCacheModel.java",
+      "target": "function:portal-impl/src/com/liferay/portal/model/impl/ReleaseCacheModel.java:writeExternal",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/model/impl/ReleaseCacheModel.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/model/CacheModel.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/model/impl/ReleaseCacheModel.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/model/MVCCModel.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/model/impl/ReleaseCacheModel.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/model/Release.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/model/impl/ResourceActionBaseImpl.java",
+      "target": "class:portal-impl/src/com/liferay/portal/model/impl/ResourceActionBaseImpl.java:ResourceActionBaseImpl",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/model/impl/ResourceActionBaseImpl.java",
+      "target": "class:portal-impl/src/com/liferay/portal/model/impl/ResourceActionBaseImpl.java:ResourceActionBaseImpl",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/model/impl/ResourceActionBaseImpl.java",
+      "target": "function:portal-impl/src/com/liferay/portal/model/impl/ResourceActionBaseImpl.java:persist",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/model/impl/ResourceActionBaseImpl.java",
+      "target": "function:portal-impl/src/com/liferay/portal/model/impl/ResourceActionBaseImpl.java:persist",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/model/impl/ResourceActionBaseImpl.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/model/ResourceAction.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/model/impl/ResourceActionBaseImpl.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/service/ResourceActionLocalServiceUtil.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/model/impl/ResourceImpl.java",
+      "target": "class:portal-impl/src/com/liferay/portal/model/impl/ResourceImpl.java:ResourceImpl",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/model/impl/ResourceImpl.java",
+      "target": "class:portal-impl/src/com/liferay/portal/model/impl/ResourceImpl.java:ResourceImpl",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/model/impl/ResourceImpl.java",
+      "target": "function:portal-impl/src/com/liferay/portal/model/impl/ResourceImpl.java:getCodeId",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/model/impl/ResourceImpl.java",
+      "target": "function:portal-impl/src/com/liferay/portal/model/impl/ResourceImpl.java:getCodeId",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/model/impl/ResourceImpl.java",
+      "target": "function:portal-impl/src/com/liferay/portal/model/impl/ResourceImpl.java:getCompanyId",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/model/impl/ResourceImpl.java",
+      "target": "function:portal-impl/src/com/liferay/portal/model/impl/ResourceImpl.java:getCompanyId",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/model/impl/ResourceImpl.java",
+      "target": "function:portal-impl/src/com/liferay/portal/model/impl/ResourceImpl.java:getName",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/model/impl/ResourceImpl.java",
+      "target": "function:portal-impl/src/com/liferay/portal/model/impl/ResourceImpl.java:getName",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/model/impl/ResourceImpl.java",
+      "target": "function:portal-impl/src/com/liferay/portal/model/impl/ResourceImpl.java:getPrimKey",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/model/impl/ResourceImpl.java",
+      "target": "function:portal-impl/src/com/liferay/portal/model/impl/ResourceImpl.java:getPrimKey",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/model/impl/ResourceImpl.java",
+      "target": "function:portal-impl/src/com/liferay/portal/model/impl/ResourceImpl.java:getResourceId",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/model/impl/ResourceImpl.java",
+      "target": "function:portal-impl/src/com/liferay/portal/model/impl/ResourceImpl.java:getResourceId",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/model/impl/ResourceImpl.java",
+      "target": "function:portal-impl/src/com/liferay/portal/model/impl/ResourceImpl.java:getScope",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/model/impl/ResourceImpl.java",
+      "target": "function:portal-impl/src/com/liferay/portal/model/impl/ResourceImpl.java:getScope",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/model/impl/ResourceImpl.java",
+      "target": "function:portal-impl/src/com/liferay/portal/model/impl/ResourceImpl.java:setCodeId",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/model/impl/ResourceImpl.java",
+      "target": "function:portal-impl/src/com/liferay/portal/model/impl/ResourceImpl.java:setCodeId",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/model/impl/ResourceImpl.java",
+      "target": "function:portal-impl/src/com/liferay/portal/model/impl/ResourceImpl.java:setCompanyId",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/model/impl/ResourceImpl.java",
+      "target": "function:portal-impl/src/com/liferay/portal/model/impl/ResourceImpl.java:setCompanyId",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/model/impl/ResourceImpl.java",
+      "target": "function:portal-impl/src/com/liferay/portal/model/impl/ResourceImpl.java:setName",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/model/impl/ResourceImpl.java",
+      "target": "function:portal-impl/src/com/liferay/portal/model/impl/ResourceImpl.java:setName",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/model/impl/ResourceImpl.java",
+      "target": "function:portal-impl/src/com/liferay/portal/model/impl/ResourceImpl.java:setPrimKey",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/model/impl/ResourceImpl.java",
+      "target": "function:portal-impl/src/com/liferay/portal/model/impl/ResourceImpl.java:setPrimKey",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/model/impl/ResourceImpl.java",
+      "target": "function:portal-impl/src/com/liferay/portal/model/impl/ResourceImpl.java:setResourceId",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/model/impl/ResourceImpl.java",
+      "target": "function:portal-impl/src/com/liferay/portal/model/impl/ResourceImpl.java:setResourceId",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/model/impl/ResourceImpl.java",
+      "target": "function:portal-impl/src/com/liferay/portal/model/impl/ResourceImpl.java:setScope",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/model/impl/ResourceImpl.java",
+      "target": "function:portal-impl/src/com/liferay/portal/model/impl/ResourceImpl.java:setScope",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/model/impl/ResourceImpl.java",
+      "target": "function:portal-impl/src/com/liferay/portal/model/impl/ResourceImpl.java:toString",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/model/impl/ResourceImpl.java",
+      "target": "function:portal-impl/src/com/liferay/portal/model/impl/ResourceImpl.java:toString",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/model/impl/ResourceImpl.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/model/Resource.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/model/impl/ResourcePermissionImpl.java",
+      "target": "class:portal-impl/src/com/liferay/portal/model/impl/ResourcePermissionImpl.java:ResourcePermissionImpl",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/model/impl/ResourcePermissionImpl.java",
+      "target": "class:portal-impl/src/com/liferay/portal/model/impl/ResourcePermissionImpl.java:ResourcePermissionImpl",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/model/impl/ResourcePermissionImpl.java",
+      "target": "function:portal-impl/src/com/liferay/portal/model/impl/ResourcePermissionImpl.java:addResourceAction",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/model/impl/ResourcePermissionImpl.java",
+      "target": "function:portal-impl/src/com/liferay/portal/model/impl/ResourcePermissionImpl.java:addResourceAction",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/model/impl/ResourcePermissionImpl.java",
+      "target": "function:portal-impl/src/com/liferay/portal/model/impl/ResourcePermissionImpl.java:hasAction",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/model/impl/ResourcePermissionImpl.java",
+      "target": "function:portal-impl/src/com/liferay/portal/model/impl/ResourcePermissionImpl.java:hasAction",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/model/impl/ResourcePermissionImpl.java",
+      "target": "function:portal-impl/src/com/liferay/portal/model/impl/ResourcePermissionImpl.java:hasActionId",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/model/impl/ResourcePermissionImpl.java",
+      "target": "function:portal-impl/src/com/liferay/portal/model/impl/ResourcePermissionImpl.java:hasActionId",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/model/impl/ResourcePermissionImpl.java",
+      "target": "function:portal-impl/src/com/liferay/portal/model/impl/ResourcePermissionImpl.java:removeResourceAction",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/model/impl/ResourcePermissionImpl.java",
+      "target": "function:portal-impl/src/com/liferay/portal/model/impl/ResourcePermissionImpl.java:removeResourceAction",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/model/impl/ResourcePermissionImpl.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/exception/PortalException.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/model/impl/ResourcePermissionImpl.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/model/ResourceAction.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/model/impl/ResourcePermissionImpl.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/service/ResourceActionLocalServiceUtil.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    }
+  ]
+}

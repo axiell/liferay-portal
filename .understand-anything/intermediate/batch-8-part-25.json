@@ -1,0 +1,779 @@
+{
+  "nodes": [
+    {
+      "id": "function:com/liferay/portal/model/impl/UserTrackerCacheModel:UserTrackerCacheModel:equals",
+      "type": "function",
+      "name": "equals",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/UserTrackerCacheModel.java",
+      "summary": "equals() in UserTrackerCacheModel.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "function:com/liferay/portal/model/impl/UserTrackerCacheModel:UserTrackerCacheModel:hashCode",
+      "type": "function",
+      "name": "hashCode",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/UserTrackerCacheModel.java",
+      "summary": "hashCode() in UserTrackerCacheModel.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "function:com/liferay/portal/model/impl/UserTrackerCacheModel:UserTrackerCacheModel:getMvccVersion",
+      "type": "function",
+      "name": "getMvccVersion",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/UserTrackerCacheModel.java",
+      "summary": "getMvccVersion() in UserTrackerCacheModel.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "function:com/liferay/portal/model/impl/UserTrackerCacheModel:UserTrackerCacheModel:setMvccVersion",
+      "type": "function",
+      "name": "setMvccVersion",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/UserTrackerCacheModel.java",
+      "summary": "setMvccVersion() in UserTrackerCacheModel.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "function:com/liferay/portal/model/impl/UserTrackerCacheModel:UserTrackerCacheModel:toString",
+      "type": "function",
+      "name": "toString",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/UserTrackerCacheModel.java",
+      "summary": "toString() in UserTrackerCacheModel.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "function:com/liferay/portal/model/impl/UserTrackerCacheModel:UserTrackerCacheModel:toEntityModel",
+      "type": "function",
+      "name": "toEntityModel",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/UserTrackerCacheModel.java",
+      "summary": "toEntityModel() in UserTrackerCacheModel.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "function:com/liferay/portal/model/impl/UserTrackerCacheModel:UserTrackerCacheModel:readExternal",
+      "type": "function",
+      "name": "readExternal",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/UserTrackerCacheModel.java",
+      "summary": "readExternal() in UserTrackerCacheModel.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "function:com/liferay/portal/model/impl/UserTrackerCacheModel:UserTrackerCacheModel:writeExternal",
+      "type": "function",
+      "name": "writeExternal",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/UserTrackerCacheModel.java",
+      "summary": "writeExternal() in UserTrackerCacheModel.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "file:com/liferay/portal/model/impl/UserTrackerImpl",
+      "type": "file",
+      "name": "UserTrackerImpl.java",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/UserTrackerImpl.java",
+      "summary": "UserTrackerImpl.java - com/liferay/portal/model/impl/UserTrackerImpl",
+      "tags": [
+        "code",
+        "java",
+        "class-definition"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "class:com/liferay/portal/model/impl/UserTrackerImpl:UserTrackerImpl",
+      "type": "class",
+      "name": "UserTrackerImpl",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/UserTrackerImpl.java",
+      "summary": "UserTrackerImpl class in UserTrackerImpl.java",
+      "tags": [
+        "class"
+      ],
+      "complexity": "low",
+      "methods": [
+        "addPath",
+        "compareTo",
+        "getEmailAddress",
+        "getFullName",
+        "getHits",
+        "getPaths"
+      ],
+      "properties": [
+        "_log",
+        "_emailAddress",
+        "_fullName",
+        "_paths",
+        "_user"
+      ]
+    },
+    {
+      "id": "function:com/liferay/portal/model/impl/UserTrackerImpl:UserTrackerImpl:getEmailAddress",
+      "type": "function",
+      "name": "getEmailAddress",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/UserTrackerImpl.java",
+      "summary": "getEmailAddress() in UserTrackerImpl.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "function:com/liferay/portal/model/impl/UserTrackerImpl:UserTrackerImpl:getFullName",
+      "type": "function",
+      "name": "getFullName",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/UserTrackerImpl.java",
+      "summary": "getFullName() in UserTrackerImpl.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "function:com/liferay/portal/model/impl/UserTrackerImpl:UserTrackerImpl:getHits",
+      "type": "function",
+      "name": "getHits",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/UserTrackerImpl.java",
+      "summary": "getHits() in UserTrackerImpl.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "function:com/liferay/portal/model/impl/UserTrackerImpl:UserTrackerImpl:getPaths",
+      "type": "function",
+      "name": "getPaths",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/UserTrackerImpl.java",
+      "summary": "getPaths() in UserTrackerImpl.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "file:com/liferay/portal/kernel/log/Log",
+      "type": "file",
+      "name": "Log.java",
+      "filePath": "portal-kernel/src/com/liferay/portal/kernel/log/Log.java",
+      "summary": "Log.java - com/liferay/portal/kernel/log/Log",
+      "tags": [
+        "code",
+        "java",
+        "imported"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "file:com/liferay/portal/kernel/log/LogFactoryUtil",
+      "type": "file",
+      "name": "LogFactoryUtil.java",
+      "filePath": "portal-kernel/src/com/liferay/portal/kernel/log/LogFactoryUtil.java",
+      "summary": "LogFactoryUtil.java - com/liferay/portal/kernel/log/LogFactoryUtil",
+      "tags": [
+        "code",
+        "java",
+        "imported"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "file:com/liferay/portal/kernel/model/UserTrackerPath",
+      "type": "file",
+      "name": "UserTrackerPath.java",
+      "filePath": "portal-kernel/src/com/liferay/portal/kernel/model/UserTrackerPath.java",
+      "summary": "UserTrackerPath.java - com/liferay/portal/kernel/model/UserTrackerPath",
+      "tags": [
+        "code",
+        "java",
+        "imported"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "file:com/liferay/portal/model/impl/UserTrackerModelImpl",
+      "type": "file",
+      "name": "UserTrackerModelImpl.java",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/UserTrackerModelImpl.java",
+      "summary": "UserTrackerModelImpl.java - com/liferay/portal/model/impl/UserTrackerModelImpl",
+      "tags": [
+        "code",
+        "java",
+        "class-definition"
+      ],
+      "complexity": "high"
+    },
+    {
+      "id": "class:com/liferay/portal/model/impl/UserTrackerModelImpl:UserTrackerModelImpl",
+      "type": "class",
+      "name": "UserTrackerModelImpl",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/UserTrackerModelImpl.java",
+      "summary": "UserTrackerModelImpl class in UserTrackerModelImpl.java",
+      "tags": [
+        "class"
+      ],
+      "complexity": "high",
+      "methods": [
+        "UserTrackerModelImpl",
+        "getPrimaryKey",
+        "setPrimaryKey",
+        "getPrimaryKeyObj",
+        "setPrimaryKeyObj",
+        "getModelClass",
+        "getModelClassName",
+        "getModelAttributes",
+        "setModelAttributes",
+        "getAttributeGetterFunctions",
+        "getAttributeSetterBiConsumers",
+        "getMvccVersion",
+        "setMvccVersion",
+        "getUserTrackerId",
+        "setUserTrackerId",
+        "getCompanyId",
+        "setCompanyId",
+        "getOriginalCompanyId",
+        "getUserId",
+        "setUserId",
+        "getUserUuid",
+        "setUserUuid",
+        "getOriginalUserId",
+        "getModifiedDate",
+        "hasSetModifiedDate",
+        "setModifiedDate",
+        "getSessionId",
+        "setSessionId",
+        "getOriginalSessionId",
+        "getRemoteAddr",
+        "setRemoteAddr",
+        "getRemoteHost",
+        "setRemoteHost",
+        "getUserAgent",
+        "setUserAgent",
+        "getColumnBitmask",
+        "getExpandoBridge",
+        "setExpandoBridgeAttributes",
+        "toEscapedModel",
+        "clone",
+        "cloneWithOriginalValues",
+        "compareTo",
+        "equals",
+        "hashCode",
+        "isEntityCacheEnabled",
+        "isFinderCacheEnabled",
+        "resetOriginalValues",
+        "toCacheModel",
+        "toString",
+        "getColumnValue",
+        "getColumnOriginalValue",
+        "_setColumnOriginalValues",
+        "getColumnBitmask"
+      ],
+      "properties": [
+        "TABLE_NAME",
+        "TABLE_COLUMNS",
+        "TABLE_COLUMNS_MAP",
+        "TABLE_SQL_CREATE",
+        "TABLE_SQL_DROP",
+        "ORDER_BY_JPQL",
+        "ORDER_BY_SQL",
+        "DATA_SOURCE",
+        "SESSION_FACTORY",
+        "TX_MANAGER",
+        "ENTITY_CACHE_ENABLED",
+        "FINDER_CACHE_ENABLED",
+        "COLUMN_BITMASK_ENABLED",
+        "COMPANYID_COLUMN_BITMASK",
+        "SESSIONID_COLUMN_BITMASK",
+        "USERID_COLUMN_BITMASK",
+        "USERTRACKERID_COLUMN_BITMASK",
+        "LOCK_EXPIRATION_TIME",
+        "_mvccVersion",
+        "_userTrackerId",
+        "_companyId",
+        "_userId",
+        "_modifiedDate",
+        "_setModifiedDate",
+        "_sessionId",
+        "_remoteAddr",
+        "_remoteHost",
+        "_userAgent",
+        "_columnOriginalValues",
+        "_columnBitmasks",
+        "_columnBitmask",
+        "_escapedModel"
+      ]
+    },
+    {
+      "id": "function:com/liferay/portal/model/impl/UserTrackerModelImpl:UserTrackerModelImpl:getPrimaryKey",
+      "type": "function",
+      "name": "getPrimaryKey",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/UserTrackerModelImpl.java",
+      "summary": "getPrimaryKey() in UserTrackerModelImpl.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "function:com/liferay/portal/model/impl/UserTrackerModelImpl:UserTrackerModelImpl:setPrimaryKey",
+      "type": "function",
+      "name": "setPrimaryKey",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/UserTrackerModelImpl.java",
+      "summary": "setPrimaryKey() in UserTrackerModelImpl.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "function:com/liferay/portal/model/impl/UserTrackerModelImpl:UserTrackerModelImpl:getPrimaryKeyObj",
+      "type": "function",
+      "name": "getPrimaryKeyObj",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/UserTrackerModelImpl.java",
+      "summary": "getPrimaryKeyObj() in UserTrackerModelImpl.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "function:com/liferay/portal/model/impl/UserTrackerModelImpl:UserTrackerModelImpl:setPrimaryKeyObj",
+      "type": "function",
+      "name": "setPrimaryKeyObj",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/UserTrackerModelImpl.java",
+      "summary": "setPrimaryKeyObj() in UserTrackerModelImpl.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "function:com/liferay/portal/model/impl/UserTrackerModelImpl:UserTrackerModelImpl:getModelClass",
+      "type": "function",
+      "name": "getModelClass",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/UserTrackerModelImpl.java",
+      "summary": "getModelClass() in UserTrackerModelImpl.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "function:com/liferay/portal/model/impl/UserTrackerModelImpl:UserTrackerModelImpl:getModelClassName",
+      "type": "function",
+      "name": "getModelClassName",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/UserTrackerModelImpl.java",
+      "summary": "getModelClassName() in UserTrackerModelImpl.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "function:com/liferay/portal/model/impl/UserTrackerModelImpl:UserTrackerModelImpl:getModelAttributes",
+      "type": "function",
+      "name": "getModelAttributes",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/UserTrackerModelImpl.java",
+      "summary": "getModelAttributes() in UserTrackerModelImpl.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "function:com/liferay/portal/model/impl/UserTrackerModelImpl:UserTrackerModelImpl:setModelAttributes",
+      "type": "function",
+      "name": "setModelAttributes",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/UserTrackerModelImpl.java",
+      "summary": "setModelAttributes() in UserTrackerModelImpl.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "function:com/liferay/portal/model/impl/UserTrackerModelImpl:UserTrackerModelImpl:getAttributeGetterFunctions",
+      "type": "function",
+      "name": "getAttributeGetterFunctions",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/UserTrackerModelImpl.java",
+      "summary": "getAttributeGetterFunctions() in UserTrackerModelImpl.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "function:com/liferay/portal/model/impl/UserTrackerModelImpl:UserTrackerModelImpl:getAttributeSetterBiConsumers",
+      "type": "function",
+      "name": "getAttributeSetterBiConsumers",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/UserTrackerModelImpl.java",
+      "summary": "getAttributeSetterBiConsumers() in UserTrackerModelImpl.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "function:com/liferay/portal/model/impl/UserTrackerModelImpl:UserTrackerModelImpl:getMvccVersion",
+      "type": "function",
+      "name": "getMvccVersion",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/UserTrackerModelImpl.java",
+      "summary": "getMvccVersion() in UserTrackerModelImpl.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "function:com/liferay/portal/model/impl/UserTrackerModelImpl:UserTrackerModelImpl:setMvccVersion",
+      "type": "function",
+      "name": "setMvccVersion",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/UserTrackerModelImpl.java",
+      "summary": "setMvccVersion() in UserTrackerModelImpl.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "function:com/liferay/portal/model/impl/UserTrackerModelImpl:UserTrackerModelImpl:getUserTrackerId",
+      "type": "function",
+      "name": "getUserTrackerId",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/UserTrackerModelImpl.java",
+      "summary": "getUserTrackerId() in UserTrackerModelImpl.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "function:com/liferay/portal/model/impl/UserTrackerModelImpl:UserTrackerModelImpl:setUserTrackerId",
+      "type": "function",
+      "name": "setUserTrackerId",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/UserTrackerModelImpl.java",
+      "summary": "setUserTrackerId() in UserTrackerModelImpl.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "function:com/liferay/portal/model/impl/UserTrackerModelImpl:UserTrackerModelImpl:getCompanyId",
+      "type": "function",
+      "name": "getCompanyId",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/UserTrackerModelImpl.java",
+      "summary": "getCompanyId() in UserTrackerModelImpl.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "function:com/liferay/portal/model/impl/UserTrackerModelImpl:UserTrackerModelImpl:setCompanyId",
+      "type": "function",
+      "name": "setCompanyId",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/UserTrackerModelImpl.java",
+      "summary": "setCompanyId() in UserTrackerModelImpl.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "function:com/liferay/portal/model/impl/UserTrackerModelImpl:UserTrackerModelImpl:getOriginalCompanyId",
+      "type": "function",
+      "name": "getOriginalCompanyId",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/UserTrackerModelImpl.java",
+      "summary": "getOriginalCompanyId() in UserTrackerModelImpl.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "function:com/liferay/portal/model/impl/UserTrackerModelImpl:UserTrackerModelImpl:getUserId",
+      "type": "function",
+      "name": "getUserId",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/UserTrackerModelImpl.java",
+      "summary": "getUserId() in UserTrackerModelImpl.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "function:com/liferay/portal/model/impl/UserTrackerModelImpl:UserTrackerModelImpl:setUserId",
+      "type": "function",
+      "name": "setUserId",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/UserTrackerModelImpl.java",
+      "summary": "setUserId() in UserTrackerModelImpl.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "function:com/liferay/portal/model/impl/UserTrackerModelImpl:UserTrackerModelImpl:getUserUuid",
+      "type": "function",
+      "name": "getUserUuid",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/UserTrackerModelImpl.java",
+      "summary": "getUserUuid() in UserTrackerModelImpl.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "function:com/liferay/portal/model/impl/UserTrackerModelImpl:UserTrackerModelImpl:setUserUuid",
+      "type": "function",
+      "name": "setUserUuid",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/UserTrackerModelImpl.java",
+      "summary": "setUserUuid() in UserTrackerModelImpl.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "function:com/liferay/portal/model/impl/UserTrackerModelImpl:UserTrackerModelImpl:getOriginalUserId",
+      "type": "function",
+      "name": "getOriginalUserId",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/UserTrackerModelImpl.java",
+      "summary": "getOriginalUserId() in UserTrackerModelImpl.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "function:com/liferay/portal/model/impl/UserTrackerModelImpl:UserTrackerModelImpl:getModifiedDate",
+      "type": "function",
+      "name": "getModifiedDate",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/UserTrackerModelImpl.java",
+      "summary": "getModifiedDate() in UserTrackerModelImpl.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "function:com/liferay/portal/model/impl/UserTrackerModelImpl:UserTrackerModelImpl:setModifiedDate",
+      "type": "function",
+      "name": "setModifiedDate",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/UserTrackerModelImpl.java",
+      "summary": "setModifiedDate() in UserTrackerModelImpl.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "function:com/liferay/portal/model/impl/UserTrackerModelImpl:UserTrackerModelImpl:getSessionId",
+      "type": "function",
+      "name": "getSessionId",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/UserTrackerModelImpl.java",
+      "summary": "getSessionId() in UserTrackerModelImpl.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "function:com/liferay/portal/model/impl/UserTrackerModelImpl:UserTrackerModelImpl:setSessionId",
+      "type": "function",
+      "name": "setSessionId",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/UserTrackerModelImpl.java",
+      "summary": "setSessionId() in UserTrackerModelImpl.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "function:com/liferay/portal/model/impl/UserTrackerModelImpl:UserTrackerModelImpl:getOriginalSessionId",
+      "type": "function",
+      "name": "getOriginalSessionId",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/UserTrackerModelImpl.java",
+      "summary": "getOriginalSessionId() in UserTrackerModelImpl.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "function:com/liferay/portal/model/impl/UserTrackerModelImpl:UserTrackerModelImpl:getRemoteAddr",
+      "type": "function",
+      "name": "getRemoteAddr",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/UserTrackerModelImpl.java",
+      "summary": "getRemoteAddr() in UserTrackerModelImpl.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "function:com/liferay/portal/model/impl/UserTrackerModelImpl:UserTrackerModelImpl:setRemoteAddr",
+      "type": "function",
+      "name": "setRemoteAddr",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/UserTrackerModelImpl.java",
+      "summary": "setRemoteAddr() in UserTrackerModelImpl.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "function:com/liferay/portal/model/impl/UserTrackerModelImpl:UserTrackerModelImpl:getRemoteHost",
+      "type": "function",
+      "name": "getRemoteHost",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/UserTrackerModelImpl.java",
+      "summary": "getRemoteHost() in UserTrackerModelImpl.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "function:com/liferay/portal/model/impl/UserTrackerModelImpl:UserTrackerModelImpl:setRemoteHost",
+      "type": "function",
+      "name": "setRemoteHost",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/UserTrackerModelImpl.java",
+      "summary": "setRemoteHost() in UserTrackerModelImpl.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "function:com/liferay/portal/model/impl/UserTrackerModelImpl:UserTrackerModelImpl:getUserAgent",
+      "type": "function",
+      "name": "getUserAgent",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/UserTrackerModelImpl.java",
+      "summary": "getUserAgent() in UserTrackerModelImpl.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "function:com/liferay/portal/model/impl/UserTrackerModelImpl:UserTrackerModelImpl:setUserAgent",
+      "type": "function",
+      "name": "setUserAgent",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/UserTrackerModelImpl.java",
+      "summary": "setUserAgent() in UserTrackerModelImpl.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "function:com/liferay/portal/model/impl/UserTrackerModelImpl:UserTrackerModelImpl:getColumnBitmask",
+      "type": "function",
+      "name": "getColumnBitmask",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/UserTrackerModelImpl.java",
+      "summary": "getColumnBitmask() in UserTrackerModelImpl.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "function:com/liferay/portal/model/impl/UserTrackerModelImpl:UserTrackerModelImpl:getExpandoBridge",
+      "type": "function",
+      "name": "getExpandoBridge",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/UserTrackerModelImpl.java",
+      "summary": "getExpandoBridge() in UserTrackerModelImpl.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "function:com/liferay/portal/model/impl/UserTrackerModelImpl:UserTrackerModelImpl:setExpandoBridgeAttributes",
+      "type": "function",
+      "name": "setExpandoBridgeAttributes",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/UserTrackerModelImpl.java",
+      "summary": "setExpandoBridgeAttributes() in UserTrackerModelImpl.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "function:com/liferay/portal/model/impl/UserTrackerModelImpl:UserTrackerModelImpl:toEscapedModel",
+      "type": "function",
+      "name": "toEscapedModel",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/UserTrackerModelImpl.java",
+      "summary": "toEscapedModel() in UserTrackerModelImpl.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "function:com/liferay/portal/model/impl/UserTrackerModelImpl:UserTrackerModelImpl:clone",
+      "type": "function",
+      "name": "clone",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/UserTrackerModelImpl.java",
+      "summary": "clone() in UserTrackerModelImpl.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "function:com/liferay/portal/model/impl/UserTrackerModelImpl:UserTrackerModelImpl:equals",
+      "type": "function",
+      "name": "equals",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/UserTrackerModelImpl.java",
+      "summary": "equals() in UserTrackerModelImpl.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "function:com/liferay/portal/model/impl/UserTrackerModelImpl:UserTrackerModelImpl:hashCode",
+      "type": "function",
+      "name": "hashCode",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/UserTrackerModelImpl.java",
+      "summary": "hashCode() in UserTrackerModelImpl.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "function:com/liferay/portal/model/impl/UserTrackerModelImpl:UserTrackerModelImpl:isEntityCacheEnabled",
+      "type": "function",
+      "name": "isEntityCacheEnabled",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/UserTrackerModelImpl.java",
+      "summary": "isEntityCacheEnabled() in UserTrackerModelImpl.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low"
+    }
+  ],
+  "edges": []
+}

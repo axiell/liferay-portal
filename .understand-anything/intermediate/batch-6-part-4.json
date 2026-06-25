@@ -1,0 +1,1175 @@
+{
+  "nodes": [
+    {
+      "id": "function:portal-impl/src/com/liferay/portal/model/impl/UserNotificationEventCacheModel.java:getMvccVersion",
+      "type": "function",
+      "name": "getMvccVersion",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/UserNotificationEventCacheModel.java",
+      "summary": "Exported function getMvccVersion",
+      "tags": [
+        "java",
+        "function",
+        "exported"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "function:portal-impl/src/com/liferay/portal/model/impl/UserNotificationEventCacheModel.java:setMvccVersion",
+      "type": "function",
+      "name": "setMvccVersion",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/UserNotificationEventCacheModel.java",
+      "summary": "Exported function setMvccVersion",
+      "tags": [
+        "java",
+        "function",
+        "exported"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "function:portal-impl/src/com/liferay/portal/model/impl/UserNotificationEventCacheModel.java:toString",
+      "type": "function",
+      "name": "toString",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/UserNotificationEventCacheModel.java",
+      "summary": "Exported function toString",
+      "tags": [
+        "java",
+        "function",
+        "exported"
+      ],
+      "complexity": "high"
+    },
+    {
+      "id": "function:portal-impl/src/com/liferay/portal/model/impl/UserNotificationEventCacheModel.java:toEntityModel",
+      "type": "function",
+      "name": "toEntityModel",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/UserNotificationEventCacheModel.java",
+      "summary": "Exported function toEntityModel",
+      "tags": [
+        "java",
+        "function",
+        "exported"
+      ],
+      "complexity": "high"
+    },
+    {
+      "id": "function:portal-impl/src/com/liferay/portal/model/impl/UserNotificationEventCacheModel.java:readExternal",
+      "type": "function",
+      "name": "readExternal",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/UserNotificationEventCacheModel.java",
+      "summary": "Exported function readExternal",
+      "tags": [
+        "java",
+        "function",
+        "exported"
+      ],
+      "complexity": "medium"
+    },
+    {
+      "id": "function:portal-impl/src/com/liferay/portal/model/impl/UserNotificationEventCacheModel.java:writeExternal",
+      "type": "function",
+      "name": "writeExternal",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/UserNotificationEventCacheModel.java",
+      "summary": "Exported function writeExternal",
+      "tags": [
+        "java",
+        "function",
+        "exported"
+      ],
+      "complexity": "high"
+    },
+    {
+      "id": "file:portal-impl/src/com/liferay/portal/model/impl/WebsiteBaseImpl.java",
+      "type": "file",
+      "name": "WebsiteBaseImpl.java",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/WebsiteBaseImpl.java",
+      "summary": "Website entity implementation in Liferay portal",
+      "tags": [
+        "java",
+        "code",
+        "base-impl",
+        "service-builder"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "class:portal-impl/src/com/liferay/portal/model/impl/WebsiteBaseImpl.java:WebsiteBaseImpl",
+      "type": "class",
+      "name": "WebsiteBaseImpl",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/WebsiteBaseImpl.java",
+      "summary": "WebsiteBaseImpl class with 1 methods",
+      "tags": [
+        "java",
+        "class",
+        "methods:1"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "function:portal-impl/src/com/liferay/portal/model/impl/WebsiteBaseImpl.java:persist",
+      "type": "function",
+      "name": "persist",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/WebsiteBaseImpl.java",
+      "summary": "Exported function persist",
+      "tags": [
+        "java",
+        "function",
+        "exported"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "file:portal-impl/src/com/liferay/portal/plugin/PluginPackageException.java",
+      "type": "file",
+      "name": "PluginPackageException.java",
+      "filePath": "portal-impl/src/com/liferay/portal/plugin/PluginPackageException.java",
+      "summary": "PluginPackageException entity implementation in Liferay portal",
+      "tags": [
+        "java",
+        "code",
+        "exception"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "class:portal-impl/src/com/liferay/portal/plugin/PluginPackageException.java:PluginPackageException",
+      "type": "class",
+      "name": "PluginPackageException",
+      "filePath": "portal-impl/src/com/liferay/portal/plugin/PluginPackageException.java",
+      "summary": "PluginPackageException class with 4 methods",
+      "tags": [
+        "java",
+        "class",
+        "methods:4"
+      ],
+      "complexity": "medium"
+    },
+    {
+      "id": "function:portal-impl/src/com/liferay/portal/plugin/PluginPackageException.java:PluginPackageException",
+      "type": "function",
+      "name": "PluginPackageException",
+      "filePath": "portal-impl/src/com/liferay/portal/plugin/PluginPackageException.java",
+      "summary": "Exported function PluginPackageException",
+      "tags": [
+        "java",
+        "function",
+        "exported"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "file:portal-impl/src/com/liferay/portal/plugin/PluginUtil.java",
+      "type": "file",
+      "name": "PluginUtil.java",
+      "filePath": "portal-impl/src/com/liferay/portal/plugin/PluginUtil.java",
+      "summary": "PluginUtil entity implementation in Liferay portal",
+      "tags": [
+        "java",
+        "code",
+        "utility"
+      ],
+      "complexity": "medium"
+    },
+    {
+      "id": "class:portal-impl/src/com/liferay/portal/plugin/PluginUtil.java:PluginUtil",
+      "type": "class",
+      "name": "PluginUtil",
+      "filePath": "portal-impl/src/com/liferay/portal/plugin/PluginUtil.java",
+      "summary": "PluginUtil class with 3 methods",
+      "tags": [
+        "java",
+        "class",
+        "methods:3"
+      ],
+      "complexity": "medium"
+    },
+    {
+      "id": "function:portal-impl/src/com/liferay/portal/plugin/PluginUtil.java:restrictPlugins",
+      "type": "function",
+      "name": "restrictPlugins",
+      "filePath": "portal-impl/src/com/liferay/portal/plugin/PluginUtil.java",
+      "summary": "Exported function restrictPlugins",
+      "tags": [
+        "java",
+        "function",
+        "exported"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "file:portal-impl/src/com/liferay/portal/repository/capabilities/util/DLAppServiceAdapter.java",
+      "type": "file",
+      "name": "DLAppServiceAdapter.java",
+      "filePath": "portal-impl/src/com/liferay/portal/repository/capabilities/util/DLAppServiceAdapter.java",
+      "summary": "DLAppServiceAdapter entity implementation in Liferay portal",
+      "tags": [
+        "java",
+        "code",
+        "adapter"
+      ],
+      "complexity": "medium"
+    },
+    {
+      "id": "class:portal-impl/src/com/liferay/portal/repository/capabilities/util/DLAppServiceAdapter.java:DLAppServiceAdapter",
+      "type": "class",
+      "name": "DLAppServiceAdapter",
+      "filePath": "portal-impl/src/com/liferay/portal/repository/capabilities/util/DLAppServiceAdapter.java",
+      "summary": "DLAppServiceAdapter class with 5 methods",
+      "tags": [
+        "java",
+        "class",
+        "methods:5"
+      ],
+      "complexity": "medium"
+    },
+    {
+      "id": "function:portal-impl/src/com/liferay/portal/repository/capabilities/util/DLAppServiceAdapter.java:create",
+      "type": "function",
+      "name": "create",
+      "filePath": "portal-impl/src/com/liferay/portal/repository/capabilities/util/DLAppServiceAdapter.java",
+      "summary": "Exported function create",
+      "tags": [
+        "java",
+        "function",
+        "exported"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "function:portal-impl/src/com/liferay/portal/repository/capabilities/util/DLAppServiceAdapter.java:DLAppServiceAdapter",
+      "type": "function",
+      "name": "DLAppServiceAdapter",
+      "filePath": "portal-impl/src/com/liferay/portal/repository/capabilities/util/DLAppServiceAdapter.java",
+      "summary": "Exported function DLAppServiceAdapter",
+      "tags": [
+        "java",
+        "function",
+        "exported"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "function:portal-impl/src/com/liferay/portal/repository/capabilities/util/DLAppServiceAdapter.java:deleteFileEntry",
+      "type": "function",
+      "name": "deleteFileEntry",
+      "filePath": "portal-impl/src/com/liferay/portal/repository/capabilities/util/DLAppServiceAdapter.java",
+      "summary": "Exported function deleteFileEntry",
+      "tags": [
+        "java",
+        "function",
+        "exported"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "function:portal-impl/src/com/liferay/portal/repository/capabilities/util/DLAppServiceAdapter.java:deleteFileVersion",
+      "type": "function",
+      "name": "deleteFileVersion",
+      "filePath": "portal-impl/src/com/liferay/portal/repository/capabilities/util/DLAppServiceAdapter.java",
+      "summary": "Exported function deleteFileVersion",
+      "tags": [
+        "java",
+        "function",
+        "exported"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "file:portal-impl/src/com/liferay/portal/repository/capabilities/util/GroupServiceAdapter.java",
+      "type": "file",
+      "name": "GroupServiceAdapter.java",
+      "filePath": "portal-impl/src/com/liferay/portal/repository/capabilities/util/GroupServiceAdapter.java",
+      "summary": "GroupServiceAdapter entity implementation in Liferay portal",
+      "tags": [
+        "java",
+        "code",
+        "adapter"
+      ],
+      "complexity": "medium"
+    },
+    {
+      "id": "class:portal-impl/src/com/liferay/portal/repository/capabilities/util/GroupServiceAdapter.java:GroupServiceAdapter",
+      "type": "class",
+      "name": "GroupServiceAdapter",
+      "filePath": "portal-impl/src/com/liferay/portal/repository/capabilities/util/GroupServiceAdapter.java",
+      "summary": "GroupServiceAdapter class with 4 methods",
+      "tags": [
+        "java",
+        "class",
+        "methods:4"
+      ],
+      "complexity": "medium"
+    },
+    {
+      "id": "function:portal-impl/src/com/liferay/portal/repository/capabilities/util/GroupServiceAdapter.java:create",
+      "type": "function",
+      "name": "create",
+      "filePath": "portal-impl/src/com/liferay/portal/repository/capabilities/util/GroupServiceAdapter.java",
+      "summary": "Exported function create",
+      "tags": [
+        "java",
+        "function",
+        "exported"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "function:portal-impl/src/com/liferay/portal/repository/capabilities/util/GroupServiceAdapter.java:GroupServiceAdapter",
+      "type": "function",
+      "name": "GroupServiceAdapter",
+      "filePath": "portal-impl/src/com/liferay/portal/repository/capabilities/util/GroupServiceAdapter.java",
+      "summary": "Exported function GroupServiceAdapter",
+      "tags": [
+        "java",
+        "function",
+        "exported"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "function:portal-impl/src/com/liferay/portal/repository/capabilities/util/GroupServiceAdapter.java:getGroup",
+      "type": "function",
+      "name": "getGroup",
+      "filePath": "portal-impl/src/com/liferay/portal/repository/capabilities/util/GroupServiceAdapter.java",
+      "summary": "Exported function getGroup",
+      "tags": [
+        "java",
+        "function",
+        "exported"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "file:portal-impl/src/com/liferay/portal/repository/liferayrepository/LiferayRepositoryBase.java",
+      "type": "file",
+      "name": "LiferayRepositoryBase.java",
+      "filePath": "portal-impl/src/com/liferay/portal/repository/liferayrepository/LiferayRepositoryBase.java",
+      "summary": "LiferayRepositoryBase entity implementation in Liferay portal",
+      "tags": [
+        "java",
+        "code",
+        "repository-base"
+      ],
+      "complexity": "high"
+    },
+    {
+      "id": "class:portal-impl/src/com/liferay/portal/repository/liferayrepository/LiferayRepositoryBase.java:LiferayRepositoryBase",
+      "type": "class",
+      "name": "LiferayRepositoryBase",
+      "filePath": "portal-impl/src/com/liferay/portal/repository/liferayrepository/LiferayRepositoryBase.java",
+      "summary": "LiferayRepositoryBase class with 11 methods",
+      "tags": [
+        "java",
+        "class",
+        "methods:11"
+      ],
+      "complexity": "high"
+    },
+    {
+      "id": "function:portal-impl/src/com/liferay/portal/repository/liferayrepository/LiferayRepositoryBase.java:LiferayRepositoryBase",
+      "type": "function",
+      "name": "LiferayRepositoryBase",
+      "filePath": "portal-impl/src/com/liferay/portal/repository/liferayrepository/LiferayRepositoryBase.java",
+      "summary": "Exported function LiferayRepositoryBase",
+      "tags": [
+        "java",
+        "function",
+        "exported"
+      ],
+      "complexity": "high"
+    },
+    {
+      "id": "function:portal-impl/src/com/liferay/portal/repository/liferayrepository/LiferayRepositoryBase.java:getCapability",
+      "type": "function",
+      "name": "getCapability",
+      "filePath": "portal-impl/src/com/liferay/portal/repository/liferayrepository/LiferayRepositoryBase.java",
+      "summary": "Exported function getCapability",
+      "tags": [
+        "java",
+        "function",
+        "exported"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "function:portal-impl/src/com/liferay/portal/repository/liferayrepository/LiferayRepositoryBase.java:getRepositoryId",
+      "type": "function",
+      "name": "getRepositoryId",
+      "filePath": "portal-impl/src/com/liferay/portal/repository/liferayrepository/LiferayRepositoryBase.java",
+      "summary": "Exported function getRepositoryId",
+      "tags": [
+        "java",
+        "function",
+        "exported"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "function:portal-impl/src/com/liferay/portal/repository/liferayrepository/LiferayRepositoryBase.java:isCapabilityProvided",
+      "type": "function",
+      "name": "isCapabilityProvided",
+      "filePath": "portal-impl/src/com/liferay/portal/repository/liferayrepository/LiferayRepositoryBase.java",
+      "summary": "Exported function isCapabilityProvided",
+      "tags": [
+        "java",
+        "function",
+        "exported"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "function:portal-impl/src/com/liferay/portal/repository/liferayrepository/LiferayRepositoryBase.java:getDDMFormValuesMap",
+      "type": "function",
+      "name": "getDDMFormValuesMap",
+      "filePath": "portal-impl/src/com/liferay/portal/repository/liferayrepository/LiferayRepositoryBase.java",
+      "summary": "function getDDMFormValuesMap",
+      "tags": [
+        "java",
+        "function"
+      ],
+      "complexity": "high"
+    },
+    {
+      "id": "function:portal-impl/src/com/liferay/portal/repository/liferayrepository/LiferayRepositoryBase.java:getLongList",
+      "type": "function",
+      "name": "getLongList",
+      "filePath": "portal-impl/src/com/liferay/portal/repository/liferayrepository/LiferayRepositoryBase.java",
+      "summary": "function getLongList",
+      "tags": [
+        "java",
+        "function"
+      ],
+      "complexity": "medium"
+    }
+  ],
+  "edges": [
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/model/impl/WebsiteBaseImpl.java",
+      "target": "class:portal-impl/src/com/liferay/portal/model/impl/WebsiteBaseImpl.java:WebsiteBaseImpl",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/model/impl/WebsiteBaseImpl.java",
+      "target": "class:portal-impl/src/com/liferay/portal/model/impl/WebsiteBaseImpl.java:WebsiteBaseImpl",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/model/impl/WebsiteBaseImpl.java",
+      "target": "function:portal-impl/src/com/liferay/portal/model/impl/WebsiteBaseImpl.java:persist",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/model/impl/WebsiteBaseImpl.java",
+      "target": "function:portal-impl/src/com/liferay/portal/model/impl/WebsiteBaseImpl.java:persist",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/model/impl/WebsiteBaseImpl.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/model/Website.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/model/impl/WebsiteBaseImpl.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/service/WebsiteLocalServiceUtil.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/plugin/PluginPackageException.java",
+      "target": "class:portal-impl/src/com/liferay/portal/plugin/PluginPackageException.java:PluginPackageException",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/plugin/PluginPackageException.java",
+      "target": "class:portal-impl/src/com/liferay/portal/plugin/PluginPackageException.java:PluginPackageException",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/plugin/PluginPackageException.java",
+      "target": "function:portal-impl/src/com/liferay/portal/plugin/PluginPackageException.java:PluginPackageException",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/plugin/PluginPackageException.java",
+      "target": "function:portal-impl/src/com/liferay/portal/plugin/PluginPackageException.java:PluginPackageException",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/plugin/PluginPackageException.java",
+      "target": "function:portal-impl/src/com/liferay/portal/plugin/PluginPackageException.java:PluginPackageException",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/plugin/PluginPackageException.java",
+      "target": "function:portal-impl/src/com/liferay/portal/plugin/PluginPackageException.java:PluginPackageException",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/plugin/PluginPackageException.java",
+      "target": "function:portal-impl/src/com/liferay/portal/plugin/PluginPackageException.java:PluginPackageException",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/plugin/PluginPackageException.java",
+      "target": "function:portal-impl/src/com/liferay/portal/plugin/PluginPackageException.java:PluginPackageException",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/plugin/PluginPackageException.java",
+      "target": "function:portal-impl/src/com/liferay/portal/plugin/PluginPackageException.java:PluginPackageException",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/plugin/PluginPackageException.java",
+      "target": "function:portal-impl/src/com/liferay/portal/plugin/PluginPackageException.java:PluginPackageException",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/plugin/PluginPackageException.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/exception/SystemException.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/plugin/PluginUtil.java",
+      "target": "class:portal-impl/src/com/liferay/portal/plugin/PluginUtil.java:PluginUtil",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/plugin/PluginUtil.java",
+      "target": "class:portal-impl/src/com/liferay/portal/plugin/PluginUtil.java:PluginUtil",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/plugin/PluginUtil.java",
+      "target": "function:portal-impl/src/com/liferay/portal/plugin/PluginUtil.java:restrictPlugins",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/plugin/PluginUtil.java",
+      "target": "function:portal-impl/src/com/liferay/portal/plugin/PluginUtil.java:restrictPlugins",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/plugin/PluginUtil.java",
+      "target": "function:portal-impl/src/com/liferay/portal/plugin/PluginUtil.java:restrictPlugins",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/plugin/PluginUtil.java",
+      "target": "function:portal-impl/src/com/liferay/portal/plugin/PluginUtil.java:restrictPlugins",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/plugin/PluginUtil.java",
+      "target": "function:portal-impl/src/com/liferay/portal/plugin/PluginUtil.java:restrictPlugins",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/plugin/PluginUtil.java",
+      "target": "function:portal-impl/src/com/liferay/portal/plugin/PluginUtil.java:restrictPlugins",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/plugin/PluginUtil.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/model/Plugin.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/plugin/PluginUtil.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/model/PluginSetting.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/plugin/PluginUtil.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/model/User.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/plugin/PluginUtil.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/service/PluginSettingLocalServiceUtil.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/repository/capabilities/util/DLAppServiceAdapter.java",
+      "target": "class:portal-impl/src/com/liferay/portal/repository/capabilities/util/DLAppServiceAdapter.java:DLAppServiceAdapter",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/repository/capabilities/util/DLAppServiceAdapter.java",
+      "target": "class:portal-impl/src/com/liferay/portal/repository/capabilities/util/DLAppServiceAdapter.java:DLAppServiceAdapter",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/repository/capabilities/util/DLAppServiceAdapter.java",
+      "target": "function:portal-impl/src/com/liferay/portal/repository/capabilities/util/DLAppServiceAdapter.java:create",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/repository/capabilities/util/DLAppServiceAdapter.java",
+      "target": "function:portal-impl/src/com/liferay/portal/repository/capabilities/util/DLAppServiceAdapter.java:create",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/repository/capabilities/util/DLAppServiceAdapter.java",
+      "target": "function:portal-impl/src/com/liferay/portal/repository/capabilities/util/DLAppServiceAdapter.java:DLAppServiceAdapter",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/repository/capabilities/util/DLAppServiceAdapter.java",
+      "target": "function:portal-impl/src/com/liferay/portal/repository/capabilities/util/DLAppServiceAdapter.java:DLAppServiceAdapter",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/repository/capabilities/util/DLAppServiceAdapter.java",
+      "target": "function:portal-impl/src/com/liferay/portal/repository/capabilities/util/DLAppServiceAdapter.java:DLAppServiceAdapter",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/repository/capabilities/util/DLAppServiceAdapter.java",
+      "target": "function:portal-impl/src/com/liferay/portal/repository/capabilities/util/DLAppServiceAdapter.java:DLAppServiceAdapter",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/repository/capabilities/util/DLAppServiceAdapter.java",
+      "target": "function:portal-impl/src/com/liferay/portal/repository/capabilities/util/DLAppServiceAdapter.java:deleteFileEntry",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/repository/capabilities/util/DLAppServiceAdapter.java",
+      "target": "function:portal-impl/src/com/liferay/portal/repository/capabilities/util/DLAppServiceAdapter.java:deleteFileEntry",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/repository/capabilities/util/DLAppServiceAdapter.java",
+      "target": "function:portal-impl/src/com/liferay/portal/repository/capabilities/util/DLAppServiceAdapter.java:deleteFileVersion",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/repository/capabilities/util/DLAppServiceAdapter.java",
+      "target": "function:portal-impl/src/com/liferay/portal/repository/capabilities/util/DLAppServiceAdapter.java:deleteFileVersion",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/repository/capabilities/util/DLAppServiceAdapter.java",
+      "target": "file:portal-kernel/src/com/liferay/document/library/kernel/service/DLAppLocalService.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/repository/capabilities/util/DLAppServiceAdapter.java",
+      "target": "file:portal-kernel/src/com/liferay/document/library/kernel/service/DLAppLocalServiceUtil.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/repository/capabilities/util/DLAppServiceAdapter.java",
+      "target": "file:portal-kernel/src/com/liferay/document/library/kernel/service/DLAppService.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/repository/capabilities/util/DLAppServiceAdapter.java",
+      "target": "file:portal-kernel/src/com/liferay/document/library/kernel/service/DLAppServiceUtil.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/repository/capabilities/util/DLAppServiceAdapter.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/exception/PortalException.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/repository/capabilities/util/DLAppServiceAdapter.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/repository/DocumentRepository.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/repository/capabilities/util/DLAppServiceAdapter.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/repository/LocalRepository.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/repository/capabilities/util/GroupServiceAdapter.java",
+      "target": "class:portal-impl/src/com/liferay/portal/repository/capabilities/util/GroupServiceAdapter.java:GroupServiceAdapter",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/repository/capabilities/util/GroupServiceAdapter.java",
+      "target": "class:portal-impl/src/com/liferay/portal/repository/capabilities/util/GroupServiceAdapter.java:GroupServiceAdapter",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/repository/capabilities/util/GroupServiceAdapter.java",
+      "target": "function:portal-impl/src/com/liferay/portal/repository/capabilities/util/GroupServiceAdapter.java:create",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/repository/capabilities/util/GroupServiceAdapter.java",
+      "target": "function:portal-impl/src/com/liferay/portal/repository/capabilities/util/GroupServiceAdapter.java:create",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/repository/capabilities/util/GroupServiceAdapter.java",
+      "target": "function:portal-impl/src/com/liferay/portal/repository/capabilities/util/GroupServiceAdapter.java:GroupServiceAdapter",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/repository/capabilities/util/GroupServiceAdapter.java",
+      "target": "function:portal-impl/src/com/liferay/portal/repository/capabilities/util/GroupServiceAdapter.java:GroupServiceAdapter",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/repository/capabilities/util/GroupServiceAdapter.java",
+      "target": "function:portal-impl/src/com/liferay/portal/repository/capabilities/util/GroupServiceAdapter.java:GroupServiceAdapter",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/repository/capabilities/util/GroupServiceAdapter.java",
+      "target": "function:portal-impl/src/com/liferay/portal/repository/capabilities/util/GroupServiceAdapter.java:GroupServiceAdapter",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/repository/capabilities/util/GroupServiceAdapter.java",
+      "target": "function:portal-impl/src/com/liferay/portal/repository/capabilities/util/GroupServiceAdapter.java:getGroup",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/repository/capabilities/util/GroupServiceAdapter.java",
+      "target": "function:portal-impl/src/com/liferay/portal/repository/capabilities/util/GroupServiceAdapter.java:getGroup",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/repository/capabilities/util/GroupServiceAdapter.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/exception/PortalException.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/repository/capabilities/util/GroupServiceAdapter.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/model/Group.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/repository/capabilities/util/GroupServiceAdapter.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/repository/DocumentRepository.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/repository/capabilities/util/GroupServiceAdapter.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/repository/LocalRepository.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/repository/capabilities/util/GroupServiceAdapter.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/service/GroupLocalService.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/repository/capabilities/util/GroupServiceAdapter.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/service/GroupLocalServiceUtil.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/repository/capabilities/util/GroupServiceAdapter.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/service/GroupService.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/repository/capabilities/util/GroupServiceAdapter.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/service/GroupServiceUtil.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/repository/liferayrepository/LiferayRepositoryBase.java",
+      "target": "class:portal-impl/src/com/liferay/portal/repository/liferayrepository/LiferayRepositoryBase.java:LiferayRepositoryBase",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/repository/liferayrepository/LiferayRepositoryBase.java",
+      "target": "class:portal-impl/src/com/liferay/portal/repository/liferayrepository/LiferayRepositoryBase.java:LiferayRepositoryBase",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/repository/liferayrepository/LiferayRepositoryBase.java",
+      "target": "function:portal-impl/src/com/liferay/portal/repository/liferayrepository/LiferayRepositoryBase.java:LiferayRepositoryBase",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/repository/liferayrepository/LiferayRepositoryBase.java",
+      "target": "function:portal-impl/src/com/liferay/portal/repository/liferayrepository/LiferayRepositoryBase.java:LiferayRepositoryBase",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/repository/liferayrepository/LiferayRepositoryBase.java",
+      "target": "function:portal-impl/src/com/liferay/portal/repository/liferayrepository/LiferayRepositoryBase.java:getCapability",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/repository/liferayrepository/LiferayRepositoryBase.java",
+      "target": "function:portal-impl/src/com/liferay/portal/repository/liferayrepository/LiferayRepositoryBase.java:getCapability",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/repository/liferayrepository/LiferayRepositoryBase.java",
+      "target": "function:portal-impl/src/com/liferay/portal/repository/liferayrepository/LiferayRepositoryBase.java:getRepositoryId",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/repository/liferayrepository/LiferayRepositoryBase.java",
+      "target": "function:portal-impl/src/com/liferay/portal/repository/liferayrepository/LiferayRepositoryBase.java:getRepositoryId",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/repository/liferayrepository/LiferayRepositoryBase.java",
+      "target": "function:portal-impl/src/com/liferay/portal/repository/liferayrepository/LiferayRepositoryBase.java:isCapabilityProvided",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/repository/liferayrepository/LiferayRepositoryBase.java",
+      "target": "function:portal-impl/src/com/liferay/portal/repository/liferayrepository/LiferayRepositoryBase.java:isCapabilityProvided",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/repository/liferayrepository/LiferayRepositoryBase.java",
+      "target": "function:portal-impl/src/com/liferay/portal/repository/liferayrepository/LiferayRepositoryBase.java:getDDMFormValuesMap",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/repository/liferayrepository/LiferayRepositoryBase.java",
+      "target": "function:portal-impl/src/com/liferay/portal/repository/liferayrepository/LiferayRepositoryBase.java:getLongList",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/repository/liferayrepository/LiferayRepositoryBase.java",
+      "target": "file:portal-kernel/src/com/liferay/document/library/kernel/model/DLFileEntryType.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/repository/liferayrepository/LiferayRepositoryBase.java",
+      "target": "file:portal-kernel/src/com/liferay/document/library/kernel/model/DLFolderConstants.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/repository/liferayrepository/LiferayRepositoryBase.java",
+      "target": "file:portal-kernel/src/com/liferay/document/library/kernel/service/DLAppHelperLocalService.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/repository/liferayrepository/LiferayRepositoryBase.java",
+      "target": "file:portal-kernel/src/com/liferay/document/library/kernel/service/DLFileEntryLocalService.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/repository/liferayrepository/LiferayRepositoryBase.java",
+      "target": "file:portal-kernel/src/com/liferay/document/library/kernel/service/DLFileEntryService.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/repository/liferayrepository/LiferayRepositoryBase.java",
+      "target": "file:portal-kernel/src/com/liferay/document/library/kernel/service/DLFileEntryTypeLocalService.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/repository/liferayrepository/LiferayRepositoryBase.java",
+      "target": "file:portal-kernel/src/com/liferay/document/library/kernel/service/DLFileEntryTypeLocalServiceUtil.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/repository/liferayrepository/LiferayRepositoryBase.java",
+      "target": "file:portal-kernel/src/com/liferay/document/library/kernel/service/DLFileShortcutLocalService.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/repository/liferayrepository/LiferayRepositoryBase.java",
+      "target": "file:portal-kernel/src/com/liferay/document/library/kernel/service/DLFileShortcutService.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/repository/liferayrepository/LiferayRepositoryBase.java",
+      "target": "file:portal-kernel/src/com/liferay/document/library/kernel/service/DLFileVersionLocalService.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/repository/liferayrepository/LiferayRepositoryBase.java",
+      "target": "file:portal-kernel/src/com/liferay/document/library/kernel/service/DLFileVersionService.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/repository/liferayrepository/LiferayRepositoryBase.java",
+      "target": "file:portal-kernel/src/com/liferay/document/library/kernel/service/DLFolderLocalService.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/repository/liferayrepository/LiferayRepositoryBase.java",
+      "target": "file:portal-kernel/src/com/liferay/document/library/kernel/service/DLFolderService.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/repository/liferayrepository/LiferayRepositoryBase.java",
+      "target": "file:portal-kernel/src/com/liferay/dynamic/data/mapping/kernel/DDMFormValues.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/repository/liferayrepository/LiferayRepositoryBase.java",
+      "target": "file:portal-kernel/src/com/liferay/dynamic/data/mapping/kernel/DDMStructure.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/repository/liferayrepository/LiferayRepositoryBase.java",
+      "target": "file:portal-kernel/src/com/liferay/dynamic/data/mapping/kernel/StorageEngineManagerUtil.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/repository/liferayrepository/LiferayRepositoryBase.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/exception/PortalException.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/repository/liferayrepository/LiferayRepositoryBase.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/repository/capabilities/Capability.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/repository/liferayrepository/LiferayRepositoryBase.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/repository/capabilities/CapabilityProvider.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/repository/liferayrepository/LiferayRepositoryBase.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/service/RepositoryLocalService.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/repository/liferayrepository/LiferayRepositoryBase.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/service/RepositoryService.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/repository/liferayrepository/LiferayRepositoryBase.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/service/ResourceLocalService.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/repository/liferayrepository/LiferayRepositoryBase.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/service/ServiceContext.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/repository/liferayrepository/LiferayRepositoryBase.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/util/ParamUtil.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/repository/liferayrepository/LiferayRepositoryBase.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/util/SortedArrayList.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/repository/liferayrepository/LiferayRepositoryBase.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/util/StringUtil.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    }
+  ]
+}

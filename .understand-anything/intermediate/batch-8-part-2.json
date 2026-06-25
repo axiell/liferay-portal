@@ -1,0 +1,858 @@
+{
+  "nodes": [
+    {
+      "id": "file:com/liferay/portal/kernel/bean/AutoEscapeBeanHandler",
+      "type": "file",
+      "name": "AutoEscapeBeanHandler.java",
+      "filePath": "portal-kernel/src/com/liferay/portal/kernel/bean/AutoEscapeBeanHandler.java",
+      "summary": "AutoEscapeBeanHandler.java - com/liferay/portal/kernel/bean/AutoEscapeBeanHandler",
+      "tags": [
+        "code",
+        "java",
+        "imported"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "file:com/liferay/portal/kernel/model/impl/BaseModelImpl",
+      "type": "file",
+      "name": "BaseModelImpl.java",
+      "filePath": "portal-kernel/src/com/liferay/portal/kernel/model/impl/BaseModelImpl.java",
+      "summary": "BaseModelImpl.java - com/liferay/portal/kernel/model/impl/BaseModelImpl",
+      "tags": [
+        "code",
+        "java",
+        "imported"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "file:com/liferay/portal/kernel/model/ModelWrapper",
+      "type": "file",
+      "name": "ModelWrapper.java",
+      "filePath": "portal-kernel/src/com/liferay/portal/kernel/model/ModelWrapper.java",
+      "summary": "ModelWrapper.java - com/liferay/portal/kernel/model/ModelWrapper",
+      "tags": [
+        "code",
+        "java",
+        "imported"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "file:com/liferay/portal/kernel/model/RegionLocalizationModel",
+      "type": "file",
+      "name": "RegionLocalizationModel.java",
+      "filePath": "portal-kernel/src/com/liferay/portal/kernel/model/RegionLocalizationModel.java",
+      "summary": "RegionLocalizationModel.java - com/liferay/portal/kernel/model/RegionLocalizationModel",
+      "tags": [
+        "code",
+        "java",
+        "imported"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "file:com/liferay/portal/kernel/service/ServiceContext",
+      "type": "file",
+      "name": "ServiceContext.java",
+      "filePath": "portal-kernel/src/com/liferay/portal/kernel/service/ServiceContext.java",
+      "summary": "ServiceContext.java - com/liferay/portal/kernel/service/ServiceContext",
+      "tags": [
+        "code",
+        "java",
+        "imported"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "file:com/liferay/portal/kernel/util/GetterUtil",
+      "type": "file",
+      "name": "GetterUtil.java",
+      "filePath": "portal-kernel/src/com/liferay/portal/kernel/util/GetterUtil.java",
+      "summary": "GetterUtil.java - com/liferay/portal/kernel/util/GetterUtil",
+      "tags": [
+        "code",
+        "java",
+        "imported"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "file:com/liferay/portal/kernel/util/ProxyUtil",
+      "type": "file",
+      "name": "ProxyUtil.java",
+      "filePath": "portal-kernel/src/com/liferay/portal/kernel/util/ProxyUtil.java",
+      "summary": "ProxyUtil.java - com/liferay/portal/kernel/util/ProxyUtil",
+      "tags": [
+        "code",
+        "java",
+        "imported"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "file:com/liferay/portal/kernel/util/StringUtil",
+      "type": "file",
+      "name": "StringUtil.java",
+      "filePath": "portal-kernel/src/com/liferay/portal/kernel/util/StringUtil.java",
+      "summary": "StringUtil.java - com/liferay/portal/kernel/util/StringUtil",
+      "tags": [
+        "code",
+        "java",
+        "imported"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "file:com/liferay/portal/model/impl/RegionModelImpl",
+      "type": "file",
+      "name": "RegionModelImpl.java",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/RegionModelImpl.java",
+      "summary": "RegionModelImpl.java - com/liferay/portal/model/impl/RegionModelImpl",
+      "tags": [
+        "code",
+        "java",
+        "class-definition"
+      ],
+      "complexity": "high"
+    },
+    {
+      "id": "class:com/liferay/portal/model/impl/RegionModelImpl:RegionModelImpl",
+      "type": "class",
+      "name": "RegionModelImpl",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/RegionModelImpl.java",
+      "summary": "RegionModelImpl class in RegionModelImpl.java",
+      "tags": [
+        "class"
+      ],
+      "complexity": "high",
+      "methods": [
+        "RegionModelImpl",
+        "getPrimaryKey",
+        "setPrimaryKey",
+        "getPrimaryKeyObj",
+        "setPrimaryKeyObj",
+        "getModelClass",
+        "getModelClassName",
+        "getModelAttributes",
+        "setModelAttributes",
+        "getAttributeGetterFunctions",
+        "getAttributeSetterBiConsumers",
+        "getAvailableLanguageIds",
+        "getTitle",
+        "getTitle",
+        "getTitle",
+        "getTitleMapAsXML",
+        "getLanguageIdToTitleMap",
+        "_getTitle",
+        "getMvccVersion",
+        "setMvccVersion",
+        "getCtCollectionId",
+        "setCtCollectionId",
+        "getUuid",
+        "setUuid",
+        "getOriginalUuid",
+        "getDefaultLanguageId",
+        "setDefaultLanguageId",
+        "getRegionId",
+        "setRegionId",
+        "getCompanyId",
+        "setCompanyId",
+        "getOriginalCompanyId",
+        "getUserId",
+        "setUserId",
+        "getUserUuid",
+        "setUserUuid",
+        "getUserName",
+        "setUserName",
+        "getCreateDate",
+        "setCreateDate",
+        "getModifiedDate",
+        "hasSetModifiedDate",
+        "setModifiedDate",
+        "getCountryId",
+        "setCountryId",
+        "getOriginalCountryId",
+        "getActive",
+        "isActive",
+        "setActive",
+        "getOriginalActive",
+        "getName",
+        "setName",
+        "getPosition",
+        "setPosition",
+        "getRegionCode",
+        "setRegionCode",
+        "getOriginalRegionCode",
+        "getLastPublishDate",
+        "setLastPublishDate",
+        "getStagedModelType",
+        "getColumnBitmask",
+        "getExpandoBridge",
+        "setExpandoBridgeAttributes",
+        "toEscapedModel",
+        "clone",
+        "cloneWithOriginalValues",
+        "compareTo",
+        "equals",
+        "hashCode",
+        "isEntityCacheEnabled",
+        "isFinderCacheEnabled",
+        "resetOriginalValues",
+        "toCacheModel",
+        "toString",
+        "getColumnValue",
+        "getColumnOriginalValue",
+        "_setColumnOriginalValues",
+        "getColumnBitmask"
+      ],
+      "properties": [
+        "TABLE_NAME",
+        "TABLE_COLUMNS",
+        "TABLE_COLUMNS_MAP",
+        "TABLE_SQL_CREATE",
+        "TABLE_SQL_DROP",
+        "ORDER_BY_JPQL",
+        "ORDER_BY_SQL",
+        "DATA_SOURCE",
+        "SESSION_FACTORY",
+        "TX_MANAGER",
+        "ENTITY_CACHE_ENABLED",
+        "FINDER_CACHE_ENABLED",
+        "COLUMN_BITMASK_ENABLED",
+        "ACTIVE_COLUMN_BITMASK",
+        "COMPANYID_COLUMN_BITMASK",
+        "COUNTRYID_COLUMN_BITMASK",
+        "REGIONCODE_COLUMN_BITMASK",
+        "UUID_COLUMN_BITMASK",
+        "NAME_COLUMN_BITMASK",
+        "POSITION_COLUMN_BITMASK",
+        "LOCK_EXPIRATION_TIME",
+        "_mvccVersion",
+        "_ctCollectionId",
+        "_uuid",
+        "_defaultLanguageId",
+        "_regionId",
+        "_companyId",
+        "_userId",
+        "_userName",
+        "_createDate",
+        "_modifiedDate",
+        "_setModifiedDate",
+        "_countryId",
+        "_active",
+        "_name",
+        "_position",
+        "_regionCode",
+        "_lastPublishDate",
+        "_attributeNames",
+        "_columnOriginalValues",
+        "_columnBitmasks",
+        "_columnBitmask",
+        "_escapedModel"
+      ]
+    },
+    {
+      "id": "function:com/liferay/portal/model/impl/RegionModelImpl:RegionModelImpl:getPrimaryKey",
+      "type": "function",
+      "name": "getPrimaryKey",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/RegionModelImpl.java",
+      "summary": "getPrimaryKey() in RegionModelImpl.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "function:com/liferay/portal/model/impl/RegionModelImpl:RegionModelImpl:setPrimaryKey",
+      "type": "function",
+      "name": "setPrimaryKey",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/RegionModelImpl.java",
+      "summary": "setPrimaryKey() in RegionModelImpl.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "function:com/liferay/portal/model/impl/RegionModelImpl:RegionModelImpl:getPrimaryKeyObj",
+      "type": "function",
+      "name": "getPrimaryKeyObj",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/RegionModelImpl.java",
+      "summary": "getPrimaryKeyObj() in RegionModelImpl.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "function:com/liferay/portal/model/impl/RegionModelImpl:RegionModelImpl:setPrimaryKeyObj",
+      "type": "function",
+      "name": "setPrimaryKeyObj",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/RegionModelImpl.java",
+      "summary": "setPrimaryKeyObj() in RegionModelImpl.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "function:com/liferay/portal/model/impl/RegionModelImpl:RegionModelImpl:getModelClass",
+      "type": "function",
+      "name": "getModelClass",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/RegionModelImpl.java",
+      "summary": "getModelClass() in RegionModelImpl.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "function:com/liferay/portal/model/impl/RegionModelImpl:RegionModelImpl:getModelClassName",
+      "type": "function",
+      "name": "getModelClassName",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/RegionModelImpl.java",
+      "summary": "getModelClassName() in RegionModelImpl.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "function:com/liferay/portal/model/impl/RegionModelImpl:RegionModelImpl:getModelAttributes",
+      "type": "function",
+      "name": "getModelAttributes",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/RegionModelImpl.java",
+      "summary": "getModelAttributes() in RegionModelImpl.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "function:com/liferay/portal/model/impl/RegionModelImpl:RegionModelImpl:setModelAttributes",
+      "type": "function",
+      "name": "setModelAttributes",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/RegionModelImpl.java",
+      "summary": "setModelAttributes() in RegionModelImpl.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "function:com/liferay/portal/model/impl/RegionModelImpl:RegionModelImpl:getAttributeGetterFunctions",
+      "type": "function",
+      "name": "getAttributeGetterFunctions",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/RegionModelImpl.java",
+      "summary": "getAttributeGetterFunctions() in RegionModelImpl.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "function:com/liferay/portal/model/impl/RegionModelImpl:RegionModelImpl:getAttributeSetterBiConsumers",
+      "type": "function",
+      "name": "getAttributeSetterBiConsumers",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/RegionModelImpl.java",
+      "summary": "getAttributeSetterBiConsumers() in RegionModelImpl.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "function:com/liferay/portal/model/impl/RegionModelImpl:RegionModelImpl:getAvailableLanguageIds",
+      "type": "function",
+      "name": "getAvailableLanguageIds",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/RegionModelImpl.java",
+      "summary": "getAvailableLanguageIds() in RegionModelImpl.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "function:com/liferay/portal/model/impl/RegionModelImpl:RegionModelImpl:getTitle",
+      "type": "function",
+      "name": "getTitle",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/RegionModelImpl.java",
+      "summary": "getTitle() in RegionModelImpl.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "function:com/liferay/portal/model/impl/RegionModelImpl:RegionModelImpl:getTitle_2",
+      "type": "function",
+      "name": "getTitle",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/RegionModelImpl.java",
+      "summary": "getTitle() in RegionModelImpl.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "function:com/liferay/portal/model/impl/RegionModelImpl:RegionModelImpl:getTitle_3",
+      "type": "function",
+      "name": "getTitle",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/RegionModelImpl.java",
+      "summary": "getTitle() in RegionModelImpl.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "function:com/liferay/portal/model/impl/RegionModelImpl:RegionModelImpl:getTitleMapAsXML",
+      "type": "function",
+      "name": "getTitleMapAsXML",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/RegionModelImpl.java",
+      "summary": "getTitleMapAsXML() in RegionModelImpl.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "function:com/liferay/portal/model/impl/RegionModelImpl:RegionModelImpl:getLanguageIdToTitleMap",
+      "type": "function",
+      "name": "getLanguageIdToTitleMap",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/RegionModelImpl.java",
+      "summary": "getLanguageIdToTitleMap() in RegionModelImpl.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "function:com/liferay/portal/model/impl/RegionModelImpl:RegionModelImpl:getMvccVersion",
+      "type": "function",
+      "name": "getMvccVersion",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/RegionModelImpl.java",
+      "summary": "getMvccVersion() in RegionModelImpl.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "function:com/liferay/portal/model/impl/RegionModelImpl:RegionModelImpl:setMvccVersion",
+      "type": "function",
+      "name": "setMvccVersion",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/RegionModelImpl.java",
+      "summary": "setMvccVersion() in RegionModelImpl.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "function:com/liferay/portal/model/impl/RegionModelImpl:RegionModelImpl:getCtCollectionId",
+      "type": "function",
+      "name": "getCtCollectionId",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/RegionModelImpl.java",
+      "summary": "getCtCollectionId() in RegionModelImpl.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "function:com/liferay/portal/model/impl/RegionModelImpl:RegionModelImpl:setCtCollectionId",
+      "type": "function",
+      "name": "setCtCollectionId",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/RegionModelImpl.java",
+      "summary": "setCtCollectionId() in RegionModelImpl.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "function:com/liferay/portal/model/impl/RegionModelImpl:RegionModelImpl:getUuid",
+      "type": "function",
+      "name": "getUuid",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/RegionModelImpl.java",
+      "summary": "getUuid() in RegionModelImpl.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "function:com/liferay/portal/model/impl/RegionModelImpl:RegionModelImpl:setUuid",
+      "type": "function",
+      "name": "setUuid",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/RegionModelImpl.java",
+      "summary": "setUuid() in RegionModelImpl.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "function:com/liferay/portal/model/impl/RegionModelImpl:RegionModelImpl:getOriginalUuid",
+      "type": "function",
+      "name": "getOriginalUuid",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/RegionModelImpl.java",
+      "summary": "getOriginalUuid() in RegionModelImpl.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "function:com/liferay/portal/model/impl/RegionModelImpl:RegionModelImpl:getDefaultLanguageId",
+      "type": "function",
+      "name": "getDefaultLanguageId",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/RegionModelImpl.java",
+      "summary": "getDefaultLanguageId() in RegionModelImpl.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "function:com/liferay/portal/model/impl/RegionModelImpl:RegionModelImpl:setDefaultLanguageId",
+      "type": "function",
+      "name": "setDefaultLanguageId",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/RegionModelImpl.java",
+      "summary": "setDefaultLanguageId() in RegionModelImpl.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "function:com/liferay/portal/model/impl/RegionModelImpl:RegionModelImpl:getRegionId",
+      "type": "function",
+      "name": "getRegionId",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/RegionModelImpl.java",
+      "summary": "getRegionId() in RegionModelImpl.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "function:com/liferay/portal/model/impl/RegionModelImpl:RegionModelImpl:setRegionId",
+      "type": "function",
+      "name": "setRegionId",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/RegionModelImpl.java",
+      "summary": "setRegionId() in RegionModelImpl.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "function:com/liferay/portal/model/impl/RegionModelImpl:RegionModelImpl:getCompanyId",
+      "type": "function",
+      "name": "getCompanyId",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/RegionModelImpl.java",
+      "summary": "getCompanyId() in RegionModelImpl.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "function:com/liferay/portal/model/impl/RegionModelImpl:RegionModelImpl:setCompanyId",
+      "type": "function",
+      "name": "setCompanyId",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/RegionModelImpl.java",
+      "summary": "setCompanyId() in RegionModelImpl.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "function:com/liferay/portal/model/impl/RegionModelImpl:RegionModelImpl:getOriginalCompanyId",
+      "type": "function",
+      "name": "getOriginalCompanyId",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/RegionModelImpl.java",
+      "summary": "getOriginalCompanyId() in RegionModelImpl.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "function:com/liferay/portal/model/impl/RegionModelImpl:RegionModelImpl:getUserId",
+      "type": "function",
+      "name": "getUserId",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/RegionModelImpl.java",
+      "summary": "getUserId() in RegionModelImpl.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "function:com/liferay/portal/model/impl/RegionModelImpl:RegionModelImpl:setUserId",
+      "type": "function",
+      "name": "setUserId",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/RegionModelImpl.java",
+      "summary": "setUserId() in RegionModelImpl.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "function:com/liferay/portal/model/impl/RegionModelImpl:RegionModelImpl:getUserUuid",
+      "type": "function",
+      "name": "getUserUuid",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/RegionModelImpl.java",
+      "summary": "getUserUuid() in RegionModelImpl.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "function:com/liferay/portal/model/impl/RegionModelImpl:RegionModelImpl:setUserUuid",
+      "type": "function",
+      "name": "setUserUuid",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/RegionModelImpl.java",
+      "summary": "setUserUuid() in RegionModelImpl.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "function:com/liferay/portal/model/impl/RegionModelImpl:RegionModelImpl:getUserName",
+      "type": "function",
+      "name": "getUserName",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/RegionModelImpl.java",
+      "summary": "getUserName() in RegionModelImpl.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "function:com/liferay/portal/model/impl/RegionModelImpl:RegionModelImpl:setUserName",
+      "type": "function",
+      "name": "setUserName",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/RegionModelImpl.java",
+      "summary": "setUserName() in RegionModelImpl.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "function:com/liferay/portal/model/impl/RegionModelImpl:RegionModelImpl:getCreateDate",
+      "type": "function",
+      "name": "getCreateDate",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/RegionModelImpl.java",
+      "summary": "getCreateDate() in RegionModelImpl.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "function:com/liferay/portal/model/impl/RegionModelImpl:RegionModelImpl:setCreateDate",
+      "type": "function",
+      "name": "setCreateDate",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/RegionModelImpl.java",
+      "summary": "setCreateDate() in RegionModelImpl.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "function:com/liferay/portal/model/impl/RegionModelImpl:RegionModelImpl:getModifiedDate",
+      "type": "function",
+      "name": "getModifiedDate",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/RegionModelImpl.java",
+      "summary": "getModifiedDate() in RegionModelImpl.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "function:com/liferay/portal/model/impl/RegionModelImpl:RegionModelImpl:setModifiedDate",
+      "type": "function",
+      "name": "setModifiedDate",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/RegionModelImpl.java",
+      "summary": "setModifiedDate() in RegionModelImpl.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "function:com/liferay/portal/model/impl/RegionModelImpl:RegionModelImpl:getCountryId",
+      "type": "function",
+      "name": "getCountryId",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/RegionModelImpl.java",
+      "summary": "getCountryId() in RegionModelImpl.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "function:com/liferay/portal/model/impl/RegionModelImpl:RegionModelImpl:setCountryId",
+      "type": "function",
+      "name": "setCountryId",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/RegionModelImpl.java",
+      "summary": "setCountryId() in RegionModelImpl.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "function:com/liferay/portal/model/impl/RegionModelImpl:RegionModelImpl:getOriginalCountryId",
+      "type": "function",
+      "name": "getOriginalCountryId",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/RegionModelImpl.java",
+      "summary": "getOriginalCountryId() in RegionModelImpl.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "function:com/liferay/portal/model/impl/RegionModelImpl:RegionModelImpl:getActive",
+      "type": "function",
+      "name": "getActive",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/RegionModelImpl.java",
+      "summary": "getActive() in RegionModelImpl.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "function:com/liferay/portal/model/impl/RegionModelImpl:RegionModelImpl:isActive",
+      "type": "function",
+      "name": "isActive",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/RegionModelImpl.java",
+      "summary": "isActive() in RegionModelImpl.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "function:com/liferay/portal/model/impl/RegionModelImpl:RegionModelImpl:setActive",
+      "type": "function",
+      "name": "setActive",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/RegionModelImpl.java",
+      "summary": "setActive() in RegionModelImpl.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "function:com/liferay/portal/model/impl/RegionModelImpl:RegionModelImpl:getOriginalActive",
+      "type": "function",
+      "name": "getOriginalActive",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/RegionModelImpl.java",
+      "summary": "getOriginalActive() in RegionModelImpl.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "function:com/liferay/portal/model/impl/RegionModelImpl:RegionModelImpl:getName",
+      "type": "function",
+      "name": "getName",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/RegionModelImpl.java",
+      "summary": "getName() in RegionModelImpl.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "function:com/liferay/portal/model/impl/RegionModelImpl:RegionModelImpl:setName",
+      "type": "function",
+      "name": "setName",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/RegionModelImpl.java",
+      "summary": "setName() in RegionModelImpl.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "function:com/liferay/portal/model/impl/RegionModelImpl:RegionModelImpl:getPosition",
+      "type": "function",
+      "name": "getPosition",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/RegionModelImpl.java",
+      "summary": "getPosition() in RegionModelImpl.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low"
+    }
+  ],
+  "edges": [
+    {
+      "source": "file:com/liferay/portal/model/impl/RegionModelImpl",
+      "target": "file:com/liferay/portal/kernel/bean/AutoEscapeBeanHandler",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.5
+    },
+    {
+      "source": "file:com/liferay/portal/model/impl/RegionModelImpl",
+      "target": "file:com/liferay/portal/kernel/model/impl/BaseModelImpl",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.5
+    },
+    {
+      "source": "file:com/liferay/portal/model/impl/RegionModelImpl",
+      "target": "file:com/liferay/portal/kernel/model/ModelWrapper",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.5
+    },
+    {
+      "source": "file:com/liferay/portal/model/impl/RegionModelImpl",
+      "target": "file:com/liferay/portal/kernel/service/ServiceContext",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.5
+    },
+    {
+      "source": "file:com/liferay/portal/model/impl/RegionModelImpl",
+      "target": "file:com/liferay/portal/kernel/util/GetterUtil",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.5
+    },
+    {
+      "source": "file:com/liferay/portal/model/impl/RegionModelImpl",
+      "target": "file:com/liferay/portal/kernel/util/ProxyUtil",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.5
+    },
+    {
+      "source": "file:com/liferay/portal/model/impl/RegionModelImpl",
+      "target": "file:com/liferay/portal/kernel/util/StringUtil",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.5
+    }
+  ]
+}

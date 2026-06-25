@@ -1,0 +1,815 @@
+{
+  "nodes": [
+    {
+      "id": "function:com/liferay/portal/model/impl/TicketModelImpl:TicketModelImpl:setCreateDate",
+      "type": "function",
+      "name": "setCreateDate",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/TicketModelImpl.java",
+      "summary": "setCreateDate() in TicketModelImpl.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "function:com/liferay/portal/model/impl/TicketModelImpl:TicketModelImpl:getClassName",
+      "type": "function",
+      "name": "getClassName",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/TicketModelImpl.java",
+      "summary": "getClassName() in TicketModelImpl.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "function:com/liferay/portal/model/impl/TicketModelImpl:TicketModelImpl:setClassName",
+      "type": "function",
+      "name": "setClassName",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/TicketModelImpl.java",
+      "summary": "setClassName() in TicketModelImpl.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "function:com/liferay/portal/model/impl/TicketModelImpl:TicketModelImpl:getClassNameId",
+      "type": "function",
+      "name": "getClassNameId",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/TicketModelImpl.java",
+      "summary": "getClassNameId() in TicketModelImpl.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "function:com/liferay/portal/model/impl/TicketModelImpl:TicketModelImpl:setClassNameId",
+      "type": "function",
+      "name": "setClassNameId",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/TicketModelImpl.java",
+      "summary": "setClassNameId() in TicketModelImpl.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "function:com/liferay/portal/model/impl/TicketModelImpl:TicketModelImpl:getOriginalClassNameId",
+      "type": "function",
+      "name": "getOriginalClassNameId",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/TicketModelImpl.java",
+      "summary": "getOriginalClassNameId() in TicketModelImpl.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "function:com/liferay/portal/model/impl/TicketModelImpl:TicketModelImpl:getClassPK",
+      "type": "function",
+      "name": "getClassPK",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/TicketModelImpl.java",
+      "summary": "getClassPK() in TicketModelImpl.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "function:com/liferay/portal/model/impl/TicketModelImpl:TicketModelImpl:setClassPK",
+      "type": "function",
+      "name": "setClassPK",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/TicketModelImpl.java",
+      "summary": "setClassPK() in TicketModelImpl.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "function:com/liferay/portal/model/impl/TicketModelImpl:TicketModelImpl:getOriginalClassPK",
+      "type": "function",
+      "name": "getOriginalClassPK",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/TicketModelImpl.java",
+      "summary": "getOriginalClassPK() in TicketModelImpl.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "function:com/liferay/portal/model/impl/TicketModelImpl:TicketModelImpl:getKey",
+      "type": "function",
+      "name": "getKey",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/TicketModelImpl.java",
+      "summary": "getKey() in TicketModelImpl.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "function:com/liferay/portal/model/impl/TicketModelImpl:TicketModelImpl:setKey",
+      "type": "function",
+      "name": "setKey",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/TicketModelImpl.java",
+      "summary": "setKey() in TicketModelImpl.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "function:com/liferay/portal/model/impl/TicketModelImpl:TicketModelImpl:getOriginalKey",
+      "type": "function",
+      "name": "getOriginalKey",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/TicketModelImpl.java",
+      "summary": "getOriginalKey() in TicketModelImpl.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "function:com/liferay/portal/model/impl/TicketModelImpl:TicketModelImpl:getType",
+      "type": "function",
+      "name": "getType",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/TicketModelImpl.java",
+      "summary": "getType() in TicketModelImpl.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "function:com/liferay/portal/model/impl/TicketModelImpl:TicketModelImpl:setType",
+      "type": "function",
+      "name": "setType",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/TicketModelImpl.java",
+      "summary": "setType() in TicketModelImpl.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "function:com/liferay/portal/model/impl/TicketModelImpl:TicketModelImpl:getOriginalType",
+      "type": "function",
+      "name": "getOriginalType",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/TicketModelImpl.java",
+      "summary": "getOriginalType() in TicketModelImpl.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "function:com/liferay/portal/model/impl/TicketModelImpl:TicketModelImpl:getExtraInfo",
+      "type": "function",
+      "name": "getExtraInfo",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/TicketModelImpl.java",
+      "summary": "getExtraInfo() in TicketModelImpl.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "function:com/liferay/portal/model/impl/TicketModelImpl:TicketModelImpl:setExtraInfo",
+      "type": "function",
+      "name": "setExtraInfo",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/TicketModelImpl.java",
+      "summary": "setExtraInfo() in TicketModelImpl.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "function:com/liferay/portal/model/impl/TicketModelImpl:TicketModelImpl:getExpirationDate",
+      "type": "function",
+      "name": "getExpirationDate",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/TicketModelImpl.java",
+      "summary": "getExpirationDate() in TicketModelImpl.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "function:com/liferay/portal/model/impl/TicketModelImpl:TicketModelImpl:setExpirationDate",
+      "type": "function",
+      "name": "setExpirationDate",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/TicketModelImpl.java",
+      "summary": "setExpirationDate() in TicketModelImpl.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "function:com/liferay/portal/model/impl/TicketModelImpl:TicketModelImpl:getColumnBitmask",
+      "type": "function",
+      "name": "getColumnBitmask",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/TicketModelImpl.java",
+      "summary": "getColumnBitmask() in TicketModelImpl.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "function:com/liferay/portal/model/impl/TicketModelImpl:TicketModelImpl:getExpandoBridge",
+      "type": "function",
+      "name": "getExpandoBridge",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/TicketModelImpl.java",
+      "summary": "getExpandoBridge() in TicketModelImpl.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "function:com/liferay/portal/model/impl/TicketModelImpl:TicketModelImpl:setExpandoBridgeAttributes",
+      "type": "function",
+      "name": "setExpandoBridgeAttributes",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/TicketModelImpl.java",
+      "summary": "setExpandoBridgeAttributes() in TicketModelImpl.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "function:com/liferay/portal/model/impl/TicketModelImpl:TicketModelImpl:toEscapedModel",
+      "type": "function",
+      "name": "toEscapedModel",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/TicketModelImpl.java",
+      "summary": "toEscapedModel() in TicketModelImpl.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "function:com/liferay/portal/model/impl/TicketModelImpl:TicketModelImpl:clone",
+      "type": "function",
+      "name": "clone",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/TicketModelImpl.java",
+      "summary": "clone() in TicketModelImpl.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "function:com/liferay/portal/model/impl/TicketModelImpl:TicketModelImpl:equals",
+      "type": "function",
+      "name": "equals",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/TicketModelImpl.java",
+      "summary": "equals() in TicketModelImpl.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "function:com/liferay/portal/model/impl/TicketModelImpl:TicketModelImpl:hashCode",
+      "type": "function",
+      "name": "hashCode",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/TicketModelImpl.java",
+      "summary": "hashCode() in TicketModelImpl.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "function:com/liferay/portal/model/impl/TicketModelImpl:TicketModelImpl:isEntityCacheEnabled",
+      "type": "function",
+      "name": "isEntityCacheEnabled",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/TicketModelImpl.java",
+      "summary": "isEntityCacheEnabled() in TicketModelImpl.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "function:com/liferay/portal/model/impl/TicketModelImpl:TicketModelImpl:isFinderCacheEnabled",
+      "type": "function",
+      "name": "isFinderCacheEnabled",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/TicketModelImpl.java",
+      "summary": "isFinderCacheEnabled() in TicketModelImpl.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "function:com/liferay/portal/model/impl/TicketModelImpl:TicketModelImpl:resetOriginalValues",
+      "type": "function",
+      "name": "resetOriginalValues",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/TicketModelImpl.java",
+      "summary": "resetOriginalValues() in TicketModelImpl.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "function:com/liferay/portal/model/impl/TicketModelImpl:TicketModelImpl:toCacheModel",
+      "type": "function",
+      "name": "toCacheModel",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/TicketModelImpl.java",
+      "summary": "toCacheModel() in TicketModelImpl.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "function:com/liferay/portal/model/impl/TicketModelImpl:TicketModelImpl:toString",
+      "type": "function",
+      "name": "toString",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/TicketModelImpl.java",
+      "summary": "toString() in TicketModelImpl.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "function:com/liferay/portal/model/impl/TicketModelImpl:TicketModelImpl:getColumnValue",
+      "type": "function",
+      "name": "getColumnValue",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/TicketModelImpl.java",
+      "summary": "getColumnValue() in TicketModelImpl.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "function:com/liferay/portal/model/impl/TicketModelImpl:TicketModelImpl:getColumnOriginalValue",
+      "type": "function",
+      "name": "getColumnOriginalValue",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/TicketModelImpl.java",
+      "summary": "getColumnOriginalValue() in TicketModelImpl.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "function:com/liferay/portal/model/impl/TicketModelImpl:TicketModelImpl:getColumnBitmask_2",
+      "type": "function",
+      "name": "getColumnBitmask",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/TicketModelImpl.java",
+      "summary": "getColumnBitmask() in TicketModelImpl.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "file:com/liferay/portal/kernel/model/Ticket",
+      "type": "file",
+      "name": "Ticket.java",
+      "filePath": "portal-kernel/src/com/liferay/portal/kernel/model/Ticket.java",
+      "summary": "Ticket.java - com/liferay/portal/kernel/model/Ticket",
+      "tags": [
+        "code",
+        "java",
+        "imported"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "file:com/liferay/portal/kernel/model/TicketModel",
+      "type": "file",
+      "name": "TicketModel.java",
+      "filePath": "portal-kernel/src/com/liferay/portal/kernel/model/TicketModel.java",
+      "summary": "TicketModel.java - com/liferay/portal/kernel/model/TicketModel",
+      "tags": [
+        "code",
+        "java",
+        "imported"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "file:com/liferay/portal/model/impl/UserBaseImpl",
+      "type": "file",
+      "name": "UserBaseImpl.java",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/UserBaseImpl.java",
+      "summary": "UserBaseImpl.java - com/liferay/portal/model/impl/UserBaseImpl",
+      "tags": [
+        "code",
+        "java",
+        "class-definition"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "class:com/liferay/portal/model/impl/UserBaseImpl:UserBaseImpl",
+      "type": "class",
+      "name": "UserBaseImpl",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/UserBaseImpl.java",
+      "summary": "UserBaseImpl class in UserBaseImpl.java",
+      "tags": [
+        "class"
+      ],
+      "complexity": "low",
+      "methods": [
+        "persist"
+      ],
+      "properties": []
+    },
+    {
+      "id": "file:com/liferay/portal/model/impl/UserCacheModel",
+      "type": "file",
+      "name": "UserCacheModel.java",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/UserCacheModel.java",
+      "summary": "UserCacheModel.java - com/liferay/portal/model/impl/UserCacheModel",
+      "tags": [
+        "code",
+        "java",
+        "class-definition"
+      ],
+      "complexity": "medium"
+    },
+    {
+      "id": "class:com/liferay/portal/model/impl/UserCacheModel:UserCacheModel",
+      "type": "class",
+      "name": "UserCacheModel",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/UserCacheModel.java",
+      "summary": "UserCacheModel class in UserCacheModel.java",
+      "tags": [
+        "class"
+      ],
+      "complexity": "medium",
+      "methods": [
+        "equals",
+        "hashCode",
+        "getMvccVersion",
+        "setMvccVersion",
+        "toString",
+        "toEntityModel",
+        "readExternal",
+        "writeExternal"
+      ],
+      "properties": [
+        "mvccVersion",
+        "ctCollectionId",
+        "uuid",
+        "externalReferenceCode",
+        "userId",
+        "companyId",
+        "createDate",
+        "modifiedDate",
+        "contactId",
+        "password",
+        "passwordEncrypted",
+        "passwordReset",
+        "passwordModifiedDate",
+        "digest",
+        "reminderQueryQuestion",
+        "reminderQueryAnswer",
+        "graceLoginCount",
+        "screenName",
+        "emailAddress",
+        "facebookId",
+        "googleUserId",
+        "ldapServerId",
+        "openId",
+        "portraitId",
+        "languageId",
+        "timeZoneId",
+        "greeting",
+        "comments",
+        "firstName",
+        "middleName",
+        "lastName",
+        "jobTitle",
+        "loginDate",
+        "loginIP",
+        "lastLoginDate",
+        "lastLoginIP",
+        "lastFailedLoginDate",
+        "failedLoginAttempts",
+        "lockout",
+        "lockoutDate",
+        "agreedToTermsOfUse",
+        "emailAddressVerified",
+        "type",
+        "status",
+        "_groupId"
+      ]
+    },
+    {
+      "id": "function:com/liferay/portal/model/impl/UserCacheModel:UserCacheModel:equals",
+      "type": "function",
+      "name": "equals",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/UserCacheModel.java",
+      "summary": "equals() in UserCacheModel.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "function:com/liferay/portal/model/impl/UserCacheModel:UserCacheModel:hashCode",
+      "type": "function",
+      "name": "hashCode",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/UserCacheModel.java",
+      "summary": "hashCode() in UserCacheModel.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "function:com/liferay/portal/model/impl/UserCacheModel:UserCacheModel:getMvccVersion",
+      "type": "function",
+      "name": "getMvccVersion",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/UserCacheModel.java",
+      "summary": "getMvccVersion() in UserCacheModel.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "function:com/liferay/portal/model/impl/UserCacheModel:UserCacheModel:setMvccVersion",
+      "type": "function",
+      "name": "setMvccVersion",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/UserCacheModel.java",
+      "summary": "setMvccVersion() in UserCacheModel.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "function:com/liferay/portal/model/impl/UserCacheModel:UserCacheModel:toString",
+      "type": "function",
+      "name": "toString",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/UserCacheModel.java",
+      "summary": "toString() in UserCacheModel.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "function:com/liferay/portal/model/impl/UserCacheModel:UserCacheModel:toEntityModel",
+      "type": "function",
+      "name": "toEntityModel",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/UserCacheModel.java",
+      "summary": "toEntityModel() in UserCacheModel.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "function:com/liferay/portal/model/impl/UserCacheModel:UserCacheModel:readExternal",
+      "type": "function",
+      "name": "readExternal",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/UserCacheModel.java",
+      "summary": "readExternal() in UserCacheModel.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "function:com/liferay/portal/model/impl/UserCacheModel:UserCacheModel:writeExternal",
+      "type": "function",
+      "name": "writeExternal",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/UserCacheModel.java",
+      "summary": "writeExternal() in UserCacheModel.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "file:com/liferay/portal/model/impl/UserGroupGroupRoleModelImpl",
+      "type": "file",
+      "name": "UserGroupGroupRoleModelImpl.java",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/UserGroupGroupRoleModelImpl.java",
+      "summary": "UserGroupGroupRoleModelImpl.java - com/liferay/portal/model/impl/UserGroupGroupRoleModelImpl",
+      "tags": [
+        "code",
+        "java",
+        "class-definition"
+      ],
+      "complexity": "medium"
+    },
+    {
+      "id": "class:com/liferay/portal/model/impl/UserGroupGroupRoleModelImpl:UserGroupGroupRoleModelImpl",
+      "type": "class",
+      "name": "UserGroupGroupRoleModelImpl",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/UserGroupGroupRoleModelImpl.java",
+      "summary": "UserGroupGroupRoleModelImpl class in UserGroupGroupRoleModelImpl.java",
+      "tags": [
+        "class"
+      ],
+      "complexity": "high",
+      "methods": [
+        "UserGroupGroupRoleModelImpl",
+        "getPrimaryKey",
+        "setPrimaryKey",
+        "getPrimaryKeyObj",
+        "setPrimaryKeyObj",
+        "getModelClass",
+        "getModelClassName",
+        "getModelAttributes",
+        "setModelAttributes",
+        "getAttributeGetterFunctions",
+        "getAttributeSetterBiConsumers",
+        "getMvccVersion",
+        "setMvccVersion",
+        "getCtCollectionId",
+        "setCtCollectionId",
+        "getUserGroupGroupRoleId",
+        "setUserGroupGroupRoleId",
+        "getCompanyId",
+        "setCompanyId",
+        "getUserGroupId",
+        "setUserGroupId",
+        "getOriginalUserGroupId",
+        "getGroupId",
+        "setGroupId",
+        "getOriginalGroupId",
+        "getRoleId",
+        "setRoleId",
+        "getOriginalRoleId",
+        "getColumnBitmask",
+        "getExpandoBridge",
+        "setExpandoBridgeAttributes",
+        "toEscapedModel",
+        "clone",
+        "cloneWithOriginalValues",
+        "compareTo",
+        "equals",
+        "hashCode",
+        "isEntityCacheEnabled",
+        "isFinderCacheEnabled",
+        "resetOriginalValues",
+        "toCacheModel",
+        "toString",
+        "getColumnValue",
+        "getColumnOriginalValue",
+        "_setColumnOriginalValues",
+        "getColumnBitmask"
+      ],
+      "properties": [
+        "TABLE_NAME",
+        "TABLE_COLUMNS",
+        "TABLE_COLUMNS_MAP",
+        "TABLE_SQL_CREATE",
+        "TABLE_SQL_DROP",
+        "ORDER_BY_JPQL",
+        "ORDER_BY_SQL",
+        "DATA_SOURCE",
+        "SESSION_FACTORY",
+        "TX_MANAGER",
+        "ENTITY_CACHE_ENABLED",
+        "FINDER_CACHE_ENABLED",
+        "COLUMN_BITMASK_ENABLED",
+        "GROUPID_COLUMN_BITMASK",
+        "ROLEID_COLUMN_BITMASK",
+        "USERGROUPID_COLUMN_BITMASK",
+        "USERGROUPGROUPROLEID_COLUMN_BITMASK",
+        "LOCK_EXPIRATION_TIME",
+        "_mvccVersion",
+        "_ctCollectionId",
+        "_userGroupGroupRoleId",
+        "_companyId",
+        "_userGroupId",
+        "_groupId",
+        "_roleId",
+        "_columnOriginalValues",
+        "_columnBitmasks",
+        "_columnBitmask",
+        "_escapedModel"
+      ]
+    },
+    {
+      "id": "function:com/liferay/portal/model/impl/UserGroupGroupRoleModelImpl:UserGroupGroupRoleModelImpl:getPrimaryKey",
+      "type": "function",
+      "name": "getPrimaryKey",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/UserGroupGroupRoleModelImpl.java",
+      "summary": "getPrimaryKey() in UserGroupGroupRoleModelImpl.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "function:com/liferay/portal/model/impl/UserGroupGroupRoleModelImpl:UserGroupGroupRoleModelImpl:setPrimaryKey",
+      "type": "function",
+      "name": "setPrimaryKey",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/UserGroupGroupRoleModelImpl.java",
+      "summary": "setPrimaryKey() in UserGroupGroupRoleModelImpl.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "function:com/liferay/portal/model/impl/UserGroupGroupRoleModelImpl:UserGroupGroupRoleModelImpl:getPrimaryKeyObj",
+      "type": "function",
+      "name": "getPrimaryKeyObj",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/UserGroupGroupRoleModelImpl.java",
+      "summary": "getPrimaryKeyObj() in UserGroupGroupRoleModelImpl.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "function:com/liferay/portal/model/impl/UserGroupGroupRoleModelImpl:UserGroupGroupRoleModelImpl:setPrimaryKeyObj",
+      "type": "function",
+      "name": "setPrimaryKeyObj",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/UserGroupGroupRoleModelImpl.java",
+      "summary": "setPrimaryKeyObj() in UserGroupGroupRoleModelImpl.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "function:com/liferay/portal/model/impl/UserGroupGroupRoleModelImpl:UserGroupGroupRoleModelImpl:getModelClass",
+      "type": "function",
+      "name": "getModelClass",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/UserGroupGroupRoleModelImpl.java",
+      "summary": "getModelClass() in UserGroupGroupRoleModelImpl.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "function:com/liferay/portal/model/impl/UserGroupGroupRoleModelImpl:UserGroupGroupRoleModelImpl:getModelClassName",
+      "type": "function",
+      "name": "getModelClassName",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/UserGroupGroupRoleModelImpl.java",
+      "summary": "getModelClassName() in UserGroupGroupRoleModelImpl.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "function:com/liferay/portal/model/impl/UserGroupGroupRoleModelImpl:UserGroupGroupRoleModelImpl:getModelAttributes",
+      "type": "function",
+      "name": "getModelAttributes",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/UserGroupGroupRoleModelImpl.java",
+      "summary": "getModelAttributes() in UserGroupGroupRoleModelImpl.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "function:com/liferay/portal/model/impl/UserGroupGroupRoleModelImpl:UserGroupGroupRoleModelImpl:setModelAttributes",
+      "type": "function",
+      "name": "setModelAttributes",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/UserGroupGroupRoleModelImpl.java",
+      "summary": "setModelAttributes() in UserGroupGroupRoleModelImpl.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "function:com/liferay/portal/model/impl/UserGroupGroupRoleModelImpl:UserGroupGroupRoleModelImpl:getAttributeGetterFunctions",
+      "type": "function",
+      "name": "getAttributeGetterFunctions",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/UserGroupGroupRoleModelImpl.java",
+      "summary": "getAttributeGetterFunctions() in UserGroupGroupRoleModelImpl.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "function:com/liferay/portal/model/impl/UserGroupGroupRoleModelImpl:UserGroupGroupRoleModelImpl:getAttributeSetterBiConsumers",
+      "type": "function",
+      "name": "getAttributeSetterBiConsumers",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/UserGroupGroupRoleModelImpl.java",
+      "summary": "getAttributeSetterBiConsumers() in UserGroupGroupRoleModelImpl.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low"
+    }
+  ],
+  "edges": []
+}

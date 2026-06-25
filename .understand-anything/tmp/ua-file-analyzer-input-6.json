@@ -1,0 +1,405 @@
+{
+  "projectRoot": "/opt/projects/liferay/portal/arena-7.4.3.129-ga129/portal",
+  "batchFiles": [
+    {
+      "path": "portal-impl/src/com/liferay/portal/model/impl/PhoneBaseImpl.java",
+      "language": "java",
+      "sizeLines": 39,
+      "fileCategory": "code"
+    },
+    {
+      "path": "portal-impl/src/com/liferay/portal/model/impl/PhoneCacheModel.java",
+      "language": "java",
+      "sizeLines": 283,
+      "fileCategory": "code"
+    },
+    {
+      "path": "portal-impl/src/com/liferay/portal/model/impl/PluginSettingBaseImpl.java",
+      "language": "java",
+      "sizeLines": 40,
+      "fileCategory": "code"
+    },
+    {
+      "path": "portal-impl/src/com/liferay/portal/model/impl/PluginSettingCacheModel.java",
+      "language": "java",
+      "sizeLines": 179,
+      "fileCategory": "code"
+    },
+    {
+      "path": "portal-impl/src/com/liferay/portal/model/impl/PortalPreferencesBaseImpl.java",
+      "language": "java",
+      "sizeLines": 40,
+      "fileCategory": "code"
+    },
+    {
+      "path": "portal-impl/src/com/liferay/portal/model/impl/PortletItemBaseImpl.java",
+      "language": "java",
+      "sizeLines": 40,
+      "fileCategory": "code"
+    },
+    {
+      "path": "portal-impl/src/com/liferay/portal/model/impl/PortletItemCacheModel.java",
+      "language": "java",
+      "sizeLines": 222,
+      "fileCategory": "code"
+    },
+    {
+      "path": "portal-impl/src/com/liferay/portal/model/impl/RecentLayoutBranchBaseImpl.java",
+      "language": "java",
+      "sizeLines": 40,
+      "fileCategory": "code"
+    },
+    {
+      "path": "portal-impl/src/com/liferay/portal/model/impl/RecentLayoutBranchCacheModel.java",
+      "language": "java",
+      "sizeLines": 158,
+      "fileCategory": "code"
+    },
+    {
+      "path": "portal-impl/src/com/liferay/portal/model/impl/RecentLayoutRevisionBaseImpl.java",
+      "language": "java",
+      "sizeLines": 41,
+      "fileCategory": "code"
+    },
+    {
+      "path": "portal-impl/src/com/liferay/portal/model/impl/RecentLayoutRevisionCacheModel.java",
+      "language": "java",
+      "sizeLines": 159,
+      "fileCategory": "code"
+    },
+    {
+      "path": "portal-impl/src/com/liferay/portal/model/impl/RecentLayoutSetBranchBaseImpl.java",
+      "language": "java",
+      "sizeLines": 42,
+      "fileCategory": "code"
+    },
+    {
+      "path": "portal-impl/src/com/liferay/portal/model/impl/RecentLayoutSetBranchCacheModel.java",
+      "language": "java",
+      "sizeLines": 151,
+      "fileCategory": "code"
+    },
+    {
+      "path": "portal-impl/src/com/liferay/portal/model/impl/RegionBaseImpl.java",
+      "language": "java",
+      "sizeLines": 39,
+      "fileCategory": "code"
+    },
+    {
+      "path": "portal-impl/src/com/liferay/portal/model/impl/ReleaseBaseImpl.java",
+      "language": "java",
+      "sizeLines": 40,
+      "fileCategory": "code"
+    },
+    {
+      "path": "portal-impl/src/com/liferay/portal/model/impl/ReleaseCacheModel.java",
+      "language": "java",
+      "sizeLines": 225,
+      "fileCategory": "code"
+    },
+    {
+      "path": "portal-impl/src/com/liferay/portal/model/impl/ResourceActionBaseImpl.java",
+      "language": "java",
+      "sizeLines": 40,
+      "fileCategory": "code"
+    },
+    {
+      "path": "portal-impl/src/com/liferay/portal/model/impl/ResourceImpl.java",
+      "language": "java",
+      "sizeLines": 89,
+      "fileCategory": "code"
+    },
+    {
+      "path": "portal-impl/src/com/liferay/portal/model/impl/ResourcePermissionImpl.java",
+      "language": "java",
+      "sizeLines": 124,
+      "fileCategory": "code"
+    },
+    {
+      "path": "portal-impl/src/com/liferay/portal/model/impl/SubscriptionBaseImpl.java",
+      "language": "java",
+      "sizeLines": 42,
+      "fileCategory": "code"
+    },
+    {
+      "path": "portal-impl/src/com/liferay/portal/model/impl/SubscriptionCacheModel.java",
+      "language": "java",
+      "sizeLines": 214,
+      "fileCategory": "code"
+    },
+    {
+      "path": "portal-impl/src/com/liferay/portal/model/impl/TeamBaseImpl.java",
+      "language": "java",
+      "sizeLines": 39,
+      "fileCategory": "code"
+    },
+    {
+      "path": "portal-impl/src/com/liferay/portal/model/impl/TeamCacheModel.java",
+      "language": "java",
+      "sizeLines": 253,
+      "fileCategory": "code"
+    },
+    {
+      "path": "portal-impl/src/com/liferay/portal/model/impl/UserIdMapperBaseImpl.java",
+      "language": "java",
+      "sizeLines": 40,
+      "fileCategory": "code"
+    },
+    {
+      "path": "portal-impl/src/com/liferay/portal/model/impl/UserIdMapperCacheModel.java",
+      "language": "java",
+      "sizeLines": 178,
+      "fileCategory": "code"
+    },
+    {
+      "path": "portal-impl/src/com/liferay/portal/model/impl/UserNotificationDeliveryBaseImpl.java",
+      "language": "java",
+      "sizeLines": 43,
+      "fileCategory": "code"
+    },
+    {
+      "path": "portal-impl/src/com/liferay/portal/model/impl/UserNotificationDeliveryCacheModel.java",
+      "language": "java",
+      "sizeLines": 179,
+      "fileCategory": "code"
+    },
+    {
+      "path": "portal-impl/src/com/liferay/portal/model/impl/UserNotificationEventBaseImpl.java",
+      "language": "java",
+      "sizeLines": 42,
+      "fileCategory": "code"
+    },
+    {
+      "path": "portal-impl/src/com/liferay/portal/model/impl/UserNotificationEventCacheModel.java",
+      "language": "java",
+      "sizeLines": 234,
+      "fileCategory": "code"
+    },
+    {
+      "path": "portal-impl/src/com/liferay/portal/model/impl/WebsiteBaseImpl.java",
+      "language": "java",
+      "sizeLines": 40,
+      "fileCategory": "code"
+    },
+    {
+      "path": "portal-impl/src/com/liferay/portal/plugin/PluginPackageException.java",
+      "language": "java",
+      "sizeLines": 29,
+      "fileCategory": "code"
+    },
+    {
+      "path": "portal-impl/src/com/liferay/portal/plugin/PluginUtil.java",
+      "language": "java",
+      "sizeLines": 52,
+      "fileCategory": "code"
+    },
+    {
+      "path": "portal-impl/src/com/liferay/portal/repository/capabilities/util/DLAppServiceAdapter.java",
+      "language": "java",
+      "sizeLines": 63,
+      "fileCategory": "code"
+    },
+    {
+      "path": "portal-impl/src/com/liferay/portal/repository/capabilities/util/GroupServiceAdapter.java",
+      "language": "java",
+      "sizeLines": 59,
+      "fileCategory": "code"
+    },
+    {
+      "path": "portal-impl/src/com/liferay/portal/repository/liferayrepository/LiferayRepositoryBase.java",
+      "language": "java",
+      "sizeLines": 209,
+      "fileCategory": "code"
+    }
+  ],
+  "batchImportData": {
+    "portal-impl/src/com/liferay/portal/model/impl/PhoneBaseImpl.java": [
+      "portal-kernel/src/com/liferay/portal/kernel/model/Phone.java",
+      "portal-kernel/src/com/liferay/portal/kernel/service/PhoneLocalServiceUtil.java"
+    ],
+    "portal-impl/src/com/liferay/portal/model/impl/PhoneCacheModel.java": [
+      "portal-kernel/src/com/liferay/portal/kernel/model/CacheModel.java",
+      "portal-kernel/src/com/liferay/portal/kernel/model/MVCCModel.java",
+      "portal-kernel/src/com/liferay/portal/kernel/model/Phone.java"
+    ],
+    "portal-impl/src/com/liferay/portal/model/impl/PluginSettingBaseImpl.java": [
+      "portal-kernel/src/com/liferay/portal/kernel/model/PluginSetting.java",
+      "portal-kernel/src/com/liferay/portal/kernel/service/PluginSettingLocalServiceUtil.java"
+    ],
+    "portal-impl/src/com/liferay/portal/model/impl/PluginSettingCacheModel.java": [
+      "portal-kernel/src/com/liferay/portal/kernel/model/CacheModel.java",
+      "portal-kernel/src/com/liferay/portal/kernel/model/MVCCModel.java",
+      "portal-kernel/src/com/liferay/portal/kernel/model/PluginSetting.java"
+    ],
+    "portal-impl/src/com/liferay/portal/model/impl/PortalPreferencesBaseImpl.java": [
+      "portal-kernel/src/com/liferay/portal/kernel/model/PortalPreferences.java",
+      "portal-kernel/src/com/liferay/portal/kernel/service/PortalPreferencesLocalServiceUtil.java"
+    ],
+    "portal-impl/src/com/liferay/portal/model/impl/PortletItemBaseImpl.java": [
+      "portal-kernel/src/com/liferay/portal/kernel/model/PortletItem.java",
+      "portal-kernel/src/com/liferay/portal/kernel/service/PortletItemLocalServiceUtil.java"
+    ],
+    "portal-impl/src/com/liferay/portal/model/impl/PortletItemCacheModel.java": [
+      "portal-kernel/src/com/liferay/portal/kernel/model/CacheModel.java",
+      "portal-kernel/src/com/liferay/portal/kernel/model/MVCCModel.java",
+      "portal-kernel/src/com/liferay/portal/kernel/model/PortletItem.java"
+    ],
+    "portal-impl/src/com/liferay/portal/model/impl/RecentLayoutBranchBaseImpl.java": [
+      "portal-kernel/src/com/liferay/portal/kernel/model/RecentLayoutBranch.java",
+      "portal-kernel/src/com/liferay/portal/kernel/service/RecentLayoutBranchLocalServiceUtil.java"
+    ],
+    "portal-impl/src/com/liferay/portal/model/impl/RecentLayoutBranchCacheModel.java": [
+      "portal-kernel/src/com/liferay/portal/kernel/model/CacheModel.java",
+      "portal-kernel/src/com/liferay/portal/kernel/model/MVCCModel.java",
+      "portal-kernel/src/com/liferay/portal/kernel/model/RecentLayoutBranch.java"
+    ],
+    "portal-impl/src/com/liferay/portal/model/impl/RecentLayoutRevisionBaseImpl.java": [
+      "portal-kernel/src/com/liferay/portal/kernel/model/RecentLayoutRevision.java",
+      "portal-kernel/src/com/liferay/portal/kernel/service/RecentLayoutRevisionLocalServiceUtil.java"
+    ],
+    "portal-impl/src/com/liferay/portal/model/impl/RecentLayoutRevisionCacheModel.java": [
+      "portal-kernel/src/com/liferay/portal/kernel/model/CacheModel.java",
+      "portal-kernel/src/com/liferay/portal/kernel/model/MVCCModel.java",
+      "portal-kernel/src/com/liferay/portal/kernel/model/RecentLayoutRevision.java"
+    ],
+    "portal-impl/src/com/liferay/portal/model/impl/RecentLayoutSetBranchBaseImpl.java": [
+      "portal-kernel/src/com/liferay/portal/kernel/model/RecentLayoutSetBranch.java",
+      "portal-kernel/src/com/liferay/portal/kernel/service/RecentLayoutSetBranchLocalServiceUtil.java"
+    ],
+    "portal-impl/src/com/liferay/portal/model/impl/RecentLayoutSetBranchCacheModel.java": [
+      "portal-kernel/src/com/liferay/portal/kernel/model/CacheModel.java",
+      "portal-kernel/src/com/liferay/portal/kernel/model/MVCCModel.java",
+      "portal-kernel/src/com/liferay/portal/kernel/model/RecentLayoutSetBranch.java"
+    ],
+    "portal-impl/src/com/liferay/portal/model/impl/RegionBaseImpl.java": [
+      "portal-kernel/src/com/liferay/portal/kernel/model/Region.java",
+      "portal-kernel/src/com/liferay/portal/kernel/service/RegionLocalServiceUtil.java"
+    ],
+    "portal-impl/src/com/liferay/portal/model/impl/ReleaseBaseImpl.java": [
+      "portal-kernel/src/com/liferay/portal/kernel/model/Release.java",
+      "portal-kernel/src/com/liferay/portal/kernel/service/ReleaseLocalServiceUtil.java"
+    ],
+    "portal-impl/src/com/liferay/portal/model/impl/ReleaseCacheModel.java": [
+      "portal-kernel/src/com/liferay/portal/kernel/model/CacheModel.java",
+      "portal-kernel/src/com/liferay/portal/kernel/model/MVCCModel.java",
+      "portal-kernel/src/com/liferay/portal/kernel/model/Release.java"
+    ],
+    "portal-impl/src/com/liferay/portal/model/impl/ResourceActionBaseImpl.java": [
+      "portal-kernel/src/com/liferay/portal/kernel/model/ResourceAction.java",
+      "portal-kernel/src/com/liferay/portal/kernel/service/ResourceActionLocalServiceUtil.java"
+    ],
+    "portal-impl/src/com/liferay/portal/model/impl/ResourceImpl.java": [
+      "portal-kernel/src/com/liferay/portal/kernel/model/Resource.java"
+    ],
+    "portal-impl/src/com/liferay/portal/model/impl/ResourcePermissionImpl.java": [
+      "portal-kernel/src/com/liferay/portal/kernel/exception/PortalException.java",
+      "portal-kernel/src/com/liferay/portal/kernel/model/ResourceAction.java",
+      "portal-kernel/src/com/liferay/portal/kernel/service/ResourceActionLocalServiceUtil.java"
+    ],
+    "portal-impl/src/com/liferay/portal/model/impl/SubscriptionBaseImpl.java": [
+      "portal-kernel/src/com/liferay/portal/kernel/model/Subscription.java",
+      "portal-kernel/src/com/liferay/portal/kernel/service/SubscriptionLocalServiceUtil.java"
+    ],
+    "portal-impl/src/com/liferay/portal/model/impl/SubscriptionCacheModel.java": [
+      "portal-kernel/src/com/liferay/portal/kernel/model/CacheModel.java",
+      "portal-kernel/src/com/liferay/portal/kernel/model/MVCCModel.java",
+      "portal-kernel/src/com/liferay/portal/kernel/model/Subscription.java"
+    ],
+    "portal-impl/src/com/liferay/portal/model/impl/TeamBaseImpl.java": [
+      "portal-kernel/src/com/liferay/portal/kernel/model/Team.java",
+      "portal-kernel/src/com/liferay/portal/kernel/service/TeamLocalServiceUtil.java"
+    ],
+    "portal-impl/src/com/liferay/portal/model/impl/TeamCacheModel.java": [
+      "portal-kernel/src/com/liferay/portal/kernel/model/CacheModel.java",
+      "portal-kernel/src/com/liferay/portal/kernel/model/MVCCModel.java",
+      "portal-kernel/src/com/liferay/portal/kernel/model/Team.java"
+    ],
+    "portal-impl/src/com/liferay/portal/model/impl/UserIdMapperBaseImpl.java": [
+      "portal-kernel/src/com/liferay/portal/kernel/model/UserIdMapper.java",
+      "portal-kernel/src/com/liferay/portal/kernel/service/UserIdMapperLocalServiceUtil.java"
+    ],
+    "portal-impl/src/com/liferay/portal/model/impl/UserIdMapperCacheModel.java": [
+      "portal-kernel/src/com/liferay/portal/kernel/model/CacheModel.java",
+      "portal-kernel/src/com/liferay/portal/kernel/model/MVCCModel.java",
+      "portal-kernel/src/com/liferay/portal/kernel/model/UserIdMapper.java"
+    ],
+    "portal-impl/src/com/liferay/portal/model/impl/UserNotificationDeliveryBaseImpl.java": [
+      "portal-kernel/src/com/liferay/portal/kernel/model/UserNotificationDelivery.java",
+      "portal-kernel/src/com/liferay/portal/kernel/service/UserNotificationDeliveryLocalServiceUtil.java"
+    ],
+    "portal-impl/src/com/liferay/portal/model/impl/UserNotificationDeliveryCacheModel.java": [
+      "portal-kernel/src/com/liferay/portal/kernel/model/CacheModel.java",
+      "portal-kernel/src/com/liferay/portal/kernel/model/MVCCModel.java",
+      "portal-kernel/src/com/liferay/portal/kernel/model/UserNotificationDelivery.java"
+    ],
+    "portal-impl/src/com/liferay/portal/model/impl/UserNotificationEventBaseImpl.java": [
+      "portal-kernel/src/com/liferay/portal/kernel/model/UserNotificationEvent.java",
+      "portal-kernel/src/com/liferay/portal/kernel/service/UserNotificationEventLocalServiceUtil.java"
+    ],
+    "portal-impl/src/com/liferay/portal/model/impl/UserNotificationEventCacheModel.java": [
+      "portal-kernel/src/com/liferay/portal/kernel/model/CacheModel.java",
+      "portal-kernel/src/com/liferay/portal/kernel/model/MVCCModel.java",
+      "portal-kernel/src/com/liferay/portal/kernel/model/UserNotificationEvent.java"
+    ],
+    "portal-impl/src/com/liferay/portal/model/impl/WebsiteBaseImpl.java": [
+      "portal-kernel/src/com/liferay/portal/kernel/model/Website.java",
+      "portal-kernel/src/com/liferay/portal/kernel/service/WebsiteLocalServiceUtil.java"
+    ],
+    "portal-impl/src/com/liferay/portal/plugin/PluginPackageException.java": [
+      "portal-kernel/src/com/liferay/portal/kernel/exception/SystemException.java"
+    ],
+    "portal-impl/src/com/liferay/portal/plugin/PluginUtil.java": [
+      "portal-kernel/src/com/liferay/portal/kernel/model/Plugin.java",
+      "portal-kernel/src/com/liferay/portal/kernel/model/PluginSetting.java",
+      "portal-kernel/src/com/liferay/portal/kernel/model/User.java",
+      "portal-kernel/src/com/liferay/portal/kernel/service/PluginSettingLocalServiceUtil.java"
+    ],
+    "portal-impl/src/com/liferay/portal/repository/capabilities/util/DLAppServiceAdapter.java": [
+      "portal-kernel/src/com/liferay/document/library/kernel/service/DLAppLocalService.java",
+      "portal-kernel/src/com/liferay/document/library/kernel/service/DLAppLocalServiceUtil.java",
+      "portal-kernel/src/com/liferay/document/library/kernel/service/DLAppService.java",
+      "portal-kernel/src/com/liferay/document/library/kernel/service/DLAppServiceUtil.java",
+      "portal-kernel/src/com/liferay/portal/kernel/exception/PortalException.java",
+      "portal-kernel/src/com/liferay/portal/kernel/repository/DocumentRepository.java",
+      "portal-kernel/src/com/liferay/portal/kernel/repository/LocalRepository.java"
+    ],
+    "portal-impl/src/com/liferay/portal/repository/capabilities/util/GroupServiceAdapter.java": [
+      "portal-kernel/src/com/liferay/portal/kernel/exception/PortalException.java",
+      "portal-kernel/src/com/liferay/portal/kernel/model/Group.java",
+      "portal-kernel/src/com/liferay/portal/kernel/repository/DocumentRepository.java",
+      "portal-kernel/src/com/liferay/portal/kernel/repository/LocalRepository.java",
+      "portal-kernel/src/com/liferay/portal/kernel/service/GroupLocalService.java",
+      "portal-kernel/src/com/liferay/portal/kernel/service/GroupLocalServiceUtil.java",
+      "portal-kernel/src/com/liferay/portal/kernel/service/GroupService.java",
+      "portal-kernel/src/com/liferay/portal/kernel/service/GroupServiceUtil.java"
+    ],
+    "portal-impl/src/com/liferay/portal/repository/liferayrepository/LiferayRepositoryBase.java": [
+      "portal-kernel/src/com/liferay/document/library/kernel/model/DLFileEntryType.java",
+      "portal-kernel/src/com/liferay/document/library/kernel/model/DLFolderConstants.java",
+      "portal-kernel/src/com/liferay/document/library/kernel/service/DLAppHelperLocalService.java",
+      "portal-kernel/src/com/liferay/document/library/kernel/service/DLFileEntryLocalService.java",
+      "portal-kernel/src/com/liferay/document/library/kernel/service/DLFileEntryService.java",
+      "portal-kernel/src/com/liferay/document/library/kernel/service/DLFileEntryTypeLocalService.java",
+      "portal-kernel/src/com/liferay/document/library/kernel/service/DLFileEntryTypeLocalServiceUtil.java",
+      "portal-kernel/src/com/liferay/document/library/kernel/service/DLFileShortcutLocalService.java",
+      "portal-kernel/src/com/liferay/document/library/kernel/service/DLFileShortcutService.java",
+      "portal-kernel/src/com/liferay/document/library/kernel/service/DLFileVersionLocalService.java",
+      "portal-kernel/src/com/liferay/document/library/kernel/service/DLFileVersionService.java",
+      "portal-kernel/src/com/liferay/document/library/kernel/service/DLFolderLocalService.java",
+      "portal-kernel/src/com/liferay/document/library/kernel/service/DLFolderService.java",
+      "portal-kernel/src/com/liferay/dynamic/data/mapping/kernel/DDMFormValues.java",
+      "portal-kernel/src/com/liferay/dynamic/data/mapping/kernel/DDMStructure.java",
+      "portal-kernel/src/com/liferay/dynamic/data/mapping/kernel/StorageEngineManagerUtil.java",
+      "portal-kernel/src/com/liferay/portal/kernel/exception/PortalException.java",
+      "portal-kernel/src/com/liferay/portal/kernel/repository/capabilities/Capability.java",
+      "portal-kernel/src/com/liferay/portal/kernel/repository/capabilities/CapabilityProvider.java",
+      "portal-kernel/src/com/liferay/portal/kernel/service/RepositoryLocalService.java",
+      "portal-kernel/src/com/liferay/portal/kernel/service/RepositoryService.java",
+      "portal-kernel/src/com/liferay/portal/kernel/service/ResourceLocalService.java",
+      "portal-kernel/src/com/liferay/portal/kernel/service/ServiceContext.java",
+      "portal-kernel/src/com/liferay/portal/kernel/util/ParamUtil.java",
+      "portal-kernel/src/com/liferay/portal/kernel/util/SortedArrayList.java",
+      "portal-kernel/src/com/liferay/portal/kernel/util/StringUtil.java"
+    ]
+  }
+}

@@ -1,0 +1,2693 @@
+{
+  "nodes": [
+    {
+      "id": "function:com/liferay/portal/security/permission/AdvancedPermissionChecker:isOrganizationAdmin",
+      "type": "function",
+      "name": "isOrganizationAdmin",
+      "filePath": "portal-impl/src/com/liferay/portal/security/permission/AdvancedPermissionChecker.java",
+      "summary": "isOrganizationAdmin() in AdvancedPermissionChecker.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low",
+      "startLine": 335,
+      "endLine": 345
+    },
+    {
+      "id": "function:com/liferay/portal/security/permission/AdvancedPermissionChecker:isOrganizationOwner",
+      "type": "function",
+      "name": "isOrganizationOwner",
+      "filePath": "portal-impl/src/com/liferay/portal/security/permission/AdvancedPermissionChecker.java",
+      "summary": "isOrganizationOwner() in AdvancedPermissionChecker.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low",
+      "startLine": 347,
+      "endLine": 357
+    },
+    {
+      "id": "function:com/liferay/portal/security/permission/AdvancedPermissionChecker:addTeamRoles",
+      "type": "function",
+      "name": "addTeamRoles",
+      "filePath": "portal-impl/src/com/liferay/portal/security/permission/AdvancedPermissionChecker.java",
+      "summary": "addTeamRoles() in AdvancedPermissionChecker.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low",
+      "startLine": 359,
+      "endLine": 390
+    },
+    {
+      "id": "function:com/liferay/portal/security/permission/AdvancedPermissionChecker:doCheckPermission",
+      "type": "function",
+      "name": "doCheckPermission",
+      "filePath": "portal-impl/src/com/liferay/portal/security/permission/AdvancedPermissionChecker.java",
+      "summary": "doCheckPermission() in AdvancedPermissionChecker.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low",
+      "startLine": 392,
+      "endLine": 418
+    },
+    {
+      "id": "function:com/liferay/portal/security/permission/AdvancedPermissionChecker:doGetRoleIds",
+      "type": "function",
+      "name": "doGetRoleIds",
+      "filePath": "portal-impl/src/com/liferay/portal/security/permission/AdvancedPermissionChecker.java",
+      "summary": "doGetRoleIds() in AdvancedPermissionChecker.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "medium",
+      "startLine": 420,
+      "endLine": 546
+    },
+    {
+      "id": "function:com/liferay/portal/security/permission/AdvancedPermissionChecker:fixMissingResources",
+      "type": "function",
+      "name": "fixMissingResources",
+      "filePath": "portal-impl/src/com/liferay/portal/security/permission/AdvancedPermissionChecker.java",
+      "summary": "fixMissingResources() in AdvancedPermissionChecker.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "medium",
+      "startLine": 548,
+      "endLine": 634
+    },
+    {
+      "id": "function:com/liferay/portal/security/permission/AdvancedPermissionChecker:getResources",
+      "type": "function",
+      "name": "getResources",
+      "filePath": "portal-impl/src/com/liferay/portal/security/permission/AdvancedPermissionChecker.java",
+      "summary": "getResources() in AdvancedPermissionChecker.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low",
+      "startLine": 658,
+      "endLine": 701
+    },
+    {
+      "id": "function:com/liferay/portal/security/permission/AdvancedPermissionChecker:isCompanyAdminImpl",
+      "type": "function",
+      "name": "isCompanyAdminImpl",
+      "filePath": "portal-impl/src/com/liferay/portal/security/permission/AdvancedPermissionChecker.java",
+      "summary": "isCompanyAdminImpl() in AdvancedPermissionChecker.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low",
+      "startLine": 703,
+      "endLine": 724
+    },
+    {
+      "id": "function:com/liferay/portal/security/permission/AdvancedPermissionChecker:isContentReviewerImpl",
+      "type": "function",
+      "name": "isContentReviewerImpl",
+      "filePath": "portal-impl/src/com/liferay/portal/security/permission/AdvancedPermissionChecker.java",
+      "summary": "isContentReviewerImpl() in AdvancedPermissionChecker.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low",
+      "startLine": 726,
+      "endLine": 747
+    },
+    {
+      "id": "function:com/liferay/portal/security/permission/AdvancedPermissionChecker:isContentReviewerImpl_2",
+      "type": "function",
+      "name": "isContentReviewerImpl",
+      "filePath": "portal-impl/src/com/liferay/portal/security/permission/AdvancedPermissionChecker.java",
+      "summary": "isContentReviewerImpl() in AdvancedPermissionChecker.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low",
+      "startLine": 749,
+      "endLine": 780
+    },
+    {
+      "id": "function:com/liferay/portal/security/permission/AdvancedPermissionChecker:isGroupAdminImpl",
+      "type": "function",
+      "name": "isGroupAdminImpl",
+      "filePath": "portal-impl/src/com/liferay/portal/security/permission/AdvancedPermissionChecker.java",
+      "summary": "isGroupAdminImpl() in AdvancedPermissionChecker.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "medium",
+      "startLine": 782,
+      "endLine": 904
+    },
+    {
+      "id": "function:com/liferay/portal/security/permission/AdvancedPermissionChecker:isGroupMemberImpl",
+      "type": "function",
+      "name": "isGroupMemberImpl",
+      "filePath": "portal-impl/src/com/liferay/portal/security/permission/AdvancedPermissionChecker.java",
+      "summary": "isGroupMemberImpl() in AdvancedPermissionChecker.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low",
+      "startLine": 906,
+      "endLine": 926
+    },
+    {
+      "id": "function:com/liferay/portal/security/permission/AdvancedPermissionChecker:isGroupOwnerImpl",
+      "type": "function",
+      "name": "isGroupOwnerImpl",
+      "filePath": "portal-impl/src/com/liferay/portal/security/permission/AdvancedPermissionChecker.java",
+      "summary": "isGroupOwnerImpl() in AdvancedPermissionChecker.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "medium",
+      "startLine": 928,
+      "endLine": 986
+    },
+    {
+      "id": "function:com/liferay/portal/security/permission/AdvancedPermissionChecker:isGroupOwnerImpl_2",
+      "type": "function",
+      "name": "isGroupOwnerImpl",
+      "filePath": "portal-impl/src/com/liferay/portal/security/permission/AdvancedPermissionChecker.java",
+      "summary": "isGroupOwnerImpl() in AdvancedPermissionChecker.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low",
+      "startLine": 988,
+      "endLine": 1019
+    },
+    {
+      "id": "function:com/liferay/portal/security/permission/AdvancedPermissionChecker:isOrganizationAdminImpl",
+      "type": "function",
+      "name": "isOrganizationAdminImpl",
+      "filePath": "portal-impl/src/com/liferay/portal/security/permission/AdvancedPermissionChecker.java",
+      "summary": "isOrganizationAdminImpl() in AdvancedPermissionChecker.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low",
+      "startLine": 1021,
+      "endLine": 1060
+    },
+    {
+      "id": "function:com/liferay/portal/security/permission/AdvancedPermissionChecker:isOrganizationAdminImpl_2",
+      "type": "function",
+      "name": "isOrganizationAdminImpl",
+      "filePath": "portal-impl/src/com/liferay/portal/security/permission/AdvancedPermissionChecker.java",
+      "summary": "isOrganizationAdminImpl() in AdvancedPermissionChecker.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low",
+      "startLine": 1062,
+      "endLine": 1084
+    },
+    {
+      "id": "function:com/liferay/portal/security/permission/AdvancedPermissionChecker:isOrganizationOwnerImpl",
+      "type": "function",
+      "name": "isOrganizationOwnerImpl",
+      "filePath": "portal-impl/src/com/liferay/portal/security/permission/AdvancedPermissionChecker.java",
+      "summary": "isOrganizationOwnerImpl() in AdvancedPermissionChecker.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low",
+      "startLine": 1086,
+      "endLine": 1125
+    },
+    {
+      "id": "function:com/liferay/portal/security/permission/AdvancedPermissionChecker:isOrganizationOwnerImpl_2",
+      "type": "function",
+      "name": "isOrganizationOwnerImpl",
+      "filePath": "portal-impl/src/com/liferay/portal/security/permission/AdvancedPermissionChecker.java",
+      "summary": "isOrganizationOwnerImpl() in AdvancedPermissionChecker.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low",
+      "startLine": 1127,
+      "endLine": 1144
+    },
+    {
+      "id": "function:com/liferay/portal/security/permission/AdvancedPermissionChecker:logHasUserPermission",
+      "type": "function",
+      "name": "logHasUserPermission",
+      "filePath": "portal-impl/src/com/liferay/portal/security/permission/AdvancedPermissionChecker.java",
+      "summary": "logHasUserPermission() in AdvancedPermissionChecker.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low",
+      "startLine": 1146,
+      "endLine": 1159
+    },
+    {
+      "id": "function:com/liferay/portal/security/permission/AdvancedPermissionChecker:_applyRoleContributors",
+      "type": "function",
+      "name": "_applyRoleContributors",
+      "filePath": "portal-impl/src/com/liferay/portal/security/permission/AdvancedPermissionChecker.java",
+      "summary": "_applyRoleContributors() in AdvancedPermissionChecker.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low",
+      "startLine": 1161,
+      "endLine": 1188
+    },
+    {
+      "id": "function:com/liferay/portal/security/permission/AdvancedPermissionChecker:_getResource",
+      "type": "function",
+      "name": "_getResource",
+      "filePath": "portal-impl/src/com/liferay/portal/security/permission/AdvancedPermissionChecker.java",
+      "summary": "_getResource() in AdvancedPermissionChecker.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low",
+      "startLine": 1190,
+      "endLine": 1201
+    },
+    {
+      "id": "function:com/liferay/portal/security/permission/AdvancedPermissionChecker:_hasGuestPermission",
+      "type": "function",
+      "name": "_hasGuestPermission",
+      "filePath": "portal-impl/src/com/liferay/portal/security/permission/AdvancedPermissionChecker.java",
+      "summary": "_hasGuestPermission() in AdvancedPermissionChecker.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "medium",
+      "startLine": 1203,
+      "endLine": 1270
+    },
+    {
+      "id": "function:com/liferay/portal/security/permission/AdvancedPermissionChecker:_hasPermissionImpl",
+      "type": "function",
+      "name": "_hasPermissionImpl",
+      "filePath": "portal-impl/src/com/liferay/portal/security/permission/AdvancedPermissionChecker.java",
+      "summary": "_hasPermissionImpl() in AdvancedPermissionChecker.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low",
+      "startLine": 1272,
+      "endLine": 1292
+    },
+    {
+      "id": "function:com/liferay/portal/security/permission/AdvancedPermissionChecker:_hasUserPermissionImpl",
+      "type": "function",
+      "name": "_hasUserPermissionImpl",
+      "filePath": "portal-impl/src/com/liferay/portal/security/permission/AdvancedPermissionChecker.java",
+      "summary": "_hasUserPermissionImpl() in AdvancedPermissionChecker.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "medium",
+      "startLine": 1294,
+      "endLine": 1383
+    },
+    {
+      "id": "function:com/liferay/portal/security/permission/AdvancedPermissionChecker:_isGroupAdminImpl",
+      "type": "function",
+      "name": "_isGroupAdminImpl",
+      "filePath": "portal-impl/src/com/liferay/portal/security/permission/AdvancedPermissionChecker.java",
+      "summary": "_isGroupAdminImpl() in AdvancedPermissionChecker.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low",
+      "startLine": 1385,
+      "endLine": 1414
+    },
+    {
+      "id": "class:com/liferay/portal/security/permission/AdvancedPermissionChecker:AdvancedPermissionChecker",
+      "type": "class",
+      "name": "AdvancedPermissionChecker",
+      "filePath": "portal-impl/src/com/liferay/portal/security/permission/AdvancedPermissionChecker.java",
+      "summary": "AdvancedPermissionChecker class in AdvancedPermissionChecker.java",
+      "tags": [
+        "class"
+      ],
+      "complexity": "high",
+      "methods": [
+        "clone",
+        "getGuestUserRoleIds",
+        "getRoleIds",
+        "getUserBag",
+        "hasOwnerPermission",
+        "hasPermission",
+        "init",
+        "isCompanyAdmin",
+        "isCompanyAdmin",
+        "isContentReviewer",
+        "isGroupAdmin",
+        "isGroupMember",
+        "isGroupOwner",
+        "isOrganizationAdmin",
+        "isOrganizationOwner",
+        "addTeamRoles",
+        "doCheckPermission",
+        "doGetRoleIds",
+        "fixMissingResources",
+        "getResources",
+        "isCompanyAdminImpl",
+        "isContentReviewerImpl",
+        "isContentReviewerImpl",
+        "isGroupAdminImpl",
+        "isGroupMemberImpl",
+        "isGroupOwnerImpl",
+        "isGroupOwnerImpl",
+        "isOrganizationAdminImpl",
+        "isOrganizationAdminImpl",
+        "isOrganizationOwnerImpl",
+        "isOrganizationOwnerImpl",
+        "logHasUserPermission",
+        "_applyRoleContributors",
+        "_getResource",
+        "_hasGuestPermission",
+        "_hasPermissionImpl",
+        "_hasUserPermissionImpl",
+        "_isGroupAdminImpl"
+      ],
+      "properties": [
+        "_log",
+        "_contributedRoleIds",
+        "_roleContributors"
+      ]
+    },
+    {
+      "id": "file:com/liferay/portal/security/permission/BasePermissionChecker",
+      "type": "file",
+      "name": "BasePermissionChecker.java",
+      "filePath": "portal-impl/src/com/liferay/portal/security/permission/BasePermissionChecker.java",
+      "summary": "BasePermissionChecker.java - com.liferay.portal.security.permission.BasePermissionChecker.java",
+      "tags": [
+        "code",
+        "java",
+        "class-definition",
+        "has-calls"
+      ],
+      "complexity": "medium"
+    },
+    {
+      "id": "function:com/liferay/portal/security/permission/BasePermissionChecker:init",
+      "type": "function",
+      "name": "init",
+      "filePath": "portal-impl/src/com/liferay/portal/security/permission/BasePermissionChecker.java",
+      "summary": "init() in BasePermissionChecker.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low",
+      "startLine": 100,
+      "endLine": 127
+    },
+    {
+      "id": "class:com/liferay/portal/security/permission/BasePermissionChecker:BasePermissionChecker",
+      "type": "class",
+      "name": "BasePermissionChecker",
+      "filePath": "portal-impl/src/com/liferay/portal/security/permission/BasePermissionChecker.java",
+      "summary": "BasePermissionChecker class in BasePermissionChecker.java",
+      "tags": [
+        "class"
+      ],
+      "complexity": "high",
+      "methods": [
+        "clone",
+        "getCompanyId",
+        "getGuestUserRoleIds",
+        "getOwnerRoleId",
+        "getPermissionChecksMap",
+        "getRoleIds",
+        "getUser",
+        "getUserId",
+        "hasOwnerPermission",
+        "hasPermission",
+        "hasPermission",
+        "hasPermission",
+        "init",
+        "isCheckGuest",
+        "isOmniadmin",
+        "isSignedIn"
+      ],
+      "properties": [
+        "checkGuest",
+        "guestUserId",
+        "omniadmin",
+        "ownerRole",
+        "signedIn",
+        "user",
+        "_log",
+        "_permissionChecksMap"
+      ]
+    },
+    {
+      "id": "file:com/liferay/portal/security/permission/PermissionCheckerFactoryImpl",
+      "type": "file",
+      "name": "PermissionCheckerFactoryImpl.java",
+      "filePath": "portal-impl/src/com/liferay/portal/security/permission/PermissionCheckerFactoryImpl.java",
+      "summary": "PermissionCheckerFactoryImpl.java - com.liferay.portal.security.permission.PermissionCheckerFactoryImpl.java",
+      "tags": [
+        "code",
+        "java",
+        "class-definition",
+        "has-calls"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "function:com/liferay/portal/security/permission/PermissionCheckerFactoryImpl:create",
+      "type": "function",
+      "name": "create",
+      "filePath": "portal-impl/src/com/liferay/portal/security/permission/PermissionCheckerFactoryImpl.java",
+      "summary": "create() in PermissionCheckerFactoryImpl.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low",
+      "startLine": 44,
+      "endLine": 62
+    },
+    {
+      "id": "class:com/liferay/portal/security/permission/PermissionCheckerFactoryImpl:PermissionCheckerFactoryImpl",
+      "type": "class",
+      "name": "PermissionCheckerFactoryImpl",
+      "filePath": "portal-impl/src/com/liferay/portal/security/permission/PermissionCheckerFactoryImpl.java",
+      "summary": "PermissionCheckerFactoryImpl class in PermissionCheckerFactoryImpl.java",
+      "tags": [
+        "class"
+      ],
+      "complexity": "low",
+      "methods": [
+        "PermissionCheckerFactoryImpl",
+        "afterPropertiesSet",
+        "create",
+        "destroy"
+      ],
+      "properties": [
+        "_permissionChecker",
+        "_permissionCheckerWrapperFactories",
+        "_roleContributors"
+      ]
+    },
+    {
+      "id": "file:com/liferay/portal/security/permission/PermissionCheckerUtil",
+      "type": "file",
+      "name": "PermissionCheckerUtil.java",
+      "filePath": "portal-impl/src/com/liferay/portal/security/permission/PermissionCheckerUtil.java",
+      "summary": "PermissionCheckerUtil.java - com.liferay.portal.security.permission.PermissionCheckerUtil.java",
+      "tags": [
+        "code",
+        "java",
+        "class-definition",
+        "has-calls"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "function:com/liferay/portal/security/permission/PermissionCheckerUtil:setThreadValues",
+      "type": "function",
+      "name": "setThreadValues",
+      "filePath": "portal-impl/src/com/liferay/portal/security/permission/PermissionCheckerUtil.java",
+      "summary": "setThreadValues() in PermissionCheckerUtil.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low",
+      "startLine": 25,
+      "endLine": 53
+    },
+    {
+      "id": "class:com/liferay/portal/security/permission/PermissionCheckerUtil:PermissionCheckerUtil",
+      "type": "class",
+      "name": "PermissionCheckerUtil",
+      "filePath": "portal-impl/src/com/liferay/portal/security/permission/PermissionCheckerUtil.java",
+      "summary": "PermissionCheckerUtil class in PermissionCheckerUtil.java",
+      "tags": [
+        "class"
+      ],
+      "complexity": "low",
+      "methods": [
+        "setThreadValues"
+      ],
+      "properties": [
+        "_log",
+        "_roleContributors"
+      ]
+    },
+    {
+      "id": "file:com/liferay/portal/security/permission/ResourceActionsImpl",
+      "type": "file",
+      "name": "ResourceActionsImpl.java",
+      "filePath": "portal-impl/src/com/liferay/portal/security/permission/ResourceActionsImpl.java",
+      "summary": "ResourceActionsImpl.java - com.liferay.portal.security.permission.ResourceActionsImpl.java",
+      "tags": [
+        "code",
+        "java",
+        "class-definition",
+        "has-calls"
+      ],
+      "complexity": "high"
+    },
+    {
+      "id": "function:com/liferay/portal/security/permission/ResourceActionsImpl:getAction",
+      "type": "function",
+      "name": "getAction",
+      "filePath": "portal-impl/src/com/liferay/portal/security/permission/ResourceActionsImpl.java",
+      "summary": "getAction() in ResourceActionsImpl.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low",
+      "startLine": 85,
+      "endLine": 102
+    },
+    {
+      "id": "function:com/liferay/portal/security/permission/ResourceActionsImpl:getAction_2",
+      "type": "function",
+      "name": "getAction",
+      "filePath": "portal-impl/src/com/liferay/portal/security/permission/ResourceActionsImpl.java",
+      "summary": "getAction() in ResourceActionsImpl.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low",
+      "startLine": 104,
+      "endLine": 119
+    },
+    {
+      "id": "function:com/liferay/portal/security/permission/ResourceActionsImpl:getCompositeModelName",
+      "type": "function",
+      "name": "getCompositeModelName",
+      "filePath": "portal-impl/src/com/liferay/portal/security/permission/ResourceActionsImpl.java",
+      "summary": "getCompositeModelName() in ResourceActionsImpl.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low",
+      "startLine": 121,
+      "endLine": 139
+    },
+    {
+      "id": "function:com/liferay/portal/security/permission/ResourceActionsImpl:getModelNames",
+      "type": "function",
+      "name": "getModelNames",
+      "filePath": "portal-impl/src/com/liferay/portal/security/permission/ResourceActionsImpl.java",
+      "summary": "getModelNames() in ResourceActionsImpl.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low",
+      "startLine": 146,
+      "endLine": 157
+    },
+    {
+      "id": "function:com/liferay/portal/security/permission/ResourceActionsImpl:getModelPortletResources",
+      "type": "function",
+      "name": "getModelPortletResources",
+      "filePath": "portal-impl/src/com/liferay/portal/security/permission/ResourceActionsImpl.java",
+      "summary": "getModelPortletResources() in ResourceActionsImpl.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low",
+      "startLine": 159,
+      "endLine": 168
+    },
+    {
+      "id": "function:com/liferay/portal/security/permission/ResourceActionsImpl:getModelResource",
+      "type": "function",
+      "name": "getModelResource",
+      "filePath": "portal-impl/src/com/liferay/portal/security/permission/ResourceActionsImpl.java",
+      "summary": "getModelResource() in ResourceActionsImpl.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low",
+      "startLine": 170,
+      "endLine": 187
+    },
+    {
+      "id": "function:com/liferay/portal/security/permission/ResourceActionsImpl:getModelResource_2",
+      "type": "function",
+      "name": "getModelResource",
+      "filePath": "portal-impl/src/com/liferay/portal/security/permission/ResourceActionsImpl.java",
+      "summary": "getModelResource() in ResourceActionsImpl.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low",
+      "startLine": 189,
+      "endLine": 204
+    },
+    {
+      "id": "function:com/liferay/portal/security/permission/ResourceActionsImpl:getPortletModelResources",
+      "type": "function",
+      "name": "getPortletModelResources",
+      "filePath": "portal-impl/src/com/liferay/portal/security/permission/ResourceActionsImpl.java",
+      "summary": "getPortletModelResources() in ResourceActionsImpl.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low",
+      "startLine": 260,
+      "endLine": 271
+    },
+    {
+      "id": "function:com/liferay/portal/security/permission/ResourceActionsImpl:getPortletNames",
+      "type": "function",
+      "name": "getPortletNames",
+      "filePath": "portal-impl/src/com/liferay/portal/security/permission/ResourceActionsImpl.java",
+      "summary": "getPortletNames() in ResourceActionsImpl.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low",
+      "startLine": 273,
+      "endLine": 284
+    },
+    {
+      "id": "function:com/liferay/portal/security/permission/ResourceActionsImpl:getPortletResourceGroupDefaultActions",
+      "type": "function",
+      "name": "getPortletResourceGroupDefaultActions",
+      "filePath": "portal-impl/src/com/liferay/portal/security/permission/ResourceActionsImpl.java",
+      "summary": "getPortletResourceGroupDefaultActions() in ResourceActionsImpl.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low",
+      "startLine": 295,
+      "endLine": 312
+    },
+    {
+      "id": "function:com/liferay/portal/security/permission/ResourceActionsImpl:getPortletResourceGuestDefaultActions",
+      "type": "function",
+      "name": "getPortletResourceGuestDefaultActions",
+      "filePath": "portal-impl/src/com/liferay/portal/security/permission/ResourceActionsImpl.java",
+      "summary": "getPortletResourceGuestDefaultActions() in ResourceActionsImpl.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low",
+      "startLine": 314,
+      "endLine": 323
+    },
+    {
+      "id": "function:com/liferay/portal/security/permission/ResourceActionsImpl:getPortletResourceGuestUnsupportedActions",
+      "type": "function",
+      "name": "getPortletResourceGuestUnsupportedActions",
+      "filePath": "portal-impl/src/com/liferay/portal/security/permission/ResourceActionsImpl.java",
+      "summary": "getPortletResourceGuestUnsupportedActions() in ResourceActionsImpl.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low",
+      "startLine": 325,
+      "endLine": 334
+    },
+    {
+      "id": "function:com/liferay/portal/security/permission/ResourceActionsImpl:getPortletResourceLayoutManagerActions",
+      "type": "function",
+      "name": "getPortletResourceLayoutManagerActions",
+      "filePath": "portal-impl/src/com/liferay/portal/security/permission/ResourceActionsImpl.java",
+      "summary": "getPortletResourceLayoutManagerActions() in ResourceActionsImpl.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low",
+      "startLine": 336,
+      "endLine": 345
+    },
+    {
+      "id": "function:com/liferay/portal/security/permission/ResourceActionsImpl:getPortletResourceOwnerDefaultActions",
+      "type": "function",
+      "name": "getPortletResourceOwnerDefaultActions",
+      "filePath": "portal-impl/src/com/liferay/portal/security/permission/ResourceActionsImpl.java",
+      "summary": "getPortletResourceOwnerDefaultActions() in ResourceActionsImpl.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low",
+      "startLine": 347,
+      "endLine": 356
+    },
+    {
+      "id": "function:com/liferay/portal/security/permission/ResourceActionsImpl:getResourceActions",
+      "type": "function",
+      "name": "getResourceActions",
+      "filePath": "portal-impl/src/com/liferay/portal/security/permission/ResourceActionsImpl.java",
+      "summary": "getResourceActions() in ResourceActionsImpl.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low",
+      "startLine": 373,
+      "endLine": 387
+    },
+    {
+      "id": "function:com/liferay/portal/security/permission/ResourceActionsImpl:getResourceGuestUnsupportedActions",
+      "type": "function",
+      "name": "getResourceGuestUnsupportedActions",
+      "filePath": "portal-impl/src/com/liferay/portal/security/permission/ResourceActionsImpl.java",
+      "summary": "getResourceGuestUnsupportedActions() in ResourceActionsImpl.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low",
+      "startLine": 389,
+      "endLine": 407
+    },
+    {
+      "id": "function:com/liferay/portal/security/permission/ResourceActionsImpl:getRoles",
+      "type": "function",
+      "name": "getRoles",
+      "filePath": "portal-impl/src/com/liferay/portal/security/permission/ResourceActionsImpl.java",
+      "summary": "getRoles() in ResourceActionsImpl.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low",
+      "startLine": 409,
+      "endLine": 418
+    },
+    {
+      "id": "function:com/liferay/portal/security/permission/ResourceActionsImpl:isRootModelResource",
+      "type": "function",
+      "name": "isRootModelResource",
+      "filePath": "portal-impl/src/com/liferay/portal/security/permission/ResourceActionsImpl.java",
+      "summary": "isRootModelResource() in ResourceActionsImpl.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low",
+      "startLine": 429,
+      "endLine": 439
+    },
+    {
+      "id": "function:com/liferay/portal/security/permission/ResourceActionsImpl:populateModelResources",
+      "type": "function",
+      "name": "populateModelResources",
+      "filePath": "portal-impl/src/com/liferay/portal/security/permission/ResourceActionsImpl.java",
+      "summary": "populateModelResources() in ResourceActionsImpl.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low",
+      "startLine": 449,
+      "endLine": 475
+    },
+    {
+      "id": "function:com/liferay/portal/security/permission/ResourceActionsImpl:populateModelResources_2",
+      "type": "function",
+      "name": "populateModelResources",
+      "filePath": "portal-impl/src/com/liferay/portal/security/permission/ResourceActionsImpl.java",
+      "summary": "populateModelResources() in ResourceActionsImpl.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low",
+      "startLine": 477,
+      "endLine": 501
+    },
+    {
+      "id": "function:com/liferay/portal/security/permission/ResourceActionsImpl:populatePortletResource",
+      "type": "function",
+      "name": "populatePortletResource",
+      "filePath": "portal-impl/src/com/liferay/portal/security/permission/ResourceActionsImpl.java",
+      "summary": "populatePortletResource() in ResourceActionsImpl.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low",
+      "startLine": 503,
+      "endLine": 520
+    },
+    {
+      "id": "function:com/liferay/portal/security/permission/ResourceActionsImpl:populatePortletResource_2",
+      "type": "function",
+      "name": "populatePortletResource",
+      "filePath": "portal-impl/src/com/liferay/portal/security/permission/ResourceActionsImpl.java",
+      "summary": "populatePortletResource() in ResourceActionsImpl.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low",
+      "startLine": 522,
+      "endLine": 547
+    },
+    {
+      "id": "function:com/liferay/portal/security/permission/ResourceActionsImpl:populatePortletResources",
+      "type": "function",
+      "name": "populatePortletResources",
+      "filePath": "portal-impl/src/com/liferay/portal/security/permission/ResourceActionsImpl.java",
+      "summary": "populatePortletResources() in ResourceActionsImpl.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low",
+      "startLine": 557,
+      "endLine": 585
+    },
+    {
+      "id": "function:com/liferay/portal/security/permission/ResourceActionsImpl:removeModelResource",
+      "type": "function",
+      "name": "removeModelResource",
+      "filePath": "portal-impl/src/com/liferay/portal/security/permission/ResourceActionsImpl.java",
+      "summary": "removeModelResource() in ResourceActionsImpl.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low",
+      "startLine": 595,
+      "endLine": 614
+    }
+  ],
+  "edges": [
+    {
+      "source": "file:com/liferay/portal/security/permission/AdvancedPermissionChecker",
+      "target": "function:com/liferay/portal/security/permission/AdvancedPermissionChecker:isOrganizationAdmin",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:com/liferay/portal/security/permission/AdvancedPermissionChecker",
+      "target": "function:com/liferay/portal/security/permission/AdvancedPermissionChecker:isOrganizationOwner",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:com/liferay/portal/security/permission/AdvancedPermissionChecker",
+      "target": "function:com/liferay/portal/security/permission/AdvancedPermissionChecker:addTeamRoles",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:com/liferay/portal/security/permission/AdvancedPermissionChecker",
+      "target": "function:com/liferay/portal/security/permission/AdvancedPermissionChecker:doCheckPermission",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:com/liferay/portal/security/permission/AdvancedPermissionChecker",
+      "target": "function:com/liferay/portal/security/permission/AdvancedPermissionChecker:doGetRoleIds",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:com/liferay/portal/security/permission/AdvancedPermissionChecker",
+      "target": "function:com/liferay/portal/security/permission/AdvancedPermissionChecker:fixMissingResources",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:com/liferay/portal/security/permission/AdvancedPermissionChecker",
+      "target": "function:com/liferay/portal/security/permission/AdvancedPermissionChecker:getResources",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:com/liferay/portal/security/permission/AdvancedPermissionChecker",
+      "target": "function:com/liferay/portal/security/permission/AdvancedPermissionChecker:isCompanyAdminImpl",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:com/liferay/portal/security/permission/AdvancedPermissionChecker",
+      "target": "function:com/liferay/portal/security/permission/AdvancedPermissionChecker:isContentReviewerImpl",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:com/liferay/portal/security/permission/AdvancedPermissionChecker",
+      "target": "function:com/liferay/portal/security/permission/AdvancedPermissionChecker:isContentReviewerImpl_2",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:com/liferay/portal/security/permission/AdvancedPermissionChecker",
+      "target": "function:com/liferay/portal/security/permission/AdvancedPermissionChecker:isGroupAdminImpl",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:com/liferay/portal/security/permission/AdvancedPermissionChecker",
+      "target": "function:com/liferay/portal/security/permission/AdvancedPermissionChecker:isGroupMemberImpl",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:com/liferay/portal/security/permission/AdvancedPermissionChecker",
+      "target": "function:com/liferay/portal/security/permission/AdvancedPermissionChecker:isGroupOwnerImpl",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:com/liferay/portal/security/permission/AdvancedPermissionChecker",
+      "target": "function:com/liferay/portal/security/permission/AdvancedPermissionChecker:isGroupOwnerImpl_2",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:com/liferay/portal/security/permission/AdvancedPermissionChecker",
+      "target": "function:com/liferay/portal/security/permission/AdvancedPermissionChecker:isOrganizationAdminImpl",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:com/liferay/portal/security/permission/AdvancedPermissionChecker",
+      "target": "function:com/liferay/portal/security/permission/AdvancedPermissionChecker:isOrganizationAdminImpl_2",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:com/liferay/portal/security/permission/AdvancedPermissionChecker",
+      "target": "function:com/liferay/portal/security/permission/AdvancedPermissionChecker:isOrganizationOwnerImpl",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:com/liferay/portal/security/permission/AdvancedPermissionChecker",
+      "target": "function:com/liferay/portal/security/permission/AdvancedPermissionChecker:isOrganizationOwnerImpl_2",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:com/liferay/portal/security/permission/AdvancedPermissionChecker",
+      "target": "function:com/liferay/portal/security/permission/AdvancedPermissionChecker:logHasUserPermission",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:com/liferay/portal/security/permission/AdvancedPermissionChecker",
+      "target": "function:com/liferay/portal/security/permission/AdvancedPermissionChecker:_applyRoleContributors",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:com/liferay/portal/security/permission/AdvancedPermissionChecker",
+      "target": "function:com/liferay/portal/security/permission/AdvancedPermissionChecker:_getResource",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:com/liferay/portal/security/permission/AdvancedPermissionChecker",
+      "target": "function:com/liferay/portal/security/permission/AdvancedPermissionChecker:_hasGuestPermission",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:com/liferay/portal/security/permission/AdvancedPermissionChecker",
+      "target": "function:com/liferay/portal/security/permission/AdvancedPermissionChecker:_hasPermissionImpl",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:com/liferay/portal/security/permission/AdvancedPermissionChecker",
+      "target": "function:com/liferay/portal/security/permission/AdvancedPermissionChecker:_hasUserPermissionImpl",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:com/liferay/portal/security/permission/AdvancedPermissionChecker",
+      "target": "function:com/liferay/portal/security/permission/AdvancedPermissionChecker:_isGroupAdminImpl",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:com/liferay/portal/security/permission/AdvancedPermissionChecker",
+      "target": "class:com/liferay/portal/security/permission/AdvancedPermissionChecker:AdvancedPermissionChecker",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:com/liferay/portal/security/permission/AdvancedPermissionChecker",
+      "target": "function:com/liferay/portal/security/permission/AdvancedPermissionChecker:isOrganizationAdmin",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:com/liferay/portal/security/permission/AdvancedPermissionChecker",
+      "target": "function:com/liferay/portal/security/permission/AdvancedPermissionChecker:isOrganizationOwner",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:com/liferay/portal/security/permission/AdvancedPermissionChecker",
+      "target": "class:com/liferay/portal/security/permission/AdvancedPermissionChecker:AdvancedPermissionChecker",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:com/liferay/portal/security/permission/AdvancedPermissionChecker:getRoleIds",
+      "target": "function:com/liferay/portal/security/permission/AdvancedPermissionChecker:_applyRoleContributors",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:com/liferay/portal/security/permission/AdvancedPermissionChecker:getRoleIds",
+      "target": "function:com/liferay/portal/security/permission/AdvancedPermissionChecker:doGetRoleIds",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:com/liferay/portal/security/permission/AdvancedPermissionChecker:hasPermission",
+      "target": "function:com/liferay/portal/security/permission/AdvancedPermissionChecker:_hasPermissionImpl",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:com/liferay/portal/security/permission/AdvancedPermissionChecker:isCompanyAdmin",
+      "target": "function:com/liferay/portal/security/permission/AdvancedPermissionChecker:isCompanyAdminImpl",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:com/liferay/portal/security/permission/AdvancedPermissionChecker:isCompanyAdmin",
+      "target": "function:com/liferay/portal/security/permission/AdvancedPermissionChecker:isCompanyAdminImpl",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:com/liferay/portal/security/permission/AdvancedPermissionChecker:isContentReviewer",
+      "target": "function:com/liferay/portal/security/permission/AdvancedPermissionChecker:isContentReviewerImpl",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:com/liferay/portal/security/permission/AdvancedPermissionChecker:isGroupAdmin",
+      "target": "function:com/liferay/portal/security/permission/AdvancedPermissionChecker:_isGroupAdminImpl",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:com/liferay/portal/security/permission/AdvancedPermissionChecker:isGroupMember",
+      "target": "function:com/liferay/portal/security/permission/AdvancedPermissionChecker:isGroupMemberImpl",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:com/liferay/portal/security/permission/AdvancedPermissionChecker:isGroupOwner",
+      "target": "function:com/liferay/portal/security/permission/AdvancedPermissionChecker:isGroupOwnerImpl",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:com/liferay/portal/security/permission/AdvancedPermissionChecker:isOrganizationAdmin",
+      "target": "function:com/liferay/portal/security/permission/AdvancedPermissionChecker:isOrganizationAdminImpl",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:com/liferay/portal/security/permission/AdvancedPermissionChecker:isOrganizationOwner",
+      "target": "function:com/liferay/portal/security/permission/AdvancedPermissionChecker:isOrganizationOwnerImpl",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:com/liferay/portal/security/permission/AdvancedPermissionChecker:doCheckPermission",
+      "target": "function:com/liferay/portal/security/permission/AdvancedPermissionChecker:logHasUserPermission",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:com/liferay/portal/security/permission/AdvancedPermissionChecker:doCheckPermission",
+      "target": "function:com/liferay/portal/security/permission/AdvancedPermissionChecker:getResources",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:com/liferay/portal/security/permission/AdvancedPermissionChecker:doCheckPermission",
+      "target": "function:com/liferay/portal/security/permission/AdvancedPermissionChecker:fixMissingResources",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:com/liferay/portal/security/permission/AdvancedPermissionChecker:doCheckPermission",
+      "target": "function:com/liferay/portal/security/permission/AdvancedPermissionChecker:logHasUserPermission",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:com/liferay/portal/security/permission/AdvancedPermissionChecker:doCheckPermission",
+      "target": "function:com/liferay/portal/security/permission/AdvancedPermissionChecker:logHasUserPermission",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:com/liferay/portal/security/permission/AdvancedPermissionChecker:doGetRoleIds",
+      "target": "function:com/liferay/portal/security/permission/AdvancedPermissionChecker:getGuestUserRoleIds",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:com/liferay/portal/security/permission/AdvancedPermissionChecker:doGetRoleIds",
+      "target": "function:com/liferay/portal/security/permission/AdvancedPermissionChecker:addTeamRoles",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:com/liferay/portal/security/permission/AdvancedPermissionChecker:doGetRoleIds",
+      "target": "function:com/liferay/portal/security/permission/AdvancedPermissionChecker:getGuestUserRoleIds",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:com/liferay/portal/security/permission/AdvancedPermissionChecker:getResources",
+      "target": "function:com/liferay/portal/security/permission/AdvancedPermissionChecker:_getResource",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:com/liferay/portal/security/permission/AdvancedPermissionChecker:getResources",
+      "target": "function:com/liferay/portal/security/permission/AdvancedPermissionChecker:_getResource",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:com/liferay/portal/security/permission/AdvancedPermissionChecker:getResources",
+      "target": "function:com/liferay/portal/security/permission/AdvancedPermissionChecker:_getResource",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:com/liferay/portal/security/permission/AdvancedPermissionChecker:getResources",
+      "target": "function:com/liferay/portal/security/permission/AdvancedPermissionChecker:_getResource",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:com/liferay/portal/security/permission/AdvancedPermissionChecker:isContentReviewerImpl",
+      "target": "function:com/liferay/portal/security/permission/AdvancedPermissionChecker:isCompanyAdmin",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:com/liferay/portal/security/permission/AdvancedPermissionChecker:isContentReviewerImpl",
+      "target": "function:com/liferay/portal/security/permission/AdvancedPermissionChecker:isGroupAdmin",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:com/liferay/portal/security/permission/AdvancedPermissionChecker:isContentReviewerImpl",
+      "target": "function:com/liferay/portal/security/permission/AdvancedPermissionChecker:isCompanyAdmin",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:com/liferay/portal/security/permission/AdvancedPermissionChecker:isContentReviewerImpl",
+      "target": "function:com/liferay/portal/security/permission/AdvancedPermissionChecker:isGroupAdmin",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:com/liferay/portal/security/permission/AdvancedPermissionChecker:isGroupAdminImpl",
+      "target": "function:com/liferay/portal/security/permission/AdvancedPermissionChecker:doCheckPermission",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:com/liferay/portal/security/permission/AdvancedPermissionChecker:isGroupAdminImpl",
+      "target": "function:com/liferay/portal/security/permission/AdvancedPermissionChecker:getRoleIds",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:com/liferay/portal/security/permission/AdvancedPermissionChecker:isGroupAdminImpl",
+      "target": "function:com/liferay/portal/security/permission/AdvancedPermissionChecker:isCompanyAdmin",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:com/liferay/portal/security/permission/AdvancedPermissionChecker:isGroupAdminImpl",
+      "target": "function:com/liferay/portal/security/permission/AdvancedPermissionChecker:doCheckPermission",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:com/liferay/portal/security/permission/AdvancedPermissionChecker:isGroupAdminImpl",
+      "target": "function:com/liferay/portal/security/permission/AdvancedPermissionChecker:getRoleIds",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:com/liferay/portal/security/permission/AdvancedPermissionChecker:isGroupMemberImpl",
+      "target": "function:com/liferay/portal/security/permission/AdvancedPermissionChecker:getRoleIds",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:com/liferay/portal/security/permission/AdvancedPermissionChecker:isGroupOwnerImpl",
+      "target": "function:com/liferay/portal/security/permission/AdvancedPermissionChecker:isCompanyAdmin",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:com/liferay/portal/security/permission/AdvancedPermissionChecker:isOrganizationAdminImpl",
+      "target": "function:com/liferay/portal/security/permission/AdvancedPermissionChecker:isCompanyAdmin",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:com/liferay/portal/security/permission/AdvancedPermissionChecker:isOrganizationOwnerImpl",
+      "target": "function:com/liferay/portal/security/permission/AdvancedPermissionChecker:isCompanyAdmin",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:com/liferay/portal/security/permission/AdvancedPermissionChecker:_hasGuestPermission",
+      "target": "function:com/liferay/portal/security/permission/AdvancedPermissionChecker:getResources",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:com/liferay/portal/security/permission/AdvancedPermissionChecker:_hasGuestPermission",
+      "target": "function:com/liferay/portal/security/permission/AdvancedPermissionChecker:fixMissingResources",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:com/liferay/portal/security/permission/AdvancedPermissionChecker:_hasGuestPermission",
+      "target": "function:com/liferay/portal/security/permission/AdvancedPermissionChecker:_applyRoleContributors",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:com/liferay/portal/security/permission/AdvancedPermissionChecker:_hasGuestPermission",
+      "target": "function:com/liferay/portal/security/permission/AdvancedPermissionChecker:getGuestUserRoleIds",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:com/liferay/portal/security/permission/AdvancedPermissionChecker:_hasPermissionImpl",
+      "target": "function:com/liferay/portal/security/permission/AdvancedPermissionChecker:_hasGuestPermission",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:com/liferay/portal/security/permission/AdvancedPermissionChecker:_hasPermissionImpl",
+      "target": "function:com/liferay/portal/security/permission/AdvancedPermissionChecker:_hasUserPermissionImpl",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:com/liferay/portal/security/permission/AdvancedPermissionChecker:_hasUserPermissionImpl",
+      "target": "function:com/liferay/portal/security/permission/AdvancedPermissionChecker:doCheckPermission",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:com/liferay/portal/security/permission/AdvancedPermissionChecker:_hasUserPermissionImpl",
+      "target": "function:com/liferay/portal/security/permission/AdvancedPermissionChecker:isOrganizationAdminImpl",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:com/liferay/portal/security/permission/AdvancedPermissionChecker:_hasUserPermissionImpl",
+      "target": "function:com/liferay/portal/security/permission/AdvancedPermissionChecker:isCompanyAdminImpl",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:com/liferay/portal/security/permission/AdvancedPermissionChecker:_hasUserPermissionImpl",
+      "target": "function:com/liferay/portal/security/permission/AdvancedPermissionChecker:_isGroupAdminImpl",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:com/liferay/portal/security/permission/AdvancedPermissionChecker:_hasUserPermissionImpl",
+      "target": "function:com/liferay/portal/security/permission/AdvancedPermissionChecker:doCheckPermission",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:com/liferay/portal/security/permission/AdvancedPermissionChecker:_isGroupAdminImpl",
+      "target": "function:com/liferay/portal/security/permission/AdvancedPermissionChecker:isCompanyAdmin",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:com/liferay/portal/security/permission/AdvancedPermissionChecker:_isGroupAdminImpl",
+      "target": "function:com/liferay/portal/security/permission/AdvancedPermissionChecker:isGroupAdminImpl",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:com/liferay/portal/security/permission/BasePermissionChecker",
+      "target": "function:com/liferay/portal/security/permission/BasePermissionChecker:init",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:com/liferay/portal/security/permission/BasePermissionChecker",
+      "target": "class:com/liferay/portal/security/permission/BasePermissionChecker:BasePermissionChecker",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:com/liferay/portal/security/permission/BasePermissionChecker",
+      "target": "file:com/liferay/portal/util/PropsValues_10",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:com/liferay/portal/security/permission/BasePermissionChecker",
+      "target": "file:com/liferay/portlet/admin/util/OmniadminUtil",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:com/liferay/portal/security/permission/BasePermissionChecker",
+      "target": "file:com/liferay/portal/kernel/log/Log_11",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:com/liferay/portal/security/permission/BasePermissionChecker",
+      "target": "file:com/liferay/portal/kernel/log/LogFactoryUtil_11",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:com/liferay/portal/security/permission/BasePermissionChecker",
+      "target": "file:com/liferay/portal/kernel/model/Group_7",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:com/liferay/portal/security/permission/BasePermissionChecker",
+      "target": "file:com/liferay/portal/kernel/model/Role_8",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:com/liferay/portal/security/permission/BasePermissionChecker",
+      "target": "file:com/liferay/portal/kernel/model/role/RoleConstants_3",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:com/liferay/portal/security/permission/BasePermissionChecker",
+      "target": "file:com/liferay/portal/kernel/model/User_8",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:com/liferay/portal/security/permission/BasePermissionChecker",
+      "target": "file:com/liferay/portal/kernel/security/permission/PermissionChecker_3",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:com/liferay/portal/security/permission/BasePermissionChecker",
+      "target": "file:com/liferay/portal/kernel/service/GroupLocalServiceUtil_6",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:com/liferay/portal/security/permission/BasePermissionChecker",
+      "target": "file:com/liferay/portal/kernel/service/RoleLocalServiceUtil_6",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:com/liferay/portal/security/permission/BasePermissionChecker",
+      "target": "file:com/liferay/portal/kernel/service/UserLocalServiceUtil_9",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:com/liferay/portal/security/permission/BasePermissionChecker",
+      "target": "function:com/liferay/portal/security/permission/BasePermissionChecker:init",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:com/liferay/portal/security/permission/BasePermissionChecker",
+      "target": "class:com/liferay/portal/security/permission/BasePermissionChecker:BasePermissionChecker",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:com/liferay/portal/security/permission/PermissionCheckerFactoryImpl",
+      "target": "function:com/liferay/portal/security/permission/PermissionCheckerFactoryImpl:create",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:com/liferay/portal/security/permission/PermissionCheckerFactoryImpl",
+      "target": "class:com/liferay/portal/security/permission/PermissionCheckerFactoryImpl:PermissionCheckerFactoryImpl",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:com/liferay/portal/security/permission/PermissionCheckerFactoryImpl",
+      "target": "file:com/liferay/portal/util/PropsValues_11",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:com/liferay/portal/security/permission/PermissionCheckerFactoryImpl",
+      "target": "file:com/liferay/portal/kernel/model/User_9",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:com/liferay/portal/security/permission/PermissionCheckerFactoryImpl",
+      "target": "file:com/liferay/portal/kernel/module/util/SystemBundleUtil_2",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:com/liferay/portal/security/permission/PermissionCheckerFactoryImpl",
+      "target": "file:com/liferay/portal/kernel/security/permission/contributor/RoleContributor_2",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:com/liferay/portal/security/permission/PermissionCheckerFactoryImpl",
+      "target": "file:com/liferay/portal/kernel/security/permission/PermissionChecker_4",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:com/liferay/portal/security/permission/PermissionCheckerFactoryImpl",
+      "target": "file:com/liferay/portal/kernel/security/permission/PermissionCheckerFactory",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:com/liferay/portal/security/permission/PermissionCheckerFactoryImpl",
+      "target": "file:com/liferay/portal/kernel/security/permission/wrapper/PermissionCheckerWrapperFactory",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:com/liferay/portal/security/permission/PermissionCheckerFactoryImpl",
+      "target": "class:com/liferay/portal/security/permission/PermissionCheckerFactoryImpl:PermissionCheckerFactoryImpl",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:com/liferay/portal/security/permission/PermissionCheckerFactoryImpl",
+      "target": "function:com/liferay/portal/security/permission/PermissionCheckerFactoryImpl:create",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:com/liferay/portal/security/permission/PermissionCheckerFactoryImpl",
+      "target": "class:com/liferay/portal/security/permission/PermissionCheckerFactoryImpl:PermissionCheckerFactoryImpl",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:com/liferay/portal/security/permission/PermissionCheckerUtil",
+      "target": "function:com/liferay/portal/security/permission/PermissionCheckerUtil:setThreadValues",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:com/liferay/portal/security/permission/PermissionCheckerUtil",
+      "target": "class:com/liferay/portal/security/permission/PermissionCheckerUtil:PermissionCheckerUtil",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:com/liferay/portal/security/permission/PermissionCheckerUtil",
+      "target": "file:com/liferay/portal/util/PropsValues_12",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:com/liferay/portal/security/permission/PermissionCheckerUtil",
+      "target": "file:com/liferay/portal/kernel/log/Log_12",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:com/liferay/portal/security/permission/PermissionCheckerUtil",
+      "target": "file:com/liferay/portal/kernel/log/LogFactoryUtil_12",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:com/liferay/portal/security/permission/PermissionCheckerUtil",
+      "target": "file:com/liferay/portal/kernel/model/User_10",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:com/liferay/portal/security/permission/PermissionCheckerUtil",
+      "target": "file:com/liferay/portal/kernel/module/util/SystemBundleUtil_3",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:com/liferay/portal/security/permission/PermissionCheckerUtil",
+      "target": "file:com/liferay/portal/kernel/security/auth/PrincipalThreadLocal_2",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:com/liferay/portal/security/permission/PermissionCheckerUtil",
+      "target": "file:com/liferay/portal/kernel/security/permission/contributor/RoleContributor_3",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:com/liferay/portal/security/permission/PermissionCheckerUtil",
+      "target": "file:com/liferay/portal/kernel/security/permission/PermissionChecker_5",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:com/liferay/portal/security/permission/PermissionCheckerUtil",
+      "target": "file:com/liferay/portal/kernel/security/permission/PermissionThreadLocal",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:com/liferay/portal/security/permission/PermissionCheckerUtil",
+      "target": "function:com/liferay/portal/security/permission/PermissionCheckerUtil:setThreadValues",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:com/liferay/portal/security/permission/PermissionCheckerUtil",
+      "target": "class:com/liferay/portal/security/permission/PermissionCheckerUtil:PermissionCheckerUtil",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:com/liferay/portal/security/permission/ResourceActionsImpl",
+      "target": "function:com/liferay/portal/security/permission/ResourceActionsImpl:getAction",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:com/liferay/portal/security/permission/ResourceActionsImpl",
+      "target": "function:com/liferay/portal/security/permission/ResourceActionsImpl:getAction_2",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:com/liferay/portal/security/permission/ResourceActionsImpl",
+      "target": "function:com/liferay/portal/security/permission/ResourceActionsImpl:getCompositeModelName",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:com/liferay/portal/security/permission/ResourceActionsImpl",
+      "target": "function:com/liferay/portal/security/permission/ResourceActionsImpl:getModelNames",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:com/liferay/portal/security/permission/ResourceActionsImpl",
+      "target": "function:com/liferay/portal/security/permission/ResourceActionsImpl:getModelPortletResources",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:com/liferay/portal/security/permission/ResourceActionsImpl",
+      "target": "function:com/liferay/portal/security/permission/ResourceActionsImpl:getModelResource",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:com/liferay/portal/security/permission/ResourceActionsImpl",
+      "target": "function:com/liferay/portal/security/permission/ResourceActionsImpl:getModelResource_2",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:com/liferay/portal/security/permission/ResourceActionsImpl",
+      "target": "function:com/liferay/portal/security/permission/ResourceActionsImpl:getPortletModelResources",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:com/liferay/portal/security/permission/ResourceActionsImpl",
+      "target": "function:com/liferay/portal/security/permission/ResourceActionsImpl:getPortletNames",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:com/liferay/portal/security/permission/ResourceActionsImpl",
+      "target": "function:com/liferay/portal/security/permission/ResourceActionsImpl:getPortletResourceGroupDefaultActions",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:com/liferay/portal/security/permission/ResourceActionsImpl",
+      "target": "function:com/liferay/portal/security/permission/ResourceActionsImpl:getPortletResourceGuestDefaultActions",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:com/liferay/portal/security/permission/ResourceActionsImpl",
+      "target": "function:com/liferay/portal/security/permission/ResourceActionsImpl:getPortletResourceGuestUnsupportedActions",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:com/liferay/portal/security/permission/ResourceActionsImpl",
+      "target": "function:com/liferay/portal/security/permission/ResourceActionsImpl:getPortletResourceLayoutManagerActions",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:com/liferay/portal/security/permission/ResourceActionsImpl",
+      "target": "function:com/liferay/portal/security/permission/ResourceActionsImpl:getPortletResourceOwnerDefaultActions",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:com/liferay/portal/security/permission/ResourceActionsImpl",
+      "target": "function:com/liferay/portal/security/permission/ResourceActionsImpl:getResourceActions",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:com/liferay/portal/security/permission/ResourceActionsImpl",
+      "target": "function:com/liferay/portal/security/permission/ResourceActionsImpl:getResourceGuestUnsupportedActions",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:com/liferay/portal/security/permission/ResourceActionsImpl",
+      "target": "function:com/liferay/portal/security/permission/ResourceActionsImpl:getRoles",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:com/liferay/portal/security/permission/ResourceActionsImpl",
+      "target": "function:com/liferay/portal/security/permission/ResourceActionsImpl:isRootModelResource",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:com/liferay/portal/security/permission/ResourceActionsImpl",
+      "target": "function:com/liferay/portal/security/permission/ResourceActionsImpl:populateModelResources",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:com/liferay/portal/security/permission/ResourceActionsImpl",
+      "target": "function:com/liferay/portal/security/permission/ResourceActionsImpl:populateModelResources_2",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:com/liferay/portal/security/permission/ResourceActionsImpl",
+      "target": "function:com/liferay/portal/security/permission/ResourceActionsImpl:populatePortletResource",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:com/liferay/portal/security/permission/ResourceActionsImpl",
+      "target": "function:com/liferay/portal/security/permission/ResourceActionsImpl:populatePortletResource_2",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:com/liferay/portal/security/permission/ResourceActionsImpl",
+      "target": "function:com/liferay/portal/security/permission/ResourceActionsImpl:populatePortletResources",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:com/liferay/portal/security/permission/ResourceActionsImpl",
+      "target": "function:com/liferay/portal/security/permission/ResourceActionsImpl:removeModelResource",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:com/liferay/portal/security/permission/ResourceActionsImpl",
+      "target": "function:com/liferay/portal/security/permission/ResourceActionsImpl:removeModelResources",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:com/liferay/portal/security/permission/ResourceActionsImpl",
+      "target": "function:com/liferay/portal/security/permission/ResourceActionsImpl:removePortletResources",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:com/liferay/portal/security/permission/ResourceActionsImpl",
+      "target": "function:com/liferay/portal/security/permission/ResourceActionsImpl:_check",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:com/liferay/portal/security/permission/ResourceActionsImpl",
+      "target": "function:com/liferay/portal/security/permission/ResourceActionsImpl:_checkGuestUnsupportedActions",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:com/liferay/portal/security/permission/ResourceActionsImpl",
+      "target": "function:com/liferay/portal/security/permission/ResourceActionsImpl:_checkPortletLayoutManagerActions",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:com/liferay/portal/security/permission/ResourceActionsImpl",
+      "target": "function:com/liferay/portal/security/permission/ResourceActionsImpl:_checkResourceActions",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:com/liferay/portal/security/permission/ResourceActionsImpl",
+      "target": "function:com/liferay/portal/security/permission/ResourceActionsImpl:_getCompositeModelName",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:com/liferay/portal/security/permission/ResourceActionsImpl",
+      "target": "function:com/liferay/portal/security/permission/ResourceActionsImpl:_getPermissionsChildElement",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:com/liferay/portal/security/permission/ResourceActionsImpl",
+      "target": "function:com/liferay/portal/security/permission/ResourceActionsImpl:_getPortletMimeTypeActions",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:com/liferay/portal/security/permission/ResourceActionsImpl",
+      "target": "function:com/liferay/portal/security/permission/ResourceActionsImpl:_getPortletResourceActions",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:com/liferay/portal/security/permission/ResourceActionsImpl",
+      "target": "function:com/liferay/portal/security/permission/ResourceActionsImpl:_getResourceActionsBag",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:com/liferay/portal/security/permission/ResourceActionsImpl",
+      "target": "function:com/liferay/portal/security/permission/ResourceActionsImpl:_getResourceBundlesString",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:com/liferay/portal/security/permission/ResourceActionsImpl",
+      "target": "function:com/liferay/portal/security/permission/ResourceActionsImpl:_getResourceBundlesString_2",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:com/liferay/portal/security/permission/ResourceActionsImpl",
+      "target": "function:com/liferay/portal/security/permission/ResourceActionsImpl:_getRoleTypes",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:com/liferay/portal/security/permission/ResourceActionsImpl",
+      "target": "function:com/liferay/portal/security/permission/ResourceActionsImpl:_read",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:com/liferay/portal/security/permission/ResourceActionsImpl",
+      "target": "function:com/liferay/portal/security/permission/ResourceActionsImpl:_readActionKeys",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:com/liferay/portal/security/permission/ResourceActionsImpl",
+      "target": "function:com/liferay/portal/security/permission/ResourceActionsImpl:_readModelResources",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:com/liferay/portal/security/permission/ResourceActionsImpl",
+      "target": "function:com/liferay/portal/security/permission/ResourceActionsImpl:_readPortletResource",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:com/liferay/portal/security/permission/ResourceActionsImpl",
+      "target": "function:com/liferay/portal/security/permission/ResourceActionsImpl:_readPortletResources",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:com/liferay/portal/security/permission/ResourceActionsImpl",
+      "target": "function:com/liferay/portal/security/permission/ResourceActionsImpl:_readResource",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:com/liferay/portal/security/permission/ResourceActionsImpl",
+      "target": "class:com/liferay/portal/security/permission/ResourceActionsImpl:ResourceActionsImpl",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:com/liferay/portal/security/permission/ResourceActionsImpl",
+      "target": "file:com/liferay/portal/db/partition/util/DBPartitionUtil",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:com/liferay/portal/security/permission/ResourceActionsImpl",
+      "target": "file:com/liferay/portal/util/PropsValues_13",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:com/liferay/portal/security/permission/ResourceActionsImpl",
+      "target": "file:com/liferay/portal/kernel/bean/BeanReference",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:com/liferay/portal/security/permission/ResourceActionsImpl",
+      "target": "file:com/liferay/portal/kernel/exception/ResourceActionsException",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:com/liferay/portal/security/permission/ResourceActionsImpl",
+      "target": "file:com/liferay/portal/kernel/language/LanguageUtil",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:com/liferay/portal/security/permission/ResourceActionsImpl",
+      "target": "file:com/liferay/portal/kernel/log/Log_13",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:com/liferay/portal/security/permission/ResourceActionsImpl",
+      "target": "file:com/liferay/portal/kernel/log/LogFactoryUtil_13",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:com/liferay/portal/security/permission/ResourceActionsImpl",
+      "target": "file:com/liferay/portal/kernel/model/Group_8",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:com/liferay/portal/security/permission/ResourceActionsImpl",
+      "target": "file:com/liferay/portal/kernel/model/Organization_3",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:com/liferay/portal/security/permission/ResourceActionsImpl",
+      "target": "file:com/liferay/portal/kernel/model/Portlet_6",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:com/liferay/portal/security/permission/ResourceActionsImpl",
+      "target": "file:com/liferay/portal/kernel/model/ResourceAction",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:com/liferay/portal/security/permission/ResourceActionsImpl",
+      "target": "file:com/liferay/portal/kernel/model/Role_9",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:com/liferay/portal/security/permission/ResourceActionsImpl",
+      "target": "file:com/liferay/portal/kernel/model/role/RoleConstants_4",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:com/liferay/portal/security/permission/ResourceActionsImpl",
+      "target": "file:com/liferay/portal/kernel/model/User_11",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:com/liferay/portal/security/permission/ResourceActionsImpl",
+      "target": "file:com/liferay/portal/kernel/module/util/SystemBundleUtil_4",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:com/liferay/portal/security/permission/ResourceActionsImpl",
+      "target": "file:com/liferay/portal/kernel/portlet/PortletIdCodec_4",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:com/liferay/portal/security/permission/ResourceActionsImpl",
+      "target": "file:com/liferay/portal/kernel/resource/bundle/ResourceBundleLoader",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:com/liferay/portal/security/permission/ResourceActionsImpl",
+      "target": "file:com/liferay/portal/kernel/security/permission/ActionKeys_2",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:com/liferay/portal/security/permission/ResourceActionsImpl",
+      "target": "file:com/liferay/portal/kernel/security/permission/ResourceActions",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:com/liferay/portal/security/permission/ResourceActionsImpl",
+      "target": "file:com/liferay/portal/kernel/service/GroupServiceUtil_2",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:com/liferay/portal/security/permission/ResourceActionsImpl",
+      "target": "file:com/liferay/portal/kernel/service/PortletLocalService",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:com/liferay/portal/security/permission/ResourceActionsImpl",
+      "target": "file:com/liferay/portal/kernel/service/ResourceActionLocalService",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:com/liferay/portal/security/permission/ResourceActionsImpl",
+      "target": "file:com/liferay/portal/kernel/service/ResourceActionLocalServiceUtil",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:com/liferay/portal/security/permission/ResourceActionsImpl",
+      "target": "file:com/liferay/portal/kernel/service/RoleLocalService",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:com/liferay/portal/security/permission/ResourceActionsImpl",
+      "target": "file:com/liferay/portal/kernel/util/ArrayUtil_3",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:com/liferay/portal/security/permission/ResourceActionsImpl",
+      "target": "file:com/liferay/portal/kernel/util/ContentTypes",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:com/liferay/portal/security/permission/ResourceActionsImpl",
+      "target": "file:com/liferay/portal/kernel/util/GetterUtil_6",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:com/liferay/portal/security/permission/ResourceActionsImpl",
+      "target": "file:com/liferay/portal/kernel/util/PortletKeys",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:com/liferay/portal/security/permission/ResourceActionsImpl",
+      "target": "file:com/liferay/portal/kernel/util/ResourceBundleUtil",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:com/liferay/portal/security/permission/ResourceActionsImpl",
+      "target": "file:com/liferay/portal/kernel/util/StringUtil_5",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:com/liferay/portal/security/permission/ResourceActionsImpl",
+      "target": "file:com/liferay/portal/kernel/util/Validator_13",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:com/liferay/portal/security/permission/ResourceActionsImpl",
+      "target": "file:com/liferay/portal/kernel/util/WebKeys_4",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:com/liferay/portal/security/permission/ResourceActionsImpl",
+      "target": "file:com/liferay/portal/kernel/xml/Document",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:com/liferay/portal/security/permission/ResourceActionsImpl",
+      "target": "file:com/liferay/portal/kernel/xml/DocumentException",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:com/liferay/portal/security/permission/ResourceActionsImpl",
+      "target": "file:com/liferay/portal/kernel/xml/DocumentType",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:com/liferay/portal/security/permission/ResourceActionsImpl",
+      "target": "file:com/liferay/portal/kernel/xml/Element",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:com/liferay/portal/security/permission/ResourceActionsImpl",
+      "target": "file:com/liferay/portal/kernel/xml/UnsecureSAXReaderUtil",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:com/liferay/portal/security/permission/ResourceActionsImpl",
+      "target": "function:com/liferay/portal/security/permission/ResourceActionsImpl:getAction",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:com/liferay/portal/security/permission/ResourceActionsImpl",
+      "target": "function:com/liferay/portal/security/permission/ResourceActionsImpl:getAction",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:com/liferay/portal/security/permission/ResourceActionsImpl",
+      "target": "function:com/liferay/portal/security/permission/ResourceActionsImpl:getCompositeModelName",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:com/liferay/portal/security/permission/ResourceActionsImpl",
+      "target": "function:com/liferay/portal/security/permission/ResourceActionsImpl:getModelNames",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:com/liferay/portal/security/permission/ResourceActionsImpl",
+      "target": "function:com/liferay/portal/security/permission/ResourceActionsImpl:getModelPortletResources",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:com/liferay/portal/security/permission/ResourceActionsImpl",
+      "target": "function:com/liferay/portal/security/permission/ResourceActionsImpl:getModelResource",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:com/liferay/portal/security/permission/ResourceActionsImpl",
+      "target": "function:com/liferay/portal/security/permission/ResourceActionsImpl:getModelResource",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:com/liferay/portal/security/permission/ResourceActionsImpl",
+      "target": "function:com/liferay/portal/security/permission/ResourceActionsImpl:getPortletModelResources",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:com/liferay/portal/security/permission/ResourceActionsImpl",
+      "target": "function:com/liferay/portal/security/permission/ResourceActionsImpl:getPortletNames",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:com/liferay/portal/security/permission/ResourceActionsImpl",
+      "target": "function:com/liferay/portal/security/permission/ResourceActionsImpl:getPortletResourceGroupDefaultActions",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:com/liferay/portal/security/permission/ResourceActionsImpl",
+      "target": "function:com/liferay/portal/security/permission/ResourceActionsImpl:getPortletResourceGuestDefaultActions",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:com/liferay/portal/security/permission/ResourceActionsImpl",
+      "target": "function:com/liferay/portal/security/permission/ResourceActionsImpl:getPortletResourceGuestUnsupportedActions",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:com/liferay/portal/security/permission/ResourceActionsImpl",
+      "target": "function:com/liferay/portal/security/permission/ResourceActionsImpl:getPortletResourceLayoutManagerActions",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:com/liferay/portal/security/permission/ResourceActionsImpl",
+      "target": "function:com/liferay/portal/security/permission/ResourceActionsImpl:getPortletResourceOwnerDefaultActions",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:com/liferay/portal/security/permission/ResourceActionsImpl",
+      "target": "function:com/liferay/portal/security/permission/ResourceActionsImpl:getResourceActions",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:com/liferay/portal/security/permission/ResourceActionsImpl",
+      "target": "function:com/liferay/portal/security/permission/ResourceActionsImpl:getResourceActions",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:com/liferay/portal/security/permission/ResourceActionsImpl",
+      "target": "function:com/liferay/portal/security/permission/ResourceActionsImpl:getResourceGuestUnsupportedActions",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:com/liferay/portal/security/permission/ResourceActionsImpl",
+      "target": "function:com/liferay/portal/security/permission/ResourceActionsImpl:getRoles",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:com/liferay/portal/security/permission/ResourceActionsImpl",
+      "target": "function:com/liferay/portal/security/permission/ResourceActionsImpl:isRootModelResource",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:com/liferay/portal/security/permission/ResourceActionsImpl",
+      "target": "function:com/liferay/portal/security/permission/ResourceActionsImpl:populateModelResources",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:com/liferay/portal/security/permission/ResourceActionsImpl",
+      "target": "function:com/liferay/portal/security/permission/ResourceActionsImpl:populateModelResources",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:com/liferay/portal/security/permission/ResourceActionsImpl",
+      "target": "function:com/liferay/portal/security/permission/ResourceActionsImpl:populateModelResources",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:com/liferay/portal/security/permission/ResourceActionsImpl",
+      "target": "function:com/liferay/portal/security/permission/ResourceActionsImpl:populatePortletResource",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:com/liferay/portal/security/permission/ResourceActionsImpl",
+      "target": "function:com/liferay/portal/security/permission/ResourceActionsImpl:populatePortletResource",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:com/liferay/portal/security/permission/ResourceActionsImpl",
+      "target": "function:com/liferay/portal/security/permission/ResourceActionsImpl:populatePortletResources",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:com/liferay/portal/security/permission/ResourceActionsImpl",
+      "target": "function:com/liferay/portal/security/permission/ResourceActionsImpl:populatePortletResources",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:com/liferay/portal/security/permission/ResourceActionsImpl",
+      "target": "function:com/liferay/portal/security/permission/ResourceActionsImpl:removeModelResource",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:com/liferay/portal/security/permission/ResourceActionsImpl",
+      "target": "function:com/liferay/portal/security/permission/ResourceActionsImpl:removeModelResources",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:com/liferay/portal/security/permission/ResourceActionsImpl",
+      "target": "function:com/liferay/portal/security/permission/ResourceActionsImpl:removePortletResources",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:com/liferay/portal/security/permission/ResourceActionsImpl",
+      "target": "class:com/liferay/portal/security/permission/ResourceActionsImpl:ResourceActionsImpl",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:com/liferay/portal/security/permission/ResourceActionsImpl:getAction",
+      "target": "function:com/liferay/portal/security/permission/ResourceActionsImpl:_getResourceBundlesString",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:com/liferay/portal/security/permission/ResourceActionsImpl:getAction",
+      "target": "function:com/liferay/portal/security/permission/ResourceActionsImpl:_getResourceBundlesString",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:com/liferay/portal/security/permission/ResourceActionsImpl:getModelResource",
+      "target": "function:com/liferay/portal/security/permission/ResourceActionsImpl:_getResourceBundlesString",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:com/liferay/portal/security/permission/ResourceActionsImpl:getModelResource",
+      "target": "function:com/liferay/portal/security/permission/ResourceActionsImpl:_getResourceBundlesString",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:com/liferay/portal/security/permission/ResourceActionsImpl:getPortletResourceGroupDefaultActions",
+      "target": "function:com/liferay/portal/security/permission/ResourceActionsImpl:_getResourceActionsBag",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:com/liferay/portal/security/permission/ResourceActionsImpl:getPortletResourceGuestDefaultActions",
+      "target": "function:com/liferay/portal/security/permission/ResourceActionsImpl:_getResourceActionsBag",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:com/liferay/portal/security/permission/ResourceActionsImpl:getPortletResourceGuestUnsupportedActions",
+      "target": "function:com/liferay/portal/security/permission/ResourceActionsImpl:_getResourceActionsBag",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:com/liferay/portal/security/permission/ResourceActionsImpl:getPortletResourceLayoutManagerActions",
+      "target": "function:com/liferay/portal/security/permission/ResourceActionsImpl:_getResourceActionsBag",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:com/liferay/portal/security/permission/ResourceActionsImpl:getPortletResourceOwnerDefaultActions",
+      "target": "function:com/liferay/portal/security/permission/ResourceActionsImpl:_getResourceActionsBag",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:com/liferay/portal/security/permission/ResourceActionsImpl:getResourceGuestUnsupportedActions",
+      "target": "function:com/liferay/portal/security/permission/ResourceActionsImpl:getPortletResourceGuestUnsupportedActions",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:com/liferay/portal/security/permission/ResourceActionsImpl:getResourceGuestUnsupportedActions",
+      "target": "function:com/liferay/portal/security/permission/ResourceActionsImpl:getPortletResourceGuestUnsupportedActions",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:com/liferay/portal/security/permission/ResourceActionsImpl:getRoles",
+      "target": "function:com/liferay/portal/security/permission/ResourceActionsImpl:_getRoleTypes",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:com/liferay/portal/security/permission/ResourceActionsImpl:populateModelResources",
+      "target": "function:com/liferay/portal/security/permission/ResourceActionsImpl:_read",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:com/liferay/portal/security/permission/ResourceActionsImpl:populateModelResources",
+      "target": "function:com/liferay/portal/security/permission/ResourceActionsImpl:_readModelResources",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:com/liferay/portal/security/permission/ResourceActionsImpl:populateModelResources",
+      "target": "function:com/liferay/portal/security/permission/ResourceActionsImpl:_checkResourceActions",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:com/liferay/portal/security/permission/ResourceActionsImpl:populateModelResources",
+      "target": "function:com/liferay/portal/security/permission/ResourceActionsImpl:_readModelResources",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:com/liferay/portal/security/permission/ResourceActionsImpl:populateModelResources",
+      "target": "function:com/liferay/portal/security/permission/ResourceActionsImpl:_checkResourceActions",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:com/liferay/portal/security/permission/ResourceActionsImpl:populatePortletResource",
+      "target": "function:com/liferay/portal/security/permission/ResourceActionsImpl:_readPortletResource",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:com/liferay/portal/security/permission/ResourceActionsImpl:populatePortletResource",
+      "target": "function:com/liferay/portal/security/permission/ResourceActionsImpl:_checkResourceActions",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:com/liferay/portal/security/permission/ResourceActionsImpl:populatePortletResource",
+      "target": "function:com/liferay/portal/security/permission/ResourceActionsImpl:_getPortletResourceActions",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:com/liferay/portal/security/permission/ResourceActionsImpl:populatePortletResource",
+      "target": "function:com/liferay/portal/security/permission/ResourceActionsImpl:_read",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:com/liferay/portal/security/permission/ResourceActionsImpl:populatePortletResource",
+      "target": "function:com/liferay/portal/security/permission/ResourceActionsImpl:_readPortletResource",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:com/liferay/portal/security/permission/ResourceActionsImpl:populatePortletResource",
+      "target": "function:com/liferay/portal/security/permission/ResourceActionsImpl:_checkResourceActions",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:com/liferay/portal/security/permission/ResourceActionsImpl:populatePortletResource",
+      "target": "function:com/liferay/portal/security/permission/ResourceActionsImpl:_getPortletResourceActions",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:com/liferay/portal/security/permission/ResourceActionsImpl:populatePortletResources",
+      "target": "function:com/liferay/portal/security/permission/ResourceActionsImpl:_read",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:com/liferay/portal/security/permission/ResourceActionsImpl:populatePortletResources",
+      "target": "function:com/liferay/portal/security/permission/ResourceActionsImpl:_readPortletResources",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:com/liferay/portal/security/permission/ResourceActionsImpl:populatePortletResources",
+      "target": "function:com/liferay/portal/security/permission/ResourceActionsImpl:_checkResourceActions",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:com/liferay/portal/security/permission/ResourceActionsImpl:removeModelResource",
+      "target": "function:com/liferay/portal/security/permission/ResourceActionsImpl:_getResourceActionsBag",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:com/liferay/portal/security/permission/ResourceActionsImpl:_check",
+      "target": "function:com/liferay/portal/security/permission/ResourceActionsImpl:getPortletModelResources",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    }
+  ]
+}

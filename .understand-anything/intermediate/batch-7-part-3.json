@@ -1,0 +1,3029 @@
+{
+  "nodes": [
+    {
+      "id": "function:com/liferay/portal/security/auth/http/HttpAuthManagerUtil:_getDigestUserId",
+      "type": "function",
+      "name": "_getDigestUserId",
+      "filePath": "portal-impl/src/com/liferay/portal/security/auth/http/HttpAuthManagerUtil.java",
+      "summary": "_getDigestUserId() in HttpAuthManagerUtil.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low",
+      "startLine": 268,
+      "endLine": 311
+    },
+    {
+      "id": "function:com/liferay/portal/security/auth/http/HttpAuthManagerUtil:_parseBasic",
+      "type": "function",
+      "name": "_parseBasic",
+      "filePath": "portal-impl/src/com/liferay/portal/security/auth/http/HttpAuthManagerUtil.java",
+      "summary": "_parseBasic() in HttpAuthManagerUtil.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low",
+      "startLine": 313,
+      "endLine": 345
+    },
+    {
+      "id": "function:com/liferay/portal/security/auth/http/HttpAuthManagerUtil:_parseDigest",
+      "type": "function",
+      "name": "_parseDigest",
+      "filePath": "portal-impl/src/com/liferay/portal/security/auth/http/HttpAuthManagerUtil.java",
+      "summary": "_parseDigest() in HttpAuthManagerUtil.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low",
+      "startLine": 347,
+      "endLine": 374
+    },
+    {
+      "id": "class:com/liferay/portal/security/auth/http/HttpAuthManagerUtil:HttpAuthManagerUtil",
+      "type": "class",
+      "name": "HttpAuthManagerUtil",
+      "filePath": "portal-impl/src/com/liferay/portal/security/auth/http/HttpAuthManagerUtil.java",
+      "summary": "HttpAuthManagerUtil class in HttpAuthManagerUtil.java",
+      "tags": [
+        "class"
+      ],
+      "complexity": "high",
+      "methods": [
+        "generateChallenge",
+        "getBasicUserId",
+        "getDigestUserId",
+        "getUserId",
+        "parse",
+        "_generateBasicChallenge",
+        "_generateDigestChallenge",
+        "_getBasicUserId",
+        "_getDigestUserId",
+        "_parseBasic",
+        "_parseDigest",
+        "HttpAuthManagerUtil"
+      ],
+      "properties": [
+        "_log"
+      ]
+    },
+    {
+      "id": "file:com/liferay/portal/security/auth/session/AuthenticatedSessionManagerUtil_2",
+      "type": "file",
+      "name": "AuthenticatedSessionManagerUtil.java",
+      "filePath": "portal-impl/src/com/liferay/portal/security/auth/session/AuthenticatedSessionManagerUtil.java",
+      "summary": "AuthenticatedSessionManagerUtil.java - com.liferay.portal.security.auth.session.AuthenticatedSessionManagerUtil.java",
+      "tags": [
+        "code",
+        "java",
+        "class-definition",
+        "has-calls"
+      ],
+      "complexity": "medium"
+    },
+    {
+      "id": "function:com/liferay/portal/security/auth/session/AuthenticatedSessionManagerUtil:getAuthenticatedUserId",
+      "type": "function",
+      "name": "getAuthenticatedUserId",
+      "filePath": "portal-impl/src/com/liferay/portal/security/auth/session/AuthenticatedSessionManagerUtil.java",
+      "summary": "getAuthenticatedUserId() in AuthenticatedSessionManagerUtil.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low",
+      "startLine": 61,
+      "endLine": 70
+    },
+    {
+      "id": "function:com/liferay/portal/security/auth/session/AuthenticatedSessionManagerUtil:login",
+      "type": "function",
+      "name": "login",
+      "filePath": "portal-impl/src/com/liferay/portal/security/auth/session/AuthenticatedSessionManagerUtil.java",
+      "summary": "login() in AuthenticatedSessionManagerUtil.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "medium",
+      "startLine": 72,
+      "endLine": 238
+    },
+    {
+      "id": "function:com/liferay/portal/security/auth/session/AuthenticatedSessionManagerUtil:logout",
+      "type": "function",
+      "name": "logout",
+      "filePath": "portal-impl/src/com/liferay/portal/security/auth/session/AuthenticatedSessionManagerUtil.java",
+      "summary": "logout() in AuthenticatedSessionManagerUtil.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "medium",
+      "startLine": 240,
+      "endLine": 301
+    },
+    {
+      "id": "function:com/liferay/portal/security/auth/session/AuthenticatedSessionManagerUtil:renewSession",
+      "type": "function",
+      "name": "renewSession",
+      "filePath": "portal-impl/src/com/liferay/portal/security/auth/session/AuthenticatedSessionManagerUtil.java",
+      "summary": "renewSession() in AuthenticatedSessionManagerUtil.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low",
+      "startLine": 303,
+      "endLine": 343
+    },
+    {
+      "id": "function:com/liferay/portal/security/auth/session/AuthenticatedSessionManagerUtil:signOutSimultaneousLogins",
+      "type": "function",
+      "name": "signOutSimultaneousLogins",
+      "filePath": "portal-impl/src/com/liferay/portal/security/auth/session/AuthenticatedSessionManagerUtil.java",
+      "summary": "signOutSimultaneousLogins() in AuthenticatedSessionManagerUtil.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low",
+      "startLine": 345,
+      "endLine": 379
+    },
+    {
+      "id": "function:com/liferay/portal/security/auth/session/AuthenticatedSessionManagerUtil:_createCookie",
+      "type": "function",
+      "name": "_createCookie",
+      "filePath": "portal-impl/src/com/liferay/portal/security/auth/session/AuthenticatedSessionManagerUtil.java",
+      "summary": "_createCookie() in AuthenticatedSessionManagerUtil.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low",
+      "startLine": 381,
+      "endLine": 393
+    },
+    {
+      "id": "function:com/liferay/portal/security/auth/session/AuthenticatedSessionManagerUtil:_getAuthenticatedUser",
+      "type": "function",
+      "name": "_getAuthenticatedUser",
+      "filePath": "portal-impl/src/com/liferay/portal/security/auth/session/AuthenticatedSessionManagerUtil.java",
+      "summary": "_getAuthenticatedUser() in AuthenticatedSessionManagerUtil.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "medium",
+      "startLine": 395,
+      "endLine": 462
+    },
+    {
+      "id": "class:com/liferay/portal/security/auth/session/AuthenticatedSessionManagerUtil:AuthenticatedSessionManagerUtil",
+      "type": "class",
+      "name": "AuthenticatedSessionManagerUtil",
+      "filePath": "portal-impl/src/com/liferay/portal/security/auth/session/AuthenticatedSessionManagerUtil.java",
+      "summary": "AuthenticatedSessionManagerUtil class in AuthenticatedSessionManagerUtil.java",
+      "tags": [
+        "class"
+      ],
+      "complexity": "medium",
+      "methods": [
+        "getAuthenticatedUserId",
+        "login",
+        "logout",
+        "renewSession",
+        "signOutSimultaneousLogins",
+        "_createCookie",
+        "_getAuthenticatedUser",
+        "AuthenticatedSessionManagerUtil"
+      ],
+      "properties": [
+        "_log"
+      ]
+    },
+    {
+      "id": "file:com/liferay/portal/security/auth/tunnel/TunnelAuthenticationManagerImpl",
+      "type": "file",
+      "name": "TunnelAuthenticationManagerImpl.java",
+      "filePath": "portal-impl/src/com/liferay/portal/security/auth/tunnel/TunnelAuthenticationManagerImpl.java",
+      "summary": "TunnelAuthenticationManagerImpl.java - com.liferay.portal.security.auth.tunnel.TunnelAuthenticationManagerImpl.java",
+      "tags": [
+        "code",
+        "java",
+        "class-definition",
+        "has-calls"
+      ],
+      "complexity": "medium"
+    },
+    {
+      "id": "function:com/liferay/portal/security/auth/tunnel/TunnelAuthenticationManagerImpl:getUserId",
+      "type": "function",
+      "name": "getUserId",
+      "filePath": "portal-impl/src/com/liferay/portal/security/auth/tunnel/TunnelAuthenticationManagerImpl.java",
+      "summary": "getUserId() in TunnelAuthenticationManagerImpl.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "medium",
+      "startLine": 43,
+      "endLine": 128
+    },
+    {
+      "id": "function:com/liferay/portal/security/auth/tunnel/TunnelAuthenticationManagerImpl:setCredentials",
+      "type": "function",
+      "name": "setCredentials",
+      "filePath": "portal-impl/src/com/liferay/portal/security/auth/tunnel/TunnelAuthenticationManagerImpl.java",
+      "summary": "setCredentials() in TunnelAuthenticationManagerImpl.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low",
+      "startLine": 130,
+      "endLine": 152
+    },
+    {
+      "id": "function:com/liferay/portal/security/auth/tunnel/TunnelAuthenticationManagerImpl:getSharedSecretKey",
+      "type": "function",
+      "name": "getSharedSecretKey",
+      "filePath": "portal-impl/src/com/liferay/portal/security/auth/tunnel/TunnelAuthenticationManagerImpl.java",
+      "summary": "getSharedSecretKey() in TunnelAuthenticationManagerImpl.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "medium",
+      "startLine": 154,
+      "endLine": 230
+    },
+    {
+      "id": "class:com/liferay/portal/security/auth/tunnel/TunnelAuthenticationManagerImpl:TunnelAuthenticationManagerImpl",
+      "type": "class",
+      "name": "TunnelAuthenticationManagerImpl",
+      "filePath": "portal-impl/src/com/liferay/portal/security/auth/tunnel/TunnelAuthenticationManagerImpl.java",
+      "summary": "TunnelAuthenticationManagerImpl class in TunnelAuthenticationManagerImpl.java",
+      "tags": [
+        "class"
+      ],
+      "complexity": "low",
+      "methods": [
+        "getUserId",
+        "setCredentials",
+        "getSharedSecretKey"
+      ],
+      "properties": [
+        "_log"
+      ]
+    },
+    {
+      "id": "file:com/liferay/portal/security/jaas/JAASHelper",
+      "type": "file",
+      "name": "JAASHelper.java",
+      "filePath": "portal-impl/src/com/liferay/portal/security/jaas/JAASHelper.java",
+      "summary": "JAASHelper.java - com.liferay.portal.security.jaas.JAASHelper.java",
+      "tags": [
+        "code",
+        "java",
+        "class-definition",
+        "has-calls"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "function:com/liferay/portal/security/jaas/JAASHelper:doGetJaasUserId",
+      "type": "function",
+      "name": "doGetJaasUserId",
+      "filePath": "portal-impl/src/com/liferay/portal/security/jaas/JAASHelper.java",
+      "summary": "doGetJaasUserId() in JAASHelper.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low",
+      "startLine": 38,
+      "endLine": 82
+    },
+    {
+      "id": "class:com/liferay/portal/security/jaas/JAASHelper:JAASHelper",
+      "type": "class",
+      "name": "JAASHelper",
+      "filePath": "portal-impl/src/com/liferay/portal/security/jaas/JAASHelper.java",
+      "summary": "JAASHelper class in JAASHelper.java",
+      "tags": [
+        "class"
+      ],
+      "complexity": "low",
+      "methods": [
+        "getInstance",
+        "getJaasUserId",
+        "setInstance",
+        "doGetJaasUserId"
+      ],
+      "properties": [
+        "_jaasHelper"
+      ]
+    },
+    {
+      "id": "file:com/liferay/portal/security/membershippolicy/DefaultSiteMembershipPolicy",
+      "type": "file",
+      "name": "DefaultSiteMembershipPolicy.java",
+      "filePath": "portal-impl/src/com/liferay/portal/security/membershippolicy/DefaultSiteMembershipPolicy.java",
+      "summary": "DefaultSiteMembershipPolicy.java - com.liferay.portal.security.membershippolicy.DefaultSiteMembershipPolicy.java",
+      "tags": [
+        "code",
+        "java",
+        "class-definition",
+        "has-calls"
+      ],
+      "complexity": "medium"
+    },
+    {
+      "id": "function:com/liferay/portal/security/membershippolicy/DefaultSiteMembershipPolicy:afterPropertiesSet",
+      "type": "function",
+      "name": "afterPropertiesSet",
+      "filePath": "portal-impl/src/com/liferay/portal/security/membershippolicy/DefaultSiteMembershipPolicy.java",
+      "summary": "afterPropertiesSet() in DefaultSiteMembershipPolicy.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low",
+      "startLine": 38,
+      "endLine": 47
+    },
+    {
+      "id": "function:com/liferay/portal/security/membershippolicy/DefaultSiteMembershipPolicy:isMembershipAllowed",
+      "type": "function",
+      "name": "isMembershipAllowed",
+      "filePath": "portal-impl/src/com/liferay/portal/security/membershippolicy/DefaultSiteMembershipPolicy.java",
+      "summary": "isMembershipAllowed() in DefaultSiteMembershipPolicy.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low",
+      "startLine": 59,
+      "endLine": 76
+    },
+    {
+      "id": "function:com/liferay/portal/security/membershippolicy/DefaultSiteMembershipPolicy:propagateMembership",
+      "type": "function",
+      "name": "propagateMembership",
+      "filePath": "portal-impl/src/com/liferay/portal/security/membershippolicy/DefaultSiteMembershipPolicy.java",
+      "summary": "propagateMembership() in DefaultSiteMembershipPolicy.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low",
+      "startLine": 78,
+      "endLine": 88
+    },
+    {
+      "id": "function:com/liferay/portal/security/membershippolicy/DefaultSiteMembershipPolicy:verifyPolicy",
+      "type": "function",
+      "name": "verifyPolicy",
+      "filePath": "portal-impl/src/com/liferay/portal/security/membershippolicy/DefaultSiteMembershipPolicy.java",
+      "summary": "verifyPolicy() in DefaultSiteMembershipPolicy.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low",
+      "startLine": 97,
+      "endLine": 119
+    },
+    {
+      "id": "function:com/liferay/portal/security/membershippolicy/DefaultSiteMembershipPolicy:checkAddUsersLimitedGroup",
+      "type": "function",
+      "name": "checkAddUsersLimitedGroup",
+      "filePath": "portal-impl/src/com/liferay/portal/security/membershippolicy/DefaultSiteMembershipPolicy.java",
+      "summary": "checkAddUsersLimitedGroup() in DefaultSiteMembershipPolicy.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low",
+      "startLine": 121,
+      "endLine": 157
+    },
+    {
+      "id": "function:com/liferay/portal/security/membershippolicy/DefaultSiteMembershipPolicy:getLimitedChildrenGroups",
+      "type": "function",
+      "name": "getLimitedChildrenGroups",
+      "filePath": "portal-impl/src/com/liferay/portal/security/membershippolicy/DefaultSiteMembershipPolicy.java",
+      "summary": "getLimitedChildrenGroups() in DefaultSiteMembershipPolicy.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low",
+      "startLine": 159,
+      "endLine": 189
+    },
+    {
+      "id": "function:com/liferay/portal/security/membershippolicy/DefaultSiteMembershipPolicy:removeUsersFromLimitedChildrenGroups",
+      "type": "function",
+      "name": "removeUsersFromLimitedChildrenGroups",
+      "filePath": "portal-impl/src/com/liferay/portal/security/membershippolicy/DefaultSiteMembershipPolicy.java",
+      "summary": "removeUsersFromLimitedChildrenGroups() in DefaultSiteMembershipPolicy.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low",
+      "startLine": 191,
+      "endLine": 208
+    },
+    {
+      "id": "function:com/liferay/portal/security/membershippolicy/DefaultSiteMembershipPolicy:verifyLimitedParentMembership",
+      "type": "function",
+      "name": "verifyLimitedParentMembership",
+      "filePath": "portal-impl/src/com/liferay/portal/security/membershippolicy/DefaultSiteMembershipPolicy.java",
+      "summary": "verifyLimitedParentMembership() in DefaultSiteMembershipPolicy.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low",
+      "startLine": 210,
+      "endLine": 247
+    },
+    {
+      "id": "class:com/liferay/portal/security/membershippolicy/DefaultSiteMembershipPolicy:DefaultSiteMembershipPolicy",
+      "type": "class",
+      "name": "DefaultSiteMembershipPolicy",
+      "filePath": "portal-impl/src/com/liferay/portal/security/membershippolicy/DefaultSiteMembershipPolicy.java",
+      "summary": "DefaultSiteMembershipPolicy class in DefaultSiteMembershipPolicy.java",
+      "tags": [
+        "class"
+      ],
+      "complexity": "medium",
+      "methods": [
+        "afterPropertiesSet",
+        "checkMembership",
+        "isMembershipAllowed",
+        "propagateMembership",
+        "verifyPolicy",
+        "verifyPolicy",
+        "checkAddUsersLimitedGroup",
+        "getLimitedChildrenGroups",
+        "removeUsersFromLimitedChildrenGroups",
+        "verifyLimitedParentMembership"
+      ],
+      "properties": [
+        "_log"
+      ]
+    },
+    {
+      "id": "file:com/liferay/portal/security/membershippolicy/RoleMembershipPolicyUtil",
+      "type": "file",
+      "name": "RoleMembershipPolicyUtil.java",
+      "filePath": "portal-impl/src/com/liferay/portal/security/membershippolicy/RoleMembershipPolicyUtil.java",
+      "summary": "RoleMembershipPolicyUtil.java - com.liferay.portal.security.membershippolicy.RoleMembershipPolicyUtil.java",
+      "tags": [
+        "code",
+        "java",
+        "class-definition",
+        "has-calls"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "function:com/liferay/portal/security/membershippolicy/RoleMembershipPolicyUtil:verifyPolicy",
+      "type": "function",
+      "name": "verifyPolicy",
+      "filePath": "portal-impl/src/com/liferay/portal/security/membershippolicy/RoleMembershipPolicyUtil.java",
+      "summary": "verifyPolicy() in RoleMembershipPolicyUtil.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low",
+      "startLine": 74,
+      "endLine": 83
+    },
+    {
+      "id": "class:com/liferay/portal/security/membershippolicy/RoleMembershipPolicyUtil:RoleMembershipPolicyUtil",
+      "type": "class",
+      "name": "RoleMembershipPolicyUtil",
+      "filePath": "portal-impl/src/com/liferay/portal/security/membershippolicy/RoleMembershipPolicyUtil.java",
+      "summary": "RoleMembershipPolicyUtil class in RoleMembershipPolicyUtil.java",
+      "tags": [
+        "class"
+      ],
+      "complexity": "medium",
+      "methods": [
+        "checkRoles",
+        "isRoleAllowed",
+        "isRoleRequired",
+        "propagateRoles",
+        "verifyPolicy",
+        "verifyPolicy",
+        "verifyPolicy"
+      ],
+      "properties": []
+    },
+    {
+      "id": "file:com/liferay/portal/security/membershippolicy/SiteMembershipPolicyUtil",
+      "type": "file",
+      "name": "SiteMembershipPolicyUtil.java",
+      "filePath": "portal-impl/src/com/liferay/portal/security/membershippolicy/SiteMembershipPolicyUtil.java",
+      "summary": "SiteMembershipPolicyUtil.java - com.liferay.portal.security.membershippolicy.SiteMembershipPolicyUtil.java",
+      "tags": [
+        "code",
+        "java",
+        "class-definition",
+        "has-calls"
+      ],
+      "complexity": "medium"
+    },
+    {
+      "id": "function:com/liferay/portal/security/membershippolicy/SiteMembershipPolicyUtil:checkMembership",
+      "type": "function",
+      "name": "checkMembership",
+      "filePath": "portal-impl/src/com/liferay/portal/security/membershippolicy/SiteMembershipPolicyUtil.java",
+      "summary": "checkMembership() in SiteMembershipPolicyUtil.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low",
+      "startLine": 30,
+      "endLine": 39
+    },
+    {
+      "id": "function:com/liferay/portal/security/membershippolicy/SiteMembershipPolicyUtil:checkRoles",
+      "type": "function",
+      "name": "checkRoles",
+      "filePath": "portal-impl/src/com/liferay/portal/security/membershippolicy/SiteMembershipPolicyUtil.java",
+      "summary": "checkRoles() in SiteMembershipPolicyUtil.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low",
+      "startLine": 41,
+      "endLine": 51
+    },
+    {
+      "id": "function:com/liferay/portal/security/membershippolicy/SiteMembershipPolicyUtil:isMembershipProtected",
+      "type": "function",
+      "name": "isMembershipProtected",
+      "filePath": "portal-impl/src/com/liferay/portal/security/membershippolicy/SiteMembershipPolicyUtil.java",
+      "summary": "isMembershipProtected() in SiteMembershipPolicyUtil.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low",
+      "startLine": 62,
+      "endLine": 71
+    },
+    {
+      "id": "function:com/liferay/portal/security/membershippolicy/SiteMembershipPolicyUtil:isRoleProtected",
+      "type": "function",
+      "name": "isRoleProtected",
+      "filePath": "portal-impl/src/com/liferay/portal/security/membershippolicy/SiteMembershipPolicyUtil.java",
+      "summary": "isRoleProtected() in SiteMembershipPolicyUtil.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low",
+      "startLine": 91,
+      "endLine": 101
+    },
+    {
+      "id": "function:com/liferay/portal/security/membershippolicy/SiteMembershipPolicyUtil:propagateMembership",
+      "type": "function",
+      "name": "propagateMembership",
+      "filePath": "portal-impl/src/com/liferay/portal/security/membershippolicy/SiteMembershipPolicyUtil.java",
+      "summary": "propagateMembership() in SiteMembershipPolicyUtil.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low",
+      "startLine": 112,
+      "endLine": 121
+    },
+    {
+      "id": "function:com/liferay/portal/security/membershippolicy/SiteMembershipPolicyUtil:propagateRoles",
+      "type": "function",
+      "name": "propagateRoles",
+      "filePath": "portal-impl/src/com/liferay/portal/security/membershippolicy/SiteMembershipPolicyUtil.java",
+      "summary": "propagateRoles() in SiteMembershipPolicyUtil.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low",
+      "startLine": 123,
+      "endLine": 133
+    },
+    {
+      "id": "function:com/liferay/portal/security/membershippolicy/SiteMembershipPolicyUtil:verifyPolicy",
+      "type": "function",
+      "name": "verifyPolicy",
+      "filePath": "portal-impl/src/com/liferay/portal/security/membershippolicy/SiteMembershipPolicyUtil.java",
+      "summary": "verifyPolicy() in SiteMembershipPolicyUtil.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low",
+      "startLine": 149,
+      "endLine": 162
+    },
+    {
+      "id": "function:com/liferay/portal/security/membershippolicy/SiteMembershipPolicyUtil:verifyPolicy_2",
+      "type": "function",
+      "name": "verifyPolicy",
+      "filePath": "portal-impl/src/com/liferay/portal/security/membershippolicy/SiteMembershipPolicyUtil.java",
+      "summary": "verifyPolicy() in SiteMembershipPolicyUtil.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low",
+      "startLine": 171,
+      "endLine": 180
+    },
+    {
+      "id": "class:com/liferay/portal/security/membershippolicy/SiteMembershipPolicyUtil:SiteMembershipPolicyUtil",
+      "type": "class",
+      "name": "SiteMembershipPolicyUtil",
+      "filePath": "portal-impl/src/com/liferay/portal/security/membershippolicy/SiteMembershipPolicyUtil.java",
+      "summary": "SiteMembershipPolicyUtil class in SiteMembershipPolicyUtil.java",
+      "tags": [
+        "class"
+      ],
+      "complexity": "high",
+      "methods": [
+        "checkMembership",
+        "checkRoles",
+        "isMembershipAllowed",
+        "isMembershipProtected",
+        "isMembershipRequired",
+        "isRoleAllowed",
+        "isRoleProtected",
+        "isRoleRequired",
+        "propagateMembership",
+        "propagateRoles",
+        "verifyPolicy",
+        "verifyPolicy",
+        "verifyPolicy",
+        "verifyPolicy",
+        "verifyPolicy"
+      ],
+      "properties": [
+        "_siteMembershipPolicySnapshot"
+      ]
+    },
+    {
+      "id": "file:com/liferay/portal/security/membershippolicy/UserGroupMembershipPolicyUtil",
+      "type": "file",
+      "name": "UserGroupMembershipPolicyUtil.java",
+      "filePath": "portal-impl/src/com/liferay/portal/security/membershippolicy/UserGroupMembershipPolicyUtil.java",
+      "summary": "UserGroupMembershipPolicyUtil.java - com.liferay.portal.security.membershippolicy.UserGroupMembershipPolicyUtil.java",
+      "tags": [
+        "code",
+        "java",
+        "class-definition",
+        "has-calls"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "function:com/liferay/portal/security/membershippolicy/UserGroupMembershipPolicyUtil:checkMembership",
+      "type": "function",
+      "name": "checkMembership",
+      "filePath": "portal-impl/src/com/liferay/portal/security/membershippolicy/UserGroupMembershipPolicyUtil.java",
+      "summary": "checkMembership() in UserGroupMembershipPolicyUtil.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low",
+      "startLine": 22,
+      "endLine": 31
+    },
+    {
+      "id": "function:com/liferay/portal/security/membershippolicy/UserGroupMembershipPolicyUtil:propagateMembership",
+      "type": "function",
+      "name": "propagateMembership",
+      "filePath": "portal-impl/src/com/liferay/portal/security/membershippolicy/UserGroupMembershipPolicyUtil.java",
+      "summary": "propagateMembership() in UserGroupMembershipPolicyUtil.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low",
+      "startLine": 53,
+      "endLine": 62
+    },
+    {
+      "id": "function:com/liferay/portal/security/membershippolicy/UserGroupMembershipPolicyUtil:verifyPolicy",
+      "type": "function",
+      "name": "verifyPolicy",
+      "filePath": "portal-impl/src/com/liferay/portal/security/membershippolicy/UserGroupMembershipPolicyUtil.java",
+      "summary": "verifyPolicy() in UserGroupMembershipPolicyUtil.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low",
+      "startLine": 80,
+      "endLine": 90
+    },
+    {
+      "id": "class:com/liferay/portal/security/membershippolicy/UserGroupMembershipPolicyUtil:UserGroupMembershipPolicyUtil",
+      "type": "class",
+      "name": "UserGroupMembershipPolicyUtil",
+      "filePath": "portal-impl/src/com/liferay/portal/security/membershippolicy/UserGroupMembershipPolicyUtil.java",
+      "summary": "UserGroupMembershipPolicyUtil class in UserGroupMembershipPolicyUtil.java",
+      "tags": [
+        "class"
+      ],
+      "complexity": "medium",
+      "methods": [
+        "checkMembership",
+        "isMembershipAllowed",
+        "isMembershipRequired",
+        "propagateMembership",
+        "verifyPolicy",
+        "verifyPolicy",
+        "verifyPolicy"
+      ],
+      "properties": []
+    },
+    {
+      "id": "file:com/liferay/portal/security/permission/AdvancedPermissionChecker",
+      "type": "file",
+      "name": "AdvancedPermissionChecker.java",
+      "filePath": "portal-impl/src/com/liferay/portal/security/permission/AdvancedPermissionChecker.java",
+      "summary": "AdvancedPermissionChecker.java - com.liferay.portal.security.permission.AdvancedPermissionChecker.java",
+      "tags": [
+        "code",
+        "java",
+        "class-definition",
+        "has-calls"
+      ],
+      "complexity": "high"
+    },
+    {
+      "id": "function:com/liferay/portal/security/permission/AdvancedPermissionChecker:getGuestUserRoleIds",
+      "type": "function",
+      "name": "getGuestUserRoleIds",
+      "filePath": "portal-impl/src/com/liferay/portal/security/permission/AdvancedPermissionChecker.java",
+      "summary": "getGuestUserRoleIds() in AdvancedPermissionChecker.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low",
+      "startLine": 77,
+      "endLine": 105
+    },
+    {
+      "id": "function:com/liferay/portal/security/permission/AdvancedPermissionChecker:getRoleIds",
+      "type": "function",
+      "name": "getRoleIds",
+      "filePath": "portal-impl/src/com/liferay/portal/security/permission/AdvancedPermissionChecker.java",
+      "summary": "getRoleIds() in AdvancedPermissionChecker.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low",
+      "startLine": 107,
+      "endLine": 120
+    },
+    {
+      "id": "function:com/liferay/portal/security/permission/AdvancedPermissionChecker:hasOwnerPermission",
+      "type": "function",
+      "name": "hasOwnerPermission",
+      "filePath": "portal-impl/src/com/liferay/portal/security/permission/AdvancedPermissionChecker.java",
+      "summary": "hasOwnerPermission() in AdvancedPermissionChecker.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "medium",
+      "startLine": 127,
+      "endLine": 182
+    },
+    {
+      "id": "function:com/liferay/portal/security/permission/AdvancedPermissionChecker:hasPermission",
+      "type": "function",
+      "name": "hasPermission",
+      "filePath": "portal-impl/src/com/liferay/portal/security/permission/AdvancedPermissionChecker.java",
+      "summary": "hasPermission() in AdvancedPermissionChecker.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "medium",
+      "startLine": 184,
+      "endLine": 248
+    },
+    {
+      "id": "function:com/liferay/portal/security/permission/AdvancedPermissionChecker:isCompanyAdmin",
+      "type": "function",
+      "name": "isCompanyAdmin",
+      "filePath": "portal-impl/src/com/liferay/portal/security/permission/AdvancedPermissionChecker.java",
+      "summary": "isCompanyAdmin() in AdvancedPermissionChecker.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low",
+      "startLine": 257,
+      "endLine": 267
+    },
+    {
+      "id": "function:com/liferay/portal/security/permission/AdvancedPermissionChecker:isCompanyAdmin_2",
+      "type": "function",
+      "name": "isCompanyAdmin",
+      "filePath": "portal-impl/src/com/liferay/portal/security/permission/AdvancedPermissionChecker.java",
+      "summary": "isCompanyAdmin() in AdvancedPermissionChecker.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low",
+      "startLine": 269,
+      "endLine": 279
+    },
+    {
+      "id": "function:com/liferay/portal/security/permission/AdvancedPermissionChecker:isContentReviewer",
+      "type": "function",
+      "name": "isContentReviewer",
+      "filePath": "portal-impl/src/com/liferay/portal/security/permission/AdvancedPermissionChecker.java",
+      "summary": "isContentReviewer() in AdvancedPermissionChecker.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low",
+      "startLine": 281,
+      "endLine": 291
+    },
+    {
+      "id": "function:com/liferay/portal/security/permission/AdvancedPermissionChecker:isGroupAdmin",
+      "type": "function",
+      "name": "isGroupAdmin",
+      "filePath": "portal-impl/src/com/liferay/portal/security/permission/AdvancedPermissionChecker.java",
+      "summary": "isGroupAdmin() in AdvancedPermissionChecker.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low",
+      "startLine": 293,
+      "endLine": 309
+    },
+    {
+      "id": "function:com/liferay/portal/security/permission/AdvancedPermissionChecker:isGroupMember",
+      "type": "function",
+      "name": "isGroupMember",
+      "filePath": "portal-impl/src/com/liferay/portal/security/permission/AdvancedPermissionChecker.java",
+      "summary": "isGroupMember() in AdvancedPermissionChecker.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low",
+      "startLine": 311,
+      "endLine": 321
+    },
+    {
+      "id": "function:com/liferay/portal/security/permission/AdvancedPermissionChecker:isGroupOwner",
+      "type": "function",
+      "name": "isGroupOwner",
+      "filePath": "portal-impl/src/com/liferay/portal/security/permission/AdvancedPermissionChecker.java",
+      "summary": "isGroupOwner() in AdvancedPermissionChecker.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low",
+      "startLine": 323,
+      "endLine": 333
+    }
+  ],
+  "edges": [
+    {
+      "source": "file:com/liferay/portal/security/auth/http/HttpAuthManagerUtil",
+      "target": "function:com/liferay/portal/security/auth/http/HttpAuthManagerUtil:_getDigestUserId",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:com/liferay/portal/security/auth/http/HttpAuthManagerUtil",
+      "target": "function:com/liferay/portal/security/auth/http/HttpAuthManagerUtil:_parseBasic",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:com/liferay/portal/security/auth/http/HttpAuthManagerUtil",
+      "target": "function:com/liferay/portal/security/auth/http/HttpAuthManagerUtil:_parseDigest",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:com/liferay/portal/security/auth/http/HttpAuthManagerUtil",
+      "target": "class:com/liferay/portal/security/auth/http/HttpAuthManagerUtil:HttpAuthManagerUtil",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:com/liferay/portal/security/auth/http/HttpAuthManagerUtil",
+      "target": "class:com/liferay/portal/security/auth/http/HttpAuthManagerUtil:HttpAuthManagerUtil",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:com/liferay/portal/security/auth/http/HttpAuthManagerUtil:getUserId",
+      "target": "function:com/liferay/portal/security/auth/http/HttpAuthManagerUtil:_getDigestUserId",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:com/liferay/portal/security/auth/http/HttpAuthManagerUtil:parse",
+      "target": "function:com/liferay/portal/security/auth/http/HttpAuthManagerUtil:_parseBasic",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:com/liferay/portal/security/auth/http/HttpAuthManagerUtil:parse",
+      "target": "function:com/liferay/portal/security/auth/http/HttpAuthManagerUtil:_parseDigest",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:com/liferay/portal/security/auth/session/AuthenticatedSessionManagerUtil_2",
+      "target": "function:com/liferay/portal/security/auth/session/AuthenticatedSessionManagerUtil:getAuthenticatedUserId",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:com/liferay/portal/security/auth/session/AuthenticatedSessionManagerUtil_2",
+      "target": "function:com/liferay/portal/security/auth/session/AuthenticatedSessionManagerUtil:login",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:com/liferay/portal/security/auth/session/AuthenticatedSessionManagerUtil_2",
+      "target": "function:com/liferay/portal/security/auth/session/AuthenticatedSessionManagerUtil:logout",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:com/liferay/portal/security/auth/session/AuthenticatedSessionManagerUtil_2",
+      "target": "function:com/liferay/portal/security/auth/session/AuthenticatedSessionManagerUtil:renewSession",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:com/liferay/portal/security/auth/session/AuthenticatedSessionManagerUtil_2",
+      "target": "function:com/liferay/portal/security/auth/session/AuthenticatedSessionManagerUtil:signOutSimultaneousLogins",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:com/liferay/portal/security/auth/session/AuthenticatedSessionManagerUtil_2",
+      "target": "function:com/liferay/portal/security/auth/session/AuthenticatedSessionManagerUtil:_createCookie",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:com/liferay/portal/security/auth/session/AuthenticatedSessionManagerUtil_2",
+      "target": "function:com/liferay/portal/security/auth/session/AuthenticatedSessionManagerUtil:_getAuthenticatedUser",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:com/liferay/portal/security/auth/session/AuthenticatedSessionManagerUtil_2",
+      "target": "class:com/liferay/portal/security/auth/session/AuthenticatedSessionManagerUtil:AuthenticatedSessionManagerUtil",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:com/liferay/portal/security/auth/session/AuthenticatedSessionManagerUtil_2",
+      "target": "file:com/liferay/portal/events/EventsProcessorUtil",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:com/liferay/portal/security/auth/session/AuthenticatedSessionManagerUtil_2",
+      "target": "file:com/liferay/portal/liveusers/LiveUsers",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:com/liferay/portal/security/auth/session/AuthenticatedSessionManagerUtil_2",
+      "target": "file:com/liferay/portal/util/PropsValues_6",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:com/liferay/portal/security/auth/session/AuthenticatedSessionManagerUtil_2",
+      "target": "file:com/liferay/portal/kernel/cluster/ClusterExecutorUtil",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:com/liferay/portal/security/auth/session/AuthenticatedSessionManagerUtil_2",
+      "target": "file:com/liferay/portal/kernel/cluster/ClusterNode",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:com/liferay/portal/security/auth/session/AuthenticatedSessionManagerUtil_2",
+      "target": "file:com/liferay/portal/kernel/cookies/constants/CookiesConstants",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:com/liferay/portal/security/auth/session/AuthenticatedSessionManagerUtil_2",
+      "target": "file:com/liferay/portal/kernel/cookies/CookiesManagerUtil",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:com/liferay/portal/security/auth/session/AuthenticatedSessionManagerUtil_2",
+      "target": "file:com/liferay/portal/kernel/encryptor/EncryptorUtil",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:com/liferay/portal/security/auth/session/AuthenticatedSessionManagerUtil_2",
+      "target": "file:com/liferay/portal/kernel/exception/PortalException_5",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:com/liferay/portal/security/auth/session/AuthenticatedSessionManagerUtil_2",
+      "target": "file:com/liferay/portal/kernel/json/JSONFactoryUtil",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:com/liferay/portal/security/auth/session/AuthenticatedSessionManagerUtil_2",
+      "target": "file:com/liferay/portal/kernel/json/JSONObject",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:com/liferay/portal/security/auth/session/AuthenticatedSessionManagerUtil_2",
+      "target": "file:com/liferay/portal/kernel/log/Log_7",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:com/liferay/portal/security/auth/session/AuthenticatedSessionManagerUtil_2",
+      "target": "file:com/liferay/portal/kernel/log/LogFactoryUtil_7",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:com/liferay/portal/security/auth/session/AuthenticatedSessionManagerUtil_2",
+      "target": "file:com/liferay/portal/kernel/messaging/DestinationNames",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:com/liferay/portal/security/auth/session/AuthenticatedSessionManagerUtil_2",
+      "target": "file:com/liferay/portal/kernel/messaging/MessageBusUtil",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:com/liferay/portal/security/auth/session/AuthenticatedSessionManagerUtil_2",
+      "target": "file:com/liferay/portal/kernel/model/Company_3",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:com/liferay/portal/security/auth/session/AuthenticatedSessionManagerUtil_2",
+      "target": "file:com/liferay/portal/kernel/model/CompanyConstants_2",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:com/liferay/portal/security/auth/session/AuthenticatedSessionManagerUtil_2",
+      "target": "file:com/liferay/portal/kernel/model/RememberMeToken",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:com/liferay/portal/security/auth/session/AuthenticatedSessionManagerUtil_2",
+      "target": "file:com/liferay/portal/kernel/model/User_3",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:com/liferay/portal/security/auth/session/AuthenticatedSessionManagerUtil_2",
+      "target": "file:com/liferay/portal/kernel/model/UserTracker",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:com/liferay/portal/security/auth/session/AuthenticatedSessionManagerUtil_2",
+      "target": "file:com/liferay/portal/kernel/security/auth/Authenticator",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:com/liferay/portal/security/auth/session/AuthenticatedSessionManagerUtil_2",
+      "target": "file:com/liferay/portal/kernel/security/auth/AuthException_2",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:com/liferay/portal/security/auth/session/AuthenticatedSessionManagerUtil_2",
+      "target": "file:com/liferay/portal/kernel/service/CompanyLocalServiceUtil_3",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:com/liferay/portal/security/auth/session/AuthenticatedSessionManagerUtil_2",
+      "target": "file:com/liferay/portal/kernel/service/RememberMeTokenLocalServiceUtil",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:com/liferay/portal/security/auth/session/AuthenticatedSessionManagerUtil_2",
+      "target": "file:com/liferay/portal/kernel/service/UserLocalServiceUtil_5",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:com/liferay/portal/security/auth/session/AuthenticatedSessionManagerUtil_2",
+      "target": "file:com/liferay/portal/kernel/servlet/HttpHeaders_2",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:com/liferay/portal/security/auth/session/AuthenticatedSessionManagerUtil_2",
+      "target": "file:com/liferay/portal/kernel/util/GetterUtil_2",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:com/liferay/portal/security/auth/session/AuthenticatedSessionManagerUtil_2",
+      "target": "file:com/liferay/portal/kernel/util/HttpComponentsUtil_2",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:com/liferay/portal/security/auth/session/AuthenticatedSessionManagerUtil_2",
+      "target": "file:com/liferay/portal/kernel/util/PortalUtil_6",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:com/liferay/portal/security/auth/session/AuthenticatedSessionManagerUtil_2",
+      "target": "file:com/liferay/portal/kernel/util/PropsKeys_4",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:com/liferay/portal/security/auth/session/AuthenticatedSessionManagerUtil_2",
+      "target": "file:com/liferay/portal/kernel/util/Validator_10",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:com/liferay/portal/security/auth/session/AuthenticatedSessionManagerUtil_2",
+      "target": "file:com/liferay/portal/kernel/util/WebKeys_3",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:com/liferay/portal/security/auth/session/AuthenticatedSessionManagerUtil_2",
+      "target": "function:com/liferay/portal/security/auth/session/AuthenticatedSessionManagerUtil:getAuthenticatedUserId",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:com/liferay/portal/security/auth/session/AuthenticatedSessionManagerUtil_2",
+      "target": "function:com/liferay/portal/security/auth/session/AuthenticatedSessionManagerUtil:login",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:com/liferay/portal/security/auth/session/AuthenticatedSessionManagerUtil_2",
+      "target": "function:com/liferay/portal/security/auth/session/AuthenticatedSessionManagerUtil:logout",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:com/liferay/portal/security/auth/session/AuthenticatedSessionManagerUtil_2",
+      "target": "function:com/liferay/portal/security/auth/session/AuthenticatedSessionManagerUtil:renewSession",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:com/liferay/portal/security/auth/session/AuthenticatedSessionManagerUtil_2",
+      "target": "function:com/liferay/portal/security/auth/session/AuthenticatedSessionManagerUtil:signOutSimultaneousLogins",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:com/liferay/portal/security/auth/session/AuthenticatedSessionManagerUtil_2",
+      "target": "class:com/liferay/portal/security/auth/session/AuthenticatedSessionManagerUtil:AuthenticatedSessionManagerUtil",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:com/liferay/portal/security/auth/session/AuthenticatedSessionManagerUtil:getAuthenticatedUserId",
+      "target": "function:com/liferay/portal/security/auth/session/AuthenticatedSessionManagerUtil:_getAuthenticatedUser",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:com/liferay/portal/security/auth/session/AuthenticatedSessionManagerUtil:login",
+      "target": "function:com/liferay/portal/security/auth/session/AuthenticatedSessionManagerUtil:_getAuthenticatedUser",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:com/liferay/portal/security/auth/session/AuthenticatedSessionManagerUtil:login",
+      "target": "function:com/liferay/portal/security/auth/session/AuthenticatedSessionManagerUtil:signOutSimultaneousLogins",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:com/liferay/portal/security/auth/session/AuthenticatedSessionManagerUtil:login",
+      "target": "function:com/liferay/portal/security/auth/session/AuthenticatedSessionManagerUtil:renewSession",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:com/liferay/portal/security/auth/session/AuthenticatedSessionManagerUtil:login",
+      "target": "function:com/liferay/portal/security/auth/session/AuthenticatedSessionManagerUtil:_createCookie",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:com/liferay/portal/security/auth/session/AuthenticatedSessionManagerUtil:login",
+      "target": "function:com/liferay/portal/security/auth/session/AuthenticatedSessionManagerUtil:_createCookie",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:com/liferay/portal/security/auth/session/AuthenticatedSessionManagerUtil:login",
+      "target": "function:com/liferay/portal/security/auth/session/AuthenticatedSessionManagerUtil:_createCookie",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:com/liferay/portal/security/auth/session/AuthenticatedSessionManagerUtil:login",
+      "target": "function:com/liferay/portal/security/auth/session/AuthenticatedSessionManagerUtil:_createCookie",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:com/liferay/portal/security/auth/tunnel/TunnelAuthenticationManagerImpl",
+      "target": "function:com/liferay/portal/security/auth/tunnel/TunnelAuthenticationManagerImpl:getUserId",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:com/liferay/portal/security/auth/tunnel/TunnelAuthenticationManagerImpl",
+      "target": "function:com/liferay/portal/security/auth/tunnel/TunnelAuthenticationManagerImpl:setCredentials",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:com/liferay/portal/security/auth/tunnel/TunnelAuthenticationManagerImpl",
+      "target": "function:com/liferay/portal/security/auth/tunnel/TunnelAuthenticationManagerImpl:getSharedSecretKey",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:com/liferay/portal/security/auth/tunnel/TunnelAuthenticationManagerImpl",
+      "target": "class:com/liferay/portal/security/auth/tunnel/TunnelAuthenticationManagerImpl:TunnelAuthenticationManagerImpl",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:com/liferay/portal/security/auth/tunnel/TunnelAuthenticationManagerImpl",
+      "target": "file:com/liferay/portal/security/auth/http/HttpAuthManagerUtil_2",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:com/liferay/portal/security/auth/tunnel/TunnelAuthenticationManagerImpl",
+      "target": "file:com/liferay/portal/util/PortalInstances_2",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:com/liferay/portal/security/auth/tunnel/TunnelAuthenticationManagerImpl",
+      "target": "file:com/liferay/portal/util/PropsValues_7",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:com/liferay/portal/security/auth/tunnel/TunnelAuthenticationManagerImpl",
+      "target": "file:com/liferay/portal/kernel/encryptor/EncryptorException",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:com/liferay/portal/security/auth/tunnel/TunnelAuthenticationManagerImpl",
+      "target": "file:com/liferay/portal/kernel/encryptor/EncryptorUtil_2",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:com/liferay/portal/security/auth/tunnel/TunnelAuthenticationManagerImpl",
+      "target": "file:com/liferay/portal/kernel/log/Log_8",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:com/liferay/portal/security/auth/tunnel/TunnelAuthenticationManagerImpl",
+      "target": "file:com/liferay/portal/kernel/log/LogFactoryUtil_8",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:com/liferay/portal/security/auth/tunnel/TunnelAuthenticationManagerImpl",
+      "target": "file:com/liferay/portal/kernel/model/User_4",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:com/liferay/portal/security/auth/tunnel/TunnelAuthenticationManagerImpl",
+      "target": "file:com/liferay/portal/kernel/security/auth/AuthException_3",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:com/liferay/portal/security/auth/tunnel/TunnelAuthenticationManagerImpl",
+      "target": "file:com/liferay/portal/kernel/security/auth/http/HttpAuthorizationHeader_2",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:com/liferay/portal/security/auth/tunnel/TunnelAuthenticationManagerImpl",
+      "target": "file:com/liferay/portal/kernel/security/auth/RemoteAuthException",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:com/liferay/portal/security/auth/tunnel/TunnelAuthenticationManagerImpl",
+      "target": "file:com/liferay/portal/kernel/security/auth/tunnel/TunnelAuthenticationManager",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:com/liferay/portal/security/auth/tunnel/TunnelAuthenticationManagerImpl",
+      "target": "file:com/liferay/portal/kernel/service/UserLocalServiceUtil_6",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:com/liferay/portal/security/auth/tunnel/TunnelAuthenticationManagerImpl",
+      "target": "file:com/liferay/portal/kernel/servlet/HttpHeaders_3",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:com/liferay/portal/security/auth/tunnel/TunnelAuthenticationManagerImpl",
+      "target": "file:com/liferay/portal/kernel/util/GetterUtil_3",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:com/liferay/portal/security/auth/tunnel/TunnelAuthenticationManagerImpl",
+      "target": "file:com/liferay/portal/kernel/util/PropsKeys_5",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:com/liferay/portal/security/auth/tunnel/TunnelAuthenticationManagerImpl",
+      "target": "file:com/liferay/portal/kernel/util/StringUtil_4",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:com/liferay/portal/security/auth/tunnel/TunnelAuthenticationManagerImpl",
+      "target": "file:com/liferay/portal/kernel/util/Validator_11",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:com/liferay/portal/security/auth/tunnel/TunnelAuthenticationManagerImpl",
+      "target": "function:com/liferay/portal/security/auth/tunnel/TunnelAuthenticationManagerImpl:getUserId",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:com/liferay/portal/security/auth/tunnel/TunnelAuthenticationManagerImpl",
+      "target": "function:com/liferay/portal/security/auth/tunnel/TunnelAuthenticationManagerImpl:setCredentials",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:com/liferay/portal/security/auth/tunnel/TunnelAuthenticationManagerImpl",
+      "target": "class:com/liferay/portal/security/auth/tunnel/TunnelAuthenticationManagerImpl:TunnelAuthenticationManagerImpl",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:com/liferay/portal/security/auth/tunnel/TunnelAuthenticationManagerImpl:getUserId",
+      "target": "function:com/liferay/portal/security/auth/tunnel/TunnelAuthenticationManagerImpl:getSharedSecretKey",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:com/liferay/portal/security/auth/tunnel/TunnelAuthenticationManagerImpl:setCredentials",
+      "target": "function:com/liferay/portal/security/auth/tunnel/TunnelAuthenticationManagerImpl:getSharedSecretKey",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:com/liferay/portal/security/jaas/JAASHelper",
+      "target": "function:com/liferay/portal/security/jaas/JAASHelper:doGetJaasUserId",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:com/liferay/portal/security/jaas/JAASHelper",
+      "target": "class:com/liferay/portal/security/jaas/JAASHelper:JAASHelper",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:com/liferay/portal/security/jaas/JAASHelper",
+      "target": "file:com/liferay/portal/util/PropsValues_8",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:com/liferay/portal/security/jaas/JAASHelper",
+      "target": "file:com/liferay/portal/kernel/exception/PortalException_6",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:com/liferay/portal/security/jaas/JAASHelper",
+      "target": "file:com/liferay/portal/kernel/model/Company_4",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:com/liferay/portal/security/jaas/JAASHelper",
+      "target": "file:com/liferay/portal/kernel/model/CompanyConstants_3",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:com/liferay/portal/security/jaas/JAASHelper",
+      "target": "file:com/liferay/portal/kernel/model/User_5",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:com/liferay/portal/security/jaas/JAASHelper",
+      "target": "file:com/liferay/portal/kernel/service/CompanyLocalServiceUtil_4",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:com/liferay/portal/security/jaas/JAASHelper",
+      "target": "file:com/liferay/portal/kernel/service/UserLocalServiceUtil_7",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:com/liferay/portal/security/jaas/JAASHelper",
+      "target": "file:com/liferay/portal/kernel/util/GetterUtil_4",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:com/liferay/portal/security/jaas/JAASHelper",
+      "target": "class:com/liferay/portal/security/jaas/JAASHelper:JAASHelper",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:com/liferay/portal/security/membershippolicy/DefaultSiteMembershipPolicy",
+      "target": "function:com/liferay/portal/security/membershippolicy/DefaultSiteMembershipPolicy:afterPropertiesSet",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:com/liferay/portal/security/membershippolicy/DefaultSiteMembershipPolicy",
+      "target": "function:com/liferay/portal/security/membershippolicy/DefaultSiteMembershipPolicy:isMembershipAllowed",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:com/liferay/portal/security/membershippolicy/DefaultSiteMembershipPolicy",
+      "target": "function:com/liferay/portal/security/membershippolicy/DefaultSiteMembershipPolicy:propagateMembership",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:com/liferay/portal/security/membershippolicy/DefaultSiteMembershipPolicy",
+      "target": "function:com/liferay/portal/security/membershippolicy/DefaultSiteMembershipPolicy:verifyPolicy",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:com/liferay/portal/security/membershippolicy/DefaultSiteMembershipPolicy",
+      "target": "function:com/liferay/portal/security/membershippolicy/DefaultSiteMembershipPolicy:checkAddUsersLimitedGroup",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:com/liferay/portal/security/membershippolicy/DefaultSiteMembershipPolicy",
+      "target": "function:com/liferay/portal/security/membershippolicy/DefaultSiteMembershipPolicy:getLimitedChildrenGroups",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:com/liferay/portal/security/membershippolicy/DefaultSiteMembershipPolicy",
+      "target": "function:com/liferay/portal/security/membershippolicy/DefaultSiteMembershipPolicy:removeUsersFromLimitedChildrenGroups",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:com/liferay/portal/security/membershippolicy/DefaultSiteMembershipPolicy",
+      "target": "function:com/liferay/portal/security/membershippolicy/DefaultSiteMembershipPolicy:verifyLimitedParentMembership",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:com/liferay/portal/security/membershippolicy/DefaultSiteMembershipPolicy",
+      "target": "class:com/liferay/portal/security/membershippolicy/DefaultSiteMembershipPolicy:DefaultSiteMembershipPolicy",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:com/liferay/portal/security/membershippolicy/DefaultSiteMembershipPolicy",
+      "target": "file:com/liferay/portal/util/PropsValues_9",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:com/liferay/portal/security/membershippolicy/DefaultSiteMembershipPolicy",
+      "target": "file:com/liferay/asset/kernel/model/AssetCategory",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:com/liferay/portal/security/membershippolicy/DefaultSiteMembershipPolicy",
+      "target": "file:com/liferay/asset/kernel/model/AssetTag",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:com/liferay/portal/security/membershippolicy/DefaultSiteMembershipPolicy",
+      "target": "file:com/liferay/portal/kernel/dao/orm/QueryUtil_2",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:com/liferay/portal/security/membershippolicy/DefaultSiteMembershipPolicy",
+      "target": "file:com/liferay/portal/kernel/exception/PortalException_7",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:com/liferay/portal/security/membershippolicy/DefaultSiteMembershipPolicy",
+      "target": "file:com/liferay/portal/kernel/interval/IntervalActionProcessor",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:com/liferay/portal/security/membershippolicy/DefaultSiteMembershipPolicy",
+      "target": "file:com/liferay/portal/kernel/log/Log_9",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:com/liferay/portal/security/membershippolicy/DefaultSiteMembershipPolicy",
+      "target": "file:com/liferay/portal/kernel/log/LogFactoryUtil_9",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:com/liferay/portal/security/membershippolicy/DefaultSiteMembershipPolicy",
+      "target": "file:com/liferay/portal/kernel/model/Group_4",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:com/liferay/portal/security/membershippolicy/DefaultSiteMembershipPolicy",
+      "target": "file:com/liferay/portal/kernel/model/GroupConstants",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:com/liferay/portal/security/membershippolicy/DefaultSiteMembershipPolicy",
+      "target": "file:com/liferay/portal/kernel/model/User_6",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:com/liferay/portal/security/membershippolicy/DefaultSiteMembershipPolicy",
+      "target": "file:com/liferay/portal/kernel/security/membershippolicy/BaseSiteMembershipPolicy",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:com/liferay/portal/security/membershippolicy/DefaultSiteMembershipPolicy",
+      "target": "file:com/liferay/portal/kernel/security/membershippolicy/MembershipPolicyException",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:com/liferay/portal/security/membershippolicy/DefaultSiteMembershipPolicy",
+      "target": "file:com/liferay/portal/kernel/service/GroupLocalServiceUtil_4",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:com/liferay/portal/security/membershippolicy/DefaultSiteMembershipPolicy",
+      "target": "file:com/liferay/portal/kernel/service/UserLocalServiceUtil_8",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:com/liferay/portal/security/membershippolicy/DefaultSiteMembershipPolicy",
+      "target": "file:com/liferay/portal/kernel/util/LinkedHashMapBuilder",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:com/liferay/portal/security/membershippolicy/DefaultSiteMembershipPolicy",
+      "target": "file:com/liferay/portal/kernel/util/ListUtil_2",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:com/liferay/portal/security/membershippolicy/DefaultSiteMembershipPolicy",
+      "target": "file:com/liferay/portal/kernel/util/UnicodeProperties_3",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:com/liferay/portal/security/membershippolicy/DefaultSiteMembershipPolicy",
+      "target": "function:com/liferay/portal/security/membershippolicy/DefaultSiteMembershipPolicy:afterPropertiesSet",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:com/liferay/portal/security/membershippolicy/DefaultSiteMembershipPolicy",
+      "target": "function:com/liferay/portal/security/membershippolicy/DefaultSiteMembershipPolicy:isMembershipAllowed",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:com/liferay/portal/security/membershippolicy/DefaultSiteMembershipPolicy",
+      "target": "function:com/liferay/portal/security/membershippolicy/DefaultSiteMembershipPolicy:propagateMembership",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:com/liferay/portal/security/membershippolicy/DefaultSiteMembershipPolicy",
+      "target": "function:com/liferay/portal/security/membershippolicy/DefaultSiteMembershipPolicy:verifyPolicy",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:com/liferay/portal/security/membershippolicy/DefaultSiteMembershipPolicy",
+      "target": "function:com/liferay/portal/security/membershippolicy/DefaultSiteMembershipPolicy:verifyPolicy",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:com/liferay/portal/security/membershippolicy/DefaultSiteMembershipPolicy",
+      "target": "class:com/liferay/portal/security/membershippolicy/DefaultSiteMembershipPolicy:DefaultSiteMembershipPolicy",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:com/liferay/portal/security/membershippolicy/DefaultSiteMembershipPolicy:afterPropertiesSet",
+      "target": "function:com/liferay/portal/security/membershippolicy/DefaultSiteMembershipPolicy:verifyPolicy",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:com/liferay/portal/security/membershippolicy/DefaultSiteMembershipPolicy:propagateMembership",
+      "target": "function:com/liferay/portal/security/membershippolicy/DefaultSiteMembershipPolicy:removeUsersFromLimitedChildrenGroups",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:com/liferay/portal/security/membershippolicy/DefaultSiteMembershipPolicy:verifyPolicy",
+      "target": "function:com/liferay/portal/security/membershippolicy/DefaultSiteMembershipPolicy:verifyLimitedParentMembership",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:com/liferay/portal/security/membershippolicy/DefaultSiteMembershipPolicy:verifyPolicy",
+      "target": "function:com/liferay/portal/security/membershippolicy/DefaultSiteMembershipPolicy:getLimitedChildrenGroups",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:com/liferay/portal/security/membershippolicy/DefaultSiteMembershipPolicy:removeUsersFromLimitedChildrenGroups",
+      "target": "function:com/liferay/portal/security/membershippolicy/DefaultSiteMembershipPolicy:getLimitedChildrenGroups",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:com/liferay/portal/security/membershippolicy/RoleMembershipPolicyUtil",
+      "target": "function:com/liferay/portal/security/membershippolicy/RoleMembershipPolicyUtil:verifyPolicy",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:com/liferay/portal/security/membershippolicy/RoleMembershipPolicyUtil",
+      "target": "class:com/liferay/portal/security/membershippolicy/RoleMembershipPolicyUtil:RoleMembershipPolicyUtil",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:com/liferay/portal/security/membershippolicy/RoleMembershipPolicyUtil",
+      "target": "file:com/liferay/portal/kernel/exception/PortalException_8",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:com/liferay/portal/security/membershippolicy/RoleMembershipPolicyUtil",
+      "target": "file:com/liferay/portal/kernel/model/Role_5",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:com/liferay/portal/security/membershippolicy/RoleMembershipPolicyUtil",
+      "target": "file:com/liferay/portal/kernel/security/membershippolicy/RoleMembershipPolicy",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:com/liferay/portal/security/membershippolicy/RoleMembershipPolicyUtil",
+      "target": "function:com/liferay/portal/security/membershippolicy/RoleMembershipPolicyUtil:verifyPolicy",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:com/liferay/portal/security/membershippolicy/RoleMembershipPolicyUtil",
+      "target": "function:com/liferay/portal/security/membershippolicy/RoleMembershipPolicyUtil:verifyPolicy",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:com/liferay/portal/security/membershippolicy/RoleMembershipPolicyUtil",
+      "target": "function:com/liferay/portal/security/membershippolicy/RoleMembershipPolicyUtil:verifyPolicy",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:com/liferay/portal/security/membershippolicy/RoleMembershipPolicyUtil",
+      "target": "class:com/liferay/portal/security/membershippolicy/RoleMembershipPolicyUtil:RoleMembershipPolicyUtil",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:com/liferay/portal/security/membershippolicy/SiteMembershipPolicyUtil",
+      "target": "function:com/liferay/portal/security/membershippolicy/SiteMembershipPolicyUtil:checkMembership",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:com/liferay/portal/security/membershippolicy/SiteMembershipPolicyUtil",
+      "target": "function:com/liferay/portal/security/membershippolicy/SiteMembershipPolicyUtil:checkRoles",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:com/liferay/portal/security/membershippolicy/SiteMembershipPolicyUtil",
+      "target": "function:com/liferay/portal/security/membershippolicy/SiteMembershipPolicyUtil:isMembershipProtected",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:com/liferay/portal/security/membershippolicy/SiteMembershipPolicyUtil",
+      "target": "function:com/liferay/portal/security/membershippolicy/SiteMembershipPolicyUtil:isRoleProtected",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:com/liferay/portal/security/membershippolicy/SiteMembershipPolicyUtil",
+      "target": "function:com/liferay/portal/security/membershippolicy/SiteMembershipPolicyUtil:propagateMembership",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:com/liferay/portal/security/membershippolicy/SiteMembershipPolicyUtil",
+      "target": "function:com/liferay/portal/security/membershippolicy/SiteMembershipPolicyUtil:propagateRoles",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:com/liferay/portal/security/membershippolicy/SiteMembershipPolicyUtil",
+      "target": "function:com/liferay/portal/security/membershippolicy/SiteMembershipPolicyUtil:verifyPolicy",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:com/liferay/portal/security/membershippolicy/SiteMembershipPolicyUtil",
+      "target": "function:com/liferay/portal/security/membershippolicy/SiteMembershipPolicyUtil:verifyPolicy_2",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:com/liferay/portal/security/membershippolicy/SiteMembershipPolicyUtil",
+      "target": "class:com/liferay/portal/security/membershippolicy/SiteMembershipPolicyUtil:SiteMembershipPolicyUtil",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:com/liferay/portal/security/membershippolicy/SiteMembershipPolicyUtil",
+      "target": "file:com/liferay/asset/kernel/model/AssetCategory_2",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:com/liferay/portal/security/membershippolicy/SiteMembershipPolicyUtil",
+      "target": "file:com/liferay/asset/kernel/model/AssetTag_2",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:com/liferay/portal/security/membershippolicy/SiteMembershipPolicyUtil",
+      "target": "file:com/liferay/portal/kernel/exception/PortalException_9",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:com/liferay/portal/security/membershippolicy/SiteMembershipPolicyUtil",
+      "target": "file:com/liferay/portal/kernel/model/Group_5",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:com/liferay/portal/security/membershippolicy/SiteMembershipPolicyUtil",
+      "target": "file:com/liferay/portal/kernel/model/Role_6",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:com/liferay/portal/security/membershippolicy/SiteMembershipPolicyUtil",
+      "target": "file:com/liferay/portal/kernel/model/UserGroupRole_4",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:com/liferay/portal/security/membershippolicy/SiteMembershipPolicyUtil",
+      "target": "file:com/liferay/portal/kernel/module/service/Snapshot",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:com/liferay/portal/security/membershippolicy/SiteMembershipPolicyUtil",
+      "target": "file:com/liferay/portal/kernel/security/membershippolicy/SiteMembershipPolicy",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:com/liferay/portal/security/membershippolicy/SiteMembershipPolicyUtil",
+      "target": "file:com/liferay/portal/kernel/security/permission/PermissionChecker",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:com/liferay/portal/security/membershippolicy/SiteMembershipPolicyUtil",
+      "target": "file:com/liferay/portal/kernel/util/UnicodeProperties_4",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:com/liferay/portal/security/membershippolicy/SiteMembershipPolicyUtil",
+      "target": "function:com/liferay/portal/security/membershippolicy/SiteMembershipPolicyUtil:checkMembership",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:com/liferay/portal/security/membershippolicy/SiteMembershipPolicyUtil",
+      "target": "function:com/liferay/portal/security/membershippolicy/SiteMembershipPolicyUtil:checkRoles",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:com/liferay/portal/security/membershippolicy/SiteMembershipPolicyUtil",
+      "target": "function:com/liferay/portal/security/membershippolicy/SiteMembershipPolicyUtil:isMembershipProtected",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:com/liferay/portal/security/membershippolicy/SiteMembershipPolicyUtil",
+      "target": "function:com/liferay/portal/security/membershippolicy/SiteMembershipPolicyUtil:isRoleProtected",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:com/liferay/portal/security/membershippolicy/SiteMembershipPolicyUtil",
+      "target": "function:com/liferay/portal/security/membershippolicy/SiteMembershipPolicyUtil:propagateMembership",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:com/liferay/portal/security/membershippolicy/SiteMembershipPolicyUtil",
+      "target": "function:com/liferay/portal/security/membershippolicy/SiteMembershipPolicyUtil:propagateRoles",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:com/liferay/portal/security/membershippolicy/SiteMembershipPolicyUtil",
+      "target": "function:com/liferay/portal/security/membershippolicy/SiteMembershipPolicyUtil:verifyPolicy",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:com/liferay/portal/security/membershippolicy/SiteMembershipPolicyUtil",
+      "target": "function:com/liferay/portal/security/membershippolicy/SiteMembershipPolicyUtil:verifyPolicy",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:com/liferay/portal/security/membershippolicy/SiteMembershipPolicyUtil",
+      "target": "function:com/liferay/portal/security/membershippolicy/SiteMembershipPolicyUtil:verifyPolicy",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:com/liferay/portal/security/membershippolicy/SiteMembershipPolicyUtil",
+      "target": "function:com/liferay/portal/security/membershippolicy/SiteMembershipPolicyUtil:verifyPolicy",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:com/liferay/portal/security/membershippolicy/SiteMembershipPolicyUtil",
+      "target": "function:com/liferay/portal/security/membershippolicy/SiteMembershipPolicyUtil:verifyPolicy",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:com/liferay/portal/security/membershippolicy/SiteMembershipPolicyUtil",
+      "target": "class:com/liferay/portal/security/membershippolicy/SiteMembershipPolicyUtil:SiteMembershipPolicyUtil",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:com/liferay/portal/security/membershippolicy/UserGroupMembershipPolicyUtil",
+      "target": "function:com/liferay/portal/security/membershippolicy/UserGroupMembershipPolicyUtil:checkMembership",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:com/liferay/portal/security/membershippolicy/UserGroupMembershipPolicyUtil",
+      "target": "function:com/liferay/portal/security/membershippolicy/UserGroupMembershipPolicyUtil:propagateMembership",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:com/liferay/portal/security/membershippolicy/UserGroupMembershipPolicyUtil",
+      "target": "function:com/liferay/portal/security/membershippolicy/UserGroupMembershipPolicyUtil:verifyPolicy",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:com/liferay/portal/security/membershippolicy/UserGroupMembershipPolicyUtil",
+      "target": "class:com/liferay/portal/security/membershippolicy/UserGroupMembershipPolicyUtil:UserGroupMembershipPolicyUtil",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:com/liferay/portal/security/membershippolicy/UserGroupMembershipPolicyUtil",
+      "target": "file:com/liferay/portal/kernel/exception/PortalException_10",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:com/liferay/portal/security/membershippolicy/UserGroupMembershipPolicyUtil",
+      "target": "file:com/liferay/portal/kernel/model/UserGroup_5",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:com/liferay/portal/security/membershippolicy/UserGroupMembershipPolicyUtil",
+      "target": "file:com/liferay/portal/kernel/security/membershippolicy/UserGroupMembershipPolicy",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:com/liferay/portal/security/membershippolicy/UserGroupMembershipPolicyUtil",
+      "target": "function:com/liferay/portal/security/membershippolicy/UserGroupMembershipPolicyUtil:checkMembership",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:com/liferay/portal/security/membershippolicy/UserGroupMembershipPolicyUtil",
+      "target": "function:com/liferay/portal/security/membershippolicy/UserGroupMembershipPolicyUtil:propagateMembership",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:com/liferay/portal/security/membershippolicy/UserGroupMembershipPolicyUtil",
+      "target": "function:com/liferay/portal/security/membershippolicy/UserGroupMembershipPolicyUtil:verifyPolicy",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:com/liferay/portal/security/membershippolicy/UserGroupMembershipPolicyUtil",
+      "target": "function:com/liferay/portal/security/membershippolicy/UserGroupMembershipPolicyUtil:verifyPolicy",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:com/liferay/portal/security/membershippolicy/UserGroupMembershipPolicyUtil",
+      "target": "function:com/liferay/portal/security/membershippolicy/UserGroupMembershipPolicyUtil:verifyPolicy",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:com/liferay/portal/security/membershippolicy/UserGroupMembershipPolicyUtil",
+      "target": "class:com/liferay/portal/security/membershippolicy/UserGroupMembershipPolicyUtil:UserGroupMembershipPolicyUtil",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:com/liferay/portal/security/permission/AdvancedPermissionChecker",
+      "target": "function:com/liferay/portal/security/permission/AdvancedPermissionChecker:getGuestUserRoleIds",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:com/liferay/portal/security/permission/AdvancedPermissionChecker",
+      "target": "function:com/liferay/portal/security/permission/AdvancedPermissionChecker:getRoleIds",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:com/liferay/portal/security/permission/AdvancedPermissionChecker",
+      "target": "function:com/liferay/portal/security/permission/AdvancedPermissionChecker:hasOwnerPermission",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:com/liferay/portal/security/permission/AdvancedPermissionChecker",
+      "target": "function:com/liferay/portal/security/permission/AdvancedPermissionChecker:hasPermission",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:com/liferay/portal/security/permission/AdvancedPermissionChecker",
+      "target": "function:com/liferay/portal/security/permission/AdvancedPermissionChecker:isCompanyAdmin",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:com/liferay/portal/security/permission/AdvancedPermissionChecker",
+      "target": "function:com/liferay/portal/security/permission/AdvancedPermissionChecker:isCompanyAdmin_2",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:com/liferay/portal/security/permission/AdvancedPermissionChecker",
+      "target": "function:com/liferay/portal/security/permission/AdvancedPermissionChecker:isContentReviewer",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:com/liferay/portal/security/permission/AdvancedPermissionChecker",
+      "target": "function:com/liferay/portal/security/permission/AdvancedPermissionChecker:isGroupAdmin",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:com/liferay/portal/security/permission/AdvancedPermissionChecker",
+      "target": "function:com/liferay/portal/security/permission/AdvancedPermissionChecker:isGroupMember",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:com/liferay/portal/security/permission/AdvancedPermissionChecker",
+      "target": "function:com/liferay/portal/security/permission/AdvancedPermissionChecker:isGroupOwner",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:com/liferay/portal/security/permission/AdvancedPermissionChecker",
+      "target": "function:com/liferay/portal/security/permission/AdvancedPermissionChecker:isOrganizationAdmin",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:com/liferay/portal/security/permission/AdvancedPermissionChecker",
+      "target": "function:com/liferay/portal/security/permission/AdvancedPermissionChecker:isOrganizationOwner",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:com/liferay/portal/security/permission/AdvancedPermissionChecker",
+      "target": "function:com/liferay/portal/security/permission/AdvancedPermissionChecker:addTeamRoles",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:com/liferay/portal/security/permission/AdvancedPermissionChecker",
+      "target": "function:com/liferay/portal/security/permission/AdvancedPermissionChecker:doCheckPermission",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:com/liferay/portal/security/permission/AdvancedPermissionChecker",
+      "target": "function:com/liferay/portal/security/permission/AdvancedPermissionChecker:doGetRoleIds",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:com/liferay/portal/security/permission/AdvancedPermissionChecker",
+      "target": "function:com/liferay/portal/security/permission/AdvancedPermissionChecker:fixMissingResources",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:com/liferay/portal/security/permission/AdvancedPermissionChecker",
+      "target": "function:com/liferay/portal/security/permission/AdvancedPermissionChecker:getResources",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:com/liferay/portal/security/permission/AdvancedPermissionChecker",
+      "target": "function:com/liferay/portal/security/permission/AdvancedPermissionChecker:isCompanyAdminImpl",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:com/liferay/portal/security/permission/AdvancedPermissionChecker",
+      "target": "function:com/liferay/portal/security/permission/AdvancedPermissionChecker:isContentReviewerImpl",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:com/liferay/portal/security/permission/AdvancedPermissionChecker",
+      "target": "function:com/liferay/portal/security/permission/AdvancedPermissionChecker:isContentReviewerImpl_2",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:com/liferay/portal/security/permission/AdvancedPermissionChecker",
+      "target": "function:com/liferay/portal/security/permission/AdvancedPermissionChecker:isGroupAdminImpl",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:com/liferay/portal/security/permission/AdvancedPermissionChecker",
+      "target": "function:com/liferay/portal/security/permission/AdvancedPermissionChecker:isGroupMemberImpl",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:com/liferay/portal/security/permission/AdvancedPermissionChecker",
+      "target": "function:com/liferay/portal/security/permission/AdvancedPermissionChecker:isGroupOwnerImpl",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:com/liferay/portal/security/permission/AdvancedPermissionChecker",
+      "target": "function:com/liferay/portal/security/permission/AdvancedPermissionChecker:isGroupOwnerImpl_2",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:com/liferay/portal/security/permission/AdvancedPermissionChecker",
+      "target": "function:com/liferay/portal/security/permission/AdvancedPermissionChecker:isOrganizationAdminImpl",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:com/liferay/portal/security/permission/AdvancedPermissionChecker",
+      "target": "function:com/liferay/portal/security/permission/AdvancedPermissionChecker:isOrganizationAdminImpl_2",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:com/liferay/portal/security/permission/AdvancedPermissionChecker",
+      "target": "function:com/liferay/portal/security/permission/AdvancedPermissionChecker:isOrganizationOwnerImpl",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:com/liferay/portal/security/permission/AdvancedPermissionChecker",
+      "target": "function:com/liferay/portal/security/permission/AdvancedPermissionChecker:isOrganizationOwnerImpl_2",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:com/liferay/portal/security/permission/AdvancedPermissionChecker",
+      "target": "function:com/liferay/portal/security/permission/AdvancedPermissionChecker:logHasUserPermission",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:com/liferay/portal/security/permission/AdvancedPermissionChecker",
+      "target": "function:com/liferay/portal/security/permission/AdvancedPermissionChecker:_applyRoleContributors",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:com/liferay/portal/security/permission/AdvancedPermissionChecker",
+      "target": "function:com/liferay/portal/security/permission/AdvancedPermissionChecker:_getResource",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:com/liferay/portal/security/permission/AdvancedPermissionChecker",
+      "target": "function:com/liferay/portal/security/permission/AdvancedPermissionChecker:_hasGuestPermission",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:com/liferay/portal/security/permission/AdvancedPermissionChecker",
+      "target": "function:com/liferay/portal/security/permission/AdvancedPermissionChecker:_hasPermissionImpl",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:com/liferay/portal/security/permission/AdvancedPermissionChecker",
+      "target": "function:com/liferay/portal/security/permission/AdvancedPermissionChecker:_hasUserPermissionImpl",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:com/liferay/portal/security/permission/AdvancedPermissionChecker",
+      "target": "function:com/liferay/portal/security/permission/AdvancedPermissionChecker:_isGroupAdminImpl",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:com/liferay/portal/security/permission/AdvancedPermissionChecker",
+      "target": "class:com/liferay/portal/security/permission/AdvancedPermissionChecker:AdvancedPermissionChecker",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:com/liferay/portal/security/permission/AdvancedPermissionChecker",
+      "target": "file:com/liferay/portal/internal/security/permission/contributor/RoleCollectionImpl",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:com/liferay/portal/security/permission/AdvancedPermissionChecker",
+      "target": "file:com/liferay/portal/model/impl/ResourceImpl",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:com/liferay/portal/security/permission/AdvancedPermissionChecker",
+      "target": "file:com/liferay/portal/service/permission/LayoutPrototypePermissionUtil",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:com/liferay/portal/security/permission/AdvancedPermissionChecker",
+      "target": "file:com/liferay/portal/kernel/exception/NoSuchResourcePermissionException",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:com/liferay/portal/security/permission/AdvancedPermissionChecker",
+      "target": "file:com/liferay/portal/kernel/exception/PortalException_11",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:com/liferay/portal/security/permission/AdvancedPermissionChecker",
+      "target": "file:com/liferay/portal/kernel/log/Log_10",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:com/liferay/portal/security/permission/AdvancedPermissionChecker",
+      "target": "file:com/liferay/portal/kernel/log/LogFactoryUtil_10",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:com/liferay/portal/security/permission/AdvancedPermissionChecker",
+      "target": "file:com/liferay/portal/kernel/model/Company_5",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:com/liferay/portal/security/permission/AdvancedPermissionChecker",
+      "target": "file:com/liferay/portal/kernel/model/Group_6",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:com/liferay/portal/security/permission/AdvancedPermissionChecker",
+      "target": "file:com/liferay/portal/kernel/model/GroupConstants_2",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:com/liferay/portal/security/permission/AdvancedPermissionChecker",
+      "target": "file:com/liferay/portal/kernel/model/Layout_3",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:com/liferay/portal/security/permission/AdvancedPermissionChecker",
+      "target": "file:com/liferay/portal/kernel/model/Organization_2",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:com/liferay/portal/security/permission/AdvancedPermissionChecker",
+      "target": "file:com/liferay/portal/kernel/model/OrganizationConstants",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:com/liferay/portal/security/permission/AdvancedPermissionChecker",
+      "target": "file:com/liferay/portal/kernel/model/PortletConstants",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:com/liferay/portal/security/permission/AdvancedPermissionChecker",
+      "target": "file:com/liferay/portal/kernel/model/Resource",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:com/liferay/portal/security/permission/AdvancedPermissionChecker",
+      "target": "file:com/liferay/portal/kernel/model/ResourceConstants",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:com/liferay/portal/security/permission/AdvancedPermissionChecker",
+      "target": "file:com/liferay/portal/kernel/model/Role_7",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:com/liferay/portal/security/permission/AdvancedPermissionChecker",
+      "target": "file:com/liferay/portal/kernel/model/role/RoleConstants_2",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:com/liferay/portal/security/permission/AdvancedPermissionChecker",
+      "target": "file:com/liferay/portal/kernel/model/User_7",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:com/liferay/portal/security/permission/AdvancedPermissionChecker",
+      "target": "file:com/liferay/portal/kernel/model/UserGroupGroupRole_3",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:com/liferay/portal/security/permission/AdvancedPermissionChecker",
+      "target": "file:com/liferay/portal/kernel/model/UserGroupRole_5",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:com/liferay/portal/security/permission/AdvancedPermissionChecker",
+      "target": "file:com/liferay/portal/kernel/security/permission/ActionKeys",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:com/liferay/portal/security/permission/AdvancedPermissionChecker",
+      "target": "file:com/liferay/portal/kernel/security/permission/contributor/RoleContributor",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:com/liferay/portal/security/permission/AdvancedPermissionChecker",
+      "target": "file:com/liferay/portal/kernel/security/permission/PermissionChecker_2",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:com/liferay/portal/security/permission/AdvancedPermissionChecker",
+      "target": "file:com/liferay/portal/kernel/security/permission/ResourceActionsUtil",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:com/liferay/portal/security/permission/AdvancedPermissionChecker",
+      "target": "file:com/liferay/portal/kernel/security/permission/UserBag",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:com/liferay/portal/security/permission/AdvancedPermissionChecker",
+      "target": "file:com/liferay/portal/kernel/service/GroupLocalServiceUtil_5",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:com/liferay/portal/security/permission/AdvancedPermissionChecker",
+      "target": "file:com/liferay/portal/kernel/service/LayoutLocalServiceUtil_4",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:com/liferay/portal/security/permission/AdvancedPermissionChecker",
+      "target": "file:com/liferay/portal/kernel/service/OrganizationLocalServiceUtil_2",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:com/liferay/portal/security/permission/AdvancedPermissionChecker",
+      "target": "file:com/liferay/portal/kernel/service/permission/LayoutSetPrototypePermissionUtil",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:com/liferay/portal/security/permission/AdvancedPermissionChecker",
+      "target": "file:com/liferay/portal/kernel/service/permission/PortletPermissionUtil_2",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:com/liferay/portal/security/permission/AdvancedPermissionChecker",
+      "target": "file:com/liferay/portal/kernel/service/ResourceLocalServiceUtil",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:com/liferay/portal/security/permission/AdvancedPermissionChecker",
+      "target": "file:com/liferay/portal/kernel/service/ResourcePermissionLocalServiceUtil",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:com/liferay/portal/security/permission/AdvancedPermissionChecker",
+      "target": "file:com/liferay/portal/kernel/service/RoleLocalServiceUtil_5",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:com/liferay/portal/security/permission/AdvancedPermissionChecker",
+      "target": "file:com/liferay/portal/kernel/service/TeamLocalServiceUtil_2",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:com/liferay/portal/security/permission/AdvancedPermissionChecker",
+      "target": "file:com/liferay/portal/kernel/service/UserGroupGroupRoleLocalServiceUtil_2",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:com/liferay/portal/security/permission/AdvancedPermissionChecker",
+      "target": "file:com/liferay/portal/kernel/service/UserGroupRoleLocalServiceUtil_3",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:com/liferay/portal/security/permission/AdvancedPermissionChecker",
+      "target": "file:com/liferay/portal/kernel/util/ArrayUtil_2",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:com/liferay/portal/security/permission/AdvancedPermissionChecker",
+      "target": "file:com/liferay/portal/kernel/util/GetterUtil_5",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:com/liferay/portal/security/permission/AdvancedPermissionChecker",
+      "target": "file:com/liferay/portal/kernel/util/ListUtil_3",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:com/liferay/portal/security/permission/AdvancedPermissionChecker",
+      "target": "file:com/liferay/portal/kernel/util/SetUtil_3",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:com/liferay/portal/security/permission/AdvancedPermissionChecker",
+      "target": "file:com/liferay/portal/kernel/util/Validator_12",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:com/liferay/portal/security/permission/AdvancedPermissionChecker",
+      "target": "function:com/liferay/portal/security/permission/AdvancedPermissionChecker:getGuestUserRoleIds",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:com/liferay/portal/security/permission/AdvancedPermissionChecker",
+      "target": "function:com/liferay/portal/security/permission/AdvancedPermissionChecker:getRoleIds",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:com/liferay/portal/security/permission/AdvancedPermissionChecker",
+      "target": "function:com/liferay/portal/security/permission/AdvancedPermissionChecker:hasOwnerPermission",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:com/liferay/portal/security/permission/AdvancedPermissionChecker",
+      "target": "function:com/liferay/portal/security/permission/AdvancedPermissionChecker:hasPermission",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:com/liferay/portal/security/permission/AdvancedPermissionChecker",
+      "target": "function:com/liferay/portal/security/permission/AdvancedPermissionChecker:isCompanyAdmin",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:com/liferay/portal/security/permission/AdvancedPermissionChecker",
+      "target": "function:com/liferay/portal/security/permission/AdvancedPermissionChecker:isCompanyAdmin",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:com/liferay/portal/security/permission/AdvancedPermissionChecker",
+      "target": "function:com/liferay/portal/security/permission/AdvancedPermissionChecker:isContentReviewer",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:com/liferay/portal/security/permission/AdvancedPermissionChecker",
+      "target": "function:com/liferay/portal/security/permission/AdvancedPermissionChecker:isGroupAdmin",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:com/liferay/portal/security/permission/AdvancedPermissionChecker",
+      "target": "function:com/liferay/portal/security/permission/AdvancedPermissionChecker:isGroupMember",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:com/liferay/portal/security/permission/AdvancedPermissionChecker",
+      "target": "function:com/liferay/portal/security/permission/AdvancedPermissionChecker:isGroupOwner",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:com/liferay/portal/security/permission/AdvancedPermissionChecker",
+      "target": "function:com/liferay/portal/security/permission/AdvancedPermissionChecker:isOrganizationAdmin",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:com/liferay/portal/security/permission/AdvancedPermissionChecker",
+      "target": "function:com/liferay/portal/security/permission/AdvancedPermissionChecker:isOrganizationOwner",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:com/liferay/portal/security/permission/AdvancedPermissionChecker",
+      "target": "class:com/liferay/portal/security/permission/AdvancedPermissionChecker:AdvancedPermissionChecker",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:com/liferay/portal/security/permission/AdvancedPermissionChecker:getRoleIds",
+      "target": "function:com/liferay/portal/security/permission/AdvancedPermissionChecker:_applyRoleContributors",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:com/liferay/portal/security/permission/AdvancedPermissionChecker:getRoleIds",
+      "target": "function:com/liferay/portal/security/permission/AdvancedPermissionChecker:doGetRoleIds",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:com/liferay/portal/security/permission/AdvancedPermissionChecker:hasPermission",
+      "target": "function:com/liferay/portal/security/permission/AdvancedPermissionChecker:getRoleIds",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:com/liferay/portal/security/permission/AdvancedPermissionChecker:hasPermission",
+      "target": "function:com/liferay/portal/security/permission/AdvancedPermissionChecker:_hasPermissionImpl",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:com/liferay/portal/security/permission/AdvancedPermissionChecker:isCompanyAdmin",
+      "target": "function:com/liferay/portal/security/permission/AdvancedPermissionChecker:isCompanyAdminImpl",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:com/liferay/portal/security/permission/AdvancedPermissionChecker:isCompanyAdmin",
+      "target": "function:com/liferay/portal/security/permission/AdvancedPermissionChecker:isCompanyAdminImpl",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:com/liferay/portal/security/permission/AdvancedPermissionChecker:isContentReviewer",
+      "target": "function:com/liferay/portal/security/permission/AdvancedPermissionChecker:isContentReviewerImpl",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:com/liferay/portal/security/permission/AdvancedPermissionChecker:isGroupAdmin",
+      "target": "function:com/liferay/portal/security/permission/AdvancedPermissionChecker:_isGroupAdminImpl",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:com/liferay/portal/security/permission/AdvancedPermissionChecker:isGroupMember",
+      "target": "function:com/liferay/portal/security/permission/AdvancedPermissionChecker:isGroupMemberImpl",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:com/liferay/portal/security/permission/AdvancedPermissionChecker:isGroupOwner",
+      "target": "function:com/liferay/portal/security/permission/AdvancedPermissionChecker:isGroupOwnerImpl",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:com/liferay/portal/security/permission/AdvancedPermissionChecker:doGetRoleIds",
+      "target": "function:com/liferay/portal/security/permission/AdvancedPermissionChecker:getGuestUserRoleIds",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:com/liferay/portal/security/permission/AdvancedPermissionChecker:doGetRoleIds",
+      "target": "function:com/liferay/portal/security/permission/AdvancedPermissionChecker:getGuestUserRoleIds",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:com/liferay/portal/security/permission/AdvancedPermissionChecker:isContentReviewerImpl",
+      "target": "function:com/liferay/portal/security/permission/AdvancedPermissionChecker:isCompanyAdmin",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:com/liferay/portal/security/permission/AdvancedPermissionChecker:isContentReviewerImpl",
+      "target": "function:com/liferay/portal/security/permission/AdvancedPermissionChecker:isGroupAdmin",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:com/liferay/portal/security/permission/AdvancedPermissionChecker:isContentReviewerImpl",
+      "target": "function:com/liferay/portal/security/permission/AdvancedPermissionChecker:isCompanyAdmin",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:com/liferay/portal/security/permission/AdvancedPermissionChecker:isContentReviewerImpl",
+      "target": "function:com/liferay/portal/security/permission/AdvancedPermissionChecker:isGroupAdmin",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:com/liferay/portal/security/permission/AdvancedPermissionChecker:isGroupAdminImpl",
+      "target": "function:com/liferay/portal/security/permission/AdvancedPermissionChecker:getRoleIds",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:com/liferay/portal/security/permission/AdvancedPermissionChecker:isGroupAdminImpl",
+      "target": "function:com/liferay/portal/security/permission/AdvancedPermissionChecker:isCompanyAdmin",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:com/liferay/portal/security/permission/AdvancedPermissionChecker:isGroupAdminImpl",
+      "target": "function:com/liferay/portal/security/permission/AdvancedPermissionChecker:getRoleIds",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:com/liferay/portal/security/permission/AdvancedPermissionChecker:isGroupMemberImpl",
+      "target": "function:com/liferay/portal/security/permission/AdvancedPermissionChecker:getRoleIds",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:com/liferay/portal/security/permission/AdvancedPermissionChecker:isGroupOwnerImpl",
+      "target": "function:com/liferay/portal/security/permission/AdvancedPermissionChecker:isCompanyAdmin",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:com/liferay/portal/security/permission/AdvancedPermissionChecker:isOrganizationAdminImpl",
+      "target": "function:com/liferay/portal/security/permission/AdvancedPermissionChecker:isCompanyAdmin",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:com/liferay/portal/security/permission/AdvancedPermissionChecker:isOrganizationOwnerImpl",
+      "target": "function:com/liferay/portal/security/permission/AdvancedPermissionChecker:isCompanyAdmin",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:com/liferay/portal/security/permission/AdvancedPermissionChecker:_hasGuestPermission",
+      "target": "function:com/liferay/portal/security/permission/AdvancedPermissionChecker:getGuestUserRoleIds",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:com/liferay/portal/security/permission/AdvancedPermissionChecker:_isGroupAdminImpl",
+      "target": "function:com/liferay/portal/security/permission/AdvancedPermissionChecker:isCompanyAdmin",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    }
+  ]
+}

@@ -1,0 +1,690 @@
+{
+  "projectRoot": "/opt/projects/liferay/portal/arena-7.4.3.129-ga129/portal",
+  "batchFiles": [
+    {
+      "path": "portal-impl/src/com/liferay/portal/model/impl/PortletFilterImpl.java",
+      "language": "java",
+      "sizeLines": 105,
+      "fileCategory": "code"
+    },
+    {
+      "path": "portal-impl/src/com/liferay/portal/model/impl/PortletURLListenerImpl.java",
+      "language": "java",
+      "sizeLines": 57,
+      "fileCategory": "code"
+    },
+    {
+      "path": "portal-impl/src/com/liferay/portal/model/impl/PublicRenderParameterImpl.java",
+      "language": "java",
+      "sizeLines": 58,
+      "fileCategory": "code"
+    },
+    {
+      "path": "portal-impl/src/com/liferay/portal/model/impl/RegionImpl.java",
+      "language": "java",
+      "sizeLines": 54,
+      "fileCategory": "code"
+    },
+    {
+      "path": "portal-impl/src/com/liferay/portal/model/impl/RepositoryImpl.java",
+      "language": "java",
+      "sizeLines": 62,
+      "fileCategory": "code"
+    },
+    {
+      "path": "portal-impl/src/com/liferay/portal/model/impl/RoleBaseImpl.java",
+      "language": "java",
+      "sizeLines": 39,
+      "fileCategory": "code"
+    },
+    {
+      "path": "portal-impl/src/com/liferay/portal/model/impl/SystemEventImpl.java",
+      "language": "java",
+      "sizeLines": 38,
+      "fileCategory": "code"
+    },
+    {
+      "path": "portal-impl/src/com/liferay/portal/model/impl/UserGroupBaseImpl.java",
+      "language": "java",
+      "sizeLines": 40,
+      "fileCategory": "code"
+    },
+    {
+      "path": "portal-impl/src/com/liferay/portal/model/impl/UserGroupCacheModel.java",
+      "language": "java",
+      "sizeLines": 267,
+      "fileCategory": "code"
+    },
+    {
+      "path": "portal-impl/src/com/liferay/portal/model/impl/UserGroupGroupRoleImpl.java",
+      "language": "java",
+      "sizeLines": 69,
+      "fileCategory": "code"
+    },
+    {
+      "path": "portal-impl/src/com/liferay/portal/model/impl/UserGroupRoleBaseImpl.java",
+      "language": "java",
+      "sizeLines": 40,
+      "fileCategory": "code"
+    },
+    {
+      "path": "portal-impl/src/com/liferay/portal/model/impl/UserGroupRoleImpl.java",
+      "language": "java",
+      "sizeLines": 108,
+      "fileCategory": "code"
+    },
+    {
+      "path": "portal-impl/src/com/liferay/portal/model/impl/UserImpl.java",
+      "language": "java",
+      "sizeLines": 1184,
+      "fileCategory": "code"
+    },
+    {
+      "path": "portal-impl/src/com/liferay/portal/model/impl/VirtualHostBaseImpl.java",
+      "language": "java",
+      "sizeLines": 40,
+      "fileCategory": "code"
+    },
+    {
+      "path": "portal-impl/src/com/liferay/portal/security/DefaultAdminUtil.java",
+      "language": "java",
+      "sizeLines": 31,
+      "fileCategory": "code"
+    },
+    {
+      "path": "portal-impl/src/com/liferay/portal/security/auth/AuthTokenWhitelistImpl.java",
+      "language": "java",
+      "sizeLines": 146,
+      "fileCategory": "code"
+    },
+    {
+      "path": "portal-impl/src/com/liferay/portal/security/auth/InterruptedPortletRequestWhitelistUtil.java",
+      "language": "java",
+      "sizeLines": 112,
+      "fileCategory": "code"
+    },
+    {
+      "path": "portal-impl/src/com/liferay/portal/security/auth/MVCPortletAuthTokenWhitelist.java",
+      "language": "java",
+      "sizeLines": 292,
+      "fileCategory": "code"
+    },
+    {
+      "path": "portal-impl/src/com/liferay/portal/security/auth/SessionAuthToken.java",
+      "language": "java",
+      "sizeLines": 322,
+      "fileCategory": "code"
+    },
+    {
+      "path": "portal-impl/src/com/liferay/portal/security/auth/StrutsPortletAuthTokenWhitelist.java",
+      "language": "java",
+      "sizeLines": 234,
+      "fileCategory": "code"
+    },
+    {
+      "path": "portal-impl/src/com/liferay/portal/security/auth/http/HttpAuthManagerUtil.java",
+      "language": "java",
+      "sizeLines": 381,
+      "fileCategory": "code"
+    },
+    {
+      "path": "portal-impl/src/com/liferay/portal/security/auth/session/AuthenticatedSessionManagerUtil.java",
+      "language": "java",
+      "sizeLines": 469,
+      "fileCategory": "code"
+    },
+    {
+      "path": "portal-impl/src/com/liferay/portal/security/auth/tunnel/TunnelAuthenticationManagerImpl.java",
+      "language": "java",
+      "sizeLines": 234,
+      "fileCategory": "code"
+    },
+    {
+      "path": "portal-impl/src/com/liferay/portal/security/jaas/JAASHelper.java",
+      "language": "java",
+      "sizeLines": 85,
+      "fileCategory": "code"
+    },
+    {
+      "path": "portal-impl/src/com/liferay/portal/security/membershippolicy/DefaultSiteMembershipPolicy.java",
+      "language": "java",
+      "sizeLines": 251,
+      "fileCategory": "code"
+    },
+    {
+      "path": "portal-impl/src/com/liferay/portal/security/membershippolicy/RoleMembershipPolicyUtil.java",
+      "language": "java",
+      "sizeLines": 84,
+      "fileCategory": "code"
+    },
+    {
+      "path": "portal-impl/src/com/liferay/portal/security/membershippolicy/SiteMembershipPolicyUtil.java",
+      "language": "java",
+      "sizeLines": 186,
+      "fileCategory": "code"
+    },
+    {
+      "path": "portal-impl/src/com/liferay/portal/security/membershippolicy/UserGroupMembershipPolicyUtil.java",
+      "language": "java",
+      "sizeLines": 91,
+      "fileCategory": "code"
+    },
+    {
+      "path": "portal-impl/src/com/liferay/portal/security/permission/AdvancedPermissionChecker.java",
+      "language": "java",
+      "sizeLines": 1421,
+      "fileCategory": "code"
+    },
+    {
+      "path": "portal-impl/src/com/liferay/portal/security/permission/BasePermissionChecker.java",
+      "language": "java",
+      "sizeLines": 160,
+      "fileCategory": "code"
+    },
+    {
+      "path": "portal-impl/src/com/liferay/portal/security/permission/PermissionCheckerFactoryImpl.java",
+      "language": "java",
+      "sizeLines": 73,
+      "fileCategory": "code"
+    },
+    {
+      "path": "portal-impl/src/com/liferay/portal/security/permission/PermissionCheckerUtil.java",
+      "language": "java",
+      "sizeLines": 61,
+      "fileCategory": "code"
+    },
+    {
+      "path": "portal-impl/src/com/liferay/portal/security/permission/ResourceActionsImpl.java",
+      "language": "java",
+      "sizeLines": 1430,
+      "fileCategory": "code"
+    },
+    {
+      "path": "portal-impl/src/com/liferay/portal/security/permission/SimplePermissionChecker.java",
+      "language": "java",
+      "sizeLines": 89,
+      "fileCategory": "code"
+    },
+    {
+      "path": "portal-impl/src/com/liferay/portal/security/permission/StagingPermissionChecker.java",
+      "language": "java",
+      "sizeLines": 229,
+      "fileCategory": "code"
+    }
+  ],
+  "batchImportData": {
+    "portal-impl/src/com/liferay/portal/model/impl/PortletFilterImpl.java": [
+      "portal-kernel/src/com/liferay/portal/kernel/model/PortletApp.java",
+      "portal-kernel/src/com/liferay/portal/kernel/model/PortletFilter.java"
+    ],
+    "portal-impl/src/com/liferay/portal/model/impl/PortletURLListenerImpl.java": [
+      "portal-kernel/src/com/liferay/portal/kernel/model/PortletApp.java",
+      "portal-kernel/src/com/liferay/portal/kernel/model/PortletURLListener.java"
+    ],
+    "portal-impl/src/com/liferay/portal/model/impl/PublicRenderParameterImpl.java": [
+      "portal-kernel/src/com/liferay/portal/kernel/model/PortletApp.java",
+      "portal-kernel/src/com/liferay/portal/kernel/model/PublicRenderParameter.java",
+      "portal-kernel/src/com/liferay/portal/kernel/xml/QName.java"
+    ],
+    "portal-impl/src/com/liferay/portal/model/impl/RegionImpl.java": [
+      "portal-kernel/src/com/liferay/portal/kernel/json/JSON.java",
+      "portal-kernel/src/com/liferay/portal/kernel/util/LocaleUtil.java",
+      "portal-kernel/src/com/liferay/portal/kernel/util/Validator.java"
+    ],
+    "portal-impl/src/com/liferay/portal/model/impl/RepositoryImpl.java": [
+      "portal-kernel/src/com/liferay/exportimport/kernel/lar/StagedModelType.java",
+      "portal-kernel/src/com/liferay/portal/kernel/model/Repository.java",
+      "portal-kernel/src/com/liferay/portal/kernel/util/UnicodeProperties.java",
+      "portal-kernel/src/com/liferay/portal/kernel/util/UnicodePropertiesBuilder.java"
+    ],
+    "portal-impl/src/com/liferay/portal/model/impl/RoleBaseImpl.java": [
+      "portal-kernel/src/com/liferay/portal/kernel/model/Role.java",
+      "portal-kernel/src/com/liferay/portal/kernel/service/RoleLocalServiceUtil.java"
+    ],
+    "portal-impl/src/com/liferay/portal/model/impl/SystemEventImpl.java": [
+      "portal-kernel/src/com/liferay/portal/kernel/util/PortalUtil.java",
+      "portal-kernel/src/com/liferay/portal/kernel/util/Validator.java"
+    ],
+    "portal-impl/src/com/liferay/portal/model/impl/UserGroupBaseImpl.java": [
+      "portal-kernel/src/com/liferay/portal/kernel/model/UserGroup.java",
+      "portal-kernel/src/com/liferay/portal/kernel/service/UserGroupLocalServiceUtil.java"
+    ],
+    "portal-impl/src/com/liferay/portal/model/impl/UserGroupCacheModel.java": [
+      "portal-kernel/src/com/liferay/portal/kernel/model/CacheModel.java",
+      "portal-kernel/src/com/liferay/portal/kernel/model/MVCCModel.java",
+      "portal-kernel/src/com/liferay/portal/kernel/model/UserGroup.java"
+    ],
+    "portal-impl/src/com/liferay/portal/model/impl/UserGroupGroupRoleImpl.java": [
+      "portal-kernel/src/com/liferay/portal/kernel/exception/PortalException.java",
+      "portal-kernel/src/com/liferay/portal/kernel/model/Group.java",
+      "portal-kernel/src/com/liferay/portal/kernel/model/Role.java",
+      "portal-kernel/src/com/liferay/portal/kernel/model/UserGroup.java",
+      "portal-kernel/src/com/liferay/portal/kernel/model/UserGroupGroupRole.java",
+      "portal-kernel/src/com/liferay/portal/kernel/service/GroupLocalServiceUtil.java",
+      "portal-kernel/src/com/liferay/portal/kernel/service/RoleLocalServiceUtil.java",
+      "portal-kernel/src/com/liferay/portal/kernel/service/UserGroupLocalServiceUtil.java"
+    ],
+    "portal-impl/src/com/liferay/portal/model/impl/UserGroupRoleBaseImpl.java": [
+      "portal-kernel/src/com/liferay/portal/kernel/model/UserGroupRole.java",
+      "portal-kernel/src/com/liferay/portal/kernel/service/UserGroupRoleLocalServiceUtil.java"
+    ],
+    "portal-impl/src/com/liferay/portal/model/impl/UserGroupRoleImpl.java": [
+      "portal-kernel/src/com/liferay/portal/kernel/exception/PortalException.java",
+      "portal-kernel/src/com/liferay/portal/kernel/log/Log.java",
+      "portal-kernel/src/com/liferay/portal/kernel/log/LogFactoryUtil.java",
+      "portal-kernel/src/com/liferay/portal/kernel/model/Group.java",
+      "portal-kernel/src/com/liferay/portal/kernel/model/Role.java",
+      "portal-kernel/src/com/liferay/portal/kernel/model/role/RoleConstants.java",
+      "portal-kernel/src/com/liferay/portal/kernel/model/User.java",
+      "portal-kernel/src/com/liferay/portal/kernel/model/UserGroupRole.java",
+      "portal-kernel/src/com/liferay/portal/kernel/service/GroupLocalServiceUtil.java",
+      "portal-kernel/src/com/liferay/portal/kernel/service/RoleLocalServiceUtil.java",
+      "portal-kernel/src/com/liferay/portal/kernel/service/UserLocalServiceUtil.java"
+    ],
+    "portal-impl/src/com/liferay/portal/model/impl/UserImpl.java": [
+      "portal-impl/src/com/liferay/portal/security/auth/EmailAddressGeneratorFactory.java",
+      "portal-impl/src/com/liferay/portal/util/PropsValues.java",
+      "portal-kernel/src/com/liferay/portal/kernel/bean/AutoEscape.java",
+      "portal-kernel/src/com/liferay/portal/kernel/dao/orm/QueryUtil.java",
+      "portal-kernel/src/com/liferay/portal/kernel/exception/PortalException.java",
+      "portal-kernel/src/com/liferay/portal/kernel/log/Log.java",
+      "portal-kernel/src/com/liferay/portal/kernel/log/LogFactoryUtil.java",
+      "portal-kernel/src/com/liferay/portal/kernel/model/Address.java",
+      "portal-kernel/src/com/liferay/portal/kernel/model/cache/CacheField.java",
+      "portal-kernel/src/com/liferay/portal/kernel/model/Company.java",
+      "portal-kernel/src/com/liferay/portal/kernel/model/CompanyConstants.java",
+      "portal-kernel/src/com/liferay/portal/kernel/model/Contact.java",
+      "portal-kernel/src/com/liferay/portal/kernel/model/EmailAddress.java",
+      "portal-kernel/src/com/liferay/portal/kernel/model/Group.java",
+      "portal-kernel/src/com/liferay/portal/kernel/model/Organization.java",
+      "portal-kernel/src/com/liferay/portal/kernel/model/PasswordPolicy.java",
+      "portal-kernel/src/com/liferay/portal/kernel/model/Phone.java",
+      "portal-kernel/src/com/liferay/portal/kernel/model/Role.java",
+      "portal-kernel/src/com/liferay/portal/kernel/model/Team.java",
+      "portal-kernel/src/com/liferay/portal/kernel/model/UserConstants.java",
+      "portal-kernel/src/com/liferay/portal/kernel/model/UserGroup.java",
+      "portal-kernel/src/com/liferay/portal/kernel/model/UserGroupGroupRole.java",
+      "portal-kernel/src/com/liferay/portal/kernel/model/UserGroupRole.java",
+      "portal-kernel/src/com/liferay/portal/kernel/model/Website.java",
+      "portal-kernel/src/com/liferay/portal/kernel/security/auth/EmailAddressGenerator.java",
+      "portal-kernel/src/com/liferay/portal/kernel/security/auth/FullNameGenerator.java",
+      "portal-kernel/src/com/liferay/portal/kernel/security/auth/FullNameGeneratorFactory.java",
+      "portal-kernel/src/com/liferay/portal/kernel/security/auth/PrincipalThreadLocal.java",
+      "portal-kernel/src/com/liferay/portal/kernel/service/AddressLocalServiceUtil.java",
+      "portal-kernel/src/com/liferay/portal/kernel/service/CompanyLocalServiceUtil.java",
+      "portal-kernel/src/com/liferay/portal/kernel/service/ContactLocalServiceUtil.java",
+      "portal-kernel/src/com/liferay/portal/kernel/service/EmailAddressLocalServiceUtil.java",
+      "portal-kernel/src/com/liferay/portal/kernel/service/GroupLocalServiceUtil.java",
+      "portal-kernel/src/com/liferay/portal/kernel/service/GroupServiceUtil.java",
+      "portal-kernel/src/com/liferay/portal/kernel/service/LayoutLocalServiceUtil.java",
+      "portal-kernel/src/com/liferay/portal/kernel/service/OrganizationLocalServiceUtil.java",
+      "portal-kernel/src/com/liferay/portal/kernel/service/PasswordPolicyLocalServiceUtil.java",
+      "portal-kernel/src/com/liferay/portal/kernel/service/PhoneLocalServiceUtil.java",
+      "portal-kernel/src/com/liferay/portal/kernel/service/RoleLocalServiceUtil.java",
+      "portal-kernel/src/com/liferay/portal/kernel/service/TeamLocalServiceUtil.java",
+      "portal-kernel/src/com/liferay/portal/kernel/service/UserGroupGroupRoleLocalServiceUtil.java",
+      "portal-kernel/src/com/liferay/portal/kernel/service/UserGroupLocalServiceUtil.java",
+      "portal-kernel/src/com/liferay/portal/kernel/service/UserGroupRoleLocalServiceUtil.java",
+      "portal-kernel/src/com/liferay/portal/kernel/service/UserLocalServiceUtil.java",
+      "portal-kernel/src/com/liferay/portal/kernel/service/WebsiteLocalServiceUtil.java",
+      "portal-kernel/src/com/liferay/portal/kernel/theme/ThemeDisplay.java",
+      "portal-kernel/src/com/liferay/portal/kernel/util/Digester.java",
+      "portal-kernel/src/com/liferay/portal/kernel/util/DigesterUtil.java",
+      "portal-kernel/src/com/liferay/portal/kernel/util/FriendlyURLNormalizerUtil.java",
+      "portal-kernel/src/com/liferay/portal/kernel/util/HtmlUtil.java",
+      "portal-kernel/src/com/liferay/portal/kernel/util/ListUtil.java",
+      "portal-kernel/src/com/liferay/portal/kernel/util/LocaleUtil.java",
+      "portal-kernel/src/com/liferay/portal/kernel/util/Portal.java",
+      "portal-kernel/src/com/liferay/portal/kernel/util/PortalUtil.java",
+      "portal-kernel/src/com/liferay/portal/kernel/util/PrefsPropsUtil.java",
+      "portal-kernel/src/com/liferay/portal/kernel/util/PropsKeys.java",
+      "portal-kernel/src/com/liferay/portal/kernel/util/SetUtil.java",
+      "portal-kernel/src/com/liferay/portal/kernel/util/StringUtil.java",
+      "portal-kernel/src/com/liferay/portal/kernel/util/TimeZoneUtil.java",
+      "portal-kernel/src/com/liferay/portal/kernel/util/Validator.java",
+      "portal-kernel/src/com/liferay/portal/kernel/workflow/WorkflowConstants.java",
+      "portal-kernel/src/com/liferay/users/admin/kernel/util/UserInitialsGeneratorUtil.java"
+    ],
+    "portal-impl/src/com/liferay/portal/model/impl/VirtualHostBaseImpl.java": [
+      "portal-kernel/src/com/liferay/portal/kernel/model/VirtualHost.java",
+      "portal-kernel/src/com/liferay/portal/kernel/service/VirtualHostLocalServiceUtil.java"
+    ],
+    "portal-impl/src/com/liferay/portal/security/DefaultAdminUtil.java": [
+      "portal-impl/src/com/liferay/portal/util/PropsValues.java",
+      "portal-kernel/src/com/liferay/portal/kernel/model/Company.java",
+      "portal-kernel/src/com/liferay/portal/kernel/model/User.java",
+      "portal-kernel/src/com/liferay/portal/kernel/service/CompanyLocalServiceUtil.java",
+      "portal-kernel/src/com/liferay/portal/kernel/service/UserLocalServiceUtil.java"
+    ],
+    "portal-impl/src/com/liferay/portal/security/auth/AuthTokenWhitelistImpl.java": [
+      "portal-impl/src/com/liferay/portal/util/PropsValues.java",
+      "portal-kernel/src/com/liferay/portal/kernel/model/Portlet.java",
+      "portal-kernel/src/com/liferay/portal/kernel/portlet/LiferayPortletURL.java",
+      "portal-kernel/src/com/liferay/portal/kernel/portlet/PortletIdCodec.java",
+      "portal-kernel/src/com/liferay/portal/kernel/security/auth/BaseAuthTokenWhitelist.java",
+      "portal-kernel/src/com/liferay/portal/kernel/util/DigesterUtil.java",
+      "portal-kernel/src/com/liferay/portal/kernel/util/PropsKeys.java",
+      "portal-kernel/src/com/liferay/portal/kernel/util/Validator.java"
+    ],
+    "portal-impl/src/com/liferay/portal/security/auth/InterruptedPortletRequestWhitelistUtil.java": [
+      "portal-impl/src/com/liferay/portal/util/PropsValues.java",
+      "portal-kernel/src/com/liferay/portal/kernel/log/Log.java",
+      "portal-kernel/src/com/liferay/portal/kernel/log/LogFactoryUtil.java",
+      "portal-kernel/src/com/liferay/portal/kernel/model/Portlet.java",
+      "portal-kernel/src/com/liferay/portal/kernel/service/PortletLocalServiceUtil.java",
+      "portal-kernel/src/com/liferay/portal/kernel/util/SetUtil.java",
+      "portal-kernel/src/com/liferay/portal/kernel/util/Validator.java"
+    ],
+    "portal-impl/src/com/liferay/portal/security/auth/MVCPortletAuthTokenWhitelist.java": [
+      "portal-kernel/src/com/liferay/portal/kernel/model/Portlet.java",
+      "portal-kernel/src/com/liferay/portal/kernel/module/util/SystemBundleUtil.java",
+      "portal-kernel/src/com/liferay/portal/kernel/portlet/bridges/mvc/MVCActionCommand.java",
+      "portal-kernel/src/com/liferay/portal/kernel/portlet/bridges/mvc/MVCRenderCommand.java",
+      "portal-kernel/src/com/liferay/portal/kernel/portlet/bridges/mvc/MVCResourceCommand.java",
+      "portal-kernel/src/com/liferay/portal/kernel/portlet/LiferayPortletURL.java",
+      "portal-kernel/src/com/liferay/portal/kernel/portlet/PortletIdCodec.java",
+      "portal-kernel/src/com/liferay/portal/kernel/security/auth/BaseAuthTokenWhitelist.java",
+      "portal-kernel/src/com/liferay/portal/kernel/theme/ThemeDisplay.java",
+      "portal-kernel/src/com/liferay/portal/kernel/util/ArrayUtil.java",
+      "portal-kernel/src/com/liferay/portal/kernel/util/PortalUtil.java",
+      "portal-kernel/src/com/liferay/portal/kernel/util/StringUtil.java",
+      "portal-kernel/src/com/liferay/portal/kernel/util/Validator.java",
+      "portal-kernel/src/com/liferay/portal/kernel/util/WebKeys.java"
+    ],
+    "portal-impl/src/com/liferay/portal/security/auth/SessionAuthToken.java": [
+      "portal-impl/src/com/liferay/portal/util/PropsValues.java",
+      "portal-impl/src/com/liferay/portlet/SecurityPortletContainerWrapper.java",
+      "portal-kernel/src/com/liferay/exportimport/kernel/staging/MergeLayoutPrototypesThreadLocal.java",
+      "portal-kernel/src/com/liferay/portal/kernel/log/Log.java",
+      "portal-kernel/src/com/liferay/portal/kernel/log/LogFactoryUtil.java",
+      "portal-kernel/src/com/liferay/portal/kernel/model/Layout.java",
+      "portal-kernel/src/com/liferay/portal/kernel/model/LayoutTypePortlet.java",
+      "portal-kernel/src/com/liferay/portal/kernel/model/Portlet.java",
+      "portal-kernel/src/com/liferay/portal/kernel/portlet/LiferayPortletURL.java",
+      "portal-kernel/src/com/liferay/portal/kernel/security/auth/AuthToken.java",
+      "portal-kernel/src/com/liferay/portal/kernel/security/auth/AuthTokenWhitelistUtil.java",
+      "portal-kernel/src/com/liferay/portal/kernel/security/auth/PrincipalException.java",
+      "portal-kernel/src/com/liferay/portal/kernel/service/LayoutLocalServiceUtil.java",
+      "portal-kernel/src/com/liferay/portal/kernel/service/permission/PortletPermissionUtil.java",
+      "portal-kernel/src/com/liferay/portal/kernel/service/PortletLocalServiceUtil.java",
+      "portal-kernel/src/com/liferay/portal/kernel/util/GetterUtil.java",
+      "portal-kernel/src/com/liferay/portal/kernel/util/ParamUtil.java",
+      "portal-kernel/src/com/liferay/portal/kernel/util/PortalUtil.java",
+      "portal-kernel/src/com/liferay/portal/kernel/util/PwdGenerator.java",
+      "portal-kernel/src/com/liferay/portal/kernel/util/Validator.java",
+      "portal-kernel/src/com/liferay/portal/kernel/util/WebKeys.java"
+    ],
+    "portal-impl/src/com/liferay/portal/security/auth/StrutsPortletAuthTokenWhitelist.java": [
+      "portal-kernel/src/com/liferay/portal/kernel/log/Log.java",
+      "portal-kernel/src/com/liferay/portal/kernel/log/LogFactoryUtil.java",
+      "portal-kernel/src/com/liferay/portal/kernel/model/Layout.java",
+      "portal-kernel/src/com/liferay/portal/kernel/model/Portlet.java",
+      "portal-kernel/src/com/liferay/portal/kernel/portlet/LiferayPortletURL.java",
+      "portal-kernel/src/com/liferay/portal/kernel/portlet/PortletIdCodec.java",
+      "portal-kernel/src/com/liferay/portal/kernel/security/auth/BaseAuthTokenWhitelist.java",
+      "portal-kernel/src/com/liferay/portal/kernel/service/LayoutLocalServiceUtil.java",
+      "portal-kernel/src/com/liferay/portal/kernel/service/PortletLocalServiceUtil.java",
+      "portal-kernel/src/com/liferay/portal/kernel/util/PortalUtil.java",
+      "portal-kernel/src/com/liferay/portal/kernel/util/PropsKeys.java",
+      "portal-kernel/src/com/liferay/portal/kernel/util/Validator.java"
+    ],
+    "portal-impl/src/com/liferay/portal/security/auth/http/HttpAuthManagerUtil.java": [
+      "portal-impl/src/com/liferay/portal/security/auth/session/AuthenticatedSessionManagerUtil.java",
+      "portal-impl/src/com/liferay/portal/servlet/filters/secure/NonceUtil.java",
+      "portal-impl/src/com/liferay/portal/util/PortalInstances.java",
+      "portal-kernel/src/com/liferay/portal/kernel/exception/PortalException.java",
+      "portal-kernel/src/com/liferay/portal/kernel/log/Log.java",
+      "portal-kernel/src/com/liferay/portal/kernel/log/LogFactoryUtil.java",
+      "portal-kernel/src/com/liferay/portal/kernel/security/auth/AuthException.java",
+      "portal-kernel/src/com/liferay/portal/kernel/security/auth/http/HttpAuthorizationHeader.java",
+      "portal-kernel/src/com/liferay/portal/kernel/service/UserLocalServiceUtil.java",
+      "portal-kernel/src/com/liferay/portal/kernel/servlet/HttpHeaders.java",
+      "portal-kernel/src/com/liferay/portal/kernel/util/Base64.java",
+      "portal-kernel/src/com/liferay/portal/kernel/util/HttpComponentsUtil.java",
+      "portal-kernel/src/com/liferay/portal/kernel/util/Portal.java",
+      "portal-kernel/src/com/liferay/portal/kernel/util/StringUtil.java",
+      "portal-kernel/src/com/liferay/portal/kernel/util/UnicodeProperties.java",
+      "portal-kernel/src/com/liferay/portal/kernel/util/UnicodePropertiesBuilder.java",
+      "portal-kernel/src/com/liferay/portal/kernel/util/Validator.java"
+    ],
+    "portal-impl/src/com/liferay/portal/security/auth/session/AuthenticatedSessionManagerUtil.java": [
+      "portal-impl/src/com/liferay/portal/events/EventsProcessorUtil.java",
+      "portal-impl/src/com/liferay/portal/liveusers/LiveUsers.java",
+      "portal-impl/src/com/liferay/portal/util/PropsValues.java",
+      "portal-kernel/src/com/liferay/portal/kernel/cluster/ClusterExecutorUtil.java",
+      "portal-kernel/src/com/liferay/portal/kernel/cluster/ClusterNode.java",
+      "portal-kernel/src/com/liferay/portal/kernel/cookies/constants/CookiesConstants.java",
+      "portal-kernel/src/com/liferay/portal/kernel/cookies/CookiesManagerUtil.java",
+      "portal-kernel/src/com/liferay/portal/kernel/encryptor/EncryptorUtil.java",
+      "portal-kernel/src/com/liferay/portal/kernel/exception/PortalException.java",
+      "portal-kernel/src/com/liferay/portal/kernel/json/JSONFactoryUtil.java",
+      "portal-kernel/src/com/liferay/portal/kernel/json/JSONObject.java",
+      "portal-kernel/src/com/liferay/portal/kernel/log/Log.java",
+      "portal-kernel/src/com/liferay/portal/kernel/log/LogFactoryUtil.java",
+      "portal-kernel/src/com/liferay/portal/kernel/messaging/DestinationNames.java",
+      "portal-kernel/src/com/liferay/portal/kernel/messaging/MessageBusUtil.java",
+      "portal-kernel/src/com/liferay/portal/kernel/model/Company.java",
+      "portal-kernel/src/com/liferay/portal/kernel/model/CompanyConstants.java",
+      "portal-kernel/src/com/liferay/portal/kernel/model/RememberMeToken.java",
+      "portal-kernel/src/com/liferay/portal/kernel/model/User.java",
+      "portal-kernel/src/com/liferay/portal/kernel/model/UserTracker.java",
+      "portal-kernel/src/com/liferay/portal/kernel/security/auth/Authenticator.java",
+      "portal-kernel/src/com/liferay/portal/kernel/security/auth/AuthException.java",
+      "portal-kernel/src/com/liferay/portal/kernel/service/CompanyLocalServiceUtil.java",
+      "portal-kernel/src/com/liferay/portal/kernel/service/RememberMeTokenLocalServiceUtil.java",
+      "portal-kernel/src/com/liferay/portal/kernel/service/UserLocalServiceUtil.java",
+      "portal-kernel/src/com/liferay/portal/kernel/servlet/HttpHeaders.java",
+      "portal-kernel/src/com/liferay/portal/kernel/util/GetterUtil.java",
+      "portal-kernel/src/com/liferay/portal/kernel/util/HttpComponentsUtil.java",
+      "portal-kernel/src/com/liferay/portal/kernel/util/PortalUtil.java",
+      "portal-kernel/src/com/liferay/portal/kernel/util/PropsKeys.java",
+      "portal-kernel/src/com/liferay/portal/kernel/util/Validator.java",
+      "portal-kernel/src/com/liferay/portal/kernel/util/WebKeys.java"
+    ],
+    "portal-impl/src/com/liferay/portal/security/auth/tunnel/TunnelAuthenticationManagerImpl.java": [
+      "portal-impl/src/com/liferay/portal/security/auth/http/HttpAuthManagerUtil.java",
+      "portal-impl/src/com/liferay/portal/util/PortalInstances.java",
+      "portal-impl/src/com/liferay/portal/util/PropsValues.java",
+      "portal-kernel/src/com/liferay/portal/kernel/encryptor/EncryptorException.java",
+      "portal-kernel/src/com/liferay/portal/kernel/encryptor/EncryptorUtil.java",
+      "portal-kernel/src/com/liferay/portal/kernel/log/Log.java",
+      "portal-kernel/src/com/liferay/portal/kernel/log/LogFactoryUtil.java",
+      "portal-kernel/src/com/liferay/portal/kernel/model/User.java",
+      "portal-kernel/src/com/liferay/portal/kernel/security/auth/AuthException.java",
+      "portal-kernel/src/com/liferay/portal/kernel/security/auth/http/HttpAuthorizationHeader.java",
+      "portal-kernel/src/com/liferay/portal/kernel/security/auth/RemoteAuthException.java",
+      "portal-kernel/src/com/liferay/portal/kernel/security/auth/tunnel/TunnelAuthenticationManager.java",
+      "portal-kernel/src/com/liferay/portal/kernel/service/UserLocalServiceUtil.java",
+      "portal-kernel/src/com/liferay/portal/kernel/servlet/HttpHeaders.java",
+      "portal-kernel/src/com/liferay/portal/kernel/util/GetterUtil.java",
+      "portal-kernel/src/com/liferay/portal/kernel/util/PropsKeys.java",
+      "portal-kernel/src/com/liferay/portal/kernel/util/StringUtil.java",
+      "portal-kernel/src/com/liferay/portal/kernel/util/Validator.java"
+    ],
+    "portal-impl/src/com/liferay/portal/security/jaas/JAASHelper.java": [
+      "portal-impl/src/com/liferay/portal/util/PropsValues.java",
+      "portal-kernel/src/com/liferay/portal/kernel/exception/PortalException.java",
+      "portal-kernel/src/com/liferay/portal/kernel/model/Company.java",
+      "portal-kernel/src/com/liferay/portal/kernel/model/CompanyConstants.java",
+      "portal-kernel/src/com/liferay/portal/kernel/model/User.java",
+      "portal-kernel/src/com/liferay/portal/kernel/service/CompanyLocalServiceUtil.java",
+      "portal-kernel/src/com/liferay/portal/kernel/service/UserLocalServiceUtil.java",
+      "portal-kernel/src/com/liferay/portal/kernel/util/GetterUtil.java"
+    ],
+    "portal-impl/src/com/liferay/portal/security/membershippolicy/DefaultSiteMembershipPolicy.java": [
+      "portal-impl/src/com/liferay/portal/util/PropsValues.java",
+      "portal-kernel/src/com/liferay/asset/kernel/model/AssetCategory.java",
+      "portal-kernel/src/com/liferay/asset/kernel/model/AssetTag.java",
+      "portal-kernel/src/com/liferay/portal/kernel/dao/orm/QueryUtil.java",
+      "portal-kernel/src/com/liferay/portal/kernel/exception/PortalException.java",
+      "portal-kernel/src/com/liferay/portal/kernel/interval/IntervalActionProcessor.java",
+      "portal-kernel/src/com/liferay/portal/kernel/log/Log.java",
+      "portal-kernel/src/com/liferay/portal/kernel/log/LogFactoryUtil.java",
+      "portal-kernel/src/com/liferay/portal/kernel/model/Group.java",
+      "portal-kernel/src/com/liferay/portal/kernel/model/GroupConstants.java",
+      "portal-kernel/src/com/liferay/portal/kernel/model/User.java",
+      "portal-kernel/src/com/liferay/portal/kernel/security/membershippolicy/BaseSiteMembershipPolicy.java",
+      "portal-kernel/src/com/liferay/portal/kernel/security/membershippolicy/MembershipPolicyException.java",
+      "portal-kernel/src/com/liferay/portal/kernel/service/GroupLocalServiceUtil.java",
+      "portal-kernel/src/com/liferay/portal/kernel/service/UserLocalServiceUtil.java",
+      "portal-kernel/src/com/liferay/portal/kernel/util/LinkedHashMapBuilder.java",
+      "portal-kernel/src/com/liferay/portal/kernel/util/ListUtil.java",
+      "portal-kernel/src/com/liferay/portal/kernel/util/UnicodeProperties.java"
+    ],
+    "portal-impl/src/com/liferay/portal/security/membershippolicy/RoleMembershipPolicyUtil.java": [
+      "portal-kernel/src/com/liferay/portal/kernel/exception/PortalException.java",
+      "portal-kernel/src/com/liferay/portal/kernel/model/Role.java",
+      "portal-kernel/src/com/liferay/portal/kernel/security/membershippolicy/RoleMembershipPolicy.java"
+    ],
+    "portal-impl/src/com/liferay/portal/security/membershippolicy/SiteMembershipPolicyUtil.java": [
+      "portal-kernel/src/com/liferay/asset/kernel/model/AssetCategory.java",
+      "portal-kernel/src/com/liferay/asset/kernel/model/AssetTag.java",
+      "portal-kernel/src/com/liferay/portal/kernel/exception/PortalException.java",
+      "portal-kernel/src/com/liferay/portal/kernel/model/Group.java",
+      "portal-kernel/src/com/liferay/portal/kernel/model/Role.java",
+      "portal-kernel/src/com/liferay/portal/kernel/model/UserGroupRole.java",
+      "portal-kernel/src/com/liferay/portal/kernel/module/service/Snapshot.java",
+      "portal-kernel/src/com/liferay/portal/kernel/security/membershippolicy/SiteMembershipPolicy.java",
+      "portal-kernel/src/com/liferay/portal/kernel/security/permission/PermissionChecker.java",
+      "portal-kernel/src/com/liferay/portal/kernel/util/UnicodeProperties.java"
+    ],
+    "portal-impl/src/com/liferay/portal/security/membershippolicy/UserGroupMembershipPolicyUtil.java": [
+      "portal-kernel/src/com/liferay/portal/kernel/exception/PortalException.java",
+      "portal-kernel/src/com/liferay/portal/kernel/model/UserGroup.java",
+      "portal-kernel/src/com/liferay/portal/kernel/security/membershippolicy/UserGroupMembershipPolicy.java"
+    ],
+    "portal-impl/src/com/liferay/portal/security/permission/AdvancedPermissionChecker.java": [
+      "portal-impl/src/com/liferay/portal/internal/security/permission/contributor/RoleCollectionImpl.java",
+      "portal-impl/src/com/liferay/portal/model/impl/ResourceImpl.java",
+      "portal-impl/src/com/liferay/portal/service/permission/LayoutPrototypePermissionUtil.java",
+      "portal-kernel/src/com/liferay/portal/kernel/exception/NoSuchResourcePermissionException.java",
+      "portal-kernel/src/com/liferay/portal/kernel/exception/PortalException.java",
+      "portal-kernel/src/com/liferay/portal/kernel/log/Log.java",
+      "portal-kernel/src/com/liferay/portal/kernel/log/LogFactoryUtil.java",
+      "portal-kernel/src/com/liferay/portal/kernel/model/Company.java",
+      "portal-kernel/src/com/liferay/portal/kernel/model/Group.java",
+      "portal-kernel/src/com/liferay/portal/kernel/model/GroupConstants.java",
+      "portal-kernel/src/com/liferay/portal/kernel/model/Layout.java",
+      "portal-kernel/src/com/liferay/portal/kernel/model/Organization.java",
+      "portal-kernel/src/com/liferay/portal/kernel/model/OrganizationConstants.java",
+      "portal-kernel/src/com/liferay/portal/kernel/model/PortletConstants.java",
+      "portal-kernel/src/com/liferay/portal/kernel/model/Resource.java",
+      "portal-kernel/src/com/liferay/portal/kernel/model/ResourceConstants.java",
+      "portal-kernel/src/com/liferay/portal/kernel/model/Role.java",
+      "portal-kernel/src/com/liferay/portal/kernel/model/role/RoleConstants.java",
+      "portal-kernel/src/com/liferay/portal/kernel/model/User.java",
+      "portal-kernel/src/com/liferay/portal/kernel/model/UserGroupGroupRole.java",
+      "portal-kernel/src/com/liferay/portal/kernel/model/UserGroupRole.java",
+      "portal-kernel/src/com/liferay/portal/kernel/security/permission/ActionKeys.java",
+      "portal-kernel/src/com/liferay/portal/kernel/security/permission/contributor/RoleContributor.java",
+      "portal-kernel/src/com/liferay/portal/kernel/security/permission/PermissionChecker.java",
+      "portal-kernel/src/com/liferay/portal/kernel/security/permission/ResourceActionsUtil.java",
+      "portal-kernel/src/com/liferay/portal/kernel/security/permission/UserBag.java",
+      "portal-kernel/src/com/liferay/portal/kernel/service/GroupLocalServiceUtil.java",
+      "portal-kernel/src/com/liferay/portal/kernel/service/LayoutLocalServiceUtil.java",
+      "portal-kernel/src/com/liferay/portal/kernel/service/OrganizationLocalServiceUtil.java",
+      "portal-kernel/src/com/liferay/portal/kernel/service/permission/LayoutSetPrototypePermissionUtil.java",
+      "portal-kernel/src/com/liferay/portal/kernel/service/permission/PortletPermissionUtil.java",
+      "portal-kernel/src/com/liferay/portal/kernel/service/ResourceLocalServiceUtil.java",
+      "portal-kernel/src/com/liferay/portal/kernel/service/ResourcePermissionLocalServiceUtil.java",
+      "portal-kernel/src/com/liferay/portal/kernel/service/RoleLocalServiceUtil.java",
+      "portal-kernel/src/com/liferay/portal/kernel/service/TeamLocalServiceUtil.java",
+      "portal-kernel/src/com/liferay/portal/kernel/service/UserGroupGroupRoleLocalServiceUtil.java",
+      "portal-kernel/src/com/liferay/portal/kernel/service/UserGroupRoleLocalServiceUtil.java",
+      "portal-kernel/src/com/liferay/portal/kernel/util/ArrayUtil.java",
+      "portal-kernel/src/com/liferay/portal/kernel/util/GetterUtil.java",
+      "portal-kernel/src/com/liferay/portal/kernel/util/ListUtil.java",
+      "portal-kernel/src/com/liferay/portal/kernel/util/SetUtil.java",
+      "portal-kernel/src/com/liferay/portal/kernel/util/Validator.java"
+    ],
+    "portal-impl/src/com/liferay/portal/security/permission/BasePermissionChecker.java": [
+      "portal-impl/src/com/liferay/portal/util/PropsValues.java",
+      "portal-impl/src/com/liferay/portlet/admin/util/OmniadminUtil.java",
+      "portal-kernel/src/com/liferay/portal/kernel/log/Log.java",
+      "portal-kernel/src/com/liferay/portal/kernel/log/LogFactoryUtil.java",
+      "portal-kernel/src/com/liferay/portal/kernel/model/Group.java",
+      "portal-kernel/src/com/liferay/portal/kernel/model/Role.java",
+      "portal-kernel/src/com/liferay/portal/kernel/model/role/RoleConstants.java",
+      "portal-kernel/src/com/liferay/portal/kernel/model/User.java",
+      "portal-kernel/src/com/liferay/portal/kernel/security/permission/PermissionChecker.java",
+      "portal-kernel/src/com/liferay/portal/kernel/service/GroupLocalServiceUtil.java",
+      "portal-kernel/src/com/liferay/portal/kernel/service/RoleLocalServiceUtil.java",
+      "portal-kernel/src/com/liferay/portal/kernel/service/UserLocalServiceUtil.java"
+    ],
+    "portal-impl/src/com/liferay/portal/security/permission/PermissionCheckerFactoryImpl.java": [
+      "portal-impl/src/com/liferay/portal/util/PropsValues.java",
+      "portal-kernel/src/com/liferay/portal/kernel/model/User.java",
+      "portal-kernel/src/com/liferay/portal/kernel/module/util/SystemBundleUtil.java",
+      "portal-kernel/src/com/liferay/portal/kernel/security/permission/contributor/RoleContributor.java",
+      "portal-kernel/src/com/liferay/portal/kernel/security/permission/PermissionChecker.java",
+      "portal-kernel/src/com/liferay/portal/kernel/security/permission/PermissionCheckerFactory.java",
+      "portal-kernel/src/com/liferay/portal/kernel/security/permission/wrapper/PermissionCheckerWrapperFactory.java"
+    ],
+    "portal-impl/src/com/liferay/portal/security/permission/PermissionCheckerUtil.java": [
+      "portal-impl/src/com/liferay/portal/util/PropsValues.java",
+      "portal-kernel/src/com/liferay/portal/kernel/log/Log.java",
+      "portal-kernel/src/com/liferay/portal/kernel/log/LogFactoryUtil.java",
+      "portal-kernel/src/com/liferay/portal/kernel/model/User.java",
+      "portal-kernel/src/com/liferay/portal/kernel/module/util/SystemBundleUtil.java",
+      "portal-kernel/src/com/liferay/portal/kernel/security/auth/PrincipalThreadLocal.java",
+      "portal-kernel/src/com/liferay/portal/kernel/security/permission/contributor/RoleContributor.java",
+      "portal-kernel/src/com/liferay/portal/kernel/security/permission/PermissionChecker.java",
+      "portal-kernel/src/com/liferay/portal/kernel/security/permission/PermissionThreadLocal.java"
+    ],
+    "portal-impl/src/com/liferay/portal/security/permission/ResourceActionsImpl.java": [
+      "portal-impl/src/com/liferay/portal/db/partition/util/DBPartitionUtil.java",
+      "portal-impl/src/com/liferay/portal/util/PropsValues.java",
+      "portal-kernel/src/com/liferay/portal/kernel/bean/BeanReference.java",
+      "portal-kernel/src/com/liferay/portal/kernel/exception/ResourceActionsException.java",
+      "portal-kernel/src/com/liferay/portal/kernel/language/LanguageUtil.java",
+      "portal-kernel/src/com/liferay/portal/kernel/log/Log.java",
+      "portal-kernel/src/com/liferay/portal/kernel/log/LogFactoryUtil.java",
+      "portal-kernel/src/com/liferay/portal/kernel/model/Group.java",
+      "portal-kernel/src/com/liferay/portal/kernel/model/Organization.java",
+      "portal-kernel/src/com/liferay/portal/kernel/model/Portlet.java",
+      "portal-kernel/src/com/liferay/portal/kernel/model/ResourceAction.java",
+      "portal-kernel/src/com/liferay/portal/kernel/model/Role.java",
+      "portal-kernel/src/com/liferay/portal/kernel/model/role/RoleConstants.java",
+      "portal-kernel/src/com/liferay/portal/kernel/model/User.java",
+      "portal-kernel/src/com/liferay/portal/kernel/module/util/SystemBundleUtil.java",
+      "portal-kernel/src/com/liferay/portal/kernel/portlet/PortletIdCodec.java",
+      "portal-kernel/src/com/liferay/portal/kernel/resource/bundle/ResourceBundleLoader.java",
+      "portal-kernel/src/com/liferay/portal/kernel/security/permission/ActionKeys.java",
+      "portal-kernel/src/com/liferay/portal/kernel/security/permission/ResourceActions.java",
+      "portal-kernel/src/com/liferay/portal/kernel/service/GroupServiceUtil.java",
+      "portal-kernel/src/com/liferay/portal/kernel/service/PortletLocalService.java",
+      "portal-kernel/src/com/liferay/portal/kernel/service/ResourceActionLocalService.java",
+      "portal-kernel/src/com/liferay/portal/kernel/service/ResourceActionLocalServiceUtil.java",
+      "portal-kernel/src/com/liferay/portal/kernel/service/RoleLocalService.java",
+      "portal-kernel/src/com/liferay/portal/kernel/util/ArrayUtil.java",
+      "portal-kernel/src/com/liferay/portal/kernel/util/ContentTypes.java",
+      "portal-kernel/src/com/liferay/portal/kernel/util/GetterUtil.java",
+      "portal-kernel/src/com/liferay/portal/kernel/util/PortletKeys.java",
+      "portal-kernel/src/com/liferay/portal/kernel/util/ResourceBundleUtil.java",
+      "portal-kernel/src/com/liferay/portal/kernel/util/StringUtil.java",
+      "portal-kernel/src/com/liferay/portal/kernel/util/Validator.java",
+      "portal-kernel/src/com/liferay/portal/kernel/util/WebKeys.java",
+      "portal-kernel/src/com/liferay/portal/kernel/xml/Document.java",
+      "portal-kernel/src/com/liferay/portal/kernel/xml/DocumentException.java",
+      "portal-kernel/src/com/liferay/portal/kernel/xml/DocumentType.java",
+      "portal-kernel/src/com/liferay/portal/kernel/xml/Element.java",
+      "portal-kernel/src/com/liferay/portal/kernel/xml/UnsecureSAXReaderUtil.java"
+    ],
+    "portal-impl/src/com/liferay/portal/security/permission/SimplePermissionChecker.java": [
+      "portal-kernel/src/com/liferay/portal/kernel/model/Group.java",
+      "portal-kernel/src/com/liferay/portal/kernel/security/permission/ActionKeys.java",
+      "portal-kernel/src/com/liferay/portal/kernel/security/permission/UserBag.java"
+    ],
+    "portal-impl/src/com/liferay/portal/security/permission/StagingPermissionChecker.java": [
+      "portal-kernel/src/com/liferay/document/library/kernel/model/DLFolder.java",
+      "portal-kernel/src/com/liferay/exportimport/kernel/lar/ExportImportThreadLocal.java",
+      "portal-kernel/src/com/liferay/exportimport/kernel/staging/StagingUtil.java",
+      "portal-kernel/src/com/liferay/portal/kernel/model/Group.java",
+      "portal-kernel/src/com/liferay/portal/kernel/model/User.java",
+      "portal-kernel/src/com/liferay/portal/kernel/repository/model/Folder.java",
+      "portal-kernel/src/com/liferay/portal/kernel/security/permission/PermissionChecker.java",
+      "portal-kernel/src/com/liferay/portal/kernel/security/permission/UserBag.java",
+      "portal-kernel/src/com/liferay/portal/kernel/service/GroupLocalServiceUtil.java"
+    ]
+  }
+}

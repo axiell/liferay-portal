@@ -1,0 +1,1649 @@
+{
+  "batchIndex": 2,
+  "partIndex": 1,
+  "partCount": 7,
+  "nodes": [
+    {
+      "id": "file:portal-impl/src/com/liferay/counter/service/persistence/IDGenerator.java",
+      "type": "file",
+      "name": "IDGenerator.java",
+      "filePath": "portal-impl/src/com/liferay/counter/service/persistence/IDGenerator.java",
+      "summary": "IDGenerator class in liferay/counter module",
+      "tags": [
+        "liferay",
+        "counter",
+        "service",
+        "persistence"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:portal-impl/src/com/liferay/counter/service/persistence/IDGenerator.java:IDGenerator",
+      "type": "class",
+      "name": "IDGenerator",
+      "filePath": "portal-impl/src/com/liferay/counter/service/persistence/IDGenerator.java",
+      "lineRange": [
+        18,
+        33
+      ],
+      "summary": "IDGenerator class",
+      "tags": [
+        "liferay",
+        "counter",
+        "service",
+        "persistence",
+        "idgenerator"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:portal-impl/src/com/liferay/counter/service/persistence/IDGenerator.java:generate",
+      "type": "function",
+      "name": "generate",
+      "filePath": "portal-impl/src/com/liferay/counter/service/persistence/IDGenerator.java",
+      "lineRange": [
+        20,
+        31
+      ],
+      "summary": "generate(sharedSessionContractImplementor, object)",
+      "tags": [
+        "liferay",
+        "counter",
+        "service",
+        "persistence",
+        "generate"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:portal-impl/src/com/liferay/portal/action/LayoutAction.java",
+      "type": "file",
+      "name": "LayoutAction.java",
+      "filePath": "portal-impl/src/com/liferay/portal/action/LayoutAction.java",
+      "summary": "LayoutAction class in liferay/portal module",
+      "tags": [
+        "liferay",
+        "portal",
+        "action"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "class:portal-impl/src/com/liferay/portal/action/LayoutAction.java:LayoutAction",
+      "type": "class",
+      "name": "LayoutAction",
+      "filePath": "portal-impl/src/com/liferay/portal/action/LayoutAction.java",
+      "lineRange": [
+        67,
+        468
+      ],
+      "summary": "LayoutAction class",
+      "tags": [
+        "liferay",
+        "portal",
+        "action",
+        "layoutaction"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "function:portal-impl/src/com/liferay/portal/action/LayoutAction.java:execute",
+      "type": "function",
+      "name": "execute",
+      "filePath": "portal-impl/src/com/liferay/portal/action/LayoutAction.java",
+      "lineRange": [
+        69,
+        183
+      ],
+      "summary": "execute(actionMapping, httpServletRequest, httpServletResponse)",
+      "tags": [
+        "liferay",
+        "portal",
+        "action",
+        "execute"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:portal-impl/src/com/liferay/portal/action/LayoutAction.java:forwardLayout",
+      "type": "function",
+      "name": "forwardLayout",
+      "filePath": "portal-impl/src/com/liferay/portal/action/LayoutAction.java",
+      "lineRange": [
+        185,
+        228
+      ],
+      "summary": "forwardLayout(httpServletRequest)",
+      "tags": [
+        "liferay",
+        "portal",
+        "action",
+        "forwardlayout"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:portal-impl/src/com/liferay/portal/action/LayoutAction.java:getRenderStateJSON",
+      "type": "function",
+      "name": "getRenderStateJSON",
+      "filePath": "portal-impl/src/com/liferay/portal/action/LayoutAction.java",
+      "lineRange": [
+        230,
+        265
+      ],
+      "summary": "getRenderStateJSON(httpServletRequest, httpServletResponse, themeDisplay, portletId, layoutTypePortlet)",
+      "tags": [
+        "liferay",
+        "portal",
+        "action",
+        "getrenderstatejson"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:portal-impl/src/com/liferay/portal/action/LayoutAction.java:processLayout",
+      "type": "function",
+      "name": "processLayout",
+      "filePath": "portal-impl/src/com/liferay/portal/action/LayoutAction.java",
+      "lineRange": [
+        267,
+        464
+      ],
+      "summary": "processLayout(actionMapping, httpServletRequest, httpServletResponse, plid)",
+      "tags": [
+        "liferay",
+        "portal",
+        "action",
+        "processlayout"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:portal-impl/src/com/liferay/portal/action/LoginAction.java",
+      "type": "file",
+      "name": "LoginAction.java",
+      "filePath": "portal-impl/src/com/liferay/portal/action/LoginAction.java",
+      "summary": "LoginAction class in liferay/portal module",
+      "tags": [
+        "liferay",
+        "portal",
+        "action"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "class:portal-impl/src/com/liferay/portal/action/LoginAction.java:LoginAction",
+      "type": "class",
+      "name": "LoginAction",
+      "filePath": "portal-impl/src/com/liferay/portal/action/LoginAction.java",
+      "lineRange": [
+        42,
+        201
+      ],
+      "summary": "LoginAction class",
+      "tags": [
+        "liferay",
+        "portal",
+        "action",
+        "loginaction"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:portal-impl/src/com/liferay/portal/action/LoginAction.java:execute",
+      "type": "function",
+      "name": "execute",
+      "filePath": "portal-impl/src/com/liferay/portal/action/LoginAction.java",
+      "lineRange": [
+        44,
+        180
+      ],
+      "summary": "execute(actionMapping, httpServletRequest, httpServletResponse)",
+      "tags": [
+        "liferay",
+        "portal",
+        "action",
+        "execute"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:portal-impl/src/com/liferay/portal/action/LoginAction.java:getWindowState",
+      "type": "function",
+      "name": "getWindowState",
+      "filePath": "portal-impl/src/com/liferay/portal/action/LoginAction.java",
+      "lineRange": [
+        182,
+        199
+      ],
+      "summary": "getWindowState(httpServletRequest, utility)",
+      "tags": [
+        "liferay",
+        "portal",
+        "action",
+        "getwindowstate"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:portal-impl/src/com/liferay/portal/action/LogoutAction.java",
+      "type": "file",
+      "name": "LogoutAction.java",
+      "filePath": "portal-impl/src/com/liferay/portal/action/LogoutAction.java",
+      "summary": "LogoutAction class in liferay/portal module",
+      "tags": [
+        "liferay",
+        "portal",
+        "action"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:portal-impl/src/com/liferay/portal/action/LogoutAction.java:LogoutAction",
+      "type": "class",
+      "name": "LogoutAction",
+      "filePath": "portal-impl/src/com/liferay/portal/action/LogoutAction.java",
+      "lineRange": [
+        22,
+        47
+      ],
+      "summary": "LogoutAction class",
+      "tags": [
+        "liferay",
+        "portal",
+        "action",
+        "logoutaction"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:portal-impl/src/com/liferay/portal/action/LogoutAction.java:execute",
+      "type": "function",
+      "name": "execute",
+      "filePath": "portal-impl/src/com/liferay/portal/action/LogoutAction.java",
+      "lineRange": [
+        24,
+        45
+      ],
+      "summary": "execute(actionMapping, httpServletRequest, httpServletResponse)",
+      "tags": [
+        "liferay",
+        "portal",
+        "action",
+        "execute"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:portal-impl/src/com/liferay/portal/action/RESTProxyAction.java",
+      "type": "file",
+      "name": "RESTProxyAction.java",
+      "filePath": "portal-impl/src/com/liferay/portal/action/RESTProxyAction.java",
+      "summary": "RESTProxyAction class in liferay/portal module",
+      "tags": [
+        "liferay",
+        "portal",
+        "action"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "class:portal-impl/src/com/liferay/portal/action/RESTProxyAction.java:RESTProxyAction",
+      "type": "class",
+      "name": "RESTProxyAction",
+      "filePath": "portal-impl/src/com/liferay/portal/action/RESTProxyAction.java",
+      "lineRange": [
+        33,
+        96
+      ],
+      "summary": "RESTProxyAction class",
+      "tags": [
+        "liferay",
+        "portal",
+        "action",
+        "restproxyaction"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:portal-impl/src/com/liferay/portal/action/RESTProxyAction.java:execute",
+      "type": "function",
+      "name": "execute",
+      "filePath": "portal-impl/src/com/liferay/portal/action/RESTProxyAction.java",
+      "lineRange": [
+        35,
+        69
+      ],
+      "summary": "execute(actionMapping, httpServletRequest, httpServletResponse)",
+      "tags": [
+        "liferay",
+        "portal",
+        "action",
+        "execute"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:portal-impl/src/com/liferay/portal/action/RESTProxyAction.java:validate",
+      "type": "function",
+      "name": "validate",
+      "filePath": "portal-impl/src/com/liferay/portal/action/RESTProxyAction.java",
+      "lineRange": [
+        71,
+        91
+      ],
+      "summary": "validate(url)",
+      "tags": [
+        "liferay",
+        "portal",
+        "action",
+        "validate"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:portal-impl/src/com/liferay/portal/action/RenderPortletAction.java",
+      "type": "file",
+      "name": "RenderPortletAction.java",
+      "filePath": "portal-impl/src/com/liferay/portal/action/RenderPortletAction.java",
+      "summary": "RenderPortletAction class in liferay/portal module",
+      "tags": [
+        "liferay",
+        "portal",
+        "action"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "class:portal-impl/src/com/liferay/portal/action/RenderPortletAction.java:RenderPortletAction",
+      "type": "class",
+      "name": "RenderPortletAction",
+      "filePath": "portal-impl/src/com/liferay/portal/action/RenderPortletAction.java",
+      "lineRange": [
+        29,
+        113
+      ],
+      "summary": "RenderPortletAction class",
+      "tags": [
+        "liferay",
+        "portal",
+        "action",
+        "renderportletaction"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:portal-impl/src/com/liferay/portal/action/RenderPortletAction.java:execute",
+      "type": "function",
+      "name": "execute",
+      "filePath": "portal-impl/src/com/liferay/portal/action/RenderPortletAction.java",
+      "lineRange": [
+        31,
+        111
+      ],
+      "summary": "execute(actionMapping, httpServletRequest, httpServletResponse)",
+      "tags": [
+        "liferay",
+        "portal",
+        "action",
+        "execute"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:portal-impl/src/com/liferay/portal/action/SessionClickAction.java",
+      "type": "file",
+      "name": "SessionClickAction.java",
+      "filePath": "portal-impl/src/com/liferay/portal/action/SessionClickAction.java",
+      "summary": "SessionClickAction class in liferay/portal module",
+      "tags": [
+        "liferay",
+        "portal",
+        "action"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "class:portal-impl/src/com/liferay/portal/action/SessionClickAction.java:SessionClickAction",
+      "type": "class",
+      "name": "SessionClickAction",
+      "filePath": "portal-impl/src/com/liferay/portal/action/SessionClickAction.java",
+      "lineRange": [
+        32,
+        146
+      ],
+      "summary": "SessionClickAction class",
+      "tags": [
+        "liferay",
+        "portal",
+        "action",
+        "sessionclickaction"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:portal-impl/src/com/liferay/portal/action/SessionClickAction.java:execute",
+      "type": "function",
+      "name": "execute",
+      "filePath": "portal-impl/src/com/liferay/portal/action/SessionClickAction.java",
+      "lineRange": [
+        34,
+        99
+      ],
+      "summary": "execute(actionMapping, httpServletRequest, httpServletResponse)",
+      "tags": [
+        "liferay",
+        "portal",
+        "action",
+        "execute"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:portal-impl/src/com/liferay/portal/action/SessionClickAction.java:getValue",
+      "type": "function",
+      "name": "getValue",
+      "filePath": "portal-impl/src/com/liferay/portal/action/SessionClickAction.java",
+      "lineRange": [
+        101,
+        144
+      ],
+      "summary": "getValue(httpServletRequest)",
+      "tags": [
+        "liferay",
+        "portal",
+        "action",
+        "getvalue"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:portal-impl/src/com/liferay/portal/action/SetupWizardAction.java",
+      "type": "file",
+      "name": "SetupWizardAction.java",
+      "filePath": "portal-impl/src/com/liferay/portal/action/SetupWizardAction.java",
+      "summary": "SetupWizardAction class in liferay/portal module",
+      "tags": [
+        "liferay",
+        "portal",
+        "action"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "class:portal-impl/src/com/liferay/portal/action/SetupWizardAction.java:SetupWizardAction",
+      "type": "class",
+      "name": "SetupWizardAction",
+      "filePath": "portal-impl/src/com/liferay/portal/action/SetupWizardAction.java",
+      "lineRange": [
+        38,
+        157
+      ],
+      "summary": "SetupWizardAction class",
+      "tags": [
+        "liferay",
+        "portal",
+        "action",
+        "setupwizardaction"
+      ],
+      "complexity": "moderate"
+    }
+  ],
+  "edges": [
+    {
+      "source": "file:portal-impl/src/com/liferay/counter/service/persistence/IDGenerator.java",
+      "target": "class:portal-impl/src/com/liferay/counter/service/persistence/IDGenerator.java:IDGenerator",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/counter/service/persistence/IDGenerator.java",
+      "target": "function:portal-impl/src/com/liferay/counter/service/persistence/IDGenerator.java:generate",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/counter/service/persistence/IDGenerator.java",
+      "target": "function:portal-impl/src/com/liferay/counter/service/persistence/IDGenerator.java:generate",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/counter/service/persistence/IDGenerator.java",
+      "target": "class:portal-impl/src/com/liferay/counter/service/persistence/IDGenerator.java:IDGenerator",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/counter/service/persistence/IDGenerator.java",
+      "target": "file:portal-kernel/src/com/liferay/counter/kernel/service/CounterLocalServiceUtil.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/action/LayoutAction.java",
+      "target": "class:portal-impl/src/com/liferay/portal/action/LayoutAction.java:LayoutAction",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/action/LayoutAction.java",
+      "target": "function:portal-impl/src/com/liferay/portal/action/LayoutAction.java:execute",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/action/LayoutAction.java",
+      "target": "function:portal-impl/src/com/liferay/portal/action/LayoutAction.java:execute",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/action/LayoutAction.java",
+      "target": "function:portal-impl/src/com/liferay/portal/action/LayoutAction.java:forwardLayout",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/action/LayoutAction.java",
+      "target": "function:portal-impl/src/com/liferay/portal/action/LayoutAction.java:getRenderStateJSON",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/action/LayoutAction.java",
+      "target": "function:portal-impl/src/com/liferay/portal/action/LayoutAction.java:processLayout",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/action/LayoutAction.java",
+      "target": "class:portal-impl/src/com/liferay/portal/action/LayoutAction.java:LayoutAction",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/action/LayoutAction.java",
+      "target": "file:portal-impl/src/com/liferay/portal/security/sso/SSOUtil.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/action/LayoutAction.java",
+      "target": "file:portal-impl/src/com/liferay/portal/struts/Action.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/action/LayoutAction.java",
+      "target": "file:portal-impl/src/com/liferay/portal/struts/constants/ActionConstants.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/action/LayoutAction.java",
+      "target": "file:portal-impl/src/com/liferay/portal/struts/model/ActionForward.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/action/LayoutAction.java",
+      "target": "file:portal-impl/src/com/liferay/portal/struts/model/ActionMapping.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/action/LayoutAction.java",
+      "target": "file:portal-impl/src/com/liferay/portal/util/PropsValues.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/action/LayoutAction.java",
+      "target": "file:portal-impl/src/com/liferay/portlet/internal/RenderData.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/action/LayoutAction.java",
+      "target": "file:portal-impl/src/com/liferay/portlet/internal/RenderStateUtil.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/action/LayoutAction.java",
+      "target": "file:portal-impl/src/com/liferay/portlet/LiferayPortletUtil.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/action/LayoutAction.java",
+      "target": "file:portal-impl/src/com/liferay/portlet/RenderParametersPool.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/action/LayoutAction.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/audit/AuditMessage.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/action/LayoutAction.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/audit/AuditRouterUtil.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/action/LayoutAction.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/json/JSONObject.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/action/LayoutAction.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/json/JSONUtil.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/action/LayoutAction.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/log/Log.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/action/LayoutAction.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/log/LogFactoryUtil.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/action/LayoutAction.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/model/Layout.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/action/LayoutAction.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/model/LayoutConstants.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/action/LayoutAction.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/model/LayoutTypePortlet.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/action/LayoutAction.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/model/Portlet.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/action/LayoutAction.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/model/User.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/action/LayoutAction.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/portlet/LiferayPortletRequest.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/action/LayoutAction.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/portlet/PortletContainerUtil.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/action/LayoutAction.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/portlet/PortletURLFactoryUtil.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/action/LayoutAction.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/portlet/url/builder/PortletURLBuilder.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/action/LayoutAction.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/security/permission/ActionKeys.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/action/LayoutAction.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/service/PortletLocalServiceUtil.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/action/LayoutAction.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/servlet/BufferCacheServletResponse.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/action/LayoutAction.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/theme/ThemeDisplay.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/action/LayoutAction.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/util/ContentTypes.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/action/LayoutAction.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/util/HttpComponentsUtil.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/action/LayoutAction.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/util/JavaConstants.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/action/LayoutAction.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/util/ParamUtil.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/action/LayoutAction.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/util/PortalUtil.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/action/LayoutAction.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/util/PortletKeys.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/action/LayoutAction.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/util/Validator.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/action/LayoutAction.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/util/WebKeys.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/action/LoginAction.java",
+      "target": "class:portal-impl/src/com/liferay/portal/action/LoginAction.java:LoginAction",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/action/LoginAction.java",
+      "target": "function:portal-impl/src/com/liferay/portal/action/LoginAction.java:execute",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/action/LoginAction.java",
+      "target": "function:portal-impl/src/com/liferay/portal/action/LoginAction.java:execute",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/action/LoginAction.java",
+      "target": "function:portal-impl/src/com/liferay/portal/action/LoginAction.java:getWindowState",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/action/LoginAction.java",
+      "target": "class:portal-impl/src/com/liferay/portal/action/LoginAction.java:LoginAction",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/action/LoginAction.java",
+      "target": "file:portal-impl/src/com/liferay/portal/security/auth/session/AuthenticatedSessionManagerUtil.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/action/LoginAction.java",
+      "target": "file:portal-impl/src/com/liferay/portal/security/sso/SSOUtil.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/action/LoginAction.java",
+      "target": "file:portal-impl/src/com/liferay/portal/struts/Action.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/action/LoginAction.java",
+      "target": "file:portal-impl/src/com/liferay/portal/struts/model/ActionForward.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/action/LoginAction.java",
+      "target": "file:portal-impl/src/com/liferay/portal/struts/model/ActionMapping.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/action/LoginAction.java",
+      "target": "file:portal-impl/src/com/liferay/portal/util/PropsValues.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/action/LoginAction.java",
+      "target": "file:portal-kernel/src/com/liferay/layout/utility/page/kernel/constants/LayoutUtilityPageEntryConstants.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/action/LoginAction.java",
+      "target": "file:portal-kernel/src/com/liferay/layout/utility/page/kernel/provider/util/LayoutUtilityPageEntryLayoutProviderUtil.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/action/LoginAction.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/model/Layout.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/action/LoginAction.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/portlet/LiferayWindowState.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/action/LoginAction.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/portlet/PortletURLFactoryUtil.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/action/LoginAction.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/portlet/url/builder/PortletURLBuilder.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/action/LoginAction.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/portlet/WindowStateFactory.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/action/LoginAction.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/security/auth/AuthTokenUtil.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/action/LoginAction.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/theme/ThemeDisplay.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/action/LoginAction.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/util/HttpComponentsUtil.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/action/LoginAction.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/util/ParamUtil.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/action/LoginAction.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/util/PortalUtil.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/action/LoginAction.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/util/Validator.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/action/LoginAction.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/util/WebKeys.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/action/LogoutAction.java",
+      "target": "class:portal-impl/src/com/liferay/portal/action/LogoutAction.java:LogoutAction",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/action/LogoutAction.java",
+      "target": "function:portal-impl/src/com/liferay/portal/action/LogoutAction.java:execute",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/action/LogoutAction.java",
+      "target": "function:portal-impl/src/com/liferay/portal/action/LogoutAction.java:execute",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/action/LogoutAction.java",
+      "target": "class:portal-impl/src/com/liferay/portal/action/LogoutAction.java:LogoutAction",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/action/LogoutAction.java",
+      "target": "file:portal-impl/src/com/liferay/portal/security/auth/session/AuthenticatedSessionManagerUtil.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/action/LogoutAction.java",
+      "target": "file:portal-impl/src/com/liferay/portal/struts/Action.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/action/LogoutAction.java",
+      "target": "file:portal-impl/src/com/liferay/portal/struts/constants/ActionConstants.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/action/LogoutAction.java",
+      "target": "file:portal-impl/src/com/liferay/portal/struts/model/ActionForward.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/action/LogoutAction.java",
+      "target": "file:portal-impl/src/com/liferay/portal/struts/model/ActionMapping.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/action/LogoutAction.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/util/PortalUtil.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/action/LogoutAction.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/util/WebKeys.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/action/RESTProxyAction.java",
+      "target": "class:portal-impl/src/com/liferay/portal/action/RESTProxyAction.java:RESTProxyAction",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/action/RESTProxyAction.java",
+      "target": "function:portal-impl/src/com/liferay/portal/action/RESTProxyAction.java:execute",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/action/RESTProxyAction.java",
+      "target": "function:portal-impl/src/com/liferay/portal/action/RESTProxyAction.java:execute",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/action/RESTProxyAction.java",
+      "target": "function:portal-impl/src/com/liferay/portal/action/RESTProxyAction.java:validate",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/action/RESTProxyAction.java",
+      "target": "class:portal-impl/src/com/liferay/portal/action/RESTProxyAction.java:RESTProxyAction",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/action/RESTProxyAction.java",
+      "target": "file:portal-impl/src/com/liferay/portal/struts/Action.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/action/RESTProxyAction.java",
+      "target": "file:portal-impl/src/com/liferay/portal/struts/model/ActionForward.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/action/RESTProxyAction.java",
+      "target": "file:portal-impl/src/com/liferay/portal/struts/model/ActionMapping.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/action/RESTProxyAction.java",
+      "target": "file:portal-impl/src/com/liferay/portal/util/PropsValues.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/action/RESTProxyAction.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/log/Log.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/action/RESTProxyAction.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/log/LogFactoryUtil.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/action/RESTProxyAction.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/servlet/ServletResponseUtil.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/action/RESTProxyAction.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/util/ContentTypes.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/action/RESTProxyAction.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/util/Http.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/action/RESTProxyAction.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/util/HttpComponentsUtil.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/action/RESTProxyAction.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/util/HttpUtil.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/action/RESTProxyAction.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/util/ParamUtil.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/action/RESTProxyAction.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/util/StringUtil.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/action/RESTProxyAction.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/util/Validator.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/action/RenderPortletAction.java",
+      "target": "class:portal-impl/src/com/liferay/portal/action/RenderPortletAction.java:RenderPortletAction",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/action/RenderPortletAction.java",
+      "target": "function:portal-impl/src/com/liferay/portal/action/RenderPortletAction.java:execute",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/action/RenderPortletAction.java",
+      "target": "function:portal-impl/src/com/liferay/portal/action/RenderPortletAction.java:execute",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/action/RenderPortletAction.java",
+      "target": "class:portal-impl/src/com/liferay/portal/action/RenderPortletAction.java:RenderPortletAction",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/action/RenderPortletAction.java",
+      "target": "file:portal-impl/src/com/liferay/portal/struts/Action.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/action/RenderPortletAction.java",
+      "target": "file:portal-impl/src/com/liferay/portal/struts/model/ActionForward.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/action/RenderPortletAction.java",
+      "target": "file:portal-impl/src/com/liferay/portal/struts/model/ActionMapping.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/action/RenderPortletAction.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/model/Layout.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/action/RenderPortletAction.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/model/Portlet.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/action/RenderPortletAction.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/model/User.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/action/RenderPortletAction.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/portlet/PortletContainerUtil.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/action/RenderPortletAction.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/portlet/WindowStateFactory.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/action/RenderPortletAction.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/service/PortletLocalServiceUtil.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/action/RenderPortletAction.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/theme/ThemeDisplay.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/action/RenderPortletAction.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/util/GetterUtil.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/action/RenderPortletAction.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/util/ParamUtil.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/action/RenderPortletAction.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/util/PortalUtil.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/action/RenderPortletAction.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/util/WebKeys.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/action/SessionClickAction.java",
+      "target": "class:portal-impl/src/com/liferay/portal/action/SessionClickAction.java:SessionClickAction",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/action/SessionClickAction.java",
+      "target": "function:portal-impl/src/com/liferay/portal/action/SessionClickAction.java:execute",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/action/SessionClickAction.java",
+      "target": "function:portal-impl/src/com/liferay/portal/action/SessionClickAction.java:execute",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/action/SessionClickAction.java",
+      "target": "function:portal-impl/src/com/liferay/portal/action/SessionClickAction.java:getValue",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/action/SessionClickAction.java",
+      "target": "class:portal-impl/src/com/liferay/portal/action/SessionClickAction.java:SessionClickAction",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/action/SessionClickAction.java",
+      "target": "file:portal-impl/src/com/liferay/portal/struts/Action.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/action/SessionClickAction.java",
+      "target": "file:portal-impl/src/com/liferay/portal/struts/model/ActionForward.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/action/SessionClickAction.java",
+      "target": "file:portal-impl/src/com/liferay/portal/struts/model/ActionMapping.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/action/SessionClickAction.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/json/JSONFactoryUtil.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/action/SessionClickAction.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/json/JSONObject.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/action/SessionClickAction.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/security/auth/AuthTokenUtil.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/action/SessionClickAction.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/util/Constants.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/action/SessionClickAction.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/util/ContentTypes.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/action/SessionClickAction.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/util/ParamUtil.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/action/SessionClickAction.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/util/PortalUtil.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/action/SessionClickAction.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/util/SessionClicks.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/action/SessionClickAction.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/util/StringUtil.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/action/SetupWizardAction.java",
+      "target": "class:portal-impl/src/com/liferay/portal/action/SetupWizardAction.java:SetupWizardAction",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/action/SetupWizardAction.java",
+      "target": "function:portal-impl/src/com/liferay/portal/action/SetupWizardAction.java:execute",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/action/SetupWizardAction.java",
+      "target": "function:portal-impl/src/com/liferay/portal/action/SetupWizardAction.java:execute",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/action/SetupWizardAction.java",
+      "target": "function:portal-impl/src/com/liferay/portal/action/SetupWizardAction.java:putMessage",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/action/SetupWizardAction.java",
+      "target": "function:portal-impl/src/com/liferay/portal/action/SetupWizardAction.java:testDatabase",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/action/SetupWizardAction.java",
+      "target": "class:portal-impl/src/com/liferay/portal/action/SetupWizardAction.java:SetupWizardAction",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/action/SetupWizardAction.java",
+      "target": "file:portal-impl/src/com/liferay/portal/setup/SetupWizardUtil.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/action/SetupWizardAction.java",
+      "target": "file:portal-impl/src/com/liferay/portal/struts/Action.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/action/SetupWizardAction.java",
+      "target": "file:portal-impl/src/com/liferay/portal/struts/model/ActionForward.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/action/SetupWizardAction.java",
+      "target": "file:portal-impl/src/com/liferay/portal/struts/model/ActionMapping.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/action/SetupWizardAction.java",
+      "target": "file:portal-impl/src/com/liferay/portal/util/PropsValues.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/action/SetupWizardAction.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/json/JSONFactoryUtil.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/action/SetupWizardAction.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/json/JSONObject.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/action/SetupWizardAction.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/log/Log.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/action/SetupWizardAction.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/log/LogFactoryUtil.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/action/SetupWizardAction.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/security/auth/PrincipalException.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/action/SetupWizardAction.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/servlet/HttpHeaders.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/action/SetupWizardAction.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/servlet/ServletResponseUtil.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/action/SetupWizardAction.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/servlet/SessionErrors.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/action/SetupWizardAction.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/theme/ThemeDisplay.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/action/SetupWizardAction.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/util/Constants.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/action/SetupWizardAction.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/util/ContentTypes.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/action/SetupWizardAction.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/util/ParamUtil.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/action/SetupWizardAction.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/util/PortalUtil.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/action/SetupWizardAction.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/util/Validator.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/action/SetupWizardAction.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/util/WebKeys.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    }
+  ]
+}

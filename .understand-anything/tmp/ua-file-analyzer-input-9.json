@@ -1,0 +1,494 @@
+{
+  "projectRoot": "/opt/projects/liferay/portal/arena-7.4.3.129-ga129/portal",
+  "batchFiles": [
+    {
+      "path": "portal-impl/src/com/liferay/portal/model/impl/UserTrackerPathBaseImpl.java",
+      "language": "java",
+      "sizeLines": 40,
+      "fileCategory": "code"
+    },
+    {
+      "path": "portal-impl/src/com/liferay/portal/model/impl/UserTrackerPathCacheModel.java",
+      "language": "java",
+      "sizeLines": 158,
+      "fileCategory": "code"
+    },
+    {
+      "path": "portal-impl/src/com/liferay/portal/model/impl/UserTrackerPathModelImpl.java",
+      "language": "java",
+      "sizeLines": 711,
+      "fileCategory": "code"
+    },
+    {
+      "path": "portal-impl/src/com/liferay/portal/model/impl/VirtualHostCacheModel.java",
+      "language": "java",
+      "sizeLines": 177,
+      "fileCategory": "code"
+    },
+    {
+      "path": "portal-impl/src/com/liferay/portal/model/impl/VirtualHostModelImpl.java",
+      "language": "java",
+      "sizeLines": 816,
+      "fileCategory": "code"
+    },
+    {
+      "path": "portal-impl/src/com/liferay/portal/model/impl/WebDAVPropsCacheModel.java",
+      "language": "java",
+      "sizeLines": 179,
+      "fileCategory": "code"
+    },
+    {
+      "path": "portal-impl/src/com/liferay/portal/model/impl/WebDAVPropsModelImpl.java",
+      "language": "java",
+      "sizeLines": 802,
+      "fileCategory": "code"
+    },
+    {
+      "path": "portal-impl/src/com/liferay/portal/model/impl/WebsiteCacheModel.java",
+      "language": "java",
+      "sizeLines": 269,
+      "fileCategory": "code"
+    },
+    {
+      "path": "portal-impl/src/com/liferay/portal/model/impl/WebsiteModelImpl.java",
+      "language": "java",
+      "sizeLines": 1169,
+      "fileCategory": "code"
+    },
+    {
+      "path": "portal-impl/src/com/liferay/portal/model/impl/WorkflowDefinitionLinkModelImpl.java",
+      "language": "java",
+      "sizeLines": 1125,
+      "fileCategory": "code"
+    },
+    {
+      "path": "portal-impl/src/com/liferay/portal/model/impl/WorkflowInstanceLinkModelImpl.java",
+      "language": "java",
+      "sizeLines": 1005,
+      "fileCategory": "code"
+    },
+    {
+      "path": "portal-impl/src/com/liferay/portal/repository/liferayrepository/model/LiferayModel.java",
+      "language": "java",
+      "sizeLines": 22,
+      "fileCategory": "code"
+    },
+    {
+      "path": "portal-impl/src/com/liferay/portal/security/permission/DoAsUserThread.java",
+      "language": "java",
+      "sizeLines": 71,
+      "fileCategory": "code"
+    },
+    {
+      "path": "portal-impl/src/com/liferay/portal/security/permission/GroupModelListener.java",
+      "language": "java",
+      "sizeLines": 41,
+      "fileCategory": "code"
+    },
+    {
+      "path": "portal-impl/src/com/liferay/portal/security/permission/ResourcePermissionModelListener.java",
+      "language": "java",
+      "sizeLines": 65,
+      "fileCategory": "code"
+    },
+    {
+      "path": "portal-impl/src/com/liferay/portal/security/permission/TeamModelListener.java",
+      "language": "java",
+      "sizeLines": 41,
+      "fileCategory": "code"
+    },
+    {
+      "path": "portal-impl/src/com/liferay/portal/security/permission/UserGroupGroupRoleModelListener.java",
+      "language": "java",
+      "sizeLines": 34,
+      "fileCategory": "code"
+    },
+    {
+      "path": "portal-impl/src/com/liferay/portal/security/permission/UserGroupRoleModelListener.java",
+      "language": "java",
+      "sizeLines": 75,
+      "fileCategory": "code"
+    },
+    {
+      "path": "portal-impl/src/com/liferay/portal/security/permission/UserModelListener.java",
+      "language": "java",
+      "sizeLines": 38,
+      "fileCategory": "code"
+    },
+    {
+      "path": "portal-impl/src/com/liferay/portal/service/impl/CompanyInfoLocalServiceImpl.java",
+      "language": "java",
+      "sizeLines": 22,
+      "fileCategory": "code"
+    },
+    {
+      "path": "portal-impl/src/com/liferay/portal/service/impl/EmailAddressServiceImpl.java",
+      "language": "java",
+      "sizeLines": 163,
+      "fileCategory": "code"
+    },
+    {
+      "path": "portal-impl/src/com/liferay/portal/service/impl/LayoutPrototypeServiceImpl.java",
+      "language": "java",
+      "sizeLines": 122,
+      "fileCategory": "code"
+    },
+    {
+      "path": "portal-impl/src/com/liferay/portal/service/impl/PhoneServiceImpl.java",
+      "language": "java",
+      "sizeLines": 147,
+      "fileCategory": "code"
+    },
+    {
+      "path": "portal-impl/src/com/liferay/portal/service/impl/UserTrackerLocalServiceImpl.java",
+      "language": "java",
+      "sizeLines": 97,
+      "fileCategory": "code"
+    },
+    {
+      "path": "portal-impl/src/com/liferay/portal/service/impl/UserTrackerPathLocalServiceImpl.java",
+      "language": "java",
+      "sizeLines": 26,
+      "fileCategory": "code"
+    },
+    {
+      "path": "portal-impl/src/com/liferay/portal/service/impl/WebsiteServiceImpl.java",
+      "language": "java",
+      "sizeLines": 133,
+      "fileCategory": "code"
+    },
+    {
+      "path": "portal-impl/src/com/liferay/portal/service/persistence/impl/PluginSettingModelArgumentsResolver.java",
+      "language": "java",
+      "sizeLines": 114,
+      "fileCategory": "code"
+    },
+    {
+      "path": "portal-impl/src/com/liferay/portal/service/persistence/impl/UserTrackerModelArgumentsResolver.java",
+      "language": "java",
+      "sizeLines": 113,
+      "fileCategory": "code"
+    },
+    {
+      "path": "portal-impl/src/com/liferay/portal/servlet/UserResolver.java",
+      "language": "java",
+      "sizeLines": 70,
+      "fileCategory": "code"
+    },
+    {
+      "path": "portal-impl/src/com/liferay/portal/servlet/delegate/ServletContextDelegate.java",
+      "language": "java",
+      "sizeLines": 59,
+      "fileCategory": "code"
+    },
+    {
+      "path": "portal-impl/src/com/liferay/portal/servlet/filters/etag/ETagUtil.java",
+      "language": "java",
+      "sizeLines": 67,
+      "fileCategory": "code"
+    },
+    {
+      "path": "portal-impl/src/com/liferay/portal/spring/aop/BeanMatcher.java",
+      "language": "java",
+      "sizeLines": 14,
+      "fileCategory": "code"
+    },
+    {
+      "path": "portal-impl/src/com/liferay/portal/spring/hibernate/CTModelIntegrator.java",
+      "language": "java",
+      "sizeLines": 168,
+      "fileCategory": "code"
+    },
+    {
+      "path": "portal-impl/src/com/liferay/portal/spring/hibernate/GlobalEventListenerIntegrator.java",
+      "language": "java",
+      "sizeLines": 47,
+      "fileCategory": "code"
+    },
+    {
+      "path": "portal-impl/src/com/liferay/portal/spring/hibernate/MVCCEventListenerIntegrator.java",
+      "language": "java",
+      "sizeLines": 44,
+      "fileCategory": "code"
+    }
+  ],
+  "batchImportData": {
+    "portal-impl/src/com/liferay/portal/model/impl/UserTrackerPathBaseImpl.java": [
+      "portal-kernel/src/com/liferay/portal/kernel/model/UserTrackerPath.java",
+      "portal-kernel/src/com/liferay/portal/kernel/service/UserTrackerPathLocalServiceUtil.java"
+    ],
+    "portal-impl/src/com/liferay/portal/model/impl/UserTrackerPathCacheModel.java": [
+      "portal-kernel/src/com/liferay/portal/kernel/model/CacheModel.java",
+      "portal-kernel/src/com/liferay/portal/kernel/model/MVCCModel.java",
+      "portal-kernel/src/com/liferay/portal/kernel/model/UserTrackerPath.java"
+    ],
+    "portal-impl/src/com/liferay/portal/model/impl/UserTrackerPathModelImpl.java": [
+      "portal-kernel/src/com/liferay/expando/kernel/model/ExpandoBridge.java",
+      "portal-kernel/src/com/liferay/expando/kernel/util/ExpandoBridgeFactoryUtil.java",
+      "portal-kernel/src/com/liferay/portal/kernel/bean/AutoEscapeBeanHandler.java",
+      "portal-kernel/src/com/liferay/portal/kernel/model/CacheModel.java",
+      "portal-kernel/src/com/liferay/portal/kernel/model/impl/BaseModelImpl.java",
+      "portal-kernel/src/com/liferay/portal/kernel/model/ModelWrapper.java",
+      "portal-kernel/src/com/liferay/portal/kernel/model/UserTrackerPath.java",
+      "portal-kernel/src/com/liferay/portal/kernel/model/UserTrackerPathModel.java",
+      "portal-kernel/src/com/liferay/portal/kernel/service/ServiceContext.java",
+      "portal-kernel/src/com/liferay/portal/kernel/util/GetterUtil.java",
+      "portal-kernel/src/com/liferay/portal/kernel/util/ProxyUtil.java",
+      "portal-kernel/src/com/liferay/portal/kernel/util/StringUtil.java"
+    ],
+    "portal-impl/src/com/liferay/portal/model/impl/VirtualHostCacheModel.java": [
+      "portal-kernel/src/com/liferay/portal/kernel/model/CacheModel.java",
+      "portal-kernel/src/com/liferay/portal/kernel/model/MVCCModel.java",
+      "portal-kernel/src/com/liferay/portal/kernel/model/VirtualHost.java"
+    ],
+    "portal-impl/src/com/liferay/portal/model/impl/VirtualHostModelImpl.java": [
+      "portal-kernel/src/com/liferay/expando/kernel/model/ExpandoBridge.java",
+      "portal-kernel/src/com/liferay/expando/kernel/util/ExpandoBridgeFactoryUtil.java",
+      "portal-kernel/src/com/liferay/portal/kernel/bean/AutoEscapeBeanHandler.java",
+      "portal-kernel/src/com/liferay/portal/kernel/model/CacheModel.java",
+      "portal-kernel/src/com/liferay/portal/kernel/model/impl/BaseModelImpl.java",
+      "portal-kernel/src/com/liferay/portal/kernel/model/ModelWrapper.java",
+      "portal-kernel/src/com/liferay/portal/kernel/model/VirtualHost.java",
+      "portal-kernel/src/com/liferay/portal/kernel/model/VirtualHostModel.java",
+      "portal-kernel/src/com/liferay/portal/kernel/service/ServiceContext.java",
+      "portal-kernel/src/com/liferay/portal/kernel/util/GetterUtil.java",
+      "portal-kernel/src/com/liferay/portal/kernel/util/ProxyUtil.java",
+      "portal-kernel/src/com/liferay/portal/kernel/util/StringUtil.java"
+    ],
+    "portal-impl/src/com/liferay/portal/model/impl/WebDAVPropsCacheModel.java": [
+      "portal-kernel/src/com/liferay/portal/kernel/model/CacheModel.java",
+      "portal-kernel/src/com/liferay/portal/kernel/model/MVCCModel.java",
+      "portal-kernel/src/com/liferay/portal/kernel/model/WebDAVProps.java"
+    ],
+    "portal-impl/src/com/liferay/portal/model/impl/WebDAVPropsModelImpl.java": [
+      "portal-kernel/src/com/liferay/expando/kernel/model/ExpandoBridge.java",
+      "portal-kernel/src/com/liferay/expando/kernel/util/ExpandoBridgeFactoryUtil.java",
+      "portal-kernel/src/com/liferay/portal/kernel/bean/AutoEscapeBeanHandler.java",
+      "portal-kernel/src/com/liferay/portal/kernel/model/CacheModel.java",
+      "portal-kernel/src/com/liferay/portal/kernel/model/impl/BaseModelImpl.java",
+      "portal-kernel/src/com/liferay/portal/kernel/model/ModelWrapper.java",
+      "portal-kernel/src/com/liferay/portal/kernel/model/WebDAVProps.java",
+      "portal-kernel/src/com/liferay/portal/kernel/model/WebDAVPropsModel.java",
+      "portal-kernel/src/com/liferay/portal/kernel/service/ServiceContext.java",
+      "portal-kernel/src/com/liferay/portal/kernel/util/GetterUtil.java",
+      "portal-kernel/src/com/liferay/portal/kernel/util/PortalUtil.java",
+      "portal-kernel/src/com/liferay/portal/kernel/util/ProxyUtil.java",
+      "portal-kernel/src/com/liferay/portal/kernel/util/StringUtil.java",
+      "portal-kernel/src/com/liferay/portal/kernel/util/Validator.java"
+    ],
+    "portal-impl/src/com/liferay/portal/model/impl/WebsiteCacheModel.java": [
+      "portal-kernel/src/com/liferay/portal/kernel/model/CacheModel.java",
+      "portal-kernel/src/com/liferay/portal/kernel/model/MVCCModel.java",
+      "portal-kernel/src/com/liferay/portal/kernel/model/Website.java"
+    ],
+    "portal-impl/src/com/liferay/portal/model/impl/WebsiteModelImpl.java": [
+      "portal-kernel/src/com/liferay/expando/kernel/model/ExpandoBridge.java",
+      "portal-kernel/src/com/liferay/expando/kernel/util/ExpandoBridgeFactoryUtil.java",
+      "portal-kernel/src/com/liferay/exportimport/kernel/lar/StagedModelType.java",
+      "portal-kernel/src/com/liferay/portal/kernel/bean/AutoEscapeBeanHandler.java",
+      "portal-kernel/src/com/liferay/portal/kernel/exception/PortalException.java",
+      "portal-kernel/src/com/liferay/portal/kernel/json/JSON.java",
+      "portal-kernel/src/com/liferay/portal/kernel/model/CacheModel.java",
+      "portal-kernel/src/com/liferay/portal/kernel/model/impl/BaseModelImpl.java",
+      "portal-kernel/src/com/liferay/portal/kernel/model/ModelWrapper.java",
+      "portal-kernel/src/com/liferay/portal/kernel/model/User.java",
+      "portal-kernel/src/com/liferay/portal/kernel/model/Website.java",
+      "portal-kernel/src/com/liferay/portal/kernel/model/WebsiteModel.java",
+      "portal-kernel/src/com/liferay/portal/kernel/service/ServiceContext.java",
+      "portal-kernel/src/com/liferay/portal/kernel/service/UserLocalServiceUtil.java",
+      "portal-kernel/src/com/liferay/portal/kernel/util/DateUtil.java",
+      "portal-kernel/src/com/liferay/portal/kernel/util/GetterUtil.java",
+      "portal-kernel/src/com/liferay/portal/kernel/util/PortalUtil.java",
+      "portal-kernel/src/com/liferay/portal/kernel/util/ProxyUtil.java",
+      "portal-kernel/src/com/liferay/portal/kernel/util/StringUtil.java",
+      "portal-kernel/src/com/liferay/portal/kernel/util/Validator.java"
+    ],
+    "portal-impl/src/com/liferay/portal/model/impl/WorkflowDefinitionLinkModelImpl.java": [
+      "portal-kernel/src/com/liferay/expando/kernel/model/ExpandoBridge.java",
+      "portal-kernel/src/com/liferay/expando/kernel/util/ExpandoBridgeFactoryUtil.java",
+      "portal-kernel/src/com/liferay/portal/kernel/bean/AutoEscapeBeanHandler.java",
+      "portal-kernel/src/com/liferay/portal/kernel/exception/PortalException.java",
+      "portal-kernel/src/com/liferay/portal/kernel/model/CacheModel.java",
+      "portal-kernel/src/com/liferay/portal/kernel/model/impl/BaseModelImpl.java",
+      "portal-kernel/src/com/liferay/portal/kernel/model/ModelWrapper.java",
+      "portal-kernel/src/com/liferay/portal/kernel/model/User.java",
+      "portal-kernel/src/com/liferay/portal/kernel/model/WorkflowDefinitionLink.java",
+      "portal-kernel/src/com/liferay/portal/kernel/model/WorkflowDefinitionLinkModel.java",
+      "portal-kernel/src/com/liferay/portal/kernel/service/ServiceContext.java",
+      "portal-kernel/src/com/liferay/portal/kernel/service/UserLocalServiceUtil.java",
+      "portal-kernel/src/com/liferay/portal/kernel/util/GetterUtil.java",
+      "portal-kernel/src/com/liferay/portal/kernel/util/PortalUtil.java",
+      "portal-kernel/src/com/liferay/portal/kernel/util/ProxyUtil.java",
+      "portal-kernel/src/com/liferay/portal/kernel/util/StringUtil.java",
+      "portal-kernel/src/com/liferay/portal/kernel/util/Validator.java"
+    ],
+    "portal-impl/src/com/liferay/portal/model/impl/WorkflowInstanceLinkModelImpl.java": [
+      "portal-kernel/src/com/liferay/expando/kernel/model/ExpandoBridge.java",
+      "portal-kernel/src/com/liferay/expando/kernel/util/ExpandoBridgeFactoryUtil.java",
+      "portal-kernel/src/com/liferay/portal/kernel/bean/AutoEscapeBeanHandler.java",
+      "portal-kernel/src/com/liferay/portal/kernel/exception/PortalException.java",
+      "portal-kernel/src/com/liferay/portal/kernel/model/CacheModel.java",
+      "portal-kernel/src/com/liferay/portal/kernel/model/impl/BaseModelImpl.java",
+      "portal-kernel/src/com/liferay/portal/kernel/model/ModelWrapper.java",
+      "portal-kernel/src/com/liferay/portal/kernel/model/User.java",
+      "portal-kernel/src/com/liferay/portal/kernel/model/WorkflowInstanceLink.java",
+      "portal-kernel/src/com/liferay/portal/kernel/model/WorkflowInstanceLinkModel.java",
+      "portal-kernel/src/com/liferay/portal/kernel/service/ServiceContext.java",
+      "portal-kernel/src/com/liferay/portal/kernel/service/UserLocalServiceUtil.java",
+      "portal-kernel/src/com/liferay/portal/kernel/util/DateUtil.java",
+      "portal-kernel/src/com/liferay/portal/kernel/util/GetterUtil.java",
+      "portal-kernel/src/com/liferay/portal/kernel/util/PortalUtil.java",
+      "portal-kernel/src/com/liferay/portal/kernel/util/ProxyUtil.java",
+      "portal-kernel/src/com/liferay/portal/kernel/util/StringUtil.java",
+      "portal-kernel/src/com/liferay/portal/kernel/util/Validator.java"
+    ],
+    "portal-impl/src/com/liferay/portal/repository/liferayrepository/model/LiferayModel.java": [
+      "portal-kernel/src/com/liferay/expando/kernel/model/ExpandoBridge.java"
+    ],
+    "portal-impl/src/com/liferay/portal/security/permission/DoAsUserThread.java": [
+      "portal-kernel/src/com/liferay/portal/kernel/log/Log.java",
+      "portal-kernel/src/com/liferay/portal/kernel/log/LogFactoryUtil.java",
+      "portal-kernel/src/com/liferay/portal/kernel/model/User.java",
+      "portal-kernel/src/com/liferay/portal/kernel/security/auth/CompanyThreadLocal.java",
+      "portal-kernel/src/com/liferay/portal/kernel/security/auth/PrincipalThreadLocal.java",
+      "portal-kernel/src/com/liferay/portal/kernel/security/permission/PermissionCheckerFactoryUtil.java",
+      "portal-kernel/src/com/liferay/portal/kernel/security/permission/PermissionThreadLocal.java",
+      "portal-kernel/src/com/liferay/portal/kernel/service/UserLocalServiceUtil.java"
+    ],
+    "portal-impl/src/com/liferay/portal/security/permission/GroupModelListener.java": [
+      "portal-kernel/src/com/liferay/portal/kernel/model/BaseModelListener.java",
+      "portal-kernel/src/com/liferay/portal/kernel/model/Group.java",
+      "portal-kernel/src/com/liferay/portal/kernel/model/User.java"
+    ],
+    "portal-impl/src/com/liferay/portal/security/permission/ResourcePermissionModelListener.java": [
+      "portal-impl/src/com/liferay/portal/model/impl/ResourcePermissionModelImpl.java",
+      "portal-kernel/src/com/liferay/portal/kernel/model/BaseModelListener.java",
+      "portal-kernel/src/com/liferay/portal/kernel/model/ResourcePermission.java"
+    ],
+    "portal-impl/src/com/liferay/portal/security/permission/TeamModelListener.java": [
+      "portal-kernel/src/com/liferay/portal/kernel/model/BaseModelListener.java",
+      "portal-kernel/src/com/liferay/portal/kernel/model/Team.java",
+      "portal-kernel/src/com/liferay/portal/kernel/model/User.java"
+    ],
+    "portal-impl/src/com/liferay/portal/security/permission/UserGroupGroupRoleModelListener.java": [
+      "portal-kernel/src/com/liferay/portal/kernel/model/BaseModelListener.java",
+      "portal-kernel/src/com/liferay/portal/kernel/model/UserGroupGroupRole.java"
+    ],
+    "portal-impl/src/com/liferay/portal/security/permission/UserGroupRoleModelListener.java": [
+      "portal-impl/src/com/liferay/portal/model/impl/UserGroupRoleModelImpl.java",
+      "portal-kernel/src/com/liferay/portal/kernel/exception/ModelListenerException.java",
+      "portal-kernel/src/com/liferay/portal/kernel/model/BaseModelListener.java",
+      "portal-kernel/src/com/liferay/portal/kernel/model/User.java",
+      "portal-kernel/src/com/liferay/portal/kernel/model/UserGroupRole.java",
+      "portal-kernel/src/com/liferay/portal/kernel/search/Indexer.java",
+      "portal-kernel/src/com/liferay/portal/kernel/search/IndexerRegistryUtil.java",
+      "portal-kernel/src/com/liferay/portal/kernel/search/SearchException.java"
+    ],
+    "portal-impl/src/com/liferay/portal/security/permission/UserModelListener.java": [
+      "portal-kernel/src/com/liferay/portal/kernel/model/BaseModelListener.java",
+      "portal-kernel/src/com/liferay/portal/kernel/model/User.java"
+    ],
+    "portal-impl/src/com/liferay/portal/service/impl/CompanyInfoLocalServiceImpl.java": [
+      "portal-kernel/src/com/liferay/portal/kernel/model/CompanyInfo.java"
+    ],
+    "portal-impl/src/com/liferay/portal/service/impl/EmailAddressServiceImpl.java": [
+      "portal-impl/src/com/liferay/portal/service/permission/CommonPermissionUtil.java",
+      "portal-kernel/src/com/liferay/portal/kernel/exception/PortalException.java",
+      "portal-kernel/src/com/liferay/portal/kernel/model/EmailAddress.java",
+      "portal-kernel/src/com/liferay/portal/kernel/model/User.java",
+      "portal-kernel/src/com/liferay/portal/kernel/security/permission/ActionKeys.java",
+      "portal-kernel/src/com/liferay/portal/kernel/service/ServiceContext.java"
+    ],
+    "portal-impl/src/com/liferay/portal/service/impl/LayoutPrototypeServiceImpl.java": [
+      "portal-impl/src/com/liferay/portal/service/permission/LayoutPrototypePermissionUtil.java",
+      "portal-kernel/src/com/liferay/portal/kernel/dao/orm/QueryUtil.java",
+      "portal-kernel/src/com/liferay/portal/kernel/exception/PortalException.java",
+      "portal-kernel/src/com/liferay/portal/kernel/model/LayoutPrototype.java",
+      "portal-kernel/src/com/liferay/portal/kernel/model/User.java",
+      "portal-kernel/src/com/liferay/portal/kernel/security/permission/ActionKeys.java",
+      "portal-kernel/src/com/liferay/portal/kernel/service/permission/PortalPermissionUtil.java",
+      "portal-kernel/src/com/liferay/portal/kernel/service/ServiceContext.java",
+      "portal-kernel/src/com/liferay/portal/kernel/util/OrderByComparator.java"
+    ],
+    "portal-impl/src/com/liferay/portal/service/impl/PhoneServiceImpl.java": [
+      "portal-impl/src/com/liferay/portal/service/permission/CommonPermissionUtil.java",
+      "portal-kernel/src/com/liferay/portal/kernel/exception/PortalException.java",
+      "portal-kernel/src/com/liferay/portal/kernel/model/Phone.java",
+      "portal-kernel/src/com/liferay/portal/kernel/model/User.java",
+      "portal-kernel/src/com/liferay/portal/kernel/security/permission/ActionKeys.java",
+      "portal-kernel/src/com/liferay/portal/kernel/service/ServiceContext.java"
+    ],
+    "portal-impl/src/com/liferay/portal/service/impl/UserTrackerLocalServiceImpl.java": [
+      "portal-impl/src/com/liferay/portal/util/PropsValues.java",
+      "portal-kernel/src/com/liferay/portal/kernel/bean/BeanReference.java",
+      "portal-kernel/src/com/liferay/portal/kernel/exception/PortalException.java",
+      "portal-kernel/src/com/liferay/portal/kernel/model/UserTracker.java",
+      "portal-kernel/src/com/liferay/portal/kernel/model/UserTrackerPath.java",
+      "portal-kernel/src/com/liferay/portal/kernel/service/persistence/UserTrackerPathPersistence.java"
+    ],
+    "portal-impl/src/com/liferay/portal/service/impl/UserTrackerPathLocalServiceImpl.java": [
+      "portal-kernel/src/com/liferay/portal/kernel/model/UserTrackerPath.java"
+    ],
+    "portal-impl/src/com/liferay/portal/service/impl/WebsiteServiceImpl.java": [
+      "portal-impl/src/com/liferay/portal/service/permission/CommonPermissionUtil.java",
+      "portal-kernel/src/com/liferay/portal/kernel/exception/PortalException.java",
+      "portal-kernel/src/com/liferay/portal/kernel/model/User.java",
+      "portal-kernel/src/com/liferay/portal/kernel/model/Website.java",
+      "portal-kernel/src/com/liferay/portal/kernel/security/permission/ActionKeys.java",
+      "portal-kernel/src/com/liferay/portal/kernel/service/ServiceContext.java"
+    ],
+    "portal-impl/src/com/liferay/portal/service/persistence/impl/PluginSettingModelArgumentsResolver.java": [
+      "portal-impl/src/com/liferay/portal/model/impl/PluginSettingImpl.java",
+      "portal-impl/src/com/liferay/portal/model/impl/PluginSettingModelImpl.java",
+      "portal-kernel/src/com/liferay/portal/kernel/dao/orm/ArgumentsResolver.java",
+      "portal-kernel/src/com/liferay/portal/kernel/dao/orm/FinderPath.java",
+      "portal-kernel/src/com/liferay/portal/kernel/model/BaseModel.java",
+      "portal-kernel/src/com/liferay/portal/kernel/model/PluginSettingTable.java",
+      "portal-kernel/src/com/liferay/portal/kernel/spring/osgi/OSGiBeanProperties.java"
+    ],
+    "portal-impl/src/com/liferay/portal/service/persistence/impl/UserTrackerModelArgumentsResolver.java": [
+      "portal-impl/src/com/liferay/portal/model/impl/UserTrackerImpl.java",
+      "portal-impl/src/com/liferay/portal/model/impl/UserTrackerModelImpl.java",
+      "portal-kernel/src/com/liferay/portal/kernel/dao/orm/ArgumentsResolver.java",
+      "portal-kernel/src/com/liferay/portal/kernel/dao/orm/FinderPath.java",
+      "portal-kernel/src/com/liferay/portal/kernel/model/BaseModel.java",
+      "portal-kernel/src/com/liferay/portal/kernel/model/UserTrackerTable.java",
+      "portal-kernel/src/com/liferay/portal/kernel/spring/osgi/OSGiBeanProperties.java"
+    ],
+    "portal-impl/src/com/liferay/portal/servlet/UserResolver.java": [
+      "portal-impl/src/com/liferay/portal/util/PortalInstances.java",
+      "portal-kernel/src/com/liferay/portal/kernel/exception/PortalException.java",
+      "portal-kernel/src/com/liferay/portal/kernel/model/User.java",
+      "portal-kernel/src/com/liferay/portal/kernel/security/auth/PrincipalThreadLocal.java",
+      "portal-kernel/src/com/liferay/portal/kernel/service/UserLocalServiceUtil.java",
+      "portal-kernel/src/com/liferay/portal/kernel/util/GetterUtil.java",
+      "portal-kernel/src/com/liferay/portal/kernel/util/ParamUtil.java"
+    ],
+    "portal-impl/src/com/liferay/portal/servlet/delegate/ServletContextDelegate.java": [
+      "portal-kernel/src/com/liferay/portal/kernel/util/ProxyUtil.java"
+    ],
+    "portal-impl/src/com/liferay/portal/servlet/filters/etag/ETagUtil.java": [
+      "portal-kernel/src/com/liferay/portal/kernel/servlet/HttpHeaders.java",
+      "portal-kernel/src/com/liferay/portal/kernel/util/StringUtil.java"
+    ],
+    "portal-impl/src/com/liferay/portal/spring/aop/BeanMatcher.java": [],
+    "portal-impl/src/com/liferay/portal/spring/hibernate/CTModelIntegrator.java": [
+      "portal-impl/src/com/liferay/portal/change/tracking/registry/CTModelRegistration.java",
+      "portal-impl/src/com/liferay/portal/change/tracking/registry/CTModelRegistry.java",
+      "portal-impl/src/com/liferay/portal/internal/change/tracking/hibernate/CTSQLInterceptor.java",
+      "portal-kernel/src/com/liferay/portal/kernel/change/tracking/CTCollectionThreadLocal.java",
+      "portal-kernel/src/com/liferay/portal/kernel/log/Log.java",
+      "portal-kernel/src/com/liferay/portal/kernel/log/LogFactoryUtil.java",
+      "portal-kernel/src/com/liferay/portal/kernel/model/BaseModel.java",
+      "portal-kernel/src/com/liferay/portal/kernel/model/change/tracking/CTModel.java",
+      "portal-kernel/src/com/liferay/portal/kernel/model/impl/BaseModelImpl.java"
+    ],
+    "portal-impl/src/com/liferay/portal/spring/hibernate/GlobalEventListenerIntegrator.java": [
+      "portal-impl/src/com/liferay/portal/dao/orm/hibernate/event/ResetOriginalValuesLoadEventListener.java",
+      "portal-impl/src/com/liferay/portal/dao/orm/hibernate/event/ResetOriginalValuesPostLoadEventListener.java"
+    ],
+    "portal-impl/src/com/liferay/portal/spring/hibernate/MVCCEventListenerIntegrator.java": [
+      "portal-impl/src/com/liferay/portal/dao/orm/hibernate/event/MVCCSynchronizerPostUpdateEventListener.java"
+    ]
+  }
+}

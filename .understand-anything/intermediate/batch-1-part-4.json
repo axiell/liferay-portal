@@ -1,0 +1,696 @@
+{
+  "nodes": [
+    {
+      "id": "file:portal-impl/src/com/liferay/portal/dao/jdbc/LiferayPoolProvider.java",
+      "type": "file",
+      "name": "LiferayPoolProvider",
+      "filePath": "portal-impl/src/com/liferay/portal/dao/jdbc/LiferayPoolProvider.java",
+      "summary": "LiferayPoolProvider in the persistence/DAO layer",
+      "tags": [
+        "java",
+        "dao",
+        "persistence"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "file:portal-impl/src/com/liferay/portal/dao/jdbc/DataSourceFactoryBean.java",
+      "type": "file",
+      "name": "DataSourceFactoryBean",
+      "filePath": "portal-impl/src/com/liferay/portal/dao/jdbc/DataSourceFactoryBean.java",
+      "summary": "DataSourceFactoryBean in the persistence/DAO layer",
+      "tags": [
+        "java",
+        "dao",
+        "persistence"
+      ],
+      "complexity": "medium"
+    },
+    {
+      "id": "file:portal-impl/src/com/liferay/portal/dao/jdbc/SpringDataSourceFactoryBean.java",
+      "type": "file",
+      "name": "SpringDataSourceFactoryBean",
+      "filePath": "portal-impl/src/com/liferay/portal/dao/jdbc/SpringDataSourceFactoryBean.java",
+      "summary": "SpringDataSourceFactoryBean in the persistence/DAO layer",
+      "tags": [
+        "java",
+        "dao",
+        "persistence"
+      ],
+      "complexity": "medium"
+    },
+    {
+      "id": "file:portal-impl/src/com/liferay/portal/dao/jdbc/pool/DataAccess.java",
+      "type": "file",
+      "name": "DataAccess",
+      "filePath": "portal-impl/src/com/liferay/portal/dao/jdbc/pool/DataAccess.java",
+      "summary": "DataAccess in the persistence/DAO layer",
+      "tags": [
+        "java",
+        "dao",
+        "persistence"
+      ],
+      "complexity": "medium"
+    },
+    {
+      "id": "file:portal-impl/src/com/liferay/portal/dao/jdbc/pool/KeyedObjectPool.java",
+      "type": "file",
+      "name": "KeyedObjectPool",
+      "filePath": "portal-impl/src/com/liferay/portal/dao/jdbc/pool/KeyedObjectPool.java",
+      "summary": "KeyedObjectPool in the persistence/DAO layer",
+      "tags": [
+        "java",
+        "dao",
+        "persistence"
+      ],
+      "complexity": "medium"
+    },
+    {
+      "id": "file:portal-impl/src/com/liferay/portal/dao/jdbc/pool/KeyedObjectPoolStats.java",
+      "type": "file",
+      "name": "KeyedObjectPoolStats",
+      "filePath": "portal-impl/src/com/liferay/portal/dao/jdbc/pool/KeyedObjectPoolStats.java",
+      "summary": "KeyedObjectPoolStats in the persistence/DAO layer",
+      "tags": [
+        "java",
+        "dao",
+        "persistence"
+      ],
+      "complexity": "medium"
+    },
+    {
+      "id": "file:portal-impl/src/com/liferay/portal/dao/jdbc/pool/KeyedObjectPoolWrapper.java",
+      "type": "file",
+      "name": "KeyedObjectPoolWrapper",
+      "filePath": "portal-impl/src/com/liferay/portal/dao/jdbc/pool/KeyedObjectPoolWrapper.java",
+      "summary": "KeyedObjectPoolWrapper in the persistence/DAO layer",
+      "tags": [
+        "java",
+        "dao",
+        "persistence"
+      ],
+      "complexity": "medium"
+    },
+    {
+      "id": "file:portal-impl/src/com/liferay/portal/dao/jdbc/pool/NoOpObjectPoolWrapper.java",
+      "type": "file",
+      "name": "NoOpObjectPoolWrapper",
+      "filePath": "portal-impl/src/com/liferay/portal/dao/jdbc/pool/NoOpObjectPoolWrapper.java",
+      "summary": "NoOpObjectPoolWrapper in the persistence/DAO layer",
+      "tags": [
+        "java",
+        "dao",
+        "persistence"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "file:portal-impl/src/com/liferay/portal/dao/jdbc/pool/ObjectPoolWrapper.java",
+      "type": "file",
+      "name": "ObjectPoolWrapper",
+      "filePath": "portal-impl/src/com/liferay/portal/dao/jdbc/pool/ObjectPoolWrapper.java",
+      "summary": "ObjectPoolWrapper in the persistence/DAO layer",
+      "tags": [
+        "java",
+        "dao",
+        "persistence"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "file:portal-impl/src/com/liferay/portal/dao/jdbc/pool/PropertiesPool.java",
+      "type": "file",
+      "name": "PropertiesPool",
+      "filePath": "portal-impl/src/com/liferay/portal/dao/jdbc/pool/PropertiesPool.java",
+      "summary": "PropertiesPool in the persistence/DAO layer",
+      "tags": [
+        "java",
+        "dao",
+        "persistence"
+      ],
+      "complexity": "medium"
+    },
+    {
+      "id": "file:portal-impl/src/com/liferay/portal/dao/jdbc/pool/RetryDataSource.java",
+      "type": "file",
+      "name": "RetryDataSource",
+      "filePath": "portal-impl/src/com/liferay/portal/dao/jdbc/pool/RetryDataSource.java",
+      "summary": "RetryDataSource in the persistence/DAO layer",
+      "tags": [
+        "java",
+        "dao",
+        "persistence"
+      ],
+      "complexity": "medium"
+    },
+    {
+      "id": "file:portal-impl/src/com/liferay/portal/dao/jdbc/pool/RetryDataSourceWrapper.java",
+      "type": "file",
+      "name": "RetryDataSourceWrapper",
+      "filePath": "portal-impl/src/com/liferay/portal/dao/jdbc/pool/RetryDataSourceWrapper.java",
+      "summary": "RetryDataSourceWrapper in the persistence/DAO layer",
+      "tags": [
+        "java",
+        "dao",
+        "persistence"
+      ],
+      "complexity": "medium"
+    },
+    {
+      "id": "file:portal-impl/src/com/liferay/portal/dao/orm/common/BaseSQLTransformer.java",
+      "type": "file",
+      "name": "BaseSQLTransformer",
+      "filePath": "portal-impl/src/com/liferay/portal/dao/orm/common/BaseSQLTransformer.java",
+      "summary": "BaseSQLTransformer in the persistence/DAO layer",
+      "tags": [
+        "java",
+        "dao",
+        "persistence"
+      ],
+      "complexity": "medium"
+    },
+    {
+      "id": "file:portal-impl/src/com/liferay/portal/dao/orm/common/FactoryComparator.java",
+      "type": "file",
+      "name": "FactoryComparator",
+      "filePath": "portal-impl/src/com/liferay/portal/dao/orm/common/FactoryComparator.java",
+      "summary": "FactoryComparator in the persistence/DAO layer",
+      "tags": [
+        "java",
+        "dao",
+        "persistence"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "file:portal-impl/src/com/liferay/portal/dao/orm/common/FinderCacheImpl.java",
+      "type": "file",
+      "name": "FinderCacheImpl",
+      "filePath": "portal-impl/src/com/liferay/portal/dao/orm/common/FinderCacheImpl.java",
+      "summary": "FinderCacheImpl in the persistence/DAO layer",
+      "tags": [
+        "java",
+        "dao",
+        "persistence"
+      ],
+      "complexity": "high"
+    },
+    {
+      "id": "file:portal-impl/src/com/liferay/portal/dao/orm/common/SQLTransformerAdvice.java",
+      "type": "file",
+      "name": "SQLTransformerAdvice",
+      "filePath": "portal-impl/src/com/liferay/portal/dao/orm/common/SQLTransformerAdvice.java",
+      "summary": "SQLTransformerAdvice in the persistence/DAO layer",
+      "tags": [
+        "java",
+        "dao",
+        "persistence"
+      ],
+      "complexity": "medium"
+    },
+    {
+      "id": "file:portal-impl/src/com/liferay/portal/dao/orm/common/SQLTransformerOracle.java",
+      "type": "file",
+      "name": "SQLTransformerOracle",
+      "filePath": "portal-impl/src/com/liferay/portal/dao/orm/common/SQLTransformerOracle.java",
+      "summary": "SQLTransformerOracle in the persistence/DAO layer",
+      "tags": [
+        "java",
+        "dao",
+        "persistence"
+      ],
+      "complexity": "high"
+    }
+  ],
+  "edges": [
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/dao/jdbc/LiferayPoolProvider.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/util/ProxyFactory.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/dao/jdbc/DataSourceFactoryBean.java",
+      "target": "file:portal-impl/src/com/liferay/portal/dao/jdbc/DataSourceFactory.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/dao/jdbc/DataSourceFactoryBean.java",
+      "target": "file:portal-impl/src/com/liferay/portal/spring/util/SpringFactoryUtil.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/dao/jdbc/DataSourceFactoryBean.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/dao/jdbc/DataSourceFactory.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/dao/jdbc/DataSourceFactoryBean.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/spring/util/SpringFactory.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/dao/jdbc/DataSourceFactoryBean.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/util/Base64.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/dao/jdbc/SpringDataSourceFactoryBean.java",
+      "target": "file:portal-impl/src/com/liferay/portal/dao/jdbc/DataSourceFactory.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/dao/jdbc/SpringDataSourceFactoryBean.java",
+      "target": "file:portal-impl/src/com/liferay/portal/dao/jdbc/DataSourceFactoryBean.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/dao/jdbc/SpringDataSourceFactoryBean.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/dao/jdbc/DataSourceFactory.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/dao/jdbc/SpringDataSourceFactoryBean.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/log/Log.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/dao/jdbc/SpringDataSourceFactoryBean.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/log/LogFactoryUtil.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/dao/jdbc/pool/DataAccess.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/dao/jdbc/CurrentConnection.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/dao/jdbc/pool/DataAccess.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/dao/jdbc/DataSourceFactory.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/dao/jdbc/pool/DataAccess.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/dao/jdbc/pool/MetricsPool.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/dao/jdbc/pool/DataAccess.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/log/Log.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/dao/jdbc/pool/DataAccess.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/log/LogFactoryUtil.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/dao/jdbc/pool/DataAccess.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/util/GetterUtil.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/dao/jdbc/pool/DataAccess.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/util/PropsUtil.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/dao/jdbc/pool/KeyedObjectPool.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/dao/jdbc/pool/MetricsPool.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/dao/jdbc/pool/KeyedObjectPool.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/log/Log.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/dao/jdbc/pool/KeyedObjectPool.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/log/LogFactoryUtil.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/dao/jdbc/pool/KeyedObjectPoolStats.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/dao/jdbc/pool/MetricsPool.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/dao/jdbc/pool/KeyedObjectPoolStats.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/log/LogFactoryUtil.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/dao/jdbc/pool/KeyedObjectPoolWrapper.java",
+      "target": "file:portal-impl/src/com/liferay/portal/dao/jdbc/pool/KeyedObjectPool.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/dao/jdbc/pool/KeyedObjectPoolWrapper.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/dao/jdbc/pool/MetricsPool.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/dao/jdbc/pool/NoOpObjectPoolWrapper.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/dao/jdbc/pool/MetricsPool.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/dao/jdbc/pool/ObjectPoolWrapper.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/dao/jdbc/pool/MetricsPool.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/dao/jdbc/pool/PropertiesPool.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/dao/jdbc/pool/MetricsPool.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/dao/jdbc/pool/RetryDataSource.java",
+      "target": "file:portal-impl/src/com/liferay/portal/dao/jdbc/pool/RetryDataSourceWrapper.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/dao/jdbc/pool/RetryDataSourceWrapper.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/dao/jdbc/pool/MetricsPool.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/dao/orm/common/BaseSQLTransformer.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/dao/db/DB.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/dao/orm/common/BaseSQLTransformer.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/dao/db/DBManagerUtil.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/dao/orm/common/BaseSQLTransformer.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/dao/db/DBType.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/dao/orm/common/BaseSQLTransformer.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/log/Log.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/dao/orm/common/BaseSQLTransformer.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/log/LogFactoryUtil.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/dao/orm/common/BaseSQLTransformer.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/util/Validator.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/dao/orm/common/FactoryComparator.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/util/OrderByComparator.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/dao/orm/common/FinderCacheImpl.java",
+      "target": "file:portal-impl/src/com/liferay/portal/dao/orm/common/SQLTransformer.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/dao/orm/common/FinderCacheImpl.java",
+      "target": "file:portal-impl/src/com/liferay/portal/service/impl/CompanyLocalServiceImpl.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/dao/orm/common/FinderCacheImpl.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/bean/BeanPropertiesUtil.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/dao/orm/common/FinderCacheImpl.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/cache/MultiVMPool.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/dao/orm/common/FinderCacheImpl.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/cache/MultiVMPoolUtil.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/dao/orm/common/FinderCacheImpl.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/cache/key/CacheKeyGeneratorUtil.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/dao/orm/common/FinderCacheImpl.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/cache/thread/local/ThreadLocalCacheManager.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/dao/orm/common/FinderCacheImpl.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/dao/orm/FinderCache.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/dao/orm/common/FinderCacheImpl.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/dao/orm/FinderPath.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/dao/orm/common/FinderCacheImpl.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/dao/orm/ORMEnabledUtil.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/dao/orm/common/FinderCacheImpl.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/log/Log.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/dao/orm/common/FinderCacheImpl.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/log/LogFactoryUtil.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/dao/orm/common/FinderCacheImpl.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/util/ArrayUtil.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/dao/orm/common/FinderCacheImpl.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/util/GetterUtil.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/dao/orm/common/FinderCacheImpl.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/util/PropsUtil.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/dao/orm/common/FinderCacheImpl.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/util/StringBundler.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/dao/orm/common/FinderCacheImpl.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/util/StringUtil.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/dao/orm/common/FinderCacheImpl.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/util/Validator.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/dao/orm/common/SQLTransformerAdvice.java",
+      "target": "file:portal-impl/src/com/liferay/portal/dao/orm/common/SQLTransformer.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/dao/orm/common/SQLTransformerAdvice.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/dao/orm/ORMEnabledUtil.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/dao/orm/common/SQLTransformerAdvice.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/dao/orm/ORMException.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/dao/orm/common/SQLTransformerAdvice.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/log/Log.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/dao/orm/common/SQLTransformerAdvice.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/log/LogFactoryUtil.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/dao/orm/common/SQLTransformerOracle.java",
+      "target": "file:portal-impl/src/com/liferay/portal/dao/orm/common/BaseSQLTransformer.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/dao/orm/common/SQLTransformerOracle.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/dao/db/DB.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/dao/orm/common/SQLTransformerOracle.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/dao/db/DBType.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/dao/orm/common/SQLTransformerOracle.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/log/Log.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/dao/orm/common/SQLTransformerOracle.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/log/LogFactoryUtil.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/dao/orm/common/SQLTransformerOracle.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/util/StringUtil.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/dao/orm/common/SQLTransformerOracle.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/util/Validator.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    }
+  ]
+}

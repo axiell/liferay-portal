@@ -1,1548 +1,1469 @@
 {
   "nodes": [
     {
-      "id": "function:portal-impl/src/com/liferay/portal/model/impl/RecentLayoutRevisionCacheModel.java:equals",
-      "type": "function",
-      "name": "equals",
-      "filePath": "portal-impl/src/com/liferay/portal/model/impl/RecentLayoutRevisionCacheModel.java",
-      "summary": "Exported function equals",
-      "tags": [
-        "java",
-        "function",
-        "exported"
-      ],
-      "complexity": "medium"
-    },
-    {
-      "id": "function:portal-impl/src/com/liferay/portal/model/impl/RecentLayoutRevisionCacheModel.java:hashCode",
-      "type": "function",
-      "name": "hashCode",
-      "filePath": "portal-impl/src/com/liferay/portal/model/impl/RecentLayoutRevisionCacheModel.java",
-      "summary": "Exported function hashCode",
-      "tags": [
-        "java",
-        "function",
-        "exported"
-      ],
-      "complexity": "low"
-    },
-    {
-      "id": "function:portal-impl/src/com/liferay/portal/model/impl/RecentLayoutRevisionCacheModel.java:getMvccVersion",
-      "type": "function",
-      "name": "getMvccVersion",
-      "filePath": "portal-impl/src/com/liferay/portal/model/impl/RecentLayoutRevisionCacheModel.java",
-      "summary": "Exported function getMvccVersion",
-      "tags": [
-        "java",
-        "function",
-        "exported"
-      ],
-      "complexity": "low"
-    },
-    {
-      "id": "function:portal-impl/src/com/liferay/portal/model/impl/RecentLayoutRevisionCacheModel.java:setMvccVersion",
-      "type": "function",
-      "name": "setMvccVersion",
-      "filePath": "portal-impl/src/com/liferay/portal/model/impl/RecentLayoutRevisionCacheModel.java",
-      "summary": "Exported function setMvccVersion",
-      "tags": [
-        "java",
-        "function",
-        "exported"
-      ],
-      "complexity": "low"
-    },
-    {
-      "id": "function:portal-impl/src/com/liferay/portal/model/impl/RecentLayoutRevisionCacheModel.java:toString",
-      "type": "function",
-      "name": "toString",
-      "filePath": "portal-impl/src/com/liferay/portal/model/impl/RecentLayoutRevisionCacheModel.java",
-      "summary": "Exported function toString",
-      "tags": [
-        "java",
-        "function",
-        "exported"
-      ],
-      "complexity": "medium"
-    },
-    {
-      "id": "function:portal-impl/src/com/liferay/portal/model/impl/RecentLayoutRevisionCacheModel.java:toEntityModel",
-      "type": "function",
-      "name": "toEntityModel",
-      "filePath": "portal-impl/src/com/liferay/portal/model/impl/RecentLayoutRevisionCacheModel.java",
-      "summary": "Exported function toEntityModel",
-      "tags": [
-        "java",
-        "function",
-        "exported"
-      ],
-      "complexity": "medium"
-    },
-    {
-      "id": "function:portal-impl/src/com/liferay/portal/model/impl/RecentLayoutRevisionCacheModel.java:readExternal",
-      "type": "function",
-      "name": "readExternal",
-      "filePath": "portal-impl/src/com/liferay/portal/model/impl/RecentLayoutRevisionCacheModel.java",
-      "summary": "Exported function readExternal",
-      "tags": [
-        "java",
-        "function",
-        "exported"
-      ],
-      "complexity": "medium"
-    },
-    {
-      "id": "function:portal-impl/src/com/liferay/portal/model/impl/RecentLayoutRevisionCacheModel.java:writeExternal",
-      "type": "function",
-      "name": "writeExternal",
-      "filePath": "portal-impl/src/com/liferay/portal/model/impl/RecentLayoutRevisionCacheModel.java",
-      "summary": "Exported function writeExternal",
-      "tags": [
-        "java",
-        "function",
-        "exported"
-      ],
-      "complexity": "medium"
-    },
-    {
-      "id": "file:portal-impl/src/com/liferay/portal/model/impl/RecentLayoutSetBranchBaseImpl.java",
+      "id": "file:portal-impl/src/com/liferay/portal/format/USAPhoneNumberFormatImpl.java",
       "type": "file",
-      "name": "RecentLayoutSetBranchBaseImpl.java",
-      "filePath": "portal-impl/src/com/liferay/portal/model/impl/RecentLayoutSetBranchBaseImpl.java",
-      "summary": "RecentLayoutSetBranch entity implementation in Liferay portal",
+      "name": "USAPhoneNumberFormatImpl.java",
+      "filePath": "portal-impl/src/com/liferay/portal/format/USAPhoneNumberFormatImpl.java",
+      "summary": "US phone number formatter that validates and formats 10-digit US numbers with configurable extensions.",
       "tags": [
-        "java",
-        "code",
-        "base-impl",
-        "service-builder"
+        "formatting",
+        "implementation"
       ],
-      "complexity": "low"
+      "complexity": "moderate"
     },
     {
-      "id": "class:portal-impl/src/com/liferay/portal/model/impl/RecentLayoutSetBranchBaseImpl.java:RecentLayoutSetBranchBaseImpl",
-      "type": "class",
-      "name": "RecentLayoutSetBranchBaseImpl",
-      "filePath": "portal-impl/src/com/liferay/portal/model/impl/RecentLayoutSetBranchBaseImpl.java",
-      "summary": "RecentLayoutSetBranchBaseImpl class with 1 methods",
-      "tags": [
-        "java",
-        "class",
-        "methods:1"
-      ],
-      "complexity": "low"
-    },
-    {
-      "id": "function:portal-impl/src/com/liferay/portal/model/impl/RecentLayoutSetBranchBaseImpl.java:persist",
+      "id": "function:portal-impl/src/com/liferay/portal/format/USAPhoneNumberFormatImpl.java:format",
       "type": "function",
-      "name": "persist",
-      "filePath": "portal-impl/src/com/liferay/portal/model/impl/RecentLayoutSetBranchBaseImpl.java",
-      "summary": "Exported function persist",
-      "tags": [
-        "java",
-        "function",
-        "exported"
+      "name": "format",
+      "filePath": "portal-impl/src/com/liferay/portal/format/USAPhoneNumberFormatImpl.java",
+      "lineRange": [
+        21,
+        46
       ],
-      "complexity": "low"
+      "summary": "Method format in USAPhoneNumberFormatImpl",
+      "tags": [
+        "method"
+      ],
+      "complexity": "moderate"
     },
     {
-      "id": "file:portal-impl/src/com/liferay/portal/model/impl/RecentLayoutSetBranchCacheModel.java",
+      "id": "class:portal-impl/src/com/liferay/portal/format/USAPhoneNumberFormatImpl.java:USAPhoneNumberFormatImpl",
+      "type": "class",
+      "name": "USAPhoneNumberFormatImpl",
+      "filePath": "portal-impl/src/com/liferay/portal/format/USAPhoneNumberFormatImpl.java",
+      "lineRange": [
+        19,
+        62
+      ],
+      "summary": "Class USAPhoneNumberFormatImpl with 3 methods for USAPhoneNumberFormatImpl.",
+      "tags": [
+        "class",
+        "implementation",
+        "implementation"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:portal-impl/src/com/liferay/portal/format/util/PhoneNumberFormatUtil.java",
       "type": "file",
-      "name": "RecentLayoutSetBranchCacheModel.java",
-      "filePath": "portal-impl/src/com/liferay/portal/model/impl/RecentLayoutSetBranchCacheModel.java",
-      "summary": "RecentLayoutSetBranch entity implementation in Liferay portal",
+      "name": "PhoneNumberFormatUtil.java",
+      "filePath": "portal-impl/src/com/liferay/portal/format/util/PhoneNumberFormatUtil.java",
+      "summary": "Utility providing phone number format/validate/strip operations by delegating to either US or International formatter based on configured format.",
       "tags": [
-        "java",
-        "code",
-        "cache-model",
-        "serialization"
+        "utility",
+        "formatting",
+        "implementation"
       ],
-      "complexity": "high"
+      "complexity": "simple"
     },
     {
-      "id": "class:portal-impl/src/com/liferay/portal/model/impl/RecentLayoutSetBranchCacheModel.java:RecentLayoutSetBranchCacheModel",
+      "id": "function:portal-impl/src/com/liferay/portal/format/util/PhoneNumberFormatUtil.java:validate",
+      "type": "function",
+      "name": "validate",
+      "filePath": "portal-impl/src/com/liferay/portal/format/util/PhoneNumberFormatUtil.java",
+      "lineRange": [
+        39,
+        51
+      ],
+      "summary": "Method validate in PhoneNumberFormatUtil",
+      "tags": [
+        "method"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:portal-impl/src/com/liferay/portal/format/util/PhoneNumberFormatUtil.java:PhoneNumberFormatUtil",
       "type": "class",
-      "name": "RecentLayoutSetBranchCacheModel",
-      "filePath": "portal-impl/src/com/liferay/portal/model/impl/RecentLayoutSetBranchCacheModel.java",
-      "summary": "RecentLayoutSetBranchCacheModel class with 8 methods",
+      "name": "PhoneNumberFormatUtil",
+      "filePath": "portal-impl/src/com/liferay/portal/format/util/PhoneNumberFormatUtil.java",
+      "lineRange": [
+        17,
+        60
+      ],
+      "summary": "Class PhoneNumberFormatUtil with 4 methods for PhoneNumberFormatUtil.",
       "tags": [
-        "java",
         "class",
-        "methods:8"
+        "implementation"
       ],
-      "complexity": "high"
+      "complexity": "simple"
     },
     {
-      "id": "function:portal-impl/src/com/liferay/portal/model/impl/RecentLayoutSetBranchCacheModel.java:equals",
-      "type": "function",
-      "name": "equals",
-      "filePath": "portal-impl/src/com/liferay/portal/model/impl/RecentLayoutSetBranchCacheModel.java",
-      "summary": "Exported function equals",
-      "tags": [
-        "java",
-        "function",
-        "exported"
-      ],
-      "complexity": "medium"
-    },
-    {
-      "id": "function:portal-impl/src/com/liferay/portal/model/impl/RecentLayoutSetBranchCacheModel.java:hashCode",
-      "type": "function",
-      "name": "hashCode",
-      "filePath": "portal-impl/src/com/liferay/portal/model/impl/RecentLayoutSetBranchCacheModel.java",
-      "summary": "Exported function hashCode",
-      "tags": [
-        "java",
-        "function",
-        "exported"
-      ],
-      "complexity": "low"
-    },
-    {
-      "id": "function:portal-impl/src/com/liferay/portal/model/impl/RecentLayoutSetBranchCacheModel.java:getMvccVersion",
-      "type": "function",
-      "name": "getMvccVersion",
-      "filePath": "portal-impl/src/com/liferay/portal/model/impl/RecentLayoutSetBranchCacheModel.java",
-      "summary": "Exported function getMvccVersion",
-      "tags": [
-        "java",
-        "function",
-        "exported"
-      ],
-      "complexity": "low"
-    },
-    {
-      "id": "function:portal-impl/src/com/liferay/portal/model/impl/RecentLayoutSetBranchCacheModel.java:setMvccVersion",
-      "type": "function",
-      "name": "setMvccVersion",
-      "filePath": "portal-impl/src/com/liferay/portal/model/impl/RecentLayoutSetBranchCacheModel.java",
-      "summary": "Exported function setMvccVersion",
-      "tags": [
-        "java",
-        "function",
-        "exported"
-      ],
-      "complexity": "low"
-    },
-    {
-      "id": "function:portal-impl/src/com/liferay/portal/model/impl/RecentLayoutSetBranchCacheModel.java:toString",
-      "type": "function",
-      "name": "toString",
-      "filePath": "portal-impl/src/com/liferay/portal/model/impl/RecentLayoutSetBranchCacheModel.java",
-      "summary": "Exported function toString",
-      "tags": [
-        "java",
-        "function",
-        "exported"
-      ],
-      "complexity": "medium"
-    },
-    {
-      "id": "function:portal-impl/src/com/liferay/portal/model/impl/RecentLayoutSetBranchCacheModel.java:toEntityModel",
-      "type": "function",
-      "name": "toEntityModel",
-      "filePath": "portal-impl/src/com/liferay/portal/model/impl/RecentLayoutSetBranchCacheModel.java",
-      "summary": "Exported function toEntityModel",
-      "tags": [
-        "java",
-        "function",
-        "exported"
-      ],
-      "complexity": "medium"
-    },
-    {
-      "id": "function:portal-impl/src/com/liferay/portal/model/impl/RecentLayoutSetBranchCacheModel.java:readExternal",
-      "type": "function",
-      "name": "readExternal",
-      "filePath": "portal-impl/src/com/liferay/portal/model/impl/RecentLayoutSetBranchCacheModel.java",
-      "summary": "Exported function readExternal",
-      "tags": [
-        "java",
-        "function",
-        "exported"
-      ],
-      "complexity": "low"
-    },
-    {
-      "id": "function:portal-impl/src/com/liferay/portal/model/impl/RecentLayoutSetBranchCacheModel.java:writeExternal",
-      "type": "function",
-      "name": "writeExternal",
-      "filePath": "portal-impl/src/com/liferay/portal/model/impl/RecentLayoutSetBranchCacheModel.java",
-      "summary": "Exported function writeExternal",
-      "tags": [
-        "java",
-        "function",
-        "exported"
-      ],
-      "complexity": "low"
-    },
-    {
-      "id": "file:portal-impl/src/com/liferay/portal/model/impl/RegionBaseImpl.java",
+      "id": "file:portal-impl/src/com/liferay/portal/internal/cluster/LiveUsersClusterEventListenerImpl.java",
       "type": "file",
-      "name": "RegionBaseImpl.java",
-      "filePath": "portal-impl/src/com/liferay/portal/model/impl/RegionBaseImpl.java",
-      "summary": "Region entity implementation in Liferay portal",
+      "name": "LiveUsersClusterEventListenerImpl.java",
+      "filePath": "portal-impl/src/com/liferay/portal/internal/cluster/LiveUsersClusterEventListenerImpl.java",
+      "summary": "Cluster event listener that synchronizes LiveUsers session data across cluster nodes by processing PortalClusterEvents.",
       "tags": [
-        "java",
-        "code",
-        "base-impl",
-        "service-builder"
+        "implementation",
+        "session-management",
+        "cluster"
       ],
-      "complexity": "low"
+      "complexity": "moderate"
     },
     {
-      "id": "class:portal-impl/src/com/liferay/portal/model/impl/RegionBaseImpl.java:RegionBaseImpl",
-      "type": "class",
-      "name": "RegionBaseImpl",
-      "filePath": "portal-impl/src/com/liferay/portal/model/impl/RegionBaseImpl.java",
-      "summary": "RegionBaseImpl class with 1 methods",
-      "tags": [
-        "java",
-        "class",
-        "methods:1"
-      ],
-      "complexity": "low"
-    },
-    {
-      "id": "function:portal-impl/src/com/liferay/portal/model/impl/RegionBaseImpl.java:persist",
+      "id": "function:portal-impl/src/com/liferay/portal/internal/cluster/LiveUsersClusterEventListenerImpl.java:processClusterEvent",
       "type": "function",
-      "name": "persist",
-      "filePath": "portal-impl/src/com/liferay/portal/model/impl/RegionBaseImpl.java",
-      "summary": "Exported function persist",
-      "tags": [
-        "java",
-        "function",
-        "exported"
+      "name": "processClusterEvent",
+      "filePath": "portal-impl/src/com/liferay/portal/internal/cluster/LiveUsersClusterEventListenerImpl.java",
+      "lineRange": [
+        25,
+        68
       ],
-      "complexity": "low"
+      "summary": "Method processClusterEvent in LiveUsersClusterEventListenerImpl",
+      "tags": [
+        "method"
+      ],
+      "complexity": "moderate"
     },
     {
-      "id": "file:portal-impl/src/com/liferay/portal/model/impl/ReleaseBaseImpl.java",
+      "id": "class:portal-impl/src/com/liferay/portal/internal/cluster/LiveUsersClusterEventListenerImpl.java:LiveUsersClusterEventListenerImpl",
+      "type": "class",
+      "name": "LiveUsersClusterEventListenerImpl",
+      "filePath": "portal-impl/src/com/liferay/portal/internal/cluster/LiveUsersClusterEventListenerImpl.java",
+      "lineRange": [
+        23,
+        70
+      ],
+      "summary": "Class LiveUsersClusterEventListenerImpl with 1 methods for LiveUsersClusterEventListenerImpl.",
+      "tags": [
+        "class",
+        "implementation",
+        "implementation"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:portal-impl/src/com/liferay/portal/internal/minifier/MinifierThreadLocal.java",
       "type": "file",
-      "name": "ReleaseBaseImpl.java",
-      "filePath": "portal-impl/src/com/liferay/portal/model/impl/ReleaseBaseImpl.java",
-      "summary": "Release entity implementation in Liferay portal",
+      "name": "MinifierThreadLocal.java",
+      "filePath": "portal-impl/src/com/liferay/portal/internal/minifier/MinifierThreadLocal.java",
+      "summary": "Thread-local flag holder that tracks whether CSS/JS minification is enabled for the current request thread.",
       "tags": [
-        "java",
-        "code",
-        "base-impl",
-        "service-builder"
+        "minification",
+        "implementation"
       ],
-      "complexity": "low"
+      "complexity": "simple"
     },
     {
-      "id": "class:portal-impl/src/com/liferay/portal/model/impl/ReleaseBaseImpl.java:ReleaseBaseImpl",
+      "id": "class:portal-impl/src/com/liferay/portal/internal/minifier/MinifierThreadLocal.java:MinifierThreadLocal",
       "type": "class",
-      "name": "ReleaseBaseImpl",
-      "filePath": "portal-impl/src/com/liferay/portal/model/impl/ReleaseBaseImpl.java",
-      "summary": "ReleaseBaseImpl class with 1 methods",
+      "name": "MinifierThreadLocal",
+      "filePath": "portal-impl/src/com/liferay/portal/internal/minifier/MinifierThreadLocal.java",
+      "lineRange": [
+        16,
+        38
+      ],
+      "summary": "Class MinifierThreadLocal with 2 methods for MinifierThreadLocal.",
       "tags": [
-        "java",
         "class",
-        "methods:1"
+        "implementation"
       ],
-      "complexity": "low"
+      "complexity": "simple"
     },
     {
-      "id": "function:portal-impl/src/com/liferay/portal/model/impl/ReleaseBaseImpl.java:persist",
-      "type": "function",
-      "name": "persist",
-      "filePath": "portal-impl/src/com/liferay/portal/model/impl/ReleaseBaseImpl.java",
-      "summary": "Exported function persist",
-      "tags": [
-        "java",
-        "function",
-        "exported"
-      ],
-      "complexity": "low"
-    },
-    {
-      "id": "file:portal-impl/src/com/liferay/portal/model/impl/ReleaseCacheModel.java",
+      "id": "file:portal-impl/src/com/liferay/portal/internal/servlet/MainServlet.java",
       "type": "file",
-      "name": "ReleaseCacheModel.java",
-      "filePath": "portal-impl/src/com/liferay/portal/model/impl/ReleaseCacheModel.java",
-      "summary": "Release entity implementation in Liferay portal",
+      "name": "MainServlet.java",
+      "filePath": "portal-impl/src/com/liferay/portal/internal/servlet/MainServlet.java",
+      "summary": "Main servlet handling all portal requests: initialization, authentication, company/group routing, service pre/post processing, and shutdown coordination. The primary HTTP entry point.",
       "tags": [
-        "java",
-        "code",
-        "cache-model",
-        "serialization"
+        "servlet",
+        "implementation",
+        "entry-point"
       ],
-      "complexity": "high"
+      "complexity": "complex"
     },
     {
-      "id": "class:portal-impl/src/com/liferay/portal/model/impl/ReleaseCacheModel.java:ReleaseCacheModel",
+      "id": "function:portal-impl/src/com/liferay/portal/internal/servlet/MainServlet.java:destroy",
+      "type": "function",
+      "name": "destroy",
+      "filePath": "portal-impl/src/com/liferay/portal/internal/servlet/MainServlet.java",
+      "lineRange": [
+        133,
+        185
+      ],
+      "summary": "Method destroy in MainServlet",
+      "tags": [
+        "method"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:portal-impl/src/com/liferay/portal/internal/servlet/MainServlet.java:init",
+      "type": "function",
+      "name": "init",
+      "filePath": "portal-impl/src/com/liferay/portal/internal/servlet/MainServlet.java",
+      "lineRange": [
+        207,
+        417
+      ],
+      "summary": "Method init in MainServlet",
+      "tags": [
+        "method"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "function:portal-impl/src/com/liferay/portal/internal/servlet/MainServlet.java:service",
+      "type": "function",
+      "name": "service",
+      "filePath": "portal-impl/src/com/liferay/portal/internal/servlet/MainServlet.java",
+      "lineRange": [
+        419,
+        598
+      ],
+      "summary": "Method service in MainServlet",
+      "tags": [
+        "method"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "function:portal-impl/src/com/liferay/portal/internal/servlet/MainServlet.java:_checkBuildDate",
+      "type": "function",
+      "name": "_checkBuildDate",
+      "filePath": "portal-impl/src/com/liferay/portal/internal/servlet/MainServlet.java",
+      "lineRange": [
+        600,
+        635
+      ],
+      "summary": "Method _checkBuildDate in MainServlet",
+      "tags": [
+        "method",
+        "internal"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:portal-impl/src/com/liferay/portal/internal/servlet/MainServlet.java:_checkWebXml",
+      "type": "function",
+      "name": "_checkWebXml",
+      "filePath": "portal-impl/src/com/liferay/portal/internal/servlet/MainServlet.java",
+      "lineRange": [
+        645,
+        664
+      ],
+      "summary": "Method _checkWebXml in MainServlet",
+      "tags": [
+        "method",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:portal-impl/src/com/liferay/portal/internal/servlet/MainServlet.java:_destroyCompany",
+      "type": "function",
+      "name": "_destroyCompany",
+      "filePath": "portal-impl/src/com/liferay/portal/internal/servlet/MainServlet.java",
+      "lineRange": [
+        671,
+        685
+      ],
+      "summary": "Method _destroyCompany in MainServlet",
+      "tags": [
+        "method",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:portal-impl/src/com/liferay/portal/internal/servlet/MainServlet.java:_destroyPortlets",
+      "type": "function",
+      "name": "_destroyPortlets",
+      "filePath": "portal-impl/src/com/liferay/portal/internal/servlet/MainServlet.java",
+      "lineRange": [
+        687,
+        698
+      ],
+      "summary": "Method _destroyPortlets in MainServlet",
+      "tags": [
+        "method",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:portal-impl/src/com/liferay/portal/internal/servlet/MainServlet.java:_encryptRequest",
+      "type": "function",
+      "name": "_encryptRequest",
+      "filePath": "portal-impl/src/com/liferay/portal/internal/servlet/MainServlet.java",
+      "lineRange": [
+        700,
+        723
+      ],
+      "summary": "Method _encryptRequest in MainServlet",
+      "tags": [
+        "method",
+        "internal"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:portal-impl/src/com/liferay/portal/internal/servlet/MainServlet.java:_getRemoteUser",
+      "type": "function",
+      "name": "_getRemoteUser",
+      "filePath": "portal-impl/src/com/liferay/portal/internal/servlet/MainServlet.java",
+      "lineRange": [
+        725,
+        746
+      ],
+      "summary": "Method _getRemoteUser in MainServlet",
+      "tags": [
+        "method",
+        "internal"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:portal-impl/src/com/liferay/portal/internal/servlet/MainServlet.java:_initCompanies",
+      "type": "function",
+      "name": "_initCompanies",
+      "filePath": "portal-impl/src/com/liferay/portal/internal/servlet/MainServlet.java",
+      "lineRange": [
+        759,
+        795
+      ],
+      "summary": "Method _initCompanies in MainServlet",
+      "tags": [
+        "method",
+        "internal"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:portal-impl/src/com/liferay/portal/internal/servlet/MainServlet.java:_initLayoutTemplates",
+      "type": "function",
+      "name": "_initLayoutTemplates",
+      "filePath": "portal-impl/src/com/liferay/portal/internal/servlet/MainServlet.java",
+      "lineRange": [
+        797,
+        845
+      ],
+      "summary": "Method _initLayoutTemplates in MainServlet",
+      "tags": [
+        "method",
+        "internal"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:portal-impl/src/com/liferay/portal/internal/servlet/MainServlet.java:_initModuleConfig",
+      "type": "function",
+      "name": "_initModuleConfig",
+      "filePath": "portal-impl/src/com/liferay/portal/internal/servlet/MainServlet.java",
+      "lineRange": [
+        847,
+        909
+      ],
+      "summary": "Method _initModuleConfig in MainServlet",
+      "tags": [
+        "method",
+        "internal"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "function:portal-impl/src/com/liferay/portal/internal/servlet/MainServlet.java:_initPortletApp",
+      "type": "function",
+      "name": "_initPortletApp",
+      "filePath": "portal-impl/src/com/liferay/portal/internal/servlet/MainServlet.java",
+      "lineRange": [
+        911,
+        933
+      ],
+      "summary": "Method _initPortletApp in MainServlet",
+      "tags": [
+        "method",
+        "internal"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:portal-impl/src/com/liferay/portal/internal/servlet/MainServlet.java:_initPortlets",
+      "type": "function",
+      "name": "_initPortlets",
+      "filePath": "portal-impl/src/com/liferay/portal/internal/servlet/MainServlet.java",
+      "lineRange": [
+        935,
+        972
+      ],
+      "summary": "Method _initPortlets in MainServlet",
+      "tags": [
+        "method",
+        "internal"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:portal-impl/src/com/liferay/portal/internal/servlet/MainServlet.java:_loginUser",
+      "type": "function",
+      "name": "_loginUser",
+      "filePath": "portal-impl/src/com/liferay/portal/internal/servlet/MainServlet.java",
+      "lineRange": [
+        974,
+        1038
+      ],
+      "summary": "Method _loginUser in MainServlet",
+      "tags": [
+        "method",
+        "internal"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "function:portal-impl/src/com/liferay/portal/internal/servlet/MainServlet.java:_processCompanyInactiveRequest",
+      "type": "function",
+      "name": "_processCompanyInactiveRequest",
+      "filePath": "portal-impl/src/com/liferay/portal/internal/servlet/MainServlet.java",
+      "lineRange": [
+        1040,
+        1057
+      ],
+      "summary": "Method _processCompanyInactiveRequest in MainServlet",
+      "tags": [
+        "method",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:portal-impl/src/com/liferay/portal/internal/servlet/MainServlet.java:_processGroupInactiveRequest",
+      "type": "function",
+      "name": "_processGroupInactiveRequest",
+      "filePath": "portal-impl/src/com/liferay/portal/internal/servlet/MainServlet.java",
+      "lineRange": [
+        1059,
+        1084
+      ],
+      "summary": "Method _processGroupInactiveRequest in MainServlet",
+      "tags": [
+        "method",
+        "internal"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:portal-impl/src/com/liferay/portal/internal/servlet/MainServlet.java:_processMaintenanceRequest",
+      "type": "function",
+      "name": "_processMaintenanceRequest",
+      "filePath": "portal-impl/src/com/liferay/portal/internal/servlet/MainServlet.java",
+      "lineRange": [
+        1086,
+        1102
+      ],
+      "summary": "Method _processMaintenanceRequest in MainServlet",
+      "tags": [
+        "method",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:portal-impl/src/com/liferay/portal/internal/servlet/MainServlet.java:_processServicePre",
+      "type": "function",
+      "name": "_processServicePre",
+      "filePath": "portal-impl/src/com/liferay/portal/internal/servlet/MainServlet.java",
+      "lineRange": [
+        1104,
+        1154
+      ],
+      "summary": "Method _processServicePre in MainServlet",
+      "tags": [
+        "method",
+        "internal"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:portal-impl/src/com/liferay/portal/internal/servlet/MainServlet.java:_processServicePrePrincipalException",
+      "type": "function",
+      "name": "_processServicePrePrincipalException",
+      "filePath": "portal-impl/src/com/liferay/portal/internal/servlet/MainServlet.java",
+      "lineRange": [
+        1156,
+        1215
+      ],
+      "summary": "Method _processServicePrePrincipalException in MainServlet",
+      "tags": [
+        "method",
+        "internal"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:portal-impl/src/com/liferay/portal/internal/servlet/MainServlet.java:_processShutdownRequest",
+      "type": "function",
+      "name": "_processShutdownRequest",
+      "filePath": "portal-impl/src/com/liferay/portal/internal/servlet/MainServlet.java",
+      "lineRange": [
+        1217,
+        1239
+      ],
+      "summary": "Method _processShutdownRequest in MainServlet",
+      "tags": [
+        "method",
+        "internal"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:portal-impl/src/com/liferay/portal/internal/servlet/MainServlet.java:_registerPortalInitialized",
+      "type": "function",
+      "name": "_registerPortalInitialized",
+      "filePath": "portal-impl/src/com/liferay/portal/internal/servlet/MainServlet.java",
+      "lineRange": [
+        1241,
+        1293
+      ],
+      "summary": "Method _registerPortalInitialized in MainServlet",
+      "tags": [
+        "method",
+        "internal"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "class:portal-impl/src/com/liferay/portal/internal/servlet/MainServlet.java:MainServlet",
       "type": "class",
-      "name": "ReleaseCacheModel",
-      "filePath": "portal-impl/src/com/liferay/portal/model/impl/ReleaseCacheModel.java",
-      "summary": "ReleaseCacheModel class with 8 methods",
+      "name": "MainServlet",
+      "filePath": "portal-impl/src/com/liferay/portal/internal/servlet/MainServlet.java",
+      "lineRange": [
+        131,
+        1329
+      ],
+      "summary": "Class MainServlet with 27 methods for MainServlet.",
       "tags": [
-        "java",
         "class",
-        "methods:8"
+        "implementation"
       ],
-      "complexity": "high"
-    },
-    {
-      "id": "function:portal-impl/src/com/liferay/portal/model/impl/ReleaseCacheModel.java:equals",
-      "type": "function",
-      "name": "equals",
-      "filePath": "portal-impl/src/com/liferay/portal/model/impl/ReleaseCacheModel.java",
-      "summary": "Exported function equals",
-      "tags": [
-        "java",
-        "function",
-        "exported"
-      ],
-      "complexity": "medium"
-    },
-    {
-      "id": "function:portal-impl/src/com/liferay/portal/model/impl/ReleaseCacheModel.java:hashCode",
-      "type": "function",
-      "name": "hashCode",
-      "filePath": "portal-impl/src/com/liferay/portal/model/impl/ReleaseCacheModel.java",
-      "summary": "Exported function hashCode",
-      "tags": [
-        "java",
-        "function",
-        "exported"
-      ],
-      "complexity": "low"
-    },
-    {
-      "id": "function:portal-impl/src/com/liferay/portal/model/impl/ReleaseCacheModel.java:getMvccVersion",
-      "type": "function",
-      "name": "getMvccVersion",
-      "filePath": "portal-impl/src/com/liferay/portal/model/impl/ReleaseCacheModel.java",
-      "summary": "Exported function getMvccVersion",
-      "tags": [
-        "java",
-        "function",
-        "exported"
-      ],
-      "complexity": "low"
-    },
-    {
-      "id": "function:portal-impl/src/com/liferay/portal/model/impl/ReleaseCacheModel.java:setMvccVersion",
-      "type": "function",
-      "name": "setMvccVersion",
-      "filePath": "portal-impl/src/com/liferay/portal/model/impl/ReleaseCacheModel.java",
-      "summary": "Exported function setMvccVersion",
-      "tags": [
-        "java",
-        "function",
-        "exported"
-      ],
-      "complexity": "low"
-    },
-    {
-      "id": "function:portal-impl/src/com/liferay/portal/model/impl/ReleaseCacheModel.java:toString",
-      "type": "function",
-      "name": "toString",
-      "filePath": "portal-impl/src/com/liferay/portal/model/impl/ReleaseCacheModel.java",
-      "summary": "Exported function toString",
-      "tags": [
-        "java",
-        "function",
-        "exported"
-      ],
-      "complexity": "medium"
-    },
-    {
-      "id": "function:portal-impl/src/com/liferay/portal/model/impl/ReleaseCacheModel.java:toEntityModel",
-      "type": "function",
-      "name": "toEntityModel",
-      "filePath": "portal-impl/src/com/liferay/portal/model/impl/ReleaseCacheModel.java",
-      "summary": "Exported function toEntityModel",
-      "tags": [
-        "java",
-        "function",
-        "exported"
-      ],
-      "complexity": "high"
-    },
-    {
-      "id": "function:portal-impl/src/com/liferay/portal/model/impl/ReleaseCacheModel.java:readExternal",
-      "type": "function",
-      "name": "readExternal",
-      "filePath": "portal-impl/src/com/liferay/portal/model/impl/ReleaseCacheModel.java",
-      "summary": "Exported function readExternal",
-      "tags": [
-        "java",
-        "function",
-        "exported"
-      ],
-      "complexity": "medium"
-    },
-    {
-      "id": "function:portal-impl/src/com/liferay/portal/model/impl/ReleaseCacheModel.java:writeExternal",
-      "type": "function",
-      "name": "writeExternal",
-      "filePath": "portal-impl/src/com/liferay/portal/model/impl/ReleaseCacheModel.java",
-      "summary": "Exported function writeExternal",
-      "tags": [
-        "java",
-        "function",
-        "exported"
-      ],
-      "complexity": "high"
-    },
-    {
-      "id": "file:portal-impl/src/com/liferay/portal/model/impl/ResourceActionBaseImpl.java",
-      "type": "file",
-      "name": "ResourceActionBaseImpl.java",
-      "filePath": "portal-impl/src/com/liferay/portal/model/impl/ResourceActionBaseImpl.java",
-      "summary": "ResourceAction entity implementation in Liferay portal",
-      "tags": [
-        "java",
-        "code",
-        "base-impl",
-        "service-builder"
-      ],
-      "complexity": "low"
-    },
-    {
-      "id": "class:portal-impl/src/com/liferay/portal/model/impl/ResourceActionBaseImpl.java:ResourceActionBaseImpl",
-      "type": "class",
-      "name": "ResourceActionBaseImpl",
-      "filePath": "portal-impl/src/com/liferay/portal/model/impl/ResourceActionBaseImpl.java",
-      "summary": "ResourceActionBaseImpl class with 1 methods",
-      "tags": [
-        "java",
-        "class",
-        "methods:1"
-      ],
-      "complexity": "low"
-    },
-    {
-      "id": "function:portal-impl/src/com/liferay/portal/model/impl/ResourceActionBaseImpl.java:persist",
-      "type": "function",
-      "name": "persist",
-      "filePath": "portal-impl/src/com/liferay/portal/model/impl/ResourceActionBaseImpl.java",
-      "summary": "Exported function persist",
-      "tags": [
-        "java",
-        "function",
-        "exported"
-      ],
-      "complexity": "low"
-    },
-    {
-      "id": "file:portal-impl/src/com/liferay/portal/model/impl/ResourceImpl.java",
-      "type": "file",
-      "name": "ResourceImpl.java",
-      "filePath": "portal-impl/src/com/liferay/portal/model/impl/ResourceImpl.java",
-      "summary": "Resource entity implementation in Liferay portal",
-      "tags": [
-        "java",
-        "code",
-        "model-impl"
-      ],
-      "complexity": "medium"
-    },
-    {
-      "id": "class:portal-impl/src/com/liferay/portal/model/impl/ResourceImpl.java:ResourceImpl",
-      "type": "class",
-      "name": "ResourceImpl",
-      "filePath": "portal-impl/src/com/liferay/portal/model/impl/ResourceImpl.java",
-      "summary": "ResourceImpl class with 13 methods",
-      "tags": [
-        "java",
-        "class",
-        "methods:13"
-      ],
-      "complexity": "high"
-    },
-    {
-      "id": "function:portal-impl/src/com/liferay/portal/model/impl/ResourceImpl.java:getCodeId",
-      "type": "function",
-      "name": "getCodeId",
-      "filePath": "portal-impl/src/com/liferay/portal/model/impl/ResourceImpl.java",
-      "summary": "Exported function getCodeId",
-      "tags": [
-        "java",
-        "function",
-        "exported"
-      ],
-      "complexity": "low"
-    },
-    {
-      "id": "function:portal-impl/src/com/liferay/portal/model/impl/ResourceImpl.java:getCompanyId",
-      "type": "function",
-      "name": "getCompanyId",
-      "filePath": "portal-impl/src/com/liferay/portal/model/impl/ResourceImpl.java",
-      "summary": "Exported function getCompanyId",
-      "tags": [
-        "java",
-        "function",
-        "exported"
-      ],
-      "complexity": "low"
-    },
-    {
-      "id": "function:portal-impl/src/com/liferay/portal/model/impl/ResourceImpl.java:getName",
-      "type": "function",
-      "name": "getName",
-      "filePath": "portal-impl/src/com/liferay/portal/model/impl/ResourceImpl.java",
-      "summary": "Exported function getName",
-      "tags": [
-        "java",
-        "function",
-        "exported"
-      ],
-      "complexity": "low"
-    },
-    {
-      "id": "function:portal-impl/src/com/liferay/portal/model/impl/ResourceImpl.java:getPrimKey",
-      "type": "function",
-      "name": "getPrimKey",
-      "filePath": "portal-impl/src/com/liferay/portal/model/impl/ResourceImpl.java",
-      "summary": "Exported function getPrimKey",
-      "tags": [
-        "java",
-        "function",
-        "exported"
-      ],
-      "complexity": "low"
-    },
-    {
-      "id": "function:portal-impl/src/com/liferay/portal/model/impl/ResourceImpl.java:getResourceId",
-      "type": "function",
-      "name": "getResourceId",
-      "filePath": "portal-impl/src/com/liferay/portal/model/impl/ResourceImpl.java",
-      "summary": "Exported function getResourceId",
-      "tags": [
-        "java",
-        "function",
-        "exported"
-      ],
-      "complexity": "low"
-    },
-    {
-      "id": "function:portal-impl/src/com/liferay/portal/model/impl/ResourceImpl.java:getScope",
-      "type": "function",
-      "name": "getScope",
-      "filePath": "portal-impl/src/com/liferay/portal/model/impl/ResourceImpl.java",
-      "summary": "Exported function getScope",
-      "tags": [
-        "java",
-        "function",
-        "exported"
-      ],
-      "complexity": "low"
-    },
-    {
-      "id": "function:portal-impl/src/com/liferay/portal/model/impl/ResourceImpl.java:setCodeId",
-      "type": "function",
-      "name": "setCodeId",
-      "filePath": "portal-impl/src/com/liferay/portal/model/impl/ResourceImpl.java",
-      "summary": "Exported function setCodeId",
-      "tags": [
-        "java",
-        "function",
-        "exported"
-      ],
-      "complexity": "low"
-    },
-    {
-      "id": "function:portal-impl/src/com/liferay/portal/model/impl/ResourceImpl.java:setCompanyId",
-      "type": "function",
-      "name": "setCompanyId",
-      "filePath": "portal-impl/src/com/liferay/portal/model/impl/ResourceImpl.java",
-      "summary": "Exported function setCompanyId",
-      "tags": [
-        "java",
-        "function",
-        "exported"
-      ],
-      "complexity": "low"
-    },
-    {
-      "id": "function:portal-impl/src/com/liferay/portal/model/impl/ResourceImpl.java:setName",
-      "type": "function",
-      "name": "setName",
-      "filePath": "portal-impl/src/com/liferay/portal/model/impl/ResourceImpl.java",
-      "summary": "Exported function setName",
-      "tags": [
-        "java",
-        "function",
-        "exported"
-      ],
-      "complexity": "low"
-    },
-    {
-      "id": "function:portal-impl/src/com/liferay/portal/model/impl/ResourceImpl.java:setPrimKey",
-      "type": "function",
-      "name": "setPrimKey",
-      "filePath": "portal-impl/src/com/liferay/portal/model/impl/ResourceImpl.java",
-      "summary": "Exported function setPrimKey",
-      "tags": [
-        "java",
-        "function",
-        "exported"
-      ],
-      "complexity": "low"
-    },
-    {
-      "id": "function:portal-impl/src/com/liferay/portal/model/impl/ResourceImpl.java:setResourceId",
-      "type": "function",
-      "name": "setResourceId",
-      "filePath": "portal-impl/src/com/liferay/portal/model/impl/ResourceImpl.java",
-      "summary": "Exported function setResourceId",
-      "tags": [
-        "java",
-        "function",
-        "exported"
-      ],
-      "complexity": "low"
-    },
-    {
-      "id": "function:portal-impl/src/com/liferay/portal/model/impl/ResourceImpl.java:setScope",
-      "type": "function",
-      "name": "setScope",
-      "filePath": "portal-impl/src/com/liferay/portal/model/impl/ResourceImpl.java",
-      "summary": "Exported function setScope",
-      "tags": [
-        "java",
-        "function",
-        "exported"
-      ],
-      "complexity": "low"
-    },
-    {
-      "id": "function:portal-impl/src/com/liferay/portal/model/impl/ResourceImpl.java:toString",
-      "type": "function",
-      "name": "toString",
-      "filePath": "portal-impl/src/com/liferay/portal/model/impl/ResourceImpl.java",
-      "summary": "Exported function toString",
-      "tags": [
-        "java",
-        "function",
-        "exported"
-      ],
-      "complexity": "low"
-    },
-    {
-      "id": "file:portal-impl/src/com/liferay/portal/model/impl/ResourcePermissionImpl.java",
-      "type": "file",
-      "name": "ResourcePermissionImpl.java",
-      "filePath": "portal-impl/src/com/liferay/portal/model/impl/ResourcePermissionImpl.java",
-      "summary": "ResourcePermission entity implementation in Liferay portal",
-      "tags": [
-        "java",
-        "code",
-        "model-impl"
-      ],
-      "complexity": "medium"
-    },
-    {
-      "id": "class:portal-impl/src/com/liferay/portal/model/impl/ResourcePermissionImpl.java:ResourcePermissionImpl",
-      "type": "class",
-      "name": "ResourcePermissionImpl",
-      "filePath": "portal-impl/src/com/liferay/portal/model/impl/ResourcePermissionImpl.java",
-      "summary": "ResourcePermissionImpl class with 4 methods",
-      "tags": [
-        "java",
-        "class",
-        "methods:4"
-      ],
-      "complexity": "medium"
-    },
-    {
-      "id": "function:portal-impl/src/com/liferay/portal/model/impl/ResourcePermissionImpl.java:addResourceAction",
-      "type": "function",
-      "name": "addResourceAction",
-      "filePath": "portal-impl/src/com/liferay/portal/model/impl/ResourcePermissionImpl.java",
-      "summary": "Exported function addResourceAction",
-      "tags": [
-        "java",
-        "function",
-        "exported"
-      ],
-      "complexity": "low"
-    },
-    {
-      "id": "function:portal-impl/src/com/liferay/portal/model/impl/ResourcePermissionImpl.java:hasAction",
-      "type": "function",
-      "name": "hasAction",
-      "filePath": "portal-impl/src/com/liferay/portal/model/impl/ResourcePermissionImpl.java",
-      "summary": "Exported function hasAction",
-      "tags": [
-        "java",
-        "function",
-        "exported"
-      ],
-      "complexity": "low"
-    },
-    {
-      "id": "function:portal-impl/src/com/liferay/portal/model/impl/ResourcePermissionImpl.java:hasActionId",
-      "type": "function",
-      "name": "hasActionId",
-      "filePath": "portal-impl/src/com/liferay/portal/model/impl/ResourcePermissionImpl.java",
-      "summary": "Exported function hasActionId",
-      "tags": [
-        "java",
-        "function",
-        "exported"
-      ],
-      "complexity": "low"
+      "complexity": "complex"
     }
   ],
   "edges": [
     {
-      "source": "file:portal-impl/src/com/liferay/portal/model/impl/RecentLayoutSetBranchBaseImpl.java",
-      "target": "class:portal-impl/src/com/liferay/portal/model/impl/RecentLayoutSetBranchBaseImpl.java:RecentLayoutSetBranchBaseImpl",
-      "type": "contains",
-      "direction": "forward",
-      "weight": 1.0
-    },
-    {
-      "source": "file:portal-impl/src/com/liferay/portal/model/impl/RecentLayoutSetBranchBaseImpl.java",
-      "target": "class:portal-impl/src/com/liferay/portal/model/impl/RecentLayoutSetBranchBaseImpl.java:RecentLayoutSetBranchBaseImpl",
-      "type": "exports",
-      "direction": "forward",
-      "weight": 0.8
-    },
-    {
-      "source": "file:portal-impl/src/com/liferay/portal/model/impl/RecentLayoutSetBranchBaseImpl.java",
-      "target": "function:portal-impl/src/com/liferay/portal/model/impl/RecentLayoutSetBranchBaseImpl.java:persist",
-      "type": "contains",
-      "direction": "forward",
-      "weight": 1.0
-    },
-    {
-      "source": "file:portal-impl/src/com/liferay/portal/model/impl/RecentLayoutSetBranchBaseImpl.java",
-      "target": "function:portal-impl/src/com/liferay/portal/model/impl/RecentLayoutSetBranchBaseImpl.java:persist",
-      "type": "exports",
-      "direction": "forward",
-      "weight": 0.8
-    },
-    {
-      "source": "file:portal-impl/src/com/liferay/portal/model/impl/RecentLayoutSetBranchBaseImpl.java",
-      "target": "file:portal-kernel/src/com/liferay/portal/kernel/model/RecentLayoutSetBranch.java",
+      "source": "file:portal-impl/src/com/liferay/portal/format/USAPhoneNumberFormatImpl.java",
+      "target": "file:portal-impl/src/com/liferay/portal/util/PropsValues.java",
       "type": "imports",
       "direction": "forward",
       "weight": 0.7
     },
     {
-      "source": "file:portal-impl/src/com/liferay/portal/model/impl/RecentLayoutSetBranchBaseImpl.java",
-      "target": "file:portal-kernel/src/com/liferay/portal/kernel/service/RecentLayoutSetBranchLocalServiceUtil.java",
+      "source": "file:portal-impl/src/com/liferay/portal/format/USAPhoneNumberFormatImpl.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/format/PhoneNumberFormat.java",
       "type": "imports",
       "direction": "forward",
       "weight": 0.7
     },
     {
-      "source": "file:portal-impl/src/com/liferay/portal/model/impl/RecentLayoutSetBranchCacheModel.java",
-      "target": "class:portal-impl/src/com/liferay/portal/model/impl/RecentLayoutSetBranchCacheModel.java:RecentLayoutSetBranchCacheModel",
-      "type": "contains",
-      "direction": "forward",
-      "weight": 1.0
-    },
-    {
-      "source": "file:portal-impl/src/com/liferay/portal/model/impl/RecentLayoutSetBranchCacheModel.java",
-      "target": "class:portal-impl/src/com/liferay/portal/model/impl/RecentLayoutSetBranchCacheModel.java:RecentLayoutSetBranchCacheModel",
-      "type": "exports",
-      "direction": "forward",
-      "weight": 0.8
-    },
-    {
-      "source": "file:portal-impl/src/com/liferay/portal/model/impl/RecentLayoutSetBranchCacheModel.java",
-      "target": "function:portal-impl/src/com/liferay/portal/model/impl/RecentLayoutSetBranchCacheModel.java:equals",
-      "type": "contains",
-      "direction": "forward",
-      "weight": 1.0
-    },
-    {
-      "source": "file:portal-impl/src/com/liferay/portal/model/impl/RecentLayoutSetBranchCacheModel.java",
-      "target": "function:portal-impl/src/com/liferay/portal/model/impl/RecentLayoutSetBranchCacheModel.java:equals",
-      "type": "exports",
-      "direction": "forward",
-      "weight": 0.8
-    },
-    {
-      "source": "file:portal-impl/src/com/liferay/portal/model/impl/RecentLayoutSetBranchCacheModel.java",
-      "target": "function:portal-impl/src/com/liferay/portal/model/impl/RecentLayoutSetBranchCacheModel.java:hashCode",
-      "type": "contains",
-      "direction": "forward",
-      "weight": 1.0
-    },
-    {
-      "source": "file:portal-impl/src/com/liferay/portal/model/impl/RecentLayoutSetBranchCacheModel.java",
-      "target": "function:portal-impl/src/com/liferay/portal/model/impl/RecentLayoutSetBranchCacheModel.java:hashCode",
-      "type": "exports",
-      "direction": "forward",
-      "weight": 0.8
-    },
-    {
-      "source": "file:portal-impl/src/com/liferay/portal/model/impl/RecentLayoutSetBranchCacheModel.java",
-      "target": "function:portal-impl/src/com/liferay/portal/model/impl/RecentLayoutSetBranchCacheModel.java:getMvccVersion",
-      "type": "contains",
-      "direction": "forward",
-      "weight": 1.0
-    },
-    {
-      "source": "file:portal-impl/src/com/liferay/portal/model/impl/RecentLayoutSetBranchCacheModel.java",
-      "target": "function:portal-impl/src/com/liferay/portal/model/impl/RecentLayoutSetBranchCacheModel.java:getMvccVersion",
-      "type": "exports",
-      "direction": "forward",
-      "weight": 0.8
-    },
-    {
-      "source": "file:portal-impl/src/com/liferay/portal/model/impl/RecentLayoutSetBranchCacheModel.java",
-      "target": "function:portal-impl/src/com/liferay/portal/model/impl/RecentLayoutSetBranchCacheModel.java:setMvccVersion",
-      "type": "contains",
-      "direction": "forward",
-      "weight": 1.0
-    },
-    {
-      "source": "file:portal-impl/src/com/liferay/portal/model/impl/RecentLayoutSetBranchCacheModel.java",
-      "target": "function:portal-impl/src/com/liferay/portal/model/impl/RecentLayoutSetBranchCacheModel.java:setMvccVersion",
-      "type": "exports",
-      "direction": "forward",
-      "weight": 0.8
-    },
-    {
-      "source": "file:portal-impl/src/com/liferay/portal/model/impl/RecentLayoutSetBranchCacheModel.java",
-      "target": "function:portal-impl/src/com/liferay/portal/model/impl/RecentLayoutSetBranchCacheModel.java:toString",
-      "type": "contains",
-      "direction": "forward",
-      "weight": 1.0
-    },
-    {
-      "source": "file:portal-impl/src/com/liferay/portal/model/impl/RecentLayoutSetBranchCacheModel.java",
-      "target": "function:portal-impl/src/com/liferay/portal/model/impl/RecentLayoutSetBranchCacheModel.java:toString",
-      "type": "exports",
-      "direction": "forward",
-      "weight": 0.8
-    },
-    {
-      "source": "file:portal-impl/src/com/liferay/portal/model/impl/RecentLayoutSetBranchCacheModel.java",
-      "target": "function:portal-impl/src/com/liferay/portal/model/impl/RecentLayoutSetBranchCacheModel.java:toEntityModel",
-      "type": "contains",
-      "direction": "forward",
-      "weight": 1.0
-    },
-    {
-      "source": "file:portal-impl/src/com/liferay/portal/model/impl/RecentLayoutSetBranchCacheModel.java",
-      "target": "function:portal-impl/src/com/liferay/portal/model/impl/RecentLayoutSetBranchCacheModel.java:toEntityModel",
-      "type": "exports",
-      "direction": "forward",
-      "weight": 0.8
-    },
-    {
-      "source": "file:portal-impl/src/com/liferay/portal/model/impl/RecentLayoutSetBranchCacheModel.java",
-      "target": "function:portal-impl/src/com/liferay/portal/model/impl/RecentLayoutSetBranchCacheModel.java:readExternal",
-      "type": "contains",
-      "direction": "forward",
-      "weight": 1.0
-    },
-    {
-      "source": "file:portal-impl/src/com/liferay/portal/model/impl/RecentLayoutSetBranchCacheModel.java",
-      "target": "function:portal-impl/src/com/liferay/portal/model/impl/RecentLayoutSetBranchCacheModel.java:readExternal",
-      "type": "exports",
-      "direction": "forward",
-      "weight": 0.8
-    },
-    {
-      "source": "file:portal-impl/src/com/liferay/portal/model/impl/RecentLayoutSetBranchCacheModel.java",
-      "target": "function:portal-impl/src/com/liferay/portal/model/impl/RecentLayoutSetBranchCacheModel.java:writeExternal",
-      "type": "contains",
-      "direction": "forward",
-      "weight": 1.0
-    },
-    {
-      "source": "file:portal-impl/src/com/liferay/portal/model/impl/RecentLayoutSetBranchCacheModel.java",
-      "target": "function:portal-impl/src/com/liferay/portal/model/impl/RecentLayoutSetBranchCacheModel.java:writeExternal",
-      "type": "exports",
-      "direction": "forward",
-      "weight": 0.8
-    },
-    {
-      "source": "file:portal-impl/src/com/liferay/portal/model/impl/RecentLayoutSetBranchCacheModel.java",
-      "target": "file:portal-kernel/src/com/liferay/portal/kernel/model/CacheModel.java",
+      "source": "file:portal-impl/src/com/liferay/portal/format/USAPhoneNumberFormatImpl.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/util/StringUtil.java",
       "type": "imports",
       "direction": "forward",
       "weight": 0.7
     },
     {
-      "source": "file:portal-impl/src/com/liferay/portal/model/impl/RecentLayoutSetBranchCacheModel.java",
-      "target": "file:portal-kernel/src/com/liferay/portal/kernel/model/MVCCModel.java",
+      "source": "file:portal-impl/src/com/liferay/portal/format/USAPhoneNumberFormatImpl.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/util/Validator.java",
       "type": "imports",
       "direction": "forward",
       "weight": 0.7
     },
     {
-      "source": "file:portal-impl/src/com/liferay/portal/model/impl/RecentLayoutSetBranchCacheModel.java",
-      "target": "file:portal-kernel/src/com/liferay/portal/kernel/model/RecentLayoutSetBranch.java",
+      "source": "file:portal-impl/src/com/liferay/portal/format/USAPhoneNumberFormatImpl.java",
+      "target": "function:portal-impl/src/com/liferay/portal/format/USAPhoneNumberFormatImpl.java:format",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/format/USAPhoneNumberFormatImpl.java",
+      "target": "class:portal-impl/src/com/liferay/portal/format/USAPhoneNumberFormatImpl.java:USAPhoneNumberFormatImpl",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/format/util/PhoneNumberFormatUtil.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/format/PhoneNumberFormat.java",
       "type": "imports",
       "direction": "forward",
       "weight": 0.7
     },
     {
-      "source": "file:portal-impl/src/com/liferay/portal/model/impl/RegionBaseImpl.java",
-      "target": "class:portal-impl/src/com/liferay/portal/model/impl/RegionBaseImpl.java:RegionBaseImpl",
-      "type": "contains",
-      "direction": "forward",
-      "weight": 1.0
-    },
-    {
-      "source": "file:portal-impl/src/com/liferay/portal/model/impl/RegionBaseImpl.java",
-      "target": "class:portal-impl/src/com/liferay/portal/model/impl/RegionBaseImpl.java:RegionBaseImpl",
-      "type": "exports",
-      "direction": "forward",
-      "weight": 0.8
-    },
-    {
-      "source": "file:portal-impl/src/com/liferay/portal/model/impl/RegionBaseImpl.java",
-      "target": "function:portal-impl/src/com/liferay/portal/model/impl/RegionBaseImpl.java:persist",
-      "type": "contains",
-      "direction": "forward",
-      "weight": 1.0
-    },
-    {
-      "source": "file:portal-impl/src/com/liferay/portal/model/impl/RegionBaseImpl.java",
-      "target": "function:portal-impl/src/com/liferay/portal/model/impl/RegionBaseImpl.java:persist",
-      "type": "exports",
-      "direction": "forward",
-      "weight": 0.8
-    },
-    {
-      "source": "file:portal-impl/src/com/liferay/portal/model/impl/RegionBaseImpl.java",
-      "target": "file:portal-kernel/src/com/liferay/portal/kernel/model/Region.java",
+      "source": "file:portal-impl/src/com/liferay/portal/format/util/PhoneNumberFormatUtil.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/module/service/Snapshot.java",
       "type": "imports",
       "direction": "forward",
       "weight": 0.7
     },
     {
-      "source": "file:portal-impl/src/com/liferay/portal/model/impl/RegionBaseImpl.java",
-      "target": "file:portal-kernel/src/com/liferay/portal/kernel/service/RegionLocalServiceUtil.java",
+      "source": "file:portal-impl/src/com/liferay/portal/format/util/PhoneNumberFormatUtil.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/util/Validator.java",
       "type": "imports",
       "direction": "forward",
       "weight": 0.7
     },
     {
-      "source": "file:portal-impl/src/com/liferay/portal/model/impl/ReleaseBaseImpl.java",
-      "target": "class:portal-impl/src/com/liferay/portal/model/impl/ReleaseBaseImpl.java:ReleaseBaseImpl",
+      "source": "file:portal-impl/src/com/liferay/portal/format/util/PhoneNumberFormatUtil.java",
+      "target": "function:portal-impl/src/com/liferay/portal/format/util/PhoneNumberFormatUtil.java:validate",
       "type": "contains",
       "direction": "forward",
       "weight": 1.0
     },
     {
-      "source": "file:portal-impl/src/com/liferay/portal/model/impl/ReleaseBaseImpl.java",
-      "target": "class:portal-impl/src/com/liferay/portal/model/impl/ReleaseBaseImpl.java:ReleaseBaseImpl",
-      "type": "exports",
-      "direction": "forward",
-      "weight": 0.8
-    },
-    {
-      "source": "file:portal-impl/src/com/liferay/portal/model/impl/ReleaseBaseImpl.java",
-      "target": "function:portal-impl/src/com/liferay/portal/model/impl/ReleaseBaseImpl.java:persist",
+      "source": "file:portal-impl/src/com/liferay/portal/format/util/PhoneNumberFormatUtil.java",
+      "target": "class:portal-impl/src/com/liferay/portal/format/util/PhoneNumberFormatUtil.java:PhoneNumberFormatUtil",
       "type": "contains",
       "direction": "forward",
       "weight": 1.0
     },
     {
-      "source": "file:portal-impl/src/com/liferay/portal/model/impl/ReleaseBaseImpl.java",
-      "target": "function:portal-impl/src/com/liferay/portal/model/impl/ReleaseBaseImpl.java:persist",
-      "type": "exports",
-      "direction": "forward",
-      "weight": 0.8
-    },
-    {
-      "source": "file:portal-impl/src/com/liferay/portal/model/impl/ReleaseBaseImpl.java",
-      "target": "file:portal-kernel/src/com/liferay/portal/kernel/model/Release.java",
+      "source": "file:portal-impl/src/com/liferay/portal/internal/cluster/LiveUsersClusterEventListenerImpl.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/cluster/ClusterEvent.java",
       "type": "imports",
       "direction": "forward",
       "weight": 0.7
     },
     {
-      "source": "file:portal-impl/src/com/liferay/portal/model/impl/ReleaseBaseImpl.java",
-      "target": "file:portal-kernel/src/com/liferay/portal/kernel/service/ReleaseLocalServiceUtil.java",
+      "source": "file:portal-impl/src/com/liferay/portal/internal/cluster/LiveUsersClusterEventListenerImpl.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/cluster/ClusterEventListener.java",
       "type": "imports",
       "direction": "forward",
       "weight": 0.7
     },
     {
-      "source": "file:portal-impl/src/com/liferay/portal/model/impl/ReleaseCacheModel.java",
-      "target": "class:portal-impl/src/com/liferay/portal/model/impl/ReleaseCacheModel.java:ReleaseCacheModel",
-      "type": "contains",
-      "direction": "forward",
-      "weight": 1.0
-    },
-    {
-      "source": "file:portal-impl/src/com/liferay/portal/model/impl/ReleaseCacheModel.java",
-      "target": "class:portal-impl/src/com/liferay/portal/model/impl/ReleaseCacheModel.java:ReleaseCacheModel",
-      "type": "exports",
-      "direction": "forward",
-      "weight": 0.8
-    },
-    {
-      "source": "file:portal-impl/src/com/liferay/portal/model/impl/ReleaseCacheModel.java",
-      "target": "function:portal-impl/src/com/liferay/portal/model/impl/ReleaseCacheModel.java:equals",
-      "type": "contains",
-      "direction": "forward",
-      "weight": 1.0
-    },
-    {
-      "source": "file:portal-impl/src/com/liferay/portal/model/impl/ReleaseCacheModel.java",
-      "target": "function:portal-impl/src/com/liferay/portal/model/impl/ReleaseCacheModel.java:equals",
-      "type": "exports",
-      "direction": "forward",
-      "weight": 0.8
-    },
-    {
-      "source": "file:portal-impl/src/com/liferay/portal/model/impl/ReleaseCacheModel.java",
-      "target": "function:portal-impl/src/com/liferay/portal/model/impl/ReleaseCacheModel.java:hashCode",
-      "type": "contains",
-      "direction": "forward",
-      "weight": 1.0
-    },
-    {
-      "source": "file:portal-impl/src/com/liferay/portal/model/impl/ReleaseCacheModel.java",
-      "target": "function:portal-impl/src/com/liferay/portal/model/impl/ReleaseCacheModel.java:hashCode",
-      "type": "exports",
-      "direction": "forward",
-      "weight": 0.8
-    },
-    {
-      "source": "file:portal-impl/src/com/liferay/portal/model/impl/ReleaseCacheModel.java",
-      "target": "function:portal-impl/src/com/liferay/portal/model/impl/ReleaseCacheModel.java:getMvccVersion",
-      "type": "contains",
-      "direction": "forward",
-      "weight": 1.0
-    },
-    {
-      "source": "file:portal-impl/src/com/liferay/portal/model/impl/ReleaseCacheModel.java",
-      "target": "function:portal-impl/src/com/liferay/portal/model/impl/ReleaseCacheModel.java:getMvccVersion",
-      "type": "exports",
-      "direction": "forward",
-      "weight": 0.8
-    },
-    {
-      "source": "file:portal-impl/src/com/liferay/portal/model/impl/ReleaseCacheModel.java",
-      "target": "function:portal-impl/src/com/liferay/portal/model/impl/ReleaseCacheModel.java:setMvccVersion",
-      "type": "contains",
-      "direction": "forward",
-      "weight": 1.0
-    },
-    {
-      "source": "file:portal-impl/src/com/liferay/portal/model/impl/ReleaseCacheModel.java",
-      "target": "function:portal-impl/src/com/liferay/portal/model/impl/ReleaseCacheModel.java:setMvccVersion",
-      "type": "exports",
-      "direction": "forward",
-      "weight": 0.8
-    },
-    {
-      "source": "file:portal-impl/src/com/liferay/portal/model/impl/ReleaseCacheModel.java",
-      "target": "function:portal-impl/src/com/liferay/portal/model/impl/ReleaseCacheModel.java:toString",
-      "type": "contains",
-      "direction": "forward",
-      "weight": 1.0
-    },
-    {
-      "source": "file:portal-impl/src/com/liferay/portal/model/impl/ReleaseCacheModel.java",
-      "target": "function:portal-impl/src/com/liferay/portal/model/impl/ReleaseCacheModel.java:toString",
-      "type": "exports",
-      "direction": "forward",
-      "weight": 0.8
-    },
-    {
-      "source": "file:portal-impl/src/com/liferay/portal/model/impl/ReleaseCacheModel.java",
-      "target": "function:portal-impl/src/com/liferay/portal/model/impl/ReleaseCacheModel.java:toEntityModel",
-      "type": "contains",
-      "direction": "forward",
-      "weight": 1.0
-    },
-    {
-      "source": "file:portal-impl/src/com/liferay/portal/model/impl/ReleaseCacheModel.java",
-      "target": "function:portal-impl/src/com/liferay/portal/model/impl/ReleaseCacheModel.java:toEntityModel",
-      "type": "exports",
-      "direction": "forward",
-      "weight": 0.8
-    },
-    {
-      "source": "file:portal-impl/src/com/liferay/portal/model/impl/ReleaseCacheModel.java",
-      "target": "function:portal-impl/src/com/liferay/portal/model/impl/ReleaseCacheModel.java:readExternal",
-      "type": "contains",
-      "direction": "forward",
-      "weight": 1.0
-    },
-    {
-      "source": "file:portal-impl/src/com/liferay/portal/model/impl/ReleaseCacheModel.java",
-      "target": "function:portal-impl/src/com/liferay/portal/model/impl/ReleaseCacheModel.java:readExternal",
-      "type": "exports",
-      "direction": "forward",
-      "weight": 0.8
-    },
-    {
-      "source": "file:portal-impl/src/com/liferay/portal/model/impl/ReleaseCacheModel.java",
-      "target": "function:portal-impl/src/com/liferay/portal/model/impl/ReleaseCacheModel.java:writeExternal",
-      "type": "contains",
-      "direction": "forward",
-      "weight": 1.0
-    },
-    {
-      "source": "file:portal-impl/src/com/liferay/portal/model/impl/ReleaseCacheModel.java",
-      "target": "function:portal-impl/src/com/liferay/portal/model/impl/ReleaseCacheModel.java:writeExternal",
-      "type": "exports",
-      "direction": "forward",
-      "weight": 0.8
-    },
-    {
-      "source": "file:portal-impl/src/com/liferay/portal/model/impl/ReleaseCacheModel.java",
-      "target": "file:portal-kernel/src/com/liferay/portal/kernel/model/CacheModel.java",
+      "source": "file:portal-impl/src/com/liferay/portal/internal/cluster/LiveUsersClusterEventListenerImpl.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/cluster/ClusterEventType.java",
       "type": "imports",
       "direction": "forward",
       "weight": 0.7
     },
     {
-      "source": "file:portal-impl/src/com/liferay/portal/model/impl/ReleaseCacheModel.java",
-      "target": "file:portal-kernel/src/com/liferay/portal/kernel/model/MVCCModel.java",
+      "source": "file:portal-impl/src/com/liferay/portal/internal/cluster/LiveUsersClusterEventListenerImpl.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/cluster/ClusterInvokeThreadLocal.java",
       "type": "imports",
       "direction": "forward",
       "weight": 0.7
     },
     {
-      "source": "file:portal-impl/src/com/liferay/portal/model/impl/ReleaseCacheModel.java",
-      "target": "file:portal-kernel/src/com/liferay/portal/kernel/model/Release.java",
+      "source": "file:portal-impl/src/com/liferay/portal/internal/cluster/LiveUsersClusterEventListenerImpl.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/cluster/ClusterNode.java",
       "type": "imports",
       "direction": "forward",
       "weight": 0.7
     },
     {
-      "source": "file:portal-impl/src/com/liferay/portal/model/impl/ResourceActionBaseImpl.java",
-      "target": "class:portal-impl/src/com/liferay/portal/model/impl/ResourceActionBaseImpl.java:ResourceActionBaseImpl",
-      "type": "contains",
-      "direction": "forward",
-      "weight": 1.0
-    },
-    {
-      "source": "file:portal-impl/src/com/liferay/portal/model/impl/ResourceActionBaseImpl.java",
-      "target": "class:portal-impl/src/com/liferay/portal/model/impl/ResourceActionBaseImpl.java:ResourceActionBaseImpl",
-      "type": "exports",
-      "direction": "forward",
-      "weight": 0.8
-    },
-    {
-      "source": "file:portal-impl/src/com/liferay/portal/model/impl/ResourceActionBaseImpl.java",
-      "target": "function:portal-impl/src/com/liferay/portal/model/impl/ResourceActionBaseImpl.java:persist",
-      "type": "contains",
-      "direction": "forward",
-      "weight": 1.0
-    },
-    {
-      "source": "file:portal-impl/src/com/liferay/portal/model/impl/ResourceActionBaseImpl.java",
-      "target": "function:portal-impl/src/com/liferay/portal/model/impl/ResourceActionBaseImpl.java:persist",
-      "type": "exports",
-      "direction": "forward",
-      "weight": 0.8
-    },
-    {
-      "source": "file:portal-impl/src/com/liferay/portal/model/impl/ResourceActionBaseImpl.java",
-      "target": "file:portal-kernel/src/com/liferay/portal/kernel/model/ResourceAction.java",
+      "source": "file:portal-impl/src/com/liferay/portal/internal/cluster/LiveUsersClusterEventListenerImpl.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/json/JSONUtil.java",
       "type": "imports",
       "direction": "forward",
       "weight": 0.7
     },
     {
-      "source": "file:portal-impl/src/com/liferay/portal/model/impl/ResourceActionBaseImpl.java",
-      "target": "file:portal-kernel/src/com/liferay/portal/kernel/service/ResourceActionLocalServiceUtil.java",
+      "source": "file:portal-impl/src/com/liferay/portal/internal/cluster/LiveUsersClusterEventListenerImpl.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/messaging/DestinationNames.java",
       "type": "imports",
       "direction": "forward",
       "weight": 0.7
     },
     {
-      "source": "file:portal-impl/src/com/liferay/portal/model/impl/ResourceImpl.java",
-      "target": "class:portal-impl/src/com/liferay/portal/model/impl/ResourceImpl.java:ResourceImpl",
-      "type": "contains",
-      "direction": "forward",
-      "weight": 1.0
-    },
-    {
-      "source": "file:portal-impl/src/com/liferay/portal/model/impl/ResourceImpl.java",
-      "target": "class:portal-impl/src/com/liferay/portal/model/impl/ResourceImpl.java:ResourceImpl",
-      "type": "exports",
-      "direction": "forward",
-      "weight": 0.8
-    },
-    {
-      "source": "file:portal-impl/src/com/liferay/portal/model/impl/ResourceImpl.java",
-      "target": "function:portal-impl/src/com/liferay/portal/model/impl/ResourceImpl.java:getCodeId",
-      "type": "contains",
-      "direction": "forward",
-      "weight": 1.0
-    },
-    {
-      "source": "file:portal-impl/src/com/liferay/portal/model/impl/ResourceImpl.java",
-      "target": "function:portal-impl/src/com/liferay/portal/model/impl/ResourceImpl.java:getCodeId",
-      "type": "exports",
-      "direction": "forward",
-      "weight": 0.8
-    },
-    {
-      "source": "file:portal-impl/src/com/liferay/portal/model/impl/ResourceImpl.java",
-      "target": "function:portal-impl/src/com/liferay/portal/model/impl/ResourceImpl.java:getCompanyId",
-      "type": "contains",
-      "direction": "forward",
-      "weight": 1.0
-    },
-    {
-      "source": "file:portal-impl/src/com/liferay/portal/model/impl/ResourceImpl.java",
-      "target": "function:portal-impl/src/com/liferay/portal/model/impl/ResourceImpl.java:getCompanyId",
-      "type": "exports",
-      "direction": "forward",
-      "weight": 0.8
-    },
-    {
-      "source": "file:portal-impl/src/com/liferay/portal/model/impl/ResourceImpl.java",
-      "target": "function:portal-impl/src/com/liferay/portal/model/impl/ResourceImpl.java:getName",
-      "type": "contains",
-      "direction": "forward",
-      "weight": 1.0
-    },
-    {
-      "source": "file:portal-impl/src/com/liferay/portal/model/impl/ResourceImpl.java",
-      "target": "function:portal-impl/src/com/liferay/portal/model/impl/ResourceImpl.java:getName",
-      "type": "exports",
-      "direction": "forward",
-      "weight": 0.8
-    },
-    {
-      "source": "file:portal-impl/src/com/liferay/portal/model/impl/ResourceImpl.java",
-      "target": "function:portal-impl/src/com/liferay/portal/model/impl/ResourceImpl.java:getPrimKey",
-      "type": "contains",
-      "direction": "forward",
-      "weight": 1.0
-    },
-    {
-      "source": "file:portal-impl/src/com/liferay/portal/model/impl/ResourceImpl.java",
-      "target": "function:portal-impl/src/com/liferay/portal/model/impl/ResourceImpl.java:getPrimKey",
-      "type": "exports",
-      "direction": "forward",
-      "weight": 0.8
-    },
-    {
-      "source": "file:portal-impl/src/com/liferay/portal/model/impl/ResourceImpl.java",
-      "target": "function:portal-impl/src/com/liferay/portal/model/impl/ResourceImpl.java:getResourceId",
-      "type": "contains",
-      "direction": "forward",
-      "weight": 1.0
-    },
-    {
-      "source": "file:portal-impl/src/com/liferay/portal/model/impl/ResourceImpl.java",
-      "target": "function:portal-impl/src/com/liferay/portal/model/impl/ResourceImpl.java:getResourceId",
-      "type": "exports",
-      "direction": "forward",
-      "weight": 0.8
-    },
-    {
-      "source": "file:portal-impl/src/com/liferay/portal/model/impl/ResourceImpl.java",
-      "target": "function:portal-impl/src/com/liferay/portal/model/impl/ResourceImpl.java:getScope",
-      "type": "contains",
-      "direction": "forward",
-      "weight": 1.0
-    },
-    {
-      "source": "file:portal-impl/src/com/liferay/portal/model/impl/ResourceImpl.java",
-      "target": "function:portal-impl/src/com/liferay/portal/model/impl/ResourceImpl.java:getScope",
-      "type": "exports",
-      "direction": "forward",
-      "weight": 0.8
-    },
-    {
-      "source": "file:portal-impl/src/com/liferay/portal/model/impl/ResourceImpl.java",
-      "target": "function:portal-impl/src/com/liferay/portal/model/impl/ResourceImpl.java:setCodeId",
-      "type": "contains",
-      "direction": "forward",
-      "weight": 1.0
-    },
-    {
-      "source": "file:portal-impl/src/com/liferay/portal/model/impl/ResourceImpl.java",
-      "target": "function:portal-impl/src/com/liferay/portal/model/impl/ResourceImpl.java:setCodeId",
-      "type": "exports",
-      "direction": "forward",
-      "weight": 0.8
-    },
-    {
-      "source": "file:portal-impl/src/com/liferay/portal/model/impl/ResourceImpl.java",
-      "target": "function:portal-impl/src/com/liferay/portal/model/impl/ResourceImpl.java:setCompanyId",
-      "type": "contains",
-      "direction": "forward",
-      "weight": 1.0
-    },
-    {
-      "source": "file:portal-impl/src/com/liferay/portal/model/impl/ResourceImpl.java",
-      "target": "function:portal-impl/src/com/liferay/portal/model/impl/ResourceImpl.java:setCompanyId",
-      "type": "exports",
-      "direction": "forward",
-      "weight": 0.8
-    },
-    {
-      "source": "file:portal-impl/src/com/liferay/portal/model/impl/ResourceImpl.java",
-      "target": "function:portal-impl/src/com/liferay/portal/model/impl/ResourceImpl.java:setName",
-      "type": "contains",
-      "direction": "forward",
-      "weight": 1.0
-    },
-    {
-      "source": "file:portal-impl/src/com/liferay/portal/model/impl/ResourceImpl.java",
-      "target": "function:portal-impl/src/com/liferay/portal/model/impl/ResourceImpl.java:setName",
-      "type": "exports",
-      "direction": "forward",
-      "weight": 0.8
-    },
-    {
-      "source": "file:portal-impl/src/com/liferay/portal/model/impl/ResourceImpl.java",
-      "target": "function:portal-impl/src/com/liferay/portal/model/impl/ResourceImpl.java:setPrimKey",
-      "type": "contains",
-      "direction": "forward",
-      "weight": 1.0
-    },
-    {
-      "source": "file:portal-impl/src/com/liferay/portal/model/impl/ResourceImpl.java",
-      "target": "function:portal-impl/src/com/liferay/portal/model/impl/ResourceImpl.java:setPrimKey",
-      "type": "exports",
-      "direction": "forward",
-      "weight": 0.8
-    },
-    {
-      "source": "file:portal-impl/src/com/liferay/portal/model/impl/ResourceImpl.java",
-      "target": "function:portal-impl/src/com/liferay/portal/model/impl/ResourceImpl.java:setResourceId",
-      "type": "contains",
-      "direction": "forward",
-      "weight": 1.0
-    },
-    {
-      "source": "file:portal-impl/src/com/liferay/portal/model/impl/ResourceImpl.java",
-      "target": "function:portal-impl/src/com/liferay/portal/model/impl/ResourceImpl.java:setResourceId",
-      "type": "exports",
-      "direction": "forward",
-      "weight": 0.8
-    },
-    {
-      "source": "file:portal-impl/src/com/liferay/portal/model/impl/ResourceImpl.java",
-      "target": "function:portal-impl/src/com/liferay/portal/model/impl/ResourceImpl.java:setScope",
-      "type": "contains",
-      "direction": "forward",
-      "weight": 1.0
-    },
-    {
-      "source": "file:portal-impl/src/com/liferay/portal/model/impl/ResourceImpl.java",
-      "target": "function:portal-impl/src/com/liferay/portal/model/impl/ResourceImpl.java:setScope",
-      "type": "exports",
-      "direction": "forward",
-      "weight": 0.8
-    },
-    {
-      "source": "file:portal-impl/src/com/liferay/portal/model/impl/ResourceImpl.java",
-      "target": "function:portal-impl/src/com/liferay/portal/model/impl/ResourceImpl.java:toString",
-      "type": "contains",
-      "direction": "forward",
-      "weight": 1.0
-    },
-    {
-      "source": "file:portal-impl/src/com/liferay/portal/model/impl/ResourceImpl.java",
-      "target": "function:portal-impl/src/com/liferay/portal/model/impl/ResourceImpl.java:toString",
-      "type": "exports",
-      "direction": "forward",
-      "weight": 0.8
-    },
-    {
-      "source": "file:portal-impl/src/com/liferay/portal/model/impl/ResourceImpl.java",
-      "target": "file:portal-kernel/src/com/liferay/portal/kernel/model/Resource.java",
+      "source": "file:portal-impl/src/com/liferay/portal/internal/cluster/LiveUsersClusterEventListenerImpl.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/messaging/Message.java",
       "type": "imports",
       "direction": "forward",
       "weight": 0.7
     },
     {
-      "source": "file:portal-impl/src/com/liferay/portal/model/impl/ResourcePermissionImpl.java",
-      "target": "class:portal-impl/src/com/liferay/portal/model/impl/ResourcePermissionImpl.java:ResourcePermissionImpl",
+      "source": "file:portal-impl/src/com/liferay/portal/internal/cluster/LiveUsersClusterEventListenerImpl.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/messaging/MessageBusUtil.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/internal/cluster/LiveUsersClusterEventListenerImpl.java",
+      "target": "function:portal-impl/src/com/liferay/portal/internal/cluster/LiveUsersClusterEventListenerImpl.java:processClusterEvent",
       "type": "contains",
       "direction": "forward",
       "weight": 1.0
     },
     {
-      "source": "file:portal-impl/src/com/liferay/portal/model/impl/ResourcePermissionImpl.java",
-      "target": "class:portal-impl/src/com/liferay/portal/model/impl/ResourcePermissionImpl.java:ResourcePermissionImpl",
-      "type": "exports",
-      "direction": "forward",
-      "weight": 0.8
-    },
-    {
-      "source": "file:portal-impl/src/com/liferay/portal/model/impl/ResourcePermissionImpl.java",
-      "target": "function:portal-impl/src/com/liferay/portal/model/impl/ResourcePermissionImpl.java:addResourceAction",
+      "source": "file:portal-impl/src/com/liferay/portal/internal/cluster/LiveUsersClusterEventListenerImpl.java",
+      "target": "class:portal-impl/src/com/liferay/portal/internal/cluster/LiveUsersClusterEventListenerImpl.java:LiveUsersClusterEventListenerImpl",
       "type": "contains",
       "direction": "forward",
       "weight": 1.0
     },
     {
-      "source": "file:portal-impl/src/com/liferay/portal/model/impl/ResourcePermissionImpl.java",
-      "target": "function:portal-impl/src/com/liferay/portal/model/impl/ResourcePermissionImpl.java:addResourceAction",
-      "type": "exports",
+      "source": "file:portal-impl/src/com/liferay/portal/internal/minifier/MinifierThreadLocal.java",
+      "target": "file:portal-impl/src/com/liferay/portal/util/PropsValues.java",
+      "type": "imports",
       "direction": "forward",
-      "weight": 0.8
+      "weight": 0.7
     },
     {
-      "source": "file:portal-impl/src/com/liferay/portal/model/impl/ResourcePermissionImpl.java",
-      "target": "function:portal-impl/src/com/liferay/portal/model/impl/ResourcePermissionImpl.java:hasAction",
+      "source": "file:portal-impl/src/com/liferay/portal/internal/minifier/MinifierThreadLocal.java",
+      "target": "class:portal-impl/src/com/liferay/portal/internal/minifier/MinifierThreadLocal.java:MinifierThreadLocal",
       "type": "contains",
       "direction": "forward",
       "weight": 1.0
     },
     {
-      "source": "file:portal-impl/src/com/liferay/portal/model/impl/ResourcePermissionImpl.java",
-      "target": "function:portal-impl/src/com/liferay/portal/model/impl/ResourcePermissionImpl.java:hasAction",
-      "type": "exports",
+      "source": "file:portal-impl/src/com/liferay/portal/internal/servlet/MainServlet.java",
+      "target": "file:portal-impl/src/com/liferay/portal/db/index/IndexUpdaterUtil.java",
+      "type": "imports",
       "direction": "forward",
-      "weight": 0.8
+      "weight": 0.7
     },
     {
-      "source": "file:portal-impl/src/com/liferay/portal/model/impl/ResourcePermissionImpl.java",
-      "target": "function:portal-impl/src/com/liferay/portal/model/impl/ResourcePermissionImpl.java:hasActionId",
-      "type": "contains",
+      "source": "file:portal-impl/src/com/liferay/portal/internal/servlet/MainServlet.java",
+      "target": "file:portal-impl/src/com/liferay/portal/events/EventsProcessorUtil.java",
+      "type": "imports",
       "direction": "forward",
-      "weight": 1.0
+      "weight": 0.7
     },
     {
-      "source": "file:portal-impl/src/com/liferay/portal/model/impl/ResourcePermissionImpl.java",
-      "target": "function:portal-impl/src/com/liferay/portal/model/impl/ResourcePermissionImpl.java:hasActionId",
-      "type": "exports",
+      "source": "file:portal-impl/src/com/liferay/portal/internal/servlet/MainServlet.java",
+      "target": "file:portal-impl/src/com/liferay/portal/events/ShutdownHelperUtil.java",
+      "type": "imports",
       "direction": "forward",
-      "weight": 0.8
+      "weight": 0.7
     },
     {
-      "source": "file:portal-impl/src/com/liferay/portal/model/impl/ResourcePermissionImpl.java",
-      "target": "function:portal-impl/src/com/liferay/portal/model/impl/ResourcePermissionImpl.java:removeResourceAction",
-      "type": "contains",
+      "source": "file:portal-impl/src/com/liferay/portal/internal/servlet/MainServlet.java",
+      "target": "file:portal-impl/src/com/liferay/portal/events/StartupAction.java",
+      "type": "imports",
       "direction": "forward",
-      "weight": 1.0
+      "weight": 0.7
     },
     {
-      "source": "file:portal-impl/src/com/liferay/portal/model/impl/ResourcePermissionImpl.java",
-      "target": "function:portal-impl/src/com/liferay/portal/model/impl/ResourcePermissionImpl.java:removeResourceAction",
-      "type": "exports",
+      "source": "file:portal-impl/src/com/liferay/portal/internal/servlet/MainServlet.java",
+      "target": "file:portal-impl/src/com/liferay/portal/events/StartupHelperUtil.java",
+      "type": "imports",
       "direction": "forward",
-      "weight": 0.8
+      "weight": 0.7
     },
     {
-      "source": "file:portal-impl/src/com/liferay/portal/model/impl/ResourcePermissionImpl.java",
+      "source": "file:portal-impl/src/com/liferay/portal/internal/servlet/MainServlet.java",
+      "target": "file:portal-impl/src/com/liferay/portal/plugin/PluginPackageUtil.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/internal/servlet/MainServlet.java",
+      "target": "file:portal-impl/src/com/liferay/portal/security/jaas/JAASHelper.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/internal/servlet/MainServlet.java",
+      "target": "file:portal-impl/src/com/liferay/portal/service/impl/LayoutTemplateLocalServiceImpl.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/internal/servlet/MainServlet.java",
+      "target": "file:portal-impl/src/com/liferay/portal/servlet/EncryptedServletRequest.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/internal/servlet/MainServlet.java",
+      "target": "file:portal-impl/src/com/liferay/portal/servlet/filters/absoluteredirects/AbsoluteRedirectsResponse.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/internal/servlet/MainServlet.java",
+      "target": "file:portal-impl/src/com/liferay/portal/servlet/I18nServlet.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/internal/servlet/MainServlet.java",
+      "target": "file:portal-impl/src/com/liferay/portal/setup/SetupWizardSampleDataUtil.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/internal/servlet/MainServlet.java",
+      "target": "file:portal-impl/src/com/liferay/portal/struts/Action.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/internal/servlet/MainServlet.java",
+      "target": "file:portal-impl/src/com/liferay/portal/struts/model/ActionForward.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/internal/servlet/MainServlet.java",
+      "target": "file:portal-impl/src/com/liferay/portal/struts/model/ActionMapping.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/internal/servlet/MainServlet.java",
+      "target": "file:portal-impl/src/com/liferay/portal/struts/model/ModuleConfig.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/internal/servlet/MainServlet.java",
+      "target": "file:portal-impl/src/com/liferay/portal/struts/PortalRequestProcessor.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/internal/servlet/MainServlet.java",
+      "target": "file:portal-impl/src/com/liferay/portal/struts/StrutsUtil.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/internal/servlet/MainServlet.java",
+      "target": "file:portal-impl/src/com/liferay/portal/struts/TilesUtil.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/internal/servlet/MainServlet.java",
+      "target": "file:portal-impl/src/com/liferay/portal/upgrade/PortalUpgradeProcess.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/internal/servlet/MainServlet.java",
+      "target": "file:portal-impl/src/com/liferay/portal/util/MaintenanceUtil.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/internal/servlet/MainServlet.java",
+      "target": "file:portal-impl/src/com/liferay/portal/util/PortalInstances.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/internal/servlet/MainServlet.java",
+      "target": "file:portal-impl/src/com/liferay/portal/util/PropsUtil.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/internal/servlet/MainServlet.java",
+      "target": "file:portal-impl/src/com/liferay/portal/util/PropsValues.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/internal/servlet/MainServlet.java",
+      "target": "file:portal-impl/src/com/liferay/portal/util/ShutdownUtil.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/internal/servlet/MainServlet.java",
+      "target": "file:portal-impl/src/com/liferay/portlet/PortletBagFactory.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/internal/servlet/MainServlet.java",
+      "target": "file:portal-impl/src/com/liferay/portlet/PortletFilterFactory.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/internal/servlet/MainServlet.java",
+      "target": "file:portal-impl/src/com/liferay/portlet/PortletURLListenerFactory.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/internal/servlet/MainServlet.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/cache/thread/local/Lifecycle.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/internal/servlet/MainServlet.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/cache/thread/local/ThreadLocalCacheManager.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/internal/servlet/MainServlet.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/dao/jdbc/DataAccess.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/internal/servlet/MainServlet.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/dependency/manager/DependencyManagerSyncUtil.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/internal/servlet/MainServlet.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/deploy/hot/HotDeployUtil.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/internal/servlet/MainServlet.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/exception/NoSuchLayoutException.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/internal/servlet/MainServlet.java",
       "target": "file:portal-kernel/src/com/liferay/portal/kernel/exception/PortalException.java",
       "type": "imports",
       "direction": "forward",
       "weight": 0.7
     },
     {
-      "source": "file:portal-impl/src/com/liferay/portal/model/impl/ResourcePermissionImpl.java",
-      "target": "file:portal-kernel/src/com/liferay/portal/kernel/model/ResourceAction.java",
+      "source": "file:portal-impl/src/com/liferay/portal/internal/servlet/MainServlet.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/instance/PortalInstancePool.java",
       "type": "imports",
       "direction": "forward",
       "weight": 0.7
     },
     {
-      "source": "file:portal-impl/src/com/liferay/portal/model/impl/ResourcePermissionImpl.java",
-      "target": "file:portal-kernel/src/com/liferay/portal/kernel/service/ResourceActionLocalServiceUtil.java",
+      "source": "file:portal-impl/src/com/liferay/portal/internal/servlet/MainServlet.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/log/Log.java",
       "type": "imports",
       "direction": "forward",
       "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/internal/servlet/MainServlet.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/log/LogFactoryUtil.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/internal/servlet/MainServlet.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/model/Company.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/internal/servlet/MainServlet.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/model/Group.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/internal/servlet/MainServlet.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/model/GroupConstants.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/internal/servlet/MainServlet.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/model/Layout.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/internal/servlet/MainServlet.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/model/LayoutConstants.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/internal/servlet/MainServlet.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/model/LayoutTemplate.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/internal/servlet/MainServlet.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/model/Portlet.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/internal/servlet/MainServlet.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/model/PortletApp.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/internal/servlet/MainServlet.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/model/PortletFilter.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/internal/servlet/MainServlet.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/model/PortletURLListener.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/internal/servlet/MainServlet.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/model/User.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/internal/servlet/MainServlet.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/module/framework/ModuleServiceLifecycle.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/internal/servlet/MainServlet.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/module/service/Snapshot.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/internal/servlet/MainServlet.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/module/util/ServiceLatch.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/internal/servlet/MainServlet.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/module/util/SystemBundleUtil.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/internal/servlet/MainServlet.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/plugin/PluginPackage.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/internal/servlet/MainServlet.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/portlet/PortletConfigFactoryUtil.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/internal/servlet/MainServlet.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/portlet/PortletInstanceFactoryUtil.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/internal/servlet/MainServlet.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/security/auth/PrincipalException.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/internal/servlet/MainServlet.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/security/permission/ResourceActionsUtil.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/internal/servlet/MainServlet.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/service/CompanyLocalServiceUtil.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/internal/servlet/MainServlet.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/service/GroupLocalServiceUtil.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/internal/servlet/MainServlet.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/service/LayoutLocalServiceUtil.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/internal/servlet/MainServlet.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/service/LayoutTemplateLocalServiceUtil.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/internal/servlet/MainServlet.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/service/PortletLocalServiceUtil.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/internal/servlet/MainServlet.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/service/UserLocalServiceUtil.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/internal/servlet/MainServlet.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/servlet/InactiveRequestHandler.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/internal/servlet/MainServlet.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/servlet/PortalSessionThreadLocal.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/internal/servlet/MainServlet.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/template/TemplateManager.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/internal/servlet/MainServlet.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/upgrade/ReleaseManager.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/internal/servlet/MainServlet.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/util/GetterUtil.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/internal/servlet/MainServlet.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/util/HashMapDictionaryBuilder.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/internal/servlet/MainServlet.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/util/HttpComponentsUtil.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/internal/servlet/MainServlet.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/util/ParamUtil.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/internal/servlet/MainServlet.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/util/PortalClassLoaderUtil.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/internal/servlet/MainServlet.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/util/PortalUtil.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/internal/servlet/MainServlet.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/util/PropsKeys.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/internal/servlet/MainServlet.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/util/ReleaseInfo.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/internal/servlet/MainServlet.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/util/StringUtil.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/internal/servlet/MainServlet.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/util/Validator.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/internal/servlet/MainServlet.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/util/WebKeys.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/internal/servlet/MainServlet.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/xml/Document.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/internal/servlet/MainServlet.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/xml/DocumentException.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/internal/servlet/MainServlet.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/xml/Element.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/internal/servlet/MainServlet.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/xml/SAXReaderUtil.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/internal/servlet/MainServlet.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/xml/UnsecureSAXReaderUtil.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/internal/servlet/MainServlet.java",
+      "target": "file:portal-kernel/src/com/liferay/social/kernel/util/SocialConfigurationUtil.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/internal/servlet/MainServlet.java",
+      "target": "function:portal-impl/src/com/liferay/portal/internal/servlet/MainServlet.java:destroy",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/internal/servlet/MainServlet.java",
+      "target": "function:portal-impl/src/com/liferay/portal/internal/servlet/MainServlet.java:init",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/internal/servlet/MainServlet.java",
+      "target": "function:portal-impl/src/com/liferay/portal/internal/servlet/MainServlet.java:service",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/internal/servlet/MainServlet.java",
+      "target": "function:portal-impl/src/com/liferay/portal/internal/servlet/MainServlet.java:_checkBuildDate",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/internal/servlet/MainServlet.java",
+      "target": "function:portal-impl/src/com/liferay/portal/internal/servlet/MainServlet.java:_checkWebXml",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/internal/servlet/MainServlet.java",
+      "target": "function:portal-impl/src/com/liferay/portal/internal/servlet/MainServlet.java:_destroyCompany",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/internal/servlet/MainServlet.java",
+      "target": "function:portal-impl/src/com/liferay/portal/internal/servlet/MainServlet.java:_destroyPortlets",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/internal/servlet/MainServlet.java",
+      "target": "function:portal-impl/src/com/liferay/portal/internal/servlet/MainServlet.java:_encryptRequest",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/internal/servlet/MainServlet.java",
+      "target": "function:portal-impl/src/com/liferay/portal/internal/servlet/MainServlet.java:_getRemoteUser",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/internal/servlet/MainServlet.java",
+      "target": "function:portal-impl/src/com/liferay/portal/internal/servlet/MainServlet.java:_initCompanies",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/internal/servlet/MainServlet.java",
+      "target": "function:portal-impl/src/com/liferay/portal/internal/servlet/MainServlet.java:_initLayoutTemplates",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/internal/servlet/MainServlet.java",
+      "target": "function:portal-impl/src/com/liferay/portal/internal/servlet/MainServlet.java:_initModuleConfig",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/internal/servlet/MainServlet.java",
+      "target": "function:portal-impl/src/com/liferay/portal/internal/servlet/MainServlet.java:_initPortletApp",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/internal/servlet/MainServlet.java",
+      "target": "function:portal-impl/src/com/liferay/portal/internal/servlet/MainServlet.java:_initPortlets",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/internal/servlet/MainServlet.java",
+      "target": "function:portal-impl/src/com/liferay/portal/internal/servlet/MainServlet.java:_loginUser",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/internal/servlet/MainServlet.java",
+      "target": "function:portal-impl/src/com/liferay/portal/internal/servlet/MainServlet.java:_processCompanyInactiveRequest",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/internal/servlet/MainServlet.java",
+      "target": "function:portal-impl/src/com/liferay/portal/internal/servlet/MainServlet.java:_processGroupInactiveRequest",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/internal/servlet/MainServlet.java",
+      "target": "function:portal-impl/src/com/liferay/portal/internal/servlet/MainServlet.java:_processMaintenanceRequest",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/internal/servlet/MainServlet.java",
+      "target": "function:portal-impl/src/com/liferay/portal/internal/servlet/MainServlet.java:_processServicePre",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/internal/servlet/MainServlet.java",
+      "target": "function:portal-impl/src/com/liferay/portal/internal/servlet/MainServlet.java:_processServicePrePrincipalException",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/internal/servlet/MainServlet.java",
+      "target": "function:portal-impl/src/com/liferay/portal/internal/servlet/MainServlet.java:_processShutdownRequest",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/internal/servlet/MainServlet.java",
+      "target": "function:portal-impl/src/com/liferay/portal/internal/servlet/MainServlet.java:_registerPortalInitialized",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/internal/servlet/MainServlet.java",
+      "target": "class:portal-impl/src/com/liferay/portal/internal/servlet/MainServlet.java:MainServlet",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
     }
   ]
 }

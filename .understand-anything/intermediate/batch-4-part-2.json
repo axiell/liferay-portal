@@ -1,0 +1,1913 @@
+{
+  "nodes": [
+    {
+      "id": "file:portal-impl/src/com/liferay/portal/db/DBResourceUtil.java",
+      "type": "file",
+      "name": "DBResourceUtil.java",
+      "filePath": "portal-impl/src/com/liferay/portal/db/DBResourceUtil.java",
+      "summary": "Reads SQL resources (indexes, sequences, tables) from bundles for database schema management.",
+      "tags": [
+        "utility",
+        "database",
+        "resource-loader"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "class:portal-impl/src/com/liferay/portal/db/DBResourceUtil.java:DBResourceUtil",
+      "type": "class",
+      "name": "DBResourceUtil",
+      "filePath": "portal-impl/src/com/liferay/portal/db/DBResourceUtil.java",
+      "lineRange": [
+        22,
+        71
+      ],
+      "summary": "Utility for reading SQL resource files (indexes, sequences, tables) from OSGi bundles and portal classpath.",
+      "tags": [
+        "utility",
+        "resource",
+        "sql"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:portal-impl/src/com/liferay/portal/db/DBResourceUtil.java:_read",
+      "type": "function",
+      "name": "_read",
+      "filePath": "portal-impl/src/com/liferay/portal/db/DBResourceUtil.java",
+      "lineRange": [
+        48,
+        67
+      ],
+      "summary": "Reads SQL resource content from bundle classpath with logging support.",
+      "tags": [
+        "utility",
+        "resource",
+        "io"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:portal-impl/src/com/liferay/portal/db/index/IndexUpdaterUtil.java",
+      "type": "file",
+      "name": "IndexUpdaterUtil.java",
+      "filePath": "portal-impl/src/com/liferay/portal/db/index/IndexUpdaterUtil.java",
+      "summary": "Utility for updating database indexes across portal and module schemas during deployment.",
+      "tags": [
+        "utility",
+        "database",
+        "migration"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "class:portal-impl/src/com/liferay/portal/db/index/IndexUpdaterUtil.java:IndexUpdaterUtil",
+      "type": "class",
+      "name": "IndexUpdaterUtil",
+      "filePath": "portal-impl/src/com/liferay/portal/db/index/IndexUpdaterUtil.java",
+      "lineRange": [
+        47,
+        284
+      ],
+      "summary": "Coordinates index updates across portal and module schemas using parallel execution and bundle tracking.",
+      "tags": [
+        "utility",
+        "database",
+        "indexing"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "function:portal-impl/src/com/liferay/portal/db/index/IndexUpdaterUtil.java:updateAllIndexes",
+      "type": "function",
+      "name": "updateAllIndexes",
+      "filePath": "portal-impl/src/com/liferay/portal/db/index/IndexUpdaterUtil.java",
+      "lineRange": [
+        49,
+        128
+      ],
+      "summary": "Orchestrates full index update across all deployed bundles using concurrent processing.",
+      "tags": [
+        "indexing",
+        "database",
+        "concurrent"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "function:portal-impl/src/com/liferay/portal/db/index/IndexUpdaterUtil.java:updateIndexes",
+      "type": "function",
+      "name": "updateIndexes",
+      "filePath": "portal-impl/src/com/liferay/portal/db/index/IndexUpdaterUtil.java",
+      "lineRange": [
+        130,
+        141
+      ],
+      "summary": "Method updateIndexes in IndexUpdaterUtil.java.",
+      "tags": [
+        "method"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:portal-impl/src/com/liferay/portal/db/index/IndexUpdaterUtil.java:updatePortalIndexes",
+      "type": "function",
+      "name": "updatePortalIndexes",
+      "filePath": "portal-impl/src/com/liferay/portal/db/index/IndexUpdaterUtil.java",
+      "lineRange": [
+        143,
+        162
+      ],
+      "summary": "Method updatePortalIndexes in IndexUpdaterUtil.java.",
+      "tags": [
+        "method"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:portal-impl/src/com/liferay/portal/db/index/IndexUpdaterUtil.java:_addUpdateIndexesFutures",
+      "type": "function",
+      "name": "_addUpdateIndexesFutures",
+      "filePath": "portal-impl/src/com/liferay/portal/db/index/IndexUpdaterUtil.java",
+      "lineRange": [
+        164,
+        189
+      ],
+      "summary": "Submits parallel index update tasks for each table to the executor service.",
+      "tags": [
+        "indexing",
+        "concurrent",
+        "utility"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:portal-impl/src/com/liferay/portal/db/index/IndexUpdaterUtil.java:_awaitFuturesTermination",
+      "type": "function",
+      "name": "_awaitFuturesTermination",
+      "filePath": "portal-impl/src/com/liferay/portal/db/index/IndexUpdaterUtil.java",
+      "lineRange": [
+        191,
+        202
+      ],
+      "summary": "Method _awaitFuturesTermination in IndexUpdaterUtil.java.",
+      "tags": [
+        "method"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:portal-impl/src/com/liferay/portal/db/index/IndexUpdaterUtil.java:_getIndexesSQLMap",
+      "type": "function",
+      "name": "_getIndexesSQLMap",
+      "filePath": "portal-impl/src/com/liferay/portal/db/index/IndexUpdaterUtil.java",
+      "lineRange": [
+        214,
+        227
+      ],
+      "summary": "Method _getIndexesSQLMap in IndexUpdaterUtil.java.",
+      "tags": [
+        "method"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:portal-impl/src/com/liferay/portal/db/index/IndexUpdaterUtil.java:_isSkipUpdateIndexes",
+      "type": "function",
+      "name": "_isSkipUpdateIndexes",
+      "filePath": "portal-impl/src/com/liferay/portal/db/index/IndexUpdaterUtil.java",
+      "lineRange": [
+        229,
+        246
+      ],
+      "summary": "Method _isSkipUpdateIndexes in IndexUpdaterUtil.java.",
+      "tags": [
+        "method"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:portal-impl/src/com/liferay/portal/db/index/IndexUpdaterUtil.java:_updateIndexes",
+      "type": "function",
+      "name": "_updateIndexes",
+      "filePath": "portal-impl/src/com/liferay/portal/db/index/IndexUpdaterUtil.java",
+      "lineRange": [
+        248,
+        272
+      ],
+      "summary": "Executes SQL index update statements for a single table against the database.",
+      "tags": [
+        "indexing",
+        "sql",
+        "database"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:portal-impl/src/com/liferay/portal/db/partition/db/DBPartitionDB.java",
+      "type": "file",
+      "name": "DBPartitionDB.java",
+      "filePath": "portal-impl/src/com/liferay/portal/db/partition/db/DBPartitionDB.java",
+      "summary": "Database partition management interface/implementation for multi-tenancy database partitioning.",
+      "tags": [
+        "data-model",
+        "service",
+        "database"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "Java class with extensive method set for managing deployment lifecycle."
+    },
+    {
+      "id": "class:portal-impl/src/com/liferay/portal/db/partition/db/DBPartitionDB.java:DBPartitionDB",
+      "type": "class",
+      "name": "DBPartitionDB",
+      "filePath": "portal-impl/src/com/liferay/portal/db/partition/db/DBPartitionDB.java",
+      "lineRange": [
+        21,
+        103
+      ],
+      "summary": "Abstract base for database partition management, providing SQL generation for partitioned table operations.",
+      "tags": [
+        "abstract",
+        "database",
+        "partitioning"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:portal-impl/src/com/liferay/portal/db/partition/db/DBPartitionMySQLDB.java",
+      "type": "file",
+      "name": "DBPartitionMySQLDB.java",
+      "filePath": "portal-impl/src/com/liferay/portal/db/partition/db/DBPartitionMySQLDB.java",
+      "summary": "Database partition management interface/implementation for multi-tenancy database partitioning.",
+      "tags": [
+        "data-model",
+        "service",
+        "database"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "class:portal-impl/src/com/liferay/portal/db/partition/db/DBPartitionMySQLDB.java:DBPartitionMySQLDB",
+      "type": "class",
+      "name": "DBPartitionMySQLDB",
+      "filePath": "portal-impl/src/com/liferay/portal/db/partition/db/DBPartitionMySQLDB.java",
+      "lineRange": [
+        19,
+        96
+      ],
+      "summary": "MySQL implementation of DB partition management with catalog-based schema isolation.",
+      "tags": [
+        "database",
+        "partitioning",
+        "mysql"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:portal-impl/src/com/liferay/portal/db/partition/db/DBPartitionMySQLDB.java:getCreateTableSQL",
+      "type": "function",
+      "name": "getCreateTableSQL",
+      "filePath": "portal-impl/src/com/liferay/portal/db/partition/db/DBPartitionMySQLDB.java",
+      "lineRange": [
+        38,
+        47
+      ],
+      "summary": "Generates SQL for database partition management operation.",
+      "tags": [
+        "sql",
+        "partition",
+        "database"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:portal-impl/src/com/liferay/portal/db/partition/db/DBPartitionMySQLDB.java:getDefaultPartitionName",
+      "type": "function",
+      "name": "getDefaultPartitionName",
+      "filePath": "portal-impl/src/com/liferay/portal/db/partition/db/DBPartitionMySQLDB.java",
+      "lineRange": [
+        49,
+        58
+      ],
+      "summary": "Retrieves database metadata for partition management.",
+      "tags": [
+        "database",
+        "metadata",
+        "partition"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:portal-impl/src/com/liferay/portal/db/partition/db/DBPartitionMySQLDB.java:_getSessionCharsetEncoding",
+      "type": "function",
+      "name": "_getSessionCharsetEncoding",
+      "filePath": "portal-impl/src/com/liferay/portal/db/partition/db/DBPartitionMySQLDB.java",
+      "lineRange": [
+        77,
+        92
+      ],
+      "summary": "Detects session character set encoding from MySQL connection.",
+      "tags": [
+        "charset",
+        "mysql",
+        "connection"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:portal-impl/src/com/liferay/portal/db/partition/util/DBPartitionUtil.java",
+      "type": "file",
+      "name": "DBPartitionUtil.java",
+      "filePath": "portal-impl/src/com/liferay/portal/db/partition/util/DBPartitionUtil.java",
+      "summary": "Database partition management interface/implementation for multi-tenancy database partitioning.",
+      "tags": [
+        "data-model",
+        "service",
+        "database"
+      ],
+      "complexity": "complex",
+      "languageNotes": "Java utility class with many private helper methods for complex processing."
+    },
+    {
+      "id": "class:portal-impl/src/com/liferay/portal/db/partition/util/DBPartitionUtil.java:DBPartitionUtil",
+      "type": "class",
+      "name": "DBPartitionUtil",
+      "filePath": "portal-impl/src/com/liferay/portal/db/partition/util/DBPartitionUtil.java",
+      "lineRange": [
+        68,
+        1392
+      ],
+      "summary": "Central utility for Liferay's database partitioning support managing partition lifecycle, cross-partition queries, and tenant isolation.",
+      "tags": [
+        "utility",
+        "database",
+        "partitioning"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "function:portal-impl/src/com/liferay/portal/db/partition/util/DBPartitionUtil.java:addDBPartition",
+      "type": "function",
+      "name": "addDBPartition",
+      "filePath": "portal-impl/src/com/liferay/portal/db/partition/util/DBPartitionUtil.java",
+      "lineRange": [
+        70,
+        87
+      ],
+      "summary": "Method addDBPartition in DBPartitionUtil.java.",
+      "tags": [
+        "method"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:portal-impl/src/com/liferay/portal/db/partition/util/DBPartitionUtil.java:checkDatabasePartitionSchemaNamePrefix",
+      "type": "function",
+      "name": "checkDatabasePartitionSchemaNamePrefix",
+      "filePath": "portal-impl/src/com/liferay/portal/db/partition/util/DBPartitionUtil.java",
+      "lineRange": [
+        89,
+        100
+      ],
+      "summary": "Method checkDatabasePartitionSchemaNamePrefix in DBPartitionUtil.java.",
+      "tags": [
+        "method"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:portal-impl/src/com/liferay/portal/db/partition/util/DBPartitionUtil.java:copyDBPartition",
+      "type": "function",
+      "name": "copyDBPartition",
+      "filePath": "portal-impl/src/com/liferay/portal/db/partition/util/DBPartitionUtil.java",
+      "lineRange": [
+        102,
+        114
+      ],
+      "summary": "Method copyDBPartition in DBPartitionUtil.java.",
+      "tags": [
+        "method"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:portal-impl/src/com/liferay/portal/db/partition/util/DBPartitionUtil.java:extractDBPartition",
+      "type": "function",
+      "name": "extractDBPartition",
+      "filePath": "portal-impl/src/com/liferay/portal/db/partition/util/DBPartitionUtil.java",
+      "lineRange": [
+        116,
+        133
+      ],
+      "summary": "Method extractDBPartition in DBPartitionUtil.java.",
+      "tags": [
+        "method"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:portal-impl/src/com/liferay/portal/db/partition/util/DBPartitionUtil.java:forEachCompanyId",
+      "type": "function",
+      "name": "forEachCompanyId",
+      "filePath": "portal-impl/src/com/liferay/portal/db/partition/util/DBPartitionUtil.java",
+      "lineRange": [
+        135,
+        171
+      ],
+      "summary": "Method forEachCompanyId in DBPartitionUtil.java.",
+      "tags": [
+        "method"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:portal-impl/src/com/liferay/portal/db/partition/util/DBPartitionUtil.java:getConfigurationPids",
+      "type": "function",
+      "name": "getConfigurationPids",
+      "filePath": "portal-impl/src/com/liferay/portal/db/partition/util/DBPartitionUtil.java",
+      "lineRange": [
+        173,
+        194
+      ],
+      "summary": "Method getConfigurationPids in DBPartitionUtil.java.",
+      "tags": [
+        "method"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:portal-impl/src/com/liferay/portal/db/partition/util/DBPartitionUtil.java:getConfigurations",
+      "type": "function",
+      "name": "getConfigurations",
+      "filePath": "portal-impl/src/com/liferay/portal/db/partition/util/DBPartitionUtil.java",
+      "lineRange": [
+        196,
+        217
+      ],
+      "summary": "Method getConfigurations in DBPartitionUtil.java.",
+      "tags": [
+        "method"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:portal-impl/src/com/liferay/portal/db/partition/util/DBPartitionUtil.java:insertDBPartition",
+      "type": "function",
+      "name": "insertDBPartition",
+      "filePath": "portal-impl/src/com/liferay/portal/db/partition/util/DBPartitionUtil.java",
+      "lineRange": [
+        229,
+        239
+      ],
+      "summary": "Method insertDBPartition in DBPartitionUtil.java.",
+      "tags": [
+        "method"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:portal-impl/src/com/liferay/portal/db/partition/util/DBPartitionUtil.java:removeDBPartition",
+      "type": "function",
+      "name": "removeDBPartition",
+      "filePath": "portal-impl/src/com/liferay/portal/db/partition/util/DBPartitionUtil.java",
+      "lineRange": [
+        241,
+        258
+      ],
+      "summary": "Method removeDBPartition in DBPartitionUtil.java.",
+      "tags": [
+        "method"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:portal-impl/src/com/liferay/portal/db/partition/util/DBPartitionUtil.java:replaceByTable",
+      "type": "function",
+      "name": "replaceByTable",
+      "filePath": "portal-impl/src/com/liferay/portal/db/partition/util/DBPartitionUtil.java",
+      "lineRange": [
+        260,
+        289
+      ],
+      "summary": "Method replaceByTable in DBPartitionUtil.java.",
+      "tags": [
+        "method"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:portal-impl/src/com/liferay/portal/db/partition/util/DBPartitionUtil.java:setDefaultCompanyId",
+      "type": "function",
+      "name": "setDefaultCompanyId",
+      "filePath": "portal-impl/src/com/liferay/portal/db/partition/util/DBPartitionUtil.java",
+      "lineRange": [
+        291,
+        306
+      ],
+      "summary": "Method setDefaultCompanyId in DBPartitionUtil.java.",
+      "tags": [
+        "method"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:portal-impl/src/com/liferay/portal/db/partition/util/DBPartitionUtil.java:wrapDataSource",
+      "type": "function",
+      "name": "wrapDataSource",
+      "filePath": "portal-impl/src/com/liferay/portal/db/partition/util/DBPartitionUtil.java",
+      "lineRange": [
+        314,
+        357
+      ],
+      "summary": "Method wrapDataSource in DBPartitionUtil.java.",
+      "tags": [
+        "method"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:portal-impl/src/com/liferay/portal/db/partition/util/DBPartitionUtil.java:_addDBPartition",
+      "type": "function",
+      "name": "_addDBPartition",
+      "filePath": "portal-impl/src/com/liferay/portal/db/partition/util/DBPartitionUtil.java",
+      "lineRange": [
+        359,
+        440
+      ],
+      "summary": "Method _addDBPartition in DBPartitionUtil.java.",
+      "tags": [
+        "method"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:portal-impl/src/com/liferay/portal/db/partition/util/DBPartitionUtil.java:_copyDBPartition",
+      "type": "function",
+      "name": "_copyDBPartition",
+      "filePath": "portal-impl/src/com/liferay/portal/db/partition/util/DBPartitionUtil.java",
+      "lineRange": [
+        442,
+        582
+      ],
+      "summary": "Method _copyDBPartition in DBPartitionUtil.java.",
+      "tags": [
+        "method"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:portal-impl/src/com/liferay/portal/db/partition/util/DBPartitionUtil.java:_copyQuartzTableRow",
+      "type": "function",
+      "name": "_copyQuartzTableRow",
+      "filePath": "portal-impl/src/com/liferay/portal/db/partition/util/DBPartitionUtil.java",
+      "lineRange": [
+        584,
+        606
+      ],
+      "summary": "Method _copyQuartzTableRow in DBPartitionUtil.java.",
+      "tags": [
+        "method"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:portal-impl/src/com/liferay/portal/db/partition/util/DBPartitionUtil.java:_deleteData",
+      "type": "function",
+      "name": "_deleteData",
+      "filePath": "portal-impl/src/com/liferay/portal/db/partition/util/DBPartitionUtil.java",
+      "lineRange": [
+        618,
+        627
+      ],
+      "summary": "Method _deleteData in DBPartitionUtil.java.",
+      "tags": [
+        "method"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:portal-impl/src/com/liferay/portal/db/partition/util/DBPartitionUtil.java:_dropDBPartition",
+      "type": "function",
+      "name": "_dropDBPartition",
+      "filePath": "portal-impl/src/com/liferay/portal/db/partition/util/DBPartitionUtil.java",
+      "lineRange": [
+        639,
+        684
+      ],
+      "summary": "Method _dropDBPartition in DBPartitionUtil.java.",
+      "tags": [
+        "method"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:portal-impl/src/com/liferay/portal/db/partition/util/DBPartitionUtil.java:_extractDBPartition",
+      "type": "function",
+      "name": "_extractDBPartition",
+      "filePath": "portal-impl/src/com/liferay/portal/db/partition/util/DBPartitionUtil.java",
+      "lineRange": [
+        686,
+        748
+      ],
+      "summary": "Method _extractDBPartition in DBPartitionUtil.java.",
+      "tags": [
+        "method"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:portal-impl/src/com/liferay/portal/db/partition/util/DBPartitionUtil.java:_extractTable",
+      "type": "function",
+      "name": "_extractTable",
+      "filePath": "portal-impl/src/com/liferay/portal/db/partition/util/DBPartitionUtil.java",
+      "lineRange": [
+        750,
+        782
+      ],
+      "summary": "Method _extractTable in DBPartitionUtil.java.",
+      "tags": [
+        "method"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:portal-impl/src/com/liferay/portal/db/partition/util/DBPartitionUtil.java:_forEachCompanyIdConcurrently",
+      "type": "function",
+      "name": "_forEachCompanyIdConcurrently",
+      "filePath": "portal-impl/src/com/liferay/portal/db/partition/util/DBPartitionUtil.java",
+      "lineRange": [
+        784,
+        845
+      ],
+      "summary": "Method _forEachCompanyIdConcurrently in DBPartitionUtil.java.",
+      "tags": [
+        "method"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:portal-impl/src/com/liferay/portal/db/partition/util/DBPartitionUtil.java:_getColumnNames",
+      "type": "function",
+      "name": "_getColumnNames",
+      "filePath": "portal-impl/src/com/liferay/portal/db/partition/util/DBPartitionUtil.java",
+      "lineRange": [
+        847,
+        862
+      ],
+      "summary": "Method _getColumnNames in DBPartitionUtil.java.",
+      "tags": [
+        "method"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:portal-impl/src/com/liferay/portal/db/partition/util/DBPartitionUtil.java:_getConnectionWrapper",
+      "type": "function",
+      "name": "_getConnectionWrapper",
+      "filePath": "portal-impl/src/com/liferay/portal/db/partition/util/DBPartitionUtil.java",
+      "lineRange": [
+        874,
+        1002
+      ],
+      "summary": "Method _getConnectionWrapper in DBPartitionUtil.java.",
+      "tags": [
+        "method"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:portal-impl/src/com/liferay/portal/db/partition/util/DBPartitionUtil.java:_getCopyDataSQL",
+      "type": "function",
+      "name": "_getCopyDataSQL",
+      "filePath": "portal-impl/src/com/liferay/portal/db/partition/util/DBPartitionUtil.java",
+      "lineRange": [
+        1013,
+        1022
+      ],
+      "summary": "Method _getCopyDataSQL in DBPartitionUtil.java.",
+      "tags": [
+        "method"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:portal-impl/src/com/liferay/portal/db/partition/util/DBPartitionUtil.java:_insertDBPartition",
+      "type": "function",
+      "name": "_insertDBPartition",
+      "filePath": "portal-impl/src/com/liferay/portal/db/partition/util/DBPartitionUtil.java",
+      "lineRange": [
+        1034,
+        1138
+      ],
+      "summary": "Method _insertDBPartition in DBPartitionUtil.java.",
+      "tags": [
+        "method"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:portal-impl/src/com/liferay/portal/db/partition/util/DBPartitionUtil.java:_isCopyableQuartzTable",
+      "type": "function",
+      "name": "_isCopyableQuartzTable",
+      "filePath": "portal-impl/src/com/liferay/portal/db/partition/util/DBPartitionUtil.java",
+      "lineRange": [
+        1140,
+        1149
+      ],
+      "summary": "Method _isCopyableQuartzTable in DBPartitionUtil.java.",
+      "tags": [
+        "method"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:portal-impl/src/com/liferay/portal/db/partition/util/DBPartitionUtil.java:_isSkip",
+      "type": "function",
+      "name": "_isSkip",
+      "filePath": "portal-impl/src/com/liferay/portal/db/partition/util/DBPartitionUtil.java",
+      "lineRange": [
+        1151,
+        1173
+      ],
+      "summary": "Method _isSkip in DBPartitionUtil.java.",
+      "tags": [
+        "method"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:portal-impl/src/com/liferay/portal/db/partition/util/DBPartitionUtil.java:_moveCompanyData",
+      "type": "function",
+      "name": "_moveCompanyData",
+      "filePath": "portal-impl/src/com/liferay/portal/db/partition/util/DBPartitionUtil.java",
+      "lineRange": [
+        1175,
+        1184
+      ],
+      "summary": "Method _moveCompanyData in DBPartitionUtil.java.",
+      "tags": [
+        "method"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:portal-impl/src/com/liferay/portal/db/partition/util/DBPartitionUtil.java:_moveData",
+      "type": "function",
+      "name": "_moveData",
+      "filePath": "portal-impl/src/com/liferay/portal/db/partition/util/DBPartitionUtil.java",
+      "lineRange": [
+        1186,
+        1197
+      ],
+      "summary": "Method _moveData in DBPartitionUtil.java.",
+      "tags": [
+        "method"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:portal-impl/src/com/liferay/portal/db/partition/util/DBPartitionUtil.java:_reloadQuartzJobs",
+      "type": "function",
+      "name": "_reloadQuartzJobs",
+      "filePath": "portal-impl/src/com/liferay/portal/db/partition/util/DBPartitionUtil.java",
+      "lineRange": [
+        1199,
+        1229
+      ],
+      "summary": "Method _reloadQuartzJobs in DBPartitionUtil.java.",
+      "tags": [
+        "method"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:portal-impl/src/com/liferay/portal/db/partition/util/DBPartitionUtil.java:_replaceCompanyIdQuartzColumns",
+      "type": "function",
+      "name": "_replaceCompanyIdQuartzColumns",
+      "filePath": "portal-impl/src/com/liferay/portal/db/partition/util/DBPartitionUtil.java",
+      "lineRange": [
+        1231,
+        1259
+      ],
+      "summary": "Method _replaceCompanyIdQuartzColumns in DBPartitionUtil.java.",
+      "tags": [
+        "method"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:portal-impl/src/com/liferay/portal/db/partition/util/DBPartitionUtil.java:_restoreView",
+      "type": "function",
+      "name": "_restoreView",
+      "filePath": "portal-impl/src/com/liferay/portal/db/partition/util/DBPartitionUtil.java",
+      "lineRange": [
+        1261,
+        1298
+      ],
+      "summary": "Method _restoreView in DBPartitionUtil.java.",
+      "tags": [
+        "method"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:portal-impl/src/com/liferay/portal/db/partition/util/DBPartitionUtil.java:_wrapStatement",
+      "type": "function",
+      "name": "_wrapStatement",
+      "filePath": "portal-impl/src/com/liferay/portal/db/partition/util/DBPartitionUtil.java",
+      "lineRange": [
+        1300,
+        1369
+      ],
+      "summary": "Method _wrapStatement in DBPartitionUtil.java.",
+      "tags": [
+        "method"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:portal-impl/src/com/liferay/portal/deploy/DeployUtil.java",
+      "type": "file",
+      "name": "DeployUtil.java",
+      "filePath": "portal-impl/src/com/liferay/portal/deploy/DeployUtil.java",
+      "summary": "Utility for managing deployment paths and WAR directory structure in the portal.",
+      "tags": [
+        "utility",
+        "deployment"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "class:portal-impl/src/com/liferay/portal/deploy/DeployUtil.java:DeployUtil",
+      "type": "class",
+      "name": "DeployUtil",
+      "filePath": "portal-impl/src/com/liferay/portal/deploy/DeployUtil.java",
+      "lineRange": [
+        33,
+        119
+      ],
+      "summary": "Utility for managing plugin deployment paths and WAR extraction.",
+      "tags": [
+        "utility",
+        "deployment"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:portal-impl/src/com/liferay/portal/deploy/DeployUtil.java:copyDependencyXml",
+      "type": "function",
+      "name": "copyDependencyXml",
+      "filePath": "portal-impl/src/com/liferay/portal/deploy/DeployUtil.java",
+      "lineRange": [
+        35,
+        58
+      ],
+      "summary": "Method copyDependencyXml in DeployUtil.java.",
+      "tags": [
+        "method"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:portal-impl/src/com/liferay/portal/deploy/DeployUtil.java:deletePath",
+      "type": "function",
+      "name": "deletePath",
+      "filePath": "portal-impl/src/com/liferay/portal/deploy/DeployUtil.java",
+      "lineRange": [
+        60,
+        86
+      ],
+      "summary": "Method deletePath in DeployUtil.java.",
+      "tags": [
+        "method"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:portal-impl/src/com/liferay/portal/deploy/DeployUtil.java:getResourcePath",
+      "type": "function",
+      "name": "getResourcePath",
+      "filePath": "portal-impl/src/com/liferay/portal/deploy/DeployUtil.java",
+      "lineRange": [
+        88,
+        117
+      ],
+      "summary": "Method getResourcePath in DeployUtil.java.",
+      "tags": [
+        "method"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:portal-impl/src/com/liferay/portal/deploy/auto/HookAutoDeployListener.java",
+      "type": "file",
+      "name": "HookAutoDeployListener.java",
+      "filePath": "portal-impl/src/com/liferay/portal/deploy/auto/HookAutoDeployListener.java",
+      "summary": "Auto-deploy listener that detects and processes hook plugins during deployment.",
+      "tags": [
+        "deployment",
+        "auto-deploy",
+        "hook"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:portal-impl/src/com/liferay/portal/deploy/auto/HookAutoDeployListener.java:HookAutoDeployListener",
+      "type": "class",
+      "name": "HookAutoDeployListener",
+      "filePath": "portal-impl/src/com/liferay/portal/deploy/auto/HookAutoDeployListener.java",
+      "lineRange": [
+        20,
+        45
+      ],
+      "summary": "Class HookAutoDeployListener in HookAutoDeployListener.java.",
+      "tags": [
+        "class"
+      ],
+      "complexity": "simple"
+    }
+  ],
+  "edges": [
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/db/DBResourceUtil.java",
+      "target": "class:portal-impl/src/com/liferay/portal/db/DBResourceUtil.java:DBResourceUtil",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/db/DBResourceUtil.java",
+      "target": "class:portal-impl/src/com/liferay/portal/db/DBResourceUtil.java:DBResourceUtil",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/db/DBResourceUtil.java",
+      "target": "function:portal-impl/src/com/liferay/portal/db/DBResourceUtil.java:_read",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/db/DBResourceUtil.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/log/Log.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/db/DBResourceUtil.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/log/LogFactoryUtil.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/db/DBResourceUtil.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/util/StringUtil.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/db/index/IndexUpdaterUtil.java",
+      "target": "class:portal-impl/src/com/liferay/portal/db/index/IndexUpdaterUtil.java:IndexUpdaterUtil",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/db/index/IndexUpdaterUtil.java",
+      "target": "class:portal-impl/src/com/liferay/portal/db/index/IndexUpdaterUtil.java:IndexUpdaterUtil",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/db/index/IndexUpdaterUtil.java",
+      "target": "function:portal-impl/src/com/liferay/portal/db/index/IndexUpdaterUtil.java:updateAllIndexes",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/db/index/IndexUpdaterUtil.java",
+      "target": "function:portal-impl/src/com/liferay/portal/db/index/IndexUpdaterUtil.java:updateAllIndexes",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/db/index/IndexUpdaterUtil.java",
+      "target": "function:portal-impl/src/com/liferay/portal/db/index/IndexUpdaterUtil.java:updateIndexes",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/db/index/IndexUpdaterUtil.java",
+      "target": "function:portal-impl/src/com/liferay/portal/db/index/IndexUpdaterUtil.java:updateIndexes",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/db/index/IndexUpdaterUtil.java",
+      "target": "function:portal-impl/src/com/liferay/portal/db/index/IndexUpdaterUtil.java:updatePortalIndexes",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/db/index/IndexUpdaterUtil.java",
+      "target": "function:portal-impl/src/com/liferay/portal/db/index/IndexUpdaterUtil.java:updatePortalIndexes",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/db/index/IndexUpdaterUtil.java",
+      "target": "function:portal-impl/src/com/liferay/portal/db/index/IndexUpdaterUtil.java:_addUpdateIndexesFutures",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/db/index/IndexUpdaterUtil.java",
+      "target": "function:portal-impl/src/com/liferay/portal/db/index/IndexUpdaterUtil.java:_awaitFuturesTermination",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/db/index/IndexUpdaterUtil.java",
+      "target": "function:portal-impl/src/com/liferay/portal/db/index/IndexUpdaterUtil.java:_getIndexesSQLMap",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/db/index/IndexUpdaterUtil.java",
+      "target": "function:portal-impl/src/com/liferay/portal/db/index/IndexUpdaterUtil.java:_isSkipUpdateIndexes",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/db/index/IndexUpdaterUtil.java",
+      "target": "function:portal-impl/src/com/liferay/portal/db/index/IndexUpdaterUtil.java:_updateIndexes",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/db/index/IndexUpdaterUtil.java",
+      "target": "file:portal-impl/src/com/liferay/portal/db/DBResourceUtil.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/db/index/IndexUpdaterUtil.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/dao/db/DB.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/db/index/IndexUpdaterUtil.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/dao/db/DBManagerUtil.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/db/index/IndexUpdaterUtil.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/dao/jdbc/DataAccess.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/db/index/IndexUpdaterUtil.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/dependency/manager/DependencyManagerSyncUtil.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/db/index/IndexUpdaterUtil.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/log/Log.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/db/index/IndexUpdaterUtil.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/log/LogFactoryUtil.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/db/index/IndexUpdaterUtil.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/model/Release.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/db/index/IndexUpdaterUtil.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/model/ReleaseConstants.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/db/index/IndexUpdaterUtil.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/module/util/BundleUtil.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/db/index/IndexUpdaterUtil.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/module/util/SystemBundleUtil.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/db/index/IndexUpdaterUtil.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/service/ReleaseLocalServiceUtil.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/db/index/IndexUpdaterUtil.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/util/LoggingTimer.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/db/index/IndexUpdaterUtil.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/util/StringUtil.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/db/index/IndexUpdaterUtil.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/util/Validator.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/db/partition/db/DBPartitionDB.java",
+      "target": "class:portal-impl/src/com/liferay/portal/db/partition/db/DBPartitionDB.java:DBPartitionDB",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/db/partition/db/DBPartitionDB.java",
+      "target": "class:portal-impl/src/com/liferay/portal/db/partition/db/DBPartitionDB.java:DBPartitionDB",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/db/partition/db/DBPartitionDB.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/dao/db/DBInspector.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/db/partition/db/DBPartitionMySQLDB.java",
+      "target": "class:portal-impl/src/com/liferay/portal/db/partition/db/DBPartitionMySQLDB.java:DBPartitionMySQLDB",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/db/partition/db/DBPartitionMySQLDB.java",
+      "target": "class:portal-impl/src/com/liferay/portal/db/partition/db/DBPartitionMySQLDB.java:DBPartitionMySQLDB",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/db/partition/db/DBPartitionMySQLDB.java",
+      "target": "function:portal-impl/src/com/liferay/portal/db/partition/db/DBPartitionMySQLDB.java:getCreateTableSQL",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/db/partition/db/DBPartitionMySQLDB.java",
+      "target": "function:portal-impl/src/com/liferay/portal/db/partition/db/DBPartitionMySQLDB.java:getCreateTableSQL",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/db/partition/db/DBPartitionMySQLDB.java",
+      "target": "function:portal-impl/src/com/liferay/portal/db/partition/db/DBPartitionMySQLDB.java:getDefaultPartitionName",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/db/partition/db/DBPartitionMySQLDB.java",
+      "target": "function:portal-impl/src/com/liferay/portal/db/partition/db/DBPartitionMySQLDB.java:getDefaultPartitionName",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/db/partition/db/DBPartitionMySQLDB.java",
+      "target": "function:portal-impl/src/com/liferay/portal/db/partition/db/DBPartitionMySQLDB.java:_getSessionCharsetEncoding",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/db/partition/util/DBPartitionUtil.java",
+      "target": "class:portal-impl/src/com/liferay/portal/db/partition/util/DBPartitionUtil.java:DBPartitionUtil",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/db/partition/util/DBPartitionUtil.java",
+      "target": "class:portal-impl/src/com/liferay/portal/db/partition/util/DBPartitionUtil.java:DBPartitionUtil",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/db/partition/util/DBPartitionUtil.java",
+      "target": "function:portal-impl/src/com/liferay/portal/db/partition/util/DBPartitionUtil.java:addDBPartition",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/db/partition/util/DBPartitionUtil.java",
+      "target": "function:portal-impl/src/com/liferay/portal/db/partition/util/DBPartitionUtil.java:addDBPartition",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/db/partition/util/DBPartitionUtil.java",
+      "target": "function:portal-impl/src/com/liferay/portal/db/partition/util/DBPartitionUtil.java:checkDatabasePartitionSchemaNamePrefix",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/db/partition/util/DBPartitionUtil.java",
+      "target": "function:portal-impl/src/com/liferay/portal/db/partition/util/DBPartitionUtil.java:checkDatabasePartitionSchemaNamePrefix",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/db/partition/util/DBPartitionUtil.java",
+      "target": "function:portal-impl/src/com/liferay/portal/db/partition/util/DBPartitionUtil.java:copyDBPartition",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/db/partition/util/DBPartitionUtil.java",
+      "target": "function:portal-impl/src/com/liferay/portal/db/partition/util/DBPartitionUtil.java:copyDBPartition",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/db/partition/util/DBPartitionUtil.java",
+      "target": "function:portal-impl/src/com/liferay/portal/db/partition/util/DBPartitionUtil.java:extractDBPartition",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/db/partition/util/DBPartitionUtil.java",
+      "target": "function:portal-impl/src/com/liferay/portal/db/partition/util/DBPartitionUtil.java:extractDBPartition",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/db/partition/util/DBPartitionUtil.java",
+      "target": "function:portal-impl/src/com/liferay/portal/db/partition/util/DBPartitionUtil.java:forEachCompanyId",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/db/partition/util/DBPartitionUtil.java",
+      "target": "function:portal-impl/src/com/liferay/portal/db/partition/util/DBPartitionUtil.java:forEachCompanyId",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/db/partition/util/DBPartitionUtil.java",
+      "target": "function:portal-impl/src/com/liferay/portal/db/partition/util/DBPartitionUtil.java:getConfigurationPids",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/db/partition/util/DBPartitionUtil.java",
+      "target": "function:portal-impl/src/com/liferay/portal/db/partition/util/DBPartitionUtil.java:getConfigurationPids",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/db/partition/util/DBPartitionUtil.java",
+      "target": "function:portal-impl/src/com/liferay/portal/db/partition/util/DBPartitionUtil.java:getConfigurations",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/db/partition/util/DBPartitionUtil.java",
+      "target": "function:portal-impl/src/com/liferay/portal/db/partition/util/DBPartitionUtil.java:getConfigurations",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/db/partition/util/DBPartitionUtil.java",
+      "target": "function:portal-impl/src/com/liferay/portal/db/partition/util/DBPartitionUtil.java:insertDBPartition",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/db/partition/util/DBPartitionUtil.java",
+      "target": "function:portal-impl/src/com/liferay/portal/db/partition/util/DBPartitionUtil.java:insertDBPartition",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/db/partition/util/DBPartitionUtil.java",
+      "target": "function:portal-impl/src/com/liferay/portal/db/partition/util/DBPartitionUtil.java:removeDBPartition",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/db/partition/util/DBPartitionUtil.java",
+      "target": "function:portal-impl/src/com/liferay/portal/db/partition/util/DBPartitionUtil.java:removeDBPartition",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/db/partition/util/DBPartitionUtil.java",
+      "target": "function:portal-impl/src/com/liferay/portal/db/partition/util/DBPartitionUtil.java:replaceByTable",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/db/partition/util/DBPartitionUtil.java",
+      "target": "function:portal-impl/src/com/liferay/portal/db/partition/util/DBPartitionUtil.java:replaceByTable",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/db/partition/util/DBPartitionUtil.java",
+      "target": "function:portal-impl/src/com/liferay/portal/db/partition/util/DBPartitionUtil.java:setDefaultCompanyId",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/db/partition/util/DBPartitionUtil.java",
+      "target": "function:portal-impl/src/com/liferay/portal/db/partition/util/DBPartitionUtil.java:setDefaultCompanyId",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/db/partition/util/DBPartitionUtil.java",
+      "target": "function:portal-impl/src/com/liferay/portal/db/partition/util/DBPartitionUtil.java:wrapDataSource",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/db/partition/util/DBPartitionUtil.java",
+      "target": "function:portal-impl/src/com/liferay/portal/db/partition/util/DBPartitionUtil.java:wrapDataSource",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/db/partition/util/DBPartitionUtil.java",
+      "target": "function:portal-impl/src/com/liferay/portal/db/partition/util/DBPartitionUtil.java:_addDBPartition",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/db/partition/util/DBPartitionUtil.java",
+      "target": "function:portal-impl/src/com/liferay/portal/db/partition/util/DBPartitionUtil.java:_copyDBPartition",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/db/partition/util/DBPartitionUtil.java",
+      "target": "function:portal-impl/src/com/liferay/portal/db/partition/util/DBPartitionUtil.java:_copyQuartzTableRow",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/db/partition/util/DBPartitionUtil.java",
+      "target": "function:portal-impl/src/com/liferay/portal/db/partition/util/DBPartitionUtil.java:_deleteData",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/db/partition/util/DBPartitionUtil.java",
+      "target": "function:portal-impl/src/com/liferay/portal/db/partition/util/DBPartitionUtil.java:_dropDBPartition",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/db/partition/util/DBPartitionUtil.java",
+      "target": "function:portal-impl/src/com/liferay/portal/db/partition/util/DBPartitionUtil.java:_extractDBPartition",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/db/partition/util/DBPartitionUtil.java",
+      "target": "function:portal-impl/src/com/liferay/portal/db/partition/util/DBPartitionUtil.java:_extractTable",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/db/partition/util/DBPartitionUtil.java",
+      "target": "function:portal-impl/src/com/liferay/portal/db/partition/util/DBPartitionUtil.java:_forEachCompanyIdConcurrently",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/db/partition/util/DBPartitionUtil.java",
+      "target": "function:portal-impl/src/com/liferay/portal/db/partition/util/DBPartitionUtil.java:_getColumnNames",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/db/partition/util/DBPartitionUtil.java",
+      "target": "function:portal-impl/src/com/liferay/portal/db/partition/util/DBPartitionUtil.java:_getConnectionWrapper",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/db/partition/util/DBPartitionUtil.java",
+      "target": "function:portal-impl/src/com/liferay/portal/db/partition/util/DBPartitionUtil.java:_getCopyDataSQL",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/db/partition/util/DBPartitionUtil.java",
+      "target": "function:portal-impl/src/com/liferay/portal/db/partition/util/DBPartitionUtil.java:_insertDBPartition",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/db/partition/util/DBPartitionUtil.java",
+      "target": "function:portal-impl/src/com/liferay/portal/db/partition/util/DBPartitionUtil.java:_isCopyableQuartzTable",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/db/partition/util/DBPartitionUtil.java",
+      "target": "function:portal-impl/src/com/liferay/portal/db/partition/util/DBPartitionUtil.java:_isSkip",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/db/partition/util/DBPartitionUtil.java",
+      "target": "function:portal-impl/src/com/liferay/portal/db/partition/util/DBPartitionUtil.java:_moveCompanyData",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/db/partition/util/DBPartitionUtil.java",
+      "target": "function:portal-impl/src/com/liferay/portal/db/partition/util/DBPartitionUtil.java:_moveData",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/db/partition/util/DBPartitionUtil.java",
+      "target": "function:portal-impl/src/com/liferay/portal/db/partition/util/DBPartitionUtil.java:_reloadQuartzJobs",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/db/partition/util/DBPartitionUtil.java",
+      "target": "function:portal-impl/src/com/liferay/portal/db/partition/util/DBPartitionUtil.java:_replaceCompanyIdQuartzColumns",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/db/partition/util/DBPartitionUtil.java",
+      "target": "function:portal-impl/src/com/liferay/portal/db/partition/util/DBPartitionUtil.java:_restoreView",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/db/partition/util/DBPartitionUtil.java",
+      "target": "function:portal-impl/src/com/liferay/portal/db/partition/util/DBPartitionUtil.java:_wrapStatement",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/db/partition/util/DBPartitionUtil.java",
+      "target": "file:portal-impl/src/com/liferay/portal/dao/jdbc/util/DataSourceWrapper.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/db/partition/util/DBPartitionUtil.java",
+      "target": "file:portal-impl/src/com/liferay/portal/db/partition/db/DBPartitionDB.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/db/partition/util/DBPartitionUtil.java",
+      "target": "file:portal-impl/src/com/liferay/portal/db/partition/db/DBPartitionMySQLDB.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/db/partition/util/DBPartitionUtil.java",
+      "target": "file:portal-impl/src/com/liferay/portal/db/partition/db/DBPartitionPostgreSQLDB.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/db/partition/util/DBPartitionUtil.java",
+      "target": "file:portal-impl/src/com/liferay/portal/spring/hibernate/DialectDetector.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/db/partition/util/DBPartitionUtil.java",
+      "target": "file:portal-impl/src/com/liferay/portal/util/PropsValues.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/db/partition/util/DBPartitionUtil.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/dao/db/DB.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/db/partition/util/DBPartitionUtil.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/dao/db/DBInspector.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/db/partition/util/DBPartitionUtil.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/dao/db/DBManagerUtil.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/db/partition/util/DBPartitionUtil.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/dao/db/DBType.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/db/partition/util/DBPartitionUtil.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/dao/jdbc/CurrentConnectionUtil.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/db/partition/util/DBPartitionUtil.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/dao/jdbc/util/ConnectionWrapper.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/db/partition/util/DBPartitionUtil.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/dao/jdbc/util/StatementWrapper.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/db/partition/util/DBPartitionUtil.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/db/partition/DBPartition.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/db/partition/util/DBPartitionUtil.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/exception/PortalException.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/db/partition/util/DBPartitionUtil.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/instance/PortalInstancePool.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/db/partition/util/DBPartitionUtil.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/log/Log.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/db/partition/util/DBPartitionUtil.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/log/LogFactoryUtil.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/db/partition/util/DBPartitionUtil.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/messaging/Message.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/db/partition/util/DBPartitionUtil.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/model/CompanyConstants.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/db/partition/util/DBPartitionUtil.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/model/ResourceConstants.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/db/partition/util/DBPartitionUtil.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/module/framework/ThrowableCollector.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/db/partition/util/DBPartitionUtil.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/scheduler/messaging/SchedulerResponse.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/db/partition/util/DBPartitionUtil.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/scheduler/SchedulerEngine.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/db/partition/util/DBPartitionUtil.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/scheduler/SchedulerEngineHelperUtil.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/db/partition/util/DBPartitionUtil.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/scheduler/SchedulerException.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/db/partition/util/DBPartitionUtil.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/security/auth/CompanyThreadLocal.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/db/partition/util/DBPartitionUtil.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/util/GetterUtil.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/db/partition/util/DBPartitionUtil.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/util/InfrastructureUtil.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/db/partition/util/DBPartitionUtil.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/util/ListUtil.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/db/partition/util/DBPartitionUtil.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/util/PropsUtil.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/db/partition/util/DBPartitionUtil.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/util/StringUtil.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/deploy/DeployUtil.java",
+      "target": "class:portal-impl/src/com/liferay/portal/deploy/DeployUtil.java:DeployUtil",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/deploy/DeployUtil.java",
+      "target": "class:portal-impl/src/com/liferay/portal/deploy/DeployUtil.java:DeployUtil",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/deploy/DeployUtil.java",
+      "target": "function:portal-impl/src/com/liferay/portal/deploy/DeployUtil.java:copyDependencyXml",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/deploy/DeployUtil.java",
+      "target": "function:portal-impl/src/com/liferay/portal/deploy/DeployUtil.java:copyDependencyXml",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/deploy/DeployUtil.java",
+      "target": "function:portal-impl/src/com/liferay/portal/deploy/DeployUtil.java:deletePath",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/deploy/DeployUtil.java",
+      "target": "function:portal-impl/src/com/liferay/portal/deploy/DeployUtil.java:deletePath",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/deploy/DeployUtil.java",
+      "target": "function:portal-impl/src/com/liferay/portal/deploy/DeployUtil.java:getResourcePath",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/deploy/DeployUtil.java",
+      "target": "function:portal-impl/src/com/liferay/portal/deploy/DeployUtil.java:getResourcePath",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/deploy/DeployUtil.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/util/FileUtil.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/deploy/DeployUtil.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/util/StreamUtil.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/deploy/DeployUtil.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/util/StringUtil.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/deploy/DeployUtil.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/util/SystemProperties.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/deploy/auto/HookAutoDeployListener.java",
+      "target": "class:portal-impl/src/com/liferay/portal/deploy/auto/HookAutoDeployListener.java:HookAutoDeployListener",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/deploy/auto/HookAutoDeployListener.java",
+      "target": "class:portal-impl/src/com/liferay/portal/deploy/auto/HookAutoDeployListener.java:HookAutoDeployListener",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/deploy/auto/HookAutoDeployListener.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/deploy/auto/AutoDeployer.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/deploy/auto/HookAutoDeployListener.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/deploy/auto/AutoDeployException.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/deploy/auto/HookAutoDeployListener.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/deploy/auto/BaseAutoDeployListener.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/deploy/auto/HookAutoDeployListener.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/model/Plugin.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    }
+  ]
+}

@@ -1,2461 +1,1653 @@
 {
   "nodes": [
     {
-      "id": "function:com/liferay/portal/model/impl/UserImpl:setLanguageId",
-      "type": "function",
-      "name": "setLanguageId",
-      "filePath": "portal-impl/src/com/liferay/portal/model/impl/UserImpl.java",
-      "summary": "setLanguageId() in UserImpl.java",
+      "id": "file:portal-impl/src/com/liferay/portal/language/ResourceBundleEnumeration.java",
+      "type": "file",
+      "name": "ResourceBundleEnumeration.java",
+      "filePath": "portal-impl/src/com/liferay/portal/language/ResourceBundleEnumeration.java",
+      "summary": "Enumeration combining set-based keys and parent enumeration for resource bundle key iteration.",
       "tags": [
-        "function"
+        "localization",
+        "resource-bundle",
+        "java",
+        "portal-impl"
       ],
-      "complexity": "low",
-      "startLine": 1047,
-      "endLine": 1057
+      "complexity": "moderate"
     },
     {
-      "id": "function:com/liferay/portal/model/impl/UserImpl:setTimeZoneId",
-      "type": "function",
-      "name": "setTimeZoneId",
-      "filePath": "portal-impl/src/com/liferay/portal/model/impl/UserImpl.java",
-      "summary": "setTimeZoneId() in UserImpl.java",
-      "tags": [
-        "function"
-      ],
-      "complexity": "low",
-      "startLine": 1084,
-      "endLine": 1095
-    },
-    {
-      "id": "function:com/liferay/portal/model/impl/UserImpl:getProfileFriendlyURL",
-      "type": "function",
-      "name": "getProfileFriendlyURL",
-      "filePath": "portal-impl/src/com/liferay/portal/model/impl/UserImpl.java",
-      "summary": "getProfileFriendlyURL() in UserImpl.java",
-      "tags": [
-        "function"
-      ],
-      "complexity": "low",
-      "startLine": 1102,
-      "endLine": 1117
-    },
-    {
-      "id": "function:com/liferay/portal/model/impl/UserImpl:_getOrganizationRelatedGroups",
-      "type": "function",
-      "name": "_getOrganizationRelatedGroups",
-      "filePath": "portal-impl/src/com/liferay/portal/model/impl/UserImpl.java",
-      "summary": "_getOrganizationRelatedGroups() in UserImpl.java",
-      "tags": [
-        "function"
-      ],
-      "complexity": "low",
-      "startLine": 1119,
-      "endLine": 1129
-    },
-    {
-      "id": "function:com/liferay/portal/model/impl/UserImpl:_getParentOrganizations",
-      "type": "function",
-      "name": "_getParentOrganizations",
-      "filePath": "portal-impl/src/com/liferay/portal/model/impl/UserImpl.java",
-      "summary": "_getParentOrganizations() in UserImpl.java",
-      "tags": [
-        "function"
-      ],
-      "complexity": "low",
-      "startLine": 1131,
-      "endLine": 1149
-    },
-    {
-      "id": "class:com/liferay/portal/model/impl/UserImpl:UserImpl",
+      "id": "class:portal-impl/src/com/liferay/portal/language/ResourceBundleEnumeration.java:ResourceBundleEnumeration",
       "type": "class",
-      "name": "UserImpl",
-      "filePath": "portal-impl/src/com/liferay/portal/model/impl/UserImpl.java",
-      "summary": "UserImpl class in UserImpl.java",
+      "name": "ResourceBundleEnumeration",
+      "filePath": "portal-impl/src/com/liferay/portal/language/ResourceBundleEnumeration.java",
+      "lineRange": [
+        16,
+        71
+      ],
+      "summary": "ResourceBundleEnumeration class with 3 methods.",
       "tags": [
-        "class"
+        "localization",
+        "resource-bundle",
+        "java"
       ],
-      "complexity": "high",
-      "methods": [
-        "fetchContact",
-        "fetchPortraitURL",
-        "getAddresses",
-        "getAllGroups",
-        "getAllRoles",
-        "getBirthday",
-        "getCompanyMx",
-        "getContact",
-        "getDigest",
-        "getDisplayEmailAddress",
-        "getDisplayURL",
-        "getDisplayURL",
-        "getEmailAddresses",
-        "getFemale",
-        "getFullName",
-        "getFullName",
-        "getGroup",
-        "getGroupId",
-        "getGroupIds",
-        "getGroups",
-        "getInheritedGroups",
-        "getInheritedRoles",
-        "getInheritedSiteGroups",
-        "getInheritedSiteRoles",
-        "getInitials",
-        "getLocale",
-        "getLogin",
-        "getMale",
-        "getMySiteGroups",
-        "getMySiteGroups",
-        "getMySiteGroups",
-        "getOrganizationIds",
-        "getOrganizationIds",
-        "getOrganizations",
-        "getOrganizations",
-        "getOrganizations",
-        "getOrganizationsGroups",
-        "getOrganizationsRoles",
-        "getOriginalEmailAddress",
-        "getPasswordModified",
-        "getPasswordPolicy",
-        "getPasswordUnencrypted",
-        "getPhones",
-        "getPortraitURL",
-        "getPrivateLayoutsPageCount",
-        "getPublicLayoutsPageCount",
-        "getReminderQueryQuestions",
-        "getRoleIds",
-        "getRoles",
-        "getSiteGroups",
-        "getSiteGroups",
-        "getSiteRoles",
-        "getTeamIds",
-        "getTeams",
-        "getTimeZone",
-        "getUnlockDate",
-        "getUnlockDate",
-        "getUserGroupIds",
-        "getUserGroupRoles",
-        "getUserGroups",
-        "getWebsites",
-        "hasCompanyMx",
-        "hasCompanyMx",
-        "hasMySites",
-        "hasOrganization",
-        "hasPrivateLayouts",
-        "hasPublicLayouts",
-        "hasReminderQuery",
-        "isActive",
-        "isDefaultUser",
-        "isEmailAddressComplete",
-        "isEmailAddressVerificationComplete",
-        "isFemale",
-        "isGuestUser",
-        "isMale",
-        "isOnDemandUser",
-        "isPasswordModified",
-        "isPasswordResetRequired",
-        "isReminderQueryComplete",
-        "isServiceAccountUser",
-        "isSetupComplete",
-        "isTermsOfUseComplete",
-        "setContact",
-        "setDigest",
-        "setGroup",
-        "setGroupId",
-        "setGroupIds",
-        "setLanguageId",
-        "setOrganizationIds",
-        "setPasswordModified",
-        "setPasswordUnencrypted",
-        "setRoleIds",
-        "setTeamIds",
-        "setTimeZoneId",
-        "setUserGroupIds",
-        "getProfileFriendlyURL",
-        "_getOrganizationRelatedGroups",
-        "_getParentOrganizations",
-        "_isRequirePasswordReset"
-      ],
-      "properties": [
-        "_HAS_USERS_PROFILE_FRIENDLY_URL",
-        "_NULL_CONTACT",
-        "_log",
-        "_contact",
-        "_group",
-        "_groupId",
-        "_groupIds",
-        "_locale",
-        "_organizationIds",
-        "_passwordModified",
-        "_passwordPolicy",
-        "_passwordUnencrypted",
-        "_roleIds",
-        "_teamIds",
-        "_timeZone",
-        "_userGroupIds"
-      ]
+      "complexity": "moderate"
     },
     {
-      "id": "file:com/liferay/portal/model/impl/VirtualHostBaseImpl",
+      "id": "function:portal-impl/src/com/liferay/portal/language/ResourceBundleEnumeration.java:ResourceBundleEnumeration",
+      "type": "function",
+      "name": "ResourceBundleEnumeration",
+      "filePath": "portal-impl/src/com/liferay/portal/language/ResourceBundleEnumeration.java",
+      "lineRange": [
+        18,
+        25
+      ],
+      "summary": "ResourceBundleEnumeration in ResourceBundleEnumeration.java",
+      "tags": [
+        "method"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:portal-impl/src/com/liferay/portal/language/ResourceBundleEnumeration.java:hasMoreElements",
+      "type": "function",
+      "name": "hasMoreElements",
+      "filePath": "portal-impl/src/com/liferay/portal/language/ResourceBundleEnumeration.java",
+      "lineRange": [
+        27,
+        51
+      ],
+      "summary": "Iterates over set keys first then delegates to parent enumeration for resource bundle enumeration.",
+      "tags": [
+        "iteration",
+        "localization"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:portal-impl/src/com/liferay/portal/language/ResourceBundleEnumeration.java:nextElement",
+      "type": "function",
+      "name": "nextElement",
+      "filePath": "portal-impl/src/com/liferay/portal/language/ResourceBundleEnumeration.java",
+      "lineRange": [
+        53,
+        64
+      ],
+      "summary": "nextElement in ResourceBundleEnumeration.java",
+      "tags": [
+        "method"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:portal-impl/src/com/liferay/portal/layoutconfiguration/util/LayoutTemplateLocator.java",
       "type": "file",
-      "name": "VirtualHostBaseImpl.java",
-      "filePath": "portal-impl/src/com/liferay/portal/model/impl/VirtualHostBaseImpl.java",
-      "summary": "VirtualHostBaseImpl.java - com.liferay.portal.model.impl.VirtualHostBaseImpl.java",
+      "name": "LayoutTemplateLocator.java",
+      "filePath": "portal-impl/src/com/liferay/portal/layoutconfiguration/util/LayoutTemplateLocator.java",
+      "summary": "Parses composite layout template IDs to extract template identifier, standard flag, and theme ID components.",
       "tags": [
-        "code",
+        "template",
+        "layout",
         "java",
-        "class-definition",
-        "has-calls"
+        "portal-impl"
       ],
-      "complexity": "low"
+      "complexity": "moderate"
     },
     {
-      "id": "file:com/liferay/portal/security/DefaultAdminUtil",
-      "type": "file",
-      "name": "DefaultAdminUtil.java",
-      "filePath": "portal-impl/src/com/liferay/portal/security/DefaultAdminUtil.java",
-      "summary": "DefaultAdminUtil.java - com.liferay.portal.security.DefaultAdminUtil.java",
-      "tags": [
-        "code",
-        "java",
-        "class-definition",
-        "has-calls"
-      ],
-      "complexity": "low"
-    },
-    {
-      "id": "function:com/liferay/portal/security/DefaultAdminUtil:fetchDefaultAdmin",
-      "type": "function",
-      "name": "fetchDefaultAdmin",
-      "filePath": "portal-impl/src/com/liferay/portal/security/DefaultAdminUtil.java",
-      "summary": "fetchDefaultAdmin() in DefaultAdminUtil.java",
-      "tags": [
-        "function"
-      ],
-      "complexity": "low",
-      "startLine": 21,
-      "endLine": 30
-    },
-    {
-      "id": "file:com/liferay/portal/security/auth/AuthTokenWhitelistImpl",
-      "type": "file",
-      "name": "AuthTokenWhitelistImpl.java",
-      "filePath": "portal-impl/src/com/liferay/portal/security/auth/AuthTokenWhitelistImpl.java",
-      "summary": "AuthTokenWhitelistImpl.java - com.liferay.portal.security.auth.AuthTokenWhitelistImpl.java",
-      "tags": [
-        "code",
-        "java",
-        "class-definition",
-        "has-calls"
-      ],
-      "complexity": "medium"
-    },
-    {
-      "id": "function:com/liferay/portal/security/auth/AuthTokenWhitelistImpl:isOriginCSRFWhitelisted",
-      "type": "function",
-      "name": "isOriginCSRFWhitelisted",
-      "filePath": "portal-impl/src/com/liferay/portal/security/auth/AuthTokenWhitelistImpl.java",
-      "summary": "isOriginCSRFWhitelisted() in AuthTokenWhitelistImpl.java",
-      "tags": [
-        "function"
-      ],
-      "complexity": "low",
-      "startLine": 30,
-      "endLine": 42
-    },
-    {
-      "id": "function:com/liferay/portal/security/auth/AuthTokenWhitelistImpl:isPortletInvocationWhitelisted",
-      "type": "function",
-      "name": "isPortletInvocationWhitelisted",
-      "filePath": "portal-impl/src/com/liferay/portal/security/auth/AuthTokenWhitelistImpl.java",
-      "summary": "isPortletInvocationWhitelisted() in AuthTokenWhitelistImpl.java",
-      "tags": [
-        "function"
-      ],
-      "complexity": "low",
-      "startLine": 54,
-      "endLine": 63
-    },
-    {
-      "id": "function:com/liferay/portal/security/auth/AuthTokenWhitelistImpl:isPortletURLCSRFWhitelisted",
-      "type": "function",
-      "name": "isPortletURLCSRFWhitelisted",
-      "filePath": "portal-impl/src/com/liferay/portal/security/auth/AuthTokenWhitelistImpl.java",
-      "summary": "isPortletURLCSRFWhitelisted() in AuthTokenWhitelistImpl.java",
-      "tags": [
-        "function"
-      ],
-      "complexity": "low",
-      "startLine": 65,
-      "endLine": 76
-    },
-    {
-      "id": "function:com/liferay/portal/security/auth/AuthTokenWhitelistImpl:isPortletURLPortletInvocationWhitelisted",
-      "type": "function",
-      "name": "isPortletURLPortletInvocationWhitelisted",
-      "filePath": "portal-impl/src/com/liferay/portal/security/auth/AuthTokenWhitelistImpl.java",
-      "summary": "isPortletURLPortletInvocationWhitelisted() in AuthTokenWhitelistImpl.java",
-      "tags": [
-        "function"
-      ],
-      "complexity": "low",
-      "startLine": 78,
-      "endLine": 88
-    },
-    {
-      "id": "function:com/liferay/portal/security/auth/AuthTokenWhitelistImpl:isValidSharedSecret",
-      "type": "function",
-      "name": "isValidSharedSecret",
-      "filePath": "portal-impl/src/com/liferay/portal/security/auth/AuthTokenWhitelistImpl.java",
-      "summary": "isValidSharedSecret() in AuthTokenWhitelistImpl.java",
-      "tags": [
-        "function"
-      ],
-      "complexity": "low",
-      "startLine": 90,
-      "endLine": 100
-    },
-    {
-      "id": "function:com/liferay/portal/security/auth/AuthTokenWhitelistImpl:_createOriginCSRFWhitelist",
-      "type": "function",
-      "name": "_createOriginCSRFWhitelist",
-      "filePath": "portal-impl/src/com/liferay/portal/security/auth/AuthTokenWhitelistImpl.java",
-      "summary": "_createOriginCSRFWhitelist() in AuthTokenWhitelistImpl.java",
-      "tags": [
-        "function"
-      ],
-      "complexity": "low",
-      "startLine": 102,
-      "endLine": 112
-    },
-    {
-      "id": "function:com/liferay/portal/security/auth/AuthTokenWhitelistImpl:_createPortletCSRFWhitelist",
-      "type": "function",
-      "name": "_createPortletCSRFWhitelist",
-      "filePath": "portal-impl/src/com/liferay/portal/security/auth/AuthTokenWhitelistImpl.java",
-      "summary": "_createPortletCSRFWhitelist() in AuthTokenWhitelistImpl.java",
-      "tags": [
-        "function"
-      ],
-      "complexity": "low",
-      "startLine": 114,
-      "endLine": 124
-    },
-    {
-      "id": "function:com/liferay/portal/security/auth/AuthTokenWhitelistImpl:_createPortletInvocationWhitelist",
-      "type": "function",
-      "name": "_createPortletInvocationWhitelist",
-      "filePath": "portal-impl/src/com/liferay/portal/security/auth/AuthTokenWhitelistImpl.java",
-      "summary": "_createPortletInvocationWhitelist() in AuthTokenWhitelistImpl.java",
-      "tags": [
-        "function"
-      ],
-      "complexity": "low",
-      "startLine": 126,
-      "endLine": 138
-    },
-    {
-      "id": "class:com/liferay/portal/security/auth/AuthTokenWhitelistImpl:AuthTokenWhitelistImpl",
+      "id": "class:portal-impl/src/com/liferay/portal/layoutconfiguration/util/LayoutTemplateLocator.java:LayoutTemplateLocator",
       "type": "class",
-      "name": "AuthTokenWhitelistImpl",
-      "filePath": "portal-impl/src/com/liferay/portal/security/auth/AuthTokenWhitelistImpl.java",
-      "summary": "AuthTokenWhitelistImpl class in AuthTokenWhitelistImpl.java",
+      "name": "LayoutTemplateLocator",
+      "filePath": "portal-impl/src/com/liferay/portal/layoutconfiguration/util/LayoutTemplateLocator.java",
+      "lineRange": [
+        14,
+        78
+      ],
+      "summary": "LayoutTemplateLocator class with 5 methods.",
       "tags": [
-        "class"
+        "template",
+        "layout",
+        "java"
       ],
-      "complexity": "medium",
-      "methods": [
-        "isOriginCSRFWhitelisted",
-        "isPortletCSRFWhitelisted",
-        "isPortletInvocationWhitelisted",
-        "isPortletURLCSRFWhitelisted",
-        "isPortletURLPortletInvocationWhitelisted",
-        "isValidSharedSecret",
-        "_createOriginCSRFWhitelist",
-        "_createPortletCSRFWhitelist",
-        "_createPortletInvocationWhitelist"
-      ],
-      "properties": [
-        "_originCSRFWhitelist",
-        "_portletCSRFWhitelist",
-        "_portletInvocationWhitelist"
-      ]
+      "complexity": "moderate"
     },
     {
-      "id": "file:com/liferay/portal/security/auth/InterruptedPortletRequestWhitelistUtil",
+      "id": "function:portal-impl/src/com/liferay/portal/layoutconfiguration/util/LayoutTemplateLocator.java:LayoutTemplateLocator",
+      "type": "function",
+      "name": "LayoutTemplateLocator",
+      "filePath": "portal-impl/src/com/liferay/portal/layoutconfiguration/util/LayoutTemplateLocator.java",
+      "lineRange": [
+        16,
+        52
+      ],
+      "summary": "LayoutTemplateLocator in LayoutTemplateLocator.java",
+      "tags": [
+        "method"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:portal-impl/src/com/liferay/portal/layoutconfiguration/util/LayoutTemplateLocator.java:getLayoutTemplateId",
+      "type": "function",
+      "name": "getLayoutTemplateId",
+      "filePath": "portal-impl/src/com/liferay/portal/layoutconfiguration/util/LayoutTemplateLocator.java",
+      "lineRange": [
+        62,
+        64
+      ],
+      "summary": "getLayoutTemplateId in LayoutTemplateLocator.java",
+      "tags": [
+        "method"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:portal-impl/src/com/liferay/portal/layoutconfiguration/util/LayoutTemplateLocator.java:getThemeId",
+      "type": "function",
+      "name": "getThemeId",
+      "filePath": "portal-impl/src/com/liferay/portal/layoutconfiguration/util/LayoutTemplateLocator.java",
+      "lineRange": [
+        66,
+        68
+      ],
+      "summary": "getThemeId in LayoutTemplateLocator.java",
+      "tags": [
+        "method"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:portal-impl/src/com/liferay/portal/layoutconfiguration/util/LayoutTemplateLocator.java:isStandard",
+      "type": "function",
+      "name": "isStandard",
+      "filePath": "portal-impl/src/com/liferay/portal/layoutconfiguration/util/LayoutTemplateLocator.java",
+      "lineRange": [
+        70,
+        72
+      ],
+      "summary": "isStandard in LayoutTemplateLocator.java",
+      "tags": [
+        "method"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:portal-impl/src/com/liferay/portal/layoutconfiguration/util/RuntimePageUtil.java",
       "type": "file",
-      "name": "InterruptedPortletRequestWhitelistUtil.java",
-      "filePath": "portal-impl/src/com/liferay/portal/security/auth/InterruptedPortletRequestWhitelistUtil.java",
-      "summary": "InterruptedPortletRequestWhitelistUtil.java - com.liferay.portal.security.auth.InterruptedPortletRequestWhitelistUtil.java",
+      "name": "RuntimePageUtil.java",
+      "filePath": "portal-impl/src/com/liferay/portal/layoutconfiguration/util/RuntimePageUtil.java",
+      "summary": "Facade for runtime page template processing dispatching layout templates and managing portlet render lifecycle.",
       "tags": [
-        "code",
-        "java",
-        "class-definition",
-        "has-calls"
+        "template",
+        "layout",
+        "utility"
       ],
-      "complexity": "medium"
+      "complexity": "complex"
     },
     {
-      "id": "function:com/liferay/portal/security/auth/InterruptedPortletRequestWhitelistUtil:isPortletInvocationWhitelisted",
-      "type": "function",
-      "name": "isPortletInvocationWhitelisted",
-      "filePath": "portal-impl/src/com/liferay/portal/security/auth/InterruptedPortletRequestWhitelistUtil.java",
-      "summary": "isPortletInvocationWhitelisted() in InterruptedPortletRequestWhitelistUtil.java",
-      "tags": [
-        "function"
-      ],
-      "complexity": "low",
-      "startLine": 26,
-      "endLine": 41
-    },
-    {
-      "id": "function:com/liferay/portal/security/auth/InterruptedPortletRequestWhitelistUtil:resetPortletInvocationWhitelist",
-      "type": "function",
-      "name": "resetPortletInvocationWhitelist",
-      "filePath": "portal-impl/src/com/liferay/portal/security/auth/InterruptedPortletRequestWhitelistUtil.java",
-      "summary": "resetPortletInvocationWhitelist() in InterruptedPortletRequestWhitelistUtil.java",
-      "tags": [
-        "function"
-      ],
-      "complexity": "low",
-      "startLine": 43,
-      "endLine": 56
-    },
-    {
-      "id": "function:com/liferay/portal/security/auth/InterruptedPortletRequestWhitelistUtil:resetPortletInvocationWhitelistActions",
-      "type": "function",
-      "name": "resetPortletInvocationWhitelistActions",
-      "filePath": "portal-impl/src/com/liferay/portal/security/auth/InterruptedPortletRequestWhitelistUtil.java",
-      "summary": "resetPortletInvocationWhitelistActions() in InterruptedPortletRequestWhitelistUtil.java",
-      "tags": [
-        "function"
-      ],
-      "complexity": "low",
-      "startLine": 58,
-      "endLine": 71
-    },
-    {
-      "id": "function:com/liferay/portal/security/auth/InterruptedPortletRequestWhitelistUtil:_isValidStrutsAction",
-      "type": "function",
-      "name": "_isValidStrutsAction",
-      "filePath": "portal-impl/src/com/liferay/portal/security/auth/InterruptedPortletRequestWhitelistUtil.java",
-      "summary": "_isValidStrutsAction() in InterruptedPortletRequestWhitelistUtil.java",
-      "tags": [
-        "function"
-      ],
-      "complexity": "low",
-      "startLine": 73,
-      "endLine": 100
-    },
-    {
-      "id": "class:com/liferay/portal/security/auth/InterruptedPortletRequestWhitelistUtil:InterruptedPortletRequestWhitelistUtil",
+      "id": "class:portal-impl/src/com/liferay/portal/layoutconfiguration/util/RuntimePageUtil.java:RuntimePageUtil",
       "type": "class",
-      "name": "InterruptedPortletRequestWhitelistUtil",
-      "filePath": "portal-impl/src/com/liferay/portal/security/auth/InterruptedPortletRequestWhitelistUtil.java",
-      "summary": "InterruptedPortletRequestWhitelistUtil class in InterruptedPortletRequestWhitelistUtil.java",
+      "name": "RuntimePageUtil",
+      "filePath": "portal-impl/src/com/liferay/portal/layoutconfiguration/util/RuntimePageUtil.java",
+      "lineRange": [
+        45,
+        298
+      ],
+      "summary": "Facade dispatching layout templates and managing portlet render lifecycle.",
       "tags": [
-        "class"
+        "template",
+        "layout",
+        "portlet"
       ],
-      "complexity": "low",
-      "methods": [
-        "isPortletInvocationWhitelisted",
-        "resetPortletInvocationWhitelist",
-        "resetPortletInvocationWhitelistActions",
-        "_isValidStrutsAction"
-      ],
-      "properties": [
-        "_log",
-        "_portletInvocationWhitelist",
-        "_portletInvocationWhitelistActions"
-      ]
+      "complexity": "complex"
     },
     {
-      "id": "file:com/liferay/portal/security/auth/MVCPortletAuthTokenWhitelist",
+      "id": "function:portal-impl/src/com/liferay/portal/layoutconfiguration/util/RuntimePageUtil.java:getLayoutTemplate",
+      "type": "function",
+      "name": "getLayoutTemplate",
+      "filePath": "portal-impl/src/com/liferay/portal/layoutconfiguration/util/RuntimePageUtil.java",
+      "lineRange": [
+        47,
+        55
+      ],
+      "summary": "getLayoutTemplate in RuntimePageUtil.java",
+      "tags": [
+        "method"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:portal-impl/src/com/liferay/portal/layoutconfiguration/util/RuntimePageUtil.java:getProcessedTemplate",
+      "type": "function",
+      "name": "getProcessedTemplate",
+      "filePath": "portal-impl/src/com/liferay/portal/layoutconfiguration/util/RuntimePageUtil.java",
+      "lineRange": [
+        57,
+        66
+      ],
+      "summary": "getProcessedTemplate in RuntimePageUtil.java",
+      "tags": [
+        "method"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:portal-impl/src/com/liferay/portal/layoutconfiguration/util/RuntimePageUtil.java:processTemplate",
+      "type": "function",
+      "name": "processTemplate",
+      "filePath": "portal-impl/src/com/liferay/portal/layoutconfiguration/util/RuntimePageUtil.java",
+      "lineRange": [
+        68,
+        79
+      ],
+      "summary": "processTemplate in RuntimePageUtil.java",
+      "tags": [
+        "method"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:portal-impl/src/com/liferay/portal/layoutconfiguration/util/RuntimePageUtil.java:doDispatch",
+      "type": "function",
+      "name": "doDispatch",
+      "filePath": "portal-impl/src/com/liferay/portal/layoutconfiguration/util/RuntimePageUtil.java",
+      "lineRange": [
+        94,
+        139
+      ],
+      "summary": "Dispatches template processing by resolving layout templates and delegating to processTemplate.",
+      "tags": [
+        "dispatch",
+        "template"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:portal-impl/src/com/liferay/portal/layoutconfiguration/util/RuntimePageUtil.java:doProcessTemplate",
+      "type": "function",
+      "name": "doProcessTemplate",
+      "filePath": "portal-impl/src/com/liferay/portal/layoutconfiguration/util/RuntimePageUtil.java",
+      "lineRange": [
+        141,
+        293
+      ],
+      "summary": "Core template processing orchestrating portlet rendering and content assembly for layout templates.",
+      "tags": [
+        "template-processing",
+        "portlet"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:portal-impl/src/com/liferay/portal/layoutconfiguration/util/velocity/InitColumnProcessor.java",
       "type": "file",
-      "name": "MVCPortletAuthTokenWhitelist.java",
-      "filePath": "portal-impl/src/com/liferay/portal/security/auth/MVCPortletAuthTokenWhitelist.java",
-      "summary": "MVCPortletAuthTokenWhitelist.java - com.liferay.portal.security.auth.MVCPortletAuthTokenWhitelist.java",
+      "name": "InitColumnProcessor.java",
+      "filePath": "portal-impl/src/com/liferay/portal/layoutconfiguration/util/velocity/InitColumnProcessor.java",
+      "summary": "Velocity directive processor parsing column and portlet declarations during template initialization.",
       "tags": [
-        "code",
+        "template",
+        "layout",
         "java",
-        "class-definition",
-        "has-calls"
+        "portal-impl"
       ],
-      "complexity": "medium"
+      "complexity": "moderate"
     },
     {
-      "id": "function:com/liferay/portal/security/auth/MVCPortletAuthTokenWhitelist:MVCPortletAuthTokenWhitelist",
-      "type": "function",
-      "name": "MVCPortletAuthTokenWhitelist",
-      "filePath": "portal-impl/src/com/liferay/portal/security/auth/MVCPortletAuthTokenWhitelist.java",
-      "summary": "MVCPortletAuthTokenWhitelist() in MVCPortletAuthTokenWhitelist.java",
-      "tags": [
-        "function"
-      ],
-      "complexity": "low",
-      "startLine": 47,
-      "endLine": 60
-    },
-    {
-      "id": "function:com/liferay/portal/security/auth/MVCPortletAuthTokenWhitelist:isPortletCSRFWhitelisted",
-      "type": "function",
-      "name": "isPortletCSRFWhitelisted",
-      "filePath": "portal-impl/src/com/liferay/portal/security/auth/MVCPortletAuthTokenWhitelist.java",
-      "summary": "isPortletCSRFWhitelisted() in MVCPortletAuthTokenWhitelist.java",
-      "tags": [
-        "function"
-      ],
-      "complexity": "low",
-      "startLine": 62,
-      "endLine": 73
-    },
-    {
-      "id": "function:com/liferay/portal/security/auth/MVCPortletAuthTokenWhitelist:isPortletInvocationWhitelisted",
-      "type": "function",
-      "name": "isPortletInvocationWhitelisted",
-      "filePath": "portal-impl/src/com/liferay/portal/security/auth/MVCPortletAuthTokenWhitelist.java",
-      "summary": "isPortletInvocationWhitelisted() in MVCPortletAuthTokenWhitelist.java",
-      "tags": [
-        "function"
-      ],
-      "complexity": "low",
-      "startLine": 75,
-      "endLine": 119
-    },
-    {
-      "id": "function:com/liferay/portal/security/auth/MVCPortletAuthTokenWhitelist:isPortletURLPortletInvocationWhitelisted",
-      "type": "function",
-      "name": "isPortletURLPortletInvocationWhitelisted",
-      "filePath": "portal-impl/src/com/liferay/portal/security/auth/MVCPortletAuthTokenWhitelist.java",
-      "summary": "isPortletURLPortletInvocationWhitelisted() in MVCPortletAuthTokenWhitelist.java",
-      "tags": [
-        "function"
-      ],
-      "complexity": "low",
-      "startLine": 130,
-      "endLine": 160
-    },
-    {
-      "id": "function:com/liferay/portal/security/auth/MVCPortletAuthTokenWhitelist:trackWhitelistServices",
-      "type": "function",
-      "name": "trackWhitelistServices",
-      "filePath": "portal-impl/src/com/liferay/portal/security/auth/MVCPortletAuthTokenWhitelist.java",
-      "summary": "trackWhitelistServices() in MVCPortletAuthTokenWhitelist.java",
-      "tags": [
-        "function"
-      ],
-      "complexity": "low",
-      "startLine": 187,
-      "endLine": 201
-    },
-    {
-      "id": "function:com/liferay/portal/security/auth/MVCPortletAuthTokenWhitelist:_contains",
-      "type": "function",
-      "name": "_contains",
-      "filePath": "portal-impl/src/com/liferay/portal/security/auth/MVCPortletAuthTokenWhitelist.java",
-      "summary": "_contains() in MVCPortletAuthTokenWhitelist.java",
-      "tags": [
-        "function"
-      ],
-      "complexity": "low",
-      "startLine": 203,
-      "endLine": 213
-    },
-    {
-      "id": "function:com/liferay/portal/security/auth/MVCPortletAuthTokenWhitelist:_containsAll",
-      "type": "function",
-      "name": "_containsAll",
-      "filePath": "portal-impl/src/com/liferay/portal/security/auth/MVCPortletAuthTokenWhitelist.java",
-      "summary": "_containsAll() in MVCPortletAuthTokenWhitelist.java",
-      "tags": [
-        "function"
-      ],
-      "complexity": "low",
-      "startLine": 215,
-      "endLine": 231
-    },
-    {
-      "id": "class:com/liferay/portal/security/auth/MVCPortletAuthTokenWhitelist:MVCPortletAuthTokenWhitelist",
+      "id": "class:portal-impl/src/com/liferay/portal/layoutconfiguration/util/velocity/InitColumnProcessor.java:InitColumnProcessor",
       "type": "class",
-      "name": "MVCPortletAuthTokenWhitelist",
-      "filePath": "portal-impl/src/com/liferay/portal/security/auth/MVCPortletAuthTokenWhitelist.java",
-      "summary": "MVCPortletAuthTokenWhitelist class in MVCPortletAuthTokenWhitelist.java",
+      "name": "InitColumnProcessor",
+      "filePath": "portal-impl/src/com/liferay/portal/layoutconfiguration/util/velocity/InitColumnProcessor.java",
+      "lineRange": [
+        19,
+        75
+      ],
+      "summary": "Velocity processor parsing column/portlet directives during template init.",
       "tags": [
-        "class"
+        "template",
+        "velocity"
       ],
-      "complexity": "high",
-      "methods": [
-        "MVCPortletAuthTokenWhitelist",
-        "isPortletCSRFWhitelisted",
-        "isPortletInvocationWhitelisted",
-        "isPortletURLCSRFWhitelisted",
-        "isPortletURLPortletInvocationWhitelisted",
-        "getMVCActionCommandNames",
-        "getMVCActionCommandNames",
-        "getWhitelistValue",
-        "trackWhitelistServices",
-        "_contains",
-        "_containsAll"
-      ],
-      "properties": [
-        "_portletCSRFWhitelist",
-        "_portletInvocationWhitelistAction",
-        "_portletInvocationWhitelistRender",
-        "_portletInvocationWhitelistResource"
-      ]
+      "complexity": "moderate"
     },
     {
-      "id": "file:com/liferay/portal/security/auth/SessionAuthToken",
+      "id": "function:portal-impl/src/com/liferay/portal/layoutconfiguration/util/velocity/InitColumnProcessor.java:getColumns",
+      "type": "function",
+      "name": "getColumns",
+      "filePath": "portal-impl/src/com/liferay/portal/layoutconfiguration/util/velocity/InitColumnProcessor.java",
+      "lineRange": [
+        21,
+        23
+      ],
+      "summary": "getColumns in InitColumnProcessor.java",
+      "tags": [
+        "method"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:portal-impl/src/com/liferay/portal/layoutconfiguration/util/velocity/InitColumnProcessor.java:processColumn",
+      "type": "function",
+      "name": "processColumn",
+      "filePath": "portal-impl/src/com/liferay/portal/layoutconfiguration/util/velocity/InitColumnProcessor.java",
+      "lineRange": [
+        25,
+        30
+      ],
+      "summary": "processColumn in InitColumnProcessor.java",
+      "tags": [
+        "method"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:portal-impl/src/com/liferay/portal/layoutconfiguration/util/velocity/InitColumnProcessor.java:processDynamicColumn",
+      "type": "function",
+      "name": "processDynamicColumn",
+      "filePath": "portal-impl/src/com/liferay/portal/layoutconfiguration/util/velocity/InitColumnProcessor.java",
+      "lineRange": [
+        39,
+        46
+      ],
+      "summary": "processDynamicColumn in InitColumnProcessor.java",
+      "tags": [
+        "method"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:portal-impl/src/com/liferay/portal/layoutconfiguration/util/velocity/InitColumnProcessor.java:processMax",
+      "type": "function",
+      "name": "processMax",
+      "filePath": "portal-impl/src/com/liferay/portal/layoutconfiguration/util/velocity/InitColumnProcessor.java",
+      "lineRange": [
+        48,
+        51
+      ],
+      "summary": "processMax in InitColumnProcessor.java",
+      "tags": [
+        "method"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:portal-impl/src/com/liferay/portal/layoutconfiguration/util/velocity/InitColumnProcessor.java:processPortlet",
+      "type": "function",
+      "name": "processPortlet",
+      "filePath": "portal-impl/src/com/liferay/portal/layoutconfiguration/util/velocity/InitColumnProcessor.java",
+      "lineRange": [
+        53,
+        56
+      ],
+      "summary": "processPortlet in InitColumnProcessor.java",
+      "tags": [
+        "method"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:portal-impl/src/com/liferay/portal/log/Log4jLogContextLogWrapper.java",
       "type": "file",
-      "name": "SessionAuthToken.java",
-      "filePath": "portal-impl/src/com/liferay/portal/security/auth/SessionAuthToken.java",
-      "summary": "SessionAuthToken.java - com.liferay.portal.security.auth.SessionAuthToken.java",
+      "name": "Log4jLogContextLogWrapper.java",
+      "filePath": "portal-impl/src/com/liferay/portal/log/Log4jLogContextLogWrapper.java",
+      "summary": "Log wrapper populating thread context (MDC) with LogContext OSGi service entries before delegating to Log4j.",
       "tags": [
-        "code",
+        "logging",
         "java",
-        "class-definition",
-        "has-calls"
+        "portal-impl"
       ],
-      "complexity": "medium"
+      "complexity": "moderate"
     },
     {
-      "id": "function:com/liferay/portal/security/auth/SessionAuthToken:addCSRFToken",
-      "type": "function",
-      "name": "addCSRFToken",
-      "filePath": "portal-impl/src/com/liferay/portal/security/auth/SessionAuthToken.java",
-      "summary": "addCSRFToken() in SessionAuthToken.java",
-      "tags": [
-        "function"
-      ],
-      "complexity": "low",
-      "startLine": 41,
-      "endLine": 60
-    },
-    {
-      "id": "function:com/liferay/portal/security/auth/SessionAuthToken:addPortletInvocationToken",
-      "type": "function",
-      "name": "addPortletInvocationToken",
-      "filePath": "portal-impl/src/com/liferay/portal/security/auth/SessionAuthToken.java",
-      "summary": "addPortletInvocationToken() in SessionAuthToken.java",
-      "tags": [
-        "function"
-      ],
-      "complexity": "medium",
-      "startLine": 62,
-      "endLine": 129
-    },
-    {
-      "id": "function:com/liferay/portal/security/auth/SessionAuthToken:checkCSRFToken",
-      "type": "function",
-      "name": "checkCSRFToken",
-      "filePath": "portal-impl/src/com/liferay/portal/security/auth/SessionAuthToken.java",
-      "summary": "checkCSRFToken() in SessionAuthToken.java",
-      "tags": [
-        "function"
-      ],
-      "complexity": "medium",
-      "startLine": 131,
-      "endLine": 185
-    },
-    {
-      "id": "function:com/liferay/portal/security/auth/SessionAuthToken:isValidPortletInvocationToken",
-      "type": "function",
-      "name": "isValidPortletInvocationToken",
-      "filePath": "portal-impl/src/com/liferay/portal/security/auth/SessionAuthToken.java",
-      "summary": "isValidPortletInvocationToken() in SessionAuthToken.java",
-      "tags": [
-        "function"
-      ],
-      "complexity": "low",
-      "startLine": 201,
-      "endLine": 237
-    },
-    {
-      "id": "function:com/liferay/portal/security/auth/SessionAuthToken:getSessionAuthenticationToken",
-      "type": "function",
-      "name": "getSessionAuthenticationToken",
-      "filePath": "portal-impl/src/com/liferay/portal/security/auth/SessionAuthToken.java",
-      "summary": "getSessionAuthenticationToken() in SessionAuthToken.java",
-      "tags": [
-        "function"
-      ],
-      "complexity": "low",
-      "startLine": 239,
-      "endLine": 251
-    },
-    {
-      "id": "function:com/liferay/portal/security/auth/SessionAuthToken:_getSessionAuthenticationToken",
-      "type": "function",
-      "name": "_getSessionAuthenticationToken",
-      "filePath": "portal-impl/src/com/liferay/portal/security/auth/SessionAuthToken.java",
-      "summary": "_getSessionAuthenticationToken() in SessionAuthToken.java",
-      "tags": [
-        "function"
-      ],
-      "complexity": "low",
-      "startLine": 253,
-      "endLine": 300
-    },
-    {
-      "id": "function:com/liferay/portal/security/auth/SessionAuthToken:_setNullSessionAuthenticationToken",
-      "type": "function",
-      "name": "_setNullSessionAuthenticationToken",
-      "filePath": "portal-impl/src/com/liferay/portal/security/auth/SessionAuthToken.java",
-      "summary": "_setNullSessionAuthenticationToken() in SessionAuthToken.java",
-      "tags": [
-        "function"
-      ],
-      "complexity": "low",
-      "startLine": 302,
-      "endLine": 314
-    },
-    {
-      "id": "class:com/liferay/portal/security/auth/SessionAuthToken:SessionAuthToken",
+      "id": "class:portal-impl/src/com/liferay/portal/log/Log4jLogContextLogWrapper.java:Log4jLogContextLogWrapper",
       "type": "class",
-      "name": "SessionAuthToken",
-      "filePath": "portal-impl/src/com/liferay/portal/security/auth/SessionAuthToken.java",
-      "summary": "SessionAuthToken class in SessionAuthToken.java",
+      "name": "Log4jLogContextLogWrapper",
+      "filePath": "portal-impl/src/com/liferay/portal/log/Log4jLogContextLogWrapper.java",
+      "lineRange": [
+        24,
+        241
+      ],
+      "summary": "Log4j wrapper populating MDC from LogContext services before every log call.",
       "tags": [
-        "class"
+        "logging",
+        "diagnostics"
       ],
-      "complexity": "medium",
-      "methods": [
-        "addCSRFToken",
-        "addPortletInvocationToken",
-        "checkCSRFToken",
-        "getToken",
-        "getToken",
-        "isValidPortletInvocationToken",
-        "getSessionAuthenticationToken",
-        "_getSessionAuthenticationToken",
-        "_setNullSessionAuthenticationToken"
-      ],
-      "properties": [
-        "_CSRF",
-        "_NULL_TOKEN",
-        "_log"
-      ]
+      "complexity": "complex"
     },
     {
-      "id": "file:com/liferay/portal/security/auth/StrutsPortletAuthTokenWhitelist",
+      "id": "function:portal-impl/src/com/liferay/portal/log/Log4jLogContextLogWrapper.java:Log4jLogContextLogWrapper",
+      "type": "function",
+      "name": "Log4jLogContextLogWrapper",
+      "filePath": "portal-impl/src/com/liferay/portal/log/Log4jLogContextLogWrapper.java",
+      "lineRange": [
+        26,
+        32
+      ],
+      "summary": "Log4jLogContextLogWrapper in Log4jLogContextLogWrapper.java",
+      "tags": [
+        "method"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:portal-impl/src/com/liferay/portal/log/Log4jLogContextLogWrapper.java:debug",
+      "type": "function",
+      "name": "debug",
+      "filePath": "portal-impl/src/com/liferay/portal/log/Log4jLogContextLogWrapper.java",
+      "lineRange": [
+        34,
+        41
+      ],
+      "summary": "debug in Log4jLogContextLogWrapper.java",
+      "tags": [
+        "method"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:portal-impl/src/com/liferay/portal/log/Log4jLogContextLogWrapper.java:error",
+      "type": "function",
+      "name": "error",
+      "filePath": "portal-impl/src/com/liferay/portal/log/Log4jLogContextLogWrapper.java",
+      "lineRange": [
+        61,
+        68
+      ],
+      "summary": "error in Log4jLogContextLogWrapper.java",
+      "tags": [
+        "method"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:portal-impl/src/com/liferay/portal/log/Log4jLogContextLogWrapper.java:fatal",
+      "type": "function",
+      "name": "fatal",
+      "filePath": "portal-impl/src/com/liferay/portal/log/Log4jLogContextLogWrapper.java",
+      "lineRange": [
+        88,
+        95
+      ],
+      "summary": "fatal in Log4jLogContextLogWrapper.java",
+      "tags": [
+        "method"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:portal-impl/src/com/liferay/portal/log/Log4jLogContextLogWrapper.java:info",
+      "type": "function",
+      "name": "info",
+      "filePath": "portal-impl/src/com/liferay/portal/log/Log4jLogContextLogWrapper.java",
+      "lineRange": [
+        115,
+        122
+      ],
+      "summary": "info in Log4jLogContextLogWrapper.java",
+      "tags": [
+        "method"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:portal-impl/src/com/liferay/portal/log/Log4jLogContextLogWrapper.java:trace",
+      "type": "function",
+      "name": "trace",
+      "filePath": "portal-impl/src/com/liferay/portal/log/Log4jLogContextLogWrapper.java",
+      "lineRange": [
+        142,
+        149
+      ],
+      "summary": "trace in Log4jLogContextLogWrapper.java",
+      "tags": [
+        "method"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:portal-impl/src/com/liferay/portal/log/Log4jLogContextLogWrapper.java:warn",
+      "type": "function",
+      "name": "warn",
+      "filePath": "portal-impl/src/com/liferay/portal/log/Log4jLogContextLogWrapper.java",
+      "lineRange": [
+        169,
+        176
+      ],
+      "summary": "warn in Log4jLogContextLogWrapper.java",
+      "tags": [
+        "method"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:portal-impl/src/com/liferay/portal/log/Log4jLogContextLogWrapper.java:_populateThreadContext",
+      "type": "function",
+      "name": "_populateThreadContext",
+      "filePath": "portal-impl/src/com/liferay/portal/log/Log4jLogContextLogWrapper.java",
+      "lineRange": [
+        210,
+        234
+      ],
+      "summary": "Populates Log4j MDC with entries from registered LogContext OSGi services.",
+      "tags": [
+        "logging",
+        "diagnostics"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:portal-impl/src/com/liferay/portal/log/Log4jLogFactoryImpl.java",
       "type": "file",
-      "name": "StrutsPortletAuthTokenWhitelist.java",
-      "filePath": "portal-impl/src/com/liferay/portal/security/auth/StrutsPortletAuthTokenWhitelist.java",
-      "summary": "StrutsPortletAuthTokenWhitelist.java - com.liferay.portal.security.auth.StrutsPortletAuthTokenWhitelist.java",
+      "name": "Log4jLogFactoryImpl.java",
+      "filePath": "portal-impl/src/com/liferay/portal/log/Log4jLogFactoryImpl.java",
+      "summary": "Log4j implementation of Liferay LogFactory producing Log4jLogImpl instances with context wrapper.",
       "tags": [
-        "code",
-        "java",
-        "class-definition",
-        "has-calls"
+        "implementation",
+        "logging",
+        "factory"
       ],
-      "complexity": "medium"
+      "complexity": "simple"
     },
     {
-      "id": "function:com/liferay/portal/security/auth/StrutsPortletAuthTokenWhitelist:isPortletCSRFWhitelisted",
-      "type": "function",
-      "name": "isPortletCSRFWhitelisted",
-      "filePath": "portal-impl/src/com/liferay/portal/security/auth/StrutsPortletAuthTokenWhitelist.java",
-      "summary": "isPortletCSRFWhitelisted() in StrutsPortletAuthTokenWhitelist.java",
-      "tags": [
-        "function"
-      ],
-      "complexity": "low",
-      "startLine": 34,
-      "endLine": 62
-    },
-    {
-      "id": "function:com/liferay/portal/security/auth/StrutsPortletAuthTokenWhitelist:isPortletInvocationWhitelisted",
-      "type": "function",
-      "name": "isPortletInvocationWhitelisted",
-      "filePath": "portal-impl/src/com/liferay/portal/security/auth/StrutsPortletAuthTokenWhitelist.java",
-      "summary": "isPortletInvocationWhitelisted() in StrutsPortletAuthTokenWhitelist.java",
-      "tags": [
-        "function"
-      ],
-      "complexity": "low",
-      "startLine": 64,
-      "endLine": 95
-    },
-    {
-      "id": "function:com/liferay/portal/security/auth/StrutsPortletAuthTokenWhitelist:isPortletURLCSRFWhitelisted",
-      "type": "function",
-      "name": "isPortletURLCSRFWhitelisted",
-      "filePath": "portal-impl/src/com/liferay/portal/security/auth/StrutsPortletAuthTokenWhitelist.java",
-      "summary": "isPortletURLCSRFWhitelisted() in StrutsPortletAuthTokenWhitelist.java",
-      "tags": [
-        "function"
-      ],
-      "complexity": "low",
-      "startLine": 97,
-      "endLine": 133
-    },
-    {
-      "id": "function:com/liferay/portal/security/auth/StrutsPortletAuthTokenWhitelist:isPortletURLPortletInvocationWhitelisted",
-      "type": "function",
-      "name": "isPortletURLPortletInvocationWhitelisted",
-      "filePath": "portal-impl/src/com/liferay/portal/security/auth/StrutsPortletAuthTokenWhitelist.java",
-      "summary": "isPortletURLPortletInvocationWhitelisted() in StrutsPortletAuthTokenWhitelist.java",
-      "tags": [
-        "function"
-      ],
-      "complexity": "low",
-      "startLine": 135,
-      "endLine": 170
-    },
-    {
-      "id": "function:com/liferay/portal/security/auth/StrutsPortletAuthTokenWhitelist:isValidStrutsAction",
-      "type": "function",
-      "name": "isValidStrutsAction",
-      "filePath": "portal-impl/src/com/liferay/portal/security/auth/StrutsPortletAuthTokenWhitelist.java",
-      "summary": "isValidStrutsAction() in StrutsPortletAuthTokenWhitelist.java",
-      "tags": [
-        "function"
-      ],
-      "complexity": "low",
-      "startLine": 172,
-      "endLine": 199
-    },
-    {
-      "id": "function:com/liferay/portal/security/auth/StrutsPortletAuthTokenWhitelist:_createPortletCSRFWhitelist",
-      "type": "function",
-      "name": "_createPortletCSRFWhitelist",
-      "filePath": "portal-impl/src/com/liferay/portal/security/auth/StrutsPortletAuthTokenWhitelist.java",
-      "summary": "_createPortletCSRFWhitelist() in StrutsPortletAuthTokenWhitelist.java",
-      "tags": [
-        "function"
-      ],
-      "complexity": "low",
-      "startLine": 201,
-      "endLine": 211
-    },
-    {
-      "id": "function:com/liferay/portal/security/auth/StrutsPortletAuthTokenWhitelist:_createPortletInvocationWhitelist",
-      "type": "function",
-      "name": "_createPortletInvocationWhitelist",
-      "filePath": "portal-impl/src/com/liferay/portal/security/auth/StrutsPortletAuthTokenWhitelist.java",
-      "summary": "_createPortletInvocationWhitelist() in StrutsPortletAuthTokenWhitelist.java",
-      "tags": [
-        "function"
-      ],
-      "complexity": "low",
-      "startLine": 213,
-      "endLine": 225
-    },
-    {
-      "id": "class:com/liferay/portal/security/auth/StrutsPortletAuthTokenWhitelist:StrutsPortletAuthTokenWhitelist",
+      "id": "class:portal-impl/src/com/liferay/portal/log/Log4jLogFactoryImpl.java:Log4jLogFactoryImpl",
       "type": "class",
-      "name": "StrutsPortletAuthTokenWhitelist",
-      "filePath": "portal-impl/src/com/liferay/portal/security/auth/StrutsPortletAuthTokenWhitelist.java",
-      "summary": "StrutsPortletAuthTokenWhitelist class in StrutsPortletAuthTokenWhitelist.java",
+      "name": "Log4jLogFactoryImpl",
+      "filePath": "portal-impl/src/com/liferay/portal/log/Log4jLogFactoryImpl.java",
+      "lineRange": [
+        16,
+        29
+      ],
+      "summary": "Log4jLogFactoryImpl class with 2 methods.",
       "tags": [
-        "class"
+        "implementation",
+        "logging",
+        "factory"
       ],
-      "complexity": "medium",
-      "methods": [
-        "isPortletCSRFWhitelisted",
-        "isPortletInvocationWhitelisted",
-        "isPortletURLCSRFWhitelisted",
-        "isPortletURLPortletInvocationWhitelisted",
-        "isValidStrutsAction",
-        "_createPortletCSRFWhitelist",
-        "_createPortletInvocationWhitelist"
-      ],
-      "properties": [
-        "_log",
-        "_portletCSRFWhitelistDCLSingleton",
-        "_portletInvocationWhitelistDCLSingleton"
-      ]
+      "complexity": "simple"
     },
     {
-      "id": "file:com/liferay/portal/security/auth/http/HttpAuthManagerUtil",
+      "id": "function:portal-impl/src/com/liferay/portal/log/Log4jLogFactoryImpl.java:getLog",
+      "type": "function",
+      "name": "getLog",
+      "filePath": "portal-impl/src/com/liferay/portal/log/Log4jLogFactoryImpl.java",
+      "lineRange": [
+        18,
+        21
+      ],
+      "summary": "getLog in Log4jLogFactoryImpl.java",
+      "tags": [
+        "method"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:portal-impl/src/com/liferay/portal/log/Log4jLogImpl.java",
       "type": "file",
-      "name": "HttpAuthManagerUtil.java",
-      "filePath": "portal-impl/src/com/liferay/portal/security/auth/http/HttpAuthManagerUtil.java",
-      "summary": "HttpAuthManagerUtil.java - com.liferay.portal.security.auth.http.HttpAuthManagerUtil.java",
+      "name": "Log4jLogImpl.java",
+      "filePath": "portal-impl/src/com/liferay/portal/log/Log4jLogImpl.java",
+      "summary": "Log4j adapter implementing Liferay Log interface delegating to Log4j Logger with level checks.",
       "tags": [
-        "code",
+        "implementation",
+        "logging",
         "java",
-        "class-definition",
-        "has-calls"
+        "portal-impl"
       ],
-      "complexity": "medium"
+      "complexity": "moderate"
     },
     {
-      "id": "function:com/liferay/portal/security/auth/http/HttpAuthManagerUtil:generateChallenge",
-      "type": "function",
-      "name": "generateChallenge",
-      "filePath": "portal-impl/src/com/liferay/portal/security/auth/http/HttpAuthManagerUtil.java",
-      "summary": "generateChallenge() in HttpAuthManagerUtil.java",
-      "tags": [
-        "function"
+      "id": "class:portal-impl/src/com/liferay/portal/log/Log4jLogImpl.java:Log4jLogImpl",
+      "type": "class",
+      "name": "Log4jLogImpl",
+      "filePath": "portal-impl/src/com/liferay/portal/log/Log4jLogImpl.java",
+      "lineRange": [
+        17,
+        173
       ],
-      "complexity": "low",
-      "startLine": 39,
-      "endLine": 86
+      "summary": "Log4j logger adapter implementing Liferay Log interface for all log levels.",
+      "tags": [
+        "logging"
+      ],
+      "complexity": "complex"
     },
     {
-      "id": "function:com/liferay/portal/security/auth/http/HttpAuthManagerUtil:getBasicUserId",
+      "id": "function:portal-impl/src/com/liferay/portal/log/Log4jLogImpl.java:Log4jLogImpl",
       "type": "function",
-      "name": "getBasicUserId",
-      "filePath": "portal-impl/src/com/liferay/portal/security/auth/http/HttpAuthManagerUtil.java",
-      "summary": "getBasicUserId() in HttpAuthManagerUtil.java",
-      "tags": [
-        "function"
+      "name": "Log4jLogImpl",
+      "filePath": "portal-impl/src/com/liferay/portal/log/Log4jLogImpl.java",
+      "lineRange": [
+        19,
+        21
       ],
-      "complexity": "low",
-      "startLine": 88,
-      "endLine": 103
+      "summary": "Log4jLogImpl in Log4jLogImpl.java",
+      "tags": [
+        "method"
+      ],
+      "complexity": "simple"
     },
     {
-      "id": "function:com/liferay/portal/security/auth/http/HttpAuthManagerUtil:getDigestUserId",
+      "id": "function:portal-impl/src/com/liferay/portal/log/Log4jLogImpl.java:debug",
       "type": "function",
-      "name": "getDigestUserId",
-      "filePath": "portal-impl/src/com/liferay/portal/security/auth/http/HttpAuthManagerUtil.java",
-      "summary": "getDigestUserId() in HttpAuthManagerUtil.java",
-      "tags": [
-        "function"
+      "name": "debug",
+      "filePath": "portal-impl/src/com/liferay/portal/log/Log4jLogImpl.java",
+      "lineRange": [
+        23,
+        27
       ],
-      "complexity": "low",
-      "startLine": 108,
-      "endLine": 124
+      "summary": "debug in Log4jLogImpl.java",
+      "tags": [
+        "method"
+      ],
+      "complexity": "simple"
     },
     {
-      "id": "function:com/liferay/portal/security/auth/http/HttpAuthManagerUtil:getUserId",
+      "id": "function:portal-impl/src/com/liferay/portal/log/Log4jLogImpl.java:error",
       "type": "function",
-      "name": "getUserId",
-      "filePath": "portal-impl/src/com/liferay/portal/security/auth/http/HttpAuthManagerUtil.java",
-      "summary": "getUserId() in HttpAuthManagerUtil.java",
-      "tags": [
-        "function"
+      "name": "error",
+      "filePath": "portal-impl/src/com/liferay/portal/log/Log4jLogImpl.java",
+      "lineRange": [
+        42,
+        46
       ],
-      "complexity": "low",
-      "startLine": 126,
-      "endLine": 157
+      "summary": "error in Log4jLogImpl.java",
+      "tags": [
+        "method"
+      ],
+      "complexity": "simple"
     },
     {
-      "id": "function:com/liferay/portal/security/auth/http/HttpAuthManagerUtil:parse",
+      "id": "function:portal-impl/src/com/liferay/portal/log/Log4jLogImpl.java:fatal",
       "type": "function",
-      "name": "parse",
-      "filePath": "portal-impl/src/com/liferay/portal/security/auth/http/HttpAuthManagerUtil.java",
-      "summary": "parse() in HttpAuthManagerUtil.java",
-      "tags": [
-        "function"
+      "name": "fatal",
+      "filePath": "portal-impl/src/com/liferay/portal/log/Log4jLogImpl.java",
+      "lineRange": [
+        61,
+        65
       ],
-      "complexity": "low",
-      "startLine": 159,
-      "endLine": 195
+      "summary": "fatal in Log4jLogImpl.java",
+      "tags": [
+        "method"
+      ],
+      "complexity": "simple"
     },
     {
-      "id": "function:com/liferay/portal/security/auth/http/HttpAuthManagerUtil:_generateDigestChallenge",
+      "id": "function:portal-impl/src/com/liferay/portal/log/Log4jLogImpl.java:info",
       "type": "function",
-      "name": "_generateDigestChallenge",
-      "filePath": "portal-impl/src/com/liferay/portal/security/auth/http/HttpAuthManagerUtil.java",
-      "summary": "_generateDigestChallenge() in HttpAuthManagerUtil.java",
-      "tags": [
-        "function"
+      "name": "info",
+      "filePath": "portal-impl/src/com/liferay/portal/log/Log4jLogImpl.java",
+      "lineRange": [
+        80,
+        83
       ],
-      "complexity": "low",
-      "startLine": 206,
-      "endLine": 226
+      "summary": "info in Log4jLogImpl.java",
+      "tags": [
+        "method"
+      ],
+      "complexity": "simple"
     },
     {
-      "id": "function:com/liferay/portal/security/auth/http/HttpAuthManagerUtil:_getBasicUserId",
+      "id": "function:portal-impl/src/com/liferay/portal/log/Log4jLogImpl.java:isDebugEnabled",
       "type": "function",
-      "name": "_getBasicUserId",
-      "filePath": "portal-impl/src/com/liferay/portal/security/auth/http/HttpAuthManagerUtil.java",
-      "summary": "_getBasicUserId() in HttpAuthManagerUtil.java",
-      "tags": [
-        "function"
+      "name": "isDebugEnabled",
+      "filePath": "portal-impl/src/com/liferay/portal/log/Log4jLogImpl.java",
+      "lineRange": [
+        98,
+        101
       ],
-      "complexity": "low",
-      "startLine": 228,
-      "endLine": 266
+      "summary": "isDebugEnabled in Log4jLogImpl.java",
+      "tags": [
+        "method"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:portal-impl/src/com/liferay/portal/log/Log4jLogImpl.java:isErrorEnabled",
+      "type": "function",
+      "name": "isErrorEnabled",
+      "filePath": "portal-impl/src/com/liferay/portal/log/Log4jLogImpl.java",
+      "lineRange": [
+        103,
+        106
+      ],
+      "summary": "isErrorEnabled in Log4jLogImpl.java",
+      "tags": [
+        "method"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:portal-impl/src/com/liferay/portal/log/Log4jLogImpl.java:isFatalEnabled",
+      "type": "function",
+      "name": "isFatalEnabled",
+      "filePath": "portal-impl/src/com/liferay/portal/log/Log4jLogImpl.java",
+      "lineRange": [
+        108,
+        111
+      ],
+      "summary": "isFatalEnabled in Log4jLogImpl.java",
+      "tags": [
+        "method"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:portal-impl/src/com/liferay/portal/log/Log4jLogImpl.java:isInfoEnabled",
+      "type": "function",
+      "name": "isInfoEnabled",
+      "filePath": "portal-impl/src/com/liferay/portal/log/Log4jLogImpl.java",
+      "lineRange": [
+        113,
+        116
+      ],
+      "summary": "isInfoEnabled in Log4jLogImpl.java",
+      "tags": [
+        "method"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:portal-impl/src/com/liferay/portal/log/Log4jLogImpl.java:isTraceEnabled",
+      "type": "function",
+      "name": "isTraceEnabled",
+      "filePath": "portal-impl/src/com/liferay/portal/log/Log4jLogImpl.java",
+      "lineRange": [
+        118,
+        121
+      ],
+      "summary": "isTraceEnabled in Log4jLogImpl.java",
+      "tags": [
+        "method"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:portal-impl/src/com/liferay/portal/log/Log4jLogImpl.java:isWarnEnabled",
+      "type": "function",
+      "name": "isWarnEnabled",
+      "filePath": "portal-impl/src/com/liferay/portal/log/Log4jLogImpl.java",
+      "lineRange": [
+        123,
+        126
+      ],
+      "summary": "isWarnEnabled in Log4jLogImpl.java",
+      "tags": [
+        "method"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:portal-impl/src/com/liferay/portal/log/Log4jLogImpl.java:setLogWrapperClassName",
+      "type": "function",
+      "name": "setLogWrapperClassName",
+      "filePath": "portal-impl/src/com/liferay/portal/log/Log4jLogImpl.java",
+      "lineRange": [
+        128,
+        131
+      ],
+      "summary": "setLogWrapperClassName in Log4jLogImpl.java",
+      "tags": [
+        "method"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:portal-impl/src/com/liferay/portal/log/Log4jLogImpl.java:trace",
+      "type": "function",
+      "name": "trace",
+      "filePath": "portal-impl/src/com/liferay/portal/log/Log4jLogImpl.java",
+      "lineRange": [
+        133,
+        137
+      ],
+      "summary": "trace in Log4jLogImpl.java",
+      "tags": [
+        "method"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:portal-impl/src/com/liferay/portal/log/Log4jLogImpl.java:warn",
+      "type": "function",
+      "name": "warn",
+      "filePath": "portal-impl/src/com/liferay/portal/log/Log4jLogImpl.java",
+      "lineRange": [
+        152,
+        155
+      ],
+      "summary": "warn in Log4jLogImpl.java",
+      "tags": [
+        "method"
+      ],
+      "complexity": "simple"
     }
   ],
   "edges": [
     {
-      "source": "file:com/liferay/portal/model/impl/UserImpl",
-      "target": "function:com/liferay/portal/model/impl/UserImpl:setLanguageId",
+      "source": "file:portal-impl/src/com/liferay/portal/language/ResourceBundleEnumeration.java",
+      "target": "class:portal-impl/src/com/liferay/portal/language/ResourceBundleEnumeration.java:ResourceBundleEnumeration",
       "type": "contains",
       "direction": "forward",
-      "weight": 1.0
+      "weight": 1
     },
     {
-      "source": "file:com/liferay/portal/model/impl/UserImpl",
-      "target": "function:com/liferay/portal/model/impl/UserImpl:setTimeZoneId",
-      "type": "contains",
-      "direction": "forward",
-      "weight": 1.0
-    },
-    {
-      "source": "file:com/liferay/portal/model/impl/UserImpl",
-      "target": "function:com/liferay/portal/model/impl/UserImpl:getProfileFriendlyURL",
-      "type": "contains",
-      "direction": "forward",
-      "weight": 1.0
-    },
-    {
-      "source": "file:com/liferay/portal/model/impl/UserImpl",
-      "target": "function:com/liferay/portal/model/impl/UserImpl:_getOrganizationRelatedGroups",
-      "type": "contains",
-      "direction": "forward",
-      "weight": 1.0
-    },
-    {
-      "source": "file:com/liferay/portal/model/impl/UserImpl",
-      "target": "function:com/liferay/portal/model/impl/UserImpl:_getParentOrganizations",
-      "type": "contains",
-      "direction": "forward",
-      "weight": 1.0
-    },
-    {
-      "source": "file:com/liferay/portal/model/impl/UserImpl",
-      "target": "class:com/liferay/portal/model/impl/UserImpl:UserImpl",
-      "type": "contains",
-      "direction": "forward",
-      "weight": 1.0
-    },
-    {
-      "source": "file:com/liferay/portal/model/impl/UserImpl",
-      "target": "function:com/liferay/portal/model/impl/UserImpl:setLanguageId",
+      "source": "file:portal-impl/src/com/liferay/portal/language/ResourceBundleEnumeration.java",
+      "target": "class:portal-impl/src/com/liferay/portal/language/ResourceBundleEnumeration.java:ResourceBundleEnumeration",
       "type": "exports",
       "direction": "forward",
       "weight": 0.8
     },
     {
-      "source": "file:com/liferay/portal/model/impl/UserImpl",
-      "target": "function:com/liferay/portal/model/impl/UserImpl:setTimeZoneId",
+      "source": "file:portal-impl/src/com/liferay/portal/language/ResourceBundleEnumeration.java",
+      "target": "function:portal-impl/src/com/liferay/portal/language/ResourceBundleEnumeration.java:ResourceBundleEnumeration",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/language/ResourceBundleEnumeration.java",
+      "target": "function:portal-impl/src/com/liferay/portal/language/ResourceBundleEnumeration.java:ResourceBundleEnumeration",
       "type": "exports",
       "direction": "forward",
       "weight": 0.8
     },
     {
-      "source": "file:com/liferay/portal/model/impl/UserImpl",
-      "target": "class:com/liferay/portal/model/impl/UserImpl:UserImpl",
+      "source": "file:portal-impl/src/com/liferay/portal/language/ResourceBundleEnumeration.java",
+      "target": "function:portal-impl/src/com/liferay/portal/language/ResourceBundleEnumeration.java:hasMoreElements",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/language/ResourceBundleEnumeration.java",
+      "target": "function:portal-impl/src/com/liferay/portal/language/ResourceBundleEnumeration.java:hasMoreElements",
       "type": "exports",
       "direction": "forward",
       "weight": 0.8
     },
     {
-      "source": "function:com/liferay/portal/model/impl/UserImpl:getDisplayURL",
-      "target": "function:com/liferay/portal/model/impl/UserImpl:getProfileFriendlyURL",
-      "type": "calls",
-      "direction": "forward",
-      "weight": 0.8
-    },
-    {
-      "source": "function:com/liferay/portal/model/impl/UserImpl:getInheritedSiteGroups",
-      "target": "function:com/liferay/portal/model/impl/UserImpl:_getOrganizationRelatedGroups",
-      "type": "calls",
-      "direction": "forward",
-      "weight": 0.8
-    },
-    {
-      "source": "function:com/liferay/portal/model/impl/UserImpl:getOrganizations",
-      "target": "function:com/liferay/portal/model/impl/UserImpl:_getParentOrganizations",
-      "type": "calls",
-      "direction": "forward",
-      "weight": 0.8
-    },
-    {
-      "source": "function:com/liferay/portal/model/impl/UserImpl:_getOrganizationRelatedGroups",
-      "target": "function:com/liferay/portal/model/impl/UserImpl:getOrganizations",
-      "type": "calls",
-      "direction": "forward",
-      "weight": 0.8
-    },
-    {
-      "source": "file:com/liferay/portal/model/impl/VirtualHostBaseImpl",
-      "target": "file:com/liferay/portal/kernel/model/VirtualHost",
-      "type": "imports",
-      "direction": "forward",
-      "weight": 0.7
-    },
-    {
-      "source": "file:com/liferay/portal/model/impl/VirtualHostBaseImpl",
-      "target": "file:com/liferay/portal/kernel/service/VirtualHostLocalServiceUtil",
-      "type": "imports",
-      "direction": "forward",
-      "weight": 0.7
-    },
-    {
-      "source": "file:com/liferay/portal/security/DefaultAdminUtil",
-      "target": "function:com/liferay/portal/security/DefaultAdminUtil:fetchDefaultAdmin",
+      "source": "file:portal-impl/src/com/liferay/portal/language/ResourceBundleEnumeration.java",
+      "target": "function:portal-impl/src/com/liferay/portal/language/ResourceBundleEnumeration.java:nextElement",
       "type": "contains",
       "direction": "forward",
-      "weight": 1.0
+      "weight": 1
     },
     {
-      "source": "file:com/liferay/portal/security/DefaultAdminUtil",
-      "target": "file:com/liferay/portal/util/PropsValues_2",
-      "type": "imports",
-      "direction": "forward",
-      "weight": 0.7
-    },
-    {
-      "source": "file:com/liferay/portal/security/DefaultAdminUtil",
-      "target": "file:com/liferay/portal/kernel/model/Company_2",
-      "type": "imports",
-      "direction": "forward",
-      "weight": 0.7
-    },
-    {
-      "source": "file:com/liferay/portal/security/DefaultAdminUtil",
-      "target": "file:com/liferay/portal/kernel/model/User_2",
-      "type": "imports",
-      "direction": "forward",
-      "weight": 0.7
-    },
-    {
-      "source": "file:com/liferay/portal/security/DefaultAdminUtil",
-      "target": "file:com/liferay/portal/kernel/service/CompanyLocalServiceUtil_2",
-      "type": "imports",
-      "direction": "forward",
-      "weight": 0.7
-    },
-    {
-      "source": "file:com/liferay/portal/security/DefaultAdminUtil",
-      "target": "file:com/liferay/portal/kernel/service/UserLocalServiceUtil_3",
-      "type": "imports",
-      "direction": "forward",
-      "weight": 0.7
-    },
-    {
-      "source": "file:com/liferay/portal/security/DefaultAdminUtil",
-      "target": "function:com/liferay/portal/security/DefaultAdminUtil:fetchDefaultAdmin",
+      "source": "file:portal-impl/src/com/liferay/portal/language/ResourceBundleEnumeration.java",
+      "target": "function:portal-impl/src/com/liferay/portal/language/ResourceBundleEnumeration.java:nextElement",
       "type": "exports",
       "direction": "forward",
       "weight": 0.8
     },
     {
-      "source": "file:com/liferay/portal/security/auth/AuthTokenWhitelistImpl",
-      "target": "function:com/liferay/portal/security/auth/AuthTokenWhitelistImpl:isOriginCSRFWhitelisted",
+      "source": "file:portal-impl/src/com/liferay/portal/layoutconfiguration/util/LayoutTemplateLocator.java",
+      "target": "class:portal-impl/src/com/liferay/portal/layoutconfiguration/util/LayoutTemplateLocator.java:LayoutTemplateLocator",
       "type": "contains",
       "direction": "forward",
-      "weight": 1.0
+      "weight": 1
     },
     {
-      "source": "file:com/liferay/portal/security/auth/AuthTokenWhitelistImpl",
-      "target": "function:com/liferay/portal/security/auth/AuthTokenWhitelistImpl:isPortletInvocationWhitelisted",
-      "type": "contains",
-      "direction": "forward",
-      "weight": 1.0
-    },
-    {
-      "source": "file:com/liferay/portal/security/auth/AuthTokenWhitelistImpl",
-      "target": "function:com/liferay/portal/security/auth/AuthTokenWhitelistImpl:isPortletURLCSRFWhitelisted",
-      "type": "contains",
-      "direction": "forward",
-      "weight": 1.0
-    },
-    {
-      "source": "file:com/liferay/portal/security/auth/AuthTokenWhitelistImpl",
-      "target": "function:com/liferay/portal/security/auth/AuthTokenWhitelistImpl:isPortletURLPortletInvocationWhitelisted",
-      "type": "contains",
-      "direction": "forward",
-      "weight": 1.0
-    },
-    {
-      "source": "file:com/liferay/portal/security/auth/AuthTokenWhitelistImpl",
-      "target": "function:com/liferay/portal/security/auth/AuthTokenWhitelistImpl:isValidSharedSecret",
-      "type": "contains",
-      "direction": "forward",
-      "weight": 1.0
-    },
-    {
-      "source": "file:com/liferay/portal/security/auth/AuthTokenWhitelistImpl",
-      "target": "function:com/liferay/portal/security/auth/AuthTokenWhitelistImpl:_createOriginCSRFWhitelist",
-      "type": "contains",
-      "direction": "forward",
-      "weight": 1.0
-    },
-    {
-      "source": "file:com/liferay/portal/security/auth/AuthTokenWhitelistImpl",
-      "target": "function:com/liferay/portal/security/auth/AuthTokenWhitelistImpl:_createPortletCSRFWhitelist",
-      "type": "contains",
-      "direction": "forward",
-      "weight": 1.0
-    },
-    {
-      "source": "file:com/liferay/portal/security/auth/AuthTokenWhitelistImpl",
-      "target": "function:com/liferay/portal/security/auth/AuthTokenWhitelistImpl:_createPortletInvocationWhitelist",
-      "type": "contains",
-      "direction": "forward",
-      "weight": 1.0
-    },
-    {
-      "source": "file:com/liferay/portal/security/auth/AuthTokenWhitelistImpl",
-      "target": "class:com/liferay/portal/security/auth/AuthTokenWhitelistImpl:AuthTokenWhitelistImpl",
-      "type": "contains",
-      "direction": "forward",
-      "weight": 1.0
-    },
-    {
-      "source": "file:com/liferay/portal/security/auth/AuthTokenWhitelistImpl",
-      "target": "file:com/liferay/portal/util/PropsValues_3",
-      "type": "imports",
-      "direction": "forward",
-      "weight": 0.7
-    },
-    {
-      "source": "file:com/liferay/portal/security/auth/AuthTokenWhitelistImpl",
-      "target": "file:com/liferay/portal/kernel/model/Portlet",
-      "type": "imports",
-      "direction": "forward",
-      "weight": 0.7
-    },
-    {
-      "source": "file:com/liferay/portal/security/auth/AuthTokenWhitelistImpl",
-      "target": "file:com/liferay/portal/kernel/portlet/LiferayPortletURL",
-      "type": "imports",
-      "direction": "forward",
-      "weight": 0.7
-    },
-    {
-      "source": "file:com/liferay/portal/security/auth/AuthTokenWhitelistImpl",
-      "target": "file:com/liferay/portal/kernel/portlet/PortletIdCodec",
-      "type": "imports",
-      "direction": "forward",
-      "weight": 0.7
-    },
-    {
-      "source": "file:com/liferay/portal/security/auth/AuthTokenWhitelistImpl",
-      "target": "file:com/liferay/portal/kernel/security/auth/BaseAuthTokenWhitelist",
-      "type": "imports",
-      "direction": "forward",
-      "weight": 0.7
-    },
-    {
-      "source": "file:com/liferay/portal/security/auth/AuthTokenWhitelistImpl",
-      "target": "file:com/liferay/portal/kernel/util/DigesterUtil_2",
-      "type": "imports",
-      "direction": "forward",
-      "weight": 0.7
-    },
-    {
-      "source": "file:com/liferay/portal/security/auth/AuthTokenWhitelistImpl",
-      "target": "file:com/liferay/portal/kernel/util/PropsKeys_2",
-      "type": "imports",
-      "direction": "forward",
-      "weight": 0.7
-    },
-    {
-      "source": "file:com/liferay/portal/security/auth/AuthTokenWhitelistImpl",
-      "target": "file:com/liferay/portal/kernel/util/Validator_4",
-      "type": "imports",
-      "direction": "forward",
-      "weight": 0.7
-    },
-    {
-      "source": "file:com/liferay/portal/security/auth/AuthTokenWhitelistImpl",
-      "target": "function:com/liferay/portal/security/auth/AuthTokenWhitelistImpl:isOriginCSRFWhitelisted",
+      "source": "file:portal-impl/src/com/liferay/portal/layoutconfiguration/util/LayoutTemplateLocator.java",
+      "target": "class:portal-impl/src/com/liferay/portal/layoutconfiguration/util/LayoutTemplateLocator.java:LayoutTemplateLocator",
       "type": "exports",
       "direction": "forward",
       "weight": 0.8
     },
     {
-      "source": "file:com/liferay/portal/security/auth/AuthTokenWhitelistImpl",
-      "target": "function:com/liferay/portal/security/auth/AuthTokenWhitelistImpl:isPortletInvocationWhitelisted",
+      "source": "file:portal-impl/src/com/liferay/portal/layoutconfiguration/util/LayoutTemplateLocator.java",
+      "target": "function:portal-impl/src/com/liferay/portal/layoutconfiguration/util/LayoutTemplateLocator.java:LayoutTemplateLocator",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/layoutconfiguration/util/LayoutTemplateLocator.java",
+      "target": "function:portal-impl/src/com/liferay/portal/layoutconfiguration/util/LayoutTemplateLocator.java:LayoutTemplateLocator",
       "type": "exports",
       "direction": "forward",
       "weight": 0.8
     },
     {
-      "source": "file:com/liferay/portal/security/auth/AuthTokenWhitelistImpl",
-      "target": "function:com/liferay/portal/security/auth/AuthTokenWhitelistImpl:isPortletURLCSRFWhitelisted",
+      "source": "file:portal-impl/src/com/liferay/portal/layoutconfiguration/util/LayoutTemplateLocator.java",
+      "target": "function:portal-impl/src/com/liferay/portal/layoutconfiguration/util/LayoutTemplateLocator.java:getLayoutTemplateId",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/layoutconfiguration/util/LayoutTemplateLocator.java",
+      "target": "function:portal-impl/src/com/liferay/portal/layoutconfiguration/util/LayoutTemplateLocator.java:getLayoutTemplateId",
       "type": "exports",
       "direction": "forward",
       "weight": 0.8
     },
     {
-      "source": "file:com/liferay/portal/security/auth/AuthTokenWhitelistImpl",
-      "target": "function:com/liferay/portal/security/auth/AuthTokenWhitelistImpl:isPortletURLPortletInvocationWhitelisted",
+      "source": "file:portal-impl/src/com/liferay/portal/layoutconfiguration/util/LayoutTemplateLocator.java",
+      "target": "function:portal-impl/src/com/liferay/portal/layoutconfiguration/util/LayoutTemplateLocator.java:getThemeId",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/layoutconfiguration/util/LayoutTemplateLocator.java",
+      "target": "function:portal-impl/src/com/liferay/portal/layoutconfiguration/util/LayoutTemplateLocator.java:getThemeId",
       "type": "exports",
       "direction": "forward",
       "weight": 0.8
     },
     {
-      "source": "file:com/liferay/portal/security/auth/AuthTokenWhitelistImpl",
-      "target": "function:com/liferay/portal/security/auth/AuthTokenWhitelistImpl:isValidSharedSecret",
+      "source": "file:portal-impl/src/com/liferay/portal/layoutconfiguration/util/LayoutTemplateLocator.java",
+      "target": "function:portal-impl/src/com/liferay/portal/layoutconfiguration/util/LayoutTemplateLocator.java:isStandard",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/layoutconfiguration/util/LayoutTemplateLocator.java",
+      "target": "function:portal-impl/src/com/liferay/portal/layoutconfiguration/util/LayoutTemplateLocator.java:isStandard",
       "type": "exports",
       "direction": "forward",
       "weight": 0.8
     },
     {
-      "source": "file:com/liferay/portal/security/auth/AuthTokenWhitelistImpl",
-      "target": "class:com/liferay/portal/security/auth/AuthTokenWhitelistImpl:AuthTokenWhitelistImpl",
+      "source": "file:portal-impl/src/com/liferay/portal/layoutconfiguration/util/LayoutTemplateLocator.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/model/LayoutTemplateConstants.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/layoutconfiguration/util/RuntimePageUtil.java",
+      "target": "class:portal-impl/src/com/liferay/portal/layoutconfiguration/util/RuntimePageUtil.java:RuntimePageUtil",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/layoutconfiguration/util/RuntimePageUtil.java",
+      "target": "class:portal-impl/src/com/liferay/portal/layoutconfiguration/util/RuntimePageUtil.java:RuntimePageUtil",
       "type": "exports",
       "direction": "forward",
       "weight": 0.8
     },
     {
-      "source": "file:com/liferay/portal/security/auth/InterruptedPortletRequestWhitelistUtil",
-      "target": "function:com/liferay/portal/security/auth/InterruptedPortletRequestWhitelistUtil:isPortletInvocationWhitelisted",
+      "source": "file:portal-impl/src/com/liferay/portal/layoutconfiguration/util/RuntimePageUtil.java",
+      "target": "function:portal-impl/src/com/liferay/portal/layoutconfiguration/util/RuntimePageUtil.java:getLayoutTemplate",
       "type": "contains",
       "direction": "forward",
-      "weight": 1.0
+      "weight": 1
     },
     {
-      "source": "file:com/liferay/portal/security/auth/InterruptedPortletRequestWhitelistUtil",
-      "target": "function:com/liferay/portal/security/auth/InterruptedPortletRequestWhitelistUtil:resetPortletInvocationWhitelist",
-      "type": "contains",
-      "direction": "forward",
-      "weight": 1.0
-    },
-    {
-      "source": "file:com/liferay/portal/security/auth/InterruptedPortletRequestWhitelistUtil",
-      "target": "function:com/liferay/portal/security/auth/InterruptedPortletRequestWhitelistUtil:resetPortletInvocationWhitelistActions",
-      "type": "contains",
-      "direction": "forward",
-      "weight": 1.0
-    },
-    {
-      "source": "file:com/liferay/portal/security/auth/InterruptedPortletRequestWhitelistUtil",
-      "target": "function:com/liferay/portal/security/auth/InterruptedPortletRequestWhitelistUtil:_isValidStrutsAction",
-      "type": "contains",
-      "direction": "forward",
-      "weight": 1.0
-    },
-    {
-      "source": "file:com/liferay/portal/security/auth/InterruptedPortletRequestWhitelistUtil",
-      "target": "class:com/liferay/portal/security/auth/InterruptedPortletRequestWhitelistUtil:InterruptedPortletRequestWhitelistUtil",
-      "type": "contains",
-      "direction": "forward",
-      "weight": 1.0
-    },
-    {
-      "source": "file:com/liferay/portal/security/auth/InterruptedPortletRequestWhitelistUtil",
-      "target": "file:com/liferay/portal/util/PropsValues_4",
-      "type": "imports",
-      "direction": "forward",
-      "weight": 0.7
-    },
-    {
-      "source": "file:com/liferay/portal/security/auth/InterruptedPortletRequestWhitelistUtil",
-      "target": "file:com/liferay/portal/kernel/log/Log_3",
-      "type": "imports",
-      "direction": "forward",
-      "weight": 0.7
-    },
-    {
-      "source": "file:com/liferay/portal/security/auth/InterruptedPortletRequestWhitelistUtil",
-      "target": "file:com/liferay/portal/kernel/log/LogFactoryUtil_3",
-      "type": "imports",
-      "direction": "forward",
-      "weight": 0.7
-    },
-    {
-      "source": "file:com/liferay/portal/security/auth/InterruptedPortletRequestWhitelistUtil",
-      "target": "file:com/liferay/portal/kernel/model/Portlet_2",
-      "type": "imports",
-      "direction": "forward",
-      "weight": 0.7
-    },
-    {
-      "source": "file:com/liferay/portal/security/auth/InterruptedPortletRequestWhitelistUtil",
-      "target": "file:com/liferay/portal/kernel/service/PortletLocalServiceUtil",
-      "type": "imports",
-      "direction": "forward",
-      "weight": 0.7
-    },
-    {
-      "source": "file:com/liferay/portal/security/auth/InterruptedPortletRequestWhitelistUtil",
-      "target": "file:com/liferay/portal/kernel/util/SetUtil_2",
-      "type": "imports",
-      "direction": "forward",
-      "weight": 0.7
-    },
-    {
-      "source": "file:com/liferay/portal/security/auth/InterruptedPortletRequestWhitelistUtil",
-      "target": "file:com/liferay/portal/kernel/util/Validator_5",
-      "type": "imports",
-      "direction": "forward",
-      "weight": 0.7
-    },
-    {
-      "source": "file:com/liferay/portal/security/auth/InterruptedPortletRequestWhitelistUtil",
-      "target": "function:com/liferay/portal/security/auth/InterruptedPortletRequestWhitelistUtil:isPortletInvocationWhitelisted",
+      "source": "file:portal-impl/src/com/liferay/portal/layoutconfiguration/util/RuntimePageUtil.java",
+      "target": "function:portal-impl/src/com/liferay/portal/layoutconfiguration/util/RuntimePageUtil.java:getLayoutTemplate",
       "type": "exports",
       "direction": "forward",
       "weight": 0.8
     },
     {
-      "source": "file:com/liferay/portal/security/auth/InterruptedPortletRequestWhitelistUtil",
-      "target": "function:com/liferay/portal/security/auth/InterruptedPortletRequestWhitelistUtil:resetPortletInvocationWhitelist",
+      "source": "file:portal-impl/src/com/liferay/portal/layoutconfiguration/util/RuntimePageUtil.java",
+      "target": "function:portal-impl/src/com/liferay/portal/layoutconfiguration/util/RuntimePageUtil.java:getProcessedTemplate",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/layoutconfiguration/util/RuntimePageUtil.java",
+      "target": "function:portal-impl/src/com/liferay/portal/layoutconfiguration/util/RuntimePageUtil.java:getProcessedTemplate",
       "type": "exports",
       "direction": "forward",
       "weight": 0.8
     },
     {
-      "source": "file:com/liferay/portal/security/auth/InterruptedPortletRequestWhitelistUtil",
-      "target": "function:com/liferay/portal/security/auth/InterruptedPortletRequestWhitelistUtil:resetPortletInvocationWhitelistActions",
+      "source": "file:portal-impl/src/com/liferay/portal/layoutconfiguration/util/RuntimePageUtil.java",
+      "target": "function:portal-impl/src/com/liferay/portal/layoutconfiguration/util/RuntimePageUtil.java:processTemplate",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/layoutconfiguration/util/RuntimePageUtil.java",
+      "target": "function:portal-impl/src/com/liferay/portal/layoutconfiguration/util/RuntimePageUtil.java:processTemplate",
       "type": "exports",
       "direction": "forward",
       "weight": 0.8
     },
     {
-      "source": "file:com/liferay/portal/security/auth/InterruptedPortletRequestWhitelistUtil",
-      "target": "class:com/liferay/portal/security/auth/InterruptedPortletRequestWhitelistUtil:InterruptedPortletRequestWhitelistUtil",
+      "source": "file:portal-impl/src/com/liferay/portal/layoutconfiguration/util/RuntimePageUtil.java",
+      "target": "function:portal-impl/src/com/liferay/portal/layoutconfiguration/util/RuntimePageUtil.java:doDispatch",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/layoutconfiguration/util/RuntimePageUtil.java",
+      "target": "function:portal-impl/src/com/liferay/portal/layoutconfiguration/util/RuntimePageUtil.java:doProcessTemplate",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/layoutconfiguration/util/RuntimePageUtil.java",
+      "target": "file:portal-impl/src/com/liferay/portal/layoutconfiguration/util/velocity/TemplateProcessor.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/layoutconfiguration/util/RuntimePageUtil.java",
+      "target": "file:portal-impl/src/com/liferay/portlet/internal/PortletBagUtil.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/layoutconfiguration/util/RuntimePageUtil.java",
+      "target": "file:portal-impl/src/com/liferay/portlet/internal/PortletTypeUtil.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/layoutconfiguration/util/RuntimePageUtil.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/log/Log.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/layoutconfiguration/util/RuntimePageUtil.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/log/LogFactoryUtil.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/layoutconfiguration/util/RuntimePageUtil.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/model/LayoutTemplate.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/layoutconfiguration/util/RuntimePageUtil.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/model/Portlet.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/layoutconfiguration/util/RuntimePageUtil.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/service/LayoutTemplateLocalServiceUtil.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/layoutconfiguration/util/RuntimePageUtil.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/servlet/PipingServletResponse.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/layoutconfiguration/util/RuntimePageUtil.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/servlet/PluginContextListener.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/layoutconfiguration/util/RuntimePageUtil.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/servlet/ServletContextPool.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/layoutconfiguration/util/RuntimePageUtil.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/template/StringTemplateResource.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/layoutconfiguration/util/RuntimePageUtil.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/template/Template.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/layoutconfiguration/util/RuntimePageUtil.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/template/TemplateManager.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/layoutconfiguration/util/RuntimePageUtil.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/template/TemplateManagerUtil.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/layoutconfiguration/util/RuntimePageUtil.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/util/GetterUtil.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/layoutconfiguration/util/RuntimePageUtil.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/util/StringUtil.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/layoutconfiguration/util/velocity/InitColumnProcessor.java",
+      "target": "class:portal-impl/src/com/liferay/portal/layoutconfiguration/util/velocity/InitColumnProcessor.java:InitColumnProcessor",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/layoutconfiguration/util/velocity/InitColumnProcessor.java",
+      "target": "class:portal-impl/src/com/liferay/portal/layoutconfiguration/util/velocity/InitColumnProcessor.java:InitColumnProcessor",
       "type": "exports",
       "direction": "forward",
       "weight": 0.8
     },
     {
-      "source": "function:com/liferay/portal/security/auth/InterruptedPortletRequestWhitelistUtil:isPortletInvocationWhitelisted",
-      "target": "function:com/liferay/portal/security/auth/InterruptedPortletRequestWhitelistUtil:_isValidStrutsAction",
-      "type": "calls",
-      "direction": "forward",
-      "weight": 0.8
-    },
-    {
-      "source": "file:com/liferay/portal/security/auth/MVCPortletAuthTokenWhitelist",
-      "target": "function:com/liferay/portal/security/auth/MVCPortletAuthTokenWhitelist:MVCPortletAuthTokenWhitelist",
+      "source": "file:portal-impl/src/com/liferay/portal/layoutconfiguration/util/velocity/InitColumnProcessor.java",
+      "target": "function:portal-impl/src/com/liferay/portal/layoutconfiguration/util/velocity/InitColumnProcessor.java:getColumns",
       "type": "contains",
       "direction": "forward",
-      "weight": 1.0
+      "weight": 1
     },
     {
-      "source": "file:com/liferay/portal/security/auth/MVCPortletAuthTokenWhitelist",
-      "target": "function:com/liferay/portal/security/auth/MVCPortletAuthTokenWhitelist:isPortletCSRFWhitelisted",
-      "type": "contains",
-      "direction": "forward",
-      "weight": 1.0
-    },
-    {
-      "source": "file:com/liferay/portal/security/auth/MVCPortletAuthTokenWhitelist",
-      "target": "function:com/liferay/portal/security/auth/MVCPortletAuthTokenWhitelist:isPortletInvocationWhitelisted",
-      "type": "contains",
-      "direction": "forward",
-      "weight": 1.0
-    },
-    {
-      "source": "file:com/liferay/portal/security/auth/MVCPortletAuthTokenWhitelist",
-      "target": "function:com/liferay/portal/security/auth/MVCPortletAuthTokenWhitelist:isPortletURLPortletInvocationWhitelisted",
-      "type": "contains",
-      "direction": "forward",
-      "weight": 1.0
-    },
-    {
-      "source": "file:com/liferay/portal/security/auth/MVCPortletAuthTokenWhitelist",
-      "target": "function:com/liferay/portal/security/auth/MVCPortletAuthTokenWhitelist:trackWhitelistServices",
-      "type": "contains",
-      "direction": "forward",
-      "weight": 1.0
-    },
-    {
-      "source": "file:com/liferay/portal/security/auth/MVCPortletAuthTokenWhitelist",
-      "target": "function:com/liferay/portal/security/auth/MVCPortletAuthTokenWhitelist:_contains",
-      "type": "contains",
-      "direction": "forward",
-      "weight": 1.0
-    },
-    {
-      "source": "file:com/liferay/portal/security/auth/MVCPortletAuthTokenWhitelist",
-      "target": "function:com/liferay/portal/security/auth/MVCPortletAuthTokenWhitelist:_containsAll",
-      "type": "contains",
-      "direction": "forward",
-      "weight": 1.0
-    },
-    {
-      "source": "file:com/liferay/portal/security/auth/MVCPortletAuthTokenWhitelist",
-      "target": "class:com/liferay/portal/security/auth/MVCPortletAuthTokenWhitelist:MVCPortletAuthTokenWhitelist",
-      "type": "contains",
-      "direction": "forward",
-      "weight": 1.0
-    },
-    {
-      "source": "file:com/liferay/portal/security/auth/MVCPortletAuthTokenWhitelist",
-      "target": "file:com/liferay/portal/kernel/model/Portlet_3",
-      "type": "imports",
-      "direction": "forward",
-      "weight": 0.7
-    },
-    {
-      "source": "file:com/liferay/portal/security/auth/MVCPortletAuthTokenWhitelist",
-      "target": "file:com/liferay/portal/kernel/module/util/SystemBundleUtil",
-      "type": "imports",
-      "direction": "forward",
-      "weight": 0.7
-    },
-    {
-      "source": "file:com/liferay/portal/security/auth/MVCPortletAuthTokenWhitelist",
-      "target": "file:com/liferay/portal/kernel/portlet/bridges/mvc/MVCActionCommand",
-      "type": "imports",
-      "direction": "forward",
-      "weight": 0.7
-    },
-    {
-      "source": "file:com/liferay/portal/security/auth/MVCPortletAuthTokenWhitelist",
-      "target": "file:com/liferay/portal/kernel/portlet/bridges/mvc/MVCRenderCommand",
-      "type": "imports",
-      "direction": "forward",
-      "weight": 0.7
-    },
-    {
-      "source": "file:com/liferay/portal/security/auth/MVCPortletAuthTokenWhitelist",
-      "target": "file:com/liferay/portal/kernel/portlet/bridges/mvc/MVCResourceCommand",
-      "type": "imports",
-      "direction": "forward",
-      "weight": 0.7
-    },
-    {
-      "source": "file:com/liferay/portal/security/auth/MVCPortletAuthTokenWhitelist",
-      "target": "file:com/liferay/portal/kernel/portlet/LiferayPortletURL_2",
-      "type": "imports",
-      "direction": "forward",
-      "weight": 0.7
-    },
-    {
-      "source": "file:com/liferay/portal/security/auth/MVCPortletAuthTokenWhitelist",
-      "target": "file:com/liferay/portal/kernel/portlet/PortletIdCodec_2",
-      "type": "imports",
-      "direction": "forward",
-      "weight": 0.7
-    },
-    {
-      "source": "file:com/liferay/portal/security/auth/MVCPortletAuthTokenWhitelist",
-      "target": "file:com/liferay/portal/kernel/security/auth/BaseAuthTokenWhitelist_2",
-      "type": "imports",
-      "direction": "forward",
-      "weight": 0.7
-    },
-    {
-      "source": "file:com/liferay/portal/security/auth/MVCPortletAuthTokenWhitelist",
-      "target": "file:com/liferay/portal/kernel/theme/ThemeDisplay_2",
-      "type": "imports",
-      "direction": "forward",
-      "weight": 0.7
-    },
-    {
-      "source": "file:com/liferay/portal/security/auth/MVCPortletAuthTokenWhitelist",
-      "target": "file:com/liferay/portal/kernel/util/ArrayUtil",
-      "type": "imports",
-      "direction": "forward",
-      "weight": 0.7
-    },
-    {
-      "source": "file:com/liferay/portal/security/auth/MVCPortletAuthTokenWhitelist",
-      "target": "file:com/liferay/portal/kernel/util/PortalUtil_3",
-      "type": "imports",
-      "direction": "forward",
-      "weight": 0.7
-    },
-    {
-      "source": "file:com/liferay/portal/security/auth/MVCPortletAuthTokenWhitelist",
-      "target": "file:com/liferay/portal/kernel/util/StringUtil_2",
-      "type": "imports",
-      "direction": "forward",
-      "weight": 0.7
-    },
-    {
-      "source": "file:com/liferay/portal/security/auth/MVCPortletAuthTokenWhitelist",
-      "target": "file:com/liferay/portal/kernel/util/Validator_6",
-      "type": "imports",
-      "direction": "forward",
-      "weight": 0.7
-    },
-    {
-      "source": "file:com/liferay/portal/security/auth/MVCPortletAuthTokenWhitelist",
-      "target": "file:com/liferay/portal/kernel/util/WebKeys",
-      "type": "imports",
-      "direction": "forward",
-      "weight": 0.7
-    },
-    {
-      "source": "file:com/liferay/portal/security/auth/MVCPortletAuthTokenWhitelist",
-      "target": "function:com/liferay/portal/security/auth/MVCPortletAuthTokenWhitelist:MVCPortletAuthTokenWhitelist",
+      "source": "file:portal-impl/src/com/liferay/portal/layoutconfiguration/util/velocity/InitColumnProcessor.java",
+      "target": "function:portal-impl/src/com/liferay/portal/layoutconfiguration/util/velocity/InitColumnProcessor.java:getColumns",
       "type": "exports",
       "direction": "forward",
       "weight": 0.8
     },
     {
-      "source": "file:com/liferay/portal/security/auth/MVCPortletAuthTokenWhitelist",
-      "target": "function:com/liferay/portal/security/auth/MVCPortletAuthTokenWhitelist:isPortletCSRFWhitelisted",
+      "source": "file:portal-impl/src/com/liferay/portal/layoutconfiguration/util/velocity/InitColumnProcessor.java",
+      "target": "function:portal-impl/src/com/liferay/portal/layoutconfiguration/util/velocity/InitColumnProcessor.java:processColumn",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/layoutconfiguration/util/velocity/InitColumnProcessor.java",
+      "target": "function:portal-impl/src/com/liferay/portal/layoutconfiguration/util/velocity/InitColumnProcessor.java:processColumn",
       "type": "exports",
       "direction": "forward",
       "weight": 0.8
     },
     {
-      "source": "file:com/liferay/portal/security/auth/MVCPortletAuthTokenWhitelist",
-      "target": "function:com/liferay/portal/security/auth/MVCPortletAuthTokenWhitelist:isPortletInvocationWhitelisted",
+      "source": "file:portal-impl/src/com/liferay/portal/layoutconfiguration/util/velocity/InitColumnProcessor.java",
+      "target": "function:portal-impl/src/com/liferay/portal/layoutconfiguration/util/velocity/InitColumnProcessor.java:processDynamicColumn",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/layoutconfiguration/util/velocity/InitColumnProcessor.java",
+      "target": "function:portal-impl/src/com/liferay/portal/layoutconfiguration/util/velocity/InitColumnProcessor.java:processDynamicColumn",
       "type": "exports",
       "direction": "forward",
       "weight": 0.8
     },
     {
-      "source": "file:com/liferay/portal/security/auth/MVCPortletAuthTokenWhitelist",
-      "target": "function:com/liferay/portal/security/auth/MVCPortletAuthTokenWhitelist:isPortletURLPortletInvocationWhitelisted",
+      "source": "file:portal-impl/src/com/liferay/portal/layoutconfiguration/util/velocity/InitColumnProcessor.java",
+      "target": "function:portal-impl/src/com/liferay/portal/layoutconfiguration/util/velocity/InitColumnProcessor.java:processMax",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/layoutconfiguration/util/velocity/InitColumnProcessor.java",
+      "target": "function:portal-impl/src/com/liferay/portal/layoutconfiguration/util/velocity/InitColumnProcessor.java:processMax",
       "type": "exports",
       "direction": "forward",
       "weight": 0.8
     },
     {
-      "source": "file:com/liferay/portal/security/auth/MVCPortletAuthTokenWhitelist",
-      "target": "function:com/liferay/portal/security/auth/MVCPortletAuthTokenWhitelist:MVCPortletAuthTokenWhitelist",
+      "source": "file:portal-impl/src/com/liferay/portal/layoutconfiguration/util/velocity/InitColumnProcessor.java",
+      "target": "function:portal-impl/src/com/liferay/portal/layoutconfiguration/util/velocity/InitColumnProcessor.java:processPortlet",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/layoutconfiguration/util/velocity/InitColumnProcessor.java",
+      "target": "function:portal-impl/src/com/liferay/portal/layoutconfiguration/util/velocity/InitColumnProcessor.java:processPortlet",
       "type": "exports",
       "direction": "forward",
       "weight": 0.8
     },
     {
-      "source": "function:com/liferay/portal/security/auth/MVCPortletAuthTokenWhitelist:MVCPortletAuthTokenWhitelist",
-      "target": "function:com/liferay/portal/security/auth/MVCPortletAuthTokenWhitelist:trackWhitelistServices",
-      "type": "calls",
+      "source": "file:portal-impl/src/com/liferay/portal/layoutconfiguration/util/velocity/InitColumnProcessor.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/portlet/PortletProvider.java",
+      "type": "imports",
       "direction": "forward",
-      "weight": 0.8
+      "weight": 0.7
     },
     {
-      "source": "function:com/liferay/portal/security/auth/MVCPortletAuthTokenWhitelist:MVCPortletAuthTokenWhitelist",
-      "target": "function:com/liferay/portal/security/auth/MVCPortletAuthTokenWhitelist:trackWhitelistServices",
-      "type": "calls",
-      "direction": "forward",
-      "weight": 0.8
-    },
-    {
-      "source": "function:com/liferay/portal/security/auth/MVCPortletAuthTokenWhitelist:MVCPortletAuthTokenWhitelist",
-      "target": "function:com/liferay/portal/security/auth/MVCPortletAuthTokenWhitelist:trackWhitelistServices",
-      "type": "calls",
-      "direction": "forward",
-      "weight": 0.8
-    },
-    {
-      "source": "function:com/liferay/portal/security/auth/MVCPortletAuthTokenWhitelist:MVCPortletAuthTokenWhitelist",
-      "target": "function:com/liferay/portal/security/auth/MVCPortletAuthTokenWhitelist:trackWhitelistServices",
-      "type": "calls",
-      "direction": "forward",
-      "weight": 0.8
-    },
-    {
-      "source": "function:com/liferay/portal/security/auth/MVCPortletAuthTokenWhitelist:isPortletCSRFWhitelisted",
-      "target": "function:com/liferay/portal/security/auth/MVCPortletAuthTokenWhitelist:_containsAll",
-      "type": "calls",
-      "direction": "forward",
-      "weight": 0.8
-    },
-    {
-      "source": "function:com/liferay/portal/security/auth/MVCPortletAuthTokenWhitelist:isPortletInvocationWhitelisted",
-      "target": "function:com/liferay/portal/security/auth/MVCPortletAuthTokenWhitelist:_containsAll",
-      "type": "calls",
-      "direction": "forward",
-      "weight": 0.8
-    },
-    {
-      "source": "function:com/liferay/portal/security/auth/MVCPortletAuthTokenWhitelist:isPortletInvocationWhitelisted",
-      "target": "function:com/liferay/portal/security/auth/MVCPortletAuthTokenWhitelist:_contains",
-      "type": "calls",
-      "direction": "forward",
-      "weight": 0.8
-    },
-    {
-      "source": "function:com/liferay/portal/security/auth/MVCPortletAuthTokenWhitelist:isPortletInvocationWhitelisted",
-      "target": "function:com/liferay/portal/security/auth/MVCPortletAuthTokenWhitelist:_contains",
-      "type": "calls",
-      "direction": "forward",
-      "weight": 0.8
-    },
-    {
-      "source": "function:com/liferay/portal/security/auth/MVCPortletAuthTokenWhitelist:isPortletURLPortletInvocationWhitelisted",
-      "target": "function:com/liferay/portal/security/auth/MVCPortletAuthTokenWhitelist:_containsAll",
-      "type": "calls",
-      "direction": "forward",
-      "weight": 0.8
-    },
-    {
-      "source": "function:com/liferay/portal/security/auth/MVCPortletAuthTokenWhitelist:isPortletURLPortletInvocationWhitelisted",
-      "target": "function:com/liferay/portal/security/auth/MVCPortletAuthTokenWhitelist:_contains",
-      "type": "calls",
-      "direction": "forward",
-      "weight": 0.8
-    },
-    {
-      "source": "function:com/liferay/portal/security/auth/MVCPortletAuthTokenWhitelist:isPortletURLPortletInvocationWhitelisted",
-      "target": "function:com/liferay/portal/security/auth/MVCPortletAuthTokenWhitelist:_contains",
-      "type": "calls",
-      "direction": "forward",
-      "weight": 0.8
-    },
-    {
-      "source": "file:com/liferay/portal/security/auth/SessionAuthToken",
-      "target": "function:com/liferay/portal/security/auth/SessionAuthToken:addCSRFToken",
+      "source": "file:portal-impl/src/com/liferay/portal/log/Log4jLogContextLogWrapper.java",
+      "target": "class:portal-impl/src/com/liferay/portal/log/Log4jLogContextLogWrapper.java:Log4jLogContextLogWrapper",
       "type": "contains",
       "direction": "forward",
-      "weight": 1.0
+      "weight": 1
     },
     {
-      "source": "file:com/liferay/portal/security/auth/SessionAuthToken",
-      "target": "function:com/liferay/portal/security/auth/SessionAuthToken:addPortletInvocationToken",
-      "type": "contains",
-      "direction": "forward",
-      "weight": 1.0
-    },
-    {
-      "source": "file:com/liferay/portal/security/auth/SessionAuthToken",
-      "target": "function:com/liferay/portal/security/auth/SessionAuthToken:checkCSRFToken",
-      "type": "contains",
-      "direction": "forward",
-      "weight": 1.0
-    },
-    {
-      "source": "file:com/liferay/portal/security/auth/SessionAuthToken",
-      "target": "function:com/liferay/portal/security/auth/SessionAuthToken:isValidPortletInvocationToken",
-      "type": "contains",
-      "direction": "forward",
-      "weight": 1.0
-    },
-    {
-      "source": "file:com/liferay/portal/security/auth/SessionAuthToken",
-      "target": "function:com/liferay/portal/security/auth/SessionAuthToken:getSessionAuthenticationToken",
-      "type": "contains",
-      "direction": "forward",
-      "weight": 1.0
-    },
-    {
-      "source": "file:com/liferay/portal/security/auth/SessionAuthToken",
-      "target": "function:com/liferay/portal/security/auth/SessionAuthToken:_getSessionAuthenticationToken",
-      "type": "contains",
-      "direction": "forward",
-      "weight": 1.0
-    },
-    {
-      "source": "file:com/liferay/portal/security/auth/SessionAuthToken",
-      "target": "function:com/liferay/portal/security/auth/SessionAuthToken:_setNullSessionAuthenticationToken",
-      "type": "contains",
-      "direction": "forward",
-      "weight": 1.0
-    },
-    {
-      "source": "file:com/liferay/portal/security/auth/SessionAuthToken",
-      "target": "class:com/liferay/portal/security/auth/SessionAuthToken:SessionAuthToken",
-      "type": "contains",
-      "direction": "forward",
-      "weight": 1.0
-    },
-    {
-      "source": "file:com/liferay/portal/security/auth/SessionAuthToken",
-      "target": "file:com/liferay/portal/util/PropsValues_5",
-      "type": "imports",
-      "direction": "forward",
-      "weight": 0.7
-    },
-    {
-      "source": "file:com/liferay/portal/security/auth/SessionAuthToken",
-      "target": "file:com/liferay/portlet/SecurityPortletContainerWrapper",
-      "type": "imports",
-      "direction": "forward",
-      "weight": 0.7
-    },
-    {
-      "source": "file:com/liferay/portal/security/auth/SessionAuthToken",
-      "target": "file:com/liferay/exportimport/kernel/staging/MergeLayoutPrototypesThreadLocal",
-      "type": "imports",
-      "direction": "forward",
-      "weight": 0.7
-    },
-    {
-      "source": "file:com/liferay/portal/security/auth/SessionAuthToken",
-      "target": "file:com/liferay/portal/kernel/log/Log_4",
-      "type": "imports",
-      "direction": "forward",
-      "weight": 0.7
-    },
-    {
-      "source": "file:com/liferay/portal/security/auth/SessionAuthToken",
-      "target": "file:com/liferay/portal/kernel/log/LogFactoryUtil_4",
-      "type": "imports",
-      "direction": "forward",
-      "weight": 0.7
-    },
-    {
-      "source": "file:com/liferay/portal/security/auth/SessionAuthToken",
-      "target": "file:com/liferay/portal/kernel/model/Layout",
-      "type": "imports",
-      "direction": "forward",
-      "weight": 0.7
-    },
-    {
-      "source": "file:com/liferay/portal/security/auth/SessionAuthToken",
-      "target": "file:com/liferay/portal/kernel/model/LayoutTypePortlet",
-      "type": "imports",
-      "direction": "forward",
-      "weight": 0.7
-    },
-    {
-      "source": "file:com/liferay/portal/security/auth/SessionAuthToken",
-      "target": "file:com/liferay/portal/kernel/model/Portlet_4",
-      "type": "imports",
-      "direction": "forward",
-      "weight": 0.7
-    },
-    {
-      "source": "file:com/liferay/portal/security/auth/SessionAuthToken",
-      "target": "file:com/liferay/portal/kernel/portlet/LiferayPortletURL_3",
-      "type": "imports",
-      "direction": "forward",
-      "weight": 0.7
-    },
-    {
-      "source": "file:com/liferay/portal/security/auth/SessionAuthToken",
-      "target": "file:com/liferay/portal/kernel/security/auth/AuthToken",
-      "type": "imports",
-      "direction": "forward",
-      "weight": 0.7
-    },
-    {
-      "source": "file:com/liferay/portal/security/auth/SessionAuthToken",
-      "target": "file:com/liferay/portal/kernel/security/auth/AuthTokenWhitelistUtil",
-      "type": "imports",
-      "direction": "forward",
-      "weight": 0.7
-    },
-    {
-      "source": "file:com/liferay/portal/security/auth/SessionAuthToken",
-      "target": "file:com/liferay/portal/kernel/security/auth/PrincipalException",
-      "type": "imports",
-      "direction": "forward",
-      "weight": 0.7
-    },
-    {
-      "source": "file:com/liferay/portal/security/auth/SessionAuthToken",
-      "target": "file:com/liferay/portal/kernel/service/LayoutLocalServiceUtil_2",
-      "type": "imports",
-      "direction": "forward",
-      "weight": 0.7
-    },
-    {
-      "source": "file:com/liferay/portal/security/auth/SessionAuthToken",
-      "target": "file:com/liferay/portal/kernel/service/permission/PortletPermissionUtil",
-      "type": "imports",
-      "direction": "forward",
-      "weight": 0.7
-    },
-    {
-      "source": "file:com/liferay/portal/security/auth/SessionAuthToken",
-      "target": "file:com/liferay/portal/kernel/service/PortletLocalServiceUtil_2",
-      "type": "imports",
-      "direction": "forward",
-      "weight": 0.7
-    },
-    {
-      "source": "file:com/liferay/portal/security/auth/SessionAuthToken",
-      "target": "file:com/liferay/portal/kernel/util/GetterUtil",
-      "type": "imports",
-      "direction": "forward",
-      "weight": 0.7
-    },
-    {
-      "source": "file:com/liferay/portal/security/auth/SessionAuthToken",
-      "target": "file:com/liferay/portal/kernel/util/ParamUtil",
-      "type": "imports",
-      "direction": "forward",
-      "weight": 0.7
-    },
-    {
-      "source": "file:com/liferay/portal/security/auth/SessionAuthToken",
-      "target": "file:com/liferay/portal/kernel/util/PortalUtil_4",
-      "type": "imports",
-      "direction": "forward",
-      "weight": 0.7
-    },
-    {
-      "source": "file:com/liferay/portal/security/auth/SessionAuthToken",
-      "target": "file:com/liferay/portal/kernel/util/PwdGenerator",
-      "type": "imports",
-      "direction": "forward",
-      "weight": 0.7
-    },
-    {
-      "source": "file:com/liferay/portal/security/auth/SessionAuthToken",
-      "target": "file:com/liferay/portal/kernel/util/Validator_7",
-      "type": "imports",
-      "direction": "forward",
-      "weight": 0.7
-    },
-    {
-      "source": "file:com/liferay/portal/security/auth/SessionAuthToken",
-      "target": "file:com/liferay/portal/kernel/util/WebKeys_2",
-      "type": "imports",
-      "direction": "forward",
-      "weight": 0.7
-    },
-    {
-      "source": "file:com/liferay/portal/security/auth/SessionAuthToken",
-      "target": "function:com/liferay/portal/security/auth/SessionAuthToken:addCSRFToken",
+      "source": "file:portal-impl/src/com/liferay/portal/log/Log4jLogContextLogWrapper.java",
+      "target": "class:portal-impl/src/com/liferay/portal/log/Log4jLogContextLogWrapper.java:Log4jLogContextLogWrapper",
       "type": "exports",
       "direction": "forward",
       "weight": 0.8
     },
     {
-      "source": "file:com/liferay/portal/security/auth/SessionAuthToken",
-      "target": "function:com/liferay/portal/security/auth/SessionAuthToken:addPortletInvocationToken",
+      "source": "file:portal-impl/src/com/liferay/portal/log/Log4jLogContextLogWrapper.java",
+      "target": "function:portal-impl/src/com/liferay/portal/log/Log4jLogContextLogWrapper.java:Log4jLogContextLogWrapper",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/log/Log4jLogContextLogWrapper.java",
+      "target": "function:portal-impl/src/com/liferay/portal/log/Log4jLogContextLogWrapper.java:Log4jLogContextLogWrapper",
       "type": "exports",
       "direction": "forward",
       "weight": 0.8
     },
     {
-      "source": "file:com/liferay/portal/security/auth/SessionAuthToken",
-      "target": "function:com/liferay/portal/security/auth/SessionAuthToken:checkCSRFToken",
+      "source": "file:portal-impl/src/com/liferay/portal/log/Log4jLogContextLogWrapper.java",
+      "target": "function:portal-impl/src/com/liferay/portal/log/Log4jLogContextLogWrapper.java:debug",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/log/Log4jLogContextLogWrapper.java",
+      "target": "function:portal-impl/src/com/liferay/portal/log/Log4jLogContextLogWrapper.java:debug",
       "type": "exports",
       "direction": "forward",
       "weight": 0.8
     },
     {
-      "source": "file:com/liferay/portal/security/auth/SessionAuthToken",
-      "target": "function:com/liferay/portal/security/auth/SessionAuthToken:isValidPortletInvocationToken",
+      "source": "file:portal-impl/src/com/liferay/portal/log/Log4jLogContextLogWrapper.java",
+      "target": "function:portal-impl/src/com/liferay/portal/log/Log4jLogContextLogWrapper.java:error",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/log/Log4jLogContextLogWrapper.java",
+      "target": "function:portal-impl/src/com/liferay/portal/log/Log4jLogContextLogWrapper.java:error",
       "type": "exports",
       "direction": "forward",
       "weight": 0.8
     },
     {
-      "source": "file:com/liferay/portal/security/auth/SessionAuthToken",
-      "target": "class:com/liferay/portal/security/auth/SessionAuthToken:SessionAuthToken",
+      "source": "file:portal-impl/src/com/liferay/portal/log/Log4jLogContextLogWrapper.java",
+      "target": "function:portal-impl/src/com/liferay/portal/log/Log4jLogContextLogWrapper.java:fatal",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/log/Log4jLogContextLogWrapper.java",
+      "target": "function:portal-impl/src/com/liferay/portal/log/Log4jLogContextLogWrapper.java:fatal",
       "type": "exports",
       "direction": "forward",
       "weight": 0.8
     },
     {
-      "source": "function:com/liferay/portal/security/auth/SessionAuthToken:addPortletInvocationToken",
-      "target": "function:com/liferay/portal/security/auth/SessionAuthToken:_getSessionAuthenticationToken",
-      "type": "calls",
-      "direction": "forward",
-      "weight": 0.8
-    },
-    {
-      "source": "function:com/liferay/portal/security/auth/SessionAuthToken:addPortletInvocationToken",
-      "target": "function:com/liferay/portal/security/auth/SessionAuthToken:_setNullSessionAuthenticationToken",
-      "type": "calls",
-      "direction": "forward",
-      "weight": 0.8
-    },
-    {
-      "source": "function:com/liferay/portal/security/auth/SessionAuthToken:addPortletInvocationToken",
-      "target": "function:com/liferay/portal/security/auth/SessionAuthToken:_setNullSessionAuthenticationToken",
-      "type": "calls",
-      "direction": "forward",
-      "weight": 0.8
-    },
-    {
-      "source": "function:com/liferay/portal/security/auth/SessionAuthToken:checkCSRFToken",
-      "target": "function:com/liferay/portal/security/auth/SessionAuthToken:getSessionAuthenticationToken",
-      "type": "calls",
-      "direction": "forward",
-      "weight": 0.8
-    },
-    {
-      "source": "function:com/liferay/portal/security/auth/SessionAuthToken:isValidPortletInvocationToken",
-      "target": "function:com/liferay/portal/security/auth/SessionAuthToken:getSessionAuthenticationToken",
-      "type": "calls",
-      "direction": "forward",
-      "weight": 0.8
-    },
-    {
-      "source": "function:com/liferay/portal/security/auth/SessionAuthToken:getSessionAuthenticationToken",
-      "target": "function:com/liferay/portal/security/auth/SessionAuthToken:_getSessionAuthenticationToken",
-      "type": "calls",
-      "direction": "forward",
-      "weight": 0.8
-    },
-    {
-      "source": "file:com/liferay/portal/security/auth/StrutsPortletAuthTokenWhitelist",
-      "target": "function:com/liferay/portal/security/auth/StrutsPortletAuthTokenWhitelist:isPortletCSRFWhitelisted",
+      "source": "file:portal-impl/src/com/liferay/portal/log/Log4jLogContextLogWrapper.java",
+      "target": "function:portal-impl/src/com/liferay/portal/log/Log4jLogContextLogWrapper.java:info",
       "type": "contains",
       "direction": "forward",
-      "weight": 1.0
+      "weight": 1
     },
     {
-      "source": "file:com/liferay/portal/security/auth/StrutsPortletAuthTokenWhitelist",
-      "target": "function:com/liferay/portal/security/auth/StrutsPortletAuthTokenWhitelist:isPortletInvocationWhitelisted",
-      "type": "contains",
-      "direction": "forward",
-      "weight": 1.0
-    },
-    {
-      "source": "file:com/liferay/portal/security/auth/StrutsPortletAuthTokenWhitelist",
-      "target": "function:com/liferay/portal/security/auth/StrutsPortletAuthTokenWhitelist:isPortletURLCSRFWhitelisted",
-      "type": "contains",
-      "direction": "forward",
-      "weight": 1.0
-    },
-    {
-      "source": "file:com/liferay/portal/security/auth/StrutsPortletAuthTokenWhitelist",
-      "target": "function:com/liferay/portal/security/auth/StrutsPortletAuthTokenWhitelist:isPortletURLPortletInvocationWhitelisted",
-      "type": "contains",
-      "direction": "forward",
-      "weight": 1.0
-    },
-    {
-      "source": "file:com/liferay/portal/security/auth/StrutsPortletAuthTokenWhitelist",
-      "target": "function:com/liferay/portal/security/auth/StrutsPortletAuthTokenWhitelist:isValidStrutsAction",
-      "type": "contains",
-      "direction": "forward",
-      "weight": 1.0
-    },
-    {
-      "source": "file:com/liferay/portal/security/auth/StrutsPortletAuthTokenWhitelist",
-      "target": "function:com/liferay/portal/security/auth/StrutsPortletAuthTokenWhitelist:_createPortletCSRFWhitelist",
-      "type": "contains",
-      "direction": "forward",
-      "weight": 1.0
-    },
-    {
-      "source": "file:com/liferay/portal/security/auth/StrutsPortletAuthTokenWhitelist",
-      "target": "function:com/liferay/portal/security/auth/StrutsPortletAuthTokenWhitelist:_createPortletInvocationWhitelist",
-      "type": "contains",
-      "direction": "forward",
-      "weight": 1.0
-    },
-    {
-      "source": "file:com/liferay/portal/security/auth/StrutsPortletAuthTokenWhitelist",
-      "target": "class:com/liferay/portal/security/auth/StrutsPortletAuthTokenWhitelist:StrutsPortletAuthTokenWhitelist",
-      "type": "contains",
-      "direction": "forward",
-      "weight": 1.0
-    },
-    {
-      "source": "file:com/liferay/portal/security/auth/StrutsPortletAuthTokenWhitelist",
-      "target": "file:com/liferay/portal/kernel/log/Log_5",
-      "type": "imports",
-      "direction": "forward",
-      "weight": 0.7
-    },
-    {
-      "source": "file:com/liferay/portal/security/auth/StrutsPortletAuthTokenWhitelist",
-      "target": "file:com/liferay/portal/kernel/log/LogFactoryUtil_5",
-      "type": "imports",
-      "direction": "forward",
-      "weight": 0.7
-    },
-    {
-      "source": "file:com/liferay/portal/security/auth/StrutsPortletAuthTokenWhitelist",
-      "target": "file:com/liferay/portal/kernel/model/Layout_2",
-      "type": "imports",
-      "direction": "forward",
-      "weight": 0.7
-    },
-    {
-      "source": "file:com/liferay/portal/security/auth/StrutsPortletAuthTokenWhitelist",
-      "target": "file:com/liferay/portal/kernel/model/Portlet_5",
-      "type": "imports",
-      "direction": "forward",
-      "weight": 0.7
-    },
-    {
-      "source": "file:com/liferay/portal/security/auth/StrutsPortletAuthTokenWhitelist",
-      "target": "file:com/liferay/portal/kernel/portlet/LiferayPortletURL_4",
-      "type": "imports",
-      "direction": "forward",
-      "weight": 0.7
-    },
-    {
-      "source": "file:com/liferay/portal/security/auth/StrutsPortletAuthTokenWhitelist",
-      "target": "file:com/liferay/portal/kernel/portlet/PortletIdCodec_3",
-      "type": "imports",
-      "direction": "forward",
-      "weight": 0.7
-    },
-    {
-      "source": "file:com/liferay/portal/security/auth/StrutsPortletAuthTokenWhitelist",
-      "target": "file:com/liferay/portal/kernel/security/auth/BaseAuthTokenWhitelist_3",
-      "type": "imports",
-      "direction": "forward",
-      "weight": 0.7
-    },
-    {
-      "source": "file:com/liferay/portal/security/auth/StrutsPortletAuthTokenWhitelist",
-      "target": "file:com/liferay/portal/kernel/service/LayoutLocalServiceUtil_3",
-      "type": "imports",
-      "direction": "forward",
-      "weight": 0.7
-    },
-    {
-      "source": "file:com/liferay/portal/security/auth/StrutsPortletAuthTokenWhitelist",
-      "target": "file:com/liferay/portal/kernel/service/PortletLocalServiceUtil_3",
-      "type": "imports",
-      "direction": "forward",
-      "weight": 0.7
-    },
-    {
-      "source": "file:com/liferay/portal/security/auth/StrutsPortletAuthTokenWhitelist",
-      "target": "file:com/liferay/portal/kernel/util/PortalUtil_5",
-      "type": "imports",
-      "direction": "forward",
-      "weight": 0.7
-    },
-    {
-      "source": "file:com/liferay/portal/security/auth/StrutsPortletAuthTokenWhitelist",
-      "target": "file:com/liferay/portal/kernel/util/PropsKeys_3",
-      "type": "imports",
-      "direction": "forward",
-      "weight": 0.7
-    },
-    {
-      "source": "file:com/liferay/portal/security/auth/StrutsPortletAuthTokenWhitelist",
-      "target": "file:com/liferay/portal/kernel/util/Validator_8",
-      "type": "imports",
-      "direction": "forward",
-      "weight": 0.7
-    },
-    {
-      "source": "file:com/liferay/portal/security/auth/StrutsPortletAuthTokenWhitelist",
-      "target": "function:com/liferay/portal/security/auth/StrutsPortletAuthTokenWhitelist:isPortletCSRFWhitelisted",
+      "source": "file:portal-impl/src/com/liferay/portal/log/Log4jLogContextLogWrapper.java",
+      "target": "function:portal-impl/src/com/liferay/portal/log/Log4jLogContextLogWrapper.java:info",
       "type": "exports",
       "direction": "forward",
       "weight": 0.8
     },
     {
-      "source": "file:com/liferay/portal/security/auth/StrutsPortletAuthTokenWhitelist",
-      "target": "function:com/liferay/portal/security/auth/StrutsPortletAuthTokenWhitelist:isPortletInvocationWhitelisted",
+      "source": "file:portal-impl/src/com/liferay/portal/log/Log4jLogContextLogWrapper.java",
+      "target": "function:portal-impl/src/com/liferay/portal/log/Log4jLogContextLogWrapper.java:trace",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/log/Log4jLogContextLogWrapper.java",
+      "target": "function:portal-impl/src/com/liferay/portal/log/Log4jLogContextLogWrapper.java:trace",
       "type": "exports",
       "direction": "forward",
       "weight": 0.8
     },
     {
-      "source": "file:com/liferay/portal/security/auth/StrutsPortletAuthTokenWhitelist",
-      "target": "function:com/liferay/portal/security/auth/StrutsPortletAuthTokenWhitelist:isPortletURLCSRFWhitelisted",
+      "source": "file:portal-impl/src/com/liferay/portal/log/Log4jLogContextLogWrapper.java",
+      "target": "function:portal-impl/src/com/liferay/portal/log/Log4jLogContextLogWrapper.java:warn",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/log/Log4jLogContextLogWrapper.java",
+      "target": "function:portal-impl/src/com/liferay/portal/log/Log4jLogContextLogWrapper.java:warn",
       "type": "exports",
       "direction": "forward",
       "weight": 0.8
     },
     {
-      "source": "file:com/liferay/portal/security/auth/StrutsPortletAuthTokenWhitelist",
-      "target": "function:com/liferay/portal/security/auth/StrutsPortletAuthTokenWhitelist:isPortletURLPortletInvocationWhitelisted",
+      "source": "file:portal-impl/src/com/liferay/portal/log/Log4jLogContextLogWrapper.java",
+      "target": "function:portal-impl/src/com/liferay/portal/log/Log4jLogContextLogWrapper.java:_populateThreadContext",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/log/Log4jLogContextLogWrapper.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/log/Log.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/log/Log4jLogContextLogWrapper.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/log/LogContext.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/log/Log4jLogContextLogWrapper.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/log/LogWrapper.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/log/Log4jLogContextLogWrapper.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/module/util/SystemBundleUtil.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/log/Log4jLogContextLogWrapper.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/util/Validator.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/log/Log4jLogFactoryImpl.java",
+      "target": "class:portal-impl/src/com/liferay/portal/log/Log4jLogFactoryImpl.java:Log4jLogFactoryImpl",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/log/Log4jLogFactoryImpl.java",
+      "target": "class:portal-impl/src/com/liferay/portal/log/Log4jLogFactoryImpl.java:Log4jLogFactoryImpl",
       "type": "exports",
       "direction": "forward",
       "weight": 0.8
     },
     {
-      "source": "file:com/liferay/portal/security/auth/StrutsPortletAuthTokenWhitelist",
-      "target": "class:com/liferay/portal/security/auth/StrutsPortletAuthTokenWhitelist:StrutsPortletAuthTokenWhitelist",
+      "source": "file:portal-impl/src/com/liferay/portal/log/Log4jLogFactoryImpl.java",
+      "target": "function:portal-impl/src/com/liferay/portal/log/Log4jLogFactoryImpl.java:getLog",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/log/Log4jLogFactoryImpl.java",
+      "target": "function:portal-impl/src/com/liferay/portal/log/Log4jLogFactoryImpl.java:getLog",
       "type": "exports",
       "direction": "forward",
       "weight": 0.8
     },
     {
-      "source": "function:com/liferay/portal/security/auth/StrutsPortletAuthTokenWhitelist:isPortletCSRFWhitelisted",
-      "target": "function:com/liferay/portal/security/auth/StrutsPortletAuthTokenWhitelist:isValidStrutsAction",
-      "type": "calls",
+      "source": "file:portal-impl/src/com/liferay/portal/log/Log4jLogFactoryImpl.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/log/Log.java",
+      "type": "imports",
       "direction": "forward",
-      "weight": 0.8
+      "weight": 0.7
     },
     {
-      "source": "function:com/liferay/portal/security/auth/StrutsPortletAuthTokenWhitelist:isPortletInvocationWhitelisted",
-      "target": "function:com/liferay/portal/security/auth/StrutsPortletAuthTokenWhitelist:isValidStrutsAction",
-      "type": "calls",
+      "source": "file:portal-impl/src/com/liferay/portal/log/Log4jLogFactoryImpl.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/log/LogFactory.java",
+      "type": "imports",
       "direction": "forward",
-      "weight": 0.8
+      "weight": 0.7
     },
     {
-      "source": "function:com/liferay/portal/security/auth/StrutsPortletAuthTokenWhitelist:isPortletURLCSRFWhitelisted",
-      "target": "function:com/liferay/portal/security/auth/StrutsPortletAuthTokenWhitelist:isValidStrutsAction",
-      "type": "calls",
-      "direction": "forward",
-      "weight": 0.8
-    },
-    {
-      "source": "function:com/liferay/portal/security/auth/StrutsPortletAuthTokenWhitelist:isPortletURLPortletInvocationWhitelisted",
-      "target": "function:com/liferay/portal/security/auth/StrutsPortletAuthTokenWhitelist:isValidStrutsAction",
-      "type": "calls",
-      "direction": "forward",
-      "weight": 0.8
-    },
-    {
-      "source": "file:com/liferay/portal/security/auth/http/HttpAuthManagerUtil",
-      "target": "function:com/liferay/portal/security/auth/http/HttpAuthManagerUtil:generateChallenge",
+      "source": "file:portal-impl/src/com/liferay/portal/log/Log4jLogImpl.java",
+      "target": "class:portal-impl/src/com/liferay/portal/log/Log4jLogImpl.java:Log4jLogImpl",
       "type": "contains",
       "direction": "forward",
-      "weight": 1.0
+      "weight": 1
     },
     {
-      "source": "file:com/liferay/portal/security/auth/http/HttpAuthManagerUtil",
-      "target": "function:com/liferay/portal/security/auth/http/HttpAuthManagerUtil:getBasicUserId",
-      "type": "contains",
-      "direction": "forward",
-      "weight": 1.0
-    },
-    {
-      "source": "file:com/liferay/portal/security/auth/http/HttpAuthManagerUtil",
-      "target": "function:com/liferay/portal/security/auth/http/HttpAuthManagerUtil:getDigestUserId",
-      "type": "contains",
-      "direction": "forward",
-      "weight": 1.0
-    },
-    {
-      "source": "file:com/liferay/portal/security/auth/http/HttpAuthManagerUtil",
-      "target": "function:com/liferay/portal/security/auth/http/HttpAuthManagerUtil:getUserId",
-      "type": "contains",
-      "direction": "forward",
-      "weight": 1.0
-    },
-    {
-      "source": "file:com/liferay/portal/security/auth/http/HttpAuthManagerUtil",
-      "target": "function:com/liferay/portal/security/auth/http/HttpAuthManagerUtil:parse",
-      "type": "contains",
-      "direction": "forward",
-      "weight": 1.0
-    },
-    {
-      "source": "file:com/liferay/portal/security/auth/http/HttpAuthManagerUtil",
-      "target": "function:com/liferay/portal/security/auth/http/HttpAuthManagerUtil:_generateDigestChallenge",
-      "type": "contains",
-      "direction": "forward",
-      "weight": 1.0
-    },
-    {
-      "source": "file:com/liferay/portal/security/auth/http/HttpAuthManagerUtil",
-      "target": "function:com/liferay/portal/security/auth/http/HttpAuthManagerUtil:_getBasicUserId",
-      "type": "contains",
-      "direction": "forward",
-      "weight": 1.0
-    },
-    {
-      "source": "file:com/liferay/portal/security/auth/http/HttpAuthManagerUtil",
-      "target": "function:com/liferay/portal/security/auth/http/HttpAuthManagerUtil:_getDigestUserId",
-      "type": "contains",
-      "direction": "forward",
-      "weight": 1.0
-    },
-    {
-      "source": "file:com/liferay/portal/security/auth/http/HttpAuthManagerUtil",
-      "target": "function:com/liferay/portal/security/auth/http/HttpAuthManagerUtil:_parseBasic",
-      "type": "contains",
-      "direction": "forward",
-      "weight": 1.0
-    },
-    {
-      "source": "file:com/liferay/portal/security/auth/http/HttpAuthManagerUtil",
-      "target": "function:com/liferay/portal/security/auth/http/HttpAuthManagerUtil:_parseDigest",
-      "type": "contains",
-      "direction": "forward",
-      "weight": 1.0
-    },
-    {
-      "source": "file:com/liferay/portal/security/auth/http/HttpAuthManagerUtil",
-      "target": "class:com/liferay/portal/security/auth/http/HttpAuthManagerUtil:HttpAuthManagerUtil",
-      "type": "contains",
-      "direction": "forward",
-      "weight": 1.0
-    },
-    {
-      "source": "file:com/liferay/portal/security/auth/http/HttpAuthManagerUtil",
-      "target": "file:com/liferay/portal/security/auth/session/AuthenticatedSessionManagerUtil",
-      "type": "imports",
-      "direction": "forward",
-      "weight": 0.7
-    },
-    {
-      "source": "file:com/liferay/portal/security/auth/http/HttpAuthManagerUtil",
-      "target": "file:com/liferay/portal/servlet/filters/secure/NonceUtil",
-      "type": "imports",
-      "direction": "forward",
-      "weight": 0.7
-    },
-    {
-      "source": "file:com/liferay/portal/security/auth/http/HttpAuthManagerUtil",
-      "target": "file:com/liferay/portal/util/PortalInstances",
-      "type": "imports",
-      "direction": "forward",
-      "weight": 0.7
-    },
-    {
-      "source": "file:com/liferay/portal/security/auth/http/HttpAuthManagerUtil",
-      "target": "file:com/liferay/portal/kernel/exception/PortalException_4",
-      "type": "imports",
-      "direction": "forward",
-      "weight": 0.7
-    },
-    {
-      "source": "file:com/liferay/portal/security/auth/http/HttpAuthManagerUtil",
-      "target": "file:com/liferay/portal/kernel/log/Log_6",
-      "type": "imports",
-      "direction": "forward",
-      "weight": 0.7
-    },
-    {
-      "source": "file:com/liferay/portal/security/auth/http/HttpAuthManagerUtil",
-      "target": "file:com/liferay/portal/kernel/log/LogFactoryUtil_6",
-      "type": "imports",
-      "direction": "forward",
-      "weight": 0.7
-    },
-    {
-      "source": "file:com/liferay/portal/security/auth/http/HttpAuthManagerUtil",
-      "target": "file:com/liferay/portal/kernel/security/auth/AuthException",
-      "type": "imports",
-      "direction": "forward",
-      "weight": 0.7
-    },
-    {
-      "source": "file:com/liferay/portal/security/auth/http/HttpAuthManagerUtil",
-      "target": "file:com/liferay/portal/kernel/security/auth/http/HttpAuthorizationHeader",
-      "type": "imports",
-      "direction": "forward",
-      "weight": 0.7
-    },
-    {
-      "source": "file:com/liferay/portal/security/auth/http/HttpAuthManagerUtil",
-      "target": "file:com/liferay/portal/kernel/service/UserLocalServiceUtil_4",
-      "type": "imports",
-      "direction": "forward",
-      "weight": 0.7
-    },
-    {
-      "source": "file:com/liferay/portal/security/auth/http/HttpAuthManagerUtil",
-      "target": "file:com/liferay/portal/kernel/servlet/HttpHeaders",
-      "type": "imports",
-      "direction": "forward",
-      "weight": 0.7
-    },
-    {
-      "source": "file:com/liferay/portal/security/auth/http/HttpAuthManagerUtil",
-      "target": "file:com/liferay/portal/kernel/util/Base64",
-      "type": "imports",
-      "direction": "forward",
-      "weight": 0.7
-    },
-    {
-      "source": "file:com/liferay/portal/security/auth/http/HttpAuthManagerUtil",
-      "target": "file:com/liferay/portal/kernel/util/HttpComponentsUtil",
-      "type": "imports",
-      "direction": "forward",
-      "weight": 0.7
-    },
-    {
-      "source": "file:com/liferay/portal/security/auth/http/HttpAuthManagerUtil",
-      "target": "file:com/liferay/portal/kernel/util/Portal_2",
-      "type": "imports",
-      "direction": "forward",
-      "weight": 0.7
-    },
-    {
-      "source": "file:com/liferay/portal/security/auth/http/HttpAuthManagerUtil",
-      "target": "file:com/liferay/portal/kernel/util/StringUtil_3",
-      "type": "imports",
-      "direction": "forward",
-      "weight": 0.7
-    },
-    {
-      "source": "file:com/liferay/portal/security/auth/http/HttpAuthManagerUtil",
-      "target": "file:com/liferay/portal/kernel/util/UnicodeProperties_2",
-      "type": "imports",
-      "direction": "forward",
-      "weight": 0.7
-    },
-    {
-      "source": "file:com/liferay/portal/security/auth/http/HttpAuthManagerUtil",
-      "target": "file:com/liferay/portal/kernel/util/UnicodePropertiesBuilder_2",
-      "type": "imports",
-      "direction": "forward",
-      "weight": 0.7
-    },
-    {
-      "source": "file:com/liferay/portal/security/auth/http/HttpAuthManagerUtil",
-      "target": "file:com/liferay/portal/kernel/util/Validator_9",
-      "type": "imports",
-      "direction": "forward",
-      "weight": 0.7
-    },
-    {
-      "source": "file:com/liferay/portal/security/auth/http/HttpAuthManagerUtil",
-      "target": "function:com/liferay/portal/security/auth/http/HttpAuthManagerUtil:generateChallenge",
+      "source": "file:portal-impl/src/com/liferay/portal/log/Log4jLogImpl.java",
+      "target": "class:portal-impl/src/com/liferay/portal/log/Log4jLogImpl.java:Log4jLogImpl",
       "type": "exports",
       "direction": "forward",
       "weight": 0.8
     },
     {
-      "source": "file:com/liferay/portal/security/auth/http/HttpAuthManagerUtil",
-      "target": "function:com/liferay/portal/security/auth/http/HttpAuthManagerUtil:getBasicUserId",
+      "source": "file:portal-impl/src/com/liferay/portal/log/Log4jLogImpl.java",
+      "target": "function:portal-impl/src/com/liferay/portal/log/Log4jLogImpl.java:Log4jLogImpl",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/log/Log4jLogImpl.java",
+      "target": "function:portal-impl/src/com/liferay/portal/log/Log4jLogImpl.java:Log4jLogImpl",
       "type": "exports",
       "direction": "forward",
       "weight": 0.8
     },
     {
-      "source": "file:com/liferay/portal/security/auth/http/HttpAuthManagerUtil",
-      "target": "function:com/liferay/portal/security/auth/http/HttpAuthManagerUtil:getDigestUserId",
+      "source": "file:portal-impl/src/com/liferay/portal/log/Log4jLogImpl.java",
+      "target": "function:portal-impl/src/com/liferay/portal/log/Log4jLogImpl.java:debug",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/log/Log4jLogImpl.java",
+      "target": "function:portal-impl/src/com/liferay/portal/log/Log4jLogImpl.java:debug",
       "type": "exports",
       "direction": "forward",
       "weight": 0.8
     },
     {
-      "source": "file:com/liferay/portal/security/auth/http/HttpAuthManagerUtil",
-      "target": "function:com/liferay/portal/security/auth/http/HttpAuthManagerUtil:getUserId",
+      "source": "file:portal-impl/src/com/liferay/portal/log/Log4jLogImpl.java",
+      "target": "function:portal-impl/src/com/liferay/portal/log/Log4jLogImpl.java:error",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/log/Log4jLogImpl.java",
+      "target": "function:portal-impl/src/com/liferay/portal/log/Log4jLogImpl.java:error",
       "type": "exports",
       "direction": "forward",
       "weight": 0.8
     },
     {
-      "source": "file:com/liferay/portal/security/auth/http/HttpAuthManagerUtil",
-      "target": "function:com/liferay/portal/security/auth/http/HttpAuthManagerUtil:parse",
+      "source": "file:portal-impl/src/com/liferay/portal/log/Log4jLogImpl.java",
+      "target": "function:portal-impl/src/com/liferay/portal/log/Log4jLogImpl.java:fatal",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/log/Log4jLogImpl.java",
+      "target": "function:portal-impl/src/com/liferay/portal/log/Log4jLogImpl.java:fatal",
       "type": "exports",
       "direction": "forward",
       "weight": 0.8
     },
     {
-      "source": "file:com/liferay/portal/security/auth/http/HttpAuthManagerUtil",
-      "target": "class:com/liferay/portal/security/auth/http/HttpAuthManagerUtil:HttpAuthManagerUtil",
+      "source": "file:portal-impl/src/com/liferay/portal/log/Log4jLogImpl.java",
+      "target": "function:portal-impl/src/com/liferay/portal/log/Log4jLogImpl.java:info",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/log/Log4jLogImpl.java",
+      "target": "function:portal-impl/src/com/liferay/portal/log/Log4jLogImpl.java:info",
       "type": "exports",
       "direction": "forward",
       "weight": 0.8
     },
     {
-      "source": "function:com/liferay/portal/security/auth/http/HttpAuthManagerUtil:generateChallenge",
-      "target": "function:com/liferay/portal/security/auth/http/HttpAuthManagerUtil:_generateDigestChallenge",
-      "type": "calls",
+      "source": "file:portal-impl/src/com/liferay/portal/log/Log4jLogImpl.java",
+      "target": "function:portal-impl/src/com/liferay/portal/log/Log4jLogImpl.java:isDebugEnabled",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/log/Log4jLogImpl.java",
+      "target": "function:portal-impl/src/com/liferay/portal/log/Log4jLogImpl.java:isDebugEnabled",
+      "type": "exports",
       "direction": "forward",
       "weight": 0.8
     },
     {
-      "source": "function:com/liferay/portal/security/auth/http/HttpAuthManagerUtil:getBasicUserId",
-      "target": "function:com/liferay/portal/security/auth/http/HttpAuthManagerUtil:parse",
-      "type": "calls",
+      "source": "file:portal-impl/src/com/liferay/portal/log/Log4jLogImpl.java",
+      "target": "function:portal-impl/src/com/liferay/portal/log/Log4jLogImpl.java:isErrorEnabled",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/log/Log4jLogImpl.java",
+      "target": "function:portal-impl/src/com/liferay/portal/log/Log4jLogImpl.java:isErrorEnabled",
+      "type": "exports",
       "direction": "forward",
       "weight": 0.8
     },
     {
-      "source": "function:com/liferay/portal/security/auth/http/HttpAuthManagerUtil:getBasicUserId",
-      "target": "function:com/liferay/portal/security/auth/http/HttpAuthManagerUtil:getUserId",
-      "type": "calls",
+      "source": "file:portal-impl/src/com/liferay/portal/log/Log4jLogImpl.java",
+      "target": "function:portal-impl/src/com/liferay/portal/log/Log4jLogImpl.java:isFatalEnabled",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/log/Log4jLogImpl.java",
+      "target": "function:portal-impl/src/com/liferay/portal/log/Log4jLogImpl.java:isFatalEnabled",
+      "type": "exports",
       "direction": "forward",
       "weight": 0.8
     },
     {
-      "source": "function:com/liferay/portal/security/auth/http/HttpAuthManagerUtil:getDigestUserId",
-      "target": "function:com/liferay/portal/security/auth/http/HttpAuthManagerUtil:parse",
-      "type": "calls",
+      "source": "file:portal-impl/src/com/liferay/portal/log/Log4jLogImpl.java",
+      "target": "function:portal-impl/src/com/liferay/portal/log/Log4jLogImpl.java:isInfoEnabled",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/log/Log4jLogImpl.java",
+      "target": "function:portal-impl/src/com/liferay/portal/log/Log4jLogImpl.java:isInfoEnabled",
+      "type": "exports",
       "direction": "forward",
       "weight": 0.8
     },
     {
-      "source": "function:com/liferay/portal/security/auth/http/HttpAuthManagerUtil:getDigestUserId",
-      "target": "function:com/liferay/portal/security/auth/http/HttpAuthManagerUtil:getUserId",
-      "type": "calls",
+      "source": "file:portal-impl/src/com/liferay/portal/log/Log4jLogImpl.java",
+      "target": "function:portal-impl/src/com/liferay/portal/log/Log4jLogImpl.java:isTraceEnabled",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/log/Log4jLogImpl.java",
+      "target": "function:portal-impl/src/com/liferay/portal/log/Log4jLogImpl.java:isTraceEnabled",
+      "type": "exports",
       "direction": "forward",
       "weight": 0.8
     },
     {
-      "source": "function:com/liferay/portal/security/auth/http/HttpAuthManagerUtil:getUserId",
-      "target": "function:com/liferay/portal/security/auth/http/HttpAuthManagerUtil:_getBasicUserId",
-      "type": "calls",
+      "source": "file:portal-impl/src/com/liferay/portal/log/Log4jLogImpl.java",
+      "target": "function:portal-impl/src/com/liferay/portal/log/Log4jLogImpl.java:isWarnEnabled",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/log/Log4jLogImpl.java",
+      "target": "function:portal-impl/src/com/liferay/portal/log/Log4jLogImpl.java:isWarnEnabled",
+      "type": "exports",
       "direction": "forward",
       "weight": 0.8
     },
     {
-      "source": "function:com/liferay/portal/security/auth/http/HttpAuthManagerUtil:getUserId",
-      "target": "function:com/liferay/portal/security/auth/http/HttpAuthManagerUtil:_getDigestUserId",
-      "type": "calls",
+      "source": "file:portal-impl/src/com/liferay/portal/log/Log4jLogImpl.java",
+      "target": "function:portal-impl/src/com/liferay/portal/log/Log4jLogImpl.java:setLogWrapperClassName",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/log/Log4jLogImpl.java",
+      "target": "function:portal-impl/src/com/liferay/portal/log/Log4jLogImpl.java:setLogWrapperClassName",
+      "type": "exports",
       "direction": "forward",
       "weight": 0.8
     },
     {
-      "source": "function:com/liferay/portal/security/auth/http/HttpAuthManagerUtil:parse",
-      "target": "function:com/liferay/portal/security/auth/http/HttpAuthManagerUtil:_parseBasic",
-      "type": "calls",
+      "source": "file:portal-impl/src/com/liferay/portal/log/Log4jLogImpl.java",
+      "target": "function:portal-impl/src/com/liferay/portal/log/Log4jLogImpl.java:trace",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/log/Log4jLogImpl.java",
+      "target": "function:portal-impl/src/com/liferay/portal/log/Log4jLogImpl.java:trace",
+      "type": "exports",
       "direction": "forward",
       "weight": 0.8
     },
     {
-      "source": "function:com/liferay/portal/security/auth/http/HttpAuthManagerUtil:parse",
-      "target": "function:com/liferay/portal/security/auth/http/HttpAuthManagerUtil:_parseDigest",
-      "type": "calls",
+      "source": "file:portal-impl/src/com/liferay/portal/log/Log4jLogImpl.java",
+      "target": "function:portal-impl/src/com/liferay/portal/log/Log4jLogImpl.java:warn",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/log/Log4jLogImpl.java",
+      "target": "function:portal-impl/src/com/liferay/portal/log/Log4jLogImpl.java:warn",
+      "type": "exports",
       "direction": "forward",
       "weight": 0.8
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/log/Log4jLogImpl.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/log/Log.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/log/Log4jLogImpl.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/log/LogWrapper.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
     }
   ]
 }

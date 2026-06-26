@@ -1,0 +1,1080 @@
+{
+  "nodes": [
+    {
+      "id": "file:portal-impl/src/com/liferay/portal/action/TestAction.java",
+      "type": "file",
+      "name": "TestAction.java",
+      "filePath": "portal-impl/src/com/liferay/portal/action/TestAction.java",
+      "summary": "Struts action handling Test requests in portal request processing pipeline.",
+      "tags": [
+        "api-handler",
+        "struts-action",
+        "request-handling"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:portal-impl/src/com/liferay/portal/action/TestAction.java:execute",
+      "type": "function",
+      "name": "execute",
+      "filePath": "portal-impl/src/com/liferay/portal/action/TestAction.java",
+      "lineRange": [
+        22,
+        33
+      ],
+      "summary": "Main execution method processing Struts action request in TestAction.java.",
+      "tags": [
+        "api-handler",
+        "struts-action",
+        "execute"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:portal-impl/src/com/liferay/portal/action/TestAction.java:TestAction",
+      "type": "class",
+      "name": "TestAction",
+      "filePath": "portal-impl/src/com/liferay/portal/action/TestAction.java",
+      "lineRange": [
+        20,
+        37
+      ],
+      "summary": "Struts action class dispatching execute requests.",
+      "tags": [
+        "api-handler",
+        "struts-action",
+        "class"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:portal-impl/src/com/liferay/portal/action/TestRedirectAction.java",
+      "type": "file",
+      "name": "TestRedirectAction.java",
+      "filePath": "portal-impl/src/com/liferay/portal/action/TestRedirectAction.java",
+      "summary": "Struts action handling TestRedirect requests in portal request processing pipeline.",
+      "tags": [
+        "api-handler",
+        "struts-action",
+        "request-handling"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:portal-impl/src/com/liferay/portal/action/TestRedirectAction.java:execute",
+      "type": "function",
+      "name": "execute",
+      "filePath": "portal-impl/src/com/liferay/portal/action/TestRedirectAction.java",
+      "lineRange": [
+        22,
+        33
+      ],
+      "summary": "Main execution method processing Struts action request in TestRedirectAction.java.",
+      "tags": [
+        "api-handler",
+        "struts-action",
+        "execute"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:portal-impl/src/com/liferay/portal/action/TestRedirectAction.java:TestRedirectAction",
+      "type": "class",
+      "name": "TestRedirectAction",
+      "filePath": "portal-impl/src/com/liferay/portal/action/TestRedirectAction.java",
+      "lineRange": [
+        20,
+        38
+      ],
+      "summary": "Struts action class dispatching execute requests.",
+      "tags": [
+        "api-handler",
+        "struts-action",
+        "class"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:portal-impl/src/com/liferay/portal/action/UpdateEmailAddressAction.java",
+      "type": "file",
+      "name": "UpdateEmailAddressAction.java",
+      "filePath": "portal-impl/src/com/liferay/portal/action/UpdateEmailAddressAction.java",
+      "summary": "Struts action handling UpdateEmailAddress requests in portal request processing pipeline.",
+      "tags": [
+        "api-handler",
+        "struts-action",
+        "request-handling"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "Heavy use of portal-kernel utility and service APIs."
+    },
+    {
+      "id": "function:portal-impl/src/com/liferay/portal/action/UpdateEmailAddressAction.java:execute",
+      "type": "function",
+      "name": "execute",
+      "filePath": "portal-impl/src/com/liferay/portal/action/UpdateEmailAddressAction.java",
+      "lineRange": [
+        36,
+        75
+      ],
+      "summary": "Main execution method processing Struts action request in UpdateEmailAddressAction.java.",
+      "tags": [
+        "api-handler",
+        "struts-action",
+        "execute"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:portal-impl/src/com/liferay/portal/action/UpdateEmailAddressAction.java:updateEmailAddress",
+      "type": "function",
+      "name": "updateEmailAddress",
+      "filePath": "portal-impl/src/com/liferay/portal/action/UpdateEmailAddressAction.java",
+      "lineRange": [
+        77,
+        98
+      ],
+      "summary": "Method updateEmailAddress in UpdateEmailAddressAction.java.",
+      "tags": [
+        "method"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "class:portal-impl/src/com/liferay/portal/action/UpdateEmailAddressAction.java:UpdateEmailAddressAction",
+      "type": "class",
+      "name": "UpdateEmailAddressAction",
+      "filePath": "portal-impl/src/com/liferay/portal/action/UpdateEmailAddressAction.java",
+      "lineRange": [
+        34,
+        100
+      ],
+      "summary": "Struts action class dispatching execute, updateEmailAddress requests.",
+      "tags": [
+        "api-handler",
+        "struts-action",
+        "class"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:portal-impl/src/com/liferay/portal/action/UpdateLanguageAction.java",
+      "type": "file",
+      "name": "UpdateLanguageAction.java",
+      "filePath": "portal-impl/src/com/liferay/portal/action/UpdateLanguageAction.java",
+      "summary": "Struts action handling UpdateLanguage requests in portal request processing pipeline.",
+      "tags": [
+        "api-handler",
+        "struts-action",
+        "request-handling"
+      ],
+      "complexity": "complex",
+      "languageNotes": "Heavy use of portal-kernel utility and service APIs."
+    },
+    {
+      "id": "function:portal-impl/src/com/liferay/portal/action/UpdateLanguageAction.java:execute",
+      "type": "function",
+      "name": "execute",
+      "filePath": "portal-impl/src/com/liferay/portal/action/UpdateLanguageAction.java",
+      "lineRange": [
+        50,
+        101
+      ],
+      "summary": "Main execution method processing Struts action request in UpdateLanguageAction.java.",
+      "tags": [
+        "api-handler",
+        "struts-action",
+        "execute"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:portal-impl/src/com/liferay/portal/action/UpdateLanguageAction.java:getRedirect",
+      "type": "function",
+      "name": "getRedirect",
+      "filePath": "portal-impl/src/com/liferay/portal/action/UpdateLanguageAction.java",
+      "lineRange": [
+        103,
+        286
+      ],
+      "summary": "Compute redirect URL after language change preserving layout context.",
+      "tags": [
+        "utility",
+        "redirect",
+        "language"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "function:portal-impl/src/com/liferay/portal/action/UpdateLanguageAction.java:isFriendlyURLResolver",
+      "type": "function",
+      "name": "isFriendlyURLResolver",
+      "filePath": "portal-impl/src/com/liferay/portal/action/UpdateLanguageAction.java",
+      "lineRange": [
+        288,
+        299
+      ],
+      "summary": "Method isFriendlyURLResolver in UpdateLanguageAction.java.",
+      "tags": [
+        "method"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:portal-impl/src/com/liferay/portal/action/UpdateLanguageAction.java:isGroupFriendlyURL",
+      "type": "function",
+      "name": "isGroupFriendlyURL",
+      "filePath": "portal-impl/src/com/liferay/portal/action/UpdateLanguageAction.java",
+      "lineRange": [
+        301,
+        329
+      ],
+      "summary": "Method isGroupFriendlyURL in UpdateLanguageAction.java.",
+      "tags": [
+        "method"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "class:portal-impl/src/com/liferay/portal/action/UpdateLanguageAction.java:UpdateLanguageAction",
+      "type": "class",
+      "name": "UpdateLanguageAction",
+      "filePath": "portal-impl/src/com/liferay/portal/action/UpdateLanguageAction.java",
+      "lineRange": [
+        48,
+        334
+      ],
+      "summary": "Struts action class dispatching execute, getRedirect, isFriendlyURLResolver, isGroupFriendlyURL requests.",
+      "tags": [
+        "api-handler",
+        "struts-action",
+        "class"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "file:portal-impl/src/com/liferay/portal/action/UpdateLicenseAction.java",
+      "type": "file",
+      "name": "UpdateLicenseAction.java",
+      "filePath": "portal-impl/src/com/liferay/portal/action/UpdateLicenseAction.java",
+      "summary": "Struts action handling UpdateLicense requests in portal request processing pipeline.",
+      "tags": [
+        "api-handler",
+        "struts-action",
+        "request-handling"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "Heavy use of portal-kernel utility and service APIs."
+    },
+    {
+      "id": "function:portal-impl/src/com/liferay/portal/action/UpdateLicenseAction.java:execute",
+      "type": "function",
+      "name": "execute",
+      "filePath": "portal-impl/src/com/liferay/portal/action/UpdateLicenseAction.java",
+      "lineRange": [
+        42,
+        102
+      ],
+      "summary": "Main execution method processing Struts action request in UpdateLicenseAction.java.",
+      "tags": [
+        "api-handler",
+        "struts-action",
+        "execute"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:portal-impl/src/com/liferay/portal/action/UpdateLicenseAction.java:_getLicenseProperties",
+      "type": "function",
+      "name": "_getLicenseProperties",
+      "filePath": "portal-impl/src/com/liferay/portal/action/UpdateLicenseAction.java",
+      "lineRange": [
+        104,
+        125
+      ],
+      "summary": "Method _getLicenseProperties in UpdateLicenseAction.java.",
+      "tags": [
+        "method"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:portal-impl/src/com/liferay/portal/action/UpdateLicenseAction.java:_getServerInfo",
+      "type": "function",
+      "name": "_getServerInfo",
+      "filePath": "portal-impl/src/com/liferay/portal/action/UpdateLicenseAction.java",
+      "lineRange": [
+        127,
+        140
+      ],
+      "summary": "Method _getServerInfo in UpdateLicenseAction.java.",
+      "tags": [
+        "method"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:portal-impl/src/com/liferay/portal/action/UpdateLicenseAction.java:_isCSRFTokenValid",
+      "type": "function",
+      "name": "_isCSRFTokenValid",
+      "filePath": "portal-impl/src/com/liferay/portal/action/UpdateLicenseAction.java",
+      "lineRange": [
+        142,
+        163
+      ],
+      "summary": "Method _isCSRFTokenValid in UpdateLicenseAction.java.",
+      "tags": [
+        "method"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:portal-impl/src/com/liferay/portal/action/UpdateLicenseAction.java:_isOmniAdmin",
+      "type": "function",
+      "name": "_isOmniAdmin",
+      "filePath": "portal-impl/src/com/liferay/portal/action/UpdateLicenseAction.java",
+      "lineRange": [
+        165,
+        198
+      ],
+      "summary": "Method _isOmniAdmin in UpdateLicenseAction.java.",
+      "tags": [
+        "method"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "class:portal-impl/src/com/liferay/portal/action/UpdateLicenseAction.java:UpdateLicenseAction",
+      "type": "class",
+      "name": "UpdateLicenseAction",
+      "filePath": "portal-impl/src/com/liferay/portal/action/UpdateLicenseAction.java",
+      "lineRange": [
+        40,
+        203
+      ],
+      "summary": "Struts action class dispatching execute, _getLicenseProperties, _getServerInfo, _isCSRFTokenValid, _isOmniAdmin requests.",
+      "tags": [
+        "api-handler",
+        "struts-action",
+        "class"
+      ],
+      "complexity": "moderate"
+    }
+  ],
+  "edges": [
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/action/TestAction.java",
+      "target": "function:portal-impl/src/com/liferay/portal/action/TestAction.java:execute",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/action/TestAction.java",
+      "target": "function:portal-impl/src/com/liferay/portal/action/TestAction.java:execute",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/action/TestAction.java",
+      "target": "class:portal-impl/src/com/liferay/portal/action/TestAction.java:TestAction",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/action/TestAction.java",
+      "target": "class:portal-impl/src/com/liferay/portal/action/TestAction.java:TestAction",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/action/TestAction.java",
+      "target": "file:portal-impl/src/com/liferay/portal/struts/Action.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/action/TestAction.java",
+      "target": "file:portal-impl/src/com/liferay/portal/struts/model/ActionForward.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/action/TestAction.java",
+      "target": "file:portal-impl/src/com/liferay/portal/struts/model/ActionMapping.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/action/TestAction.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/log/Log.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/action/TestAction.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/log/LogFactoryUtil.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/action/TestRedirectAction.java",
+      "target": "function:portal-impl/src/com/liferay/portal/action/TestRedirectAction.java:execute",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/action/TestRedirectAction.java",
+      "target": "function:portal-impl/src/com/liferay/portal/action/TestRedirectAction.java:execute",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/action/TestRedirectAction.java",
+      "target": "class:portal-impl/src/com/liferay/portal/action/TestRedirectAction.java:TestRedirectAction",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/action/TestRedirectAction.java",
+      "target": "class:portal-impl/src/com/liferay/portal/action/TestRedirectAction.java:TestRedirectAction",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/action/TestRedirectAction.java",
+      "target": "file:portal-impl/src/com/liferay/portal/struts/Action.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/action/TestRedirectAction.java",
+      "target": "file:portal-impl/src/com/liferay/portal/struts/model/ActionForward.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/action/TestRedirectAction.java",
+      "target": "file:portal-impl/src/com/liferay/portal/struts/model/ActionMapping.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/action/TestRedirectAction.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/log/Log.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/action/TestRedirectAction.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/log/LogFactoryUtil.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/action/UpdateEmailAddressAction.java",
+      "target": "function:portal-impl/src/com/liferay/portal/action/UpdateEmailAddressAction.java:execute",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/action/UpdateEmailAddressAction.java",
+      "target": "function:portal-impl/src/com/liferay/portal/action/UpdateEmailAddressAction.java:execute",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/action/UpdateEmailAddressAction.java",
+      "target": "function:portal-impl/src/com/liferay/portal/action/UpdateEmailAddressAction.java:updateEmailAddress",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/action/UpdateEmailAddressAction.java",
+      "target": "class:portal-impl/src/com/liferay/portal/action/UpdateEmailAddressAction.java:UpdateEmailAddressAction",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/action/UpdateEmailAddressAction.java",
+      "target": "class:portal-impl/src/com/liferay/portal/action/UpdateEmailAddressAction.java:UpdateEmailAddressAction",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/action/UpdateEmailAddressAction.java",
+      "target": "file:portal-impl/src/com/liferay/portal/struts/Action.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/action/UpdateEmailAddressAction.java",
+      "target": "file:portal-impl/src/com/liferay/portal/struts/constants/ActionConstants.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/action/UpdateEmailAddressAction.java",
+      "target": "file:portal-impl/src/com/liferay/portal/struts/model/ActionForward.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/action/UpdateEmailAddressAction.java",
+      "target": "file:portal-impl/src/com/liferay/portal/struts/model/ActionMapping.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/action/UpdateEmailAddressAction.java",
+      "target": "file:portal-impl/src/com/liferay/portlet/admin/util/AdminUtil.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/action/UpdateEmailAddressAction.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/exception/NoSuchUserException.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/action/UpdateEmailAddressAction.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/exception/UserEmailAddressException.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/action/UpdateEmailAddressAction.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/security/auth/AuthTokenUtil.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/action/UpdateEmailAddressAction.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/security/auth/PrincipalException.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/action/UpdateEmailAddressAction.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/service/ServiceContext.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/action/UpdateEmailAddressAction.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/service/ServiceContextFactory.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/action/UpdateEmailAddressAction.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/service/UserServiceUtil.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/action/UpdateEmailAddressAction.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/servlet/SessionErrors.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/action/UpdateEmailAddressAction.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/util/Constants.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/action/UpdateEmailAddressAction.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/util/ParamUtil.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/action/UpdateEmailAddressAction.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/util/PortalUtil.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/action/UpdateEmailAddressAction.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/util/Validator.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/action/UpdateLanguageAction.java",
+      "target": "function:portal-impl/src/com/liferay/portal/action/UpdateLanguageAction.java:execute",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/action/UpdateLanguageAction.java",
+      "target": "function:portal-impl/src/com/liferay/portal/action/UpdateLanguageAction.java:execute",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/action/UpdateLanguageAction.java",
+      "target": "function:portal-impl/src/com/liferay/portal/action/UpdateLanguageAction.java:getRedirect",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/action/UpdateLanguageAction.java",
+      "target": "function:portal-impl/src/com/liferay/portal/action/UpdateLanguageAction.java:getRedirect",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/action/UpdateLanguageAction.java",
+      "target": "function:portal-impl/src/com/liferay/portal/action/UpdateLanguageAction.java:isFriendlyURLResolver",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/action/UpdateLanguageAction.java",
+      "target": "function:portal-impl/src/com/liferay/portal/action/UpdateLanguageAction.java:isGroupFriendlyURL",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/action/UpdateLanguageAction.java",
+      "target": "class:portal-impl/src/com/liferay/portal/action/UpdateLanguageAction.java:UpdateLanguageAction",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/action/UpdateLanguageAction.java",
+      "target": "class:portal-impl/src/com/liferay/portal/action/UpdateLanguageAction.java:UpdateLanguageAction",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/action/UpdateLanguageAction.java",
+      "target": "file:portal-impl/src/com/liferay/portal/struts/Action.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/action/UpdateLanguageAction.java",
+      "target": "file:portal-impl/src/com/liferay/portal/struts/model/ActionForward.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/action/UpdateLanguageAction.java",
+      "target": "file:portal-impl/src/com/liferay/portal/struts/model/ActionMapping.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/action/UpdateLanguageAction.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/exception/NoSuchLayoutException.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/action/UpdateLanguageAction.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/exception/PortalException.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/action/UpdateLanguageAction.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/language/LanguageUtil.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/action/UpdateLanguageAction.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/log/Log.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/action/UpdateLanguageAction.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/log/LogFactoryUtil.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/action/UpdateLanguageAction.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/model/Group.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/action/UpdateLanguageAction.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/model/Layout.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/action/UpdateLanguageAction.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/model/VirtualLayoutConstants.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/action/UpdateLanguageAction.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/portlet/FriendlyURLMapper.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/action/UpdateLanguageAction.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/portlet/FriendlyURLResolverRegistryUtil.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/action/UpdateLanguageAction.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/portlet/LayoutFriendlyURLSeparatorComposite.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/action/UpdateLanguageAction.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/service/PortletLocalServiceUtil.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/action/UpdateLanguageAction.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/service/UserServiceUtil.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/action/UpdateLanguageAction.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/theme/ThemeDisplay.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/action/UpdateLanguageAction.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/util/HashMapBuilder.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/action/UpdateLanguageAction.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/util/LocaleUtil.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/action/UpdateLanguageAction.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/util/ParamUtil.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/action/UpdateLanguageAction.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/util/Portal.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/action/UpdateLanguageAction.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/util/PortalUtil.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/action/UpdateLanguageAction.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/util/PrefsPropsUtil.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/action/UpdateLanguageAction.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/util/PropsKeys.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/action/UpdateLanguageAction.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/util/Validator.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/action/UpdateLanguageAction.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/util/WebKeys.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/action/UpdateLicenseAction.java",
+      "target": "function:portal-impl/src/com/liferay/portal/action/UpdateLicenseAction.java:execute",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/action/UpdateLicenseAction.java",
+      "target": "function:portal-impl/src/com/liferay/portal/action/UpdateLicenseAction.java:execute",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/action/UpdateLicenseAction.java",
+      "target": "function:portal-impl/src/com/liferay/portal/action/UpdateLicenseAction.java:_getLicenseProperties",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/action/UpdateLicenseAction.java",
+      "target": "function:portal-impl/src/com/liferay/portal/action/UpdateLicenseAction.java:_getServerInfo",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/action/UpdateLicenseAction.java",
+      "target": "function:portal-impl/src/com/liferay/portal/action/UpdateLicenseAction.java:_isCSRFTokenValid",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/action/UpdateLicenseAction.java",
+      "target": "function:portal-impl/src/com/liferay/portal/action/UpdateLicenseAction.java:_isOmniAdmin",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/action/UpdateLicenseAction.java",
+      "target": "class:portal-impl/src/com/liferay/portal/action/UpdateLicenseAction.java:UpdateLicenseAction",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/action/UpdateLicenseAction.java",
+      "target": "class:portal-impl/src/com/liferay/portal/action/UpdateLicenseAction.java:UpdateLicenseAction",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/action/UpdateLicenseAction.java",
+      "target": "file:portal-impl/src/com/liferay/portal/struts/Action.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/action/UpdateLicenseAction.java",
+      "target": "file:portal-impl/src/com/liferay/portal/struts/model/ActionForward.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/action/UpdateLicenseAction.java",
+      "target": "file:portal-impl/src/com/liferay/portal/struts/model/ActionMapping.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/action/UpdateLicenseAction.java",
+      "target": "file:portal-impl/src/com/liferay/portal/util/LicenseUtil.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/action/UpdateLicenseAction.java",
+      "target": "file:portal-impl/src/com/liferay/portlet/admin/util/OmniadminUtil.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/action/UpdateLicenseAction.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/exception/PortalException.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/action/UpdateLicenseAction.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/json/JSONArray.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/action/UpdateLicenseAction.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/json/JSONFactoryUtil.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/action/UpdateLicenseAction.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/json/JSONObject.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/action/UpdateLicenseAction.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/log/Log.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/action/UpdateLicenseAction.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/log/LogFactoryUtil.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/action/UpdateLicenseAction.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/model/User.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/action/UpdateLicenseAction.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/security/auth/AuthTokenUtil.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/action/UpdateLicenseAction.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/servlet/HttpMethods.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/action/UpdateLicenseAction.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/servlet/ServletResponseUtil.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/action/UpdateLicenseAction.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/util/Constants.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/action/UpdateLicenseAction.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/util/ContentTypes.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/action/UpdateLicenseAction.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/util/ParamUtil.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/action/UpdateLicenseAction.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/util/PortalUtil.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/action/UpdateLicenseAction.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/util/StringUtil.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    }
+  ]
+}

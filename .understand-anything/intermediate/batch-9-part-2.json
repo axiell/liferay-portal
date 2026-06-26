@@ -1,0 +1,1357 @@
+{
+  "nodes": [
+    {
+      "id": "file:portal-impl/src/com/liferay/portal/sharepoint/SharepointDocumentWorkspaceServlet.java",
+      "type": "file",
+      "name": "SharepointDocumentWorkspaceServlet.java",
+      "filePath": "portal-impl/src/com/liferay/portal/sharepoint/SharepointDocumentWorkspaceServlet.java",
+      "summary": "Servlet handling SharePoint document workspace SOAP requests with method dispatch and response generation.",
+      "tags": [
+        "java",
+        "portal-impl",
+        "sharepoint-integration",
+        "servlet"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "class:portal-impl/src/com/liferay/portal/sharepoint/SharepointDocumentWorkspaceServlet.java:SharepointDocumentWorkspaceServlet",
+      "type": "class",
+      "name": "SharepointDocumentWorkspaceServlet",
+      "filePath": "portal-impl/src/com/liferay/portal/sharepoint/SharepointDocumentWorkspaceServlet.java",
+      "lineRange": [
+        42,
+        343
+      ],
+      "summary": "Class SharepointDocumentWorkspaceServlet with 3 methods handling sharepoint operations.",
+      "tags": [
+        "java",
+        "class",
+        "servlet"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "function:portal-impl/src/com/liferay/portal/sharepoint/SharepointDocumentWorkspaceServlet.java:doPost",
+      "type": "function",
+      "name": "doPost",
+      "filePath": "portal-impl/src/com/liferay/portal/sharepoint/SharepointDocumentWorkspaceServlet.java",
+      "lineRange": [
+        44,
+        63
+      ],
+      "summary": "Method doPost with 2 parameters handling doPost.",
+      "tags": [
+        "java",
+        "method"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:portal-impl/src/com/liferay/portal/sharepoint/SharepointDocumentWorkspaceServlet.java:getDwsMetaDataResponse",
+      "type": "function",
+      "name": "getDwsMetaDataResponse",
+      "filePath": "portal-impl/src/com/liferay/portal/sharepoint/SharepointDocumentWorkspaceServlet.java",
+      "lineRange": [
+        65,
+        101
+      ],
+      "summary": "Method getDwsMetaDataResponse with 2 parameters handling getter for DwsMetaDataResponse.",
+      "tags": [
+        "java",
+        "method",
+        "accessor"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:portal-impl/src/com/liferay/portal/sharepoint/SharepointDocumentWorkspaceServlet.java:getResults",
+      "type": "function",
+      "name": "getResults",
+      "filePath": "portal-impl/src/com/liferay/portal/sharepoint/SharepointDocumentWorkspaceServlet.java",
+      "lineRange": [
+        103,
+        338
+      ],
+      "summary": "Method getResults with 1 parameters handling getter for Results.",
+      "tags": [
+        "java",
+        "method",
+        "accessor"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "file:portal-impl/src/com/liferay/portal/sharepoint/SharepointException.java",
+      "type": "file",
+      "name": "SharepointException.java",
+      "filePath": "portal-impl/src/com/liferay/portal/sharepoint/SharepointException.java",
+      "summary": "Exception class for SharePoint protocol error handling.",
+      "tags": [
+        "java",
+        "portal-impl",
+        "sharepoint-integration",
+        "exception"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:portal-impl/src/com/liferay/portal/sharepoint/SharepointException.java:SharepointException",
+      "type": "class",
+      "name": "SharepointException",
+      "filePath": "portal-impl/src/com/liferay/portal/sharepoint/SharepointException.java",
+      "lineRange": [
+        13,
+        30
+      ],
+      "summary": "Class SharepointException with 4 methods handling sharepoint operations.",
+      "tags": [
+        "java",
+        "class",
+        "exception"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:portal-impl/src/com/liferay/portal/sharepoint/SharepointRequest.java",
+      "type": "file",
+      "name": "SharepointRequest.java",
+      "filePath": "portal-impl/src/com/liferay/portal/sharepoint/SharepointRequest.java",
+      "summary": "Request wrapper parsing SharePoint SOAP requests with field extraction and path resolution.",
+      "tags": [
+        "java",
+        "portal-impl",
+        "sharepoint-integration",
+        "request-handler"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "class:portal-impl/src/com/liferay/portal/sharepoint/SharepointRequest.java:SharepointRequest",
+      "type": "class",
+      "name": "SharepointRequest",
+      "filePath": "portal-impl/src/com/liferay/portal/sharepoint/SharepointRequest.java",
+      "lineRange": [
+        29,
+        170
+      ],
+      "summary": "Class SharepointRequest with 17 methods handling sharepoint operations.",
+      "tags": [
+        "java",
+        "class"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:portal-impl/src/com/liferay/portal/sharepoint/SharepointRequest.java:addParams",
+      "type": "function",
+      "name": "addParams",
+      "filePath": "portal-impl/src/com/liferay/portal/sharepoint/SharepointRequest.java",
+      "lineRange": [
+        101,
+        145
+      ],
+      "summary": "Method addParams with 0 parameters handling addParams.",
+      "tags": [
+        "java",
+        "method"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:portal-impl/src/com/liferay/portal/sharepoint/SharepointStorage.java",
+      "type": "file",
+      "name": "SharepointStorage.java",
+      "filePath": "portal-impl/src/com/liferay/portal/sharepoint/SharepointStorage.java",
+      "summary": "Interface defining SharePoint storage operations including document put, get, delete, move, and checkout.",
+      "tags": [
+        "java",
+        "portal-impl",
+        "sharepoint-integration",
+        "storage"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:portal-impl/src/com/liferay/portal/sharepoint/SharepointStorage.java:SharepointStorage",
+      "type": "class",
+      "name": "SharepointStorage",
+      "filePath": "portal-impl/src/com/liferay/portal/sharepoint/SharepointStorage.java",
+      "lineRange": [
+        17,
+        55
+      ],
+      "summary": "Class SharepointStorage with 11 methods handling sharepoint operations.",
+      "tags": [
+        "java",
+        "class",
+        "interface"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:portal-impl/src/com/liferay/portal/sharepoint/SharepointUtil.java",
+      "type": "file",
+      "name": "SharepointUtil.java",
+      "filePath": "portal-impl/src/com/liferay/portal/sharepoint/SharepointUtil.java",
+      "summary": "Utility class for SharePoint namespace handling, XML QName creation, and storage lookup.",
+      "tags": [
+        "java",
+        "portal-impl",
+        "sharepoint-integration",
+        "utility"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "class:portal-impl/src/com/liferay/portal/sharepoint/SharepointUtil.java:SharepointUtil",
+      "type": "class",
+      "name": "SharepointUtil",
+      "filePath": "portal-impl/src/com/liferay/portal/sharepoint/SharepointUtil.java",
+      "lineRange": [
+        31,
+        178
+      ],
+      "summary": "Class SharepointUtil with 14 methods handling sharepoint operations.",
+      "tags": [
+        "java",
+        "class",
+        "utility"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:portal-impl/src/com/liferay/portal/sharepoint/SharepointUtil.java:getGroupId",
+      "type": "function",
+      "name": "getGroupId",
+      "filePath": "portal-impl/src/com/liferay/portal/sharepoint/SharepointUtil.java",
+      "lineRange": [
+        38,
+        54
+      ],
+      "summary": "Method getGroupId with 1 parameters handling getter for GroupId.",
+      "tags": [
+        "java",
+        "method",
+        "accessor"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:portal-impl/src/com/liferay/portal/sharepoint/SharepointUtil.java:getStorage",
+      "type": "function",
+      "name": "getStorage",
+      "filePath": "portal-impl/src/com/liferay/portal/sharepoint/SharepointUtil.java",
+      "lineRange": [
+        62,
+        88
+      ],
+      "summary": "Method getStorage with 1 parameters handling getter for Storage.",
+      "tags": [
+        "java",
+        "method",
+        "accessor"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:portal-impl/src/com/liferay/portal/sharepoint/SharepointUtil.java:_getStorageClass",
+      "type": "function",
+      "name": "_getStorageClass",
+      "filePath": "portal-impl/src/com/liferay/portal/sharepoint/SharepointUtil.java",
+      "lineRange": [
+        126,
+        136
+      ],
+      "summary": "Method _getStorageClass with 1 parameters handling  getter for StorageClass.",
+      "tags": [
+        "java",
+        "method",
+        "accessor"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:portal-impl/src/com/liferay/portal/sharepoint/SharepointUtil.java:_stripService",
+      "type": "function",
+      "name": "_stripService",
+      "filePath": "portal-impl/src/com/liferay/portal/sharepoint/SharepointUtil.java",
+      "lineRange": [
+        153,
+        170
+      ],
+      "summary": "Method _stripService with 3 parameters handling  stripService.",
+      "tags": [
+        "java",
+        "method",
+        "accessor"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:portal-impl/src/com/liferay/portal/sharepoint/Tree.java",
+      "type": "file",
+      "name": "Tree.java",
+      "filePath": "portal-impl/src/com/liferay/portal/sharepoint/Tree.java",
+      "summary": "Generic tree data structure with parent-child relationships used in SharePoint request parsing.",
+      "tags": [
+        "java",
+        "portal-impl",
+        "sharepoint-integration",
+        "data-structure"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:portal-impl/src/com/liferay/portal/sharepoint/Tree.java:Tree",
+      "type": "class",
+      "name": "Tree",
+      "filePath": "portal-impl/src/com/liferay/portal/sharepoint/Tree.java",
+      "lineRange": [
+        17,
+        46
+      ],
+      "summary": "Class Tree with 2 methods handling sharepoint operations.",
+      "tags": [
+        "java",
+        "class"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:portal-impl/src/com/liferay/portal/sharepoint/Tree.java:parse",
+      "type": "function",
+      "name": "parse",
+      "filePath": "portal-impl/src/com/liferay/portal/sharepoint/Tree.java",
+      "lineRange": [
+        27,
+        42
+      ],
+      "summary": "Method parse with 0 parameters handling parse.",
+      "tags": [
+        "java",
+        "method"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:portal-impl/src/com/liferay/portal/sharepoint/dws/MemberResponseElement.java",
+      "type": "file",
+      "name": "MemberResponseElement.java",
+      "filePath": "portal-impl/src/com/liferay/portal/sharepoint/dws/MemberResponseElement.java",
+      "summary": "DWS member response element representing user membership in a SharePoint document workspace.",
+      "tags": [
+        "java",
+        "portal-impl",
+        "sharepoint-integration",
+        "response-element"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:portal-impl/src/com/liferay/portal/sharepoint/dws/MemberResponseElement.java:MemberResponseElement",
+      "type": "class",
+      "name": "MemberResponseElement",
+      "filePath": "portal-impl/src/com/liferay/portal/sharepoint/dws/MemberResponseElement.java",
+      "lineRange": [
+        14,
+        70
+      ],
+      "summary": "Class MemberResponseElement with 2 methods handling dws operations.",
+      "tags": [
+        "java",
+        "class",
+        "response-element"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:portal-impl/src/com/liferay/portal/sharepoint/dws/MemberResponseElement.java:addElement",
+      "type": "function",
+      "name": "addElement",
+      "filePath": "portal-impl/src/com/liferay/portal/sharepoint/dws/MemberResponseElement.java",
+      "lineRange": [
+        27,
+        60
+      ],
+      "summary": "Method addElement with 1 parameters handling addElement.",
+      "tags": [
+        "java",
+        "method"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:portal-impl/src/com/liferay/portal/sharepoint/dws/ResponseElement.java",
+      "type": "file",
+      "name": "ResponseElement.java",
+      "filePath": "portal-impl/src/com/liferay/portal/sharepoint/dws/ResponseElement.java",
+      "summary": "DWS response element for SharePoint document workspace property rendering.",
+      "tags": [
+        "java",
+        "portal-impl",
+        "sharepoint-integration",
+        "response-element"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:portal-impl/src/com/liferay/portal/sharepoint/dws/RoleResponseElement.java",
+      "type": "file",
+      "name": "RoleResponseElement.java",
+      "filePath": "portal-impl/src/com/liferay/portal/sharepoint/dws/RoleResponseElement.java",
+      "summary": "DWS role response element representing permission roles in a SharePoint document workspace.",
+      "tags": [
+        "java",
+        "portal-impl",
+        "sharepoint-integration",
+        "response-element"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:portal-impl/src/com/liferay/portal/sharepoint/dws/RoleResponseElement.java:RoleResponseElement",
+      "type": "class",
+      "name": "RoleResponseElement",
+      "filePath": "portal-impl/src/com/liferay/portal/sharepoint/dws/RoleResponseElement.java",
+      "lineRange": [
+        14,
+        35
+      ],
+      "summary": "Class RoleResponseElement with 2 methods handling dws operations.",
+      "tags": [
+        "java",
+        "class",
+        "response-element"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:portal-impl/src/com/liferay/portal/sharepoint/methods/BaseMethodImpl.java",
+      "type": "file",
+      "name": "BaseMethodImpl.java",
+      "filePath": "portal-impl/src/com/liferay/portal/sharepoint/methods/BaseMethodImpl.java",
+      "summary": "Abstract base for SharePoint SOAP method handlers with common request processing.",
+      "tags": [
+        "java",
+        "portal-impl",
+        "implementation",
+        "sharepoint-integration",
+        "method-handler"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "class:portal-impl/src/com/liferay/portal/sharepoint/methods/BaseMethodImpl.java:BaseMethodImpl",
+      "type": "class",
+      "name": "BaseMethodImpl",
+      "filePath": "portal-impl/src/com/liferay/portal/sharepoint/methods/BaseMethodImpl.java",
+      "lineRange": [
+        24,
+        96
+      ],
+      "summary": "Class BaseMethodImpl with 5 methods handling methods operations.",
+      "tags": [
+        "java",
+        "class",
+        "base-class",
+        "implementation"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:portal-impl/src/com/liferay/portal/sharepoint/methods/BaseMethodImpl.java:process",
+      "type": "function",
+      "name": "process",
+      "filePath": "portal-impl/src/com/liferay/portal/sharepoint/methods/BaseMethodImpl.java",
+      "lineRange": [
+        31,
+        41
+      ],
+      "summary": "Method process with 1 parameters handling process.",
+      "tags": [
+        "java",
+        "method"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:portal-impl/src/com/liferay/portal/sharepoint/methods/BaseMethodImpl.java:getResponse",
+      "type": "function",
+      "name": "getResponse",
+      "filePath": "portal-impl/src/com/liferay/portal/sharepoint/methods/BaseMethodImpl.java",
+      "lineRange": [
+        55,
+        92
+      ],
+      "summary": "Method getResponse with 2 parameters handling getter for Response.",
+      "tags": [
+        "java",
+        "method",
+        "accessor"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:portal-impl/src/com/liferay/portal/sharepoint/methods/CheckoutMethodImpl.java",
+      "type": "file",
+      "name": "CheckoutMethodImpl.java",
+      "filePath": "portal-impl/src/com/liferay/portal/sharepoint/methods/CheckoutMethodImpl.java",
+      "summary": "SharePoint SOAP method handler for document checkout operations.",
+      "tags": [
+        "java",
+        "portal-impl",
+        "implementation",
+        "sharepoint-integration",
+        "method-handler"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:portal-impl/src/com/liferay/portal/sharepoint/methods/CheckoutMethodImpl.java:CheckoutMethodImpl",
+      "type": "class",
+      "name": "CheckoutMethodImpl",
+      "filePath": "portal-impl/src/com/liferay/portal/sharepoint/methods/CheckoutMethodImpl.java",
+      "lineRange": [
+        18,
+        46
+      ],
+      "summary": "Class CheckoutMethodImpl with 3 methods handling methods operations.",
+      "tags": [
+        "java",
+        "class",
+        "implementation",
+        "method-handler"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:portal-impl/src/com/liferay/portal/sharepoint/methods/CheckoutMethodImpl.java:getElements",
+      "type": "function",
+      "name": "getElements",
+      "filePath": "portal-impl/src/com/liferay/portal/sharepoint/methods/CheckoutMethodImpl.java",
+      "lineRange": [
+        30,
+        42
+      ],
+      "summary": "Method getElements with 1 parameters handling getter for Elements.",
+      "tags": [
+        "java",
+        "method",
+        "accessor"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:portal-impl/src/com/liferay/portal/sharepoint/methods/CreateURLDirectoriesMethodImpl.java",
+      "type": "file",
+      "name": "CreateURLDirectoriesMethodImpl.java",
+      "filePath": "portal-impl/src/com/liferay/portal/sharepoint/methods/CreateURLDirectoriesMethodImpl.java",
+      "summary": "SharePoint SOAP method handler for creating URL directories.",
+      "tags": [
+        "java",
+        "portal-impl",
+        "implementation",
+        "sharepoint-integration",
+        "method-handler"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:portal-impl/src/com/liferay/portal/sharepoint/methods/CreateURLDirectoriesMethodImpl.java:CreateURLDirectoriesMethodImpl",
+      "type": "class",
+      "name": "CreateURLDirectoriesMethodImpl",
+      "filePath": "portal-impl/src/com/liferay/portal/sharepoint/methods/CreateURLDirectoriesMethodImpl.java",
+      "lineRange": [
+        20,
+        56
+      ],
+      "summary": "Class CreateURLDirectoriesMethodImpl with 3 methods handling methods operations.",
+      "tags": [
+        "java",
+        "class",
+        "implementation",
+        "method-handler"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:portal-impl/src/com/liferay/portal/sharepoint/methods/CreateURLDirectoriesMethodImpl.java:getRootPath",
+      "type": "function",
+      "name": "getRootPath",
+      "filePath": "portal-impl/src/com/liferay/portal/sharepoint/methods/CreateURLDirectoriesMethodImpl.java",
+      "lineRange": [
+        27,
+        36
+      ],
+      "summary": "Method getRootPath with 1 parameters handling getter for RootPath.",
+      "tags": [
+        "java",
+        "method",
+        "accessor"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:portal-impl/src/com/liferay/portal/sharepoint/methods/CreateURLDirectoriesMethodImpl.java:getElements",
+      "type": "function",
+      "name": "getElements",
+      "filePath": "portal-impl/src/com/liferay/portal/sharepoint/methods/CreateURLDirectoriesMethodImpl.java",
+      "lineRange": [
+        38,
+        52
+      ],
+      "summary": "Method getElements with 1 parameters handling getter for Elements.",
+      "tags": [
+        "java",
+        "method",
+        "accessor"
+      ],
+      "complexity": "simple"
+    }
+  ],
+  "edges": [
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/sharepoint/SharepointDocumentWorkspaceServlet.java",
+      "target": "class:portal-impl/src/com/liferay/portal/sharepoint/SharepointDocumentWorkspaceServlet.java:SharepointDocumentWorkspaceServlet",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/sharepoint/SharepointDocumentWorkspaceServlet.java",
+      "target": "class:portal-impl/src/com/liferay/portal/sharepoint/SharepointDocumentWorkspaceServlet.java:SharepointDocumentWorkspaceServlet",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/sharepoint/SharepointDocumentWorkspaceServlet.java",
+      "target": "function:portal-impl/src/com/liferay/portal/sharepoint/SharepointDocumentWorkspaceServlet.java:doPost",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/sharepoint/SharepointDocumentWorkspaceServlet.java",
+      "target": "function:portal-impl/src/com/liferay/portal/sharepoint/SharepointDocumentWorkspaceServlet.java:getDwsMetaDataResponse",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/sharepoint/SharepointDocumentWorkspaceServlet.java",
+      "target": "function:portal-impl/src/com/liferay/portal/sharepoint/SharepointDocumentWorkspaceServlet.java:getResults",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/sharepoint/SharepointDocumentWorkspaceServlet.java",
+      "target": "file:portal-impl/src/com/liferay/portal/sharepoint/dws/MemberResponseElement.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/sharepoint/SharepointDocumentWorkspaceServlet.java",
+      "target": "file:portal-impl/src/com/liferay/portal/sharepoint/dws/ResponseElement.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/sharepoint/SharepointDocumentWorkspaceServlet.java",
+      "target": "file:portal-impl/src/com/liferay/portal/sharepoint/dws/RoleResponseElement.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/sharepoint/SharepointDocumentWorkspaceServlet.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/log/Log.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/sharepoint/SharepointDocumentWorkspaceServlet.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/log/LogFactoryUtil.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/sharepoint/SharepointDocumentWorkspaceServlet.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/model/Group.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/sharepoint/SharepointDocumentWorkspaceServlet.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/model/Role.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/sharepoint/SharepointDocumentWorkspaceServlet.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/model/User.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/sharepoint/SharepointDocumentWorkspaceServlet.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/service/GroupServiceUtil.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/sharepoint/SharepointDocumentWorkspaceServlet.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/service/RoleLocalServiceUtil.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/sharepoint/SharepointDocumentWorkspaceServlet.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/service/UserLocalServiceUtil.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/sharepoint/SharepointDocumentWorkspaceServlet.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/servlet/HttpHeaders.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/sharepoint/SharepointDocumentWorkspaceServlet.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/servlet/ServletResponseUtil.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/sharepoint/SharepointDocumentWorkspaceServlet.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/util/ContentTypes.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/sharepoint/SharepointDocumentWorkspaceServlet.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/util/GetterUtil.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/sharepoint/SharepointDocumentWorkspaceServlet.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/util/HttpComponentsUtil.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/sharepoint/SharepointDocumentWorkspaceServlet.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/util/PortalUtil.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/sharepoint/SharepointDocumentWorkspaceServlet.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/util/StringUtil.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/sharepoint/SharepointDocumentWorkspaceServlet.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/util/WebKeys.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/sharepoint/SharepointDocumentWorkspaceServlet.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/xml/Document.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/sharepoint/SharepointDocumentWorkspaceServlet.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/xml/Element.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/sharepoint/SharepointDocumentWorkspaceServlet.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/xml/SAXReaderUtil.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/sharepoint/SharepointException.java",
+      "target": "class:portal-impl/src/com/liferay/portal/sharepoint/SharepointException.java:SharepointException",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/sharepoint/SharepointException.java",
+      "target": "class:portal-impl/src/com/liferay/portal/sharepoint/SharepointException.java:SharepointException",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/sharepoint/SharepointException.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/exception/PortalException.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/sharepoint/SharepointRequest.java",
+      "target": "class:portal-impl/src/com/liferay/portal/sharepoint/SharepointRequest.java:SharepointRequest",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/sharepoint/SharepointRequest.java",
+      "target": "class:portal-impl/src/com/liferay/portal/sharepoint/SharepointRequest.java:SharepointRequest",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/sharepoint/SharepointRequest.java",
+      "target": "function:portal-impl/src/com/liferay/portal/sharepoint/SharepointRequest.java:addParams",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/sharepoint/SharepointRequest.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/io/unsync/UnsyncBufferedReader.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/sharepoint/SharepointRequest.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/io/unsync/UnsyncByteArrayOutputStream.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/sharepoint/SharepointRequest.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/model/User.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/sharepoint/SharepointRequest.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/util/ArrayUtil.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/sharepoint/SharepointRequest.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/util/GetterUtil.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/sharepoint/SharepointRequest.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/util/HttpComponentsUtil.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/sharepoint/SharepointRequest.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/util/StreamUtil.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/sharepoint/SharepointStorage.java",
+      "target": "class:portal-impl/src/com/liferay/portal/sharepoint/SharepointStorage.java:SharepointStorage",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/sharepoint/SharepointStorage.java",
+      "target": "class:portal-impl/src/com/liferay/portal/sharepoint/SharepointStorage.java:SharepointStorage",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/sharepoint/SharepointStorage.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/xml/Element.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/sharepoint/SharepointUtil.java",
+      "target": "class:portal-impl/src/com/liferay/portal/sharepoint/SharepointUtil.java:SharepointUtil",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/sharepoint/SharepointUtil.java",
+      "target": "class:portal-impl/src/com/liferay/portal/sharepoint/SharepointUtil.java:SharepointUtil",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/sharepoint/SharepointUtil.java",
+      "target": "function:portal-impl/src/com/liferay/portal/sharepoint/SharepointUtil.java:getGroupId",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/sharepoint/SharepointUtil.java",
+      "target": "function:portal-impl/src/com/liferay/portal/sharepoint/SharepointUtil.java:getGroupId",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/sharepoint/SharepointUtil.java",
+      "target": "function:portal-impl/src/com/liferay/portal/sharepoint/SharepointUtil.java:getStorage",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/sharepoint/SharepointUtil.java",
+      "target": "function:portal-impl/src/com/liferay/portal/sharepoint/SharepointUtil.java:getStorage",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/sharepoint/SharepointUtil.java",
+      "target": "function:portal-impl/src/com/liferay/portal/sharepoint/SharepointUtil.java:_getStorageClass",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/sharepoint/SharepointUtil.java",
+      "target": "function:portal-impl/src/com/liferay/portal/sharepoint/SharepointUtil.java:_stripService",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/sharepoint/SharepointUtil.java",
+      "target": "file:portal-impl/src/com/liferay/portal/util/PropsUtil.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/sharepoint/SharepointUtil.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/configuration/Filter.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/sharepoint/SharepointUtil.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/log/Log.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/sharepoint/SharepointUtil.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/log/LogFactoryUtil.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/sharepoint/SharepointUtil.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/security/auth/CompanyThreadLocal.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/sharepoint/SharepointUtil.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/util/HttpComponentsUtil.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/sharepoint/SharepointUtil.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/util/InstancePool.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/sharepoint/SharepointUtil.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/util/PropsKeys.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/sharepoint/SharepointUtil.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/util/StringUtil.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/sharepoint/SharepointUtil.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/util/Validator.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/sharepoint/SharepointUtil.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/webdav/WebDAVException.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/sharepoint/SharepointUtil.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/webdav/WebDAVUtil.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/sharepoint/Tree.java",
+      "target": "class:portal-impl/src/com/liferay/portal/sharepoint/Tree.java:Tree",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/sharepoint/Tree.java",
+      "target": "class:portal-impl/src/com/liferay/portal/sharepoint/Tree.java:Tree",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/sharepoint/Tree.java",
+      "target": "function:portal-impl/src/com/liferay/portal/sharepoint/Tree.java:parse",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/sharepoint/Tree.java",
+      "target": "function:portal-impl/src/com/liferay/portal/sharepoint/Tree.java:parse",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/sharepoint/dws/MemberResponseElement.java",
+      "target": "class:portal-impl/src/com/liferay/portal/sharepoint/dws/MemberResponseElement.java:MemberResponseElement",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/sharepoint/dws/MemberResponseElement.java",
+      "target": "class:portal-impl/src/com/liferay/portal/sharepoint/dws/MemberResponseElement.java:MemberResponseElement",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/sharepoint/dws/MemberResponseElement.java",
+      "target": "function:portal-impl/src/com/liferay/portal/sharepoint/dws/MemberResponseElement.java:addElement",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/sharepoint/dws/MemberResponseElement.java",
+      "target": "function:portal-impl/src/com/liferay/portal/sharepoint/dws/MemberResponseElement.java:addElement",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/sharepoint/dws/MemberResponseElement.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/model/User.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/sharepoint/dws/MemberResponseElement.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/xml/Element.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/sharepoint/dws/ResponseElement.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/xml/Element.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/sharepoint/dws/RoleResponseElement.java",
+      "target": "class:portal-impl/src/com/liferay/portal/sharepoint/dws/RoleResponseElement.java:RoleResponseElement",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/sharepoint/dws/RoleResponseElement.java",
+      "target": "class:portal-impl/src/com/liferay/portal/sharepoint/dws/RoleResponseElement.java:RoleResponseElement",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/sharepoint/dws/RoleResponseElement.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/model/Role.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/sharepoint/dws/RoleResponseElement.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/xml/Element.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/sharepoint/methods/BaseMethodImpl.java",
+      "target": "class:portal-impl/src/com/liferay/portal/sharepoint/methods/BaseMethodImpl.java:BaseMethodImpl",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/sharepoint/methods/BaseMethodImpl.java",
+      "target": "class:portal-impl/src/com/liferay/portal/sharepoint/methods/BaseMethodImpl.java:BaseMethodImpl",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/sharepoint/methods/BaseMethodImpl.java",
+      "target": "function:portal-impl/src/com/liferay/portal/sharepoint/methods/BaseMethodImpl.java:process",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/sharepoint/methods/BaseMethodImpl.java",
+      "target": "function:portal-impl/src/com/liferay/portal/sharepoint/methods/BaseMethodImpl.java:process",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/sharepoint/methods/BaseMethodImpl.java",
+      "target": "function:portal-impl/src/com/liferay/portal/sharepoint/methods/BaseMethodImpl.java:getResponse",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/sharepoint/methods/BaseMethodImpl.java",
+      "target": "file:portal-impl/src/com/liferay/portal/sharepoint/Property.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/sharepoint/methods/BaseMethodImpl.java",
+      "target": "file:portal-impl/src/com/liferay/portal/sharepoint/ResponseElement.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/sharepoint/methods/BaseMethodImpl.java",
+      "target": "file:portal-impl/src/com/liferay/portal/sharepoint/SharepointException.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/sharepoint/methods/BaseMethodImpl.java",
+      "target": "file:portal-impl/src/com/liferay/portal/sharepoint/SharepointRequest.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/sharepoint/methods/BaseMethodImpl.java",
+      "target": "file:portal-impl/src/com/liferay/portal/sharepoint/SharepointUtil.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/sharepoint/methods/BaseMethodImpl.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/log/Log.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/sharepoint/methods/BaseMethodImpl.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/log/LogFactoryUtil.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/sharepoint/methods/BaseMethodImpl.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/servlet/ServletResponseUtil.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/sharepoint/methods/CheckoutMethodImpl.java",
+      "target": "class:portal-impl/src/com/liferay/portal/sharepoint/methods/CheckoutMethodImpl.java:CheckoutMethodImpl",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/sharepoint/methods/CheckoutMethodImpl.java",
+      "target": "class:portal-impl/src/com/liferay/portal/sharepoint/methods/CheckoutMethodImpl.java:CheckoutMethodImpl",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/sharepoint/methods/CheckoutMethodImpl.java",
+      "target": "function:portal-impl/src/com/liferay/portal/sharepoint/methods/CheckoutMethodImpl.java:getElements",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/sharepoint/methods/CheckoutMethodImpl.java",
+      "target": "file:portal-impl/src/com/liferay/portal/sharepoint/ResponseElement.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/sharepoint/methods/CheckoutMethodImpl.java",
+      "target": "file:portal-impl/src/com/liferay/portal/sharepoint/SharepointRequest.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/sharepoint/methods/CheckoutMethodImpl.java",
+      "target": "file:portal-impl/src/com/liferay/portal/sharepoint/SharepointStorage.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/sharepoint/methods/CreateURLDirectoriesMethodImpl.java",
+      "target": "class:portal-impl/src/com/liferay/portal/sharepoint/methods/CreateURLDirectoriesMethodImpl.java:CreateURLDirectoriesMethodImpl",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/sharepoint/methods/CreateURLDirectoriesMethodImpl.java",
+      "target": "class:portal-impl/src/com/liferay/portal/sharepoint/methods/CreateURLDirectoriesMethodImpl.java:CreateURLDirectoriesMethodImpl",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/sharepoint/methods/CreateURLDirectoriesMethodImpl.java",
+      "target": "function:portal-impl/src/com/liferay/portal/sharepoint/methods/CreateURLDirectoriesMethodImpl.java:getRootPath",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/sharepoint/methods/CreateURLDirectoriesMethodImpl.java",
+      "target": "function:portal-impl/src/com/liferay/portal/sharepoint/methods/CreateURLDirectoriesMethodImpl.java:getRootPath",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/sharepoint/methods/CreateURLDirectoriesMethodImpl.java",
+      "target": "function:portal-impl/src/com/liferay/portal/sharepoint/methods/CreateURLDirectoriesMethodImpl.java:getElements",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/sharepoint/methods/CreateURLDirectoriesMethodImpl.java",
+      "target": "file:portal-impl/src/com/liferay/portal/sharepoint/Property.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/sharepoint/methods/CreateURLDirectoriesMethodImpl.java",
+      "target": "file:portal-impl/src/com/liferay/portal/sharepoint/ResponseElement.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/sharepoint/methods/CreateURLDirectoriesMethodImpl.java",
+      "target": "file:portal-impl/src/com/liferay/portal/sharepoint/SharepointRequest.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/sharepoint/methods/CreateURLDirectoriesMethodImpl.java",
+      "target": "file:portal-impl/src/com/liferay/portal/sharepoint/SharepointStorage.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    }
+  ]
+}

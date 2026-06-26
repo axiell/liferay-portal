@@ -1,2524 +1,1571 @@
 {
   "nodes": [
     {
-      "id": "file:com/liferay/portal/model/impl/PortletFilterImpl",
+      "id": "file:portal-impl/src/com/liferay/portal/json/data/FileData.java",
       "type": "file",
-      "name": "PortletFilterImpl.java",
-      "filePath": "portal-impl/src/com/liferay/portal/model/impl/PortletFilterImpl.java",
-      "summary": "PortletFilterImpl.java - com.liferay.portal.model.impl.PortletFilterImpl.java",
+      "name": "FileData.java",
+      "filePath": "portal-impl/src/com/liferay/portal/json/data/FileData.java",
+      "summary": "Simple data class representing a file upload with Base64-encoded content, name, and size properties.",
       "tags": [
-        "code",
+        "json",
         "java",
-        "class-definition"
+        "portal-impl"
       ],
-      "complexity": "medium"
+      "complexity": "moderate"
     },
     {
-      "id": "function:com/liferay/portal/model/impl/PortletFilterImpl:PortletFilterImpl",
-      "type": "function",
-      "name": "PortletFilterImpl",
-      "filePath": "portal-impl/src/com/liferay/portal/model/impl/PortletFilterImpl.java",
-      "summary": "PortletFilterImpl() in PortletFilterImpl.java",
-      "tags": [
-        "function"
-      ],
-      "complexity": "low",
-      "startLine": 19,
-      "endLine": 30
-    },
-    {
-      "id": "class:com/liferay/portal/model/impl/PortletFilterImpl:PortletFilterImpl",
+      "id": "class:portal-impl/src/com/liferay/portal/json/data/FileData.java:FileData",
       "type": "class",
-      "name": "PortletFilterImpl",
-      "filePath": "portal-impl/src/com/liferay/portal/model/impl/PortletFilterImpl.java",
-      "summary": "PortletFilterImpl class in PortletFilterImpl.java",
-      "tags": [
-        "class"
+      "name": "FileData",
+      "filePath": "portal-impl/src/com/liferay/portal/json/data/FileData.java",
+      "lineRange": [
+        19,
+        71
       ],
-      "complexity": "high",
-      "methods": [
-        "PortletFilterImpl",
-        "PortletFilterImpl",
-        "getFilterClass",
-        "getFilterName",
-        "getInitParams",
-        "getLifecycles",
-        "getOrdinal",
-        "getPortletApp",
-        "setFilterClass",
-        "setFilterName",
-        "setInitParams",
-        "setLifecycles",
-        "setOrdinal",
-        "setPortletApp"
-      ],
-      "properties": [
-        "_filterClass",
-        "_filterName",
-        "_initParams",
-        "_lifecycles",
-        "_ordinal",
-        "_portletApp"
-      ]
-    },
-    {
-      "id": "file:com/liferay/portal/model/impl/PortletURLListenerImpl",
-      "type": "file",
-      "name": "PortletURLListenerImpl.java",
-      "filePath": "portal-impl/src/com/liferay/portal/model/impl/PortletURLListenerImpl.java",
-      "summary": "PortletURLListenerImpl.java - com.liferay.portal.model.impl.PortletURLListenerImpl.java",
+      "summary": "FileData class with 7 methods.",
       "tags": [
-        "code",
+        "json",
         "java",
-        "class-definition"
+        "portal-impl"
       ],
-      "complexity": "low"
+      "complexity": "moderate"
     },
     {
-      "id": "class:com/liferay/portal/model/impl/PortletURLListenerImpl:PortletURLListenerImpl",
+      "id": "function:portal-impl/src/com/liferay/portal/json/data/FileData.java:FileData",
+      "type": "function",
+      "name": "FileData",
+      "filePath": "portal-impl/src/com/liferay/portal/json/data/FileData.java",
+      "lineRange": [
+        21,
+        39
+      ],
+      "summary": "FileData in FileData.java",
+      "tags": [
+        "method"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:portal-impl/src/com/liferay/portal/json/data/FileData.java:getContent",
+      "type": "function",
+      "name": "getContent",
+      "filePath": "portal-impl/src/com/liferay/portal/json/data/FileData.java",
+      "lineRange": [
+        41,
+        43
+      ],
+      "summary": "getContent in FileData.java",
+      "tags": [
+        "method"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:portal-impl/src/com/liferay/portal/json/data/FileData.java:getName",
+      "type": "function",
+      "name": "getName",
+      "filePath": "portal-impl/src/com/liferay/portal/json/data/FileData.java",
+      "lineRange": [
+        45,
+        47
+      ],
+      "summary": "getName in FileData.java",
+      "tags": [
+        "method"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:portal-impl/src/com/liferay/portal/json/data/FileData.java:getSize",
+      "type": "function",
+      "name": "getSize",
+      "filePath": "portal-impl/src/com/liferay/portal/json/data/FileData.java",
+      "lineRange": [
+        49,
+        51
+      ],
+      "summary": "getSize in FileData.java",
+      "tags": [
+        "method"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:portal-impl/src/com/liferay/portal/json/data/FileData.java:setContent",
+      "type": "function",
+      "name": "setContent",
+      "filePath": "portal-impl/src/com/liferay/portal/json/data/FileData.java",
+      "lineRange": [
+        53,
+        55
+      ],
+      "summary": "setContent in FileData.java",
+      "tags": [
+        "method"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:portal-impl/src/com/liferay/portal/json/data/FileData.java:setName",
+      "type": "function",
+      "name": "setName",
+      "filePath": "portal-impl/src/com/liferay/portal/json/data/FileData.java",
+      "lineRange": [
+        57,
+        59
+      ],
+      "summary": "setName in FileData.java",
+      "tags": [
+        "method"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:portal-impl/src/com/liferay/portal/json/data/FileData.java:setSize",
+      "type": "function",
+      "name": "setSize",
+      "filePath": "portal-impl/src/com/liferay/portal/json/data/FileData.java",
+      "lineRange": [
+        61,
+        63
+      ],
+      "summary": "setSize in FileData.java",
+      "tags": [
+        "method"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:portal-impl/src/com/liferay/portal/json/jabsorb/serializer/EnumSerializer.java",
+      "type": "file",
+      "name": "EnumSerializer.java",
+      "filePath": "portal-impl/src/com/liferay/portal/json/jabsorb/serializer/EnumSerializer.java",
+      "summary": "Custom JSON serializer for Java Enum types using jabsorb with context classloader-aware class resolution.",
+      "tags": [
+        "serialization",
+        "json",
+        "java",
+        "portal-impl"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "class:portal-impl/src/com/liferay/portal/json/jabsorb/serializer/EnumSerializer.java:EnumSerializer",
       "type": "class",
-      "name": "PortletURLListenerImpl",
-      "filePath": "portal-impl/src/com/liferay/portal/model/impl/PortletURLListenerImpl.java",
-      "summary": "PortletURLListenerImpl class in PortletURLListenerImpl.java",
+      "name": "EnumSerializer",
+      "filePath": "portal-impl/src/com/liferay/portal/json/jabsorb/serializer/EnumSerializer.java",
+      "lineRange": [
+        29,
+        193
+      ],
+      "summary": "Serializer for Java Enum types with context classloader-aware class resolution during JSON serialization.",
       "tags": [
-        "class"
+        "serialization",
+        "json",
+        "enum"
       ],
-      "complexity": "medium",
-      "methods": [
-        "PortletURLListenerImpl",
-        "getListenerClass",
-        "getOrdinal",
-        "getPortletApp",
-        "setListenerClass",
-        "setOrdinal",
-        "setPortletApp"
-      ],
-      "properties": [
-        "_listenerClass",
-        "_ordinal",
-        "_portletApp"
-      ]
+      "complexity": "complex"
     },
     {
-      "id": "file:com/liferay/portal/model/impl/PublicRenderParameterImpl",
+      "id": "function:portal-impl/src/com/liferay/portal/json/jabsorb/serializer/EnumSerializer.java:canSerialize",
+      "type": "function",
+      "name": "canSerialize",
+      "filePath": "portal-impl/src/com/liferay/portal/json/jabsorb/serializer/EnumSerializer.java",
+      "lineRange": [
+        31,
+        40
+      ],
+      "summary": "Determines if this serializer can handle the given class or JSON class type.",
+      "tags": [
+        "serialization",
+        "dispatch"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:portal-impl/src/com/liferay/portal/json/jabsorb/serializer/EnumSerializer.java:getJSONClasses",
+      "type": "function",
+      "name": "getJSONClasses",
+      "filePath": "portal-impl/src/com/liferay/portal/json/jabsorb/serializer/EnumSerializer.java",
+      "lineRange": [
+        42,
+        45
+      ],
+      "summary": "getJSONClasses in EnumSerializer.java",
+      "tags": [
+        "method"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:portal-impl/src/com/liferay/portal/json/jabsorb/serializer/EnumSerializer.java:getSerializableClasses",
+      "type": "function",
+      "name": "getSerializableClasses",
+      "filePath": "portal-impl/src/com/liferay/portal/json/jabsorb/serializer/EnumSerializer.java",
+      "lineRange": [
+        47,
+        50
+      ],
+      "summary": "getSerializableClasses in EnumSerializer.java",
+      "tags": [
+        "method"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:portal-impl/src/com/liferay/portal/json/jabsorb/serializer/EnumSerializer.java:marshall",
+      "type": "function",
+      "name": "marshall",
+      "filePath": "portal-impl/src/com/liferay/portal/json/jabsorb/serializer/EnumSerializer.java",
+      "lineRange": [
+        52,
+        90
+      ],
+      "summary": "JSON marshall for enum object serialization.",
+      "tags": [
+        "serialization",
+        "json"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:portal-impl/src/com/liferay/portal/json/jabsorb/serializer/EnumSerializer.java:tryUnmarshall",
+      "type": "function",
+      "name": "tryUnmarshall",
+      "filePath": "portal-impl/src/com/liferay/portal/json/jabsorb/serializer/EnumSerializer.java",
+      "lineRange": [
+        92,
+        110
+      ],
+      "summary": "JSON tryUnmarshall for enum object serialization.",
+      "tags": [
+        "serialization",
+        "json"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:portal-impl/src/com/liferay/portal/json/jabsorb/serializer/EnumSerializer.java:unmarshall",
+      "type": "function",
+      "name": "unmarshall",
+      "filePath": "portal-impl/src/com/liferay/portal/json/jabsorb/serializer/EnumSerializer.java",
+      "lineRange": [
+        112,
+        140
+      ],
+      "summary": "JSON unmarshall for enum object serialization.",
+      "tags": [
+        "serialization",
+        "json"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:portal-impl/src/com/liferay/portal/json/jabsorb/serializer/EnumSerializer.java:_getJavaClass",
+      "type": "function",
+      "name": "_getJavaClass",
+      "filePath": "portal-impl/src/com/liferay/portal/json/jabsorb/serializer/EnumSerializer.java",
+      "lineRange": [
+        142,
+        173
+      ],
+      "summary": "_getJavaClass in EnumSerializer.java",
+      "tags": [
+        "method"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:portal-impl/src/com/liferay/portal/json/jabsorb/serializer/EnumSerializer.java:_getString",
+      "type": "function",
+      "name": "_getString",
+      "filePath": "portal-impl/src/com/liferay/portal/json/jabsorb/serializer/EnumSerializer.java",
+      "lineRange": [
+        175,
+        185
+      ],
+      "summary": "_getString in EnumSerializer.java",
+      "tags": [
+        "method"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:portal-impl/src/com/liferay/portal/json/jabsorb/serializer/LiferayJSONDeserializationWhitelist.java",
       "type": "file",
-      "name": "PublicRenderParameterImpl.java",
-      "filePath": "portal-impl/src/com/liferay/portal/model/impl/PublicRenderParameterImpl.java",
-      "summary": "PublicRenderParameterImpl.java - com.liferay.portal.model.impl.PublicRenderParameterImpl.java",
+      "name": "LiferayJSONDeserializationWhitelist.java",
+      "filePath": "portal-impl/src/com/liferay/portal/json/jabsorb/serializer/LiferayJSONDeserializationWhitelist.java",
+      "summary": "Security whitelist controlling which Java classes can be deserialized via JSON, with thread-safe registration and reference counting.",
       "tags": [
-        "code",
+        "serialization",
+        "json",
         "java",
-        "class-definition"
+        "portal-impl"
       ],
-      "complexity": "low"
+      "complexity": "moderate"
     },
     {
-      "id": "class:com/liferay/portal/model/impl/PublicRenderParameterImpl:PublicRenderParameterImpl",
+      "id": "class:portal-impl/src/com/liferay/portal/json/jabsorb/serializer/LiferayJSONDeserializationWhitelist.java:LiferayJSONDeserializationWhitelist",
       "type": "class",
-      "name": "PublicRenderParameterImpl",
-      "filePath": "portal-impl/src/com/liferay/portal/model/impl/PublicRenderParameterImpl.java",
-      "summary": "PublicRenderParameterImpl class in PublicRenderParameterImpl.java",
+      "name": "LiferayJSONDeserializationWhitelist",
+      "filePath": "portal-impl/src/com/liferay/portal/json/jabsorb/serializer/LiferayJSONDeserializationWhitelist.java",
+      "lineRange": [
+        24,
+        97
+      ],
+      "summary": "Thread-safe deserialization whitelist using reference counting and Closeable pattern.",
       "tags": [
-        "class"
+        "serialization",
+        "security",
+        "whitelist"
       ],
-      "complexity": "medium",
-      "methods": [
-        "PublicRenderParameterImpl",
-        "getIdentifier",
-        "getPortletApp",
-        "getQName",
-        "setIdentifier",
-        "setPortletApp",
-        "setQName"
-      ],
-      "properties": [
-        "_identifier",
-        "_portletApp",
-        "_qName"
-      ]
+      "complexity": "moderate"
     },
     {
-      "id": "file:com/liferay/portal/model/impl/RegionImpl",
+      "id": "function:portal-impl/src/com/liferay/portal/json/jabsorb/serializer/LiferayJSONDeserializationWhitelist.java:LiferayJSONDeserializationWhitelist",
+      "type": "function",
+      "name": "LiferayJSONDeserializationWhitelist",
+      "filePath": "portal-impl/src/com/liferay/portal/json/jabsorb/serializer/LiferayJSONDeserializationWhitelist.java",
+      "lineRange": [
+        26,
+        33
+      ],
+      "summary": "LiferayJSONDeserializationWhitelist in LiferayJSONDeserializationWhitelist.java",
+      "tags": [
+        "method"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:portal-impl/src/com/liferay/portal/json/jabsorb/serializer/LiferayJSONDeserializationWhitelist.java:isWhitelisted",
+      "type": "function",
+      "name": "isWhitelisted",
+      "filePath": "portal-impl/src/com/liferay/portal/json/jabsorb/serializer/LiferayJSONDeserializationWhitelist.java",
+      "lineRange": [
+        35,
+        48
+      ],
+      "summary": "Checks if a class name is in the deserialization whitelist for security validation.",
+      "tags": [
+        "security",
+        "validation"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:portal-impl/src/com/liferay/portal/json/jabsorb/serializer/LiferayJSONDeserializationWhitelist.java:register",
+      "type": "function",
+      "name": "register",
+      "filePath": "portal-impl/src/com/liferay/portal/json/jabsorb/serializer/LiferayJSONDeserializationWhitelist.java",
+      "lineRange": [
+        50,
+        89
+      ],
+      "summary": "Registers class name in whitelist with reference counting and returns Closeable for deregistration.",
+      "tags": [
+        "security",
+        "registration"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:portal-impl/src/com/liferay/portal/json/jabsorb/serializer/LiferayJSONSerializer.java",
       "type": "file",
-      "name": "RegionImpl.java",
-      "filePath": "portal-impl/src/com/liferay/portal/model/impl/RegionImpl.java",
-      "summary": "RegionImpl.java - com.liferay.portal.model.impl.RegionImpl.java",
+      "name": "LiferayJSONSerializer.java",
+      "filePath": "portal-impl/src/com/liferay/portal/json/jabsorb/serializer/LiferayJSONSerializer.java",
+      "summary": "Extended JSON serializer enforcing deserialization whitelist security by validating class hints before lookup.",
       "tags": [
-        "code",
+        "serialization",
+        "json",
         "java",
-        "class-definition",
-        "has-calls"
+        "portal-impl"
       ],
-      "complexity": "low"
+      "complexity": "moderate"
     },
     {
-      "id": "function:com/liferay/portal/model/impl/RegionImpl:getTitle",
-      "type": "function",
-      "name": "getTitle",
-      "filePath": "portal-impl/src/com/liferay/portal/model/impl/RegionImpl.java",
-      "summary": "getTitle() in RegionImpl.java",
-      "tags": [
-        "function"
-      ],
-      "complexity": "low",
-      "startLine": 18,
-      "endLine": 30
-    },
-    {
-      "id": "function:com/liferay/portal/model/impl/RegionImpl:getTitle_2",
-      "type": "function",
-      "name": "getTitle",
-      "filePath": "portal-impl/src/com/liferay/portal/model/impl/RegionImpl.java",
-      "summary": "getTitle() in RegionImpl.java",
-      "tags": [
-        "function"
-      ],
-      "complexity": "low",
-      "startLine": 32,
-      "endLine": 41
-    },
-    {
-      "id": "class:com/liferay/portal/model/impl/RegionImpl:RegionImpl",
+      "id": "class:portal-impl/src/com/liferay/portal/json/jabsorb/serializer/LiferayJSONSerializer.java:LiferayJSONSerializer",
       "type": "class",
-      "name": "RegionImpl",
-      "filePath": "portal-impl/src/com/liferay/portal/model/impl/RegionImpl.java",
-      "summary": "RegionImpl class in RegionImpl.java",
+      "name": "LiferayJSONSerializer",
+      "filePath": "portal-impl/src/com/liferay/portal/json/jabsorb/serializer/LiferayJSONSerializer.java",
+      "lineRange": [
+        25,
+        128
+      ],
+      "summary": "Extended JSON serializer enforcing deserialization whitelist for security.",
       "tags": [
-        "class"
+        "serialization",
+        "json",
+        "security"
       ],
-      "complexity": "low",
-      "methods": [
-        "getTitle",
-        "getTitle",
-        "getTitleCurrentLanguageId",
-        "setTitleCurrentLanguageId"
-      ],
-      "properties": [
-        "_titleCurrentLanguageId"
-      ]
+      "complexity": "moderate"
     },
     {
-      "id": "file:com/liferay/portal/model/impl/RepositoryImpl",
-      "type": "file",
-      "name": "RepositoryImpl.java",
-      "filePath": "portal-impl/src/com/liferay/portal/model/impl/RepositoryImpl.java",
-      "summary": "RepositoryImpl.java - com.liferay.portal.model.impl.RepositoryImpl.java",
-      "tags": [
-        "code",
-        "java",
-        "class-definition",
-        "has-calls"
-      ],
-      "complexity": "low"
-    },
-    {
-      "id": "function:com/liferay/portal/model/impl/RepositoryImpl:getTypeSettingsProperties",
+      "id": "function:portal-impl/src/com/liferay/portal/json/jabsorb/serializer/LiferayJSONSerializer.java:LiferayJSONSerializer",
       "type": "function",
-      "name": "getTypeSettingsProperties",
-      "filePath": "portal-impl/src/com/liferay/portal/model/impl/RepositoryImpl.java",
-      "summary": "getTypeSettingsProperties() in RepositoryImpl.java",
-      "tags": [
-        "function"
+      "name": "LiferayJSONSerializer",
+      "filePath": "portal-impl/src/com/liferay/portal/json/jabsorb/serializer/LiferayJSONSerializer.java",
+      "lineRange": [
+        27,
+        33
       ],
-      "complexity": "low",
-      "startLine": 32,
-      "endLine": 43
+      "summary": "LiferayJSONSerializer in LiferayJSONSerializer.java",
+      "tags": [
+        "method"
+      ],
+      "complexity": "simple"
     },
     {
-      "id": "class:com/liferay/portal/model/impl/RepositoryImpl:RepositoryImpl",
+      "id": "function:portal-impl/src/com/liferay/portal/json/jabsorb/serializer/LiferayJSONSerializer.java:registerSerializer",
+      "type": "function",
+      "name": "registerSerializer",
+      "filePath": "portal-impl/src/com/liferay/portal/json/jabsorb/serializer/LiferayJSONSerializer.java",
+      "lineRange": [
+        35,
+        43
+      ],
+      "summary": "Registers a serializer with the JSON serializer and its class whitelist.",
+      "tags": [
+        "serialization",
+        "registration"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:portal-impl/src/com/liferay/portal/json/jabsorb/serializer/LiferayJSONSerializer.java:getClassFromHint",
+      "type": "function",
+      "name": "getClassFromHint",
+      "filePath": "portal-impl/src/com/liferay/portal/json/jabsorb/serializer/LiferayJSONSerializer.java",
+      "lineRange": [
+        45,
+        110
+      ],
+      "summary": "Resolves Java class from serialized JSON class hint with whitelist validation and classloader resolution.",
+      "tags": [
+        "serialization",
+        "reflection"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:portal-impl/src/com/liferay/portal/json/jabsorb/serializer/LiferaySerializer.java",
+      "type": "file",
+      "name": "LiferaySerializer.java",
+      "filePath": "portal-impl/src/com/liferay/portal/json/jabsorb/serializer/LiferaySerializer.java",
+      "summary": "Core JSON serializer for Liferay portal objects using jabsorb, handling Serializable marshalling/unmarshalling with reflection-based field traversal.",
+      "tags": [
+        "serialization",
+        "json",
+        "java",
+        "portal-impl"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "class:portal-impl/src/com/liferay/portal/json/jabsorb/serializer/LiferaySerializer.java:LiferaySerializer",
       "type": "class",
-      "name": "RepositoryImpl",
-      "filePath": "portal-impl/src/com/liferay/portal/model/impl/RepositoryImpl.java",
-      "summary": "RepositoryImpl class in RepositoryImpl.java",
+      "name": "LiferaySerializer",
+      "filePath": "portal-impl/src/com/liferay/portal/json/jabsorb/serializer/LiferaySerializer.java",
+      "lineRange": [
+        36,
+        465
+      ],
+      "summary": "Core serializer handling Java Serializable object marshalling and unmarshalling via reflection-based field traversal.",
       "tags": [
-        "class"
+        "serialization",
+        "json",
+        "reflection"
       ],
-      "complexity": "low",
-      "methods": [
-        "getStagedModelType",
-        "getTypeSettings",
-        "getTypeSettingsProperties",
-        "setTypeSettings",
-        "setTypeSettingsProperties"
-      ],
-      "properties": [
-        "_typeSettingsUnicodeProperties"
-      ]
+      "complexity": "complex"
     },
     {
-      "id": "file:com/liferay/portal/model/impl/RoleBaseImpl",
-      "type": "file",
-      "name": "RoleBaseImpl.java",
-      "filePath": "portal-impl/src/com/liferay/portal/model/impl/RoleBaseImpl.java",
-      "summary": "RoleBaseImpl.java - com.liferay.portal.model.impl.RoleBaseImpl.java",
-      "tags": [
-        "code",
-        "java",
-        "class-definition",
-        "has-calls"
-      ],
-      "complexity": "low"
-    },
-    {
-      "id": "file:com/liferay/portal/model/impl/SystemEventImpl",
-      "type": "file",
-      "name": "SystemEventImpl.java",
-      "filePath": "portal-impl/src/com/liferay/portal/model/impl/SystemEventImpl.java",
-      "summary": "SystemEventImpl.java - com.liferay.portal.model.impl.SystemEventImpl.java",
-      "tags": [
-        "code",
-        "java",
-        "class-definition",
-        "has-calls"
-      ],
-      "complexity": "low"
-    },
-    {
-      "id": "function:com/liferay/portal/model/impl/SystemEventImpl:getReferrerClassName",
+      "id": "function:portal-impl/src/com/liferay/portal/json/jabsorb/serializer/LiferaySerializer.java:canSerialize",
       "type": "function",
-      "name": "getReferrerClassName",
-      "filePath": "portal-impl/src/com/liferay/portal/model/impl/SystemEventImpl.java",
-      "summary": "getReferrerClassName() in SystemEventImpl.java",
-      "tags": [
-        "function"
+      "name": "canSerialize",
+      "filePath": "portal-impl/src/com/liferay/portal/json/jabsorb/serializer/LiferaySerializer.java",
+      "lineRange": [
+        38,
+        62
       ],
-      "complexity": "low",
-      "startLine": 17,
-      "endLine": 26
+      "summary": "Determines if this serializer can handle the given class or JSON class type.",
+      "tags": [
+        "serialization",
+        "dispatch"
+      ],
+      "complexity": "simple"
     },
     {
-      "id": "function:com/liferay/portal/model/impl/SystemEventImpl:setReferrerClassName",
+      "id": "function:portal-impl/src/com/liferay/portal/json/jabsorb/serializer/LiferaySerializer.java:getJSONClasses",
       "type": "function",
-      "name": "setReferrerClassName",
-      "filePath": "portal-impl/src/com/liferay/portal/model/impl/SystemEventImpl.java",
-      "summary": "setReferrerClassName() in SystemEventImpl.java",
-      "tags": [
-        "function"
+      "name": "getJSONClasses",
+      "filePath": "portal-impl/src/com/liferay/portal/json/jabsorb/serializer/LiferaySerializer.java",
+      "lineRange": [
+        64,
+        67
       ],
-      "complexity": "low",
-      "startLine": 28,
-      "endLine": 37
+      "summary": "getJSONClasses in LiferaySerializer.java",
+      "tags": [
+        "method"
+      ],
+      "complexity": "simple"
     },
     {
-      "id": "class:com/liferay/portal/model/impl/SystemEventImpl:SystemEventImpl",
+      "id": "function:portal-impl/src/com/liferay/portal/json/jabsorb/serializer/LiferaySerializer.java:getSerializableClasses",
+      "type": "function",
+      "name": "getSerializableClasses",
+      "filePath": "portal-impl/src/com/liferay/portal/json/jabsorb/serializer/LiferaySerializer.java",
+      "lineRange": [
+        69,
+        72
+      ],
+      "summary": "getSerializableClasses in LiferaySerializer.java",
+      "tags": [
+        "method"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:portal-impl/src/com/liferay/portal/json/jabsorb/serializer/LiferaySerializer.java:marshall",
+      "type": "function",
+      "name": "marshall",
+      "filePath": "portal-impl/src/com/liferay/portal/json/jabsorb/serializer/LiferaySerializer.java",
+      "lineRange": [
+        74,
+        177
+      ],
+      "summary": "JSON marshall for serializable object serialization.",
+      "tags": [
+        "serialization",
+        "json"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:portal-impl/src/com/liferay/portal/json/jabsorb/serializer/LiferaySerializer.java:tryUnmarshall",
+      "type": "function",
+      "name": "tryUnmarshall",
+      "filePath": "portal-impl/src/com/liferay/portal/json/jabsorb/serializer/LiferaySerializer.java",
+      "lineRange": [
+        179,
+        273
+      ],
+      "summary": "JSON tryUnmarshall for serializable object serialization.",
+      "tags": [
+        "serialization",
+        "json"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:portal-impl/src/com/liferay/portal/json/jabsorb/serializer/LiferaySerializer.java:unmarshall",
+      "type": "function",
+      "name": "unmarshall",
+      "filePath": "portal-impl/src/com/liferay/portal/json/jabsorb/serializer/LiferaySerializer.java",
+      "lineRange": [
+        275,
+        429
+      ],
+      "summary": "JSON unmarshall for serializable object serialization.",
+      "tags": [
+        "serialization",
+        "json"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:portal-impl/src/com/liferay/portal/json/jabsorb/serializer/LiferaySerializer.java:_getSafe",
+      "type": "function",
+      "name": "_getSafe",
+      "filePath": "portal-impl/src/com/liferay/portal/json/jabsorb/serializer/LiferaySerializer.java",
+      "lineRange": [
+        431,
+        454
+      ],
+      "summary": "_getSafe in LiferaySerializer.java",
+      "tags": [
+        "method"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:portal-impl/src/com/liferay/portal/json/jabsorb/serializer/LocaleSerializer.java",
+      "type": "file",
+      "name": "LocaleSerializer.java",
+      "filePath": "portal-impl/src/com/liferay/portal/json/jabsorb/serializer/LocaleSerializer.java",
+      "summary": "Custom JSON serializer for java.util.Locale supporting round-trip marshalling with country/language/variant fields.",
+      "tags": [
+        "serialization",
+        "json",
+        "java",
+        "portal-impl"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "class:portal-impl/src/com/liferay/portal/json/jabsorb/serializer/LocaleSerializer.java:LocaleSerializer",
       "type": "class",
-      "name": "SystemEventImpl",
-      "filePath": "portal-impl/src/com/liferay/portal/model/impl/SystemEventImpl.java",
-      "summary": "SystemEventImpl class in SystemEventImpl.java",
+      "name": "LocaleSerializer",
+      "filePath": "portal-impl/src/com/liferay/portal/json/jabsorb/serializer/LocaleSerializer.java",
+      "lineRange": [
+        25,
+        231
+      ],
+      "summary": "Serializer for java.util.Locale with country/language/variant field serialization.",
       "tags": [
-        "class"
+        "serialization",
+        "json",
+        "localization"
       ],
-      "complexity": "low",
-      "methods": [
-        "getReferrerClassName",
-        "setReferrerClassName"
-      ],
-      "properties": []
+      "complexity": "complex"
     },
     {
-      "id": "file:com/liferay/portal/model/impl/UserGroupBaseImpl",
+      "id": "function:portal-impl/src/com/liferay/portal/json/jabsorb/serializer/LocaleSerializer.java:canSerialize",
+      "type": "function",
+      "name": "canSerialize",
+      "filePath": "portal-impl/src/com/liferay/portal/json/jabsorb/serializer/LocaleSerializer.java",
+      "lineRange": [
+        27,
+        39
+      ],
+      "summary": "Determines if this serializer can handle the given class or JSON class type.",
+      "tags": [
+        "serialization",
+        "dispatch"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:portal-impl/src/com/liferay/portal/json/jabsorb/serializer/LocaleSerializer.java:getJSONClasses",
+      "type": "function",
+      "name": "getJSONClasses",
+      "filePath": "portal-impl/src/com/liferay/portal/json/jabsorb/serializer/LocaleSerializer.java",
+      "lineRange": [
+        41,
+        44
+      ],
+      "summary": "getJSONClasses in LocaleSerializer.java",
+      "tags": [
+        "method"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:portal-impl/src/com/liferay/portal/json/jabsorb/serializer/LocaleSerializer.java:getSerializableClasses",
+      "type": "function",
+      "name": "getSerializableClasses",
+      "filePath": "portal-impl/src/com/liferay/portal/json/jabsorb/serializer/LocaleSerializer.java",
+      "lineRange": [
+        46,
+        49
+      ],
+      "summary": "getSerializableClasses in LocaleSerializer.java",
+      "tags": [
+        "method"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:portal-impl/src/com/liferay/portal/json/jabsorb/serializer/LocaleSerializer.java:marshall",
+      "type": "function",
+      "name": "marshall",
+      "filePath": "portal-impl/src/com/liferay/portal/json/jabsorb/serializer/LocaleSerializer.java",
+      "lineRange": [
+        51,
+        101
+      ],
+      "summary": "JSON marshall for locale object serialization.",
+      "tags": [
+        "serialization",
+        "json"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:portal-impl/src/com/liferay/portal/json/jabsorb/serializer/LocaleSerializer.java:tryUnmarshall",
+      "type": "function",
+      "name": "tryUnmarshall",
+      "filePath": "portal-impl/src/com/liferay/portal/json/jabsorb/serializer/LocaleSerializer.java",
+      "lineRange": [
+        103,
+        120
+      ],
+      "summary": "JSON tryUnmarshall for locale object serialization.",
+      "tags": [
+        "serialization",
+        "json"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:portal-impl/src/com/liferay/portal/json/jabsorb/serializer/LocaleSerializer.java:unmarshall",
+      "type": "function",
+      "name": "unmarshall",
+      "filePath": "portal-impl/src/com/liferay/portal/json/jabsorb/serializer/LocaleSerializer.java",
+      "lineRange": [
+        122,
+        180
+      ],
+      "summary": "JSON unmarshall for locale object serialization.",
+      "tags": [
+        "serialization",
+        "json"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:portal-impl/src/com/liferay/portal/json/jabsorb/serializer/LocaleSerializer.java:getLocaleJSONObject",
+      "type": "function",
+      "name": "getLocaleJSONObject",
+      "filePath": "portal-impl/src/com/liferay/portal/json/jabsorb/serializer/LocaleSerializer.java",
+      "lineRange": [
+        182,
+        222
+      ],
+      "summary": "getLocaleJSONObject in LocaleSerializer.java",
+      "tags": [
+        "method"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:portal-impl/src/com/liferay/portal/language/LiferayResourceBundle.java",
       "type": "file",
-      "name": "UserGroupBaseImpl.java",
-      "filePath": "portal-impl/src/com/liferay/portal/model/impl/UserGroupBaseImpl.java",
-      "summary": "UserGroupBaseImpl.java - com.liferay.portal.model.impl.UserGroupBaseImpl.java",
+      "name": "LiferayResourceBundle.java",
+      "filePath": "portal-impl/src/com/liferay/portal/language/LiferayResourceBundle.java",
+      "summary": "ResourceBundle implementation loading UTF-8 properties with parent delegation and null-safe key handling.",
       "tags": [
-        "code",
+        "localization",
+        "resource-bundle",
         "java",
-        "class-definition",
-        "has-calls"
+        "portal-impl"
       ],
-      "complexity": "low"
+      "complexity": "moderate"
     },
     {
-      "id": "file:com/liferay/portal/model/impl/UserGroupCacheModel",
-      "type": "file",
-      "name": "UserGroupCacheModel.java",
-      "filePath": "portal-impl/src/com/liferay/portal/model/impl/UserGroupCacheModel.java",
-      "summary": "UserGroupCacheModel.java - com.liferay.portal.model.impl.UserGroupCacheModel.java",
-      "tags": [
-        "code",
-        "java",
-        "class-definition",
-        "has-calls"
-      ],
-      "complexity": "medium"
-    },
-    {
-      "id": "function:com/liferay/portal/model/impl/UserGroupCacheModel:equals",
-      "type": "function",
-      "name": "equals",
-      "filePath": "portal-impl/src/com/liferay/portal/model/impl/UserGroupCacheModel.java",
-      "summary": "equals() in UserGroupCacheModel.java",
-      "tags": [
-        "function"
-      ],
-      "complexity": "low",
-      "startLine": 30,
-      "endLine": 49
-    },
-    {
-      "id": "function:com/liferay/portal/model/impl/UserGroupCacheModel:toString",
-      "type": "function",
-      "name": "toString",
-      "filePath": "portal-impl/src/com/liferay/portal/model/impl/UserGroupCacheModel.java",
-      "summary": "toString() in UserGroupCacheModel.java",
-      "tags": [
-        "function"
-      ],
-      "complexity": "low",
-      "startLine": 68,
-      "endLine": 103
-    },
-    {
-      "id": "function:com/liferay/portal/model/impl/UserGroupCacheModel:toEntityModel",
-      "type": "function",
-      "name": "toEntityModel",
-      "filePath": "portal-impl/src/com/liferay/portal/model/impl/UserGroupCacheModel.java",
-      "summary": "toEntityModel() in UserGroupCacheModel.java",
-      "tags": [
-        "function"
-      ],
-      "complexity": "medium",
-      "startLine": 105,
-      "endLine": 172
-    },
-    {
-      "id": "function:com/liferay/portal/model/impl/UserGroupCacheModel:readExternal",
-      "type": "function",
-      "name": "readExternal",
-      "filePath": "portal-impl/src/com/liferay/portal/model/impl/UserGroupCacheModel.java",
-      "summary": "readExternal() in UserGroupCacheModel.java",
-      "tags": [
-        "function"
-      ],
-      "complexity": "low",
-      "startLine": 174,
-      "endLine": 196
-    },
-    {
-      "id": "function:com/liferay/portal/model/impl/UserGroupCacheModel:writeExternal",
-      "type": "function",
-      "name": "writeExternal",
-      "filePath": "portal-impl/src/com/liferay/portal/model/impl/UserGroupCacheModel.java",
-      "summary": "writeExternal() in UserGroupCacheModel.java",
-      "tags": [
-        "function"
-      ],
-      "complexity": "medium",
-      "startLine": 198,
-      "endLine": 251
-    },
-    {
-      "id": "class:com/liferay/portal/model/impl/UserGroupCacheModel:UserGroupCacheModel",
+      "id": "class:portal-impl/src/com/liferay/portal/language/LiferayResourceBundle.java:LiferayResourceBundle",
       "type": "class",
-      "name": "UserGroupCacheModel",
-      "filePath": "portal-impl/src/com/liferay/portal/model/impl/UserGroupCacheModel.java",
-      "summary": "UserGroupCacheModel class in UserGroupCacheModel.java",
+      "name": "LiferayResourceBundle",
+      "filePath": "portal-impl/src/com/liferay/portal/language/LiferayResourceBundle.java",
+      "lineRange": [
+        23,
+        89
+      ],
+      "summary": "UTF-8 ResourceBundle with parent delegation for Liferay language properties.",
       "tags": [
-        "class"
+        "localization",
+        "resource-bundle"
       ],
-      "complexity": "medium",
-      "methods": [
-        "equals",
-        "hashCode",
-        "getMvccVersion",
-        "setMvccVersion",
-        "toString",
-        "toEntityModel",
-        "readExternal",
-        "writeExternal"
-      ],
-      "properties": [
-        "mvccVersion",
-        "ctCollectionId",
-        "uuid",
-        "externalReferenceCode",
-        "userGroupId",
-        "companyId",
-        "userId",
-        "userName",
-        "createDate",
-        "modifiedDate",
-        "parentUserGroupId",
-        "name",
-        "description",
-        "addedByLDAPImport"
-      ]
+      "complexity": "moderate"
     },
     {
-      "id": "file:com/liferay/portal/model/impl/UserGroupGroupRoleImpl",
-      "type": "file",
-      "name": "UserGroupGroupRoleImpl.java",
-      "filePath": "portal-impl/src/com/liferay/portal/model/impl/UserGroupGroupRoleImpl.java",
-      "summary": "UserGroupGroupRoleImpl.java - com.liferay.portal.model.impl.UserGroupGroupRoleImpl.java",
-      "tags": [
-        "code",
-        "java",
-        "class-definition",
-        "has-calls"
-      ],
-      "complexity": "low"
-    },
-    {
-      "id": "function:com/liferay/portal/model/impl/UserGroupGroupRoleImpl:equals",
+      "id": "function:portal-impl/src/com/liferay/portal/language/LiferayResourceBundle.java:LiferayResourceBundle",
       "type": "function",
-      "name": "equals",
-      "filePath": "portal-impl/src/com/liferay/portal/model/impl/UserGroupGroupRoleImpl.java",
-      "summary": "equals() in UserGroupGroupRoleImpl.java",
-      "tags": [
-        "function"
+      "name": "LiferayResourceBundle",
+      "filePath": "portal-impl/src/com/liferay/portal/language/LiferayResourceBundle.java",
+      "lineRange": [
+        25,
+        29
       ],
-      "complexity": "low",
-      "startLine": 24,
-      "endLine": 44
+      "summary": "LiferayResourceBundle in LiferayResourceBundle.java",
+      "tags": [
+        "method"
+      ],
+      "complexity": "simple"
     },
     {
-      "id": "class:com/liferay/portal/model/impl/UserGroupGroupRoleImpl:UserGroupGroupRoleImpl",
-      "type": "class",
-      "name": "UserGroupGroupRoleImpl",
-      "filePath": "portal-impl/src/com/liferay/portal/model/impl/UserGroupGroupRoleImpl.java",
-      "summary": "UserGroupGroupRoleImpl class in UserGroupGroupRoleImpl.java",
-      "tags": [
-        "class"
-      ],
-      "complexity": "low",
-      "methods": [
-        "equals",
-        "getGroup",
-        "getRole",
-        "getUserGroup",
-        "hashCode"
-      ],
-      "properties": []
-    },
-    {
-      "id": "file:com/liferay/portal/model/impl/UserGroupRoleBaseImpl",
-      "type": "file",
-      "name": "UserGroupRoleBaseImpl.java",
-      "filePath": "portal-impl/src/com/liferay/portal/model/impl/UserGroupRoleBaseImpl.java",
-      "summary": "UserGroupRoleBaseImpl.java - com.liferay.portal.model.impl.UserGroupRoleBaseImpl.java",
-      "tags": [
-        "code",
-        "java",
-        "class-definition",
-        "has-calls"
-      ],
-      "complexity": "low"
-    },
-    {
-      "id": "file:com/liferay/portal/model/impl/UserGroupRoleImpl",
-      "type": "file",
-      "name": "UserGroupRoleImpl.java",
-      "filePath": "portal-impl/src/com/liferay/portal/model/impl/UserGroupRoleImpl.java",
-      "summary": "UserGroupRoleImpl.java - com.liferay.portal.model.impl.UserGroupRoleImpl.java",
-      "tags": [
-        "code",
-        "java",
-        "class-definition",
-        "has-calls"
-      ],
-      "complexity": "medium"
-    },
-    {
-      "id": "function:com/liferay/portal/model/impl/UserGroupRoleImpl:equals",
+      "id": "function:portal-impl/src/com/liferay/portal/language/LiferayResourceBundle.java:containsKey",
       "type": "function",
-      "name": "equals",
-      "filePath": "portal-impl/src/com/liferay/portal/model/impl/UserGroupRoleImpl.java",
-      "summary": "equals() in UserGroupRoleImpl.java",
-      "tags": [
-        "function"
+      "name": "containsKey",
+      "filePath": "portal-impl/src/com/liferay/portal/language/LiferayResourceBundle.java",
+      "lineRange": [
+        45,
+        60
       ],
-      "complexity": "low",
-      "startLine": 26,
-      "endLine": 46
+      "summary": "Null-safe key existence check with parent delegation for resource bundles.",
+      "tags": [
+        "localization"
+      ],
+      "complexity": "simple"
     },
     {
-      "id": "function:com/liferay/portal/model/impl/UserGroupRoleImpl:hasOrganizationRole",
+      "id": "function:portal-impl/src/com/liferay/portal/language/LiferayResourceBundle.java:getKeys",
       "type": "function",
-      "name": "hasOrganizationRole",
-      "filePath": "portal-impl/src/com/liferay/portal/model/impl/UserGroupRoleImpl.java",
-      "summary": "hasOrganizationRole() in UserGroupRoleImpl.java",
-      "tags": [
-        "function"
+      "name": "getKeys",
+      "filePath": "portal-impl/src/com/liferay/portal/language/LiferayResourceBundle.java",
+      "lineRange": [
+        62,
+        71
       ],
-      "complexity": "low",
-      "startLine": 72,
-      "endLine": 83
+      "summary": "getKeys in LiferayResourceBundle.java",
+      "tags": [
+        "method"
+      ],
+      "complexity": "simple"
     },
     {
-      "id": "function:com/liferay/portal/model/impl/UserGroupRoleImpl:hasSiteRole",
+      "id": "function:portal-impl/src/com/liferay/portal/language/LiferayResourceBundle.java:handleGetObject",
       "type": "function",
-      "name": "hasSiteRole",
-      "filePath": "portal-impl/src/com/liferay/portal/model/impl/UserGroupRoleImpl.java",
-      "summary": "hasSiteRole() in UserGroupRoleImpl.java",
+      "name": "handleGetObject",
+      "filePath": "portal-impl/src/com/liferay/portal/language/LiferayResourceBundle.java",
+      "lineRange": [
+        73,
+        80
+      ],
+      "summary": "handleGetObject in LiferayResourceBundle.java",
       "tags": [
-        "function"
+        "method"
       ],
-      "complexity": "low",
-      "startLine": 85,
-      "endLine": 104
-    },
-    {
-      "id": "class:com/liferay/portal/model/impl/UserGroupRoleImpl:UserGroupRoleImpl",
-      "type": "class",
-      "name": "UserGroupRoleImpl",
-      "filePath": "portal-impl/src/com/liferay/portal/model/impl/UserGroupRoleImpl.java",
-      "summary": "UserGroupRoleImpl class in UserGroupRoleImpl.java",
-      "tags": [
-        "class"
-      ],
-      "complexity": "medium",
-      "methods": [
-        "equals",
-        "getGroup",
-        "getRole",
-        "getUser",
-        "hashCode",
-        "hasOrganizationRole",
-        "hasSiteRole"
-      ],
-      "properties": [
-        "_log"
-      ]
-    },
-    {
-      "id": "file:com/liferay/portal/model/impl/UserImpl",
-      "type": "file",
-      "name": "UserImpl.java",
-      "filePath": "portal-impl/src/com/liferay/portal/model/impl/UserImpl.java",
-      "summary": "UserImpl.java - com.liferay.portal.model.impl.UserImpl.java",
-      "tags": [
-        "code",
-        "java",
-        "class-definition",
-        "has-calls"
-      ],
-      "complexity": "high"
-    },
-    {
-      "id": "function:com/liferay/portal/model/impl/UserImpl:fetchContact",
-      "type": "function",
-      "name": "fetchContact",
-      "filePath": "portal-impl/src/com/liferay/portal/model/impl/UserImpl.java",
-      "summary": "fetchContact() in UserImpl.java",
-      "tags": [
-        "function"
-      ],
-      "complexity": "low",
-      "startLine": 94,
-      "endLine": 113
-    },
-    {
-      "id": "function:com/liferay/portal/model/impl/UserImpl:fetchPortraitURL",
-      "type": "function",
-      "name": "fetchPortraitURL",
-      "filePath": "portal-impl/src/com/liferay/portal/model/impl/UserImpl.java",
-      "summary": "fetchPortraitURL() in UserImpl.java",
-      "tags": [
-        "function"
-      ],
-      "complexity": "low",
-      "startLine": 115,
-      "endLine": 126
-    },
-    {
-      "id": "function:com/liferay/portal/model/impl/UserImpl:getDisplayEmailAddress",
-      "type": "function",
-      "name": "getDisplayEmailAddress",
-      "filePath": "portal-impl/src/com/liferay/portal/model/impl/UserImpl.java",
-      "summary": "getDisplayEmailAddress() in UserImpl.java",
-      "tags": [
-        "function"
-      ],
-      "complexity": "low",
-      "startLine": 213,
-      "endLine": 225
-    },
-    {
-      "id": "function:com/liferay/portal/model/impl/UserImpl:getDisplayURL",
-      "type": "function",
-      "name": "getDisplayURL",
-      "filePath": "portal-impl/src/com/liferay/portal/model/impl/UserImpl.java",
-      "summary": "getDisplayURL() in UserImpl.java",
-      "tags": [
-        "function"
-      ],
-      "complexity": "low",
-      "startLine": 289,
-      "endLine": 311
-    },
-    {
-      "id": "function:com/liferay/portal/model/impl/UserImpl:getFullName",
-      "type": "function",
-      "name": "getFullName",
-      "filePath": "portal-impl/src/com/liferay/portal/model/impl/UserImpl.java",
-      "summary": "getFullName() in UserImpl.java",
-      "tags": [
-        "function"
-      ],
-      "complexity": "low",
-      "startLine": 351,
-      "endLine": 380
-    },
-    {
-      "id": "function:com/liferay/portal/model/impl/UserImpl:getGroup",
-      "type": "function",
-      "name": "getGroup",
-      "filePath": "portal-impl/src/com/liferay/portal/model/impl/UserImpl.java",
-      "summary": "getGroup() in UserImpl.java",
-      "tags": [
-        "function"
-      ],
-      "complexity": "low",
-      "startLine": 382,
-      "endLine": 399
-    },
-    {
-      "id": "function:com/liferay/portal/model/impl/UserImpl:getGroupId",
-      "type": "function",
-      "name": "getGroupId",
-      "filePath": "portal-impl/src/com/liferay/portal/model/impl/UserImpl.java",
-      "summary": "getGroupId() in UserImpl.java",
-      "tags": [
-        "function"
-      ],
-      "complexity": "low",
-      "startLine": 401,
-      "endLine": 413
-    },
-    {
-      "id": "function:com/liferay/portal/model/impl/UserImpl:getInheritedRoles",
-      "type": "function",
-      "name": "getInheritedRoles",
-      "filePath": "portal-impl/src/com/liferay/portal/model/impl/UserImpl.java",
-      "summary": "getInheritedRoles() in UserImpl.java",
-      "tags": [
-        "function"
-      ],
-      "complexity": "low",
-      "startLine": 434,
-      "endLine": 449
-    },
-    {
-      "id": "function:com/liferay/portal/model/impl/UserImpl:getInheritedSiteGroups",
-      "type": "function",
-      "name": "getInheritedSiteGroups",
-      "filePath": "portal-impl/src/com/liferay/portal/model/impl/UserImpl.java",
-      "summary": "getInheritedSiteGroups() in UserImpl.java",
-      "tags": [
-        "function"
-      ],
-      "complexity": "low",
-      "startLine": 451,
-      "endLine": 460
-    },
-    {
-      "id": "function:com/liferay/portal/model/impl/UserImpl:getInitials",
-      "type": "function",
-      "name": "getInitials",
-      "filePath": "portal-impl/src/com/liferay/portal/model/impl/UserImpl.java",
-      "summary": "getInitials() in UserImpl.java",
-      "tags": [
-        "function"
-      ],
-      "complexity": "low",
-      "startLine": 470,
-      "endLine": 482
-    },
-    {
-      "id": "function:com/liferay/portal/model/impl/UserImpl:getLogin",
-      "type": "function",
-      "name": "getLogin",
-      "filePath": "portal-impl/src/com/liferay/portal/model/impl/UserImpl.java",
-      "summary": "getLogin() in UserImpl.java",
-      "tags": [
-        "function"
-      ],
-      "complexity": "low",
-      "startLine": 489,
-      "endLine": 509
-    },
-    {
-      "id": "function:com/liferay/portal/model/impl/UserImpl:getOrganizationIds",
-      "type": "function",
-      "name": "getOrganizationIds",
-      "filePath": "portal-impl/src/com/liferay/portal/model/impl/UserImpl.java",
-      "summary": "getOrganizationIds() in UserImpl.java",
-      "tags": [
-        "function"
-      ],
-      "complexity": "low",
-      "startLine": 550,
-      "endLine": 560
-    },
-    {
-      "id": "function:com/liferay/portal/model/impl/UserImpl:getOrganizations",
-      "type": "function",
-      "name": "getOrganizations",
-      "filePath": "portal-impl/src/com/liferay/portal/model/impl/UserImpl.java",
-      "summary": "getOrganizations() in UserImpl.java",
-      "tags": [
-        "function"
-      ],
-      "complexity": "low",
-      "startLine": 574,
-      "endLine": 588
-    },
-    {
-      "id": "function:com/liferay/portal/model/impl/UserImpl:getReminderQueryQuestions",
-      "type": "function",
-      "name": "getReminderQueryQuestions",
-      "filePath": "portal-impl/src/com/liferay/portal/model/impl/UserImpl.java",
-      "summary": "getReminderQueryQuestions() in UserImpl.java",
-      "tags": [
-        "function"
-      ],
-      "complexity": "low",
-      "startLine": 655,
-      "endLine": 695
-    },
-    {
-      "id": "function:com/liferay/portal/model/impl/UserImpl:hasCompanyMx",
-      "type": "function",
-      "name": "hasCompanyMx",
-      "filePath": "portal-impl/src/com/liferay/portal/model/impl/UserImpl.java",
-      "summary": "hasCompanyMx() in UserImpl.java",
-      "tags": [
-        "function"
-      ],
-      "complexity": "low",
-      "startLine": 795,
-      "endLine": 805
-    },
-    {
-      "id": "function:com/liferay/portal/model/impl/UserImpl:hasMySites",
-      "type": "function",
-      "name": "hasMySites",
-      "filePath": "portal-impl/src/com/liferay/portal/model/impl/UserImpl.java",
-      "summary": "hasMySites() in UserImpl.java",
-      "tags": [
-        "function"
-      ],
-      "complexity": "low",
-      "startLine": 807,
-      "endLine": 827
-    },
-    {
-      "id": "function:com/liferay/portal/model/impl/UserImpl:hasReminderQuery",
-      "type": "function",
-      "name": "hasReminderQuery",
-      "filePath": "portal-impl/src/com/liferay/portal/model/impl/UserImpl.java",
-      "summary": "hasReminderQuery() in UserImpl.java",
-      "tags": [
-        "function"
-      ],
-      "complexity": "low",
-      "startLine": 844,
-      "endLine": 853
-    },
-    {
-      "id": "function:com/liferay/portal/model/impl/UserImpl:isEmailAddressComplete",
-      "type": "function",
-      "name": "isEmailAddressComplete",
-      "filePath": "portal-impl/src/com/liferay/portal/model/impl/UserImpl.java",
-      "summary": "isEmailAddressComplete() in UserImpl.java",
-      "tags": [
-        "function"
-      ],
-      "complexity": "low",
-      "startLine": 873,
-      "endLine": 887
-    },
-    {
-      "id": "function:com/liferay/portal/model/impl/UserImpl:isEmailAddressVerificationComplete",
-      "type": "function",
-      "name": "isEmailAddressVerificationComplete",
-      "filePath": "portal-impl/src/com/liferay/portal/model/impl/UserImpl.java",
-      "summary": "isEmailAddressVerificationComplete() in UserImpl.java",
-      "tags": [
-        "function"
-      ],
-      "complexity": "low",
-      "startLine": 889,
-      "endLine": 910
-    },
-    {
-      "id": "function:com/liferay/portal/model/impl/UserImpl:isReminderQueryComplete",
-      "type": "function",
-      "name": "isReminderQueryComplete",
-      "filePath": "portal-impl/src/com/liferay/portal/model/impl/UserImpl.java",
-      "summary": "isReminderQueryComplete() in UserImpl.java",
-      "tags": [
-        "function"
-      ],
-      "complexity": "low",
-      "startLine": 954,
-      "endLine": 970
-    },
-    {
-      "id": "function:com/liferay/portal/model/impl/UserImpl:isServiceAccountUser",
-      "type": "function",
-      "name": "isServiceAccountUser",
-      "filePath": "portal-impl/src/com/liferay/portal/model/impl/UserImpl.java",
-      "summary": "isServiceAccountUser() in UserImpl.java",
-      "tags": [
-        "function"
-      ],
-      "complexity": "low",
-      "startLine": 972,
-      "endLine": 981
-    },
-    {
-      "id": "function:com/liferay/portal/model/impl/UserImpl:isSetupComplete",
-      "type": "function",
-      "name": "isSetupComplete",
-      "filePath": "portal-impl/src/com/liferay/portal/model/impl/UserImpl.java",
-      "summary": "isSetupComplete() in UserImpl.java",
-      "tags": [
-        "function"
-      ],
-      "complexity": "low",
-      "startLine": 983,
-      "endLine": 997
-    },
-    {
-      "id": "function:com/liferay/portal/model/impl/UserImpl:isTermsOfUseComplete",
-      "type": "function",
-      "name": "isTermsOfUseComplete",
-      "filePath": "portal-impl/src/com/liferay/portal/model/impl/UserImpl.java",
-      "summary": "isTermsOfUseComplete() in UserImpl.java",
-      "tags": [
-        "function"
-      ],
-      "complexity": "low",
-      "startLine": 999,
-      "endLine": 1014
+      "complexity": "simple"
     }
   ],
   "edges": [
     {
-      "source": "file:com/liferay/portal/model/impl/PortletFilterImpl",
-      "target": "function:com/liferay/portal/model/impl/PortletFilterImpl:PortletFilterImpl",
+      "source": "file:portal-impl/src/com/liferay/portal/json/data/FileData.java",
+      "target": "class:portal-impl/src/com/liferay/portal/json/data/FileData.java:FileData",
       "type": "contains",
       "direction": "forward",
-      "weight": 1.0
+      "weight": 1
     },
     {
-      "source": "file:com/liferay/portal/model/impl/PortletFilterImpl",
-      "target": "class:com/liferay/portal/model/impl/PortletFilterImpl:PortletFilterImpl",
+      "source": "file:portal-impl/src/com/liferay/portal/json/data/FileData.java",
+      "target": "class:portal-impl/src/com/liferay/portal/json/data/FileData.java:FileData",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/json/data/FileData.java",
+      "target": "function:portal-impl/src/com/liferay/portal/json/data/FileData.java:FileData",
       "type": "contains",
       "direction": "forward",
-      "weight": 1.0
+      "weight": 1
     },
     {
-      "source": "file:com/liferay/portal/model/impl/PortletFilterImpl",
-      "target": "file:com/liferay/portal/kernel/model/PortletApp",
-      "type": "imports",
-      "direction": "forward",
-      "weight": 0.7
-    },
-    {
-      "source": "file:com/liferay/portal/model/impl/PortletFilterImpl",
-      "target": "file:com/liferay/portal/kernel/model/PortletFilter",
-      "type": "imports",
-      "direction": "forward",
-      "weight": 0.7
-    },
-    {
-      "source": "file:com/liferay/portal/model/impl/PortletFilterImpl",
-      "target": "function:com/liferay/portal/model/impl/PortletFilterImpl:PortletFilterImpl",
+      "source": "file:portal-impl/src/com/liferay/portal/json/data/FileData.java",
+      "target": "function:portal-impl/src/com/liferay/portal/json/data/FileData.java:FileData",
       "type": "exports",
       "direction": "forward",
       "weight": 0.8
     },
     {
-      "source": "file:com/liferay/portal/model/impl/PortletFilterImpl",
-      "target": "function:com/liferay/portal/model/impl/PortletFilterImpl:PortletFilterImpl",
-      "type": "exports",
-      "direction": "forward",
-      "weight": 0.8
-    },
-    {
-      "source": "file:com/liferay/portal/model/impl/PortletFilterImpl",
-      "target": "function:com/liferay/portal/model/impl/PortletFilterImpl:PortletFilterImpl",
-      "type": "exports",
-      "direction": "forward",
-      "weight": 0.8
-    },
-    {
-      "source": "file:com/liferay/portal/model/impl/PortletURLListenerImpl",
-      "target": "class:com/liferay/portal/model/impl/PortletURLListenerImpl:PortletURLListenerImpl",
+      "source": "file:portal-impl/src/com/liferay/portal/json/data/FileData.java",
+      "target": "function:portal-impl/src/com/liferay/portal/json/data/FileData.java:getContent",
       "type": "contains",
       "direction": "forward",
-      "weight": 1.0
+      "weight": 1
     },
     {
-      "source": "file:com/liferay/portal/model/impl/PortletURLListenerImpl",
-      "target": "file:com/liferay/portal/kernel/model/PortletApp_2",
-      "type": "imports",
-      "direction": "forward",
-      "weight": 0.7
-    },
-    {
-      "source": "file:com/liferay/portal/model/impl/PortletURLListenerImpl",
-      "target": "file:com/liferay/portal/kernel/model/PortletURLListener",
-      "type": "imports",
-      "direction": "forward",
-      "weight": 0.7
-    },
-    {
-      "source": "file:com/liferay/portal/model/impl/PortletURLListenerImpl",
-      "target": "class:com/liferay/portal/model/impl/PortletURLListenerImpl:PortletURLListenerImpl",
+      "source": "file:portal-impl/src/com/liferay/portal/json/data/FileData.java",
+      "target": "function:portal-impl/src/com/liferay/portal/json/data/FileData.java:getContent",
       "type": "exports",
       "direction": "forward",
       "weight": 0.8
     },
     {
-      "source": "file:com/liferay/portal/model/impl/PortletURLListenerImpl",
-      "target": "class:com/liferay/portal/model/impl/PortletURLListenerImpl:PortletURLListenerImpl",
-      "type": "exports",
-      "direction": "forward",
-      "weight": 0.8
-    },
-    {
-      "source": "file:com/liferay/portal/model/impl/PublicRenderParameterImpl",
-      "target": "class:com/liferay/portal/model/impl/PublicRenderParameterImpl:PublicRenderParameterImpl",
+      "source": "file:portal-impl/src/com/liferay/portal/json/data/FileData.java",
+      "target": "function:portal-impl/src/com/liferay/portal/json/data/FileData.java:getName",
       "type": "contains",
       "direction": "forward",
-      "weight": 1.0
+      "weight": 1
     },
     {
-      "source": "file:com/liferay/portal/model/impl/PublicRenderParameterImpl",
-      "target": "file:com/liferay/portal/kernel/model/PortletApp_3",
-      "type": "imports",
-      "direction": "forward",
-      "weight": 0.7
-    },
-    {
-      "source": "file:com/liferay/portal/model/impl/PublicRenderParameterImpl",
-      "target": "file:com/liferay/portal/kernel/model/PublicRenderParameter",
-      "type": "imports",
-      "direction": "forward",
-      "weight": 0.7
-    },
-    {
-      "source": "file:com/liferay/portal/model/impl/PublicRenderParameterImpl",
-      "target": "file:com/liferay/portal/kernel/xml/QName",
-      "type": "imports",
-      "direction": "forward",
-      "weight": 0.7
-    },
-    {
-      "source": "file:com/liferay/portal/model/impl/PublicRenderParameterImpl",
-      "target": "class:com/liferay/portal/model/impl/PublicRenderParameterImpl:PublicRenderParameterImpl",
+      "source": "file:portal-impl/src/com/liferay/portal/json/data/FileData.java",
+      "target": "function:portal-impl/src/com/liferay/portal/json/data/FileData.java:getName",
       "type": "exports",
       "direction": "forward",
       "weight": 0.8
     },
     {
-      "source": "file:com/liferay/portal/model/impl/PublicRenderParameterImpl",
-      "target": "class:com/liferay/portal/model/impl/PublicRenderParameterImpl:PublicRenderParameterImpl",
-      "type": "exports",
-      "direction": "forward",
-      "weight": 0.8
-    },
-    {
-      "source": "file:com/liferay/portal/model/impl/RegionImpl",
-      "target": "function:com/liferay/portal/model/impl/RegionImpl:getTitle",
+      "source": "file:portal-impl/src/com/liferay/portal/json/data/FileData.java",
+      "target": "function:portal-impl/src/com/liferay/portal/json/data/FileData.java:getSize",
       "type": "contains",
       "direction": "forward",
-      "weight": 1.0
+      "weight": 1
     },
     {
-      "source": "file:com/liferay/portal/model/impl/RegionImpl",
-      "target": "function:com/liferay/portal/model/impl/RegionImpl:getTitle_2",
+      "source": "file:portal-impl/src/com/liferay/portal/json/data/FileData.java",
+      "target": "function:portal-impl/src/com/liferay/portal/json/data/FileData.java:getSize",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/json/data/FileData.java",
+      "target": "function:portal-impl/src/com/liferay/portal/json/data/FileData.java:setContent",
       "type": "contains",
       "direction": "forward",
-      "weight": 1.0
+      "weight": 1
     },
     {
-      "source": "file:com/liferay/portal/model/impl/RegionImpl",
-      "target": "class:com/liferay/portal/model/impl/RegionImpl:RegionImpl",
+      "source": "file:portal-impl/src/com/liferay/portal/json/data/FileData.java",
+      "target": "function:portal-impl/src/com/liferay/portal/json/data/FileData.java:setContent",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/json/data/FileData.java",
+      "target": "function:portal-impl/src/com/liferay/portal/json/data/FileData.java:setName",
       "type": "contains",
       "direction": "forward",
-      "weight": 1.0
+      "weight": 1
     },
     {
-      "source": "file:com/liferay/portal/model/impl/RegionImpl",
-      "target": "file:com/liferay/portal/kernel/json/JSON",
-      "type": "imports",
-      "direction": "forward",
-      "weight": 0.7
-    },
-    {
-      "source": "file:com/liferay/portal/model/impl/RegionImpl",
-      "target": "file:com/liferay/portal/kernel/util/LocaleUtil",
-      "type": "imports",
-      "direction": "forward",
-      "weight": 0.7
-    },
-    {
-      "source": "file:com/liferay/portal/model/impl/RegionImpl",
-      "target": "file:com/liferay/portal/kernel/util/Validator",
-      "type": "imports",
-      "direction": "forward",
-      "weight": 0.7
-    },
-    {
-      "source": "file:com/liferay/portal/model/impl/RegionImpl",
-      "target": "function:com/liferay/portal/model/impl/RegionImpl:getTitle",
+      "source": "file:portal-impl/src/com/liferay/portal/json/data/FileData.java",
+      "target": "function:portal-impl/src/com/liferay/portal/json/data/FileData.java:setName",
       "type": "exports",
       "direction": "forward",
       "weight": 0.8
     },
     {
-      "source": "file:com/liferay/portal/model/impl/RegionImpl",
-      "target": "function:com/liferay/portal/model/impl/RegionImpl:getTitle",
-      "type": "exports",
-      "direction": "forward",
-      "weight": 0.8
-    },
-    {
-      "source": "file:com/liferay/portal/model/impl/RegionImpl",
-      "target": "class:com/liferay/portal/model/impl/RegionImpl:RegionImpl",
-      "type": "exports",
-      "direction": "forward",
-      "weight": 0.8
-    },
-    {
-      "source": "file:com/liferay/portal/model/impl/RepositoryImpl",
-      "target": "function:com/liferay/portal/model/impl/RepositoryImpl:getTypeSettingsProperties",
+      "source": "file:portal-impl/src/com/liferay/portal/json/data/FileData.java",
+      "target": "function:portal-impl/src/com/liferay/portal/json/data/FileData.java:setSize",
       "type": "contains",
       "direction": "forward",
-      "weight": 1.0
+      "weight": 1
     },
     {
-      "source": "file:com/liferay/portal/model/impl/RepositoryImpl",
-      "target": "class:com/liferay/portal/model/impl/RepositoryImpl:RepositoryImpl",
+      "source": "file:portal-impl/src/com/liferay/portal/json/data/FileData.java",
+      "target": "function:portal-impl/src/com/liferay/portal/json/data/FileData.java:setSize",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/json/data/FileData.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/log/Log.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/json/data/FileData.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/log/LogFactoryUtil.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/json/data/FileData.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/util/Base64.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/json/data/FileData.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/util/FileUtil.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/json/jabsorb/serializer/EnumSerializer.java",
+      "target": "class:portal-impl/src/com/liferay/portal/json/jabsorb/serializer/EnumSerializer.java:EnumSerializer",
       "type": "contains",
       "direction": "forward",
-      "weight": 1.0
+      "weight": 1
     },
     {
-      "source": "file:com/liferay/portal/model/impl/RepositoryImpl",
-      "target": "file:com/liferay/exportimport/kernel/lar/StagedModelType",
-      "type": "imports",
-      "direction": "forward",
-      "weight": 0.7
-    },
-    {
-      "source": "file:com/liferay/portal/model/impl/RepositoryImpl",
-      "target": "file:com/liferay/portal/kernel/model/Repository",
-      "type": "imports",
-      "direction": "forward",
-      "weight": 0.7
-    },
-    {
-      "source": "file:com/liferay/portal/model/impl/RepositoryImpl",
-      "target": "file:com/liferay/portal/kernel/util/UnicodeProperties",
-      "type": "imports",
-      "direction": "forward",
-      "weight": 0.7
-    },
-    {
-      "source": "file:com/liferay/portal/model/impl/RepositoryImpl",
-      "target": "file:com/liferay/portal/kernel/util/UnicodePropertiesBuilder",
-      "type": "imports",
-      "direction": "forward",
-      "weight": 0.7
-    },
-    {
-      "source": "file:com/liferay/portal/model/impl/RepositoryImpl",
-      "target": "function:com/liferay/portal/model/impl/RepositoryImpl:getTypeSettingsProperties",
+      "source": "file:portal-impl/src/com/liferay/portal/json/jabsorb/serializer/EnumSerializer.java",
+      "target": "class:portal-impl/src/com/liferay/portal/json/jabsorb/serializer/EnumSerializer.java:EnumSerializer",
       "type": "exports",
       "direction": "forward",
       "weight": 0.8
     },
     {
-      "source": "file:com/liferay/portal/model/impl/RepositoryImpl",
-      "target": "class:com/liferay/portal/model/impl/RepositoryImpl:RepositoryImpl",
-      "type": "exports",
-      "direction": "forward",
-      "weight": 0.8
-    },
-    {
-      "source": "file:com/liferay/portal/model/impl/RoleBaseImpl",
-      "target": "file:com/liferay/portal/kernel/model/Role",
-      "type": "imports",
-      "direction": "forward",
-      "weight": 0.7
-    },
-    {
-      "source": "file:com/liferay/portal/model/impl/RoleBaseImpl",
-      "target": "file:com/liferay/portal/kernel/service/RoleLocalServiceUtil",
-      "type": "imports",
-      "direction": "forward",
-      "weight": 0.7
-    },
-    {
-      "source": "file:com/liferay/portal/model/impl/SystemEventImpl",
-      "target": "function:com/liferay/portal/model/impl/SystemEventImpl:getReferrerClassName",
+      "source": "file:portal-impl/src/com/liferay/portal/json/jabsorb/serializer/EnumSerializer.java",
+      "target": "function:portal-impl/src/com/liferay/portal/json/jabsorb/serializer/EnumSerializer.java:canSerialize",
       "type": "contains",
       "direction": "forward",
-      "weight": 1.0
+      "weight": 1
     },
     {
-      "source": "file:com/liferay/portal/model/impl/SystemEventImpl",
-      "target": "function:com/liferay/portal/model/impl/SystemEventImpl:setReferrerClassName",
+      "source": "file:portal-impl/src/com/liferay/portal/json/jabsorb/serializer/EnumSerializer.java",
+      "target": "function:portal-impl/src/com/liferay/portal/json/jabsorb/serializer/EnumSerializer.java:canSerialize",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/json/jabsorb/serializer/EnumSerializer.java",
+      "target": "function:portal-impl/src/com/liferay/portal/json/jabsorb/serializer/EnumSerializer.java:getJSONClasses",
       "type": "contains",
       "direction": "forward",
-      "weight": 1.0
+      "weight": 1
     },
     {
-      "source": "file:com/liferay/portal/model/impl/SystemEventImpl",
-      "target": "class:com/liferay/portal/model/impl/SystemEventImpl:SystemEventImpl",
+      "source": "file:portal-impl/src/com/liferay/portal/json/jabsorb/serializer/EnumSerializer.java",
+      "target": "function:portal-impl/src/com/liferay/portal/json/jabsorb/serializer/EnumSerializer.java:getJSONClasses",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/json/jabsorb/serializer/EnumSerializer.java",
+      "target": "function:portal-impl/src/com/liferay/portal/json/jabsorb/serializer/EnumSerializer.java:getSerializableClasses",
       "type": "contains",
       "direction": "forward",
-      "weight": 1.0
+      "weight": 1
     },
     {
-      "source": "file:com/liferay/portal/model/impl/SystemEventImpl",
-      "target": "file:com/liferay/portal/kernel/util/PortalUtil",
-      "type": "imports",
-      "direction": "forward",
-      "weight": 0.7
-    },
-    {
-      "source": "file:com/liferay/portal/model/impl/SystemEventImpl",
-      "target": "file:com/liferay/portal/kernel/util/Validator_2",
-      "type": "imports",
-      "direction": "forward",
-      "weight": 0.7
-    },
-    {
-      "source": "file:com/liferay/portal/model/impl/SystemEventImpl",
-      "target": "function:com/liferay/portal/model/impl/SystemEventImpl:getReferrerClassName",
+      "source": "file:portal-impl/src/com/liferay/portal/json/jabsorb/serializer/EnumSerializer.java",
+      "target": "function:portal-impl/src/com/liferay/portal/json/jabsorb/serializer/EnumSerializer.java:getSerializableClasses",
       "type": "exports",
       "direction": "forward",
       "weight": 0.8
     },
     {
-      "source": "file:com/liferay/portal/model/impl/SystemEventImpl",
-      "target": "function:com/liferay/portal/model/impl/SystemEventImpl:setReferrerClassName",
-      "type": "exports",
-      "direction": "forward",
-      "weight": 0.8
-    },
-    {
-      "source": "file:com/liferay/portal/model/impl/SystemEventImpl",
-      "target": "class:com/liferay/portal/model/impl/SystemEventImpl:SystemEventImpl",
-      "type": "exports",
-      "direction": "forward",
-      "weight": 0.8
-    },
-    {
-      "source": "file:com/liferay/portal/model/impl/UserGroupBaseImpl",
-      "target": "file:com/liferay/portal/kernel/model/UserGroup",
-      "type": "imports",
-      "direction": "forward",
-      "weight": 0.7
-    },
-    {
-      "source": "file:com/liferay/portal/model/impl/UserGroupBaseImpl",
-      "target": "file:com/liferay/portal/kernel/service/UserGroupLocalServiceUtil",
-      "type": "imports",
-      "direction": "forward",
-      "weight": 0.7
-    },
-    {
-      "source": "file:com/liferay/portal/model/impl/UserGroupCacheModel",
-      "target": "function:com/liferay/portal/model/impl/UserGroupCacheModel:equals",
+      "source": "file:portal-impl/src/com/liferay/portal/json/jabsorb/serializer/EnumSerializer.java",
+      "target": "function:portal-impl/src/com/liferay/portal/json/jabsorb/serializer/EnumSerializer.java:marshall",
       "type": "contains",
       "direction": "forward",
-      "weight": 1.0
+      "weight": 1
     },
     {
-      "source": "file:com/liferay/portal/model/impl/UserGroupCacheModel",
-      "target": "function:com/liferay/portal/model/impl/UserGroupCacheModel:toString",
+      "source": "file:portal-impl/src/com/liferay/portal/json/jabsorb/serializer/EnumSerializer.java",
+      "target": "function:portal-impl/src/com/liferay/portal/json/jabsorb/serializer/EnumSerializer.java:marshall",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/json/jabsorb/serializer/EnumSerializer.java",
+      "target": "function:portal-impl/src/com/liferay/portal/json/jabsorb/serializer/EnumSerializer.java:tryUnmarshall",
       "type": "contains",
       "direction": "forward",
-      "weight": 1.0
+      "weight": 1
     },
     {
-      "source": "file:com/liferay/portal/model/impl/UserGroupCacheModel",
-      "target": "function:com/liferay/portal/model/impl/UserGroupCacheModel:toEntityModel",
+      "source": "file:portal-impl/src/com/liferay/portal/json/jabsorb/serializer/EnumSerializer.java",
+      "target": "function:portal-impl/src/com/liferay/portal/json/jabsorb/serializer/EnumSerializer.java:tryUnmarshall",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/json/jabsorb/serializer/EnumSerializer.java",
+      "target": "function:portal-impl/src/com/liferay/portal/json/jabsorb/serializer/EnumSerializer.java:unmarshall",
       "type": "contains",
       "direction": "forward",
-      "weight": 1.0
+      "weight": 1
     },
     {
-      "source": "file:com/liferay/portal/model/impl/UserGroupCacheModel",
-      "target": "function:com/liferay/portal/model/impl/UserGroupCacheModel:readExternal",
+      "source": "file:portal-impl/src/com/liferay/portal/json/jabsorb/serializer/EnumSerializer.java",
+      "target": "function:portal-impl/src/com/liferay/portal/json/jabsorb/serializer/EnumSerializer.java:unmarshall",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/json/jabsorb/serializer/EnumSerializer.java",
+      "target": "function:portal-impl/src/com/liferay/portal/json/jabsorb/serializer/EnumSerializer.java:_getJavaClass",
       "type": "contains",
       "direction": "forward",
-      "weight": 1.0
+      "weight": 1
     },
     {
-      "source": "file:com/liferay/portal/model/impl/UserGroupCacheModel",
-      "target": "function:com/liferay/portal/model/impl/UserGroupCacheModel:writeExternal",
+      "source": "file:portal-impl/src/com/liferay/portal/json/jabsorb/serializer/EnumSerializer.java",
+      "target": "function:portal-impl/src/com/liferay/portal/json/jabsorb/serializer/EnumSerializer.java:_getString",
       "type": "contains",
       "direction": "forward",
-      "weight": 1.0
+      "weight": 1
     },
     {
-      "source": "file:com/liferay/portal/model/impl/UserGroupCacheModel",
-      "target": "class:com/liferay/portal/model/impl/UserGroupCacheModel:UserGroupCacheModel",
+      "source": "file:portal-impl/src/com/liferay/portal/json/jabsorb/serializer/EnumSerializer.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/log/Log.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/json/jabsorb/serializer/EnumSerializer.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/log/LogFactoryUtil.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/json/jabsorb/serializer/EnumSerializer.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/util/Validator.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/json/jabsorb/serializer/LiferayJSONDeserializationWhitelist.java",
+      "target": "class:portal-impl/src/com/liferay/portal/json/jabsorb/serializer/LiferayJSONDeserializationWhitelist.java:LiferayJSONDeserializationWhitelist",
       "type": "contains",
       "direction": "forward",
-      "weight": 1.0
+      "weight": 1
     },
     {
-      "source": "file:com/liferay/portal/model/impl/UserGroupCacheModel",
-      "target": "file:com/liferay/portal/kernel/model/CacheModel",
-      "type": "imports",
-      "direction": "forward",
-      "weight": 0.7
-    },
-    {
-      "source": "file:com/liferay/portal/model/impl/UserGroupCacheModel",
-      "target": "file:com/liferay/portal/kernel/model/MVCCModel",
-      "type": "imports",
-      "direction": "forward",
-      "weight": 0.7
-    },
-    {
-      "source": "file:com/liferay/portal/model/impl/UserGroupCacheModel",
-      "target": "file:com/liferay/portal/kernel/model/UserGroup_2",
-      "type": "imports",
-      "direction": "forward",
-      "weight": 0.7
-    },
-    {
-      "source": "file:com/liferay/portal/model/impl/UserGroupCacheModel",
-      "target": "function:com/liferay/portal/model/impl/UserGroupCacheModel:equals",
+      "source": "file:portal-impl/src/com/liferay/portal/json/jabsorb/serializer/LiferayJSONDeserializationWhitelist.java",
+      "target": "class:portal-impl/src/com/liferay/portal/json/jabsorb/serializer/LiferayJSONDeserializationWhitelist.java:LiferayJSONDeserializationWhitelist",
       "type": "exports",
       "direction": "forward",
       "weight": 0.8
     },
     {
-      "source": "file:com/liferay/portal/model/impl/UserGroupCacheModel",
-      "target": "function:com/liferay/portal/model/impl/UserGroupCacheModel:toString",
-      "type": "exports",
-      "direction": "forward",
-      "weight": 0.8
-    },
-    {
-      "source": "file:com/liferay/portal/model/impl/UserGroupCacheModel",
-      "target": "function:com/liferay/portal/model/impl/UserGroupCacheModel:toEntityModel",
-      "type": "exports",
-      "direction": "forward",
-      "weight": 0.8
-    },
-    {
-      "source": "file:com/liferay/portal/model/impl/UserGroupCacheModel",
-      "target": "function:com/liferay/portal/model/impl/UserGroupCacheModel:readExternal",
-      "type": "exports",
-      "direction": "forward",
-      "weight": 0.8
-    },
-    {
-      "source": "file:com/liferay/portal/model/impl/UserGroupCacheModel",
-      "target": "function:com/liferay/portal/model/impl/UserGroupCacheModel:writeExternal",
-      "type": "exports",
-      "direction": "forward",
-      "weight": 0.8
-    },
-    {
-      "source": "file:com/liferay/portal/model/impl/UserGroupCacheModel",
-      "target": "class:com/liferay/portal/model/impl/UserGroupCacheModel:UserGroupCacheModel",
-      "type": "exports",
-      "direction": "forward",
-      "weight": 0.8
-    },
-    {
-      "source": "file:com/liferay/portal/model/impl/UserGroupGroupRoleImpl",
-      "target": "function:com/liferay/portal/model/impl/UserGroupGroupRoleImpl:equals",
+      "source": "file:portal-impl/src/com/liferay/portal/json/jabsorb/serializer/LiferayJSONDeserializationWhitelist.java",
+      "target": "function:portal-impl/src/com/liferay/portal/json/jabsorb/serializer/LiferayJSONDeserializationWhitelist.java:LiferayJSONDeserializationWhitelist",
       "type": "contains",
       "direction": "forward",
-      "weight": 1.0
+      "weight": 1
     },
     {
-      "source": "file:com/liferay/portal/model/impl/UserGroupGroupRoleImpl",
-      "target": "class:com/liferay/portal/model/impl/UserGroupGroupRoleImpl:UserGroupGroupRoleImpl",
+      "source": "file:portal-impl/src/com/liferay/portal/json/jabsorb/serializer/LiferayJSONDeserializationWhitelist.java",
+      "target": "function:portal-impl/src/com/liferay/portal/json/jabsorb/serializer/LiferayJSONDeserializationWhitelist.java:LiferayJSONDeserializationWhitelist",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/json/jabsorb/serializer/LiferayJSONDeserializationWhitelist.java",
+      "target": "function:portal-impl/src/com/liferay/portal/json/jabsorb/serializer/LiferayJSONDeserializationWhitelist.java:isWhitelisted",
       "type": "contains",
       "direction": "forward",
-      "weight": 1.0
+      "weight": 1
     },
     {
-      "source": "file:com/liferay/portal/model/impl/UserGroupGroupRoleImpl",
-      "target": "file:com/liferay/portal/kernel/exception/PortalException",
-      "type": "imports",
-      "direction": "forward",
-      "weight": 0.7
-    },
-    {
-      "source": "file:com/liferay/portal/model/impl/UserGroupGroupRoleImpl",
-      "target": "file:com/liferay/portal/kernel/model/Group",
-      "type": "imports",
-      "direction": "forward",
-      "weight": 0.7
-    },
-    {
-      "source": "file:com/liferay/portal/model/impl/UserGroupGroupRoleImpl",
-      "target": "file:com/liferay/portal/kernel/model/Role_2",
-      "type": "imports",
-      "direction": "forward",
-      "weight": 0.7
-    },
-    {
-      "source": "file:com/liferay/portal/model/impl/UserGroupGroupRoleImpl",
-      "target": "file:com/liferay/portal/kernel/model/UserGroup_3",
-      "type": "imports",
-      "direction": "forward",
-      "weight": 0.7
-    },
-    {
-      "source": "file:com/liferay/portal/model/impl/UserGroupGroupRoleImpl",
-      "target": "file:com/liferay/portal/kernel/model/UserGroupGroupRole",
-      "type": "imports",
-      "direction": "forward",
-      "weight": 0.7
-    },
-    {
-      "source": "file:com/liferay/portal/model/impl/UserGroupGroupRoleImpl",
-      "target": "file:com/liferay/portal/kernel/service/GroupLocalServiceUtil",
-      "type": "imports",
-      "direction": "forward",
-      "weight": 0.7
-    },
-    {
-      "source": "file:com/liferay/portal/model/impl/UserGroupGroupRoleImpl",
-      "target": "file:com/liferay/portal/kernel/service/RoleLocalServiceUtil_2",
-      "type": "imports",
-      "direction": "forward",
-      "weight": 0.7
-    },
-    {
-      "source": "file:com/liferay/portal/model/impl/UserGroupGroupRoleImpl",
-      "target": "file:com/liferay/portal/kernel/service/UserGroupLocalServiceUtil_2",
-      "type": "imports",
-      "direction": "forward",
-      "weight": 0.7
-    },
-    {
-      "source": "file:com/liferay/portal/model/impl/UserGroupGroupRoleImpl",
-      "target": "function:com/liferay/portal/model/impl/UserGroupGroupRoleImpl:equals",
+      "source": "file:portal-impl/src/com/liferay/portal/json/jabsorb/serializer/LiferayJSONDeserializationWhitelist.java",
+      "target": "function:portal-impl/src/com/liferay/portal/json/jabsorb/serializer/LiferayJSONDeserializationWhitelist.java:isWhitelisted",
       "type": "exports",
       "direction": "forward",
       "weight": 0.8
     },
     {
-      "source": "file:com/liferay/portal/model/impl/UserGroupGroupRoleImpl",
-      "target": "class:com/liferay/portal/model/impl/UserGroupGroupRoleImpl:UserGroupGroupRoleImpl",
-      "type": "exports",
-      "direction": "forward",
-      "weight": 0.8
-    },
-    {
-      "source": "file:com/liferay/portal/model/impl/UserGroupRoleBaseImpl",
-      "target": "file:com/liferay/portal/kernel/model/UserGroupRole",
-      "type": "imports",
-      "direction": "forward",
-      "weight": 0.7
-    },
-    {
-      "source": "file:com/liferay/portal/model/impl/UserGroupRoleBaseImpl",
-      "target": "file:com/liferay/portal/kernel/service/UserGroupRoleLocalServiceUtil",
-      "type": "imports",
-      "direction": "forward",
-      "weight": 0.7
-    },
-    {
-      "source": "file:com/liferay/portal/model/impl/UserGroupRoleImpl",
-      "target": "function:com/liferay/portal/model/impl/UserGroupRoleImpl:equals",
+      "source": "file:portal-impl/src/com/liferay/portal/json/jabsorb/serializer/LiferayJSONDeserializationWhitelist.java",
+      "target": "function:portal-impl/src/com/liferay/portal/json/jabsorb/serializer/LiferayJSONDeserializationWhitelist.java:register",
       "type": "contains",
       "direction": "forward",
-      "weight": 1.0
+      "weight": 1
     },
     {
-      "source": "file:com/liferay/portal/model/impl/UserGroupRoleImpl",
-      "target": "function:com/liferay/portal/model/impl/UserGroupRoleImpl:hasOrganizationRole",
+      "source": "file:portal-impl/src/com/liferay/portal/json/jabsorb/serializer/LiferayJSONDeserializationWhitelist.java",
+      "target": "function:portal-impl/src/com/liferay/portal/json/jabsorb/serializer/LiferayJSONDeserializationWhitelist.java:register",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/json/jabsorb/serializer/LiferayJSONDeserializationWhitelist.java",
+      "target": "file:portal-impl/src/com/liferay/portal/util/PropsUtil.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/json/jabsorb/serializer/LiferayJSONDeserializationWhitelist.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/log/Log.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/json/jabsorb/serializer/LiferayJSONDeserializationWhitelist.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/log/LogFactoryUtil.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/json/jabsorb/serializer/LiferayJSONDeserializationWhitelist.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/util/PropsKeys.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/json/jabsorb/serializer/LiferayJSONSerializer.java",
+      "target": "class:portal-impl/src/com/liferay/portal/json/jabsorb/serializer/LiferayJSONSerializer.java:LiferayJSONSerializer",
       "type": "contains",
       "direction": "forward",
-      "weight": 1.0
+      "weight": 1
     },
     {
-      "source": "file:com/liferay/portal/model/impl/UserGroupRoleImpl",
-      "target": "function:com/liferay/portal/model/impl/UserGroupRoleImpl:hasSiteRole",
+      "source": "file:portal-impl/src/com/liferay/portal/json/jabsorb/serializer/LiferayJSONSerializer.java",
+      "target": "class:portal-impl/src/com/liferay/portal/json/jabsorb/serializer/LiferayJSONSerializer.java:LiferayJSONSerializer",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/json/jabsorb/serializer/LiferayJSONSerializer.java",
+      "target": "function:portal-impl/src/com/liferay/portal/json/jabsorb/serializer/LiferayJSONSerializer.java:LiferayJSONSerializer",
       "type": "contains",
       "direction": "forward",
-      "weight": 1.0
+      "weight": 1
     },
     {
-      "source": "file:com/liferay/portal/model/impl/UserGroupRoleImpl",
-      "target": "class:com/liferay/portal/model/impl/UserGroupRoleImpl:UserGroupRoleImpl",
+      "source": "file:portal-impl/src/com/liferay/portal/json/jabsorb/serializer/LiferayJSONSerializer.java",
+      "target": "function:portal-impl/src/com/liferay/portal/json/jabsorb/serializer/LiferayJSONSerializer.java:LiferayJSONSerializer",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/json/jabsorb/serializer/LiferayJSONSerializer.java",
+      "target": "function:portal-impl/src/com/liferay/portal/json/jabsorb/serializer/LiferayJSONSerializer.java:registerSerializer",
       "type": "contains",
       "direction": "forward",
-      "weight": 1.0
+      "weight": 1
     },
     {
-      "source": "file:com/liferay/portal/model/impl/UserGroupRoleImpl",
-      "target": "file:com/liferay/portal/kernel/exception/PortalException_2",
-      "type": "imports",
-      "direction": "forward",
-      "weight": 0.7
-    },
-    {
-      "source": "file:com/liferay/portal/model/impl/UserGroupRoleImpl",
-      "target": "file:com/liferay/portal/kernel/log/Log",
-      "type": "imports",
-      "direction": "forward",
-      "weight": 0.7
-    },
-    {
-      "source": "file:com/liferay/portal/model/impl/UserGroupRoleImpl",
-      "target": "file:com/liferay/portal/kernel/log/LogFactoryUtil",
-      "type": "imports",
-      "direction": "forward",
-      "weight": 0.7
-    },
-    {
-      "source": "file:com/liferay/portal/model/impl/UserGroupRoleImpl",
-      "target": "file:com/liferay/portal/kernel/model/Group_2",
-      "type": "imports",
-      "direction": "forward",
-      "weight": 0.7
-    },
-    {
-      "source": "file:com/liferay/portal/model/impl/UserGroupRoleImpl",
-      "target": "file:com/liferay/portal/kernel/model/Role_3",
-      "type": "imports",
-      "direction": "forward",
-      "weight": 0.7
-    },
-    {
-      "source": "file:com/liferay/portal/model/impl/UserGroupRoleImpl",
-      "target": "file:com/liferay/portal/kernel/model/role/RoleConstants",
-      "type": "imports",
-      "direction": "forward",
-      "weight": 0.7
-    },
-    {
-      "source": "file:com/liferay/portal/model/impl/UserGroupRoleImpl",
-      "target": "file:com/liferay/portal/kernel/model/User",
-      "type": "imports",
-      "direction": "forward",
-      "weight": 0.7
-    },
-    {
-      "source": "file:com/liferay/portal/model/impl/UserGroupRoleImpl",
-      "target": "file:com/liferay/portal/kernel/model/UserGroupRole_2",
-      "type": "imports",
-      "direction": "forward",
-      "weight": 0.7
-    },
-    {
-      "source": "file:com/liferay/portal/model/impl/UserGroupRoleImpl",
-      "target": "file:com/liferay/portal/kernel/service/GroupLocalServiceUtil_2",
-      "type": "imports",
-      "direction": "forward",
-      "weight": 0.7
-    },
-    {
-      "source": "file:com/liferay/portal/model/impl/UserGroupRoleImpl",
-      "target": "file:com/liferay/portal/kernel/service/RoleLocalServiceUtil_3",
-      "type": "imports",
-      "direction": "forward",
-      "weight": 0.7
-    },
-    {
-      "source": "file:com/liferay/portal/model/impl/UserGroupRoleImpl",
-      "target": "file:com/liferay/portal/kernel/service/UserLocalServiceUtil",
-      "type": "imports",
-      "direction": "forward",
-      "weight": 0.7
-    },
-    {
-      "source": "file:com/liferay/portal/model/impl/UserGroupRoleImpl",
-      "target": "function:com/liferay/portal/model/impl/UserGroupRoleImpl:equals",
+      "source": "file:portal-impl/src/com/liferay/portal/json/jabsorb/serializer/LiferayJSONSerializer.java",
+      "target": "function:portal-impl/src/com/liferay/portal/json/jabsorb/serializer/LiferayJSONSerializer.java:registerSerializer",
       "type": "exports",
       "direction": "forward",
       "weight": 0.8
     },
     {
-      "source": "file:com/liferay/portal/model/impl/UserGroupRoleImpl",
-      "target": "function:com/liferay/portal/model/impl/UserGroupRoleImpl:hasOrganizationRole",
-      "type": "exports",
-      "direction": "forward",
-      "weight": 0.8
-    },
-    {
-      "source": "file:com/liferay/portal/model/impl/UserGroupRoleImpl",
-      "target": "function:com/liferay/portal/model/impl/UserGroupRoleImpl:hasSiteRole",
-      "type": "exports",
-      "direction": "forward",
-      "weight": 0.8
-    },
-    {
-      "source": "file:com/liferay/portal/model/impl/UserGroupRoleImpl",
-      "target": "class:com/liferay/portal/model/impl/UserGroupRoleImpl:UserGroupRoleImpl",
-      "type": "exports",
-      "direction": "forward",
-      "weight": 0.8
-    },
-    {
-      "source": "file:com/liferay/portal/model/impl/UserImpl",
-      "target": "function:com/liferay/portal/model/impl/UserImpl:fetchContact",
+      "source": "file:portal-impl/src/com/liferay/portal/json/jabsorb/serializer/LiferayJSONSerializer.java",
+      "target": "function:portal-impl/src/com/liferay/portal/json/jabsorb/serializer/LiferayJSONSerializer.java:getClassFromHint",
       "type": "contains",
       "direction": "forward",
-      "weight": 1.0
+      "weight": 1
     },
     {
-      "source": "file:com/liferay/portal/model/impl/UserImpl",
-      "target": "function:com/liferay/portal/model/impl/UserImpl:fetchPortraitURL",
+      "source": "file:portal-impl/src/com/liferay/portal/json/jabsorb/serializer/LiferayJSONSerializer.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/log/Log.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/json/jabsorb/serializer/LiferayJSONSerializer.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/log/LogFactoryUtil.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/json/jabsorb/serializer/LiferaySerializer.java",
+      "target": "class:portal-impl/src/com/liferay/portal/json/jabsorb/serializer/LiferaySerializer.java:LiferaySerializer",
       "type": "contains",
       "direction": "forward",
-      "weight": 1.0
+      "weight": 1
     },
     {
-      "source": "file:com/liferay/portal/model/impl/UserImpl",
-      "target": "function:com/liferay/portal/model/impl/UserImpl:getDisplayEmailAddress",
+      "source": "file:portal-impl/src/com/liferay/portal/json/jabsorb/serializer/LiferaySerializer.java",
+      "target": "class:portal-impl/src/com/liferay/portal/json/jabsorb/serializer/LiferaySerializer.java:LiferaySerializer",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/json/jabsorb/serializer/LiferaySerializer.java",
+      "target": "function:portal-impl/src/com/liferay/portal/json/jabsorb/serializer/LiferaySerializer.java:canSerialize",
       "type": "contains",
       "direction": "forward",
-      "weight": 1.0
+      "weight": 1
     },
     {
-      "source": "file:com/liferay/portal/model/impl/UserImpl",
-      "target": "function:com/liferay/portal/model/impl/UserImpl:getDisplayURL",
+      "source": "file:portal-impl/src/com/liferay/portal/json/jabsorb/serializer/LiferaySerializer.java",
+      "target": "function:portal-impl/src/com/liferay/portal/json/jabsorb/serializer/LiferaySerializer.java:canSerialize",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/json/jabsorb/serializer/LiferaySerializer.java",
+      "target": "function:portal-impl/src/com/liferay/portal/json/jabsorb/serializer/LiferaySerializer.java:getJSONClasses",
       "type": "contains",
       "direction": "forward",
-      "weight": 1.0
+      "weight": 1
     },
     {
-      "source": "file:com/liferay/portal/model/impl/UserImpl",
-      "target": "function:com/liferay/portal/model/impl/UserImpl:getFullName",
+      "source": "file:portal-impl/src/com/liferay/portal/json/jabsorb/serializer/LiferaySerializer.java",
+      "target": "function:portal-impl/src/com/liferay/portal/json/jabsorb/serializer/LiferaySerializer.java:getJSONClasses",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/json/jabsorb/serializer/LiferaySerializer.java",
+      "target": "function:portal-impl/src/com/liferay/portal/json/jabsorb/serializer/LiferaySerializer.java:getSerializableClasses",
       "type": "contains",
       "direction": "forward",
-      "weight": 1.0
+      "weight": 1
     },
     {
-      "source": "file:com/liferay/portal/model/impl/UserImpl",
-      "target": "function:com/liferay/portal/model/impl/UserImpl:getGroup",
+      "source": "file:portal-impl/src/com/liferay/portal/json/jabsorb/serializer/LiferaySerializer.java",
+      "target": "function:portal-impl/src/com/liferay/portal/json/jabsorb/serializer/LiferaySerializer.java:getSerializableClasses",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/json/jabsorb/serializer/LiferaySerializer.java",
+      "target": "function:portal-impl/src/com/liferay/portal/json/jabsorb/serializer/LiferaySerializer.java:marshall",
       "type": "contains",
       "direction": "forward",
-      "weight": 1.0
+      "weight": 1
     },
     {
-      "source": "file:com/liferay/portal/model/impl/UserImpl",
-      "target": "function:com/liferay/portal/model/impl/UserImpl:getGroupId",
+      "source": "file:portal-impl/src/com/liferay/portal/json/jabsorb/serializer/LiferaySerializer.java",
+      "target": "function:portal-impl/src/com/liferay/portal/json/jabsorb/serializer/LiferaySerializer.java:marshall",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/json/jabsorb/serializer/LiferaySerializer.java",
+      "target": "function:portal-impl/src/com/liferay/portal/json/jabsorb/serializer/LiferaySerializer.java:tryUnmarshall",
       "type": "contains",
       "direction": "forward",
-      "weight": 1.0
+      "weight": 1
     },
     {
-      "source": "file:com/liferay/portal/model/impl/UserImpl",
-      "target": "function:com/liferay/portal/model/impl/UserImpl:getInheritedRoles",
+      "source": "file:portal-impl/src/com/liferay/portal/json/jabsorb/serializer/LiferaySerializer.java",
+      "target": "function:portal-impl/src/com/liferay/portal/json/jabsorb/serializer/LiferaySerializer.java:tryUnmarshall",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/json/jabsorb/serializer/LiferaySerializer.java",
+      "target": "function:portal-impl/src/com/liferay/portal/json/jabsorb/serializer/LiferaySerializer.java:unmarshall",
       "type": "contains",
       "direction": "forward",
-      "weight": 1.0
+      "weight": 1
     },
     {
-      "source": "file:com/liferay/portal/model/impl/UserImpl",
-      "target": "function:com/liferay/portal/model/impl/UserImpl:getInheritedSiteGroups",
+      "source": "file:portal-impl/src/com/liferay/portal/json/jabsorb/serializer/LiferaySerializer.java",
+      "target": "function:portal-impl/src/com/liferay/portal/json/jabsorb/serializer/LiferaySerializer.java:unmarshall",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/json/jabsorb/serializer/LiferaySerializer.java",
+      "target": "function:portal-impl/src/com/liferay/portal/json/jabsorb/serializer/LiferaySerializer.java:_getSafe",
       "type": "contains",
       "direction": "forward",
-      "weight": 1.0
+      "weight": 1
     },
     {
-      "source": "file:com/liferay/portal/model/impl/UserImpl",
-      "target": "function:com/liferay/portal/model/impl/UserImpl:getInitials",
+      "source": "file:portal-impl/src/com/liferay/portal/json/jabsorb/serializer/LiferaySerializer.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/log/Log.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/json/jabsorb/serializer/LiferaySerializer.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/log/LogFactoryUtil.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/json/jabsorb/serializer/LiferaySerializer.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/util/Validator.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/json/jabsorb/serializer/LocaleSerializer.java",
+      "target": "class:portal-impl/src/com/liferay/portal/json/jabsorb/serializer/LocaleSerializer.java:LocaleSerializer",
       "type": "contains",
       "direction": "forward",
-      "weight": 1.0
+      "weight": 1
     },
     {
-      "source": "file:com/liferay/portal/model/impl/UserImpl",
-      "target": "function:com/liferay/portal/model/impl/UserImpl:getLogin",
+      "source": "file:portal-impl/src/com/liferay/portal/json/jabsorb/serializer/LocaleSerializer.java",
+      "target": "class:portal-impl/src/com/liferay/portal/json/jabsorb/serializer/LocaleSerializer.java:LocaleSerializer",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/json/jabsorb/serializer/LocaleSerializer.java",
+      "target": "function:portal-impl/src/com/liferay/portal/json/jabsorb/serializer/LocaleSerializer.java:canSerialize",
       "type": "contains",
       "direction": "forward",
-      "weight": 1.0
+      "weight": 1
     },
     {
-      "source": "file:com/liferay/portal/model/impl/UserImpl",
-      "target": "function:com/liferay/portal/model/impl/UserImpl:getOrganizationIds",
+      "source": "file:portal-impl/src/com/liferay/portal/json/jabsorb/serializer/LocaleSerializer.java",
+      "target": "function:portal-impl/src/com/liferay/portal/json/jabsorb/serializer/LocaleSerializer.java:canSerialize",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/json/jabsorb/serializer/LocaleSerializer.java",
+      "target": "function:portal-impl/src/com/liferay/portal/json/jabsorb/serializer/LocaleSerializer.java:getJSONClasses",
       "type": "contains",
       "direction": "forward",
-      "weight": 1.0
+      "weight": 1
     },
     {
-      "source": "file:com/liferay/portal/model/impl/UserImpl",
-      "target": "function:com/liferay/portal/model/impl/UserImpl:getOrganizations",
+      "source": "file:portal-impl/src/com/liferay/portal/json/jabsorb/serializer/LocaleSerializer.java",
+      "target": "function:portal-impl/src/com/liferay/portal/json/jabsorb/serializer/LocaleSerializer.java:getJSONClasses",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/json/jabsorb/serializer/LocaleSerializer.java",
+      "target": "function:portal-impl/src/com/liferay/portal/json/jabsorb/serializer/LocaleSerializer.java:getSerializableClasses",
       "type": "contains",
       "direction": "forward",
-      "weight": 1.0
+      "weight": 1
     },
     {
-      "source": "file:com/liferay/portal/model/impl/UserImpl",
-      "target": "function:com/liferay/portal/model/impl/UserImpl:getReminderQueryQuestions",
+      "source": "file:portal-impl/src/com/liferay/portal/json/jabsorb/serializer/LocaleSerializer.java",
+      "target": "function:portal-impl/src/com/liferay/portal/json/jabsorb/serializer/LocaleSerializer.java:getSerializableClasses",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/json/jabsorb/serializer/LocaleSerializer.java",
+      "target": "function:portal-impl/src/com/liferay/portal/json/jabsorb/serializer/LocaleSerializer.java:marshall",
       "type": "contains",
       "direction": "forward",
-      "weight": 1.0
+      "weight": 1
     },
     {
-      "source": "file:com/liferay/portal/model/impl/UserImpl",
-      "target": "function:com/liferay/portal/model/impl/UserImpl:hasCompanyMx",
+      "source": "file:portal-impl/src/com/liferay/portal/json/jabsorb/serializer/LocaleSerializer.java",
+      "target": "function:portal-impl/src/com/liferay/portal/json/jabsorb/serializer/LocaleSerializer.java:marshall",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/json/jabsorb/serializer/LocaleSerializer.java",
+      "target": "function:portal-impl/src/com/liferay/portal/json/jabsorb/serializer/LocaleSerializer.java:tryUnmarshall",
       "type": "contains",
       "direction": "forward",
-      "weight": 1.0
+      "weight": 1
     },
     {
-      "source": "file:com/liferay/portal/model/impl/UserImpl",
-      "target": "function:com/liferay/portal/model/impl/UserImpl:hasMySites",
+      "source": "file:portal-impl/src/com/liferay/portal/json/jabsorb/serializer/LocaleSerializer.java",
+      "target": "function:portal-impl/src/com/liferay/portal/json/jabsorb/serializer/LocaleSerializer.java:tryUnmarshall",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/json/jabsorb/serializer/LocaleSerializer.java",
+      "target": "function:portal-impl/src/com/liferay/portal/json/jabsorb/serializer/LocaleSerializer.java:unmarshall",
       "type": "contains",
       "direction": "forward",
-      "weight": 1.0
+      "weight": 1
     },
     {
-      "source": "file:com/liferay/portal/model/impl/UserImpl",
-      "target": "function:com/liferay/portal/model/impl/UserImpl:hasReminderQuery",
+      "source": "file:portal-impl/src/com/liferay/portal/json/jabsorb/serializer/LocaleSerializer.java",
+      "target": "function:portal-impl/src/com/liferay/portal/json/jabsorb/serializer/LocaleSerializer.java:unmarshall",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/json/jabsorb/serializer/LocaleSerializer.java",
+      "target": "function:portal-impl/src/com/liferay/portal/json/jabsorb/serializer/LocaleSerializer.java:getLocaleJSONObject",
       "type": "contains",
       "direction": "forward",
-      "weight": 1.0
+      "weight": 1
     },
     {
-      "source": "file:com/liferay/portal/model/impl/UserImpl",
-      "target": "function:com/liferay/portal/model/impl/UserImpl:isEmailAddressComplete",
+      "source": "file:portal-impl/src/com/liferay/portal/json/jabsorb/serializer/LocaleSerializer.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/log/Log.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/json/jabsorb/serializer/LocaleSerializer.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/log/LogFactoryUtil.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/json/jabsorb/serializer/LocaleSerializer.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/util/Validator.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/language/LiferayResourceBundle.java",
+      "target": "class:portal-impl/src/com/liferay/portal/language/LiferayResourceBundle.java:LiferayResourceBundle",
       "type": "contains",
       "direction": "forward",
-      "weight": 1.0
+      "weight": 1
     },
     {
-      "source": "file:com/liferay/portal/model/impl/UserImpl",
-      "target": "function:com/liferay/portal/model/impl/UserImpl:isEmailAddressVerificationComplete",
+      "source": "file:portal-impl/src/com/liferay/portal/language/LiferayResourceBundle.java",
+      "target": "class:portal-impl/src/com/liferay/portal/language/LiferayResourceBundle.java:LiferayResourceBundle",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/language/LiferayResourceBundle.java",
+      "target": "function:portal-impl/src/com/liferay/portal/language/LiferayResourceBundle.java:LiferayResourceBundle",
       "type": "contains",
       "direction": "forward",
-      "weight": 1.0
+      "weight": 1
     },
     {
-      "source": "file:com/liferay/portal/model/impl/UserImpl",
-      "target": "function:com/liferay/portal/model/impl/UserImpl:isReminderQueryComplete",
+      "source": "file:portal-impl/src/com/liferay/portal/language/LiferayResourceBundle.java",
+      "target": "function:portal-impl/src/com/liferay/portal/language/LiferayResourceBundle.java:LiferayResourceBundle",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/language/LiferayResourceBundle.java",
+      "target": "function:portal-impl/src/com/liferay/portal/language/LiferayResourceBundle.java:containsKey",
       "type": "contains",
       "direction": "forward",
-      "weight": 1.0
+      "weight": 1
     },
     {
-      "source": "file:com/liferay/portal/model/impl/UserImpl",
-      "target": "function:com/liferay/portal/model/impl/UserImpl:isServiceAccountUser",
+      "source": "file:portal-impl/src/com/liferay/portal/language/LiferayResourceBundle.java",
+      "target": "function:portal-impl/src/com/liferay/portal/language/LiferayResourceBundle.java:containsKey",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/language/LiferayResourceBundle.java",
+      "target": "function:portal-impl/src/com/liferay/portal/language/LiferayResourceBundle.java:getKeys",
       "type": "contains",
       "direction": "forward",
-      "weight": 1.0
+      "weight": 1
     },
     {
-      "source": "file:com/liferay/portal/model/impl/UserImpl",
-      "target": "function:com/liferay/portal/model/impl/UserImpl:isSetupComplete",
+      "source": "file:portal-impl/src/com/liferay/portal/language/LiferayResourceBundle.java",
+      "target": "function:portal-impl/src/com/liferay/portal/language/LiferayResourceBundle.java:getKeys",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/language/LiferayResourceBundle.java",
+      "target": "function:portal-impl/src/com/liferay/portal/language/LiferayResourceBundle.java:handleGetObject",
       "type": "contains",
       "direction": "forward",
-      "weight": 1.0
+      "weight": 1
     },
     {
-      "source": "file:com/liferay/portal/model/impl/UserImpl",
-      "target": "function:com/liferay/portal/model/impl/UserImpl:isTermsOfUseComplete",
-      "type": "contains",
-      "direction": "forward",
-      "weight": 1.0
-    },
-    {
-      "source": "file:com/liferay/portal/model/impl/UserImpl",
-      "target": "function:com/liferay/portal/model/impl/UserImpl:setLanguageId",
-      "type": "contains",
-      "direction": "forward",
-      "weight": 1.0
-    },
-    {
-      "source": "file:com/liferay/portal/model/impl/UserImpl",
-      "target": "function:com/liferay/portal/model/impl/UserImpl:setTimeZoneId",
-      "type": "contains",
-      "direction": "forward",
-      "weight": 1.0
-    },
-    {
-      "source": "file:com/liferay/portal/model/impl/UserImpl",
-      "target": "function:com/liferay/portal/model/impl/UserImpl:getProfileFriendlyURL",
-      "type": "contains",
-      "direction": "forward",
-      "weight": 1.0
-    },
-    {
-      "source": "file:com/liferay/portal/model/impl/UserImpl",
-      "target": "function:com/liferay/portal/model/impl/UserImpl:_getOrganizationRelatedGroups",
-      "type": "contains",
-      "direction": "forward",
-      "weight": 1.0
-    },
-    {
-      "source": "file:com/liferay/portal/model/impl/UserImpl",
-      "target": "function:com/liferay/portal/model/impl/UserImpl:_getParentOrganizations",
-      "type": "contains",
-      "direction": "forward",
-      "weight": 1.0
-    },
-    {
-      "source": "file:com/liferay/portal/model/impl/UserImpl",
-      "target": "class:com/liferay/portal/model/impl/UserImpl:UserImpl",
-      "type": "contains",
-      "direction": "forward",
-      "weight": 1.0
-    },
-    {
-      "source": "file:com/liferay/portal/model/impl/UserImpl",
-      "target": "file:com/liferay/portal/security/auth/EmailAddressGeneratorFactory",
-      "type": "imports",
-      "direction": "forward",
-      "weight": 0.7
-    },
-    {
-      "source": "file:com/liferay/portal/model/impl/UserImpl",
-      "target": "file:com/liferay/portal/util/PropsValues",
-      "type": "imports",
-      "direction": "forward",
-      "weight": 0.7
-    },
-    {
-      "source": "file:com/liferay/portal/model/impl/UserImpl",
-      "target": "file:com/liferay/portal/kernel/bean/AutoEscape",
-      "type": "imports",
-      "direction": "forward",
-      "weight": 0.7
-    },
-    {
-      "source": "file:com/liferay/portal/model/impl/UserImpl",
-      "target": "file:com/liferay/portal/kernel/dao/orm/QueryUtil",
-      "type": "imports",
-      "direction": "forward",
-      "weight": 0.7
-    },
-    {
-      "source": "file:com/liferay/portal/model/impl/UserImpl",
-      "target": "file:com/liferay/portal/kernel/exception/PortalException_3",
-      "type": "imports",
-      "direction": "forward",
-      "weight": 0.7
-    },
-    {
-      "source": "file:com/liferay/portal/model/impl/UserImpl",
-      "target": "file:com/liferay/portal/kernel/log/Log_2",
-      "type": "imports",
-      "direction": "forward",
-      "weight": 0.7
-    },
-    {
-      "source": "file:com/liferay/portal/model/impl/UserImpl",
-      "target": "file:com/liferay/portal/kernel/log/LogFactoryUtil_2",
-      "type": "imports",
-      "direction": "forward",
-      "weight": 0.7
-    },
-    {
-      "source": "file:com/liferay/portal/model/impl/UserImpl",
-      "target": "file:com/liferay/portal/kernel/model/Address",
-      "type": "imports",
-      "direction": "forward",
-      "weight": 0.7
-    },
-    {
-      "source": "file:com/liferay/portal/model/impl/UserImpl",
-      "target": "file:com/liferay/portal/kernel/model/cache/CacheField",
-      "type": "imports",
-      "direction": "forward",
-      "weight": 0.7
-    },
-    {
-      "source": "file:com/liferay/portal/model/impl/UserImpl",
-      "target": "file:com/liferay/portal/kernel/model/Company",
-      "type": "imports",
-      "direction": "forward",
-      "weight": 0.7
-    },
-    {
-      "source": "file:com/liferay/portal/model/impl/UserImpl",
-      "target": "file:com/liferay/portal/kernel/model/CompanyConstants",
-      "type": "imports",
-      "direction": "forward",
-      "weight": 0.7
-    },
-    {
-      "source": "file:com/liferay/portal/model/impl/UserImpl",
-      "target": "file:com/liferay/portal/kernel/model/Contact",
-      "type": "imports",
-      "direction": "forward",
-      "weight": 0.7
-    },
-    {
-      "source": "file:com/liferay/portal/model/impl/UserImpl",
-      "target": "file:com/liferay/portal/kernel/model/EmailAddress",
-      "type": "imports",
-      "direction": "forward",
-      "weight": 0.7
-    },
-    {
-      "source": "file:com/liferay/portal/model/impl/UserImpl",
-      "target": "file:com/liferay/portal/kernel/model/Group_3",
-      "type": "imports",
-      "direction": "forward",
-      "weight": 0.7
-    },
-    {
-      "source": "file:com/liferay/portal/model/impl/UserImpl",
-      "target": "file:com/liferay/portal/kernel/model/Organization",
-      "type": "imports",
-      "direction": "forward",
-      "weight": 0.7
-    },
-    {
-      "source": "file:com/liferay/portal/model/impl/UserImpl",
-      "target": "file:com/liferay/portal/kernel/model/PasswordPolicy",
-      "type": "imports",
-      "direction": "forward",
-      "weight": 0.7
-    },
-    {
-      "source": "file:com/liferay/portal/model/impl/UserImpl",
-      "target": "file:com/liferay/portal/kernel/model/Phone",
-      "type": "imports",
-      "direction": "forward",
-      "weight": 0.7
-    },
-    {
-      "source": "file:com/liferay/portal/model/impl/UserImpl",
-      "target": "file:com/liferay/portal/kernel/model/Role_4",
-      "type": "imports",
-      "direction": "forward",
-      "weight": 0.7
-    },
-    {
-      "source": "file:com/liferay/portal/model/impl/UserImpl",
-      "target": "file:com/liferay/portal/kernel/model/Team",
-      "type": "imports",
-      "direction": "forward",
-      "weight": 0.7
-    },
-    {
-      "source": "file:com/liferay/portal/model/impl/UserImpl",
-      "target": "file:com/liferay/portal/kernel/model/UserConstants",
-      "type": "imports",
-      "direction": "forward",
-      "weight": 0.7
-    },
-    {
-      "source": "file:com/liferay/portal/model/impl/UserImpl",
-      "target": "file:com/liferay/portal/kernel/model/UserGroup_4",
-      "type": "imports",
-      "direction": "forward",
-      "weight": 0.7
-    },
-    {
-      "source": "file:com/liferay/portal/model/impl/UserImpl",
-      "target": "file:com/liferay/portal/kernel/model/UserGroupGroupRole_2",
-      "type": "imports",
-      "direction": "forward",
-      "weight": 0.7
-    },
-    {
-      "source": "file:com/liferay/portal/model/impl/UserImpl",
-      "target": "file:com/liferay/portal/kernel/model/UserGroupRole_3",
-      "type": "imports",
-      "direction": "forward",
-      "weight": 0.7
-    },
-    {
-      "source": "file:com/liferay/portal/model/impl/UserImpl",
-      "target": "file:com/liferay/portal/kernel/model/Website",
-      "type": "imports",
-      "direction": "forward",
-      "weight": 0.7
-    },
-    {
-      "source": "file:com/liferay/portal/model/impl/UserImpl",
-      "target": "file:com/liferay/portal/kernel/security/auth/EmailAddressGenerator",
-      "type": "imports",
-      "direction": "forward",
-      "weight": 0.7
-    },
-    {
-      "source": "file:com/liferay/portal/model/impl/UserImpl",
-      "target": "file:com/liferay/portal/kernel/security/auth/FullNameGenerator",
-      "type": "imports",
-      "direction": "forward",
-      "weight": 0.7
-    },
-    {
-      "source": "file:com/liferay/portal/model/impl/UserImpl",
-      "target": "file:com/liferay/portal/kernel/security/auth/FullNameGeneratorFactory",
-      "type": "imports",
-      "direction": "forward",
-      "weight": 0.7
-    },
-    {
-      "source": "file:com/liferay/portal/model/impl/UserImpl",
-      "target": "file:com/liferay/portal/kernel/security/auth/PrincipalThreadLocal",
-      "type": "imports",
-      "direction": "forward",
-      "weight": 0.7
-    },
-    {
-      "source": "file:com/liferay/portal/model/impl/UserImpl",
-      "target": "file:com/liferay/portal/kernel/service/AddressLocalServiceUtil",
-      "type": "imports",
-      "direction": "forward",
-      "weight": 0.7
-    },
-    {
-      "source": "file:com/liferay/portal/model/impl/UserImpl",
-      "target": "file:com/liferay/portal/kernel/service/CompanyLocalServiceUtil",
-      "type": "imports",
-      "direction": "forward",
-      "weight": 0.7
-    },
-    {
-      "source": "file:com/liferay/portal/model/impl/UserImpl",
-      "target": "file:com/liferay/portal/kernel/service/ContactLocalServiceUtil",
-      "type": "imports",
-      "direction": "forward",
-      "weight": 0.7
-    },
-    {
-      "source": "file:com/liferay/portal/model/impl/UserImpl",
-      "target": "file:com/liferay/portal/kernel/service/EmailAddressLocalServiceUtil",
-      "type": "imports",
-      "direction": "forward",
-      "weight": 0.7
-    },
-    {
-      "source": "file:com/liferay/portal/model/impl/UserImpl",
-      "target": "file:com/liferay/portal/kernel/service/GroupLocalServiceUtil_3",
-      "type": "imports",
-      "direction": "forward",
-      "weight": 0.7
-    },
-    {
-      "source": "file:com/liferay/portal/model/impl/UserImpl",
-      "target": "file:com/liferay/portal/kernel/service/GroupServiceUtil",
-      "type": "imports",
-      "direction": "forward",
-      "weight": 0.7
-    },
-    {
-      "source": "file:com/liferay/portal/model/impl/UserImpl",
-      "target": "file:com/liferay/portal/kernel/service/LayoutLocalServiceUtil",
-      "type": "imports",
-      "direction": "forward",
-      "weight": 0.7
-    },
-    {
-      "source": "file:com/liferay/portal/model/impl/UserImpl",
-      "target": "file:com/liferay/portal/kernel/service/OrganizationLocalServiceUtil",
-      "type": "imports",
-      "direction": "forward",
-      "weight": 0.7
-    },
-    {
-      "source": "file:com/liferay/portal/model/impl/UserImpl",
-      "target": "file:com/liferay/portal/kernel/service/PasswordPolicyLocalServiceUtil",
-      "type": "imports",
-      "direction": "forward",
-      "weight": 0.7
-    },
-    {
-      "source": "file:com/liferay/portal/model/impl/UserImpl",
-      "target": "file:com/liferay/portal/kernel/service/PhoneLocalServiceUtil",
-      "type": "imports",
-      "direction": "forward",
-      "weight": 0.7
-    },
-    {
-      "source": "file:com/liferay/portal/model/impl/UserImpl",
-      "target": "file:com/liferay/portal/kernel/service/RoleLocalServiceUtil_4",
-      "type": "imports",
-      "direction": "forward",
-      "weight": 0.7
-    },
-    {
-      "source": "file:com/liferay/portal/model/impl/UserImpl",
-      "target": "file:com/liferay/portal/kernel/service/TeamLocalServiceUtil",
-      "type": "imports",
-      "direction": "forward",
-      "weight": 0.7
-    },
-    {
-      "source": "file:com/liferay/portal/model/impl/UserImpl",
-      "target": "file:com/liferay/portal/kernel/service/UserGroupGroupRoleLocalServiceUtil",
-      "type": "imports",
-      "direction": "forward",
-      "weight": 0.7
-    },
-    {
-      "source": "file:com/liferay/portal/model/impl/UserImpl",
-      "target": "file:com/liferay/portal/kernel/service/UserGroupLocalServiceUtil_3",
-      "type": "imports",
-      "direction": "forward",
-      "weight": 0.7
-    },
-    {
-      "source": "file:com/liferay/portal/model/impl/UserImpl",
-      "target": "file:com/liferay/portal/kernel/service/UserGroupRoleLocalServiceUtil_2",
-      "type": "imports",
-      "direction": "forward",
-      "weight": 0.7
-    },
-    {
-      "source": "file:com/liferay/portal/model/impl/UserImpl",
-      "target": "file:com/liferay/portal/kernel/service/UserLocalServiceUtil_2",
-      "type": "imports",
-      "direction": "forward",
-      "weight": 0.7
-    },
-    {
-      "source": "file:com/liferay/portal/model/impl/UserImpl",
-      "target": "file:com/liferay/portal/kernel/service/WebsiteLocalServiceUtil",
-      "type": "imports",
-      "direction": "forward",
-      "weight": 0.7
-    },
-    {
-      "source": "file:com/liferay/portal/model/impl/UserImpl",
-      "target": "file:com/liferay/portal/kernel/theme/ThemeDisplay",
-      "type": "imports",
-      "direction": "forward",
-      "weight": 0.7
-    },
-    {
-      "source": "file:com/liferay/portal/model/impl/UserImpl",
-      "target": "file:com/liferay/portal/kernel/util/Digester",
-      "type": "imports",
-      "direction": "forward",
-      "weight": 0.7
-    },
-    {
-      "source": "file:com/liferay/portal/model/impl/UserImpl",
-      "target": "file:com/liferay/portal/kernel/util/DigesterUtil",
-      "type": "imports",
-      "direction": "forward",
-      "weight": 0.7
-    },
-    {
-      "source": "file:com/liferay/portal/model/impl/UserImpl",
-      "target": "file:com/liferay/portal/kernel/util/FriendlyURLNormalizerUtil",
-      "type": "imports",
-      "direction": "forward",
-      "weight": 0.7
-    },
-    {
-      "source": "file:com/liferay/portal/model/impl/UserImpl",
-      "target": "file:com/liferay/portal/kernel/util/HtmlUtil",
-      "type": "imports",
-      "direction": "forward",
-      "weight": 0.7
-    },
-    {
-      "source": "file:com/liferay/portal/model/impl/UserImpl",
-      "target": "file:com/liferay/portal/kernel/util/ListUtil",
-      "type": "imports",
-      "direction": "forward",
-      "weight": 0.7
-    },
-    {
-      "source": "file:com/liferay/portal/model/impl/UserImpl",
-      "target": "file:com/liferay/portal/kernel/util/LocaleUtil_2",
-      "type": "imports",
-      "direction": "forward",
-      "weight": 0.7
-    },
-    {
-      "source": "file:com/liferay/portal/model/impl/UserImpl",
-      "target": "file:com/liferay/portal/kernel/util/Portal",
-      "type": "imports",
-      "direction": "forward",
-      "weight": 0.7
-    },
-    {
-      "source": "file:com/liferay/portal/model/impl/UserImpl",
-      "target": "file:com/liferay/portal/kernel/util/PortalUtil_2",
-      "type": "imports",
-      "direction": "forward",
-      "weight": 0.7
-    },
-    {
-      "source": "file:com/liferay/portal/model/impl/UserImpl",
-      "target": "file:com/liferay/portal/kernel/util/PrefsPropsUtil",
-      "type": "imports",
-      "direction": "forward",
-      "weight": 0.7
-    },
-    {
-      "source": "file:com/liferay/portal/model/impl/UserImpl",
-      "target": "file:com/liferay/portal/kernel/util/PropsKeys",
-      "type": "imports",
-      "direction": "forward",
-      "weight": 0.7
-    },
-    {
-      "source": "file:com/liferay/portal/model/impl/UserImpl",
-      "target": "file:com/liferay/portal/kernel/util/SetUtil",
-      "type": "imports",
-      "direction": "forward",
-      "weight": 0.7
-    },
-    {
-      "source": "file:com/liferay/portal/model/impl/UserImpl",
-      "target": "file:com/liferay/portal/kernel/util/StringUtil",
-      "type": "imports",
-      "direction": "forward",
-      "weight": 0.7
-    },
-    {
-      "source": "file:com/liferay/portal/model/impl/UserImpl",
-      "target": "file:com/liferay/portal/kernel/util/TimeZoneUtil",
-      "type": "imports",
-      "direction": "forward",
-      "weight": 0.7
-    },
-    {
-      "source": "file:com/liferay/portal/model/impl/UserImpl",
-      "target": "file:com/liferay/portal/kernel/util/Validator_3",
-      "type": "imports",
-      "direction": "forward",
-      "weight": 0.7
-    },
-    {
-      "source": "file:com/liferay/portal/model/impl/UserImpl",
-      "target": "file:com/liferay/portal/kernel/workflow/WorkflowConstants",
-      "type": "imports",
-      "direction": "forward",
-      "weight": 0.7
-    },
-    {
-      "source": "file:com/liferay/portal/model/impl/UserImpl",
-      "target": "file:com/liferay/users/admin/kernel/util/UserInitialsGeneratorUtil",
-      "type": "imports",
-      "direction": "forward",
-      "weight": 0.7
-    },
-    {
-      "source": "file:com/liferay/portal/model/impl/UserImpl",
-      "target": "function:com/liferay/portal/model/impl/UserImpl:fetchContact",
+      "source": "file:portal-impl/src/com/liferay/portal/language/LiferayResourceBundle.java",
+      "target": "function:portal-impl/src/com/liferay/portal/language/LiferayResourceBundle.java:handleGetObject",
       "type": "exports",
       "direction": "forward",
       "weight": 0.8
     },
     {
-      "source": "file:com/liferay/portal/model/impl/UserImpl",
-      "target": "function:com/liferay/portal/model/impl/UserImpl:fetchPortraitURL",
-      "type": "exports",
+      "source": "file:portal-impl/src/com/liferay/portal/language/LiferayResourceBundle.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/util/PropertiesUtil.java",
+      "type": "imports",
       "direction": "forward",
-      "weight": 0.8
-    },
-    {
-      "source": "file:com/liferay/portal/model/impl/UserImpl",
-      "target": "function:com/liferay/portal/model/impl/UserImpl:getDisplayEmailAddress",
-      "type": "exports",
-      "direction": "forward",
-      "weight": 0.8
-    },
-    {
-      "source": "file:com/liferay/portal/model/impl/UserImpl",
-      "target": "function:com/liferay/portal/model/impl/UserImpl:getDisplayURL",
-      "type": "exports",
-      "direction": "forward",
-      "weight": 0.8
-    },
-    {
-      "source": "file:com/liferay/portal/model/impl/UserImpl",
-      "target": "function:com/liferay/portal/model/impl/UserImpl:getDisplayURL",
-      "type": "exports",
-      "direction": "forward",
-      "weight": 0.8
-    },
-    {
-      "source": "file:com/liferay/portal/model/impl/UserImpl",
-      "target": "function:com/liferay/portal/model/impl/UserImpl:getFullName",
-      "type": "exports",
-      "direction": "forward",
-      "weight": 0.8
-    },
-    {
-      "source": "file:com/liferay/portal/model/impl/UserImpl",
-      "target": "function:com/liferay/portal/model/impl/UserImpl:getFullName",
-      "type": "exports",
-      "direction": "forward",
-      "weight": 0.8
-    },
-    {
-      "source": "file:com/liferay/portal/model/impl/UserImpl",
-      "target": "function:com/liferay/portal/model/impl/UserImpl:getGroup",
-      "type": "exports",
-      "direction": "forward",
-      "weight": 0.8
-    },
-    {
-      "source": "file:com/liferay/portal/model/impl/UserImpl",
-      "target": "function:com/liferay/portal/model/impl/UserImpl:getGroupId",
-      "type": "exports",
-      "direction": "forward",
-      "weight": 0.8
-    },
-    {
-      "source": "file:com/liferay/portal/model/impl/UserImpl",
-      "target": "function:com/liferay/portal/model/impl/UserImpl:getInheritedRoles",
-      "type": "exports",
-      "direction": "forward",
-      "weight": 0.8
-    },
-    {
-      "source": "file:com/liferay/portal/model/impl/UserImpl",
-      "target": "function:com/liferay/portal/model/impl/UserImpl:getInheritedSiteGroups",
-      "type": "exports",
-      "direction": "forward",
-      "weight": 0.8
-    },
-    {
-      "source": "file:com/liferay/portal/model/impl/UserImpl",
-      "target": "function:com/liferay/portal/model/impl/UserImpl:getInitials",
-      "type": "exports",
-      "direction": "forward",
-      "weight": 0.8
-    },
-    {
-      "source": "file:com/liferay/portal/model/impl/UserImpl",
-      "target": "function:com/liferay/portal/model/impl/UserImpl:getLogin",
-      "type": "exports",
-      "direction": "forward",
-      "weight": 0.8
-    },
-    {
-      "source": "file:com/liferay/portal/model/impl/UserImpl",
-      "target": "function:com/liferay/portal/model/impl/UserImpl:getOrganizationIds",
-      "type": "exports",
-      "direction": "forward",
-      "weight": 0.8
-    },
-    {
-      "source": "file:com/liferay/portal/model/impl/UserImpl",
-      "target": "function:com/liferay/portal/model/impl/UserImpl:getOrganizationIds",
-      "type": "exports",
-      "direction": "forward",
-      "weight": 0.8
-    },
-    {
-      "source": "file:com/liferay/portal/model/impl/UserImpl",
-      "target": "function:com/liferay/portal/model/impl/UserImpl:getOrganizations",
-      "type": "exports",
-      "direction": "forward",
-      "weight": 0.8
-    },
-    {
-      "source": "file:com/liferay/portal/model/impl/UserImpl",
-      "target": "function:com/liferay/portal/model/impl/UserImpl:getOrganizations",
-      "type": "exports",
-      "direction": "forward",
-      "weight": 0.8
-    },
-    {
-      "source": "file:com/liferay/portal/model/impl/UserImpl",
-      "target": "function:com/liferay/portal/model/impl/UserImpl:getOrganizations",
-      "type": "exports",
-      "direction": "forward",
-      "weight": 0.8
-    },
-    {
-      "source": "file:com/liferay/portal/model/impl/UserImpl",
-      "target": "function:com/liferay/portal/model/impl/UserImpl:getReminderQueryQuestions",
-      "type": "exports",
-      "direction": "forward",
-      "weight": 0.8
-    },
-    {
-      "source": "file:com/liferay/portal/model/impl/UserImpl",
-      "target": "function:com/liferay/portal/model/impl/UserImpl:hasCompanyMx",
-      "type": "exports",
-      "direction": "forward",
-      "weight": 0.8
-    },
-    {
-      "source": "file:com/liferay/portal/model/impl/UserImpl",
-      "target": "function:com/liferay/portal/model/impl/UserImpl:hasCompanyMx",
-      "type": "exports",
-      "direction": "forward",
-      "weight": 0.8
-    },
-    {
-      "source": "file:com/liferay/portal/model/impl/UserImpl",
-      "target": "function:com/liferay/portal/model/impl/UserImpl:hasMySites",
-      "type": "exports",
-      "direction": "forward",
-      "weight": 0.8
-    },
-    {
-      "source": "file:com/liferay/portal/model/impl/UserImpl",
-      "target": "function:com/liferay/portal/model/impl/UserImpl:hasReminderQuery",
-      "type": "exports",
-      "direction": "forward",
-      "weight": 0.8
-    },
-    {
-      "source": "file:com/liferay/portal/model/impl/UserImpl",
-      "target": "function:com/liferay/portal/model/impl/UserImpl:isEmailAddressComplete",
-      "type": "exports",
-      "direction": "forward",
-      "weight": 0.8
-    },
-    {
-      "source": "file:com/liferay/portal/model/impl/UserImpl",
-      "target": "function:com/liferay/portal/model/impl/UserImpl:isEmailAddressVerificationComplete",
-      "type": "exports",
-      "direction": "forward",
-      "weight": 0.8
-    },
-    {
-      "source": "file:com/liferay/portal/model/impl/UserImpl",
-      "target": "function:com/liferay/portal/model/impl/UserImpl:isReminderQueryComplete",
-      "type": "exports",
-      "direction": "forward",
-      "weight": 0.8
-    },
-    {
-      "source": "file:com/liferay/portal/model/impl/UserImpl",
-      "target": "function:com/liferay/portal/model/impl/UserImpl:isServiceAccountUser",
-      "type": "exports",
-      "direction": "forward",
-      "weight": 0.8
-    },
-    {
-      "source": "file:com/liferay/portal/model/impl/UserImpl",
-      "target": "function:com/liferay/portal/model/impl/UserImpl:isSetupComplete",
-      "type": "exports",
-      "direction": "forward",
-      "weight": 0.8
-    },
-    {
-      "source": "file:com/liferay/portal/model/impl/UserImpl",
-      "target": "function:com/liferay/portal/model/impl/UserImpl:isTermsOfUseComplete",
-      "type": "exports",
-      "direction": "forward",
-      "weight": 0.8
-    },
-    {
-      "source": "file:com/liferay/portal/model/impl/UserImpl",
-      "target": "function:com/liferay/portal/model/impl/UserImpl:setLanguageId",
-      "type": "exports",
-      "direction": "forward",
-      "weight": 0.8
-    },
-    {
-      "source": "file:com/liferay/portal/model/impl/UserImpl",
-      "target": "function:com/liferay/portal/model/impl/UserImpl:setTimeZoneId",
-      "type": "exports",
-      "direction": "forward",
-      "weight": 0.8
-    },
-    {
-      "source": "file:com/liferay/portal/model/impl/UserImpl",
-      "target": "class:com/liferay/portal/model/impl/UserImpl:UserImpl",
-      "type": "exports",
-      "direction": "forward",
-      "weight": 0.8
-    },
-    {
-      "source": "function:com/liferay/portal/model/impl/UserImpl:fetchPortraitURL",
-      "target": "function:com/liferay/portal/model/impl/UserImpl:fetchContact",
-      "type": "calls",
-      "direction": "forward",
-      "weight": 0.8
-    },
-    {
-      "source": "function:com/liferay/portal/model/impl/UserImpl:getDisplayURL",
-      "target": "function:com/liferay/portal/model/impl/UserImpl:getProfileFriendlyURL",
-      "type": "calls",
-      "direction": "forward",
-      "weight": 0.8
-    },
-    {
-      "source": "function:com/liferay/portal/model/impl/UserImpl:getDisplayURL",
-      "target": "function:com/liferay/portal/model/impl/UserImpl:getGroup",
-      "type": "calls",
-      "direction": "forward",
-      "weight": 0.8
-    },
-    {
-      "source": "function:com/liferay/portal/model/impl/UserImpl:getFullName",
-      "target": "function:com/liferay/portal/model/impl/UserImpl:fetchContact",
-      "type": "calls",
-      "direction": "forward",
-      "weight": 0.8
-    },
-    {
-      "source": "function:com/liferay/portal/model/impl/UserImpl:getFullName",
-      "target": "function:com/liferay/portal/model/impl/UserImpl:fetchContact",
-      "type": "calls",
-      "direction": "forward",
-      "weight": 0.8
-    },
-    {
-      "source": "function:com/liferay/portal/model/impl/UserImpl:getInheritedSiteGroups",
-      "target": "function:com/liferay/portal/model/impl/UserImpl:_getOrganizationRelatedGroups",
-      "type": "calls",
-      "direction": "forward",
-      "weight": 0.8
-    },
-    {
-      "source": "function:com/liferay/portal/model/impl/UserImpl:getOrganizations",
-      "target": "function:com/liferay/portal/model/impl/UserImpl:_getParentOrganizations",
-      "type": "calls",
-      "direction": "forward",
-      "weight": 0.8
-    },
-    {
-      "source": "function:com/liferay/portal/model/impl/UserImpl:isEmailAddressComplete",
-      "target": "function:com/liferay/portal/model/impl/UserImpl:getDisplayEmailAddress",
-      "type": "calls",
-      "direction": "forward",
-      "weight": 0.8
-    },
-    {
-      "source": "function:com/liferay/portal/model/impl/UserImpl:isEmailAddressVerificationComplete",
-      "target": "function:com/liferay/portal/model/impl/UserImpl:isServiceAccountUser",
-      "type": "calls",
-      "direction": "forward",
-      "weight": 0.8
-    },
-    {
-      "source": "function:com/liferay/portal/model/impl/UserImpl:isSetupComplete",
-      "target": "function:com/liferay/portal/model/impl/UserImpl:isEmailAddressComplete",
-      "type": "calls",
-      "direction": "forward",
-      "weight": 0.8
-    },
-    {
-      "source": "function:com/liferay/portal/model/impl/UserImpl:isSetupComplete",
-      "target": "function:com/liferay/portal/model/impl/UserImpl:isEmailAddressVerificationComplete",
-      "type": "calls",
-      "direction": "forward",
-      "weight": 0.8
-    },
-    {
-      "source": "function:com/liferay/portal/model/impl/UserImpl:isSetupComplete",
-      "target": "function:com/liferay/portal/model/impl/UserImpl:isReminderQueryComplete",
-      "type": "calls",
-      "direction": "forward",
-      "weight": 0.8
-    },
-    {
-      "source": "function:com/liferay/portal/model/impl/UserImpl:isSetupComplete",
-      "target": "function:com/liferay/portal/model/impl/UserImpl:isTermsOfUseComplete",
-      "type": "calls",
-      "direction": "forward",
-      "weight": 0.8
-    },
-    {
-      "source": "function:com/liferay/portal/model/impl/UserImpl:_getOrganizationRelatedGroups",
-      "target": "function:com/liferay/portal/model/impl/UserImpl:getOrganizations",
-      "type": "calls",
-      "direction": "forward",
-      "weight": 0.8
+      "weight": 0.7
     }
   ]
 }

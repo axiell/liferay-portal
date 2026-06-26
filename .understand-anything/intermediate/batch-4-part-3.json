@@ -1,0 +1,1146 @@
+{
+  "nodes": [
+    {
+      "id": "file:portal-impl/src/com/liferay/portal/deploy/auto/LayoutTemplateAutoDeployListener.java",
+      "type": "file",
+      "name": "LayoutTemplateAutoDeployListener.java",
+      "filePath": "portal-impl/src/com/liferay/portal/deploy/auto/LayoutTemplateAutoDeployListener.java",
+      "summary": "Auto-deploy listener that detects and registers layout templates from plugin WARs.",
+      "tags": [
+        "deployment",
+        "auto-deploy",
+        "layout-template"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:portal-impl/src/com/liferay/portal/deploy/auto/LayoutTemplateAutoDeployListener.java:LayoutTemplateAutoDeployListener",
+      "type": "class",
+      "name": "LayoutTemplateAutoDeployListener",
+      "filePath": "portal-impl/src/com/liferay/portal/deploy/auto/LayoutTemplateAutoDeployListener.java",
+      "lineRange": [
+        21,
+        47
+      ],
+      "summary": "Class LayoutTemplateAutoDeployListener in LayoutTemplateAutoDeployListener.java.",
+      "tags": [
+        "class"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:portal-impl/src/com/liferay/portal/deploy/auto/MVCPortletAutoDeployer.java",
+      "type": "file",
+      "name": "MVCPortletAutoDeployer.java",
+      "filePath": "portal-impl/src/com/liferay/portal/deploy/auto/MVCPortletAutoDeployer.java",
+      "summary": "Auto-deployer for MVC portlet plugins, handling directory structure and configuration.",
+      "tags": [
+        "deployment",
+        "auto-deploy",
+        "portlet"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:portal-impl/src/com/liferay/portal/deploy/auto/MVCPortletAutoDeployer.java:MVCPortletAutoDeployer",
+      "type": "class",
+      "name": "MVCPortletAutoDeployer",
+      "filePath": "portal-impl/src/com/liferay/portal/deploy/auto/MVCPortletAutoDeployer.java",
+      "lineRange": [
+        18,
+        61
+      ],
+      "summary": "Handles portlet plugin auto-deployment including directory layout, XML configuration, and classpath setup.",
+      "tags": [
+        "deployment",
+        "portlet",
+        "auto-deploy"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:portal-impl/src/com/liferay/portal/deploy/auto/MVCPortletAutoDeployer.java:copyXmls",
+      "type": "function",
+      "name": "copyXmls",
+      "filePath": "portal-impl/src/com/liferay/portal/deploy/auto/MVCPortletAutoDeployer.java",
+      "lineRange": [
+        20,
+        59
+      ],
+      "summary": "Method copyXmls in MVCPortletAutoDeployer.java.",
+      "tags": [
+        "method"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:portal-impl/src/com/liferay/portal/deploy/auto/PluginAutoDeployListenerHelper.java",
+      "type": "file",
+      "name": "PluginAutoDeployListenerHelper.java",
+      "filePath": "portal-impl/src/com/liferay/portal/deploy/auto/PluginAutoDeployListenerHelper.java",
+      "summary": "Helper class providing common auto-deploy detection logic for plugin types.",
+      "tags": [
+        "deployment",
+        "auto-deploy",
+        "utility"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "Java class with extensive method set for managing deployment lifecycle."
+    },
+    {
+      "id": "class:portal-impl/src/com/liferay/portal/deploy/auto/PluginAutoDeployListenerHelper.java:PluginAutoDeployListenerHelper",
+      "type": "class",
+      "name": "PluginAutoDeployListenerHelper",
+      "filePath": "portal-impl/src/com/liferay/portal/deploy/auto/PluginAutoDeployListenerHelper.java",
+      "lineRange": [
+        24,
+        214
+      ],
+      "summary": "Helper for auto-deploy listeners providing common detection and configuration logic for plugin types.",
+      "tags": [
+        "utility",
+        "deployment",
+        "helper"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:portal-impl/src/com/liferay/portal/deploy/auto/PluginAutoDeployListenerHelper.java:isHookPlugin",
+      "type": "function",
+      "name": "isHookPlugin",
+      "filePath": "portal-impl/src/com/liferay/portal/deploy/auto/PluginAutoDeployListenerHelper.java",
+      "lineRange": [
+        30,
+        41
+      ],
+      "summary": "Method isHookPlugin in PluginAutoDeployListenerHelper.java.",
+      "tags": [
+        "method"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:portal-impl/src/com/liferay/portal/deploy/auto/PluginAutoDeployListenerHelper.java:isMatchingFile",
+      "type": "function",
+      "name": "isMatchingFile",
+      "filePath": "portal-impl/src/com/liferay/portal/deploy/auto/PluginAutoDeployListenerHelper.java",
+      "lineRange": [
+        69,
+        114
+      ],
+      "summary": "Method isMatchingFile in PluginAutoDeployListenerHelper.java.",
+      "tags": [
+        "method"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:portal-impl/src/com/liferay/portal/deploy/auto/PluginAutoDeployListenerHelper.java:isMatchingFileExtension",
+      "type": "function",
+      "name": "isMatchingFileExtension",
+      "filePath": "portal-impl/src/com/liferay/portal/deploy/auto/PluginAutoDeployListenerHelper.java",
+      "lineRange": [
+        116,
+        136
+      ],
+      "summary": "Method isMatchingFileExtension in PluginAutoDeployListenerHelper.java.",
+      "tags": [
+        "method"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:portal-impl/src/com/liferay/portal/deploy/auto/PluginAutoDeployListenerHelper.java:isPortletPlugin",
+      "type": "function",
+      "name": "isPortletPlugin",
+      "filePath": "portal-impl/src/com/liferay/portal/deploy/auto/PluginAutoDeployListenerHelper.java",
+      "lineRange": [
+        138,
+        151
+      ],
+      "summary": "Method isPortletPlugin in PluginAutoDeployListenerHelper.java.",
+      "tags": [
+        "method"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:portal-impl/src/com/liferay/portal/deploy/auto/PluginAutoDeployListenerHelper.java:isThemePlugin",
+      "type": "function",
+      "name": "isThemePlugin",
+      "filePath": "portal-impl/src/com/liferay/portal/deploy/auto/PluginAutoDeployListenerHelper.java",
+      "lineRange": [
+        153,
+        168
+      ],
+      "summary": "Method isThemePlugin in PluginAutoDeployListenerHelper.java.",
+      "tags": [
+        "method"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:portal-impl/src/com/liferay/portal/deploy/auto/PluginAutoDeployListenerHelper.java:isWebPlugin",
+      "type": "function",
+      "name": "isWebPlugin",
+      "filePath": "portal-impl/src/com/liferay/portal/deploy/auto/PluginAutoDeployListenerHelper.java",
+      "lineRange": [
+        174,
+        186
+      ],
+      "summary": "Method isWebPlugin in PluginAutoDeployListenerHelper.java.",
+      "tags": [
+        "method"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:portal-impl/src/com/liferay/portal/deploy/auto/PortletAutoDeployListener.java",
+      "type": "file",
+      "name": "PortletAutoDeployListener.java",
+      "filePath": "portal-impl/src/com/liferay/portal/deploy/auto/PortletAutoDeployListener.java",
+      "summary": "Auto-deploy listener that detects portlet plugin directories for deployment.",
+      "tags": [
+        "deployment",
+        "auto-deploy",
+        "portlet"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "class:portal-impl/src/com/liferay/portal/deploy/auto/PortletAutoDeployListener.java:PortletAutoDeployListener",
+      "type": "class",
+      "name": "PortletAutoDeployListener",
+      "filePath": "portal-impl/src/com/liferay/portal/deploy/auto/PortletAutoDeployListener.java",
+      "lineRange": [
+        23,
+        87
+      ],
+      "summary": "Class PortletAutoDeployListener in PortletAutoDeployListener.java.",
+      "tags": [
+        "class"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:portal-impl/src/com/liferay/portal/deploy/auto/PortletAutoDeployListener.java:buildAutoDeployer",
+      "type": "function",
+      "name": "buildAutoDeployer",
+      "filePath": "portal-impl/src/com/liferay/portal/deploy/auto/PortletAutoDeployListener.java",
+      "lineRange": [
+        25,
+        40
+      ],
+      "summary": "Method buildAutoDeployer in PortletAutoDeployListener.java.",
+      "tags": [
+        "method"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:portal-impl/src/com/liferay/portal/deploy/auto/PortletAutoDeployListener.java:isDeployable",
+      "type": "function",
+      "name": "isDeployable",
+      "filePath": "portal-impl/src/com/liferay/portal/deploy/auto/PortletAutoDeployListener.java",
+      "lineRange": [
+        52,
+        80
+      ],
+      "summary": "Method isDeployable in PortletAutoDeployListener.java.",
+      "tags": [
+        "method"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:portal-impl/src/com/liferay/portal/deploy/auto/PortletAutoDeployer.java",
+      "type": "file",
+      "name": "PortletAutoDeployer.java",
+      "filePath": "portal-impl/src/com/liferay/portal/deploy/auto/PortletAutoDeployer.java",
+      "summary": "Handles auto-deployment of portlet plugins, creating proper directory layout and XML configuration.",
+      "tags": [
+        "deployment",
+        "auto-deploy",
+        "portlet"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "class:portal-impl/src/com/liferay/portal/deploy/auto/PortletAutoDeployer.java:PortletAutoDeployer",
+      "type": "class",
+      "name": "PortletAutoDeployer",
+      "filePath": "portal-impl/src/com/liferay/portal/deploy/auto/PortletAutoDeployer.java",
+      "lineRange": [
+        38,
+        209
+      ],
+      "summary": "Handles portlet plugin auto-deployment including directory layout, XML configuration, and classpath setup.",
+      "tags": [
+        "deployment",
+        "portlet",
+        "auto-deploy"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:portal-impl/src/com/liferay/portal/deploy/auto/PortletAutoDeployer.java:PortletAutoDeployer",
+      "type": "function",
+      "name": "PortletAutoDeployer",
+      "filePath": "portal-impl/src/com/liferay/portal/deploy/auto/PortletAutoDeployer.java",
+      "lineRange": [
+        41,
+        71
+      ],
+      "summary": "Method PortletAutoDeployer in PortletAutoDeployer.java.",
+      "tags": [
+        "method"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:portal-impl/src/com/liferay/portal/deploy/auto/PortletAutoDeployer.java:copyXmls",
+      "type": "function",
+      "name": "copyXmls",
+      "filePath": "portal-impl/src/com/liferay/portal/deploy/auto/PortletAutoDeployer.java",
+      "lineRange": [
+        73,
+        82
+      ],
+      "summary": "Method copyXmls in PortletAutoDeployer.java.",
+      "tags": [
+        "method"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:portal-impl/src/com/liferay/portal/deploy/auto/PortletAutoDeployer.java:getExtraContent",
+      "type": "function",
+      "name": "getExtraContent",
+      "filePath": "portal-impl/src/com/liferay/portal/deploy/auto/PortletAutoDeployer.java",
+      "lineRange": [
+        84,
+        111
+      ],
+      "summary": "Method getExtraContent in PortletAutoDeployer.java.",
+      "tags": [
+        "method"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:portal-impl/src/com/liferay/portal/deploy/auto/PortletAutoDeployer.java:getServletContent",
+      "type": "function",
+      "name": "getServletContent",
+      "filePath": "portal-impl/src/com/liferay/portal/deploy/auto/PortletAutoDeployer.java",
+      "lineRange": [
+        113,
+        163
+      ],
+      "summary": "Method getServletContent in PortletAutoDeployer.java.",
+      "tags": [
+        "method"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:portal-impl/src/com/liferay/portal/deploy/auto/PortletAutoDeployer.java:updateDeployDirectory",
+      "type": "function",
+      "name": "updateDeployDirectory",
+      "filePath": "portal-impl/src/com/liferay/portal/deploy/auto/PortletAutoDeployer.java",
+      "lineRange": [
+        165,
+        190
+      ],
+      "summary": "Method updateDeployDirectory in PortletAutoDeployer.java.",
+      "tags": [
+        "method"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:portal-impl/src/com/liferay/portal/deploy/auto/PortletAutoDeployer.java:updatePortletXML",
+      "type": "function",
+      "name": "updatePortletXML",
+      "filePath": "portal-impl/src/com/liferay/portal/deploy/auto/PortletAutoDeployer.java",
+      "lineRange": [
+        192,
+        204
+      ],
+      "summary": "Method updatePortletXML in PortletAutoDeployer.java.",
+      "tags": [
+        "method"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:portal-impl/src/com/liferay/portal/deploy/auto/ThemeAutoDeployListener.java",
+      "type": "file",
+      "name": "ThemeAutoDeployListener.java",
+      "filePath": "portal-impl/src/com/liferay/portal/deploy/auto/ThemeAutoDeployListener.java",
+      "summary": "Auto-deploy listener that detects theme plugin directories for deployment.",
+      "tags": [
+        "deployment",
+        "auto-deploy",
+        "theme"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:portal-impl/src/com/liferay/portal/deploy/auto/ThemeAutoDeployListener.java:ThemeAutoDeployListener",
+      "type": "class",
+      "name": "ThemeAutoDeployListener",
+      "filePath": "portal-impl/src/com/liferay/portal/deploy/auto/ThemeAutoDeployListener.java",
+      "lineRange": [
+        19,
+        44
+      ],
+      "summary": "Class ThemeAutoDeployListener in ThemeAutoDeployListener.java.",
+      "tags": [
+        "class"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:portal-impl/src/com/liferay/portal/deploy/auto/ThemeAutoDeployer.java",
+      "type": "file",
+      "name": "ThemeAutoDeployer.java",
+      "filePath": "portal-impl/src/com/liferay/portal/deploy/auto/ThemeAutoDeployer.java",
+      "summary": "Handles auto-deployment of theme plugins, setting up theme directory structure.",
+      "tags": [
+        "deployment",
+        "auto-deploy",
+        "theme"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "class:portal-impl/src/com/liferay/portal/deploy/auto/ThemeAutoDeployer.java:ThemeAutoDeployer",
+      "type": "class",
+      "name": "ThemeAutoDeployer",
+      "filePath": "portal-impl/src/com/liferay/portal/deploy/auto/ThemeAutoDeployer.java",
+      "lineRange": [
+        28,
+        128
+      ],
+      "summary": "Manages theme auto-deployment by creating proper theme directory structure.",
+      "tags": [
+        "deployment",
+        "theme",
+        "auto-deploy"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:portal-impl/src/com/liferay/portal/deploy/auto/ThemeAutoDeployer.java:ThemeAutoDeployer",
+      "type": "function",
+      "name": "ThemeAutoDeployer",
+      "filePath": "portal-impl/src/com/liferay/portal/deploy/auto/ThemeAutoDeployer.java",
+      "lineRange": [
+        31,
+        54
+      ],
+      "summary": "Method ThemeAutoDeployer in ThemeAutoDeployer.java.",
+      "tags": [
+        "method"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:portal-impl/src/com/liferay/portal/deploy/auto/ThemeAutoDeployer.java:autoDeploy",
+      "type": "function",
+      "name": "autoDeploy",
+      "filePath": "portal-impl/src/com/liferay/portal/deploy/auto/ThemeAutoDeployer.java",
+      "lineRange": [
+        56,
+        87
+      ],
+      "summary": "Method autoDeploy in ThemeAutoDeployer.java.",
+      "tags": [
+        "method"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:portal-impl/src/com/liferay/portal/deploy/auto/ThemeAutoDeployer.java:processPluginPackageProperties",
+      "type": "function",
+      "name": "processPluginPackageProperties",
+      "filePath": "portal-impl/src/com/liferay/portal/deploy/auto/ThemeAutoDeployer.java",
+      "lineRange": [
+        89,
+        123
+      ],
+      "summary": "Method processPluginPackageProperties in ThemeAutoDeployer.java.",
+      "tags": [
+        "method"
+      ],
+      "complexity": "moderate"
+    }
+  ],
+  "edges": [
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/deploy/auto/LayoutTemplateAutoDeployListener.java",
+      "target": "class:portal-impl/src/com/liferay/portal/deploy/auto/LayoutTemplateAutoDeployListener.java:LayoutTemplateAutoDeployListener",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/deploy/auto/LayoutTemplateAutoDeployListener.java",
+      "target": "class:portal-impl/src/com/liferay/portal/deploy/auto/LayoutTemplateAutoDeployListener.java:LayoutTemplateAutoDeployListener",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/deploy/auto/LayoutTemplateAutoDeployListener.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/deploy/auto/AutoDeployer.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/deploy/auto/LayoutTemplateAutoDeployListener.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/deploy/auto/AutoDeployException.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/deploy/auto/LayoutTemplateAutoDeployListener.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/deploy/auto/BaseAutoDeployListener.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/deploy/auto/LayoutTemplateAutoDeployListener.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/model/Plugin.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/deploy/auto/MVCPortletAutoDeployer.java",
+      "target": "class:portal-impl/src/com/liferay/portal/deploy/auto/MVCPortletAutoDeployer.java:MVCPortletAutoDeployer",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/deploy/auto/MVCPortletAutoDeployer.java",
+      "target": "class:portal-impl/src/com/liferay/portal/deploy/auto/MVCPortletAutoDeployer.java:MVCPortletAutoDeployer",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/deploy/auto/MVCPortletAutoDeployer.java",
+      "target": "function:portal-impl/src/com/liferay/portal/deploy/auto/MVCPortletAutoDeployer.java:copyXmls",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/deploy/auto/MVCPortletAutoDeployer.java",
+      "target": "function:portal-impl/src/com/liferay/portal/deploy/auto/MVCPortletAutoDeployer.java:copyXmls",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/deploy/auto/MVCPortletAutoDeployer.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/plugin/PluginPackage.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/deploy/auto/MVCPortletAutoDeployer.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/util/HashMapBuilder.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/deploy/auto/PluginAutoDeployListenerHelper.java",
+      "target": "class:portal-impl/src/com/liferay/portal/deploy/auto/PluginAutoDeployListenerHelper.java:PluginAutoDeployListenerHelper",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/deploy/auto/PluginAutoDeployListenerHelper.java",
+      "target": "class:portal-impl/src/com/liferay/portal/deploy/auto/PluginAutoDeployListenerHelper.java:PluginAutoDeployListenerHelper",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/deploy/auto/PluginAutoDeployListenerHelper.java",
+      "target": "function:portal-impl/src/com/liferay/portal/deploy/auto/PluginAutoDeployListenerHelper.java:isHookPlugin",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/deploy/auto/PluginAutoDeployListenerHelper.java",
+      "target": "function:portal-impl/src/com/liferay/portal/deploy/auto/PluginAutoDeployListenerHelper.java:isHookPlugin",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/deploy/auto/PluginAutoDeployListenerHelper.java",
+      "target": "function:portal-impl/src/com/liferay/portal/deploy/auto/PluginAutoDeployListenerHelper.java:isMatchingFile",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/deploy/auto/PluginAutoDeployListenerHelper.java",
+      "target": "function:portal-impl/src/com/liferay/portal/deploy/auto/PluginAutoDeployListenerHelper.java:isMatchingFile",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/deploy/auto/PluginAutoDeployListenerHelper.java",
+      "target": "function:portal-impl/src/com/liferay/portal/deploy/auto/PluginAutoDeployListenerHelper.java:isMatchingFileExtension",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/deploy/auto/PluginAutoDeployListenerHelper.java",
+      "target": "function:portal-impl/src/com/liferay/portal/deploy/auto/PluginAutoDeployListenerHelper.java:isMatchingFileExtension",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/deploy/auto/PluginAutoDeployListenerHelper.java",
+      "target": "function:portal-impl/src/com/liferay/portal/deploy/auto/PluginAutoDeployListenerHelper.java:isPortletPlugin",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/deploy/auto/PluginAutoDeployListenerHelper.java",
+      "target": "function:portal-impl/src/com/liferay/portal/deploy/auto/PluginAutoDeployListenerHelper.java:isPortletPlugin",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/deploy/auto/PluginAutoDeployListenerHelper.java",
+      "target": "function:portal-impl/src/com/liferay/portal/deploy/auto/PluginAutoDeployListenerHelper.java:isThemePlugin",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/deploy/auto/PluginAutoDeployListenerHelper.java",
+      "target": "function:portal-impl/src/com/liferay/portal/deploy/auto/PluginAutoDeployListenerHelper.java:isThemePlugin",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/deploy/auto/PluginAutoDeployListenerHelper.java",
+      "target": "function:portal-impl/src/com/liferay/portal/deploy/auto/PluginAutoDeployListenerHelper.java:isWebPlugin",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/deploy/auto/PluginAutoDeployListenerHelper.java",
+      "target": "function:portal-impl/src/com/liferay/portal/deploy/auto/PluginAutoDeployListenerHelper.java:isWebPlugin",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/deploy/auto/PluginAutoDeployListenerHelper.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/deploy/auto/AutoDeployException.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/deploy/auto/PluginAutoDeployListenerHelper.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/log/Log.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/deploy/auto/PluginAutoDeployListenerHelper.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/log/LogFactoryUtil.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/deploy/auto/PluginAutoDeployListenerHelper.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/util/Portal.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/deploy/auto/PluginAutoDeployListenerHelper.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/util/StringUtil.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/deploy/auto/PortletAutoDeployListener.java",
+      "target": "class:portal-impl/src/com/liferay/portal/deploy/auto/PortletAutoDeployListener.java:PortletAutoDeployListener",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/deploy/auto/PortletAutoDeployListener.java",
+      "target": "class:portal-impl/src/com/liferay/portal/deploy/auto/PortletAutoDeployListener.java:PortletAutoDeployListener",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/deploy/auto/PortletAutoDeployListener.java",
+      "target": "function:portal-impl/src/com/liferay/portal/deploy/auto/PortletAutoDeployListener.java:buildAutoDeployer",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/deploy/auto/PortletAutoDeployListener.java",
+      "target": "function:portal-impl/src/com/liferay/portal/deploy/auto/PortletAutoDeployListener.java:isDeployable",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/deploy/auto/PortletAutoDeployListener.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/deploy/auto/AutoDeployer.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/deploy/auto/PortletAutoDeployListener.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/deploy/auto/AutoDeployException.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/deploy/auto/PortletAutoDeployListener.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/deploy/auto/BaseAutoDeployListener.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/deploy/auto/PortletAutoDeployListener.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/log/Log.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/deploy/auto/PortletAutoDeployListener.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/log/LogFactoryUtil.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/deploy/auto/PortletAutoDeployer.java",
+      "target": "class:portal-impl/src/com/liferay/portal/deploy/auto/PortletAutoDeployer.java:PortletAutoDeployer",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/deploy/auto/PortletAutoDeployer.java",
+      "target": "class:portal-impl/src/com/liferay/portal/deploy/auto/PortletAutoDeployer.java:PortletAutoDeployer",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/deploy/auto/PortletAutoDeployer.java",
+      "target": "function:portal-impl/src/com/liferay/portal/deploy/auto/PortletAutoDeployer.java:PortletAutoDeployer",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/deploy/auto/PortletAutoDeployer.java",
+      "target": "function:portal-impl/src/com/liferay/portal/deploy/auto/PortletAutoDeployer.java:PortletAutoDeployer",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/deploy/auto/PortletAutoDeployer.java",
+      "target": "function:portal-impl/src/com/liferay/portal/deploy/auto/PortletAutoDeployer.java:copyXmls",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/deploy/auto/PortletAutoDeployer.java",
+      "target": "function:portal-impl/src/com/liferay/portal/deploy/auto/PortletAutoDeployer.java:copyXmls",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/deploy/auto/PortletAutoDeployer.java",
+      "target": "function:portal-impl/src/com/liferay/portal/deploy/auto/PortletAutoDeployer.java:getExtraContent",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/deploy/auto/PortletAutoDeployer.java",
+      "target": "function:portal-impl/src/com/liferay/portal/deploy/auto/PortletAutoDeployer.java:getExtraContent",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/deploy/auto/PortletAutoDeployer.java",
+      "target": "function:portal-impl/src/com/liferay/portal/deploy/auto/PortletAutoDeployer.java:getServletContent",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/deploy/auto/PortletAutoDeployer.java",
+      "target": "function:portal-impl/src/com/liferay/portal/deploy/auto/PortletAutoDeployer.java:getServletContent",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/deploy/auto/PortletAutoDeployer.java",
+      "target": "function:portal-impl/src/com/liferay/portal/deploy/auto/PortletAutoDeployer.java:updateDeployDirectory",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/deploy/auto/PortletAutoDeployer.java",
+      "target": "function:portal-impl/src/com/liferay/portal/deploy/auto/PortletAutoDeployer.java:updateDeployDirectory",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/deploy/auto/PortletAutoDeployer.java",
+      "target": "function:portal-impl/src/com/liferay/portal/deploy/auto/PortletAutoDeployer.java:updatePortletXML",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/deploy/auto/PortletAutoDeployer.java",
+      "target": "function:portal-impl/src/com/liferay/portal/deploy/auto/PortletAutoDeployer.java:updatePortletXML",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/deploy/auto/PortletAutoDeployer.java",
+      "target": "file:portal-impl/src/com/liferay/portal/deploy/DeployUtil.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/deploy/auto/PortletAutoDeployer.java",
+      "target": "file:portal-impl/src/com/liferay/portal/util/PropsValues.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/deploy/auto/PortletAutoDeployer.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/deploy/auto/AutoDeployer.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/deploy/auto/PortletAutoDeployer.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/log/Log.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/deploy/auto/PortletAutoDeployer.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/log/LogFactoryUtil.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/deploy/auto/PortletAutoDeployer.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/model/Plugin.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/deploy/auto/PortletAutoDeployer.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/plugin/PluginPackage.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/deploy/auto/PortletAutoDeployer.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/portlet/bridges/mvc/MVCPortlet.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/deploy/auto/PortletAutoDeployer.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/util/FileUtil.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/deploy/auto/PortletAutoDeployer.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/util/GetterUtil.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/deploy/auto/PortletAutoDeployer.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/util/Portal.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/deploy/auto/PortletAutoDeployer.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/util/PortalUtil.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/deploy/auto/PortletAutoDeployer.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/util/ServerDetector.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/deploy/auto/PortletAutoDeployer.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/util/StringUtil.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/deploy/auto/PortletAutoDeployer.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/util/Validator.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/deploy/auto/PortletAutoDeployer.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/xml/Document.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/deploy/auto/PortletAutoDeployer.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/xml/Element.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/deploy/auto/PortletAutoDeployer.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/xml/UnsecureSAXReaderUtil.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/deploy/auto/ThemeAutoDeployListener.java",
+      "target": "class:portal-impl/src/com/liferay/portal/deploy/auto/ThemeAutoDeployListener.java:ThemeAutoDeployListener",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/deploy/auto/ThemeAutoDeployListener.java",
+      "target": "class:portal-impl/src/com/liferay/portal/deploy/auto/ThemeAutoDeployListener.java:ThemeAutoDeployListener",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/deploy/auto/ThemeAutoDeployListener.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/deploy/auto/AutoDeployer.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/deploy/auto/ThemeAutoDeployListener.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/deploy/auto/AutoDeployException.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/deploy/auto/ThemeAutoDeployListener.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/deploy/auto/BaseAutoDeployListener.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/deploy/auto/ThemeAutoDeployer.java",
+      "target": "class:portal-impl/src/com/liferay/portal/deploy/auto/ThemeAutoDeployer.java:ThemeAutoDeployer",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/deploy/auto/ThemeAutoDeployer.java",
+      "target": "class:portal-impl/src/com/liferay/portal/deploy/auto/ThemeAutoDeployer.java:ThemeAutoDeployer",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/deploy/auto/ThemeAutoDeployer.java",
+      "target": "function:portal-impl/src/com/liferay/portal/deploy/auto/ThemeAutoDeployer.java:ThemeAutoDeployer",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/deploy/auto/ThemeAutoDeployer.java",
+      "target": "function:portal-impl/src/com/liferay/portal/deploy/auto/ThemeAutoDeployer.java:ThemeAutoDeployer",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/deploy/auto/ThemeAutoDeployer.java",
+      "target": "function:portal-impl/src/com/liferay/portal/deploy/auto/ThemeAutoDeployer.java:autoDeploy",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/deploy/auto/ThemeAutoDeployer.java",
+      "target": "function:portal-impl/src/com/liferay/portal/deploy/auto/ThemeAutoDeployer.java:autoDeploy",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/deploy/auto/ThemeAutoDeployer.java",
+      "target": "function:portal-impl/src/com/liferay/portal/deploy/auto/ThemeAutoDeployer.java:processPluginPackageProperties",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/deploy/auto/ThemeAutoDeployer.java",
+      "target": "function:portal-impl/src/com/liferay/portal/deploy/auto/ThemeAutoDeployer.java:processPluginPackageProperties",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/deploy/auto/ThemeAutoDeployer.java",
+      "target": "file:portal-impl/src/com/liferay/portal/deploy/DeployUtil.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/deploy/auto/ThemeAutoDeployer.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/deploy/auto/AutoDeployer.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/deploy/auto/ThemeAutoDeployer.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/deploy/auto/AutoDeployException.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/deploy/auto/ThemeAutoDeployer.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/deploy/auto/context/AutoDeploymentContext.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/deploy/auto/ThemeAutoDeployer.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/log/Log.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/deploy/auto/ThemeAutoDeployer.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/log/LogFactoryUtil.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/deploy/auto/ThemeAutoDeployer.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/model/Plugin.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/deploy/auto/ThemeAutoDeployer.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/plugin/PluginPackage.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/deploy/auto/ThemeAutoDeployer.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/util/StringUtil.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/deploy/auto/ThemeAutoDeployer.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/util/Validator.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    }
+  ]
+}

@@ -1,0 +1,2341 @@
+{
+  "nodes": [
+    {
+      "id": "file:portal-impl/src/com/liferay/portal/deploy/auto/WebAutoDeployListener.java",
+      "type": "file",
+      "name": "WebAutoDeployListener.java",
+      "filePath": "portal-impl/src/com/liferay/portal/deploy/auto/WebAutoDeployListener.java",
+      "summary": "Auto-deploy listener that detects web application plugin directories for deployment.",
+      "tags": [
+        "deployment",
+        "auto-deploy",
+        "web"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:portal-impl/src/com/liferay/portal/deploy/auto/WebAutoDeployListener.java:WebAutoDeployListener",
+      "type": "class",
+      "name": "WebAutoDeployListener",
+      "filePath": "portal-impl/src/com/liferay/portal/deploy/auto/WebAutoDeployListener.java",
+      "lineRange": [
+        19,
+        44
+      ],
+      "summary": "Class WebAutoDeployListener in WebAutoDeployListener.java.",
+      "tags": [
+        "class"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:portal-impl/src/com/liferay/portal/deploy/hot/CustomJspBag.java",
+      "type": "file",
+      "name": "CustomJspBag.java",
+      "filePath": "portal-impl/src/com/liferay/portal/deploy/hot/CustomJspBag.java",
+      "summary": "Interface defining custom JSP bag contract for hook-based JSP overrides.",
+      "tags": [
+        "deployment",
+        "interface",
+        "jsp"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:portal-impl/src/com/liferay/portal/deploy/hot/CustomJspBag.java:CustomJspBag",
+      "type": "class",
+      "name": "CustomJspBag",
+      "filePath": "portal-impl/src/com/liferay/portal/deploy/hot/CustomJspBag.java",
+      "lineRange": [
+        16,
+        26
+      ],
+      "summary": "Class CustomJspBag in CustomJspBag.java.",
+      "tags": [
+        "class"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:portal-impl/src/com/liferay/portal/deploy/hot/CustomJspBagImpl.java",
+      "type": "file",
+      "name": "CustomJspBagImpl.java",
+      "filePath": "portal-impl/src/com/liferay/portal/deploy/hot/CustomJspBagImpl.java",
+      "summary": "Interface defining custom JSP bag contract for hook-based JSP overrides.",
+      "tags": [
+        "deployment",
+        "interface",
+        "jsp"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:portal-impl/src/com/liferay/portal/deploy/hot/CustomJspBagImpl.java:CustomJspBagImpl",
+      "type": "class",
+      "name": "CustomJspBagImpl",
+      "filePath": "portal-impl/src/com/liferay/portal/deploy/hot/CustomJspBagImpl.java",
+      "lineRange": [
+        17,
+        53
+      ],
+      "summary": "Custom JSP bag implementation storing JSP override entries with priority ordering from hook descriptors.",
+      "tags": [
+        "deployment",
+        "jsp",
+        "implementation"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:portal-impl/src/com/liferay/portal/deploy/hot/CustomJspBagRegistryUtil.java",
+      "type": "file",
+      "name": "CustomJspBagRegistryUtil.java",
+      "filePath": "portal-impl/src/com/liferay/portal/deploy/hot/CustomJspBagRegistryUtil.java",
+      "summary": "Interface defining custom JSP bag contract for hook-based JSP overrides.",
+      "tags": [
+        "deployment",
+        "interface",
+        "jsp"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "class:portal-impl/src/com/liferay/portal/deploy/hot/CustomJspBagRegistryUtil.java:CustomJspBagRegistryUtil",
+      "type": "class",
+      "name": "CustomJspBagRegistryUtil",
+      "filePath": "portal-impl/src/com/liferay/portal/deploy/hot/CustomJspBagRegistryUtil.java",
+      "lineRange": [
+        49,
+        430
+      ],
+      "summary": "OSGi-managed registry tracking CustomJspBag services and resolving JSP override conflicts.",
+      "tags": [
+        "registry",
+        "osgi",
+        "jsp"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:portal-impl/src/com/liferay/portal/deploy/hot/CustomJspBagRegistryUtil.java:getCustomJsps",
+      "type": "function",
+      "name": "getCustomJsps",
+      "filePath": "portal-impl/src/com/liferay/portal/deploy/hot/CustomJspBagRegistryUtil.java",
+      "lineRange": [
+        66,
+        89
+      ],
+      "summary": "Method getCustomJsps in CustomJspBagRegistryUtil.java.",
+      "tags": [
+        "method"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:portal-impl/src/com/liferay/portal/deploy/hot/CustomJspBagRegistryUtil.java:getPortalJsp",
+      "type": "function",
+      "name": "getPortalJsp",
+      "filePath": "portal-impl/src/com/liferay/portal/deploy/hot/CustomJspBagRegistryUtil.java",
+      "lineRange": [
+        91,
+        101
+      ],
+      "summary": "Method getPortalJsp in CustomJspBagRegistryUtil.java.",
+      "tags": [
+        "method"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:portal-impl/src/com/liferay/portal/deploy/hot/CustomJspBagRegistryUtil.java:getPortalJspBackupFile",
+      "type": "function",
+      "name": "getPortalJspBackupFile",
+      "filePath": "portal-impl/src/com/liferay/portal/deploy/hot/CustomJspBagRegistryUtil.java",
+      "lineRange": [
+        103,
+        123
+      ],
+      "summary": "Method getPortalJspBackupFile in CustomJspBagRegistryUtil.java.",
+      "tags": [
+        "method"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:portal-impl/src/com/liferay/portal/deploy/hot/CustomJspBagRegistryUtil.java:initCustomJspBag",
+      "type": "function",
+      "name": "initCustomJspBag",
+      "filePath": "portal-impl/src/com/liferay/portal/deploy/hot/CustomJspBagRegistryUtil.java",
+      "lineRange": [
+        125,
+        166
+      ],
+      "summary": "Method initCustomJspBag in CustomJspBagRegistryUtil.java.",
+      "tags": [
+        "method"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:portal-impl/src/com/liferay/portal/deploy/hot/CustomJspBagRegistryUtil.java:verifyCustomJsps",
+      "type": "function",
+      "name": "verifyCustomJsps",
+      "filePath": "portal-impl/src/com/liferay/portal/deploy/hot/CustomJspBagRegistryUtil.java",
+      "lineRange": [
+        168,
+        244
+      ],
+      "summary": "Method verifyCustomJsps in CustomJspBagRegistryUtil.java.",
+      "tags": [
+        "method"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:portal-impl/src/com/liferay/portal/deploy/hot/DuplicateCustomJspException.java",
+      "type": "file",
+      "name": "DuplicateCustomJspException.java",
+      "filePath": "portal-impl/src/com/liferay/portal/deploy/hot/DuplicateCustomJspException.java",
+      "summary": "Exception thrown when multiple hooks provide conflicting custom JSP overrides.",
+      "tags": [
+        "deployment",
+        "exception",
+        "jsp"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:portal-impl/src/com/liferay/portal/deploy/hot/DuplicateCustomJspException.java:DuplicateCustomJspException",
+      "type": "class",
+      "name": "DuplicateCustomJspException",
+      "filePath": "portal-impl/src/com/liferay/portal/deploy/hot/DuplicateCustomJspException.java",
+      "lineRange": [
+        13,
+        30
+      ],
+      "summary": "Exception signaling conflicting custom JSP overrides from multiple hook plugins.",
+      "tags": [
+        "exception",
+        "jsp",
+        "conflict"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:portal-impl/src/com/liferay/portal/deploy/hot/HookHotDeployListener.java",
+      "type": "file",
+      "name": "HookHotDeployListener.java",
+      "filePath": "portal-impl/src/com/liferay/portal/deploy/hot/HookHotDeployListener.java",
+      "summary": "Hot deploy listener that processes hook plugins, registering custom JSPs, portal properties, language properties, services, and servlet filters.",
+      "tags": [
+        "deployment",
+        "hot-deploy",
+        "hook"
+      ],
+      "complexity": "complex",
+      "languageNotes": "Java utility class with many private helper methods for complex processing."
+    },
+    {
+      "id": "class:portal-impl/src/com/liferay/portal/deploy/hot/HookHotDeployListener.java:HookHotDeployListener",
+      "type": "class",
+      "name": "HookHotDeployListener",
+      "filePath": "portal-impl/src/com/liferay/portal/deploy/hot/HookHotDeployListener.java",
+      "lineRange": [
+        144,
+        2379
+      ],
+      "summary": "Handles hot deployment of hook plugins, registering custom JSPs, properties, services, language entries, and servlet filters with proper ordering.",
+      "tags": [
+        "deployment",
+        "listener",
+        "hook"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "function:portal-impl/src/com/liferay/portal/deploy/hot/HookHotDeployListener.java:HookHotDeployListener",
+      "type": "function",
+      "name": "HookHotDeployListener",
+      "filePath": "portal-impl/src/com/liferay/portal/deploy/hot/HookHotDeployListener.java",
+      "lineRange": [
+        226,
+        236
+      ],
+      "summary": "Method HookHotDeployListener in HookHotDeployListener.java.",
+      "tags": [
+        "method"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:portal-impl/src/com/liferay/portal/deploy/hot/HookHotDeployListener.java:invokeDeploy",
+      "type": "function",
+      "name": "invokeDeploy",
+      "filePath": "portal-impl/src/com/liferay/portal/deploy/hot/HookHotDeployListener.java",
+      "lineRange": [
+        238,
+        249
+      ],
+      "summary": "Method invokeDeploy in HookHotDeployListener.java.",
+      "tags": [
+        "method"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:portal-impl/src/com/liferay/portal/deploy/hot/HookHotDeployListener.java:invokeUndeploy",
+      "type": "function",
+      "name": "invokeUndeploy",
+      "filePath": "portal-impl/src/com/liferay/portal/deploy/hot/HookHotDeployListener.java",
+      "lineRange": [
+        251,
+        262
+      ],
+      "summary": "Method invokeUndeploy in HookHotDeployListener.java.",
+      "tags": [
+        "method"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:portal-impl/src/com/liferay/portal/deploy/hot/HookHotDeployListener.java:registerService",
+      "type": "function",
+      "name": "registerService",
+      "filePath": "portal-impl/src/com/liferay/portal/deploy/hot/HookHotDeployListener.java",
+      "lineRange": [
+        264,
+        281
+      ],
+      "summary": "Method registerService in HookHotDeployListener.java.",
+      "tags": [
+        "method"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:portal-impl/src/com/liferay/portal/deploy/hot/HookHotDeployListener.java:registerService",
+      "type": "function",
+      "name": "registerService",
+      "filePath": "portal-impl/src/com/liferay/portal/deploy/hot/HookHotDeployListener.java",
+      "lineRange": [
+        283,
+        304
+      ],
+      "summary": "Method registerService in HookHotDeployListener.java.",
+      "tags": [
+        "method"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:portal-impl/src/com/liferay/portal/deploy/hot/HookHotDeployListener.java:destroyPortalProperties",
+      "type": "function",
+      "name": "destroyPortalProperties",
+      "filePath": "portal-impl/src/com/liferay/portal/deploy/hot/HookHotDeployListener.java",
+      "lineRange": [
+        328,
+        368
+      ],
+      "summary": "Method destroyPortalProperties in HookHotDeployListener.java.",
+      "tags": [
+        "method"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:portal-impl/src/com/liferay/portal/deploy/hot/HookHotDeployListener.java:doInvokeDeploy",
+      "type": "function",
+      "name": "doInvokeDeploy",
+      "filePath": "portal-impl/src/com/liferay/portal/deploy/hot/HookHotDeployListener.java",
+      "lineRange": [
+        370,
+        468
+      ],
+      "summary": "Executes the actual deploy/undeploy logic for the plugin type.",
+      "tags": [
+        "deployment",
+        "lifecycle"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "function:portal-impl/src/com/liferay/portal/deploy/hot/HookHotDeployListener.java:doInvokeUndeploy",
+      "type": "function",
+      "name": "doInvokeUndeploy",
+      "filePath": "portal-impl/src/com/liferay/portal/deploy/hot/HookHotDeployListener.java",
+      "lineRange": [
+        470,
+        515
+      ],
+      "summary": "Executes the actual deploy/undeploy logic for the plugin type.",
+      "tags": [
+        "deployment",
+        "lifecycle"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "function:portal-impl/src/com/liferay/portal/deploy/hot/HookHotDeployListener.java:getLocale",
+      "type": "function",
+      "name": "getLocale",
+      "filePath": "portal-impl/src/com/liferay/portal/deploy/hot/HookHotDeployListener.java",
+      "lineRange": [
+        517,
+        534
+      ],
+      "summary": "Method getLocale in HookHotDeployListener.java.",
+      "tags": [
+        "method"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:portal-impl/src/com/liferay/portal/deploy/hot/HookHotDeployListener.java:getPersistence",
+      "type": "function",
+      "name": "getPersistence",
+      "filePath": "portal-impl/src/com/liferay/portal/deploy/hot/HookHotDeployListener.java",
+      "lineRange": [
+        536,
+        561
+      ],
+      "summary": "Method getPersistence in HookHotDeployListener.java.",
+      "tags": [
+        "method"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:portal-impl/src/com/liferay/portal/deploy/hot/HookHotDeployListener.java:getServiceRegistrations",
+      "type": "function",
+      "name": "getServiceRegistrations",
+      "filePath": "portal-impl/src/com/liferay/portal/deploy/hot/HookHotDeployListener.java",
+      "lineRange": [
+        563,
+        576
+      ],
+      "summary": "Method getServiceRegistrations in HookHotDeployListener.java.",
+      "tags": [
+        "method"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:portal-impl/src/com/liferay/portal/deploy/hot/HookHotDeployListener.java:initAuthenticators",
+      "type": "function",
+      "name": "initAuthenticators",
+      "filePath": "portal-impl/src/com/liferay/portal/deploy/hot/HookHotDeployListener.java",
+      "lineRange": [
+        578,
+        589
+      ],
+      "summary": "Method initAuthenticators in HookHotDeployListener.java.",
+      "tags": [
+        "method"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:portal-impl/src/com/liferay/portal/deploy/hot/HookHotDeployListener.java:initAuthenticators",
+      "type": "function",
+      "name": "initAuthenticators",
+      "filePath": "portal-impl/src/com/liferay/portal/deploy/hot/HookHotDeployListener.java",
+      "lineRange": [
+        591,
+        608
+      ],
+      "summary": "Method initAuthenticators in HookHotDeployListener.java.",
+      "tags": [
+        "method"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:portal-impl/src/com/liferay/portal/deploy/hot/HookHotDeployListener.java:initAuthFailures",
+      "type": "function",
+      "name": "initAuthFailures",
+      "filePath": "portal-impl/src/com/liferay/portal/deploy/hot/HookHotDeployListener.java",
+      "lineRange": [
+        610,
+        621
+      ],
+      "summary": "Method initAuthFailures in HookHotDeployListener.java.",
+      "tags": [
+        "method"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:portal-impl/src/com/liferay/portal/deploy/hot/HookHotDeployListener.java:initAuthFailures",
+      "type": "function",
+      "name": "initAuthFailures",
+      "filePath": "portal-impl/src/com/liferay/portal/deploy/hot/HookHotDeployListener.java",
+      "lineRange": [
+        623,
+        639
+      ],
+      "summary": "Method initAuthFailures in HookHotDeployListener.java.",
+      "tags": [
+        "method"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:portal-impl/src/com/liferay/portal/deploy/hot/HookHotDeployListener.java:initAuthPublicPaths",
+      "type": "function",
+      "name": "initAuthPublicPaths",
+      "filePath": "portal-impl/src/com/liferay/portal/deploy/hot/HookHotDeployListener.java",
+      "lineRange": [
+        641,
+        653
+      ],
+      "summary": "Method initAuthPublicPaths in HookHotDeployListener.java.",
+      "tags": [
+        "method"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:portal-impl/src/com/liferay/portal/deploy/hot/HookHotDeployListener.java:initAuthVerifiers",
+      "type": "function",
+      "name": "initAuthVerifiers",
+      "filePath": "portal-impl/src/com/liferay/portal/deploy/hot/HookHotDeployListener.java",
+      "lineRange": [
+        655,
+        677
+      ],
+      "summary": "Method initAuthVerifiers in HookHotDeployListener.java.",
+      "tags": [
+        "method"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:portal-impl/src/com/liferay/portal/deploy/hot/HookHotDeployListener.java:initAutoDeployListeners",
+      "type": "function",
+      "name": "initAutoDeployListeners",
+      "filePath": "portal-impl/src/com/liferay/portal/deploy/hot/HookHotDeployListener.java",
+      "lineRange": [
+        679,
+        703
+      ],
+      "summary": "Method initAutoDeployListeners in HookHotDeployListener.java.",
+      "tags": [
+        "method"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:portal-impl/src/com/liferay/portal/deploy/hot/HookHotDeployListener.java:initAutoLogins",
+      "type": "function",
+      "name": "initAutoLogins",
+      "filePath": "portal-impl/src/com/liferay/portal/deploy/hot/HookHotDeployListener.java",
+      "lineRange": [
+        705,
+        721
+      ],
+      "summary": "Method initAutoLogins in HookHotDeployListener.java.",
+      "tags": [
+        "method"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:portal-impl/src/com/liferay/portal/deploy/hot/HookHotDeployListener.java:initCustomJspDir",
+      "type": "function",
+      "name": "initCustomJspDir",
+      "filePath": "portal-impl/src/com/liferay/portal/deploy/hot/HookHotDeployListener.java",
+      "lineRange": [
+        723,
+        750
+      ],
+      "summary": "Method initCustomJspDir in HookHotDeployListener.java.",
+      "tags": [
+        "method"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:portal-impl/src/com/liferay/portal/deploy/hot/HookHotDeployListener.java:initEvent",
+      "type": "function",
+      "name": "initEvent",
+      "filePath": "portal-impl/src/com/liferay/portal/deploy/hot/HookHotDeployListener.java",
+      "lineRange": [
+        752,
+        792
+      ],
+      "summary": "Method initEvent in HookHotDeployListener.java.",
+      "tags": [
+        "method"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:portal-impl/src/com/liferay/portal/deploy/hot/HookHotDeployListener.java:initEvents",
+      "type": "function",
+      "name": "initEvents",
+      "filePath": "portal-impl/src/com/liferay/portal/deploy/hot/HookHotDeployListener.java",
+      "lineRange": [
+        794,
+        819
+      ],
+      "summary": "Method initEvents in HookHotDeployListener.java.",
+      "tags": [
+        "method"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:portal-impl/src/com/liferay/portal/deploy/hot/HookHotDeployListener.java:initFormNavigatorEntries",
+      "type": "function",
+      "name": "initFormNavigatorEntries",
+      "filePath": "portal-impl/src/com/liferay/portal/deploy/hot/HookHotDeployListener.java",
+      "lineRange": [
+        821,
+        976
+      ],
+      "summary": "Method initFormNavigatorEntries in HookHotDeployListener.java.",
+      "tags": [
+        "method"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:portal-impl/src/com/liferay/portal/deploy/hot/HookHotDeployListener.java:initFormNavigatorEntry",
+      "type": "function",
+      "name": "initFormNavigatorEntry",
+      "filePath": "portal-impl/src/com/liferay/portal/deploy/hot/HookHotDeployListener.java",
+      "lineRange": [
+        978,
+        1003
+      ],
+      "summary": "Method initFormNavigatorEntry in HookHotDeployListener.java.",
+      "tags": [
+        "method"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:portal-impl/src/com/liferay/portal/deploy/hot/HookHotDeployListener.java:initHotDeployListeners",
+      "type": "function",
+      "name": "initHotDeployListeners",
+      "filePath": "portal-impl/src/com/liferay/portal/deploy/hot/HookHotDeployListener.java",
+      "lineRange": [
+        1005,
+        1032
+      ],
+      "summary": "Method initHotDeployListeners in HookHotDeployListener.java.",
+      "tags": [
+        "method"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:portal-impl/src/com/liferay/portal/deploy/hot/HookHotDeployListener.java:initIndexerPostProcessors",
+      "type": "function",
+      "name": "initIndexerPostProcessors",
+      "filePath": "portal-impl/src/com/liferay/portal/deploy/hot/HookHotDeployListener.java",
+      "lineRange": [
+        1034,
+        1061
+      ],
+      "summary": "Method initIndexerPostProcessors in HookHotDeployListener.java.",
+      "tags": [
+        "method"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:portal-impl/src/com/liferay/portal/deploy/hot/HookHotDeployListener.java:initLanguageProperties",
+      "type": "function",
+      "name": "initLanguageProperties",
+      "filePath": "portal-impl/src/com/liferay/portal/deploy/hot/HookHotDeployListener.java",
+      "lineRange": [
+        1063,
+        1104
+      ],
+      "summary": "Method initLanguageProperties in HookHotDeployListener.java.",
+      "tags": [
+        "method"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:portal-impl/src/com/liferay/portal/deploy/hot/HookHotDeployListener.java:initModelListener",
+      "type": "function",
+      "name": "initModelListener",
+      "filePath": "portal-impl/src/com/liferay/portal/deploy/hot/HookHotDeployListener.java",
+      "lineRange": [
+        1106,
+        1117
+      ],
+      "summary": "Method initModelListener in HookHotDeployListener.java.",
+      "tags": [
+        "method"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:portal-impl/src/com/liferay/portal/deploy/hot/HookHotDeployListener.java:initModelListeners",
+      "type": "function",
+      "name": "initModelListeners",
+      "filePath": "portal-impl/src/com/liferay/portal/deploy/hot/HookHotDeployListener.java",
+      "lineRange": [
+        1119,
+        1142
+      ],
+      "summary": "Method initModelListeners in HookHotDeployListener.java.",
+      "tags": [
+        "method"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:portal-impl/src/com/liferay/portal/deploy/hot/HookHotDeployListener.java:initPortalProperties",
+      "type": "function",
+      "name": "initPortalProperties",
+      "filePath": "portal-impl/src/com/liferay/portal/deploy/hot/HookHotDeployListener.java",
+      "lineRange": [
+        1144,
+        1212
+      ],
+      "summary": "Method initPortalProperties in HookHotDeployListener.java.",
+      "tags": [
+        "method"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:portal-impl/src/com/liferay/portal/deploy/hot/HookHotDeployListener.java:initPortalProperties",
+      "type": "function",
+      "name": "initPortalProperties",
+      "filePath": "portal-impl/src/com/liferay/portal/deploy/hot/HookHotDeployListener.java",
+      "lineRange": [
+        1214,
+        1569
+      ],
+      "summary": "Method initPortalProperties in HookHotDeployListener.java.",
+      "tags": [
+        "method"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:portal-impl/src/com/liferay/portal/deploy/hot/HookHotDeployListener.java:updateRelease",
+      "type": "function",
+      "name": "updateRelease",
+      "filePath": "portal-impl/src/com/liferay/portal/deploy/hot/HookHotDeployListener.java",
+      "lineRange": [
+        1571,
+        1588
+      ],
+      "summary": "Method updateRelease in HookHotDeployListener.java.",
+      "tags": [
+        "method"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:portal-impl/src/com/liferay/portal/deploy/hot/HookHotDeployListener.java:updateRelease",
+      "type": "function",
+      "name": "updateRelease",
+      "filePath": "portal-impl/src/com/liferay/portal/deploy/hot/HookHotDeployListener.java",
+      "lineRange": [
+        1590,
+        1630
+      ],
+      "summary": "Method updateRelease in HookHotDeployListener.java.",
+      "tags": [
+        "method"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:portal-impl/src/com/liferay/portal/deploy/hot/HookHotDeployListener.java:initServices",
+      "type": "function",
+      "name": "initServices",
+      "filePath": "portal-impl/src/com/liferay/portal/deploy/hot/HookHotDeployListener.java",
+      "lineRange": [
+        1632,
+        1682
+      ],
+      "summary": "Method initServices in HookHotDeployListener.java.",
+      "tags": [
+        "method"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:portal-impl/src/com/liferay/portal/deploy/hot/HookHotDeployListener.java:initServletFilter",
+      "type": "function",
+      "name": "initServletFilter",
+      "filePath": "portal-impl/src/com/liferay/portal/deploy/hot/HookHotDeployListener.java",
+      "lineRange": [
+        1684,
+        1719
+      ],
+      "summary": "Method initServletFilter in HookHotDeployListener.java.",
+      "tags": [
+        "method"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:portal-impl/src/com/liferay/portal/deploy/hot/HookHotDeployListener.java:initServletFilters",
+      "type": "function",
+      "name": "initServletFilters",
+      "filePath": "portal-impl/src/com/liferay/portal/deploy/hot/HookHotDeployListener.java",
+      "lineRange": [
+        1721,
+        1808
+      ],
+      "summary": "Method initServletFilters in HookHotDeployListener.java.",
+      "tags": [
+        "method"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:portal-impl/src/com/liferay/portal/deploy/hot/HookHotDeployListener.java:initStrutsAction",
+      "type": "function",
+      "name": "initStrutsAction",
+      "filePath": "portal-impl/src/com/liferay/portal/deploy/hot/HookHotDeployListener.java",
+      "lineRange": [
+        1810,
+        1828
+      ],
+      "summary": "Method initStrutsAction in HookHotDeployListener.java.",
+      "tags": [
+        "method"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:portal-impl/src/com/liferay/portal/deploy/hot/HookHotDeployListener.java:initStrutsActions",
+      "type": "function",
+      "name": "initStrutsActions",
+      "filePath": "portal-impl/src/com/liferay/portal/deploy/hot/HookHotDeployListener.java",
+      "lineRange": [
+        1830,
+        1849
+      ],
+      "summary": "Method initStrutsActions in HookHotDeployListener.java.",
+      "tags": [
+        "method"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:portal-impl/src/com/liferay/portal/deploy/hot/HookHotDeployListener.java:initTokensWhitelists",
+      "type": "function",
+      "name": "initTokensWhitelists",
+      "filePath": "portal-impl/src/com/liferay/portal/deploy/hot/HookHotDeployListener.java",
+      "lineRange": [
+        1851,
+        1868
+      ],
+      "summary": "Method initTokensWhitelists in HookHotDeployListener.java.",
+      "tags": [
+        "method"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:portal-impl/src/com/liferay/portal/deploy/hot/HookHotDeployListener.java:resetPortalProperties",
+      "type": "function",
+      "name": "resetPortalProperties",
+      "filePath": "portal-impl/src/com/liferay/portal/deploy/hot/HookHotDeployListener.java",
+      "lineRange": [
+        1874,
+        2017
+      ],
+      "summary": "Method resetPortalProperties in HookHotDeployListener.java.",
+      "tags": [
+        "method"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:portal-impl/src/com/liferay/portal/deploy/hot/HookHotDeployListener.java:resetPortalPropertiesStringArray",
+      "type": "function",
+      "name": "resetPortalPropertiesStringArray",
+      "filePath": "portal-impl/src/com/liferay/portal/deploy/hot/HookHotDeployListener.java",
+      "lineRange": [
+        2019,
+        2046
+      ],
+      "summary": "Method resetPortalPropertiesStringArray in HookHotDeployListener.java.",
+      "tags": [
+        "method"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:portal-impl/src/com/liferay/portal/deploy/hot/HookHotDeployListener.java:resetPortalPropertiesStringArray",
+      "type": "function",
+      "name": "resetPortalPropertiesStringArray",
+      "filePath": "portal-impl/src/com/liferay/portal/deploy/hot/HookHotDeployListener.java",
+      "lineRange": [
+        2048,
+        2099
+      ],
+      "summary": "Method resetPortalPropertiesStringArray in HookHotDeployListener.java.",
+      "tags": [
+        "method"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:portal-impl/src/com/liferay/portal/deploy/hot/HookHotDeployListener.java:_initServices",
+      "type": "function",
+      "name": "_initServices",
+      "filePath": "portal-impl/src/com/liferay/portal/deploy/hot/HookHotDeployListener.java",
+      "lineRange": [
+        2101,
+        2128
+      ],
+      "summary": "Method _initServices in HookHotDeployListener.java.",
+      "tags": [
+        "method"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:portal-impl/src/com/liferay/portal/deploy/hot/LayoutTemplateHotDeployListener.java",
+      "type": "file",
+      "name": "LayoutTemplateHotDeployListener.java",
+      "filePath": "portal-impl/src/com/liferay/portal/deploy/hot/LayoutTemplateHotDeployListener.java",
+      "summary": "Hot deploy listener that registers layout templates from deployed plugins.",
+      "tags": [
+        "deployment",
+        "hot-deploy",
+        "layout-template"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "class:portal-impl/src/com/liferay/portal/deploy/hot/LayoutTemplateHotDeployListener.java:LayoutTemplateHotDeployListener",
+      "type": "class",
+      "name": "LayoutTemplateHotDeployListener",
+      "filePath": "portal-impl/src/com/liferay/portal/deploy/hot/LayoutTemplateHotDeployListener.java",
+      "lineRange": [
+        30,
+        166
+      ],
+      "summary": "Registers layout templates during hot deploy from plugin WARs.",
+      "tags": [
+        "deployment",
+        "layout-template",
+        "hot-deploy"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:portal-impl/src/com/liferay/portal/deploy/hot/LayoutTemplateHotDeployListener.java:invokeDeploy",
+      "type": "function",
+      "name": "invokeDeploy",
+      "filePath": "portal-impl/src/com/liferay/portal/deploy/hot/LayoutTemplateHotDeployListener.java",
+      "lineRange": [
+        32,
+        44
+      ],
+      "summary": "Method invokeDeploy in LayoutTemplateHotDeployListener.java.",
+      "tags": [
+        "method"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:portal-impl/src/com/liferay/portal/deploy/hot/LayoutTemplateHotDeployListener.java:invokeUndeploy",
+      "type": "function",
+      "name": "invokeUndeploy",
+      "filePath": "portal-impl/src/com/liferay/portal/deploy/hot/LayoutTemplateHotDeployListener.java",
+      "lineRange": [
+        46,
+        58
+      ],
+      "summary": "Method invokeUndeploy in LayoutTemplateHotDeployListener.java.",
+      "tags": [
+        "method"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:portal-impl/src/com/liferay/portal/deploy/hot/LayoutTemplateHotDeployListener.java:doInvokeDeploy",
+      "type": "function",
+      "name": "doInvokeDeploy",
+      "filePath": "portal-impl/src/com/liferay/portal/deploy/hot/LayoutTemplateHotDeployListener.java",
+      "lineRange": [
+        60,
+        109
+      ],
+      "summary": "Executes the actual deploy/undeploy logic for the plugin type.",
+      "tags": [
+        "deployment",
+        "lifecycle"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "function:portal-impl/src/com/liferay/portal/deploy/hot/LayoutTemplateHotDeployListener.java:doInvokeUndeploy",
+      "type": "function",
+      "name": "doInvokeUndeploy",
+      "filePath": "portal-impl/src/com/liferay/portal/deploy/hot/LayoutTemplateHotDeployListener.java",
+      "lineRange": [
+        111,
+        158
+      ],
+      "summary": "Executes the actual deploy/undeploy logic for the plugin type.",
+      "tags": [
+        "deployment",
+        "lifecycle"
+      ],
+      "complexity": "complex"
+    }
+  ],
+  "edges": [
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/deploy/auto/WebAutoDeployListener.java",
+      "target": "class:portal-impl/src/com/liferay/portal/deploy/auto/WebAutoDeployListener.java:WebAutoDeployListener",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/deploy/auto/WebAutoDeployListener.java",
+      "target": "class:portal-impl/src/com/liferay/portal/deploy/auto/WebAutoDeployListener.java:WebAutoDeployListener",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/deploy/auto/WebAutoDeployListener.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/deploy/auto/AutoDeployer.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/deploy/auto/WebAutoDeployListener.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/deploy/auto/AutoDeployException.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/deploy/auto/WebAutoDeployListener.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/deploy/auto/BaseAutoDeployListener.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/deploy/auto/WebAutoDeployListener.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/model/Plugin.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/deploy/hot/CustomJspBag.java",
+      "target": "class:portal-impl/src/com/liferay/portal/deploy/hot/CustomJspBag.java:CustomJspBag",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/deploy/hot/CustomJspBag.java",
+      "target": "class:portal-impl/src/com/liferay/portal/deploy/hot/CustomJspBag.java:CustomJspBag",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/deploy/hot/CustomJspBag.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/url/URLContainer.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/deploy/hot/CustomJspBagImpl.java",
+      "target": "class:portal-impl/src/com/liferay/portal/deploy/hot/CustomJspBagImpl.java:CustomJspBagImpl",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/deploy/hot/CustomJspBagImpl.java",
+      "target": "class:portal-impl/src/com/liferay/portal/deploy/hot/CustomJspBagImpl.java:CustomJspBagImpl",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/deploy/hot/CustomJspBagImpl.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/url/URLContainer.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/deploy/hot/CustomJspBagRegistryUtil.java",
+      "target": "class:portal-impl/src/com/liferay/portal/deploy/hot/CustomJspBagRegistryUtil.java:CustomJspBagRegistryUtil",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/deploy/hot/CustomJspBagRegistryUtil.java",
+      "target": "class:portal-impl/src/com/liferay/portal/deploy/hot/CustomJspBagRegistryUtil.java:CustomJspBagRegistryUtil",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/deploy/hot/CustomJspBagRegistryUtil.java",
+      "target": "function:portal-impl/src/com/liferay/portal/deploy/hot/CustomJspBagRegistryUtil.java:getCustomJsps",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/deploy/hot/CustomJspBagRegistryUtil.java",
+      "target": "function:portal-impl/src/com/liferay/portal/deploy/hot/CustomJspBagRegistryUtil.java:getPortalJsp",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/deploy/hot/CustomJspBagRegistryUtil.java",
+      "target": "function:portal-impl/src/com/liferay/portal/deploy/hot/CustomJspBagRegistryUtil.java:getPortalJspBackupFile",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/deploy/hot/CustomJspBagRegistryUtil.java",
+      "target": "function:portal-impl/src/com/liferay/portal/deploy/hot/CustomJspBagRegistryUtil.java:initCustomJspBag",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/deploy/hot/CustomJspBagRegistryUtil.java",
+      "target": "function:portal-impl/src/com/liferay/portal/deploy/hot/CustomJspBagRegistryUtil.java:verifyCustomJsps",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/deploy/hot/CustomJspBagRegistryUtil.java",
+      "target": "file:portal-impl/src/com/liferay/portal/spring/context/PortalContextLoaderListener.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/deploy/hot/CustomJspBagRegistryUtil.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/log/Log.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/deploy/hot/CustomJspBagRegistryUtil.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/log/LogFactoryUtil.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/deploy/hot/CustomJspBagRegistryUtil.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/log/SanitizerLogWrapper.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/deploy/hot/CustomJspBagRegistryUtil.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/module/util/SystemBundleUtil.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/deploy/hot/CustomJspBagRegistryUtil.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/servlet/ServletContextPool.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/deploy/hot/CustomJspBagRegistryUtil.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/url/URLContainer.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/deploy/hot/CustomJspBagRegistryUtil.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/util/CustomJspRegistryUtil.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/deploy/hot/CustomJspBagRegistryUtil.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/util/FileUtil.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/deploy/hot/CustomJspBagRegistryUtil.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/util/GetterUtil.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/deploy/hot/CustomJspBagRegistryUtil.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/util/StringUtil.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/deploy/hot/CustomJspBagRegistryUtil.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/util/Validator.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/deploy/hot/DuplicateCustomJspException.java",
+      "target": "class:portal-impl/src/com/liferay/portal/deploy/hot/DuplicateCustomJspException.java:DuplicateCustomJspException",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/deploy/hot/DuplicateCustomJspException.java",
+      "target": "class:portal-impl/src/com/liferay/portal/deploy/hot/DuplicateCustomJspException.java:DuplicateCustomJspException",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/deploy/hot/DuplicateCustomJspException.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/deploy/hot/HotDeployException.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/deploy/hot/HookHotDeployListener.java",
+      "target": "class:portal-impl/src/com/liferay/portal/deploy/hot/HookHotDeployListener.java:HookHotDeployListener",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/deploy/hot/HookHotDeployListener.java",
+      "target": "class:portal-impl/src/com/liferay/portal/deploy/hot/HookHotDeployListener.java:HookHotDeployListener",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/deploy/hot/HookHotDeployListener.java",
+      "target": "function:portal-impl/src/com/liferay/portal/deploy/hot/HookHotDeployListener.java:HookHotDeployListener",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/deploy/hot/HookHotDeployListener.java",
+      "target": "function:portal-impl/src/com/liferay/portal/deploy/hot/HookHotDeployListener.java:HookHotDeployListener",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/deploy/hot/HookHotDeployListener.java",
+      "target": "function:portal-impl/src/com/liferay/portal/deploy/hot/HookHotDeployListener.java:invokeDeploy",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/deploy/hot/HookHotDeployListener.java",
+      "target": "function:portal-impl/src/com/liferay/portal/deploy/hot/HookHotDeployListener.java:invokeDeploy",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/deploy/hot/HookHotDeployListener.java",
+      "target": "function:portal-impl/src/com/liferay/portal/deploy/hot/HookHotDeployListener.java:invokeUndeploy",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/deploy/hot/HookHotDeployListener.java",
+      "target": "function:portal-impl/src/com/liferay/portal/deploy/hot/HookHotDeployListener.java:invokeUndeploy",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/deploy/hot/HookHotDeployListener.java",
+      "target": "function:portal-impl/src/com/liferay/portal/deploy/hot/HookHotDeployListener.java:registerService",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/deploy/hot/HookHotDeployListener.java",
+      "target": "function:portal-impl/src/com/liferay/portal/deploy/hot/HookHotDeployListener.java:registerService",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/deploy/hot/HookHotDeployListener.java",
+      "target": "function:portal-impl/src/com/liferay/portal/deploy/hot/HookHotDeployListener.java:registerService",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/deploy/hot/HookHotDeployListener.java",
+      "target": "function:portal-impl/src/com/liferay/portal/deploy/hot/HookHotDeployListener.java:registerService",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/deploy/hot/HookHotDeployListener.java",
+      "target": "function:portal-impl/src/com/liferay/portal/deploy/hot/HookHotDeployListener.java:destroyPortalProperties",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/deploy/hot/HookHotDeployListener.java",
+      "target": "function:portal-impl/src/com/liferay/portal/deploy/hot/HookHotDeployListener.java:doInvokeDeploy",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/deploy/hot/HookHotDeployListener.java",
+      "target": "function:portal-impl/src/com/liferay/portal/deploy/hot/HookHotDeployListener.java:doInvokeUndeploy",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/deploy/hot/HookHotDeployListener.java",
+      "target": "function:portal-impl/src/com/liferay/portal/deploy/hot/HookHotDeployListener.java:getLocale",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/deploy/hot/HookHotDeployListener.java",
+      "target": "function:portal-impl/src/com/liferay/portal/deploy/hot/HookHotDeployListener.java:getPersistence",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/deploy/hot/HookHotDeployListener.java",
+      "target": "function:portal-impl/src/com/liferay/portal/deploy/hot/HookHotDeployListener.java:getServiceRegistrations",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/deploy/hot/HookHotDeployListener.java",
+      "target": "function:portal-impl/src/com/liferay/portal/deploy/hot/HookHotDeployListener.java:initAuthenticators",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/deploy/hot/HookHotDeployListener.java",
+      "target": "function:portal-impl/src/com/liferay/portal/deploy/hot/HookHotDeployListener.java:initAuthenticators",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/deploy/hot/HookHotDeployListener.java",
+      "target": "function:portal-impl/src/com/liferay/portal/deploy/hot/HookHotDeployListener.java:initAuthFailures",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/deploy/hot/HookHotDeployListener.java",
+      "target": "function:portal-impl/src/com/liferay/portal/deploy/hot/HookHotDeployListener.java:initAuthFailures",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/deploy/hot/HookHotDeployListener.java",
+      "target": "function:portal-impl/src/com/liferay/portal/deploy/hot/HookHotDeployListener.java:initAuthPublicPaths",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/deploy/hot/HookHotDeployListener.java",
+      "target": "function:portal-impl/src/com/liferay/portal/deploy/hot/HookHotDeployListener.java:initAuthVerifiers",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/deploy/hot/HookHotDeployListener.java",
+      "target": "function:portal-impl/src/com/liferay/portal/deploy/hot/HookHotDeployListener.java:initAutoDeployListeners",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/deploy/hot/HookHotDeployListener.java",
+      "target": "function:portal-impl/src/com/liferay/portal/deploy/hot/HookHotDeployListener.java:initAutoLogins",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/deploy/hot/HookHotDeployListener.java",
+      "target": "function:portal-impl/src/com/liferay/portal/deploy/hot/HookHotDeployListener.java:initCustomJspDir",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/deploy/hot/HookHotDeployListener.java",
+      "target": "function:portal-impl/src/com/liferay/portal/deploy/hot/HookHotDeployListener.java:initEvent",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/deploy/hot/HookHotDeployListener.java",
+      "target": "function:portal-impl/src/com/liferay/portal/deploy/hot/HookHotDeployListener.java:initEvents",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/deploy/hot/HookHotDeployListener.java",
+      "target": "function:portal-impl/src/com/liferay/portal/deploy/hot/HookHotDeployListener.java:initFormNavigatorEntries",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/deploy/hot/HookHotDeployListener.java",
+      "target": "function:portal-impl/src/com/liferay/portal/deploy/hot/HookHotDeployListener.java:initFormNavigatorEntry",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/deploy/hot/HookHotDeployListener.java",
+      "target": "function:portal-impl/src/com/liferay/portal/deploy/hot/HookHotDeployListener.java:initHotDeployListeners",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/deploy/hot/HookHotDeployListener.java",
+      "target": "function:portal-impl/src/com/liferay/portal/deploy/hot/HookHotDeployListener.java:initIndexerPostProcessors",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/deploy/hot/HookHotDeployListener.java",
+      "target": "function:portal-impl/src/com/liferay/portal/deploy/hot/HookHotDeployListener.java:initLanguageProperties",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/deploy/hot/HookHotDeployListener.java",
+      "target": "function:portal-impl/src/com/liferay/portal/deploy/hot/HookHotDeployListener.java:initModelListener",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/deploy/hot/HookHotDeployListener.java",
+      "target": "function:portal-impl/src/com/liferay/portal/deploy/hot/HookHotDeployListener.java:initModelListeners",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/deploy/hot/HookHotDeployListener.java",
+      "target": "function:portal-impl/src/com/liferay/portal/deploy/hot/HookHotDeployListener.java:initPortalProperties",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/deploy/hot/HookHotDeployListener.java",
+      "target": "function:portal-impl/src/com/liferay/portal/deploy/hot/HookHotDeployListener.java:initPortalProperties",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/deploy/hot/HookHotDeployListener.java",
+      "target": "function:portal-impl/src/com/liferay/portal/deploy/hot/HookHotDeployListener.java:updateRelease",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/deploy/hot/HookHotDeployListener.java",
+      "target": "function:portal-impl/src/com/liferay/portal/deploy/hot/HookHotDeployListener.java:updateRelease",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/deploy/hot/HookHotDeployListener.java",
+      "target": "function:portal-impl/src/com/liferay/portal/deploy/hot/HookHotDeployListener.java:initServices",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/deploy/hot/HookHotDeployListener.java",
+      "target": "function:portal-impl/src/com/liferay/portal/deploy/hot/HookHotDeployListener.java:initServletFilter",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/deploy/hot/HookHotDeployListener.java",
+      "target": "function:portal-impl/src/com/liferay/portal/deploy/hot/HookHotDeployListener.java:initServletFilters",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/deploy/hot/HookHotDeployListener.java",
+      "target": "function:portal-impl/src/com/liferay/portal/deploy/hot/HookHotDeployListener.java:initStrutsAction",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/deploy/hot/HookHotDeployListener.java",
+      "target": "function:portal-impl/src/com/liferay/portal/deploy/hot/HookHotDeployListener.java:initStrutsActions",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/deploy/hot/HookHotDeployListener.java",
+      "target": "function:portal-impl/src/com/liferay/portal/deploy/hot/HookHotDeployListener.java:initTokensWhitelists",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/deploy/hot/HookHotDeployListener.java",
+      "target": "function:portal-impl/src/com/liferay/portal/deploy/hot/HookHotDeployListener.java:resetPortalProperties",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/deploy/hot/HookHotDeployListener.java",
+      "target": "function:portal-impl/src/com/liferay/portal/deploy/hot/HookHotDeployListener.java:resetPortalPropertiesStringArray",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/deploy/hot/HookHotDeployListener.java",
+      "target": "function:portal-impl/src/com/liferay/portal/deploy/hot/HookHotDeployListener.java:resetPortalPropertiesStringArray",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/deploy/hot/HookHotDeployListener.java",
+      "target": "function:portal-impl/src/com/liferay/portal/deploy/hot/HookHotDeployListener.java:_initServices",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/deploy/hot/HookHotDeployListener.java",
+      "target": "file:portal-impl/src/com/liferay/portal/language/LiferayResourceBundle.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/deploy/hot/HookHotDeployListener.java",
+      "target": "file:portal-impl/src/com/liferay/portal/security/auth/AuthVerifierPipeline.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/deploy/hot/HookHotDeployListener.java",
+      "target": "file:portal-impl/src/com/liferay/portal/security/auth/InterruptedPortletRequestWhitelistUtil.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/deploy/hot/HookHotDeployListener.java",
+      "target": "file:portal-impl/src/com/liferay/portal/servlet/taglib/ui/DeprecatedFormNavigatorEntry.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/deploy/hot/HookHotDeployListener.java",
+      "target": "file:portal-impl/src/com/liferay/portal/spring/aop/AopInvocationHandler.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/deploy/hot/HookHotDeployListener.java",
+      "target": "file:portal-impl/src/com/liferay/portal/util/JavaScriptBundleUtil.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/deploy/hot/HookHotDeployListener.java",
+      "target": "file:portal-impl/src/com/liferay/portal/util/PropsUtil.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/deploy/hot/HookHotDeployListener.java",
+      "target": "file:portal-impl/src/com/liferay/portal/util/PropsValues.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/deploy/hot/HookHotDeployListener.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/bean/BeanLocatorException.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/deploy/hot/HookHotDeployListener.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/bean/ClassLoaderBeanHandler.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/deploy/hot/HookHotDeployListener.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/bean/PortalBeanLocatorUtil.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/deploy/hot/HookHotDeployListener.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/bean/PortletBeanLocatorUtil.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/deploy/hot/HookHotDeployListener.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/configuration/Configuration.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/deploy/hot/HookHotDeployListener.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/configuration/ConfigurationFactoryUtil.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/deploy/hot/HookHotDeployListener.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/deploy/auto/AutoDeployListener.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/deploy/hot/HookHotDeployListener.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/deploy/hot/BaseHotDeployListener.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/deploy/hot/HookHotDeployListener.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/deploy/hot/HotDeployEvent.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/deploy/hot/HookHotDeployListener.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/deploy/hot/HotDeployException.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/deploy/hot/HookHotDeployListener.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/deploy/hot/HotDeployListener.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/deploy/hot/HookHotDeployListener.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/deploy/hot/HotDeployUtil.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/deploy/hot/HookHotDeployListener.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/events/Action.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/deploy/hot/HookHotDeployListener.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/events/InvokerAction.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/deploy/hot/HookHotDeployListener.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/events/InvokerSessionAction.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/deploy/hot/HookHotDeployListener.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/events/InvokerSimpleAction.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/deploy/hot/HookHotDeployListener.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/events/LifecycleAction.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/deploy/hot/HookHotDeployListener.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/events/SessionAction.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/deploy/hot/HookHotDeployListener.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/events/SimpleAction.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/deploy/hot/HookHotDeployListener.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/exception/PortalException.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/deploy/hot/HookHotDeployListener.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/format/PhoneNumberFormat.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/deploy/hot/HookHotDeployListener.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/language/LanguageUtil.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/deploy/hot/HookHotDeployListener.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/lock/LockListener.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/deploy/hot/HookHotDeployListener.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/log/Log.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/deploy/hot/HookHotDeployListener.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/log/LogFactoryUtil.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/deploy/hot/HookHotDeployListener.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/model/ModelListener.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/deploy/hot/HookHotDeployListener.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/model/Release.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/deploy/hot/HookHotDeployListener.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/module/util/SystemBundleUtil.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/deploy/hot/HookHotDeployListener.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/plugin/PluginPackage.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/deploy/hot/HookHotDeployListener.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/portlet/ControlPanelEntry.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/deploy/hot/HookHotDeployListener.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/sanitizer/Sanitizer.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/deploy/hot/HookHotDeployListener.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/search/IndexerPostProcessor.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/deploy/hot/HookHotDeployListener.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/security/auth/Authenticator.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/deploy/hot/HookHotDeployListener.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/security/auth/AuthFailure.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/deploy/hot/HookHotDeployListener.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/security/auth/AuthToken.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/deploy/hot/HookHotDeployListener.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/security/auth/EmailAddressGenerator.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/deploy/hot/HookHotDeployListener.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/security/auth/EmailAddressValidator.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/deploy/hot/HookHotDeployListener.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/security/auth/FullNameGenerator.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/deploy/hot/HookHotDeployListener.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/security/auth/FullNameValidator.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/deploy/hot/HookHotDeployListener.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/security/auth/ScreenNameGenerator.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/deploy/hot/HookHotDeployListener.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/security/auth/ScreenNameValidator.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/deploy/hot/HookHotDeployListener.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/security/auth/verifier/AuthVerifier.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/deploy/hot/HookHotDeployListener.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/security/auto/login/AutoLogin.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/deploy/hot/HookHotDeployListener.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/security/ldap/AttributesTransformer.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/deploy/hot/HookHotDeployListener.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/security/membershippolicy/OrganizationMembershipPolicy.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/deploy/hot/HookHotDeployListener.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/security/membershippolicy/RoleMembershipPolicy.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/deploy/hot/HookHotDeployListener.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/security/membershippolicy/SiteMembershipPolicy.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/deploy/hot/HookHotDeployListener.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/security/membershippolicy/UserGroupMembershipPolicy.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/deploy/hot/HookHotDeployListener.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/security/pwd/Toolkit.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/deploy/hot/HookHotDeployListener.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/service/CompanyLocalServiceUtil.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/deploy/hot/HookHotDeployListener.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/service/persistence/BasePersistence.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/deploy/hot/HookHotDeployListener.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/service/ReleaseLocalServiceUtil.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/deploy/hot/HookHotDeployListener.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/service/ServiceWrapper.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/deploy/hot/HookHotDeployListener.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/servlet/DirectServletRegistryUtil.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/deploy/hot/HookHotDeployListener.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/servlet/FileAvailabilityUtil.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/deploy/hot/HookHotDeployListener.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/servlet/LiferayFilter.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/deploy/hot/HookHotDeployListener.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/servlet/LiferayFilterTracker.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/deploy/hot/HookHotDeployListener.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/servlet/taglib/ui/FormNavigatorConstants.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/deploy/hot/HookHotDeployListener.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/servlet/taglib/ui/FormNavigatorEntry.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/deploy/hot/HookHotDeployListener.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/servlet/TryFilter.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/deploy/hot/HookHotDeployListener.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/servlet/TryFinallyFilter.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/deploy/hot/HookHotDeployListener.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/servlet/WrapHttpServletRequestFilter.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/deploy/hot/HookHotDeployListener.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/servlet/WrapHttpServletResponseFilter.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/deploy/hot/HookHotDeployListener.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/struts/StrutsAction.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/deploy/hot/HookHotDeployListener.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/upgrade/OlderVersionException.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/deploy/hot/HookHotDeployListener.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/upgrade/UpgradeProcess.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/deploy/hot/HookHotDeployListener.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/upgrade/util/UpgradeProcessUtil.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/deploy/hot/HookHotDeployListener.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/url/ServletContextURLContainer.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/deploy/hot/HookHotDeployListener.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/util/GetterUtil.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/deploy/hot/HookHotDeployListener.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/util/HashMapBuilder.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/deploy/hot/HookHotDeployListener.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/util/HashMapDictionaryBuilder.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/deploy/hot/HookHotDeployListener.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/util/InstanceFactory.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/deploy/hot/HookHotDeployListener.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/util/LocaleUtil.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/deploy/hot/HookHotDeployListener.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/util/PropertiesUtil.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/deploy/hot/HookHotDeployListener.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/util/PropsKeys.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/deploy/hot/HookHotDeployListener.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/util/ProxyUtil.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/deploy/hot/HookHotDeployListener.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/util/SetUtil.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/deploy/hot/HookHotDeployListener.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/util/StringUtil.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/deploy/hot/HookHotDeployListener.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/util/SystemProperties.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/deploy/hot/HookHotDeployListener.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/util/Tuple.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/deploy/hot/HookHotDeployListener.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/util/Validator.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/deploy/hot/HookHotDeployListener.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/xml/Document.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/deploy/hot/HookHotDeployListener.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/xml/Element.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/deploy/hot/HookHotDeployListener.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/xml/UnsecureSAXReaderUtil.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/deploy/hot/LayoutTemplateHotDeployListener.java",
+      "target": "class:portal-impl/src/com/liferay/portal/deploy/hot/LayoutTemplateHotDeployListener.java:LayoutTemplateHotDeployListener",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/deploy/hot/LayoutTemplateHotDeployListener.java",
+      "target": "class:portal-impl/src/com/liferay/portal/deploy/hot/LayoutTemplateHotDeployListener.java:LayoutTemplateHotDeployListener",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/deploy/hot/LayoutTemplateHotDeployListener.java",
+      "target": "function:portal-impl/src/com/liferay/portal/deploy/hot/LayoutTemplateHotDeployListener.java:invokeDeploy",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/deploy/hot/LayoutTemplateHotDeployListener.java",
+      "target": "function:portal-impl/src/com/liferay/portal/deploy/hot/LayoutTemplateHotDeployListener.java:invokeDeploy",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/deploy/hot/LayoutTemplateHotDeployListener.java",
+      "target": "function:portal-impl/src/com/liferay/portal/deploy/hot/LayoutTemplateHotDeployListener.java:invokeUndeploy",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/deploy/hot/LayoutTemplateHotDeployListener.java",
+      "target": "function:portal-impl/src/com/liferay/portal/deploy/hot/LayoutTemplateHotDeployListener.java:invokeUndeploy",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/deploy/hot/LayoutTemplateHotDeployListener.java",
+      "target": "function:portal-impl/src/com/liferay/portal/deploy/hot/LayoutTemplateHotDeployListener.java:doInvokeDeploy",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/deploy/hot/LayoutTemplateHotDeployListener.java",
+      "target": "function:portal-impl/src/com/liferay/portal/deploy/hot/LayoutTemplateHotDeployListener.java:doInvokeUndeploy",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/deploy/hot/LayoutTemplateHotDeployListener.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/deploy/hot/BaseHotDeployListener.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/deploy/hot/LayoutTemplateHotDeployListener.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/deploy/hot/HotDeployEvent.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/deploy/hot/LayoutTemplateHotDeployListener.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/deploy/hot/HotDeployException.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/deploy/hot/LayoutTemplateHotDeployListener.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/log/Log.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/deploy/hot/LayoutTemplateHotDeployListener.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/log/LogFactoryUtil.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/deploy/hot/LayoutTemplateHotDeployListener.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/model/LayoutTemplate.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/deploy/hot/LayoutTemplateHotDeployListener.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/service/LayoutTemplateLocalServiceUtil.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/deploy/hot/LayoutTemplateHotDeployListener.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/util/WebKeys.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    }
+  ]
+}

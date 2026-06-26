@@ -1,0 +1,691 @@
+{
+  "nodes": [
+    {
+      "id": "file:portal-impl/src/com/liferay/portal/model/impl/CompanyBaseImpl.java",
+      "type": "file",
+      "name": "CompanyBaseImpl.java",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/CompanyBaseImpl.java",
+      "summary": "Base implementation for Company entity with getPrimaryKey and setPrimaryKey overrides, extending CompanyModelImpl.",
+      "tags": [
+        "base-class",
+        "data-model",
+        "implementation",
+        "persistence"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:portal-impl/src/com/liferay/portal/model/impl/CompanyImpl.java",
+      "type": "file",
+      "name": "CompanyImpl.java",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/CompanyImpl.java",
+      "summary": "Company entity implementation providing portal URL resolution, virtual hostname handling, mail domain checks, and company info access.",
+      "tags": [
+        "data-model",
+        "implementation",
+        "persistence"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "function:portal-impl/src/com/liferay/portal/model/impl/CompanyImpl.java:compareTo",
+      "type": "function",
+      "name": "compareTo",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/CompanyImpl.java",
+      "lineRange": [
+        54,
+        69
+      ],
+      "summary": "Method compareTo in CompanyImpl",
+      "tags": [
+        "method"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:portal-impl/src/com/liferay/portal/model/impl/CompanyImpl.java:getCompanyInfo",
+      "type": "function",
+      "name": "getCompanyInfo",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/CompanyImpl.java",
+      "lineRange": [
+        83,
+        100
+      ],
+      "summary": "Method getCompanyInfo in CompanyImpl",
+      "tags": [
+        "method"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:portal-impl/src/com/liferay/portal/model/impl/CompanyImpl.java:getGroup",
+      "type": "function",
+      "name": "getGroup",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/CompanyImpl.java",
+      "lineRange": [
+        133,
+        155
+      ],
+      "summary": "Method getGroup in CompanyImpl",
+      "tags": [
+        "method"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:portal-impl/src/com/liferay/portal/model/impl/CompanyImpl.java:getKeyObj",
+      "type": "function",
+      "name": "getKeyObj",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/CompanyImpl.java",
+      "lineRange": [
+        176,
+        187
+      ],
+      "summary": "Method getKeyObj in CompanyImpl",
+      "tags": [
+        "method"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:portal-impl/src/com/liferay/portal/model/impl/CompanyImpl.java:getPortalURL",
+      "type": "function",
+      "name": "getPortalURL",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/CompanyImpl.java",
+      "lineRange": [
+        200,
+        239
+      ],
+      "summary": "Method getPortalURL in CompanyImpl",
+      "tags": [
+        "method"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:portal-impl/src/com/liferay/portal/model/impl/CompanyImpl.java:getVirtualHostname",
+      "type": "function",
+      "name": "getVirtualHostname",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/CompanyImpl.java",
+      "lineRange": [
+        278,
+        307
+      ],
+      "summary": "Method getVirtualHostname in CompanyImpl",
+      "tags": [
+        "method"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:portal-impl/src/com/liferay/portal/model/impl/CompanyImpl.java:hasCompanyMx",
+      "type": "function",
+      "name": "hasCompanyMx",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/CompanyImpl.java",
+      "lineRange": [
+        309,
+        336
+      ],
+      "summary": "Method hasCompanyMx in CompanyImpl",
+      "tags": [
+        "method"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:portal-impl/src/com/liferay/portal/model/impl/CompanyImpl.java:_getPrefsPropsBoolean",
+      "type": "function",
+      "name": "_getPrefsPropsBoolean",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/CompanyImpl.java",
+      "lineRange": [
+        447,
+        458
+      ],
+      "summary": "Method _getPrefsPropsBoolean in CompanyImpl",
+      "tags": [
+        "method",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:portal-impl/src/com/liferay/portal/model/impl/CompanyImpl.java:_getPrefsPropsString",
+      "type": "function",
+      "name": "_getPrefsPropsString",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/CompanyImpl.java",
+      "lineRange": [
+        460,
+        471
+      ],
+      "summary": "Method _getPrefsPropsString in CompanyImpl",
+      "tags": [
+        "method",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:portal-impl/src/com/liferay/portal/model/impl/CompanyImpl.java:CompanyImpl",
+      "type": "class",
+      "name": "CompanyImpl",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/CompanyImpl.java",
+      "lineRange": [
+        52,
+        485
+      ],
+      "summary": "Class CompanyImpl with 34 methods for CompanyImpl.",
+      "tags": [
+        "class",
+        "implementation",
+        "implementation"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "file:portal-impl/src/com/liferay/portal/model/impl/ContactImpl.java",
+      "type": "file",
+      "name": "ContactImpl.java",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/ContactImpl.java",
+      "summary": "Contact entity implementation with full name accessor methods (getFullName) delegating to ContactName.",
+      "tags": [
+        "data-model",
+        "implementation",
+        "persistence"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:portal-impl/src/com/liferay/portal/model/impl/ContactImpl.java:ContactImpl",
+      "type": "class",
+      "name": "ContactImpl",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/ContactImpl.java",
+      "lineRange": [
+        16,
+        36
+      ],
+      "summary": "Class ContactImpl with 2 methods for ContactImpl.",
+      "tags": [
+        "class",
+        "implementation",
+        "implementation"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:portal-impl/src/com/liferay/portal/model/impl/CountryImpl.java",
+      "type": "file",
+      "name": "CountryImpl.java",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/CountryImpl.java",
+      "summary": "Country entity implementation with name override that returns the localized country name from LanguageUtil.",
+      "tags": [
+        "data-model",
+        "implementation",
+        "persistence"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:portal-impl/src/com/liferay/portal/model/impl/CountryImpl.java:getName",
+      "type": "function",
+      "name": "getName",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/CountryImpl.java",
+      "lineRange": [
+        22,
+        32
+      ],
+      "summary": "Method getName in CountryImpl",
+      "tags": [
+        "method"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:portal-impl/src/com/liferay/portal/model/impl/CountryImpl.java:CountryImpl",
+      "type": "class",
+      "name": "CountryImpl",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/CountryImpl.java",
+      "lineRange": [
+        19,
+        68
+      ],
+      "summary": "Class CountryImpl with 6 methods for CountryImpl.",
+      "tags": [
+        "class",
+        "implementation",
+        "implementation"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:portal-impl/src/com/liferay/portal/model/impl/EventDefinitionImpl.java",
+      "type": "file",
+      "name": "EventDefinitionImpl.java",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/EventDefinitionImpl.java",
+      "summary": "Event definition model wrapping portlet-app event definitions with Java type, QName, and value type extraction.",
+      "tags": [
+        "data-model",
+        "implementation",
+        "persistence"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "class:portal-impl/src/com/liferay/portal/model/impl/EventDefinitionImpl.java:EventDefinitionImpl",
+      "type": "class",
+      "name": "EventDefinitionImpl",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/EventDefinitionImpl.java",
+      "lineRange": [
+        18,
+        75
+      ],
+      "summary": "Class EventDefinitionImpl with 9 methods for EventDefinitionImpl.",
+      "tags": [
+        "class",
+        "implementation",
+        "implementation"
+      ],
+      "complexity": "moderate"
+    }
+  ],
+  "edges": [
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/model/impl/CompanyBaseImpl.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/model/Company.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/model/impl/CompanyBaseImpl.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/service/CompanyLocalServiceUtil.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/model/impl/CompanyImpl.java",
+      "target": "file:portal-impl/src/com/liferay/portal/util/PropsUtil.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/model/impl/CompanyImpl.java",
+      "target": "file:portal-impl/src/com/liferay/portal/util/PropsValues.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/model/impl/CompanyImpl.java",
+      "target": "file:portal-kernel/src/com/liferay/counter/kernel/service/CounterLocalServiceUtil.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/model/impl/CompanyImpl.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/bean/AutoEscape.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/model/impl/CompanyImpl.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/cache/thread/local/Lifecycle.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/model/impl/CompanyImpl.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/cache/thread/local/ThreadLocalCache.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/model/impl/CompanyImpl.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/cache/thread/local/ThreadLocalCacheManager.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/model/impl/CompanyImpl.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/encryptor/EncryptorUtil.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/model/impl/CompanyImpl.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/exception/PortalException.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/model/impl/CompanyImpl.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/log/Log.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/model/impl/CompanyImpl.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/log/LogFactoryUtil.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/model/impl/CompanyImpl.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/model/cache/CacheField.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/model/impl/CompanyImpl.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/model/Company.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/model/impl/CompanyImpl.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/model/CompanyConstants.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/model/impl/CompanyImpl.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/model/CompanyInfo.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/model/impl/CompanyImpl.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/model/Group.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/model/impl/CompanyImpl.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/model/LayoutSet.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/model/impl/CompanyImpl.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/model/User.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/model/impl/CompanyImpl.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/model/VirtualHost.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/model/impl/CompanyImpl.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/service/CompanyInfoLocalServiceUtil.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/model/impl/CompanyImpl.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/service/GroupLocalServiceUtil.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/model/impl/CompanyImpl.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/service/LayoutSetLocalServiceUtil.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/model/impl/CompanyImpl.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/service/UserLocalServiceUtil.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/model/impl/CompanyImpl.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/service/VirtualHostLocalServiceUtil.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/model/impl/CompanyImpl.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/util/GetterUtil.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/model/impl/CompanyImpl.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/util/PortalUtil.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/model/impl/CompanyImpl.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/util/PrefsPropsUtil.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/model/impl/CompanyImpl.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/util/PropsKeys.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/model/impl/CompanyImpl.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/util/StringUtil.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/model/impl/CompanyImpl.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/util/Validator.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/model/impl/CompanyImpl.java",
+      "target": "function:portal-impl/src/com/liferay/portal/model/impl/CompanyImpl.java:compareTo",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/model/impl/CompanyImpl.java",
+      "target": "function:portal-impl/src/com/liferay/portal/model/impl/CompanyImpl.java:getCompanyInfo",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/model/impl/CompanyImpl.java",
+      "target": "function:portal-impl/src/com/liferay/portal/model/impl/CompanyImpl.java:getGroup",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/model/impl/CompanyImpl.java",
+      "target": "function:portal-impl/src/com/liferay/portal/model/impl/CompanyImpl.java:getKeyObj",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/model/impl/CompanyImpl.java",
+      "target": "function:portal-impl/src/com/liferay/portal/model/impl/CompanyImpl.java:getPortalURL",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/model/impl/CompanyImpl.java",
+      "target": "function:portal-impl/src/com/liferay/portal/model/impl/CompanyImpl.java:getVirtualHostname",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/model/impl/CompanyImpl.java",
+      "target": "function:portal-impl/src/com/liferay/portal/model/impl/CompanyImpl.java:hasCompanyMx",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/model/impl/CompanyImpl.java",
+      "target": "function:portal-impl/src/com/liferay/portal/model/impl/CompanyImpl.java:_getPrefsPropsBoolean",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/model/impl/CompanyImpl.java",
+      "target": "function:portal-impl/src/com/liferay/portal/model/impl/CompanyImpl.java:_getPrefsPropsString",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/model/impl/CompanyImpl.java",
+      "target": "class:portal-impl/src/com/liferay/portal/model/impl/CompanyImpl.java:CompanyImpl",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/model/impl/ContactImpl.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/model/User.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/model/impl/ContactImpl.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/security/auth/FullNameGenerator.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/model/impl/ContactImpl.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/security/auth/FullNameGeneratorFactory.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/model/impl/ContactImpl.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/util/PortalUtil.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/model/impl/ContactImpl.java",
+      "target": "class:portal-impl/src/com/liferay/portal/model/impl/ContactImpl.java:ContactImpl",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/model/impl/CountryImpl.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/json/JSON.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/model/impl/CountryImpl.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/language/LanguageUtil.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/model/impl/CountryImpl.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/model/CountryConstants.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/model/impl/CountryImpl.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/util/Validator.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/model/impl/CountryImpl.java",
+      "target": "function:portal-impl/src/com/liferay/portal/model/impl/CountryImpl.java:getName",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/model/impl/CountryImpl.java",
+      "target": "class:portal-impl/src/com/liferay/portal/model/impl/CountryImpl.java:CountryImpl",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/model/impl/EventDefinitionImpl.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/model/EventDefinition.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/model/impl/EventDefinitionImpl.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/model/PortletApp.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/model/impl/EventDefinitionImpl.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/xml/QName.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/model/impl/EventDefinitionImpl.java",
+      "target": "class:portal-impl/src/com/liferay/portal/model/impl/EventDefinitionImpl.java:EventDefinitionImpl",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    }
+  ]
+}

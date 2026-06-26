@@ -1,0 +1,1208 @@
+{
+  "nodes": [
+    {
+      "id": "file:portal-impl/src/com/liferay/portal/deploy/hot/OSGiHotDeployListener.java",
+      "type": "file",
+      "name": "OSGiHotDeployListener.java",
+      "filePath": "portal-impl/src/com/liferay/portal/deploy/hot/OSGiHotDeployListener.java",
+      "summary": "Hot deploy listener bridging traditional plugin deployment with OSGi module lifecycle.",
+      "tags": [
+        "deployment",
+        "hot-deploy",
+        "osgi"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:portal-impl/src/com/liferay/portal/deploy/hot/OSGiHotDeployListener.java:OSGiHotDeployListener",
+      "type": "class",
+      "name": "OSGiHotDeployListener",
+      "filePath": "portal-impl/src/com/liferay/portal/deploy/hot/OSGiHotDeployListener.java",
+      "lineRange": [
+        19,
+        43
+      ],
+      "summary": "Bridges traditional plugin hot deploy to OSGi module framework.",
+      "tags": [
+        "deployment",
+        "osgi",
+        "bridge"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:portal-impl/src/com/liferay/portal/deploy/hot/PluginPackageHotDeployListener.java",
+      "type": "file",
+      "name": "PluginPackageHotDeployListener.java",
+      "filePath": "portal-impl/src/com/liferay/portal/deploy/hot/PluginPackageHotDeployListener.java",
+      "summary": "Hot deploy listener managing plugin package installation, versioning, and service component initialization.",
+      "tags": [
+        "deployment",
+        "hot-deploy",
+        "plugin"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "class:portal-impl/src/com/liferay/portal/deploy/hot/PluginPackageHotDeployListener.java:PluginPackageHotDeployListener",
+      "type": "class",
+      "name": "PluginPackageHotDeployListener",
+      "filePath": "portal-impl/src/com/liferay/portal/deploy/hot/PluginPackageHotDeployListener.java",
+      "lineRange": [
+        34,
+        208
+      ],
+      "summary": "Manages plugin package lifecycle during hot deploy including service component initialization and version tracking.",
+      "tags": [
+        "deployment",
+        "plugin",
+        "lifecycle"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:portal-impl/src/com/liferay/portal/deploy/hot/PluginPackageHotDeployListener.java:invokeDeploy",
+      "type": "function",
+      "name": "invokeDeploy",
+      "filePath": "portal-impl/src/com/liferay/portal/deploy/hot/PluginPackageHotDeployListener.java",
+      "lineRange": [
+        39,
+        50
+      ],
+      "summary": "Method invokeDeploy in PluginPackageHotDeployListener.java.",
+      "tags": [
+        "method"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:portal-impl/src/com/liferay/portal/deploy/hot/PluginPackageHotDeployListener.java:invokeUndeploy",
+      "type": "function",
+      "name": "invokeUndeploy",
+      "filePath": "portal-impl/src/com/liferay/portal/deploy/hot/PluginPackageHotDeployListener.java",
+      "lineRange": [
+        52,
+        63
+      ],
+      "summary": "Method invokeUndeploy in PluginPackageHotDeployListener.java.",
+      "tags": [
+        "method"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:portal-impl/src/com/liferay/portal/deploy/hot/PluginPackageHotDeployListener.java:doInvokeDeploy",
+      "type": "function",
+      "name": "doInvokeDeploy",
+      "filePath": "portal-impl/src/com/liferay/portal/deploy/hot/PluginPackageHotDeployListener.java",
+      "lineRange": [
+        65,
+        108
+      ],
+      "summary": "Executes the actual deploy/undeploy logic for the plugin type.",
+      "tags": [
+        "deployment",
+        "lifecycle"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "function:portal-impl/src/com/liferay/portal/deploy/hot/PluginPackageHotDeployListener.java:doInvokeUndeploy",
+      "type": "function",
+      "name": "doInvokeUndeploy",
+      "filePath": "portal-impl/src/com/liferay/portal/deploy/hot/PluginPackageHotDeployListener.java",
+      "lineRange": [
+        110,
+        139
+      ],
+      "summary": "Executes the actual deploy/undeploy logic for the plugin type.",
+      "tags": [
+        "deployment",
+        "lifecycle"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "function:portal-impl/src/com/liferay/portal/deploy/hot/PluginPackageHotDeployListener.java:initPortletProps",
+      "type": "function",
+      "name": "initPortletProps",
+      "filePath": "portal-impl/src/com/liferay/portal/deploy/hot/PluginPackageHotDeployListener.java",
+      "lineRange": [
+        146,
+        156
+      ],
+      "summary": "Method initPortletProps in PluginPackageHotDeployListener.java.",
+      "tags": [
+        "method"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:portal-impl/src/com/liferay/portal/deploy/hot/PluginPackageHotDeployListener.java:initServiceComponent",
+      "type": "function",
+      "name": "initServiceComponent",
+      "filePath": "portal-impl/src/com/liferay/portal/deploy/hot/PluginPackageHotDeployListener.java",
+      "lineRange": [
+        158,
+        203
+      ],
+      "summary": "Method initServiceComponent in PluginPackageHotDeployListener.java.",
+      "tags": [
+        "method"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:portal-impl/src/com/liferay/portal/deploy/hot/ServiceBag.java",
+      "type": "file",
+      "name": "ServiceBag.java",
+      "filePath": "portal-impl/src/com/liferay/portal/deploy/hot/ServiceBag.java",
+      "summary": "Utility for wrapping service implementations with AOP proxies and classloader bridging during hot deploy.",
+      "tags": [
+        "utility",
+        "deployment",
+        "aop"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "class:portal-impl/src/com/liferay/portal/deploy/hot/ServiceBag.java:ServiceBag",
+      "type": "class",
+      "name": "ServiceBag",
+      "filePath": "portal-impl/src/com/liferay/portal/deploy/hot/ServiceBag.java",
+      "lineRange": [
+        23,
+        147
+      ],
+      "summary": "Utility for applying AOP proxies and classloader bridging to service implementations during hot deploy.",
+      "tags": [
+        "utility",
+        "aop",
+        "proxy"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:portal-impl/src/com/liferay/portal/deploy/hot/ServiceBag.java:ServiceBag",
+      "type": "function",
+      "name": "ServiceBag",
+      "filePath": "portal-impl/src/com/liferay/portal/deploy/hot/ServiceBag.java",
+      "lineRange": [
+        25,
+        70
+      ],
+      "summary": "Method ServiceBag in ServiceBag.java.",
+      "tags": [
+        "method"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:portal-impl/src/com/liferay/portal/deploy/hot/ServiceBag.java:replace",
+      "type": "function",
+      "name": "replace",
+      "filePath": "portal-impl/src/com/liferay/portal/deploy/hot/ServiceBag.java",
+      "lineRange": [
+        72,
+        140
+      ],
+      "summary": "Method replace in ServiceBag.java.",
+      "tags": [
+        "method"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:portal-impl/src/com/liferay/portal/deploy/hot/ServiceWrapperRegistry.java",
+      "type": "file",
+      "name": "ServiceWrapperRegistry.java",
+      "filePath": "portal-impl/src/com/liferay/portal/deploy/hot/ServiceWrapperRegistry.java",
+      "summary": "Registry for managing service wrapper registration and proxy-based service replacement during hot deploy.",
+      "tags": [
+        "deployment",
+        "registry",
+        "service"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "class:portal-impl/src/com/liferay/portal/deploy/hot/ServiceWrapperRegistry.java:ServiceWrapperRegistry",
+      "type": "class",
+      "name": "ServiceWrapperRegistry",
+      "filePath": "portal-impl/src/com/liferay/portal/deploy/hot/ServiceWrapperRegistry.java",
+      "lineRange": [
+        28,
+        175
+      ],
+      "summary": "Registry managing service wrapper registration via OSGi tracker and AOP proxy replacement.",
+      "tags": [
+        "registry",
+        "osgi",
+        "aop"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:portal-impl/src/com/liferay/portal/deploy/hot/ServletContextListenerHotDeployListener.java",
+      "type": "file",
+      "name": "ServletContextListenerHotDeployListener.java",
+      "filePath": "portal-impl/src/com/liferay/portal/deploy/hot/ServletContextListenerHotDeployListener.java",
+      "summary": "Hot deploy listener that manages servlet context listener registration from deployed plugins.",
+      "tags": [
+        "deployment",
+        "hot-deploy",
+        "servlet"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "class:portal-impl/src/com/liferay/portal/deploy/hot/ServletContextListenerHotDeployListener.java:ServletContextListenerHotDeployListener",
+      "type": "class",
+      "name": "ServletContextListenerHotDeployListener",
+      "filePath": "portal-impl/src/com/liferay/portal/deploy/hot/ServletContextListenerHotDeployListener.java",
+      "lineRange": [
+        20,
+        73
+      ],
+      "summary": "Manages servlet context listener lifecycle during plugin deployment.",
+      "tags": [
+        "deployment",
+        "servlet",
+        "listener"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:portal-impl/src/com/liferay/portal/deploy/hot/ServletContextListenerHotDeployListener.java:invokeDeploy",
+      "type": "function",
+      "name": "invokeDeploy",
+      "filePath": "portal-impl/src/com/liferay/portal/deploy/hot/ServletContextListenerHotDeployListener.java",
+      "lineRange": [
+        23,
+        35
+      ],
+      "summary": "Method invokeDeploy in ServletContextListenerHotDeployListener.java.",
+      "tags": [
+        "method"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:portal-impl/src/com/liferay/portal/deploy/hot/ServletContextListenerHotDeployListener.java:invokeUndeploy",
+      "type": "function",
+      "name": "invokeUndeploy",
+      "filePath": "portal-impl/src/com/liferay/portal/deploy/hot/ServletContextListenerHotDeployListener.java",
+      "lineRange": [
+        37,
+        50
+      ],
+      "summary": "Method invokeUndeploy in ServletContextListenerHotDeployListener.java.",
+      "tags": [
+        "method"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:portal-impl/src/com/liferay/portal/deploy/hot/ServletContextListenerHotDeployListener.java:doInvokeDeploy",
+      "type": "function",
+      "name": "doInvokeDeploy",
+      "filePath": "portal-impl/src/com/liferay/portal/deploy/hot/ServletContextListenerHotDeployListener.java",
+      "lineRange": [
+        52,
+        67
+      ],
+      "summary": "Executes the actual deploy/undeploy logic for the plugin type.",
+      "tags": [
+        "deployment",
+        "lifecycle"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "file:portal-impl/src/com/liferay/portal/deploy/hot/SocialHotDeployListener.java",
+      "type": "file",
+      "name": "SocialHotDeployListener.java",
+      "filePath": "portal-impl/src/com/liferay/portal/deploy/hot/SocialHotDeployListener.java",
+      "summary": "Hot deploy listener that processes social activity definitions from deployed plugins.",
+      "tags": [
+        "deployment",
+        "hot-deploy",
+        "social"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "class:portal-impl/src/com/liferay/portal/deploy/hot/SocialHotDeployListener.java:SocialHotDeployListener",
+      "type": "class",
+      "name": "SocialHotDeployListener",
+      "filePath": "portal-impl/src/com/liferay/portal/deploy/hot/SocialHotDeployListener.java",
+      "lineRange": [
+        30,
+        154
+      ],
+      "summary": "Processes social activity and achievement definitions during hot deploy.",
+      "tags": [
+        "deployment",
+        "social",
+        "activity"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:portal-impl/src/com/liferay/portal/deploy/hot/SocialHotDeployListener.java:invokeDeploy",
+      "type": "function",
+      "name": "invokeDeploy",
+      "filePath": "portal-impl/src/com/liferay/portal/deploy/hot/SocialHotDeployListener.java",
+      "lineRange": [
+        32,
+        43
+      ],
+      "summary": "Method invokeDeploy in SocialHotDeployListener.java.",
+      "tags": [
+        "method"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:portal-impl/src/com/liferay/portal/deploy/hot/SocialHotDeployListener.java:invokeUndeploy",
+      "type": "function",
+      "name": "invokeUndeploy",
+      "filePath": "portal-impl/src/com/liferay/portal/deploy/hot/SocialHotDeployListener.java",
+      "lineRange": [
+        45,
+        56
+      ],
+      "summary": "Method invokeUndeploy in SocialHotDeployListener.java.",
+      "tags": [
+        "method"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:portal-impl/src/com/liferay/portal/deploy/hot/SocialHotDeployListener.java:doInvokeDeploy",
+      "type": "function",
+      "name": "doInvokeDeploy",
+      "filePath": "portal-impl/src/com/liferay/portal/deploy/hot/SocialHotDeployListener.java",
+      "lineRange": [
+        58,
+        92
+      ],
+      "summary": "Executes the actual deploy/undeploy logic for the plugin type.",
+      "tags": [
+        "deployment",
+        "lifecycle"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "function:portal-impl/src/com/liferay/portal/deploy/hot/SocialHotDeployListener.java:doInvokeUndeploy",
+      "type": "function",
+      "name": "doInvokeUndeploy",
+      "filePath": "portal-impl/src/com/liferay/portal/deploy/hot/SocialHotDeployListener.java",
+      "lineRange": [
+        94,
+        147
+      ],
+      "summary": "Executes the actual deploy/undeploy logic for the plugin type.",
+      "tags": [
+        "deployment",
+        "lifecycle"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "file:portal-impl/src/com/liferay/portal/deploy/hot/ThemeHotDeployListener.java",
+      "type": "file",
+      "name": "ThemeHotDeployListener.java",
+      "filePath": "portal-impl/src/com/liferay/portal/deploy/hot/ThemeHotDeployListener.java",
+      "summary": "Hot deploy listener that registers themes from deployed plugins, managing template resources and timestamps.",
+      "tags": [
+        "deployment",
+        "hot-deploy",
+        "theme"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "class:portal-impl/src/com/liferay/portal/deploy/hot/ThemeHotDeployListener.java:ThemeHotDeployListener",
+      "type": "class",
+      "name": "ThemeHotDeployListener",
+      "filePath": "portal-impl/src/com/liferay/portal/deploy/hot/ThemeHotDeployListener.java",
+      "lineRange": [
+        36,
+        173
+      ],
+      "summary": "Handles theme registration during hot deploy including template resource management.",
+      "tags": [
+        "deployment",
+        "theme",
+        "hot-deploy"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:portal-impl/src/com/liferay/portal/deploy/hot/ThemeHotDeployListener.java:invokeDeploy",
+      "type": "function",
+      "name": "invokeDeploy",
+      "filePath": "portal-impl/src/com/liferay/portal/deploy/hot/ThemeHotDeployListener.java",
+      "lineRange": [
+        38,
+        49
+      ],
+      "summary": "Method invokeDeploy in ThemeHotDeployListener.java.",
+      "tags": [
+        "method"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:portal-impl/src/com/liferay/portal/deploy/hot/ThemeHotDeployListener.java:invokeUndeploy",
+      "type": "function",
+      "name": "invokeUndeploy",
+      "filePath": "portal-impl/src/com/liferay/portal/deploy/hot/ThemeHotDeployListener.java",
+      "lineRange": [
+        51,
+        62
+      ],
+      "summary": "Method invokeUndeploy in ThemeHotDeployListener.java.",
+      "tags": [
+        "method"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:portal-impl/src/com/liferay/portal/deploy/hot/ThemeHotDeployListener.java:doInvokeDeploy",
+      "type": "function",
+      "name": "doInvokeDeploy",
+      "filePath": "portal-impl/src/com/liferay/portal/deploy/hot/ThemeHotDeployListener.java",
+      "lineRange": [
+        64,
+        112
+      ],
+      "summary": "Executes the actual deploy/undeploy logic for the plugin type.",
+      "tags": [
+        "deployment",
+        "lifecycle"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "function:portal-impl/src/com/liferay/portal/deploy/hot/ThemeHotDeployListener.java:doInvokeUndeploy",
+      "type": "function",
+      "name": "doInvokeUndeploy",
+      "filePath": "portal-impl/src/com/liferay/portal/deploy/hot/ThemeHotDeployListener.java",
+      "lineRange": [
+        114,
+        166
+      ],
+      "summary": "Executes the actual deploy/undeploy logic for the plugin type.",
+      "tags": [
+        "deployment",
+        "lifecycle"
+      ],
+      "complexity": "complex"
+    }
+  ],
+  "edges": [
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/deploy/hot/OSGiHotDeployListener.java",
+      "target": "class:portal-impl/src/com/liferay/portal/deploy/hot/OSGiHotDeployListener.java:OSGiHotDeployListener",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/deploy/hot/OSGiHotDeployListener.java",
+      "target": "class:portal-impl/src/com/liferay/portal/deploy/hot/OSGiHotDeployListener.java:OSGiHotDeployListener",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/deploy/hot/OSGiHotDeployListener.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/deploy/hot/BaseHotDeployListener.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/deploy/hot/OSGiHotDeployListener.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/deploy/hot/HotDeployEvent.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/deploy/hot/OSGiHotDeployListener.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/deploy/hot/HotDeployException.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/deploy/hot/OSGiHotDeployListener.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/deploy/hot/HotDeployListener.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/deploy/hot/OSGiHotDeployListener.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/module/util/SystemBundleUtil.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/deploy/hot/PluginPackageHotDeployListener.java",
+      "target": "class:portal-impl/src/com/liferay/portal/deploy/hot/PluginPackageHotDeployListener.java:PluginPackageHotDeployListener",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/deploy/hot/PluginPackageHotDeployListener.java",
+      "target": "class:portal-impl/src/com/liferay/portal/deploy/hot/PluginPackageHotDeployListener.java:PluginPackageHotDeployListener",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/deploy/hot/PluginPackageHotDeployListener.java",
+      "target": "function:portal-impl/src/com/liferay/portal/deploy/hot/PluginPackageHotDeployListener.java:invokeDeploy",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/deploy/hot/PluginPackageHotDeployListener.java",
+      "target": "function:portal-impl/src/com/liferay/portal/deploy/hot/PluginPackageHotDeployListener.java:invokeDeploy",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/deploy/hot/PluginPackageHotDeployListener.java",
+      "target": "function:portal-impl/src/com/liferay/portal/deploy/hot/PluginPackageHotDeployListener.java:invokeUndeploy",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/deploy/hot/PluginPackageHotDeployListener.java",
+      "target": "function:portal-impl/src/com/liferay/portal/deploy/hot/PluginPackageHotDeployListener.java:invokeUndeploy",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/deploy/hot/PluginPackageHotDeployListener.java",
+      "target": "function:portal-impl/src/com/liferay/portal/deploy/hot/PluginPackageHotDeployListener.java:doInvokeDeploy",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/deploy/hot/PluginPackageHotDeployListener.java",
+      "target": "function:portal-impl/src/com/liferay/portal/deploy/hot/PluginPackageHotDeployListener.java:doInvokeUndeploy",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/deploy/hot/PluginPackageHotDeployListener.java",
+      "target": "function:portal-impl/src/com/liferay/portal/deploy/hot/PluginPackageHotDeployListener.java:initPortletProps",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/deploy/hot/PluginPackageHotDeployListener.java",
+      "target": "function:portal-impl/src/com/liferay/portal/deploy/hot/PluginPackageHotDeployListener.java:initServiceComponent",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/deploy/hot/PluginPackageHotDeployListener.java",
+      "target": "file:portal-impl/src/com/liferay/portal/plugin/PluginPackageUtil.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/deploy/hot/PluginPackageHotDeployListener.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/configuration/Configuration.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/deploy/hot/PluginPackageHotDeployListener.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/configuration/ConfigurationFactoryUtil.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/deploy/hot/PluginPackageHotDeployListener.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/deploy/hot/BaseHotDeployListener.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/deploy/hot/PluginPackageHotDeployListener.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/deploy/hot/HotDeployEvent.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/deploy/hot/PluginPackageHotDeployListener.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/deploy/hot/HotDeployException.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/deploy/hot/PluginPackageHotDeployListener.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/log/Log.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/deploy/hot/PluginPackageHotDeployListener.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/log/LogFactoryUtil.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/deploy/hot/PluginPackageHotDeployListener.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/plugin/PluginPackage.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/deploy/hot/PluginPackageHotDeployListener.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/service/configuration/servlet/ServletServiceContextComponentConfiguration.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/deploy/hot/PluginPackageHotDeployListener.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/service/ServiceComponentLocalServiceUtil.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/deploy/hot/PluginPackageHotDeployListener.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/servlet/ServletContextPool.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/deploy/hot/PluginPackageHotDeployListener.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/util/GetterUtil.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/deploy/hot/PluginPackageHotDeployListener.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/util/Validator.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/deploy/hot/ServiceBag.java",
+      "target": "class:portal-impl/src/com/liferay/portal/deploy/hot/ServiceBag.java:ServiceBag",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/deploy/hot/ServiceBag.java",
+      "target": "class:portal-impl/src/com/liferay/portal/deploy/hot/ServiceBag.java:ServiceBag",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/deploy/hot/ServiceBag.java",
+      "target": "function:portal-impl/src/com/liferay/portal/deploy/hot/ServiceBag.java:ServiceBag",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/deploy/hot/ServiceBag.java",
+      "target": "function:portal-impl/src/com/liferay/portal/deploy/hot/ServiceBag.java:ServiceBag",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/deploy/hot/ServiceBag.java",
+      "target": "function:portal-impl/src/com/liferay/portal/deploy/hot/ServiceBag.java:replace",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/deploy/hot/ServiceBag.java",
+      "target": "function:portal-impl/src/com/liferay/portal/deploy/hot/ServiceBag.java:replace",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/deploy/hot/ServiceBag.java",
+      "target": "file:portal-impl/src/com/liferay/portal/spring/aop/AopInvocationHandler.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/deploy/hot/ServiceBag.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/bean/ClassLoaderBeanHandler.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/deploy/hot/ServiceBag.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/module/framework/service/IdentifiableOSGiService.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/deploy/hot/ServiceBag.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/service/ServiceWrapper.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/deploy/hot/ServiceBag.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/util/AggregateClassLoader.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/deploy/hot/ServiceBag.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/util/ProxyUtil.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/deploy/hot/ServiceWrapperRegistry.java",
+      "target": "class:portal-impl/src/com/liferay/portal/deploy/hot/ServiceWrapperRegistry.java:ServiceWrapperRegistry",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/deploy/hot/ServiceWrapperRegistry.java",
+      "target": "class:portal-impl/src/com/liferay/portal/deploy/hot/ServiceWrapperRegistry.java:ServiceWrapperRegistry",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/deploy/hot/ServiceWrapperRegistry.java",
+      "target": "file:portal-impl/src/com/liferay/portal/spring/aop/AopInvocationHandler.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/deploy/hot/ServiceWrapperRegistry.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/log/Log.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/deploy/hot/ServiceWrapperRegistry.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/log/LogFactoryUtil.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/deploy/hot/ServiceWrapperRegistry.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/module/util/SystemBundleUtil.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/deploy/hot/ServiceWrapperRegistry.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/service/ServiceWrapper.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/deploy/hot/ServiceWrapperRegistry.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/util/ProxyUtil.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/deploy/hot/ServletContextListenerHotDeployListener.java",
+      "target": "class:portal-impl/src/com/liferay/portal/deploy/hot/ServletContextListenerHotDeployListener.java:ServletContextListenerHotDeployListener",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/deploy/hot/ServletContextListenerHotDeployListener.java",
+      "target": "class:portal-impl/src/com/liferay/portal/deploy/hot/ServletContextListenerHotDeployListener.java:ServletContextListenerHotDeployListener",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/deploy/hot/ServletContextListenerHotDeployListener.java",
+      "target": "function:portal-impl/src/com/liferay/portal/deploy/hot/ServletContextListenerHotDeployListener.java:invokeDeploy",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/deploy/hot/ServletContextListenerHotDeployListener.java",
+      "target": "function:portal-impl/src/com/liferay/portal/deploy/hot/ServletContextListenerHotDeployListener.java:invokeDeploy",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/deploy/hot/ServletContextListenerHotDeployListener.java",
+      "target": "function:portal-impl/src/com/liferay/portal/deploy/hot/ServletContextListenerHotDeployListener.java:invokeUndeploy",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/deploy/hot/ServletContextListenerHotDeployListener.java",
+      "target": "function:portal-impl/src/com/liferay/portal/deploy/hot/ServletContextListenerHotDeployListener.java:invokeUndeploy",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/deploy/hot/ServletContextListenerHotDeployListener.java",
+      "target": "function:portal-impl/src/com/liferay/portal/deploy/hot/ServletContextListenerHotDeployListener.java:doInvokeDeploy",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/deploy/hot/ServletContextListenerHotDeployListener.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/deploy/hot/BaseHotDeployListener.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/deploy/hot/ServletContextListenerHotDeployListener.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/deploy/hot/HotDeployEvent.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/deploy/hot/ServletContextListenerHotDeployListener.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/deploy/hot/HotDeployException.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/deploy/hot/ServletContextListenerHotDeployListener.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/servlet/SecurePluginContextListener.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/deploy/hot/SocialHotDeployListener.java",
+      "target": "class:portal-impl/src/com/liferay/portal/deploy/hot/SocialHotDeployListener.java:SocialHotDeployListener",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/deploy/hot/SocialHotDeployListener.java",
+      "target": "class:portal-impl/src/com/liferay/portal/deploy/hot/SocialHotDeployListener.java:SocialHotDeployListener",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/deploy/hot/SocialHotDeployListener.java",
+      "target": "function:portal-impl/src/com/liferay/portal/deploy/hot/SocialHotDeployListener.java:invokeDeploy",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/deploy/hot/SocialHotDeployListener.java",
+      "target": "function:portal-impl/src/com/liferay/portal/deploy/hot/SocialHotDeployListener.java:invokeDeploy",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/deploy/hot/SocialHotDeployListener.java",
+      "target": "function:portal-impl/src/com/liferay/portal/deploy/hot/SocialHotDeployListener.java:invokeUndeploy",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/deploy/hot/SocialHotDeployListener.java",
+      "target": "function:portal-impl/src/com/liferay/portal/deploy/hot/SocialHotDeployListener.java:invokeUndeploy",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/deploy/hot/SocialHotDeployListener.java",
+      "target": "function:portal-impl/src/com/liferay/portal/deploy/hot/SocialHotDeployListener.java:doInvokeDeploy",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/deploy/hot/SocialHotDeployListener.java",
+      "target": "function:portal-impl/src/com/liferay/portal/deploy/hot/SocialHotDeployListener.java:doInvokeUndeploy",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/deploy/hot/SocialHotDeployListener.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/deploy/hot/BaseHotDeployListener.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/deploy/hot/SocialHotDeployListener.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/deploy/hot/HotDeployEvent.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/deploy/hot/SocialHotDeployListener.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/deploy/hot/HotDeployException.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/deploy/hot/SocialHotDeployListener.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/log/Log.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/deploy/hot/SocialHotDeployListener.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/log/LogFactoryUtil.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/deploy/hot/SocialHotDeployListener.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/util/Tuple.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/deploy/hot/SocialHotDeployListener.java",
+      "target": "file:portal-kernel/src/com/liferay/social/kernel/model/SocialAchievement.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/deploy/hot/SocialHotDeployListener.java",
+      "target": "file:portal-kernel/src/com/liferay/social/kernel/model/SocialActivityCounterDefinition.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/deploy/hot/SocialHotDeployListener.java",
+      "target": "file:portal-kernel/src/com/liferay/social/kernel/model/SocialActivityDefinition.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/deploy/hot/SocialHotDeployListener.java",
+      "target": "file:portal-kernel/src/com/liferay/social/kernel/util/SocialConfigurationUtil.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/deploy/hot/ThemeHotDeployListener.java",
+      "target": "class:portal-impl/src/com/liferay/portal/deploy/hot/ThemeHotDeployListener.java:ThemeHotDeployListener",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/deploy/hot/ThemeHotDeployListener.java",
+      "target": "class:portal-impl/src/com/liferay/portal/deploy/hot/ThemeHotDeployListener.java:ThemeHotDeployListener",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/deploy/hot/ThemeHotDeployListener.java",
+      "target": "function:portal-impl/src/com/liferay/portal/deploy/hot/ThemeHotDeployListener.java:invokeDeploy",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/deploy/hot/ThemeHotDeployListener.java",
+      "target": "function:portal-impl/src/com/liferay/portal/deploy/hot/ThemeHotDeployListener.java:invokeDeploy",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/deploy/hot/ThemeHotDeployListener.java",
+      "target": "function:portal-impl/src/com/liferay/portal/deploy/hot/ThemeHotDeployListener.java:invokeUndeploy",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/deploy/hot/ThemeHotDeployListener.java",
+      "target": "function:portal-impl/src/com/liferay/portal/deploy/hot/ThemeHotDeployListener.java:invokeUndeploy",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/deploy/hot/ThemeHotDeployListener.java",
+      "target": "function:portal-impl/src/com/liferay/portal/deploy/hot/ThemeHotDeployListener.java:doInvokeDeploy",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/deploy/hot/ThemeHotDeployListener.java",
+      "target": "function:portal-impl/src/com/liferay/portal/deploy/hot/ThemeHotDeployListener.java:doInvokeUndeploy",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/deploy/hot/ThemeHotDeployListener.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/deploy/hot/BaseHotDeployListener.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/deploy/hot/ThemeHotDeployListener.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/deploy/hot/HotDeployEvent.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/deploy/hot/ThemeHotDeployListener.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/deploy/hot/HotDeployException.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/deploy/hot/ThemeHotDeployListener.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/log/Log.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/deploy/hot/ThemeHotDeployListener.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/log/LogFactoryUtil.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/deploy/hot/ThemeHotDeployListener.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/model/Theme.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/deploy/hot/ThemeHotDeployListener.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/service/ThemeLocalServiceUtil.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/deploy/hot/ThemeHotDeployListener.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/servlet/FileTimestampUtil.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/deploy/hot/ThemeHotDeployListener.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/template/TemplateConstants.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/deploy/hot/ThemeHotDeployListener.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/template/TemplateResourceLoaderUtil.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/deploy/hot/ThemeHotDeployListener.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/util/PortalClassLoaderUtil.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/deploy/hot/ThemeHotDeployListener.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/util/WebKeys.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    }
+  ]
+}

@@ -1,0 +1,1127 @@
+{
+  "nodes": [
+    {
+      "id": "file:portal-impl/src/com/liferay/portal/sharepoint/methods/GetDocsMetaInfoMethodImpl.java",
+      "type": "file",
+      "name": "GetDocsMetaInfoMethodImpl.java",
+      "filePath": "portal-impl/src/com/liferay/portal/sharepoint/methods/GetDocsMetaInfoMethodImpl.java",
+      "summary": "SharePoint SOAP method handler for retrieving document metadata.",
+      "tags": [
+        "java",
+        "portal-impl",
+        "implementation",
+        "sharepoint-integration",
+        "method-handler"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "class:portal-impl/src/com/liferay/portal/sharepoint/methods/GetDocsMetaInfoMethodImpl.java:GetDocsMetaInfoMethodImpl",
+      "type": "class",
+      "name": "GetDocsMetaInfoMethodImpl",
+      "filePath": "portal-impl/src/com/liferay/portal/sharepoint/methods/GetDocsMetaInfoMethodImpl.java",
+      "lineRange": [
+        23,
+        81
+      ],
+      "summary": "Class GetDocsMetaInfoMethodImpl with 3 methods handling methods operations.",
+      "tags": [
+        "java",
+        "class",
+        "implementation",
+        "method-handler"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:portal-impl/src/com/liferay/portal/sharepoint/methods/GetDocsMetaInfoMethodImpl.java:getElements",
+      "type": "function",
+      "name": "getElements",
+      "filePath": "portal-impl/src/com/liferay/portal/sharepoint/methods/GetDocsMetaInfoMethodImpl.java",
+      "lineRange": [
+        37,
+        74
+      ],
+      "summary": "Method getElements with 1 parameters handling getter for Elements.",
+      "tags": [
+        "java",
+        "method",
+        "accessor"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:portal-impl/src/com/liferay/portal/sharepoint/methods/GetDocumentMethodImpl.java",
+      "type": "file",
+      "name": "GetDocumentMethodImpl.java",
+      "filePath": "portal-impl/src/com/liferay/portal/sharepoint/methods/GetDocumentMethodImpl.java",
+      "summary": "SharePoint SOAP method handler for retrieving document content.",
+      "tags": [
+        "java",
+        "portal-impl",
+        "implementation",
+        "sharepoint-integration",
+        "method-handler"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "class:portal-impl/src/com/liferay/portal/sharepoint/methods/GetDocumentMethodImpl.java:GetDocumentMethodImpl",
+      "type": "class",
+      "name": "GetDocumentMethodImpl",
+      "filePath": "portal-impl/src/com/liferay/portal/sharepoint/methods/GetDocumentMethodImpl.java",
+      "lineRange": [
+        25,
+        76
+      ],
+      "summary": "Class GetDocumentMethodImpl with 4 methods handling methods operations.",
+      "tags": [
+        "java",
+        "class",
+        "implementation",
+        "method-handler"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:portal-impl/src/com/liferay/portal/sharepoint/methods/GetDocumentMethodImpl.java:doProcess",
+      "type": "function",
+      "name": "doProcess",
+      "filePath": "portal-impl/src/com/liferay/portal/sharepoint/methods/GetDocumentMethodImpl.java",
+      "lineRange": [
+        37,
+        53
+      ],
+      "summary": "Method doProcess with 1 parameters handling doProcess.",
+      "tags": [
+        "java",
+        "method"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:portal-impl/src/com/liferay/portal/sharepoint/methods/GetDocumentMethodImpl.java:getElements",
+      "type": "function",
+      "name": "getElements",
+      "filePath": "portal-impl/src/com/liferay/portal/sharepoint/methods/GetDocumentMethodImpl.java",
+      "lineRange": [
+        55,
+        72
+      ],
+      "summary": "Method getElements with 1 parameters handling getter for Elements.",
+      "tags": [
+        "java",
+        "method",
+        "accessor"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:portal-impl/src/com/liferay/portal/sharepoint/methods/ListDocumentsMethodImpl.java",
+      "type": "file",
+      "name": "ListDocumentsMethodImpl.java",
+      "filePath": "portal-impl/src/com/liferay/portal/sharepoint/methods/ListDocumentsMethodImpl.java",
+      "summary": "SharePoint SOAP method handler for listing documents in a folder.",
+      "tags": [
+        "java",
+        "portal-impl",
+        "implementation",
+        "sharepoint-integration",
+        "method-handler"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:portal-impl/src/com/liferay/portal/sharepoint/methods/ListDocumentsMethodImpl.java:ListDocumentsMethodImpl",
+      "type": "class",
+      "name": "ListDocumentsMethodImpl",
+      "filePath": "portal-impl/src/com/liferay/portal/sharepoint/methods/ListDocumentsMethodImpl.java",
+      "lineRange": [
+        19,
+        55
+      ],
+      "summary": "Class ListDocumentsMethodImpl with 3 methods handling methods operations.",
+      "tags": [
+        "java",
+        "class",
+        "implementation",
+        "method-handler"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:portal-impl/src/com/liferay/portal/sharepoint/methods/ListDocumentsMethodImpl.java:getElements",
+      "type": "function",
+      "name": "getElements",
+      "filePath": "portal-impl/src/com/liferay/portal/sharepoint/methods/ListDocumentsMethodImpl.java",
+      "lineRange": [
+        31,
+        51
+      ],
+      "summary": "Method getElements with 1 parameters handling getter for Elements.",
+      "tags": [
+        "java",
+        "method",
+        "accessor"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:portal-impl/src/com/liferay/portal/sharepoint/methods/Method.java",
+      "type": "file",
+      "name": "Method.java",
+      "filePath": "portal-impl/src/com/liferay/portal/sharepoint/methods/Method.java",
+      "summary": "Interface defining the SharePoint SOAP method handler contract.",
+      "tags": [
+        "java",
+        "portal-impl",
+        "sharepoint-integration",
+        "method-handler"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:portal-impl/src/com/liferay/portal/sharepoint/methods/Method.java:Method",
+      "type": "class",
+      "name": "Method",
+      "filePath": "portal-impl/src/com/liferay/portal/sharepoint/methods/Method.java",
+      "lineRange": [
+        14,
+        27
+      ],
+      "summary": "Class Method with 3 methods handling methods operations.",
+      "tags": [
+        "java",
+        "class"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:portal-impl/src/com/liferay/portal/sharepoint/methods/MoveDocumentMethodImpl.java",
+      "type": "file",
+      "name": "MoveDocumentMethodImpl.java",
+      "filePath": "portal-impl/src/com/liferay/portal/sharepoint/methods/MoveDocumentMethodImpl.java",
+      "summary": "Interface defining the SharePoint SOAP method handler contract.",
+      "tags": [
+        "java",
+        "portal-impl",
+        "implementation",
+        "sharepoint-integration",
+        "method-handler"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:portal-impl/src/com/liferay/portal/sharepoint/methods/MoveDocumentMethodImpl.java:MoveDocumentMethodImpl",
+      "type": "class",
+      "name": "MoveDocumentMethodImpl",
+      "filePath": "portal-impl/src/com/liferay/portal/sharepoint/methods/MoveDocumentMethodImpl.java",
+      "lineRange": [
+        22,
+        70
+      ],
+      "summary": "Class MoveDocumentMethodImpl with 3 methods handling methods operations.",
+      "tags": [
+        "java",
+        "class",
+        "implementation",
+        "method-handler"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:portal-impl/src/com/liferay/portal/sharepoint/methods/MoveDocumentMethodImpl.java:getElements",
+      "type": "function",
+      "name": "getElements",
+      "filePath": "portal-impl/src/com/liferay/portal/sharepoint/methods/MoveDocumentMethodImpl.java",
+      "lineRange": [
+        34,
+        66
+      ],
+      "summary": "Method getElements with 1 parameters handling getter for Elements.",
+      "tags": [
+        "java",
+        "method",
+        "accessor"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:portal-impl/src/com/liferay/portal/sharepoint/methods/OpenServiceMethodImpl.java",
+      "type": "file",
+      "name": "OpenServiceMethodImpl.java",
+      "filePath": "portal-impl/src/com/liferay/portal/sharepoint/methods/OpenServiceMethodImpl.java",
+      "summary": "Interface defining the SharePoint SOAP method handler contract.",
+      "tags": [
+        "java",
+        "portal-impl",
+        "implementation",
+        "service",
+        "sharepoint-integration"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "class:portal-impl/src/com/liferay/portal/sharepoint/methods/OpenServiceMethodImpl.java:OpenServiceMethodImpl",
+      "type": "class",
+      "name": "OpenServiceMethodImpl",
+      "filePath": "portal-impl/src/com/liferay/portal/sharepoint/methods/OpenServiceMethodImpl.java",
+      "lineRange": [
+        20,
+        70
+      ],
+      "summary": "Class OpenServiceMethodImpl with 3 methods handling methods operations.",
+      "tags": [
+        "java",
+        "class",
+        "implementation",
+        "method-handler"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:portal-impl/src/com/liferay/portal/sharepoint/methods/PutDocumentMethodImpl.java",
+      "type": "file",
+      "name": "PutDocumentMethodImpl.java",
+      "filePath": "portal-impl/src/com/liferay/portal/sharepoint/methods/PutDocumentMethodImpl.java",
+      "summary": "Interface defining the SharePoint SOAP method handler contract.",
+      "tags": [
+        "java",
+        "portal-impl",
+        "implementation",
+        "sharepoint-integration",
+        "method-handler"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:portal-impl/src/com/liferay/portal/sharepoint/methods/PutDocumentMethodImpl.java:PutDocumentMethodImpl",
+      "type": "class",
+      "name": "PutDocumentMethodImpl",
+      "filePath": "portal-impl/src/com/liferay/portal/sharepoint/methods/PutDocumentMethodImpl.java",
+      "lineRange": [
+        20,
+        59
+      ],
+      "summary": "Class PutDocumentMethodImpl with 3 methods handling methods operations.",
+      "tags": [
+        "java",
+        "class",
+        "implementation",
+        "method-handler"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:portal-impl/src/com/liferay/portal/sharepoint/methods/PutDocumentMethodImpl.java:getElements",
+      "type": "function",
+      "name": "getElements",
+      "filePath": "portal-impl/src/com/liferay/portal/sharepoint/methods/PutDocumentMethodImpl.java",
+      "lineRange": [
+        36,
+        55
+      ],
+      "summary": "Method getElements with 1 parameters handling getter for Elements.",
+      "tags": [
+        "java",
+        "method",
+        "accessor"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:portal-impl/src/com/liferay/portal/sharepoint/methods/RemoveDocumentsMethodImpl.java",
+      "type": "file",
+      "name": "RemoveDocumentsMethodImpl.java",
+      "filePath": "portal-impl/src/com/liferay/portal/sharepoint/methods/RemoveDocumentsMethodImpl.java",
+      "summary": "Interface defining the SharePoint SOAP method handler contract.",
+      "tags": [
+        "java",
+        "portal-impl",
+        "implementation",
+        "sharepoint-integration",
+        "method-handler"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:portal-impl/src/com/liferay/portal/sharepoint/methods/RemoveDocumentsMethodImpl.java:RemoveDocumentsMethodImpl",
+      "type": "class",
+      "name": "RemoveDocumentsMethodImpl",
+      "filePath": "portal-impl/src/com/liferay/portal/sharepoint/methods/RemoveDocumentsMethodImpl.java",
+      "lineRange": [
+        21,
+        58
+      ],
+      "summary": "Class RemoveDocumentsMethodImpl with 3 methods handling methods operations.",
+      "tags": [
+        "java",
+        "class",
+        "implementation",
+        "method-handler"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:portal-impl/src/com/liferay/portal/sharepoint/methods/RemoveDocumentsMethodImpl.java:getElements",
+      "type": "function",
+      "name": "getElements",
+      "filePath": "portal-impl/src/com/liferay/portal/sharepoint/methods/RemoveDocumentsMethodImpl.java",
+      "lineRange": [
+        37,
+        54
+      ],
+      "summary": "Method getElements with 1 parameters handling getter for Elements.",
+      "tags": [
+        "java",
+        "method",
+        "accessor"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:portal-impl/src/com/liferay/portal/sharepoint/methods/ServerVersionMethodImpl.java",
+      "type": "file",
+      "name": "ServerVersionMethodImpl.java",
+      "filePath": "portal-impl/src/com/liferay/portal/sharepoint/methods/ServerVersionMethodImpl.java",
+      "summary": "Interface defining the SharePoint SOAP method handler contract.",
+      "tags": [
+        "java",
+        "portal-impl",
+        "implementation",
+        "sharepoint-integration",
+        "method-handler"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:portal-impl/src/com/liferay/portal/sharepoint/methods/ServerVersionMethodImpl.java:ServerVersionMethodImpl",
+      "type": "class",
+      "name": "ServerVersionMethodImpl",
+      "filePath": "portal-impl/src/com/liferay/portal/sharepoint/methods/ServerVersionMethodImpl.java",
+      "lineRange": [
+        20,
+        54
+      ],
+      "summary": "Class ServerVersionMethodImpl with 3 methods handling methods operations.",
+      "tags": [
+        "java",
+        "class",
+        "implementation",
+        "method-handler"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:portal-impl/src/com/liferay/portal/sharepoint/methods/UncheckoutDocumentMethodImpl.java",
+      "type": "file",
+      "name": "UncheckoutDocumentMethodImpl.java",
+      "filePath": "portal-impl/src/com/liferay/portal/sharepoint/methods/UncheckoutDocumentMethodImpl.java",
+      "summary": "Interface defining the SharePoint SOAP method handler contract.",
+      "tags": [
+        "java",
+        "portal-impl",
+        "implementation",
+        "sharepoint-integration",
+        "method-handler"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:portal-impl/src/com/liferay/portal/sharepoint/methods/UncheckoutDocumentMethodImpl.java:UncheckoutDocumentMethodImpl",
+      "type": "class",
+      "name": "UncheckoutDocumentMethodImpl",
+      "filePath": "portal-impl/src/com/liferay/portal/sharepoint/methods/UncheckoutDocumentMethodImpl.java",
+      "lineRange": [
+        18,
+        46
+      ],
+      "summary": "Class UncheckoutDocumentMethodImpl with 3 methods handling methods operations.",
+      "tags": [
+        "java",
+        "class",
+        "implementation",
+        "method-handler"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:portal-impl/src/com/liferay/portal/sharepoint/methods/UncheckoutDocumentMethodImpl.java:getElements",
+      "type": "function",
+      "name": "getElements",
+      "filePath": "portal-impl/src/com/liferay/portal/sharepoint/methods/UncheckoutDocumentMethodImpl.java",
+      "lineRange": [
+        30,
+        42
+      ],
+      "summary": "Method getElements with 1 parameters handling getter for Elements.",
+      "tags": [
+        "java",
+        "method",
+        "accessor"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:portal-impl/src/com/liferay/portal/sharepoint/methods/UrlToWebUrlMethodImpl.java",
+      "type": "file",
+      "name": "UrlToWebUrlMethodImpl.java",
+      "filePath": "portal-impl/src/com/liferay/portal/sharepoint/methods/UrlToWebUrlMethodImpl.java",
+      "summary": "Interface defining the SharePoint SOAP method handler contract.",
+      "tags": [
+        "java",
+        "portal-impl",
+        "implementation",
+        "sharepoint-integration",
+        "method-handler"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:portal-impl/src/com/liferay/portal/sharepoint/methods/UrlToWebUrlMethodImpl.java:UrlToWebUrlMethodImpl",
+      "type": "class",
+      "name": "UrlToWebUrlMethodImpl",
+      "filePath": "portal-impl/src/com/liferay/portal/sharepoint/methods/UrlToWebUrlMethodImpl.java",
+      "lineRange": [
+        22,
+        63
+      ],
+      "summary": "Class UrlToWebUrlMethodImpl with 2 methods handling methods operations.",
+      "tags": [
+        "java",
+        "class",
+        "implementation",
+        "method-handler"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:portal-impl/src/com/liferay/portal/sharepoint/methods/UrlToWebUrlMethodImpl.java:getElements",
+      "type": "function",
+      "name": "getElements",
+      "filePath": "portal-impl/src/com/liferay/portal/sharepoint/methods/UrlToWebUrlMethodImpl.java",
+      "lineRange": [
+        29,
+        56
+      ],
+      "summary": "Method getElements with 1 parameters handling getter for Elements.",
+      "tags": [
+        "java",
+        "method",
+        "accessor"
+      ],
+      "complexity": "moderate"
+    }
+  ],
+  "edges": [
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/sharepoint/methods/GetDocsMetaInfoMethodImpl.java",
+      "target": "class:portal-impl/src/com/liferay/portal/sharepoint/methods/GetDocsMetaInfoMethodImpl.java:GetDocsMetaInfoMethodImpl",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/sharepoint/methods/GetDocsMetaInfoMethodImpl.java",
+      "target": "class:portal-impl/src/com/liferay/portal/sharepoint/methods/GetDocsMetaInfoMethodImpl.java:GetDocsMetaInfoMethodImpl",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/sharepoint/methods/GetDocsMetaInfoMethodImpl.java",
+      "target": "function:portal-impl/src/com/liferay/portal/sharepoint/methods/GetDocsMetaInfoMethodImpl.java:getElements",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/sharepoint/methods/GetDocsMetaInfoMethodImpl.java",
+      "target": "file:portal-impl/src/com/liferay/portal/sharepoint/Property.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/sharepoint/methods/GetDocsMetaInfoMethodImpl.java",
+      "target": "file:portal-impl/src/com/liferay/portal/sharepoint/ResponseElement.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/sharepoint/methods/GetDocsMetaInfoMethodImpl.java",
+      "target": "file:portal-impl/src/com/liferay/portal/sharepoint/SharepointRequest.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/sharepoint/methods/GetDocsMetaInfoMethodImpl.java",
+      "target": "file:portal-impl/src/com/liferay/portal/sharepoint/SharepointStorage.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/sharepoint/methods/GetDocsMetaInfoMethodImpl.java",
+      "target": "file:portal-impl/src/com/liferay/portal/sharepoint/Tree.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/sharepoint/methods/GetDocsMetaInfoMethodImpl.java",
+      "target": "file:portal-kernel/src/com/liferay/document/library/kernel/exception/NoSuchFileEntryException.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/sharepoint/methods/GetDocsMetaInfoMethodImpl.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/log/Log.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/sharepoint/methods/GetDocsMetaInfoMethodImpl.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/log/LogFactoryUtil.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/sharepoint/methods/GetDocumentMethodImpl.java",
+      "target": "class:portal-impl/src/com/liferay/portal/sharepoint/methods/GetDocumentMethodImpl.java:GetDocumentMethodImpl",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/sharepoint/methods/GetDocumentMethodImpl.java",
+      "target": "class:portal-impl/src/com/liferay/portal/sharepoint/methods/GetDocumentMethodImpl.java:GetDocumentMethodImpl",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/sharepoint/methods/GetDocumentMethodImpl.java",
+      "target": "function:portal-impl/src/com/liferay/portal/sharepoint/methods/GetDocumentMethodImpl.java:doProcess",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/sharepoint/methods/GetDocumentMethodImpl.java",
+      "target": "function:portal-impl/src/com/liferay/portal/sharepoint/methods/GetDocumentMethodImpl.java:getElements",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/sharepoint/methods/GetDocumentMethodImpl.java",
+      "target": "file:portal-impl/src/com/liferay/portal/sharepoint/Property.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/sharepoint/methods/GetDocumentMethodImpl.java",
+      "target": "file:portal-impl/src/com/liferay/portal/sharepoint/ResponseElement.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/sharepoint/methods/GetDocumentMethodImpl.java",
+      "target": "file:portal-impl/src/com/liferay/portal/sharepoint/SharepointRequest.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/sharepoint/methods/GetDocumentMethodImpl.java",
+      "target": "file:portal-impl/src/com/liferay/portal/sharepoint/SharepointStorage.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/sharepoint/methods/GetDocumentMethodImpl.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/servlet/ServletResponseUtil.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/sharepoint/methods/GetDocumentMethodImpl.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/util/ArrayUtil.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/sharepoint/methods/GetDocumentMethodImpl.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/util/FileUtil.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/sharepoint/methods/ListDocumentsMethodImpl.java",
+      "target": "class:portal-impl/src/com/liferay/portal/sharepoint/methods/ListDocumentsMethodImpl.java:ListDocumentsMethodImpl",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/sharepoint/methods/ListDocumentsMethodImpl.java",
+      "target": "class:portal-impl/src/com/liferay/portal/sharepoint/methods/ListDocumentsMethodImpl.java:ListDocumentsMethodImpl",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/sharepoint/methods/ListDocumentsMethodImpl.java",
+      "target": "function:portal-impl/src/com/liferay/portal/sharepoint/methods/ListDocumentsMethodImpl.java:getElements",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/sharepoint/methods/ListDocumentsMethodImpl.java",
+      "target": "file:portal-impl/src/com/liferay/portal/sharepoint/Property.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/sharepoint/methods/ListDocumentsMethodImpl.java",
+      "target": "file:portal-impl/src/com/liferay/portal/sharepoint/ResponseElement.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/sharepoint/methods/ListDocumentsMethodImpl.java",
+      "target": "file:portal-impl/src/com/liferay/portal/sharepoint/SharepointRequest.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/sharepoint/methods/ListDocumentsMethodImpl.java",
+      "target": "file:portal-impl/src/com/liferay/portal/sharepoint/SharepointStorage.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/sharepoint/methods/Method.java",
+      "target": "class:portal-impl/src/com/liferay/portal/sharepoint/methods/Method.java:Method",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/sharepoint/methods/Method.java",
+      "target": "class:portal-impl/src/com/liferay/portal/sharepoint/methods/Method.java:Method",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/sharepoint/methods/Method.java",
+      "target": "file:portal-impl/src/com/liferay/portal/sharepoint/SharepointException.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/sharepoint/methods/Method.java",
+      "target": "file:portal-impl/src/com/liferay/portal/sharepoint/SharepointRequest.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/sharepoint/methods/MoveDocumentMethodImpl.java",
+      "target": "class:portal-impl/src/com/liferay/portal/sharepoint/methods/MoveDocumentMethodImpl.java:MoveDocumentMethodImpl",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/sharepoint/methods/MoveDocumentMethodImpl.java",
+      "target": "class:portal-impl/src/com/liferay/portal/sharepoint/methods/MoveDocumentMethodImpl.java:MoveDocumentMethodImpl",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/sharepoint/methods/MoveDocumentMethodImpl.java",
+      "target": "function:portal-impl/src/com/liferay/portal/sharepoint/methods/MoveDocumentMethodImpl.java:getElements",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/sharepoint/methods/MoveDocumentMethodImpl.java",
+      "target": "file:portal-impl/src/com/liferay/portal/sharepoint/Property.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/sharepoint/methods/MoveDocumentMethodImpl.java",
+      "target": "file:portal-impl/src/com/liferay/portal/sharepoint/ResponseElement.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/sharepoint/methods/MoveDocumentMethodImpl.java",
+      "target": "file:portal-impl/src/com/liferay/portal/sharepoint/SharepointRequest.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/sharepoint/methods/MoveDocumentMethodImpl.java",
+      "target": "file:portal-impl/src/com/liferay/portal/sharepoint/SharepointStorage.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/sharepoint/methods/MoveDocumentMethodImpl.java",
+      "target": "file:portal-impl/src/com/liferay/portal/sharepoint/SharepointUtil.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/sharepoint/methods/MoveDocumentMethodImpl.java",
+      "target": "file:portal-impl/src/com/liferay/portal/sharepoint/Tree.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/sharepoint/methods/OpenServiceMethodImpl.java",
+      "target": "class:portal-impl/src/com/liferay/portal/sharepoint/methods/OpenServiceMethodImpl.java:OpenServiceMethodImpl",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/sharepoint/methods/OpenServiceMethodImpl.java",
+      "target": "class:portal-impl/src/com/liferay/portal/sharepoint/methods/OpenServiceMethodImpl.java:OpenServiceMethodImpl",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/sharepoint/methods/OpenServiceMethodImpl.java",
+      "target": "file:portal-impl/src/com/liferay/portal/sharepoint/Leaf.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/sharepoint/methods/OpenServiceMethodImpl.java",
+      "target": "file:portal-impl/src/com/liferay/portal/sharepoint/Property.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/sharepoint/methods/OpenServiceMethodImpl.java",
+      "target": "file:portal-impl/src/com/liferay/portal/sharepoint/ResponseElement.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/sharepoint/methods/OpenServiceMethodImpl.java",
+      "target": "file:portal-impl/src/com/liferay/portal/sharepoint/SharepointRequest.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/sharepoint/methods/OpenServiceMethodImpl.java",
+      "target": "file:portal-impl/src/com/liferay/portal/sharepoint/Tree.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/sharepoint/methods/PutDocumentMethodImpl.java",
+      "target": "class:portal-impl/src/com/liferay/portal/sharepoint/methods/PutDocumentMethodImpl.java:PutDocumentMethodImpl",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/sharepoint/methods/PutDocumentMethodImpl.java",
+      "target": "class:portal-impl/src/com/liferay/portal/sharepoint/methods/PutDocumentMethodImpl.java:PutDocumentMethodImpl",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/sharepoint/methods/PutDocumentMethodImpl.java",
+      "target": "function:portal-impl/src/com/liferay/portal/sharepoint/methods/PutDocumentMethodImpl.java:getElements",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/sharepoint/methods/PutDocumentMethodImpl.java",
+      "target": "file:portal-impl/src/com/liferay/portal/sharepoint/Property.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/sharepoint/methods/PutDocumentMethodImpl.java",
+      "target": "file:portal-impl/src/com/liferay/portal/sharepoint/ResponseElement.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/sharepoint/methods/PutDocumentMethodImpl.java",
+      "target": "file:portal-impl/src/com/liferay/portal/sharepoint/SharepointRequest.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/sharepoint/methods/PutDocumentMethodImpl.java",
+      "target": "file:portal-impl/src/com/liferay/portal/sharepoint/SharepointStorage.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/sharepoint/methods/RemoveDocumentsMethodImpl.java",
+      "target": "class:portal-impl/src/com/liferay/portal/sharepoint/methods/RemoveDocumentsMethodImpl.java:RemoveDocumentsMethodImpl",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/sharepoint/methods/RemoveDocumentsMethodImpl.java",
+      "target": "class:portal-impl/src/com/liferay/portal/sharepoint/methods/RemoveDocumentsMethodImpl.java:RemoveDocumentsMethodImpl",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/sharepoint/methods/RemoveDocumentsMethodImpl.java",
+      "target": "function:portal-impl/src/com/liferay/portal/sharepoint/methods/RemoveDocumentsMethodImpl.java:getElements",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/sharepoint/methods/RemoveDocumentsMethodImpl.java",
+      "target": "file:portal-impl/src/com/liferay/portal/sharepoint/Property.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/sharepoint/methods/RemoveDocumentsMethodImpl.java",
+      "target": "file:portal-impl/src/com/liferay/portal/sharepoint/ResponseElement.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/sharepoint/methods/RemoveDocumentsMethodImpl.java",
+      "target": "file:portal-impl/src/com/liferay/portal/sharepoint/SharepointRequest.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/sharepoint/methods/RemoveDocumentsMethodImpl.java",
+      "target": "file:portal-impl/src/com/liferay/portal/sharepoint/SharepointStorage.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/sharepoint/methods/RemoveDocumentsMethodImpl.java",
+      "target": "file:portal-impl/src/com/liferay/portal/sharepoint/Tree.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/sharepoint/methods/ServerVersionMethodImpl.java",
+      "target": "class:portal-impl/src/com/liferay/portal/sharepoint/methods/ServerVersionMethodImpl.java:ServerVersionMethodImpl",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/sharepoint/methods/ServerVersionMethodImpl.java",
+      "target": "class:portal-impl/src/com/liferay/portal/sharepoint/methods/ServerVersionMethodImpl.java:ServerVersionMethodImpl",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/sharepoint/methods/ServerVersionMethodImpl.java",
+      "target": "file:portal-impl/src/com/liferay/portal/sharepoint/Leaf.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/sharepoint/methods/ServerVersionMethodImpl.java",
+      "target": "file:portal-impl/src/com/liferay/portal/sharepoint/Property.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/sharepoint/methods/ServerVersionMethodImpl.java",
+      "target": "file:portal-impl/src/com/liferay/portal/sharepoint/ResponseElement.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/sharepoint/methods/ServerVersionMethodImpl.java",
+      "target": "file:portal-impl/src/com/liferay/portal/sharepoint/SharepointRequest.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/sharepoint/methods/ServerVersionMethodImpl.java",
+      "target": "file:portal-impl/src/com/liferay/portal/sharepoint/Tree.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/sharepoint/methods/UncheckoutDocumentMethodImpl.java",
+      "target": "class:portal-impl/src/com/liferay/portal/sharepoint/methods/UncheckoutDocumentMethodImpl.java:UncheckoutDocumentMethodImpl",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/sharepoint/methods/UncheckoutDocumentMethodImpl.java",
+      "target": "class:portal-impl/src/com/liferay/portal/sharepoint/methods/UncheckoutDocumentMethodImpl.java:UncheckoutDocumentMethodImpl",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/sharepoint/methods/UncheckoutDocumentMethodImpl.java",
+      "target": "function:portal-impl/src/com/liferay/portal/sharepoint/methods/UncheckoutDocumentMethodImpl.java:getElements",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/sharepoint/methods/UncheckoutDocumentMethodImpl.java",
+      "target": "file:portal-impl/src/com/liferay/portal/sharepoint/ResponseElement.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/sharepoint/methods/UncheckoutDocumentMethodImpl.java",
+      "target": "file:portal-impl/src/com/liferay/portal/sharepoint/SharepointRequest.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/sharepoint/methods/UncheckoutDocumentMethodImpl.java",
+      "target": "file:portal-impl/src/com/liferay/portal/sharepoint/SharepointStorage.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/sharepoint/methods/UrlToWebUrlMethodImpl.java",
+      "target": "class:portal-impl/src/com/liferay/portal/sharepoint/methods/UrlToWebUrlMethodImpl.java:UrlToWebUrlMethodImpl",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/sharepoint/methods/UrlToWebUrlMethodImpl.java",
+      "target": "class:portal-impl/src/com/liferay/portal/sharepoint/methods/UrlToWebUrlMethodImpl.java:UrlToWebUrlMethodImpl",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/sharepoint/methods/UrlToWebUrlMethodImpl.java",
+      "target": "function:portal-impl/src/com/liferay/portal/sharepoint/methods/UrlToWebUrlMethodImpl.java:getElements",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/sharepoint/methods/UrlToWebUrlMethodImpl.java",
+      "target": "file:portal-impl/src/com/liferay/portal/sharepoint/Property.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/sharepoint/methods/UrlToWebUrlMethodImpl.java",
+      "target": "file:portal-impl/src/com/liferay/portal/sharepoint/ResponseElement.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/sharepoint/methods/UrlToWebUrlMethodImpl.java",
+      "target": "file:portal-impl/src/com/liferay/portal/sharepoint/SharepointRequest.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/sharepoint/methods/UrlToWebUrlMethodImpl.java",
+      "target": "file:portal-impl/src/com/liferay/portal/sharepoint/SharepointUtil.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/sharepoint/methods/UrlToWebUrlMethodImpl.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/log/Log.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/sharepoint/methods/UrlToWebUrlMethodImpl.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/log/LogFactoryUtil.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/sharepoint/methods/UrlToWebUrlMethodImpl.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/util/Validator.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    }
+  ]
+}

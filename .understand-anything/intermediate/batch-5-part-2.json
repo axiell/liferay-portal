@@ -1,0 +1,657 @@
+{
+  "nodes": [
+    {
+      "id": "file:portal-impl/src/com/liferay/portal/events/GlobalStartupAction.java",
+      "type": "file",
+      "name": "GlobalStartupAction.java",
+      "filePath": "portal-impl/src/com/liferay/portal/events/GlobalStartupAction.java",
+      "summary": "Executes startup action during portal initialization, extending SimpleAction to run application-level startup logic.",
+      "tags": [
+        "startup",
+        "lifecycle",
+        "event-handler"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "class:portal-impl/src/com/liferay/portal/events/GlobalStartupAction.java:GlobalStartupAction",
+      "type": "class",
+      "name": "GlobalStartupAction",
+      "filePath": "portal-impl/src/com/liferay/portal/events/GlobalStartupAction.java",
+      "lineRange": [
+        31,
+        123
+      ],
+      "summary": "Portal lifecycle action class that executes globalstartup event handling logic.",
+      "tags": [
+        "action",
+        "event-handler"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:portal-impl/src/com/liferay/portal/events/GlobalStartupAction.java:getHotDeployListeners",
+      "type": "function",
+      "name": "getHotDeployListeners",
+      "filePath": "portal-impl/src/com/liferay/portal/events/GlobalStartupAction.java",
+      "lineRange": [
+        33,
+        64
+      ],
+      "summary": "Method getHotDeployListeners() in GlobalStartupAction.java.",
+      "tags": [
+        "method"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:portal-impl/src/com/liferay/portal/events/GlobalStartupAction.java:run",
+      "type": "function",
+      "name": "run",
+      "filePath": "portal-impl/src/com/liferay/portal/events/GlobalStartupAction.java",
+      "lineRange": [
+        66,
+        116
+      ],
+      "summary": "Executes the action logic, implementing the core behavior of the enclosing action class.",
+      "tags": [
+        "action",
+        "execution"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:portal-impl/src/com/liferay/portal/events/LogMemoryUsageAction.java",
+      "type": "file",
+      "name": "LogMemoryUsageAction.java",
+      "filePath": "portal-impl/src/com/liferay/portal/events/LogMemoryUsageAction.java",
+      "summary": "Logs memory usage statistics on each servlet request, providing runtime memory monitoring for the portal.",
+      "tags": [
+        "monitoring",
+        "memory",
+        "utility"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:portal-impl/src/com/liferay/portal/events/LogMemoryUsageAction.java:LogMemoryUsageAction",
+      "type": "class",
+      "name": "LogMemoryUsageAction",
+      "filePath": "portal-impl/src/com/liferay/portal/events/LogMemoryUsageAction.java",
+      "lineRange": [
+        21,
+        49
+      ],
+      "summary": "Portal lifecycle action class that executes logmemoryusage event handling logic.",
+      "tags": [
+        "action",
+        "event-handler"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:portal-impl/src/com/liferay/portal/events/LogMemoryUsageAction.java:run",
+      "type": "function",
+      "name": "run",
+      "filePath": "portal-impl/src/com/liferay/portal/events/LogMemoryUsageAction.java",
+      "lineRange": [
+        23,
+        44
+      ],
+      "summary": "Executes the action logic, implementing the core behavior of the enclosing action class.",
+      "tags": [
+        "action",
+        "execution"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:portal-impl/src/com/liferay/portal/events/LogSessionIdAction.java",
+      "type": "file",
+      "name": "LogSessionIdAction.java",
+      "filePath": "portal-impl/src/com/liferay/portal/events/LogSessionIdAction.java",
+      "summary": "Handles HTTP session lifecycle events such as creation and destruction for the portal.",
+      "tags": [
+        "session",
+        "lifecycle",
+        "event-handler"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:portal-impl/src/com/liferay/portal/events/LogSessionIdAction.java:LogSessionIdAction",
+      "type": "class",
+      "name": "LogSessionIdAction",
+      "filePath": "portal-impl/src/com/liferay/portal/events/LogSessionIdAction.java",
+      "lineRange": [
+        20,
+        40
+      ],
+      "summary": "Portal lifecycle action class that executes logsessionid event handling logic.",
+      "tags": [
+        "action",
+        "event-handler"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:portal-impl/src/com/liferay/portal/events/LogSessionIdAction.java:run",
+      "type": "function",
+      "name": "run",
+      "filePath": "portal-impl/src/com/liferay/portal/events/LogSessionIdAction.java",
+      "lineRange": [
+        22,
+        35
+      ],
+      "summary": "Executes the action logic, implementing the core behavior of the enclosing action class.",
+      "tags": [
+        "action",
+        "execution"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:portal-impl/src/com/liferay/portal/events/LogThreadCountAction.java",
+      "type": "file",
+      "name": "LogThreadCountAction.java",
+      "filePath": "portal-impl/src/com/liferay/portal/events/LogThreadCountAction.java",
+      "summary": "Logs active thread count on each servlet request for runtime thread monitoring.",
+      "tags": [
+        "monitoring",
+        "threading",
+        "utility"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:portal-impl/src/com/liferay/portal/events/LogThreadCountAction.java:run",
+      "type": "function",
+      "name": "run",
+      "filePath": "portal-impl/src/com/liferay/portal/events/LogThreadCountAction.java",
+      "lineRange": [
+        20,
+        28
+      ],
+      "summary": "Executes the action logic, implementing the core behavior of the enclosing action class.",
+      "tags": [
+        "action",
+        "execution"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:portal-impl/src/com/liferay/portal/events/LoginPreAction.java",
+      "type": "file",
+      "name": "LoginPreAction.java",
+      "filePath": "portal-impl/src/com/liferay/portal/events/LoginPreAction.java",
+      "summary": "Pre-action hook executed before user login, extending Action to perform pre-authentication tasks.",
+      "tags": [
+        "authentication",
+        "login",
+        "lifecycle"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:portal-impl/src/com/liferay/portal/events/LoginPreAction.java:run",
+      "type": "function",
+      "name": "run",
+      "filePath": "portal-impl/src/com/liferay/portal/events/LoginPreAction.java",
+      "lineRange": [
+        20,
+        28
+      ],
+      "summary": "Executes the action logic, implementing the core behavior of the enclosing action class.",
+      "tags": [
+        "action",
+        "execution"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:portal-impl/src/com/liferay/portal/events/LogoutPostAction.java",
+      "type": "file",
+      "name": "LogoutPostAction.java",
+      "filePath": "portal-impl/src/com/liferay/portal/events/LogoutPostAction.java",
+      "summary": "Handles logout lifecycle events, extending Action to perform pre- or post-logout tasks.",
+      "tags": [
+        "authentication",
+        "logout",
+        "lifecycle"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:portal-impl/src/com/liferay/portal/events/LogoutPostAction.java:run",
+      "type": "function",
+      "name": "run",
+      "filePath": "portal-impl/src/com/liferay/portal/events/LogoutPostAction.java",
+      "lineRange": [
+        20,
+        28
+      ],
+      "summary": "Executes the action logic, implementing the core behavior of the enclosing action class.",
+      "tags": [
+        "action",
+        "execution"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:portal-impl/src/com/liferay/portal/events/LogoutPreAction.java",
+      "type": "file",
+      "name": "LogoutPreAction.java",
+      "filePath": "portal-impl/src/com/liferay/portal/events/LogoutPreAction.java",
+      "summary": "Handles logout lifecycle events, extending Action to perform pre- or post-logout tasks.",
+      "tags": [
+        "authentication",
+        "logout",
+        "lifecycle"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:portal-impl/src/com/liferay/portal/events/LogoutPreAction.java:run",
+      "type": "function",
+      "name": "run",
+      "filePath": "portal-impl/src/com/liferay/portal/events/LogoutPreAction.java",
+      "lineRange": [
+        20,
+        28
+      ],
+      "summary": "Executes the action logic, implementing the core behavior of the enclosing action class.",
+      "tags": [
+        "action",
+        "execution"
+      ],
+      "complexity": "simple"
+    }
+  ],
+  "edges": [
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/events/GlobalStartupAction.java",
+      "target": "class:portal-impl/src/com/liferay/portal/events/GlobalStartupAction.java:GlobalStartupAction",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/events/GlobalStartupAction.java",
+      "target": "class:portal-impl/src/com/liferay/portal/events/GlobalStartupAction.java:GlobalStartupAction",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/events/GlobalStartupAction.java",
+      "target": "function:portal-impl/src/com/liferay/portal/events/GlobalStartupAction.java:getHotDeployListeners",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/events/GlobalStartupAction.java",
+      "target": "function:portal-impl/src/com/liferay/portal/events/GlobalStartupAction.java:getHotDeployListeners",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/events/GlobalStartupAction.java",
+      "target": "function:portal-impl/src/com/liferay/portal/events/GlobalStartupAction.java:run",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/events/GlobalStartupAction.java",
+      "target": "function:portal-impl/src/com/liferay/portal/events/GlobalStartupAction.java:run",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/events/GlobalStartupAction.java",
+      "target": "file:portal-impl/src/com/liferay/portal/struts/AuthPublicPathRegistry.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/events/GlobalStartupAction.java",
+      "target": "file:portal-impl/src/com/liferay/portal/util/BrowserLauncher.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/events/GlobalStartupAction.java",
+      "target": "file:portal-impl/src/com/liferay/portal/util/PropsUtil.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/events/GlobalStartupAction.java",
+      "target": "file:portal-impl/src/com/liferay/portal/util/PropsValues.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/events/GlobalStartupAction.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/deploy/auto/AutoDeployDir.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/events/GlobalStartupAction.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/deploy/auto/AutoDeployUtil.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/events/GlobalStartupAction.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/deploy/hot/HotDeployListener.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/events/GlobalStartupAction.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/deploy/hot/HotDeployUtil.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/events/GlobalStartupAction.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/events/SimpleAction.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/events/GlobalStartupAction.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/log/Log.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/events/GlobalStartupAction.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/log/LogFactoryUtil.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/events/GlobalStartupAction.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/util/InstanceFactory.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/events/GlobalStartupAction.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/util/PropsKeys.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/events/GlobalStartupAction.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/util/Validator.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "function:portal-impl/src/com/liferay/portal/events/GlobalStartupAction.java:run",
+      "target": "function:portal-impl/src/com/liferay/portal/events/GlobalStartupAction.java:getHotDeployListeners",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/events/LogMemoryUsageAction.java",
+      "target": "class:portal-impl/src/com/liferay/portal/events/LogMemoryUsageAction.java:LogMemoryUsageAction",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/events/LogMemoryUsageAction.java",
+      "target": "class:portal-impl/src/com/liferay/portal/events/LogMemoryUsageAction.java:LogMemoryUsageAction",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/events/LogMemoryUsageAction.java",
+      "target": "function:portal-impl/src/com/liferay/portal/events/LogMemoryUsageAction.java:run",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/events/LogMemoryUsageAction.java",
+      "target": "function:portal-impl/src/com/liferay/portal/events/LogMemoryUsageAction.java:run",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/events/LogMemoryUsageAction.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/events/Action.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/events/LogMemoryUsageAction.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/log/Log.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/events/LogMemoryUsageAction.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/log/LogFactoryUtil.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/events/LogSessionIdAction.java",
+      "target": "class:portal-impl/src/com/liferay/portal/events/LogSessionIdAction.java:LogSessionIdAction",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/events/LogSessionIdAction.java",
+      "target": "class:portal-impl/src/com/liferay/portal/events/LogSessionIdAction.java:LogSessionIdAction",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/events/LogSessionIdAction.java",
+      "target": "function:portal-impl/src/com/liferay/portal/events/LogSessionIdAction.java:run",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/events/LogSessionIdAction.java",
+      "target": "function:portal-impl/src/com/liferay/portal/events/LogSessionIdAction.java:run",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/events/LogSessionIdAction.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/events/Action.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/events/LogSessionIdAction.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/log/Log.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/events/LogSessionIdAction.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/log/LogFactoryUtil.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/events/LogThreadCountAction.java",
+      "target": "function:portal-impl/src/com/liferay/portal/events/LogThreadCountAction.java:run",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/events/LogThreadCountAction.java",
+      "target": "function:portal-impl/src/com/liferay/portal/events/LogThreadCountAction.java:run",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/events/LogThreadCountAction.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/events/Action.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/events/LogThreadCountAction.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/log/Log.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/events/LogThreadCountAction.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/log/LogFactoryUtil.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/events/LoginPreAction.java",
+      "target": "function:portal-impl/src/com/liferay/portal/events/LoginPreAction.java:run",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/events/LoginPreAction.java",
+      "target": "function:portal-impl/src/com/liferay/portal/events/LoginPreAction.java:run",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/events/LoginPreAction.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/events/Action.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/events/LoginPreAction.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/log/Log.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/events/LoginPreAction.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/log/LogFactoryUtil.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/events/LogoutPostAction.java",
+      "target": "function:portal-impl/src/com/liferay/portal/events/LogoutPostAction.java:run",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/events/LogoutPostAction.java",
+      "target": "function:portal-impl/src/com/liferay/portal/events/LogoutPostAction.java:run",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/events/LogoutPostAction.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/events/Action.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/events/LogoutPostAction.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/log/Log.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/events/LogoutPostAction.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/log/LogFactoryUtil.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/events/LogoutPreAction.java",
+      "target": "function:portal-impl/src/com/liferay/portal/events/LogoutPreAction.java:run",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/events/LogoutPreAction.java",
+      "target": "function:portal-impl/src/com/liferay/portal/events/LogoutPreAction.java:run",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/events/LogoutPreAction.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/events/Action.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/events/LogoutPreAction.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/log/Log.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/events/LogoutPreAction.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/log/LogFactoryUtil.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    }
+  ]
+}

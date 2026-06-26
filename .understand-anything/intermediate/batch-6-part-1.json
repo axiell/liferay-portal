@@ -1,1784 +1,475 @@
 {
   "nodes": [
     {
-      "id": "file:portal-impl/src/com/liferay/portal/model/impl/PhoneBaseImpl.java",
+      "id": "file:portal-impl/src/com/liferay/portal/events/SetupAdminAutoLogin.java",
       "type": "file",
-      "name": "PhoneBaseImpl.java",
-      "filePath": "portal-impl/src/com/liferay/portal/model/impl/PhoneBaseImpl.java",
-      "summary": "Phone entity implementation in Liferay portal",
+      "name": "SetupAdminAutoLogin.java",
+      "filePath": "portal-impl/src/com/liferay/portal/events/SetupAdminAutoLogin.java",
+      "summary": "Auto-login handler that authenticates as the default admin user during setup, extending BaseAutoLogin to bypass normal login flow when no admin user exists.",
       "tags": [
-        "java",
-        "code",
-        "base-impl",
-        "service-builder"
+        "event-handler",
+        "implementation"
       ],
-      "complexity": "low"
+      "complexity": "moderate"
     },
     {
-      "id": "class:portal-impl/src/com/liferay/portal/model/impl/PhoneBaseImpl.java:PhoneBaseImpl",
-      "type": "class",
-      "name": "PhoneBaseImpl",
-      "filePath": "portal-impl/src/com/liferay/portal/model/impl/PhoneBaseImpl.java",
-      "summary": "PhoneBaseImpl class with 1 methods",
-      "tags": [
-        "java",
-        "class",
-        "methods:1"
-      ],
-      "complexity": "low"
-    },
-    {
-      "id": "function:portal-impl/src/com/liferay/portal/model/impl/PhoneBaseImpl.java:persist",
+      "id": "function:portal-impl/src/com/liferay/portal/events/SetupAdminAutoLogin.java:doHandleException",
       "type": "function",
-      "name": "persist",
-      "filePath": "portal-impl/src/com/liferay/portal/model/impl/PhoneBaseImpl.java",
-      "summary": "Exported function persist",
-      "tags": [
-        "java",
-        "function",
-        "exported"
+      "name": "doHandleException",
+      "filePath": "portal-impl/src/com/liferay/portal/events/SetupAdminAutoLogin.java",
+      "lineRange": [
+        28,
+        39
       ],
-      "complexity": "low"
+      "summary": "Method doHandleException in SetupAdminAutoLogin",
+      "tags": [
+        "method"
+      ],
+      "complexity": "simple"
     },
     {
-      "id": "file:portal-impl/src/com/liferay/portal/model/impl/PhoneCacheModel.java",
+      "id": "function:portal-impl/src/com/liferay/portal/events/SetupAdminAutoLogin.java:doLogin",
+      "type": "function",
+      "name": "doLogin",
+      "filePath": "portal-impl/src/com/liferay/portal/events/SetupAdminAutoLogin.java",
+      "lineRange": [
+        41,
+        77
+      ],
+      "summary": "Method doLogin in SetupAdminAutoLogin",
+      "tags": [
+        "method"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "class:portal-impl/src/com/liferay/portal/events/SetupAdminAutoLogin.java:SetupAdminAutoLogin",
+      "type": "class",
+      "name": "SetupAdminAutoLogin",
+      "filePath": "portal-impl/src/com/liferay/portal/events/SetupAdminAutoLogin.java",
+      "lineRange": [
+        26,
+        82
+      ],
+      "summary": "Class SetupAdminAutoLogin with 2 methods for SetupAdminAutoLogin.",
+      "tags": [
+        "class",
+        "implementation"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:portal-impl/src/com/liferay/portal/events/ShutdownHelperUtil.java",
       "type": "file",
-      "name": "PhoneCacheModel.java",
-      "filePath": "portal-impl/src/com/liferay/portal/model/impl/PhoneCacheModel.java",
-      "summary": "Phone entity implementation in Liferay portal",
+      "name": "ShutdownHelperUtil.java",
+      "filePath": "portal-impl/src/com/liferay/portal/events/ShutdownHelperUtil.java",
+      "summary": "Utility wrapping ShutdownHelper with a thread-local flag to track shutdown state across the request lifecycle.",
       "tags": [
-        "java",
-        "code",
-        "cache-model",
-        "serialization"
+        "utility",
+        "event-handler",
+        "implementation"
       ],
-      "complexity": "high"
+      "complexity": "simple"
     },
     {
-      "id": "class:portal-impl/src/com/liferay/portal/model/impl/PhoneCacheModel.java:PhoneCacheModel",
+      "id": "class:portal-impl/src/com/liferay/portal/events/ShutdownHelperUtil.java:ShutdownHelperUtil",
       "type": "class",
-      "name": "PhoneCacheModel",
-      "filePath": "portal-impl/src/com/liferay/portal/model/impl/PhoneCacheModel.java",
-      "summary": "PhoneCacheModel class with 8 methods",
+      "name": "ShutdownHelperUtil",
+      "filePath": "portal-impl/src/com/liferay/portal/events/ShutdownHelperUtil.java",
+      "lineRange": [
+        11,
+        23
+      ],
+      "summary": "Class ShutdownHelperUtil with 2 methods for ShutdownHelperUtil.",
       "tags": [
-        "java",
         "class",
-        "methods:8"
+        "implementation"
       ],
-      "complexity": "high"
+      "complexity": "simple"
     },
     {
-      "id": "function:portal-impl/src/com/liferay/portal/model/impl/PhoneCacheModel.java:equals",
-      "type": "function",
-      "name": "equals",
-      "filePath": "portal-impl/src/com/liferay/portal/model/impl/PhoneCacheModel.java",
-      "summary": "Exported function equals",
-      "tags": [
-        "java",
-        "function",
-        "exported"
-      ],
-      "complexity": "medium"
-    },
-    {
-      "id": "function:portal-impl/src/com/liferay/portal/model/impl/PhoneCacheModel.java:hashCode",
-      "type": "function",
-      "name": "hashCode",
-      "filePath": "portal-impl/src/com/liferay/portal/model/impl/PhoneCacheModel.java",
-      "summary": "Exported function hashCode",
-      "tags": [
-        "java",
-        "function",
-        "exported"
-      ],
-      "complexity": "low"
-    },
-    {
-      "id": "function:portal-impl/src/com/liferay/portal/model/impl/PhoneCacheModel.java:getMvccVersion",
-      "type": "function",
-      "name": "getMvccVersion",
-      "filePath": "portal-impl/src/com/liferay/portal/model/impl/PhoneCacheModel.java",
-      "summary": "Exported function getMvccVersion",
-      "tags": [
-        "java",
-        "function",
-        "exported"
-      ],
-      "complexity": "low"
-    },
-    {
-      "id": "function:portal-impl/src/com/liferay/portal/model/impl/PhoneCacheModel.java:setMvccVersion",
-      "type": "function",
-      "name": "setMvccVersion",
-      "filePath": "portal-impl/src/com/liferay/portal/model/impl/PhoneCacheModel.java",
-      "summary": "Exported function setMvccVersion",
-      "tags": [
-        "java",
-        "function",
-        "exported"
-      ],
-      "complexity": "low"
-    },
-    {
-      "id": "function:portal-impl/src/com/liferay/portal/model/impl/PhoneCacheModel.java:toString",
-      "type": "function",
-      "name": "toString",
-      "filePath": "portal-impl/src/com/liferay/portal/model/impl/PhoneCacheModel.java",
-      "summary": "Exported function toString",
-      "tags": [
-        "java",
-        "function",
-        "exported"
-      ],
-      "complexity": "high"
-    },
-    {
-      "id": "function:portal-impl/src/com/liferay/portal/model/impl/PhoneCacheModel.java:toEntityModel",
-      "type": "function",
-      "name": "toEntityModel",
-      "filePath": "portal-impl/src/com/liferay/portal/model/impl/PhoneCacheModel.java",
-      "summary": "Exported function toEntityModel",
-      "tags": [
-        "java",
-        "function",
-        "exported"
-      ],
-      "complexity": "high"
-    },
-    {
-      "id": "function:portal-impl/src/com/liferay/portal/model/impl/PhoneCacheModel.java:readExternal",
-      "type": "function",
-      "name": "readExternal",
-      "filePath": "portal-impl/src/com/liferay/portal/model/impl/PhoneCacheModel.java",
-      "summary": "Exported function readExternal",
-      "tags": [
-        "java",
-        "function",
-        "exported"
-      ],
-      "complexity": "medium"
-    },
-    {
-      "id": "function:portal-impl/src/com/liferay/portal/model/impl/PhoneCacheModel.java:writeExternal",
-      "type": "function",
-      "name": "writeExternal",
-      "filePath": "portal-impl/src/com/liferay/portal/model/impl/PhoneCacheModel.java",
-      "summary": "Exported function writeExternal",
-      "tags": [
-        "java",
-        "function",
-        "exported"
-      ],
-      "complexity": "high"
-    },
-    {
-      "id": "file:portal-impl/src/com/liferay/portal/model/impl/PluginSettingBaseImpl.java",
+      "id": "file:portal-impl/src/com/liferay/portal/events/ThemeServicePreAction.java",
       "type": "file",
-      "name": "PluginSettingBaseImpl.java",
-      "filePath": "portal-impl/src/com/liferay/portal/model/impl/PluginSettingBaseImpl.java",
-      "summary": "PluginSetting entity implementation in Liferay portal",
+      "name": "ThemeServicePreAction.java",
+      "filePath": "portal-impl/src/com/liferay/portal/events/ThemeServicePreAction.java",
+      "summary": "Pre-action service that resolves and sets the theme (including color scheme) on the ThemeDisplay before page rendering.",
       "tags": [
-        "java",
-        "code",
-        "base-impl",
-        "service-builder"
+        "event-handler",
+        "implementation"
       ],
-      "complexity": "low"
+      "complexity": "moderate"
     },
     {
-      "id": "class:portal-impl/src/com/liferay/portal/model/impl/PluginSettingBaseImpl.java:PluginSettingBaseImpl",
-      "type": "class",
-      "name": "PluginSettingBaseImpl",
-      "filePath": "portal-impl/src/com/liferay/portal/model/impl/PluginSettingBaseImpl.java",
-      "summary": "PluginSettingBaseImpl class with 1 methods",
-      "tags": [
-        "java",
-        "class",
-        "methods:1"
-      ],
-      "complexity": "low"
-    },
-    {
-      "id": "function:portal-impl/src/com/liferay/portal/model/impl/PluginSettingBaseImpl.java:persist",
+      "id": "function:portal-impl/src/com/liferay/portal/events/ThemeServicePreAction.java:run",
       "type": "function",
-      "name": "persist",
-      "filePath": "portal-impl/src/com/liferay/portal/model/impl/PluginSettingBaseImpl.java",
-      "summary": "Exported function persist",
-      "tags": [
-        "java",
-        "function",
-        "exported"
+      "name": "run",
+      "filePath": "portal-impl/src/com/liferay/portal/events/ThemeServicePreAction.java",
+      "lineRange": [
+        29,
+        41
       ],
-      "complexity": "low"
+      "summary": "Method run in ThemeServicePreAction",
+      "tags": [
+        "method"
+      ],
+      "complexity": "simple"
     },
     {
-      "id": "file:portal-impl/src/com/liferay/portal/model/impl/PluginSettingCacheModel.java",
+      "id": "function:portal-impl/src/com/liferay/portal/events/ThemeServicePreAction.java:servicePre",
+      "type": "function",
+      "name": "servicePre",
+      "filePath": "portal-impl/src/com/liferay/portal/events/ThemeServicePreAction.java",
+      "lineRange": [
+        43,
+        86
+      ],
+      "summary": "Method servicePre in ThemeServicePreAction",
+      "tags": [
+        "method"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "class:portal-impl/src/com/liferay/portal/events/ThemeServicePreAction.java:ThemeServicePreAction",
+      "type": "class",
+      "name": "ThemeServicePreAction",
+      "filePath": "portal-impl/src/com/liferay/portal/events/ThemeServicePreAction.java",
+      "lineRange": [
+        27,
+        91
+      ],
+      "summary": "Class ThemeServicePreAction with 2 methods for ThemeServicePreAction.",
+      "tags": [
+        "class",
+        "implementation"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:portal-impl/src/com/liferay/portal/facebook/FacebookConnectUtil.java",
       "type": "file",
-      "name": "PluginSettingCacheModel.java",
-      "filePath": "portal-impl/src/com/liferay/portal/model/impl/PluginSettingCacheModel.java",
-      "summary": "PluginSetting entity implementation in Liferay portal",
+      "name": "FacebookConnectUtil.java",
+      "filePath": "portal-impl/src/com/liferay/portal/facebook/FacebookConnectUtil.java",
+      "summary": "Utility providing Facebook OAuth integration methods: access token retrieval, user profile fetching, and session management for Facebook Connect.",
       "tags": [
-        "java",
-        "code",
-        "cache-model",
-        "serialization"
+        "utility",
+        "social-integration",
+        "implementation"
       ],
-      "complexity": "high"
+      "complexity": "moderate"
     },
     {
-      "id": "class:portal-impl/src/com/liferay/portal/model/impl/PluginSettingCacheModel.java:PluginSettingCacheModel",
+      "id": "class:portal-impl/src/com/liferay/portal/facebook/FacebookConnectUtil.java:FacebookConnectUtil",
       "type": "class",
-      "name": "PluginSettingCacheModel",
-      "filePath": "portal-impl/src/com/liferay/portal/model/impl/PluginSettingCacheModel.java",
-      "summary": "PluginSettingCacheModel class with 8 methods",
+      "name": "FacebookConnectUtil",
+      "filePath": "portal-impl/src/com/liferay/portal/facebook/FacebookConnectUtil.java",
+      "lineRange": [
+        19,
+        102
+      ],
+      "summary": "Class FacebookConnectUtil with 13 methods for FacebookConnectUtil.",
       "tags": [
-        "java",
         "class",
-        "methods:8"
+        "implementation"
       ],
-      "complexity": "high"
+      "complexity": "moderate"
     },
     {
-      "id": "function:portal-impl/src/com/liferay/portal/model/impl/PluginSettingCacheModel.java:equals",
-      "type": "function",
-      "name": "equals",
-      "filePath": "portal-impl/src/com/liferay/portal/model/impl/PluginSettingCacheModel.java",
-      "summary": "Exported function equals",
-      "tags": [
-        "java",
-        "function",
-        "exported"
-      ],
-      "complexity": "medium"
-    },
-    {
-      "id": "function:portal-impl/src/com/liferay/portal/model/impl/PluginSettingCacheModel.java:hashCode",
-      "type": "function",
-      "name": "hashCode",
-      "filePath": "portal-impl/src/com/liferay/portal/model/impl/PluginSettingCacheModel.java",
-      "summary": "Exported function hashCode",
-      "tags": [
-        "java",
-        "function",
-        "exported"
-      ],
-      "complexity": "low"
-    },
-    {
-      "id": "function:portal-impl/src/com/liferay/portal/model/impl/PluginSettingCacheModel.java:getMvccVersion",
-      "type": "function",
-      "name": "getMvccVersion",
-      "filePath": "portal-impl/src/com/liferay/portal/model/impl/PluginSettingCacheModel.java",
-      "summary": "Exported function getMvccVersion",
-      "tags": [
-        "java",
-        "function",
-        "exported"
-      ],
-      "complexity": "low"
-    },
-    {
-      "id": "function:portal-impl/src/com/liferay/portal/model/impl/PluginSettingCacheModel.java:setMvccVersion",
-      "type": "function",
-      "name": "setMvccVersion",
-      "filePath": "portal-impl/src/com/liferay/portal/model/impl/PluginSettingCacheModel.java",
-      "summary": "Exported function setMvccVersion",
-      "tags": [
-        "java",
-        "function",
-        "exported"
-      ],
-      "complexity": "low"
-    },
-    {
-      "id": "function:portal-impl/src/com/liferay/portal/model/impl/PluginSettingCacheModel.java:toString",
-      "type": "function",
-      "name": "toString",
-      "filePath": "portal-impl/src/com/liferay/portal/model/impl/PluginSettingCacheModel.java",
-      "summary": "Exported function toString",
-      "tags": [
-        "java",
-        "function",
-        "exported"
-      ],
-      "complexity": "medium"
-    },
-    {
-      "id": "function:portal-impl/src/com/liferay/portal/model/impl/PluginSettingCacheModel.java:toEntityModel",
-      "type": "function",
-      "name": "toEntityModel",
-      "filePath": "portal-impl/src/com/liferay/portal/model/impl/PluginSettingCacheModel.java",
-      "summary": "Exported function toEntityModel",
-      "tags": [
-        "java",
-        "function",
-        "exported"
-      ],
-      "complexity": "high"
-    },
-    {
-      "id": "function:portal-impl/src/com/liferay/portal/model/impl/PluginSettingCacheModel.java:readExternal",
-      "type": "function",
-      "name": "readExternal",
-      "filePath": "portal-impl/src/com/liferay/portal/model/impl/PluginSettingCacheModel.java",
-      "summary": "Exported function readExternal",
-      "tags": [
-        "java",
-        "function",
-        "exported"
-      ],
-      "complexity": "low"
-    },
-    {
-      "id": "function:portal-impl/src/com/liferay/portal/model/impl/PluginSettingCacheModel.java:writeExternal",
-      "type": "function",
-      "name": "writeExternal",
-      "filePath": "portal-impl/src/com/liferay/portal/model/impl/PluginSettingCacheModel.java",
-      "summary": "Exported function writeExternal",
-      "tags": [
-        "java",
-        "function",
-        "exported"
-      ],
-      "complexity": "medium"
-    },
-    {
-      "id": "file:portal-impl/src/com/liferay/portal/model/impl/PortalPreferencesBaseImpl.java",
+      "id": "file:portal-impl/src/com/liferay/portal/format/InternationalPhoneNumberFormatImpl.java",
       "type": "file",
-      "name": "PortalPreferencesBaseImpl.java",
-      "filePath": "portal-impl/src/com/liferay/portal/model/impl/PortalPreferencesBaseImpl.java",
-      "summary": "PortalPreferences entity implementation in Liferay portal",
+      "name": "InternationalPhoneNumberFormatImpl.java",
+      "filePath": "portal-impl/src/com/liferay/portal/format/InternationalPhoneNumberFormatImpl.java",
+      "summary": "Implementation of phone number formatting for international numbers, delegating format/validate/strip to a wrapped PhoneNumberFormat.",
       "tags": [
-        "java",
-        "code",
-        "base-impl",
-        "service-builder"
+        "formatting",
+        "implementation"
       ],
-      "complexity": "low"
+      "complexity": "simple"
     },
     {
-      "id": "class:portal-impl/src/com/liferay/portal/model/impl/PortalPreferencesBaseImpl.java:PortalPreferencesBaseImpl",
+      "id": "class:portal-impl/src/com/liferay/portal/format/InternationalPhoneNumberFormatImpl.java:InternationalPhoneNumberFormatImpl",
       "type": "class",
-      "name": "PortalPreferencesBaseImpl",
-      "filePath": "portal-impl/src/com/liferay/portal/model/impl/PortalPreferencesBaseImpl.java",
-      "summary": "PortalPreferencesBaseImpl class with 1 methods",
+      "name": "InternationalPhoneNumberFormatImpl",
+      "filePath": "portal-impl/src/com/liferay/portal/format/InternationalPhoneNumberFormatImpl.java",
+      "lineRange": [
+        16,
+        38
+      ],
+      "summary": "Class InternationalPhoneNumberFormatImpl with 3 methods for InternationalPhoneNumberFormatImpl.",
       "tags": [
-        "java",
         "class",
-        "methods:1"
+        "implementation",
+        "implementation"
       ],
-      "complexity": "low"
-    },
-    {
-      "id": "function:portal-impl/src/com/liferay/portal/model/impl/PortalPreferencesBaseImpl.java:persist",
-      "type": "function",
-      "name": "persist",
-      "filePath": "portal-impl/src/com/liferay/portal/model/impl/PortalPreferencesBaseImpl.java",
-      "summary": "Exported function persist",
-      "tags": [
-        "java",
-        "function",
-        "exported"
-      ],
-      "complexity": "low"
-    },
-    {
-      "id": "file:portal-impl/src/com/liferay/portal/model/impl/PortletItemBaseImpl.java",
-      "type": "file",
-      "name": "PortletItemBaseImpl.java",
-      "filePath": "portal-impl/src/com/liferay/portal/model/impl/PortletItemBaseImpl.java",
-      "summary": "PortletItem entity implementation in Liferay portal",
-      "tags": [
-        "java",
-        "code",
-        "base-impl",
-        "service-builder"
-      ],
-      "complexity": "low"
-    },
-    {
-      "id": "class:portal-impl/src/com/liferay/portal/model/impl/PortletItemBaseImpl.java:PortletItemBaseImpl",
-      "type": "class",
-      "name": "PortletItemBaseImpl",
-      "filePath": "portal-impl/src/com/liferay/portal/model/impl/PortletItemBaseImpl.java",
-      "summary": "PortletItemBaseImpl class with 1 methods",
-      "tags": [
-        "java",
-        "class",
-        "methods:1"
-      ],
-      "complexity": "low"
-    },
-    {
-      "id": "function:portal-impl/src/com/liferay/portal/model/impl/PortletItemBaseImpl.java:persist",
-      "type": "function",
-      "name": "persist",
-      "filePath": "portal-impl/src/com/liferay/portal/model/impl/PortletItemBaseImpl.java",
-      "summary": "Exported function persist",
-      "tags": [
-        "java",
-        "function",
-        "exported"
-      ],
-      "complexity": "low"
-    },
-    {
-      "id": "file:portal-impl/src/com/liferay/portal/model/impl/PortletItemCacheModel.java",
-      "type": "file",
-      "name": "PortletItemCacheModel.java",
-      "filePath": "portal-impl/src/com/liferay/portal/model/impl/PortletItemCacheModel.java",
-      "summary": "PortletItem entity implementation in Liferay portal",
-      "tags": [
-        "java",
-        "code",
-        "cache-model",
-        "serialization"
-      ],
-      "complexity": "high"
-    },
-    {
-      "id": "class:portal-impl/src/com/liferay/portal/model/impl/PortletItemCacheModel.java:PortletItemCacheModel",
-      "type": "class",
-      "name": "PortletItemCacheModel",
-      "filePath": "portal-impl/src/com/liferay/portal/model/impl/PortletItemCacheModel.java",
-      "summary": "PortletItemCacheModel class with 8 methods",
-      "tags": [
-        "java",
-        "class",
-        "methods:8"
-      ],
-      "complexity": "high"
-    },
-    {
-      "id": "function:portal-impl/src/com/liferay/portal/model/impl/PortletItemCacheModel.java:equals",
-      "type": "function",
-      "name": "equals",
-      "filePath": "portal-impl/src/com/liferay/portal/model/impl/PortletItemCacheModel.java",
-      "summary": "Exported function equals",
-      "tags": [
-        "java",
-        "function",
-        "exported"
-      ],
-      "complexity": "medium"
-    },
-    {
-      "id": "function:portal-impl/src/com/liferay/portal/model/impl/PortletItemCacheModel.java:hashCode",
-      "type": "function",
-      "name": "hashCode",
-      "filePath": "portal-impl/src/com/liferay/portal/model/impl/PortletItemCacheModel.java",
-      "summary": "Exported function hashCode",
-      "tags": [
-        "java",
-        "function",
-        "exported"
-      ],
-      "complexity": "low"
-    },
-    {
-      "id": "function:portal-impl/src/com/liferay/portal/model/impl/PortletItemCacheModel.java:getMvccVersion",
-      "type": "function",
-      "name": "getMvccVersion",
-      "filePath": "portal-impl/src/com/liferay/portal/model/impl/PortletItemCacheModel.java",
-      "summary": "Exported function getMvccVersion",
-      "tags": [
-        "java",
-        "function",
-        "exported"
-      ],
-      "complexity": "low"
-    },
-    {
-      "id": "function:portal-impl/src/com/liferay/portal/model/impl/PortletItemCacheModel.java:setMvccVersion",
-      "type": "function",
-      "name": "setMvccVersion",
-      "filePath": "portal-impl/src/com/liferay/portal/model/impl/PortletItemCacheModel.java",
-      "summary": "Exported function setMvccVersion",
-      "tags": [
-        "java",
-        "function",
-        "exported"
-      ],
-      "complexity": "low"
-    },
-    {
-      "id": "function:portal-impl/src/com/liferay/portal/model/impl/PortletItemCacheModel.java:toString",
-      "type": "function",
-      "name": "toString",
-      "filePath": "portal-impl/src/com/liferay/portal/model/impl/PortletItemCacheModel.java",
-      "summary": "Exported function toString",
-      "tags": [
-        "java",
-        "function",
-        "exported"
-      ],
-      "complexity": "medium"
-    },
-    {
-      "id": "function:portal-impl/src/com/liferay/portal/model/impl/PortletItemCacheModel.java:toEntityModel",
-      "type": "function",
-      "name": "toEntityModel",
-      "filePath": "portal-impl/src/com/liferay/portal/model/impl/PortletItemCacheModel.java",
-      "summary": "Exported function toEntityModel",
-      "tags": [
-        "java",
-        "function",
-        "exported"
-      ],
-      "complexity": "high"
-    },
-    {
-      "id": "function:portal-impl/src/com/liferay/portal/model/impl/PortletItemCacheModel.java:readExternal",
-      "type": "function",
-      "name": "readExternal",
-      "filePath": "portal-impl/src/com/liferay/portal/model/impl/PortletItemCacheModel.java",
-      "summary": "Exported function readExternal",
-      "tags": [
-        "java",
-        "function",
-        "exported"
-      ],
-      "complexity": "medium"
-    },
-    {
-      "id": "function:portal-impl/src/com/liferay/portal/model/impl/PortletItemCacheModel.java:writeExternal",
-      "type": "function",
-      "name": "writeExternal",
-      "filePath": "portal-impl/src/com/liferay/portal/model/impl/PortletItemCacheModel.java",
-      "summary": "Exported function writeExternal",
-      "tags": [
-        "java",
-        "function",
-        "exported"
-      ],
-      "complexity": "high"
-    },
-    {
-      "id": "file:portal-impl/src/com/liferay/portal/model/impl/RecentLayoutBranchBaseImpl.java",
-      "type": "file",
-      "name": "RecentLayoutBranchBaseImpl.java",
-      "filePath": "portal-impl/src/com/liferay/portal/model/impl/RecentLayoutBranchBaseImpl.java",
-      "summary": "RecentLayoutBranch entity implementation in Liferay portal",
-      "tags": [
-        "java",
-        "code",
-        "base-impl",
-        "service-builder"
-      ],
-      "complexity": "low"
-    },
-    {
-      "id": "class:portal-impl/src/com/liferay/portal/model/impl/RecentLayoutBranchBaseImpl.java:RecentLayoutBranchBaseImpl",
-      "type": "class",
-      "name": "RecentLayoutBranchBaseImpl",
-      "filePath": "portal-impl/src/com/liferay/portal/model/impl/RecentLayoutBranchBaseImpl.java",
-      "summary": "RecentLayoutBranchBaseImpl class with 1 methods",
-      "tags": [
-        "java",
-        "class",
-        "methods:1"
-      ],
-      "complexity": "low"
-    },
-    {
-      "id": "function:portal-impl/src/com/liferay/portal/model/impl/RecentLayoutBranchBaseImpl.java:persist",
-      "type": "function",
-      "name": "persist",
-      "filePath": "portal-impl/src/com/liferay/portal/model/impl/RecentLayoutBranchBaseImpl.java",
-      "summary": "Exported function persist",
-      "tags": [
-        "java",
-        "function",
-        "exported"
-      ],
-      "complexity": "low"
-    },
-    {
-      "id": "file:portal-impl/src/com/liferay/portal/model/impl/RecentLayoutBranchCacheModel.java",
-      "type": "file",
-      "name": "RecentLayoutBranchCacheModel.java",
-      "filePath": "portal-impl/src/com/liferay/portal/model/impl/RecentLayoutBranchCacheModel.java",
-      "summary": "RecentLayoutBranch entity implementation in Liferay portal",
-      "tags": [
-        "java",
-        "code",
-        "cache-model",
-        "serialization"
-      ],
-      "complexity": "high"
-    },
-    {
-      "id": "class:portal-impl/src/com/liferay/portal/model/impl/RecentLayoutBranchCacheModel.java:RecentLayoutBranchCacheModel",
-      "type": "class",
-      "name": "RecentLayoutBranchCacheModel",
-      "filePath": "portal-impl/src/com/liferay/portal/model/impl/RecentLayoutBranchCacheModel.java",
-      "summary": "RecentLayoutBranchCacheModel class with 8 methods",
-      "tags": [
-        "java",
-        "class",
-        "methods:8"
-      ],
-      "complexity": "high"
-    },
-    {
-      "id": "function:portal-impl/src/com/liferay/portal/model/impl/RecentLayoutBranchCacheModel.java:equals",
-      "type": "function",
-      "name": "equals",
-      "filePath": "portal-impl/src/com/liferay/portal/model/impl/RecentLayoutBranchCacheModel.java",
-      "summary": "Exported function equals",
-      "tags": [
-        "java",
-        "function",
-        "exported"
-      ],
-      "complexity": "medium"
-    },
-    {
-      "id": "function:portal-impl/src/com/liferay/portal/model/impl/RecentLayoutBranchCacheModel.java:hashCode",
-      "type": "function",
-      "name": "hashCode",
-      "filePath": "portal-impl/src/com/liferay/portal/model/impl/RecentLayoutBranchCacheModel.java",
-      "summary": "Exported function hashCode",
-      "tags": [
-        "java",
-        "function",
-        "exported"
-      ],
-      "complexity": "low"
-    },
-    {
-      "id": "function:portal-impl/src/com/liferay/portal/model/impl/RecentLayoutBranchCacheModel.java:getMvccVersion",
-      "type": "function",
-      "name": "getMvccVersion",
-      "filePath": "portal-impl/src/com/liferay/portal/model/impl/RecentLayoutBranchCacheModel.java",
-      "summary": "Exported function getMvccVersion",
-      "tags": [
-        "java",
-        "function",
-        "exported"
-      ],
-      "complexity": "low"
-    },
-    {
-      "id": "function:portal-impl/src/com/liferay/portal/model/impl/RecentLayoutBranchCacheModel.java:setMvccVersion",
-      "type": "function",
-      "name": "setMvccVersion",
-      "filePath": "portal-impl/src/com/liferay/portal/model/impl/RecentLayoutBranchCacheModel.java",
-      "summary": "Exported function setMvccVersion",
-      "tags": [
-        "java",
-        "function",
-        "exported"
-      ],
-      "complexity": "low"
-    },
-    {
-      "id": "function:portal-impl/src/com/liferay/portal/model/impl/RecentLayoutBranchCacheModel.java:toString",
-      "type": "function",
-      "name": "toString",
-      "filePath": "portal-impl/src/com/liferay/portal/model/impl/RecentLayoutBranchCacheModel.java",
-      "summary": "Exported function toString",
-      "tags": [
-        "java",
-        "function",
-        "exported"
-      ],
-      "complexity": "medium"
-    },
-    {
-      "id": "function:portal-impl/src/com/liferay/portal/model/impl/RecentLayoutBranchCacheModel.java:toEntityModel",
-      "type": "function",
-      "name": "toEntityModel",
-      "filePath": "portal-impl/src/com/liferay/portal/model/impl/RecentLayoutBranchCacheModel.java",
-      "summary": "Exported function toEntityModel",
-      "tags": [
-        "java",
-        "function",
-        "exported"
-      ],
-      "complexity": "medium"
-    },
-    {
-      "id": "function:portal-impl/src/com/liferay/portal/model/impl/RecentLayoutBranchCacheModel.java:readExternal",
-      "type": "function",
-      "name": "readExternal",
-      "filePath": "portal-impl/src/com/liferay/portal/model/impl/RecentLayoutBranchCacheModel.java",
-      "summary": "Exported function readExternal",
-      "tags": [
-        "java",
-        "function",
-        "exported"
-      ],
-      "complexity": "medium"
-    },
-    {
-      "id": "function:portal-impl/src/com/liferay/portal/model/impl/RecentLayoutBranchCacheModel.java:writeExternal",
-      "type": "function",
-      "name": "writeExternal",
-      "filePath": "portal-impl/src/com/liferay/portal/model/impl/RecentLayoutBranchCacheModel.java",
-      "summary": "Exported function writeExternal",
-      "tags": [
-        "java",
-        "function",
-        "exported"
-      ],
-      "complexity": "medium"
-    },
-    {
-      "id": "file:portal-impl/src/com/liferay/portal/model/impl/RecentLayoutRevisionBaseImpl.java",
-      "type": "file",
-      "name": "RecentLayoutRevisionBaseImpl.java",
-      "filePath": "portal-impl/src/com/liferay/portal/model/impl/RecentLayoutRevisionBaseImpl.java",
-      "summary": "RecentLayoutRevision entity implementation in Liferay portal",
-      "tags": [
-        "java",
-        "code",
-        "base-impl",
-        "service-builder"
-      ],
-      "complexity": "low"
-    },
-    {
-      "id": "class:portal-impl/src/com/liferay/portal/model/impl/RecentLayoutRevisionBaseImpl.java:RecentLayoutRevisionBaseImpl",
-      "type": "class",
-      "name": "RecentLayoutRevisionBaseImpl",
-      "filePath": "portal-impl/src/com/liferay/portal/model/impl/RecentLayoutRevisionBaseImpl.java",
-      "summary": "RecentLayoutRevisionBaseImpl class with 1 methods",
-      "tags": [
-        "java",
-        "class",
-        "methods:1"
-      ],
-      "complexity": "low"
-    },
-    {
-      "id": "function:portal-impl/src/com/liferay/portal/model/impl/RecentLayoutRevisionBaseImpl.java:persist",
-      "type": "function",
-      "name": "persist",
-      "filePath": "portal-impl/src/com/liferay/portal/model/impl/RecentLayoutRevisionBaseImpl.java",
-      "summary": "Exported function persist",
-      "tags": [
-        "java",
-        "function",
-        "exported"
-      ],
-      "complexity": "low"
-    },
-    {
-      "id": "file:portal-impl/src/com/liferay/portal/model/impl/RecentLayoutRevisionCacheModel.java",
-      "type": "file",
-      "name": "RecentLayoutRevisionCacheModel.java",
-      "filePath": "portal-impl/src/com/liferay/portal/model/impl/RecentLayoutRevisionCacheModel.java",
-      "summary": "RecentLayoutRevision entity implementation in Liferay portal",
-      "tags": [
-        "java",
-        "code",
-        "cache-model",
-        "serialization"
-      ],
-      "complexity": "high"
-    },
-    {
-      "id": "class:portal-impl/src/com/liferay/portal/model/impl/RecentLayoutRevisionCacheModel.java:RecentLayoutRevisionCacheModel",
-      "type": "class",
-      "name": "RecentLayoutRevisionCacheModel",
-      "filePath": "portal-impl/src/com/liferay/portal/model/impl/RecentLayoutRevisionCacheModel.java",
-      "summary": "RecentLayoutRevisionCacheModel class with 8 methods",
-      "tags": [
-        "java",
-        "class",
-        "methods:8"
-      ],
-      "complexity": "high"
+      "complexity": "simple"
     }
   ],
   "edges": [
     {
-      "source": "file:portal-impl/src/com/liferay/portal/model/impl/PhoneBaseImpl.java",
-      "target": "class:portal-impl/src/com/liferay/portal/model/impl/PhoneBaseImpl.java:PhoneBaseImpl",
-      "type": "contains",
-      "direction": "forward",
-      "weight": 1.0
-    },
-    {
-      "source": "file:portal-impl/src/com/liferay/portal/model/impl/PhoneBaseImpl.java",
-      "target": "class:portal-impl/src/com/liferay/portal/model/impl/PhoneBaseImpl.java:PhoneBaseImpl",
-      "type": "exports",
-      "direction": "forward",
-      "weight": 0.8
-    },
-    {
-      "source": "file:portal-impl/src/com/liferay/portal/model/impl/PhoneBaseImpl.java",
-      "target": "function:portal-impl/src/com/liferay/portal/model/impl/PhoneBaseImpl.java:persist",
-      "type": "contains",
-      "direction": "forward",
-      "weight": 1.0
-    },
-    {
-      "source": "file:portal-impl/src/com/liferay/portal/model/impl/PhoneBaseImpl.java",
-      "target": "function:portal-impl/src/com/liferay/portal/model/impl/PhoneBaseImpl.java:persist",
-      "type": "exports",
-      "direction": "forward",
-      "weight": 0.8
-    },
-    {
-      "source": "file:portal-impl/src/com/liferay/portal/model/impl/PhoneBaseImpl.java",
-      "target": "file:portal-kernel/src/com/liferay/portal/kernel/model/Phone.java",
+      "source": "file:portal-impl/src/com/liferay/portal/events/SetupAdminAutoLogin.java",
+      "target": "file:portal-impl/src/com/liferay/portal/security/DefaultAdminUtil.java",
       "type": "imports",
       "direction": "forward",
       "weight": 0.7
     },
     {
-      "source": "file:portal-impl/src/com/liferay/portal/model/impl/PhoneBaseImpl.java",
-      "target": "file:portal-kernel/src/com/liferay/portal/kernel/service/PhoneLocalServiceUtil.java",
+      "source": "file:portal-impl/src/com/liferay/portal/events/SetupAdminAutoLogin.java",
+      "target": "file:portal-impl/src/com/liferay/portal/util/PropsValues.java",
       "type": "imports",
       "direction": "forward",
       "weight": 0.7
     },
     {
-      "source": "file:portal-impl/src/com/liferay/portal/model/impl/PhoneCacheModel.java",
-      "target": "class:portal-impl/src/com/liferay/portal/model/impl/PhoneCacheModel.java:PhoneCacheModel",
-      "type": "contains",
-      "direction": "forward",
-      "weight": 1.0
-    },
-    {
-      "source": "file:portal-impl/src/com/liferay/portal/model/impl/PhoneCacheModel.java",
-      "target": "class:portal-impl/src/com/liferay/portal/model/impl/PhoneCacheModel.java:PhoneCacheModel",
-      "type": "exports",
-      "direction": "forward",
-      "weight": 0.8
-    },
-    {
-      "source": "file:portal-impl/src/com/liferay/portal/model/impl/PhoneCacheModel.java",
-      "target": "function:portal-impl/src/com/liferay/portal/model/impl/PhoneCacheModel.java:equals",
-      "type": "contains",
-      "direction": "forward",
-      "weight": 1.0
-    },
-    {
-      "source": "file:portal-impl/src/com/liferay/portal/model/impl/PhoneCacheModel.java",
-      "target": "function:portal-impl/src/com/liferay/portal/model/impl/PhoneCacheModel.java:equals",
-      "type": "exports",
-      "direction": "forward",
-      "weight": 0.8
-    },
-    {
-      "source": "file:portal-impl/src/com/liferay/portal/model/impl/PhoneCacheModel.java",
-      "target": "function:portal-impl/src/com/liferay/portal/model/impl/PhoneCacheModel.java:hashCode",
-      "type": "contains",
-      "direction": "forward",
-      "weight": 1.0
-    },
-    {
-      "source": "file:portal-impl/src/com/liferay/portal/model/impl/PhoneCacheModel.java",
-      "target": "function:portal-impl/src/com/liferay/portal/model/impl/PhoneCacheModel.java:hashCode",
-      "type": "exports",
-      "direction": "forward",
-      "weight": 0.8
-    },
-    {
-      "source": "file:portal-impl/src/com/liferay/portal/model/impl/PhoneCacheModel.java",
-      "target": "function:portal-impl/src/com/liferay/portal/model/impl/PhoneCacheModel.java:getMvccVersion",
-      "type": "contains",
-      "direction": "forward",
-      "weight": 1.0
-    },
-    {
-      "source": "file:portal-impl/src/com/liferay/portal/model/impl/PhoneCacheModel.java",
-      "target": "function:portal-impl/src/com/liferay/portal/model/impl/PhoneCacheModel.java:getMvccVersion",
-      "type": "exports",
-      "direction": "forward",
-      "weight": 0.8
-    },
-    {
-      "source": "file:portal-impl/src/com/liferay/portal/model/impl/PhoneCacheModel.java",
-      "target": "function:portal-impl/src/com/liferay/portal/model/impl/PhoneCacheModel.java:setMvccVersion",
-      "type": "contains",
-      "direction": "forward",
-      "weight": 1.0
-    },
-    {
-      "source": "file:portal-impl/src/com/liferay/portal/model/impl/PhoneCacheModel.java",
-      "target": "function:portal-impl/src/com/liferay/portal/model/impl/PhoneCacheModel.java:setMvccVersion",
-      "type": "exports",
-      "direction": "forward",
-      "weight": 0.8
-    },
-    {
-      "source": "file:portal-impl/src/com/liferay/portal/model/impl/PhoneCacheModel.java",
-      "target": "function:portal-impl/src/com/liferay/portal/model/impl/PhoneCacheModel.java:toString",
-      "type": "contains",
-      "direction": "forward",
-      "weight": 1.0
-    },
-    {
-      "source": "file:portal-impl/src/com/liferay/portal/model/impl/PhoneCacheModel.java",
-      "target": "function:portal-impl/src/com/liferay/portal/model/impl/PhoneCacheModel.java:toString",
-      "type": "exports",
-      "direction": "forward",
-      "weight": 0.8
-    },
-    {
-      "source": "file:portal-impl/src/com/liferay/portal/model/impl/PhoneCacheModel.java",
-      "target": "function:portal-impl/src/com/liferay/portal/model/impl/PhoneCacheModel.java:toEntityModel",
-      "type": "contains",
-      "direction": "forward",
-      "weight": 1.0
-    },
-    {
-      "source": "file:portal-impl/src/com/liferay/portal/model/impl/PhoneCacheModel.java",
-      "target": "function:portal-impl/src/com/liferay/portal/model/impl/PhoneCacheModel.java:toEntityModel",
-      "type": "exports",
-      "direction": "forward",
-      "weight": 0.8
-    },
-    {
-      "source": "file:portal-impl/src/com/liferay/portal/model/impl/PhoneCacheModel.java",
-      "target": "function:portal-impl/src/com/liferay/portal/model/impl/PhoneCacheModel.java:readExternal",
-      "type": "contains",
-      "direction": "forward",
-      "weight": 1.0
-    },
-    {
-      "source": "file:portal-impl/src/com/liferay/portal/model/impl/PhoneCacheModel.java",
-      "target": "function:portal-impl/src/com/liferay/portal/model/impl/PhoneCacheModel.java:readExternal",
-      "type": "exports",
-      "direction": "forward",
-      "weight": 0.8
-    },
-    {
-      "source": "file:portal-impl/src/com/liferay/portal/model/impl/PhoneCacheModel.java",
-      "target": "function:portal-impl/src/com/liferay/portal/model/impl/PhoneCacheModel.java:writeExternal",
-      "type": "contains",
-      "direction": "forward",
-      "weight": 1.0
-    },
-    {
-      "source": "file:portal-impl/src/com/liferay/portal/model/impl/PhoneCacheModel.java",
-      "target": "function:portal-impl/src/com/liferay/portal/model/impl/PhoneCacheModel.java:writeExternal",
-      "type": "exports",
-      "direction": "forward",
-      "weight": 0.8
-    },
-    {
-      "source": "file:portal-impl/src/com/liferay/portal/model/impl/PhoneCacheModel.java",
-      "target": "file:portal-kernel/src/com/liferay/portal/kernel/model/CacheModel.java",
+      "source": "file:portal-impl/src/com/liferay/portal/events/SetupAdminAutoLogin.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/log/Log.java",
       "type": "imports",
       "direction": "forward",
       "weight": 0.7
     },
     {
-      "source": "file:portal-impl/src/com/liferay/portal/model/impl/PhoneCacheModel.java",
-      "target": "file:portal-kernel/src/com/liferay/portal/kernel/model/MVCCModel.java",
+      "source": "file:portal-impl/src/com/liferay/portal/events/SetupAdminAutoLogin.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/log/LogFactoryUtil.java",
       "type": "imports",
       "direction": "forward",
       "weight": 0.7
     },
     {
-      "source": "file:portal-impl/src/com/liferay/portal/model/impl/PhoneCacheModel.java",
-      "target": "file:portal-kernel/src/com/liferay/portal/kernel/model/Phone.java",
+      "source": "file:portal-impl/src/com/liferay/portal/events/SetupAdminAutoLogin.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/model/Company.java",
       "type": "imports",
       "direction": "forward",
       "weight": 0.7
     },
     {
-      "source": "file:portal-impl/src/com/liferay/portal/model/impl/PluginSettingBaseImpl.java",
-      "target": "class:portal-impl/src/com/liferay/portal/model/impl/PluginSettingBaseImpl.java:PluginSettingBaseImpl",
-      "type": "contains",
-      "direction": "forward",
-      "weight": 1.0
-    },
-    {
-      "source": "file:portal-impl/src/com/liferay/portal/model/impl/PluginSettingBaseImpl.java",
-      "target": "class:portal-impl/src/com/liferay/portal/model/impl/PluginSettingBaseImpl.java:PluginSettingBaseImpl",
-      "type": "exports",
-      "direction": "forward",
-      "weight": 0.8
-    },
-    {
-      "source": "file:portal-impl/src/com/liferay/portal/model/impl/PluginSettingBaseImpl.java",
-      "target": "function:portal-impl/src/com/liferay/portal/model/impl/PluginSettingBaseImpl.java:persist",
-      "type": "contains",
-      "direction": "forward",
-      "weight": 1.0
-    },
-    {
-      "source": "file:portal-impl/src/com/liferay/portal/model/impl/PluginSettingBaseImpl.java",
-      "target": "function:portal-impl/src/com/liferay/portal/model/impl/PluginSettingBaseImpl.java:persist",
-      "type": "exports",
-      "direction": "forward",
-      "weight": 0.8
-    },
-    {
-      "source": "file:portal-impl/src/com/liferay/portal/model/impl/PluginSettingBaseImpl.java",
-      "target": "file:portal-kernel/src/com/liferay/portal/kernel/model/PluginSetting.java",
+      "source": "file:portal-impl/src/com/liferay/portal/events/SetupAdminAutoLogin.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/model/User.java",
       "type": "imports",
       "direction": "forward",
       "weight": 0.7
     },
     {
-      "source": "file:portal-impl/src/com/liferay/portal/model/impl/PluginSettingBaseImpl.java",
-      "target": "file:portal-kernel/src/com/liferay/portal/kernel/service/PluginSettingLocalServiceUtil.java",
+      "source": "file:portal-impl/src/com/liferay/portal/events/SetupAdminAutoLogin.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/security/auto/login/AutoLoginException.java",
       "type": "imports",
       "direction": "forward",
       "weight": 0.7
     },
     {
-      "source": "file:portal-impl/src/com/liferay/portal/model/impl/PluginSettingCacheModel.java",
-      "target": "class:portal-impl/src/com/liferay/portal/model/impl/PluginSettingCacheModel.java:PluginSettingCacheModel",
-      "type": "contains",
-      "direction": "forward",
-      "weight": 1.0
-    },
-    {
-      "source": "file:portal-impl/src/com/liferay/portal/model/impl/PluginSettingCacheModel.java",
-      "target": "class:portal-impl/src/com/liferay/portal/model/impl/PluginSettingCacheModel.java:PluginSettingCacheModel",
-      "type": "exports",
-      "direction": "forward",
-      "weight": 0.8
-    },
-    {
-      "source": "file:portal-impl/src/com/liferay/portal/model/impl/PluginSettingCacheModel.java",
-      "target": "function:portal-impl/src/com/liferay/portal/model/impl/PluginSettingCacheModel.java:equals",
-      "type": "contains",
-      "direction": "forward",
-      "weight": 1.0
-    },
-    {
-      "source": "file:portal-impl/src/com/liferay/portal/model/impl/PluginSettingCacheModel.java",
-      "target": "function:portal-impl/src/com/liferay/portal/model/impl/PluginSettingCacheModel.java:equals",
-      "type": "exports",
-      "direction": "forward",
-      "weight": 0.8
-    },
-    {
-      "source": "file:portal-impl/src/com/liferay/portal/model/impl/PluginSettingCacheModel.java",
-      "target": "function:portal-impl/src/com/liferay/portal/model/impl/PluginSettingCacheModel.java:hashCode",
-      "type": "contains",
-      "direction": "forward",
-      "weight": 1.0
-    },
-    {
-      "source": "file:portal-impl/src/com/liferay/portal/model/impl/PluginSettingCacheModel.java",
-      "target": "function:portal-impl/src/com/liferay/portal/model/impl/PluginSettingCacheModel.java:hashCode",
-      "type": "exports",
-      "direction": "forward",
-      "weight": 0.8
-    },
-    {
-      "source": "file:portal-impl/src/com/liferay/portal/model/impl/PluginSettingCacheModel.java",
-      "target": "function:portal-impl/src/com/liferay/portal/model/impl/PluginSettingCacheModel.java:getMvccVersion",
-      "type": "contains",
-      "direction": "forward",
-      "weight": 1.0
-    },
-    {
-      "source": "file:portal-impl/src/com/liferay/portal/model/impl/PluginSettingCacheModel.java",
-      "target": "function:portal-impl/src/com/liferay/portal/model/impl/PluginSettingCacheModel.java:getMvccVersion",
-      "type": "exports",
-      "direction": "forward",
-      "weight": 0.8
-    },
-    {
-      "source": "file:portal-impl/src/com/liferay/portal/model/impl/PluginSettingCacheModel.java",
-      "target": "function:portal-impl/src/com/liferay/portal/model/impl/PluginSettingCacheModel.java:setMvccVersion",
-      "type": "contains",
-      "direction": "forward",
-      "weight": 1.0
-    },
-    {
-      "source": "file:portal-impl/src/com/liferay/portal/model/impl/PluginSettingCacheModel.java",
-      "target": "function:portal-impl/src/com/liferay/portal/model/impl/PluginSettingCacheModel.java:setMvccVersion",
-      "type": "exports",
-      "direction": "forward",
-      "weight": 0.8
-    },
-    {
-      "source": "file:portal-impl/src/com/liferay/portal/model/impl/PluginSettingCacheModel.java",
-      "target": "function:portal-impl/src/com/liferay/portal/model/impl/PluginSettingCacheModel.java:toString",
-      "type": "contains",
-      "direction": "forward",
-      "weight": 1.0
-    },
-    {
-      "source": "file:portal-impl/src/com/liferay/portal/model/impl/PluginSettingCacheModel.java",
-      "target": "function:portal-impl/src/com/liferay/portal/model/impl/PluginSettingCacheModel.java:toString",
-      "type": "exports",
-      "direction": "forward",
-      "weight": 0.8
-    },
-    {
-      "source": "file:portal-impl/src/com/liferay/portal/model/impl/PluginSettingCacheModel.java",
-      "target": "function:portal-impl/src/com/liferay/portal/model/impl/PluginSettingCacheModel.java:toEntityModel",
-      "type": "contains",
-      "direction": "forward",
-      "weight": 1.0
-    },
-    {
-      "source": "file:portal-impl/src/com/liferay/portal/model/impl/PluginSettingCacheModel.java",
-      "target": "function:portal-impl/src/com/liferay/portal/model/impl/PluginSettingCacheModel.java:toEntityModel",
-      "type": "exports",
-      "direction": "forward",
-      "weight": 0.8
-    },
-    {
-      "source": "file:portal-impl/src/com/liferay/portal/model/impl/PluginSettingCacheModel.java",
-      "target": "function:portal-impl/src/com/liferay/portal/model/impl/PluginSettingCacheModel.java:readExternal",
-      "type": "contains",
-      "direction": "forward",
-      "weight": 1.0
-    },
-    {
-      "source": "file:portal-impl/src/com/liferay/portal/model/impl/PluginSettingCacheModel.java",
-      "target": "function:portal-impl/src/com/liferay/portal/model/impl/PluginSettingCacheModel.java:readExternal",
-      "type": "exports",
-      "direction": "forward",
-      "weight": 0.8
-    },
-    {
-      "source": "file:portal-impl/src/com/liferay/portal/model/impl/PluginSettingCacheModel.java",
-      "target": "function:portal-impl/src/com/liferay/portal/model/impl/PluginSettingCacheModel.java:writeExternal",
-      "type": "contains",
-      "direction": "forward",
-      "weight": 1.0
-    },
-    {
-      "source": "file:portal-impl/src/com/liferay/portal/model/impl/PluginSettingCacheModel.java",
-      "target": "function:portal-impl/src/com/liferay/portal/model/impl/PluginSettingCacheModel.java:writeExternal",
-      "type": "exports",
-      "direction": "forward",
-      "weight": 0.8
-    },
-    {
-      "source": "file:portal-impl/src/com/liferay/portal/model/impl/PluginSettingCacheModel.java",
-      "target": "file:portal-kernel/src/com/liferay/portal/kernel/model/CacheModel.java",
+      "source": "file:portal-impl/src/com/liferay/portal/events/SetupAdminAutoLogin.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/security/auto/login/BaseAutoLogin.java",
       "type": "imports",
       "direction": "forward",
       "weight": 0.7
     },
     {
-      "source": "file:portal-impl/src/com/liferay/portal/model/impl/PluginSettingCacheModel.java",
-      "target": "file:portal-kernel/src/com/liferay/portal/kernel/model/MVCCModel.java",
+      "source": "file:portal-impl/src/com/liferay/portal/events/SetupAdminAutoLogin.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/util/PortalUtil.java",
       "type": "imports",
       "direction": "forward",
       "weight": 0.7
     },
     {
-      "source": "file:portal-impl/src/com/liferay/portal/model/impl/PluginSettingCacheModel.java",
-      "target": "file:portal-kernel/src/com/liferay/portal/kernel/model/PluginSetting.java",
+      "source": "file:portal-impl/src/com/liferay/portal/events/SetupAdminAutoLogin.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/util/Validator.java",
       "type": "imports",
       "direction": "forward",
       "weight": 0.7
     },
     {
-      "source": "file:portal-impl/src/com/liferay/portal/model/impl/PortalPreferencesBaseImpl.java",
-      "target": "class:portal-impl/src/com/liferay/portal/model/impl/PortalPreferencesBaseImpl.java:PortalPreferencesBaseImpl",
-      "type": "contains",
-      "direction": "forward",
-      "weight": 1.0
-    },
-    {
-      "source": "file:portal-impl/src/com/liferay/portal/model/impl/PortalPreferencesBaseImpl.java",
-      "target": "class:portal-impl/src/com/liferay/portal/model/impl/PortalPreferencesBaseImpl.java:PortalPreferencesBaseImpl",
-      "type": "exports",
-      "direction": "forward",
-      "weight": 0.8
-    },
-    {
-      "source": "file:portal-impl/src/com/liferay/portal/model/impl/PortalPreferencesBaseImpl.java",
-      "target": "function:portal-impl/src/com/liferay/portal/model/impl/PortalPreferencesBaseImpl.java:persist",
-      "type": "contains",
-      "direction": "forward",
-      "weight": 1.0
-    },
-    {
-      "source": "file:portal-impl/src/com/liferay/portal/model/impl/PortalPreferencesBaseImpl.java",
-      "target": "function:portal-impl/src/com/liferay/portal/model/impl/PortalPreferencesBaseImpl.java:persist",
-      "type": "exports",
-      "direction": "forward",
-      "weight": 0.8
-    },
-    {
-      "source": "file:portal-impl/src/com/liferay/portal/model/impl/PortalPreferencesBaseImpl.java",
-      "target": "file:portal-kernel/src/com/liferay/portal/kernel/model/PortalPreferences.java",
+      "source": "file:portal-impl/src/com/liferay/portal/events/SetupAdminAutoLogin.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/workflow/WorkflowConstants.java",
       "type": "imports",
       "direction": "forward",
       "weight": 0.7
     },
     {
-      "source": "file:portal-impl/src/com/liferay/portal/model/impl/PortalPreferencesBaseImpl.java",
-      "target": "file:portal-kernel/src/com/liferay/portal/kernel/service/PortalPreferencesLocalServiceUtil.java",
+      "source": "file:portal-impl/src/com/liferay/portal/events/SetupAdminAutoLogin.java",
+      "target": "function:portal-impl/src/com/liferay/portal/events/SetupAdminAutoLogin.java:doHandleException",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/events/SetupAdminAutoLogin.java",
+      "target": "function:portal-impl/src/com/liferay/portal/events/SetupAdminAutoLogin.java:doLogin",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/events/SetupAdminAutoLogin.java",
+      "target": "class:portal-impl/src/com/liferay/portal/events/SetupAdminAutoLogin.java:SetupAdminAutoLogin",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/events/ShutdownHelperUtil.java",
+      "target": "class:portal-impl/src/com/liferay/portal/events/ShutdownHelperUtil.java:ShutdownHelperUtil",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/events/ThemeServicePreAction.java",
+      "target": "file:portal-impl/src/com/liferay/portal/util/ThemeFactoryUtil.java",
       "type": "imports",
       "direction": "forward",
       "weight": 0.7
     },
     {
-      "source": "file:portal-impl/src/com/liferay/portal/model/impl/PortletItemBaseImpl.java",
-      "target": "class:portal-impl/src/com/liferay/portal/model/impl/PortletItemBaseImpl.java:PortletItemBaseImpl",
-      "type": "contains",
-      "direction": "forward",
-      "weight": 1.0
-    },
-    {
-      "source": "file:portal-impl/src/com/liferay/portal/model/impl/PortletItemBaseImpl.java",
-      "target": "class:portal-impl/src/com/liferay/portal/model/impl/PortletItemBaseImpl.java:PortletItemBaseImpl",
-      "type": "exports",
-      "direction": "forward",
-      "weight": 0.8
-    },
-    {
-      "source": "file:portal-impl/src/com/liferay/portal/model/impl/PortletItemBaseImpl.java",
-      "target": "function:portal-impl/src/com/liferay/portal/model/impl/PortletItemBaseImpl.java:persist",
-      "type": "contains",
-      "direction": "forward",
-      "weight": 1.0
-    },
-    {
-      "source": "file:portal-impl/src/com/liferay/portal/model/impl/PortletItemBaseImpl.java",
-      "target": "function:portal-impl/src/com/liferay/portal/model/impl/PortletItemBaseImpl.java:persist",
-      "type": "exports",
-      "direction": "forward",
-      "weight": 0.8
-    },
-    {
-      "source": "file:portal-impl/src/com/liferay/portal/model/impl/PortletItemBaseImpl.java",
-      "target": "file:portal-kernel/src/com/liferay/portal/kernel/model/PortletItem.java",
+      "source": "file:portal-impl/src/com/liferay/portal/events/ThemeServicePreAction.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/events/Action.java",
       "type": "imports",
       "direction": "forward",
       "weight": 0.7
     },
     {
-      "source": "file:portal-impl/src/com/liferay/portal/model/impl/PortletItemBaseImpl.java",
-      "target": "file:portal-kernel/src/com/liferay/portal/kernel/service/PortletItemLocalServiceUtil.java",
+      "source": "file:portal-impl/src/com/liferay/portal/events/ThemeServicePreAction.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/events/ActionException.java",
       "type": "imports",
       "direction": "forward",
       "weight": 0.7
     },
     {
-      "source": "file:portal-impl/src/com/liferay/portal/model/impl/PortletItemCacheModel.java",
-      "target": "class:portal-impl/src/com/liferay/portal/model/impl/PortletItemCacheModel.java:PortletItemCacheModel",
-      "type": "contains",
-      "direction": "forward",
-      "weight": 1.0
-    },
-    {
-      "source": "file:portal-impl/src/com/liferay/portal/model/impl/PortletItemCacheModel.java",
-      "target": "class:portal-impl/src/com/liferay/portal/model/impl/PortletItemCacheModel.java:PortletItemCacheModel",
-      "type": "exports",
-      "direction": "forward",
-      "weight": 0.8
-    },
-    {
-      "source": "file:portal-impl/src/com/liferay/portal/model/impl/PortletItemCacheModel.java",
-      "target": "function:portal-impl/src/com/liferay/portal/model/impl/PortletItemCacheModel.java:equals",
-      "type": "contains",
-      "direction": "forward",
-      "weight": 1.0
-    },
-    {
-      "source": "file:portal-impl/src/com/liferay/portal/model/impl/PortletItemCacheModel.java",
-      "target": "function:portal-impl/src/com/liferay/portal/model/impl/PortletItemCacheModel.java:equals",
-      "type": "exports",
-      "direction": "forward",
-      "weight": 0.8
-    },
-    {
-      "source": "file:portal-impl/src/com/liferay/portal/model/impl/PortletItemCacheModel.java",
-      "target": "function:portal-impl/src/com/liferay/portal/model/impl/PortletItemCacheModel.java:hashCode",
-      "type": "contains",
-      "direction": "forward",
-      "weight": 1.0
-    },
-    {
-      "source": "file:portal-impl/src/com/liferay/portal/model/impl/PortletItemCacheModel.java",
-      "target": "function:portal-impl/src/com/liferay/portal/model/impl/PortletItemCacheModel.java:hashCode",
-      "type": "exports",
-      "direction": "forward",
-      "weight": 0.8
-    },
-    {
-      "source": "file:portal-impl/src/com/liferay/portal/model/impl/PortletItemCacheModel.java",
-      "target": "function:portal-impl/src/com/liferay/portal/model/impl/PortletItemCacheModel.java:getMvccVersion",
-      "type": "contains",
-      "direction": "forward",
-      "weight": 1.0
-    },
-    {
-      "source": "file:portal-impl/src/com/liferay/portal/model/impl/PortletItemCacheModel.java",
-      "target": "function:portal-impl/src/com/liferay/portal/model/impl/PortletItemCacheModel.java:getMvccVersion",
-      "type": "exports",
-      "direction": "forward",
-      "weight": 0.8
-    },
-    {
-      "source": "file:portal-impl/src/com/liferay/portal/model/impl/PortletItemCacheModel.java",
-      "target": "function:portal-impl/src/com/liferay/portal/model/impl/PortletItemCacheModel.java:setMvccVersion",
-      "type": "contains",
-      "direction": "forward",
-      "weight": 1.0
-    },
-    {
-      "source": "file:portal-impl/src/com/liferay/portal/model/impl/PortletItemCacheModel.java",
-      "target": "function:portal-impl/src/com/liferay/portal/model/impl/PortletItemCacheModel.java:setMvccVersion",
-      "type": "exports",
-      "direction": "forward",
-      "weight": 0.8
-    },
-    {
-      "source": "file:portal-impl/src/com/liferay/portal/model/impl/PortletItemCacheModel.java",
-      "target": "function:portal-impl/src/com/liferay/portal/model/impl/PortletItemCacheModel.java:toString",
-      "type": "contains",
-      "direction": "forward",
-      "weight": 1.0
-    },
-    {
-      "source": "file:portal-impl/src/com/liferay/portal/model/impl/PortletItemCacheModel.java",
-      "target": "function:portal-impl/src/com/liferay/portal/model/impl/PortletItemCacheModel.java:toString",
-      "type": "exports",
-      "direction": "forward",
-      "weight": 0.8
-    },
-    {
-      "source": "file:portal-impl/src/com/liferay/portal/model/impl/PortletItemCacheModel.java",
-      "target": "function:portal-impl/src/com/liferay/portal/model/impl/PortletItemCacheModel.java:toEntityModel",
-      "type": "contains",
-      "direction": "forward",
-      "weight": 1.0
-    },
-    {
-      "source": "file:portal-impl/src/com/liferay/portal/model/impl/PortletItemCacheModel.java",
-      "target": "function:portal-impl/src/com/liferay/portal/model/impl/PortletItemCacheModel.java:toEntityModel",
-      "type": "exports",
-      "direction": "forward",
-      "weight": 0.8
-    },
-    {
-      "source": "file:portal-impl/src/com/liferay/portal/model/impl/PortletItemCacheModel.java",
-      "target": "function:portal-impl/src/com/liferay/portal/model/impl/PortletItemCacheModel.java:readExternal",
-      "type": "contains",
-      "direction": "forward",
-      "weight": 1.0
-    },
-    {
-      "source": "file:portal-impl/src/com/liferay/portal/model/impl/PortletItemCacheModel.java",
-      "target": "function:portal-impl/src/com/liferay/portal/model/impl/PortletItemCacheModel.java:readExternal",
-      "type": "exports",
-      "direction": "forward",
-      "weight": 0.8
-    },
-    {
-      "source": "file:portal-impl/src/com/liferay/portal/model/impl/PortletItemCacheModel.java",
-      "target": "function:portal-impl/src/com/liferay/portal/model/impl/PortletItemCacheModel.java:writeExternal",
-      "type": "contains",
-      "direction": "forward",
-      "weight": 1.0
-    },
-    {
-      "source": "file:portal-impl/src/com/liferay/portal/model/impl/PortletItemCacheModel.java",
-      "target": "function:portal-impl/src/com/liferay/portal/model/impl/PortletItemCacheModel.java:writeExternal",
-      "type": "exports",
-      "direction": "forward",
-      "weight": 0.8
-    },
-    {
-      "source": "file:portal-impl/src/com/liferay/portal/model/impl/PortletItemCacheModel.java",
-      "target": "file:portal-kernel/src/com/liferay/portal/kernel/model/CacheModel.java",
+      "source": "file:portal-impl/src/com/liferay/portal/events/ThemeServicePreAction.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/log/Log.java",
       "type": "imports",
       "direction": "forward",
       "weight": 0.7
     },
     {
-      "source": "file:portal-impl/src/com/liferay/portal/model/impl/PortletItemCacheModel.java",
-      "target": "file:portal-kernel/src/com/liferay/portal/kernel/model/MVCCModel.java",
+      "source": "file:portal-impl/src/com/liferay/portal/events/ThemeServicePreAction.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/log/LogFactoryUtil.java",
       "type": "imports",
       "direction": "forward",
       "weight": 0.7
     },
     {
-      "source": "file:portal-impl/src/com/liferay/portal/model/impl/PortletItemCacheModel.java",
-      "target": "file:portal-kernel/src/com/liferay/portal/kernel/model/PortletItem.java",
+      "source": "file:portal-impl/src/com/liferay/portal/events/ThemeServicePreAction.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/model/ColorScheme.java",
       "type": "imports",
       "direction": "forward",
       "weight": 0.7
     },
     {
-      "source": "file:portal-impl/src/com/liferay/portal/model/impl/RecentLayoutBranchBaseImpl.java",
-      "target": "class:portal-impl/src/com/liferay/portal/model/impl/RecentLayoutBranchBaseImpl.java:RecentLayoutBranchBaseImpl",
-      "type": "contains",
-      "direction": "forward",
-      "weight": 1.0
-    },
-    {
-      "source": "file:portal-impl/src/com/liferay/portal/model/impl/RecentLayoutBranchBaseImpl.java",
-      "target": "class:portal-impl/src/com/liferay/portal/model/impl/RecentLayoutBranchBaseImpl.java:RecentLayoutBranchBaseImpl",
-      "type": "exports",
-      "direction": "forward",
-      "weight": 0.8
-    },
-    {
-      "source": "file:portal-impl/src/com/liferay/portal/model/impl/RecentLayoutBranchBaseImpl.java",
-      "target": "function:portal-impl/src/com/liferay/portal/model/impl/RecentLayoutBranchBaseImpl.java:persist",
-      "type": "contains",
-      "direction": "forward",
-      "weight": 1.0
-    },
-    {
-      "source": "file:portal-impl/src/com/liferay/portal/model/impl/RecentLayoutBranchBaseImpl.java",
-      "target": "function:portal-impl/src/com/liferay/portal/model/impl/RecentLayoutBranchBaseImpl.java:persist",
-      "type": "exports",
-      "direction": "forward",
-      "weight": 0.8
-    },
-    {
-      "source": "file:portal-impl/src/com/liferay/portal/model/impl/RecentLayoutBranchBaseImpl.java",
-      "target": "file:portal-kernel/src/com/liferay/portal/kernel/model/RecentLayoutBranch.java",
+      "source": "file:portal-impl/src/com/liferay/portal/events/ThemeServicePreAction.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/model/Layout.java",
       "type": "imports",
       "direction": "forward",
       "weight": 0.7
     },
     {
-      "source": "file:portal-impl/src/com/liferay/portal/model/impl/RecentLayoutBranchBaseImpl.java",
-      "target": "file:portal-kernel/src/com/liferay/portal/kernel/service/RecentLayoutBranchLocalServiceUtil.java",
+      "source": "file:portal-impl/src/com/liferay/portal/events/ThemeServicePreAction.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/model/Theme.java",
       "type": "imports",
       "direction": "forward",
       "weight": 0.7
     },
     {
-      "source": "file:portal-impl/src/com/liferay/portal/model/impl/RecentLayoutBranchCacheModel.java",
-      "target": "class:portal-impl/src/com/liferay/portal/model/impl/RecentLayoutBranchCacheModel.java:RecentLayoutBranchCacheModel",
-      "type": "contains",
-      "direction": "forward",
-      "weight": 1.0
-    },
-    {
-      "source": "file:portal-impl/src/com/liferay/portal/model/impl/RecentLayoutBranchCacheModel.java",
-      "target": "class:portal-impl/src/com/liferay/portal/model/impl/RecentLayoutBranchCacheModel.java:RecentLayoutBranchCacheModel",
-      "type": "exports",
-      "direction": "forward",
-      "weight": 0.8
-    },
-    {
-      "source": "file:portal-impl/src/com/liferay/portal/model/impl/RecentLayoutBranchCacheModel.java",
-      "target": "function:portal-impl/src/com/liferay/portal/model/impl/RecentLayoutBranchCacheModel.java:equals",
-      "type": "contains",
-      "direction": "forward",
-      "weight": 1.0
-    },
-    {
-      "source": "file:portal-impl/src/com/liferay/portal/model/impl/RecentLayoutBranchCacheModel.java",
-      "target": "function:portal-impl/src/com/liferay/portal/model/impl/RecentLayoutBranchCacheModel.java:equals",
-      "type": "exports",
-      "direction": "forward",
-      "weight": 0.8
-    },
-    {
-      "source": "file:portal-impl/src/com/liferay/portal/model/impl/RecentLayoutBranchCacheModel.java",
-      "target": "function:portal-impl/src/com/liferay/portal/model/impl/RecentLayoutBranchCacheModel.java:hashCode",
-      "type": "contains",
-      "direction": "forward",
-      "weight": 1.0
-    },
-    {
-      "source": "file:portal-impl/src/com/liferay/portal/model/impl/RecentLayoutBranchCacheModel.java",
-      "target": "function:portal-impl/src/com/liferay/portal/model/impl/RecentLayoutBranchCacheModel.java:hashCode",
-      "type": "exports",
-      "direction": "forward",
-      "weight": 0.8
-    },
-    {
-      "source": "file:portal-impl/src/com/liferay/portal/model/impl/RecentLayoutBranchCacheModel.java",
-      "target": "function:portal-impl/src/com/liferay/portal/model/impl/RecentLayoutBranchCacheModel.java:getMvccVersion",
-      "type": "contains",
-      "direction": "forward",
-      "weight": 1.0
-    },
-    {
-      "source": "file:portal-impl/src/com/liferay/portal/model/impl/RecentLayoutBranchCacheModel.java",
-      "target": "function:portal-impl/src/com/liferay/portal/model/impl/RecentLayoutBranchCacheModel.java:getMvccVersion",
-      "type": "exports",
-      "direction": "forward",
-      "weight": 0.8
-    },
-    {
-      "source": "file:portal-impl/src/com/liferay/portal/model/impl/RecentLayoutBranchCacheModel.java",
-      "target": "function:portal-impl/src/com/liferay/portal/model/impl/RecentLayoutBranchCacheModel.java:setMvccVersion",
-      "type": "contains",
-      "direction": "forward",
-      "weight": 1.0
-    },
-    {
-      "source": "file:portal-impl/src/com/liferay/portal/model/impl/RecentLayoutBranchCacheModel.java",
-      "target": "function:portal-impl/src/com/liferay/portal/model/impl/RecentLayoutBranchCacheModel.java:setMvccVersion",
-      "type": "exports",
-      "direction": "forward",
-      "weight": 0.8
-    },
-    {
-      "source": "file:portal-impl/src/com/liferay/portal/model/impl/RecentLayoutBranchCacheModel.java",
-      "target": "function:portal-impl/src/com/liferay/portal/model/impl/RecentLayoutBranchCacheModel.java:toString",
-      "type": "contains",
-      "direction": "forward",
-      "weight": 1.0
-    },
-    {
-      "source": "file:portal-impl/src/com/liferay/portal/model/impl/RecentLayoutBranchCacheModel.java",
-      "target": "function:portal-impl/src/com/liferay/portal/model/impl/RecentLayoutBranchCacheModel.java:toString",
-      "type": "exports",
-      "direction": "forward",
-      "weight": 0.8
-    },
-    {
-      "source": "file:portal-impl/src/com/liferay/portal/model/impl/RecentLayoutBranchCacheModel.java",
-      "target": "function:portal-impl/src/com/liferay/portal/model/impl/RecentLayoutBranchCacheModel.java:toEntityModel",
-      "type": "contains",
-      "direction": "forward",
-      "weight": 1.0
-    },
-    {
-      "source": "file:portal-impl/src/com/liferay/portal/model/impl/RecentLayoutBranchCacheModel.java",
-      "target": "function:portal-impl/src/com/liferay/portal/model/impl/RecentLayoutBranchCacheModel.java:toEntityModel",
-      "type": "exports",
-      "direction": "forward",
-      "weight": 0.8
-    },
-    {
-      "source": "file:portal-impl/src/com/liferay/portal/model/impl/RecentLayoutBranchCacheModel.java",
-      "target": "function:portal-impl/src/com/liferay/portal/model/impl/RecentLayoutBranchCacheModel.java:readExternal",
-      "type": "contains",
-      "direction": "forward",
-      "weight": 1.0
-    },
-    {
-      "source": "file:portal-impl/src/com/liferay/portal/model/impl/RecentLayoutBranchCacheModel.java",
-      "target": "function:portal-impl/src/com/liferay/portal/model/impl/RecentLayoutBranchCacheModel.java:readExternal",
-      "type": "exports",
-      "direction": "forward",
-      "weight": 0.8
-    },
-    {
-      "source": "file:portal-impl/src/com/liferay/portal/model/impl/RecentLayoutBranchCacheModel.java",
-      "target": "function:portal-impl/src/com/liferay/portal/model/impl/RecentLayoutBranchCacheModel.java:writeExternal",
-      "type": "contains",
-      "direction": "forward",
-      "weight": 1.0
-    },
-    {
-      "source": "file:portal-impl/src/com/liferay/portal/model/impl/RecentLayoutBranchCacheModel.java",
-      "target": "function:portal-impl/src/com/liferay/portal/model/impl/RecentLayoutBranchCacheModel.java:writeExternal",
-      "type": "exports",
-      "direction": "forward",
-      "weight": 0.8
-    },
-    {
-      "source": "file:portal-impl/src/com/liferay/portal/model/impl/RecentLayoutBranchCacheModel.java",
-      "target": "file:portal-kernel/src/com/liferay/portal/kernel/model/CacheModel.java",
+      "source": "file:portal-impl/src/com/liferay/portal/events/ThemeServicePreAction.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/service/ThemeLocalServiceUtil.java",
       "type": "imports",
       "direction": "forward",
       "weight": 0.7
     },
     {
-      "source": "file:portal-impl/src/com/liferay/portal/model/impl/RecentLayoutBranchCacheModel.java",
-      "target": "file:portal-kernel/src/com/liferay/portal/kernel/model/MVCCModel.java",
+      "source": "file:portal-impl/src/com/liferay/portal/events/ThemeServicePreAction.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/theme/ThemeDisplay.java",
       "type": "imports",
       "direction": "forward",
       "weight": 0.7
     },
     {
-      "source": "file:portal-impl/src/com/liferay/portal/model/impl/RecentLayoutBranchCacheModel.java",
-      "target": "file:portal-kernel/src/com/liferay/portal/kernel/model/RecentLayoutBranch.java",
+      "source": "file:portal-impl/src/com/liferay/portal/events/ThemeServicePreAction.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/util/ColorSchemeFactoryUtil.java",
       "type": "imports",
       "direction": "forward",
       "weight": 0.7
     },
     {
-      "source": "file:portal-impl/src/com/liferay/portal/model/impl/RecentLayoutRevisionBaseImpl.java",
-      "target": "class:portal-impl/src/com/liferay/portal/model/impl/RecentLayoutRevisionBaseImpl.java:RecentLayoutRevisionBaseImpl",
-      "type": "contains",
-      "direction": "forward",
-      "weight": 1.0
-    },
-    {
-      "source": "file:portal-impl/src/com/liferay/portal/model/impl/RecentLayoutRevisionBaseImpl.java",
-      "target": "class:portal-impl/src/com/liferay/portal/model/impl/RecentLayoutRevisionBaseImpl.java:RecentLayoutRevisionBaseImpl",
-      "type": "exports",
-      "direction": "forward",
-      "weight": 0.8
-    },
-    {
-      "source": "file:portal-impl/src/com/liferay/portal/model/impl/RecentLayoutRevisionBaseImpl.java",
-      "target": "function:portal-impl/src/com/liferay/portal/model/impl/RecentLayoutRevisionBaseImpl.java:persist",
-      "type": "contains",
-      "direction": "forward",
-      "weight": 1.0
-    },
-    {
-      "source": "file:portal-impl/src/com/liferay/portal/model/impl/RecentLayoutRevisionBaseImpl.java",
-      "target": "function:portal-impl/src/com/liferay/portal/model/impl/RecentLayoutRevisionBaseImpl.java:persist",
-      "type": "exports",
-      "direction": "forward",
-      "weight": 0.8
-    },
-    {
-      "source": "file:portal-impl/src/com/liferay/portal/model/impl/RecentLayoutRevisionBaseImpl.java",
-      "target": "file:portal-kernel/src/com/liferay/portal/kernel/model/RecentLayoutRevision.java",
+      "source": "file:portal-impl/src/com/liferay/portal/events/ThemeServicePreAction.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/util/WebKeys.java",
       "type": "imports",
       "direction": "forward",
       "weight": 0.7
     },
     {
-      "source": "file:portal-impl/src/com/liferay/portal/model/impl/RecentLayoutRevisionBaseImpl.java",
-      "target": "file:portal-kernel/src/com/liferay/portal/kernel/service/RecentLayoutRevisionLocalServiceUtil.java",
+      "source": "file:portal-impl/src/com/liferay/portal/events/ThemeServicePreAction.java",
+      "target": "function:portal-impl/src/com/liferay/portal/events/ThemeServicePreAction.java:run",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/events/ThemeServicePreAction.java",
+      "target": "function:portal-impl/src/com/liferay/portal/events/ThemeServicePreAction.java:servicePre",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/events/ThemeServicePreAction.java",
+      "target": "class:portal-impl/src/com/liferay/portal/events/ThemeServicePreAction.java:ThemeServicePreAction",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/facebook/FacebookConnectUtil.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/facebook/FacebookConnect.java",
       "type": "imports",
       "direction": "forward",
       "weight": 0.7
     },
     {
-      "source": "file:portal-impl/src/com/liferay/portal/model/impl/RecentLayoutRevisionCacheModel.java",
-      "target": "class:portal-impl/src/com/liferay/portal/model/impl/RecentLayoutRevisionCacheModel.java:RecentLayoutRevisionCacheModel",
-      "type": "contains",
-      "direction": "forward",
-      "weight": 1.0
-    },
-    {
-      "source": "file:portal-impl/src/com/liferay/portal/model/impl/RecentLayoutRevisionCacheModel.java",
-      "target": "class:portal-impl/src/com/liferay/portal/model/impl/RecentLayoutRevisionCacheModel.java:RecentLayoutRevisionCacheModel",
-      "type": "exports",
-      "direction": "forward",
-      "weight": 0.8
-    },
-    {
-      "source": "file:portal-impl/src/com/liferay/portal/model/impl/RecentLayoutRevisionCacheModel.java",
-      "target": "function:portal-impl/src/com/liferay/portal/model/impl/RecentLayoutRevisionCacheModel.java:equals",
-      "type": "contains",
-      "direction": "forward",
-      "weight": 1.0
-    },
-    {
-      "source": "file:portal-impl/src/com/liferay/portal/model/impl/RecentLayoutRevisionCacheModel.java",
-      "target": "function:portal-impl/src/com/liferay/portal/model/impl/RecentLayoutRevisionCacheModel.java:equals",
-      "type": "exports",
-      "direction": "forward",
-      "weight": 0.8
-    },
-    {
-      "source": "file:portal-impl/src/com/liferay/portal/model/impl/RecentLayoutRevisionCacheModel.java",
-      "target": "function:portal-impl/src/com/liferay/portal/model/impl/RecentLayoutRevisionCacheModel.java:hashCode",
-      "type": "contains",
-      "direction": "forward",
-      "weight": 1.0
-    },
-    {
-      "source": "file:portal-impl/src/com/liferay/portal/model/impl/RecentLayoutRevisionCacheModel.java",
-      "target": "function:portal-impl/src/com/liferay/portal/model/impl/RecentLayoutRevisionCacheModel.java:hashCode",
-      "type": "exports",
-      "direction": "forward",
-      "weight": 0.8
-    },
-    {
-      "source": "file:portal-impl/src/com/liferay/portal/model/impl/RecentLayoutRevisionCacheModel.java",
-      "target": "function:portal-impl/src/com/liferay/portal/model/impl/RecentLayoutRevisionCacheModel.java:getMvccVersion",
-      "type": "contains",
-      "direction": "forward",
-      "weight": 1.0
-    },
-    {
-      "source": "file:portal-impl/src/com/liferay/portal/model/impl/RecentLayoutRevisionCacheModel.java",
-      "target": "function:portal-impl/src/com/liferay/portal/model/impl/RecentLayoutRevisionCacheModel.java:getMvccVersion",
-      "type": "exports",
-      "direction": "forward",
-      "weight": 0.8
-    },
-    {
-      "source": "file:portal-impl/src/com/liferay/portal/model/impl/RecentLayoutRevisionCacheModel.java",
-      "target": "function:portal-impl/src/com/liferay/portal/model/impl/RecentLayoutRevisionCacheModel.java:setMvccVersion",
-      "type": "contains",
-      "direction": "forward",
-      "weight": 1.0
-    },
-    {
-      "source": "file:portal-impl/src/com/liferay/portal/model/impl/RecentLayoutRevisionCacheModel.java",
-      "target": "function:portal-impl/src/com/liferay/portal/model/impl/RecentLayoutRevisionCacheModel.java:setMvccVersion",
-      "type": "exports",
-      "direction": "forward",
-      "weight": 0.8
-    },
-    {
-      "source": "file:portal-impl/src/com/liferay/portal/model/impl/RecentLayoutRevisionCacheModel.java",
-      "target": "function:portal-impl/src/com/liferay/portal/model/impl/RecentLayoutRevisionCacheModel.java:toString",
-      "type": "contains",
-      "direction": "forward",
-      "weight": 1.0
-    },
-    {
-      "source": "file:portal-impl/src/com/liferay/portal/model/impl/RecentLayoutRevisionCacheModel.java",
-      "target": "function:portal-impl/src/com/liferay/portal/model/impl/RecentLayoutRevisionCacheModel.java:toString",
-      "type": "exports",
-      "direction": "forward",
-      "weight": 0.8
-    },
-    {
-      "source": "file:portal-impl/src/com/liferay/portal/model/impl/RecentLayoutRevisionCacheModel.java",
-      "target": "function:portal-impl/src/com/liferay/portal/model/impl/RecentLayoutRevisionCacheModel.java:toEntityModel",
-      "type": "contains",
-      "direction": "forward",
-      "weight": 1.0
-    },
-    {
-      "source": "file:portal-impl/src/com/liferay/portal/model/impl/RecentLayoutRevisionCacheModel.java",
-      "target": "function:portal-impl/src/com/liferay/portal/model/impl/RecentLayoutRevisionCacheModel.java:toEntityModel",
-      "type": "exports",
-      "direction": "forward",
-      "weight": 0.8
-    },
-    {
-      "source": "file:portal-impl/src/com/liferay/portal/model/impl/RecentLayoutRevisionCacheModel.java",
-      "target": "function:portal-impl/src/com/liferay/portal/model/impl/RecentLayoutRevisionCacheModel.java:readExternal",
-      "type": "contains",
-      "direction": "forward",
-      "weight": 1.0
-    },
-    {
-      "source": "file:portal-impl/src/com/liferay/portal/model/impl/RecentLayoutRevisionCacheModel.java",
-      "target": "function:portal-impl/src/com/liferay/portal/model/impl/RecentLayoutRevisionCacheModel.java:readExternal",
-      "type": "exports",
-      "direction": "forward",
-      "weight": 0.8
-    },
-    {
-      "source": "file:portal-impl/src/com/liferay/portal/model/impl/RecentLayoutRevisionCacheModel.java",
-      "target": "function:portal-impl/src/com/liferay/portal/model/impl/RecentLayoutRevisionCacheModel.java:writeExternal",
-      "type": "contains",
-      "direction": "forward",
-      "weight": 1.0
-    },
-    {
-      "source": "file:portal-impl/src/com/liferay/portal/model/impl/RecentLayoutRevisionCacheModel.java",
-      "target": "function:portal-impl/src/com/liferay/portal/model/impl/RecentLayoutRevisionCacheModel.java:writeExternal",
-      "type": "exports",
-      "direction": "forward",
-      "weight": 0.8
-    },
-    {
-      "source": "file:portal-impl/src/com/liferay/portal/model/impl/RecentLayoutRevisionCacheModel.java",
-      "target": "file:portal-kernel/src/com/liferay/portal/kernel/model/CacheModel.java",
+      "source": "file:portal-impl/src/com/liferay/portal/facebook/FacebookConnectUtil.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/json/JSONObject.java",
       "type": "imports",
       "direction": "forward",
       "weight": 0.7
     },
     {
-      "source": "file:portal-impl/src/com/liferay/portal/model/impl/RecentLayoutRevisionCacheModel.java",
-      "target": "file:portal-kernel/src/com/liferay/portal/kernel/model/MVCCModel.java",
+      "source": "file:portal-impl/src/com/liferay/portal/facebook/FacebookConnectUtil.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/module/service/Snapshot.java",
       "type": "imports",
       "direction": "forward",
       "weight": 0.7
     },
     {
-      "source": "file:portal-impl/src/com/liferay/portal/model/impl/RecentLayoutRevisionCacheModel.java",
-      "target": "file:portal-kernel/src/com/liferay/portal/kernel/model/RecentLayoutRevision.java",
+      "source": "file:portal-impl/src/com/liferay/portal/facebook/FacebookConnectUtil.java",
+      "target": "class:portal-impl/src/com/liferay/portal/facebook/FacebookConnectUtil.java:FacebookConnectUtil",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/format/InternationalPhoneNumberFormatImpl.java",
+      "target": "file:portal-impl/src/com/liferay/portal/util/PropsValues.java",
       "type": "imports",
       "direction": "forward",
       "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/format/InternationalPhoneNumberFormatImpl.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/format/PhoneNumberFormat.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/format/InternationalPhoneNumberFormatImpl.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/util/Validator.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/format/InternationalPhoneNumberFormatImpl.java",
+      "target": "class:portal-impl/src/com/liferay/portal/format/InternationalPhoneNumberFormatImpl.java:InternationalPhoneNumberFormatImpl",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
     }
   ]
 }

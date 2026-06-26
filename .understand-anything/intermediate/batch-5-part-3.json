@@ -1,0 +1,1103 @@
+{
+  "nodes": [
+    {
+      "id": "file:portal-impl/src/com/liferay/portal/events/SampleServicePreAction.java",
+      "type": "file",
+      "name": "SampleServicePreAction.java",
+      "filePath": "portal-impl/src/com/liferay/portal/events/SampleServicePreAction.java",
+      "summary": "Sample pre-action that demonstrates service invocation on each servlet request.",
+      "tags": [
+        "service",
+        "demo",
+        "lifecycle"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:portal-impl/src/com/liferay/portal/events/SampleServicePreAction.java:SampleServicePreAction",
+      "type": "class",
+      "name": "SampleServicePreAction",
+      "filePath": "portal-impl/src/com/liferay/portal/events/SampleServicePreAction.java",
+      "lineRange": [
+        17,
+        39
+      ],
+      "summary": "Portal lifecycle action class that executes sampleservice event handling logic.",
+      "tags": [
+        "action",
+        "event-handler"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:portal-impl/src/com/liferay/portal/events/SampleServicePreAction.java:run",
+      "type": "function",
+      "name": "run",
+      "filePath": "portal-impl/src/com/liferay/portal/events/SampleServicePreAction.java",
+      "lineRange": [
+        19,
+        25
+      ],
+      "summary": "Executes the action logic, implementing the core behavior of the enclosing action class.",
+      "tags": [
+        "action",
+        "execution"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:portal-impl/src/com/liferay/portal/events/SampleServicePreAction.java:setSharedSessionAttributes",
+      "type": "function",
+      "name": "setSharedSessionAttributes",
+      "filePath": "portal-impl/src/com/liferay/portal/events/SampleServicePreAction.java",
+      "lineRange": [
+        27,
+        37
+      ],
+      "summary": "Method setSharedSessionAttributes(httpServletRequest) in SampleServicePreAction.java.",
+      "tags": [
+        "method"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:portal-impl/src/com/liferay/portal/events/SecureRequestAction.java",
+      "type": "file",
+      "name": "SecureRequestAction.java",
+      "filePath": "portal-impl/src/com/liferay/portal/events/SecureRequestAction.java",
+      "summary": "Enforces secure request handling, redirecting HTTP requests to HTTPS when required.",
+      "tags": [
+        "security",
+        "request",
+        "filter"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "class:portal-impl/src/com/liferay/portal/events/SecureRequestAction.java:SecureRequestAction",
+      "type": "class",
+      "name": "SecureRequestAction",
+      "filePath": "portal-impl/src/com/liferay/portal/events/SecureRequestAction.java",
+      "lineRange": [
+        28,
+        90
+      ],
+      "summary": "Portal lifecycle action class that executes securerequest event handling logic.",
+      "tags": [
+        "action",
+        "event-handler"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:portal-impl/src/com/liferay/portal/events/SecureRequestAction.java:run",
+      "type": "function",
+      "name": "run",
+      "filePath": "portal-impl/src/com/liferay/portal/events/SecureRequestAction.java",
+      "lineRange": [
+        30,
+        57
+      ],
+      "summary": "Executes the action logic, implementing the core behavior of the enclosing action class.",
+      "tags": [
+        "action",
+        "execution"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:portal-impl/src/com/liferay/portal/events/SecureRequestAction.java:getRedirect",
+      "type": "function",
+      "name": "getRedirect",
+      "filePath": "portal-impl/src/com/liferay/portal/events/SecureRequestAction.java",
+      "lineRange": [
+        59,
+        79
+      ],
+      "summary": "Method getRedirect(httpServletRequest) in SecureRequestAction.java.",
+      "tags": [
+        "method"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:portal-impl/src/com/liferay/portal/events/ServicePostAction.java",
+      "type": "file",
+      "name": "ServicePostAction.java",
+      "filePath": "portal-impl/src/com/liferay/portal/events/ServicePostAction.java",
+      "summary": "Post-action invoked after service calls, handling post-processing and logging.",
+      "tags": [
+        "service",
+        "lifecycle",
+        "audit"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:portal-impl/src/com/liferay/portal/events/ServicePostAction.java:ServicePostAction",
+      "type": "class",
+      "name": "ServicePostAction",
+      "filePath": "portal-impl/src/com/liferay/portal/events/ServicePostAction.java",
+      "lineRange": [
+        18,
+        46
+      ],
+      "summary": "Portal lifecycle action class that executes service event handling logic.",
+      "tags": [
+        "action",
+        "event-handler"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:portal-impl/src/com/liferay/portal/events/ServicePostAction.java:run",
+      "type": "function",
+      "name": "run",
+      "filePath": "portal-impl/src/com/liferay/portal/events/ServicePostAction.java",
+      "lineRange": [
+        20,
+        41
+      ],
+      "summary": "Executes the action logic, implementing the core behavior of the enclosing action class.",
+      "tags": [
+        "action",
+        "execution"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:portal-impl/src/com/liferay/portal/events/SessionCreateAction.java",
+      "type": "file",
+      "name": "SessionCreateAction.java",
+      "filePath": "portal-impl/src/com/liferay/portal/events/SessionCreateAction.java",
+      "summary": "Handles HTTP session lifecycle events such as creation and destruction for the portal.",
+      "tags": [
+        "session",
+        "lifecycle",
+        "event-handler"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:portal-impl/src/com/liferay/portal/events/SessionCreateAction.java:run",
+      "type": "function",
+      "name": "run",
+      "filePath": "portal-impl/src/com/liferay/portal/events/SessionCreateAction.java",
+      "lineRange": [
+        19,
+        24
+      ],
+      "summary": "Executes the action logic, implementing the core behavior of the enclosing action class.",
+      "tags": [
+        "action",
+        "execution"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:portal-impl/src/com/liferay/portal/events/SessionDestroyAction.java",
+      "type": "file",
+      "name": "SessionDestroyAction.java",
+      "filePath": "portal-impl/src/com/liferay/portal/events/SessionDestroyAction.java",
+      "summary": "Handles HTTP session lifecycle events such as creation and destruction for the portal.",
+      "tags": [
+        "session",
+        "lifecycle",
+        "event-handler"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:portal-impl/src/com/liferay/portal/events/SessionDestroyAction.java:run",
+      "type": "function",
+      "name": "run",
+      "filePath": "portal-impl/src/com/liferay/portal/events/SessionDestroyAction.java",
+      "lineRange": [
+        19,
+        24
+      ],
+      "summary": "Executes the action logic, implementing the core behavior of the enclosing action class.",
+      "tags": [
+        "action",
+        "execution"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:portal-impl/src/com/liferay/portal/events/SetupAdminAutoLoginStartupAction.java",
+      "type": "file",
+      "name": "SetupAdminAutoLoginStartupAction.java",
+      "filePath": "portal-impl/src/com/liferay/portal/events/SetupAdminAutoLoginStartupAction.java",
+      "summary": "Executes startup action during portal initialization, extending SimpleAction to run application-level startup logic.",
+      "tags": [
+        "startup",
+        "lifecycle",
+        "event-handler"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:portal-impl/src/com/liferay/portal/events/SetupAdminAutoLoginStartupAction.java:run",
+      "type": "function",
+      "name": "run",
+      "filePath": "portal-impl/src/com/liferay/portal/events/SetupAdminAutoLoginStartupAction.java",
+      "lineRange": [
+        21,
+        28
+      ],
+      "summary": "Executes the action logic, implementing the core behavior of the enclosing action class.",
+      "tags": [
+        "action",
+        "execution"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:portal-impl/src/com/liferay/portal/events/StartupHelperUtil.java",
+      "type": "file",
+      "name": "StartupHelperUtil.java",
+      "filePath": "portal-impl/src/com/liferay/portal/events/StartupHelperUtil.java",
+      "summary": "Utility managing portal startup and upgrade lifecycle, including upgrade process execution, release info tracking, and maintenance mode control.",
+      "tags": [
+        "startup",
+        "utility",
+        "lifecycle"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "class:portal-impl/src/com/liferay/portal/events/StartupHelperUtil.java:StartupHelperUtil",
+      "type": "class",
+      "name": "StartupHelperUtil",
+      "filePath": "portal-impl/src/com/liferay/portal/events/StartupHelperUtil.java",
+      "lineRange": [
+        56,
+        270
+      ],
+      "summary": "Utility class providing static methods for startuphelper operations.",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:portal-impl/src/com/liferay/portal/events/StartupHelperUtil.java:initResourceActions",
+      "type": "function",
+      "name": "initResourceActions",
+      "filePath": "portal-impl/src/com/liferay/portal/events/StartupHelperUtil.java",
+      "lineRange": [
+        58,
+        74
+      ],
+      "summary": "Method initResourceActions() in StartupHelperUtil.java.",
+      "tags": [
+        "method"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:portal-impl/src/com/liferay/portal/events/StartupHelperUtil.java:isDBNew",
+      "type": "function",
+      "name": "isDBNew",
+      "filePath": "portal-impl/src/com/liferay/portal/events/StartupHelperUtil.java",
+      "lineRange": [
+        76,
+        78
+      ],
+      "summary": "Method isDBNew() in StartupHelperUtil.java.",
+      "tags": [
+        "method"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:portal-impl/src/com/liferay/portal/events/StartupHelperUtil.java:isDBWarmed",
+      "type": "function",
+      "name": "isDBWarmed",
+      "filePath": "portal-impl/src/com/liferay/portal/events/StartupHelperUtil.java",
+      "lineRange": [
+        80,
+        83
+      ],
+      "summary": "Method isDBWarmed() in StartupHelperUtil.java.",
+      "tags": [
+        "method"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:portal-impl/src/com/liferay/portal/events/StartupHelperUtil.java:isNewRelease",
+      "type": "function",
+      "name": "isNewRelease",
+      "filePath": "portal-impl/src/com/liferay/portal/events/StartupHelperUtil.java",
+      "lineRange": [
+        85,
+        87
+      ],
+      "summary": "Method isNewRelease() in StartupHelperUtil.java.",
+      "tags": [
+        "method"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:portal-impl/src/com/liferay/portal/events/StartupHelperUtil.java:isUpgrading",
+      "type": "function",
+      "name": "isUpgrading",
+      "filePath": "portal-impl/src/com/liferay/portal/events/StartupHelperUtil.java",
+      "lineRange": [
+        89,
+        91
+      ],
+      "summary": "Method isUpgrading() in StartupHelperUtil.java.",
+      "tags": [
+        "method"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:portal-impl/src/com/liferay/portal/events/StartupHelperUtil.java:printPatchLevel",
+      "type": "function",
+      "name": "printPatchLevel",
+      "filePath": "portal-impl/src/com/liferay/portal/events/StartupHelperUtil.java",
+      "lineRange": [
+        93,
+        107
+      ],
+      "summary": "Method printPatchLevel() in StartupHelperUtil.java.",
+      "tags": [
+        "method"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:portal-impl/src/com/liferay/portal/events/StartupHelperUtil.java:setDBNew",
+      "type": "function",
+      "name": "setDBNew",
+      "filePath": "portal-impl/src/com/liferay/portal/events/StartupHelperUtil.java",
+      "lineRange": [
+        109,
+        115
+      ],
+      "summary": "Method setDBNew(dbNew) in StartupHelperUtil.java.",
+      "tags": [
+        "method"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:portal-impl/src/com/liferay/portal/events/StartupHelperUtil.java:setNewRelease",
+      "type": "function",
+      "name": "setNewRelease",
+      "filePath": "portal-impl/src/com/liferay/portal/events/StartupHelperUtil.java",
+      "lineRange": [
+        117,
+        119
+      ],
+      "summary": "Method setNewRelease(newRelease) in StartupHelperUtil.java.",
+      "tags": [
+        "method"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:portal-impl/src/com/liferay/portal/events/StartupHelperUtil.java:setUpgrading",
+      "type": "function",
+      "name": "setUpgrading",
+      "filePath": "portal-impl/src/com/liferay/portal/events/StartupHelperUtil.java",
+      "lineRange": [
+        121,
+        150
+      ],
+      "summary": "Method setUpgrading(upgrading) in StartupHelperUtil.java.",
+      "tags": [
+        "method"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:portal-impl/src/com/liferay/portal/events/StartupHelperUtil.java:upgradeProcess",
+      "type": "function",
+      "name": "upgradeProcess",
+      "filePath": "portal-impl/src/com/liferay/portal/events/StartupHelperUtil.java",
+      "lineRange": [
+        152,
+        177
+      ],
+      "summary": "Method upgradeProcess(buildNumber) in StartupHelperUtil.java.",
+      "tags": [
+        "method"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:portal-impl/src/com/liferay/portal/events/StartupHelperUtil.java:verifyRequiredSchemaVersion",
+      "type": "function",
+      "name": "verifyRequiredSchemaVersion",
+      "filePath": "portal-impl/src/com/liferay/portal/events/StartupHelperUtil.java",
+      "lineRange": [
+        179,
+        213
+      ],
+      "summary": "Method verifyRequiredSchemaVersion() in StartupHelperUtil.java.",
+      "tags": [
+        "method"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:portal-impl/src/com/liferay/portal/events/StartupHelperUtil.java:_isDBWarmed",
+      "type": "function",
+      "name": "_isDBWarmed",
+      "filePath": "portal-impl/src/com/liferay/portal/events/StartupHelperUtil.java",
+      "lineRange": [
+        215,
+        258
+      ],
+      "summary": "Method _isDBWarmed() in StartupHelperUtil.java.",
+      "tags": [
+        "method"
+      ],
+      "complexity": "moderate"
+    }
+  ],
+  "edges": [
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/events/SampleServicePreAction.java",
+      "target": "class:portal-impl/src/com/liferay/portal/events/SampleServicePreAction.java:SampleServicePreAction",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/events/SampleServicePreAction.java",
+      "target": "class:portal-impl/src/com/liferay/portal/events/SampleServicePreAction.java:SampleServicePreAction",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/events/SampleServicePreAction.java",
+      "target": "function:portal-impl/src/com/liferay/portal/events/SampleServicePreAction.java:run",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/events/SampleServicePreAction.java",
+      "target": "function:portal-impl/src/com/liferay/portal/events/SampleServicePreAction.java:run",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/events/SampleServicePreAction.java",
+      "target": "function:portal-impl/src/com/liferay/portal/events/SampleServicePreAction.java:setSharedSessionAttributes",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/events/SampleServicePreAction.java",
+      "target": "function:portal-impl/src/com/liferay/portal/events/SampleServicePreAction.java:setSharedSessionAttributes",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/events/SampleServicePreAction.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/events/Action.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "function:portal-impl/src/com/liferay/portal/events/SampleServicePreAction.java:run",
+      "target": "function:portal-impl/src/com/liferay/portal/events/SampleServicePreAction.java:setSharedSessionAttributes",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/events/SecureRequestAction.java",
+      "target": "class:portal-impl/src/com/liferay/portal/events/SecureRequestAction.java:SecureRequestAction",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/events/SecureRequestAction.java",
+      "target": "class:portal-impl/src/com/liferay/portal/events/SecureRequestAction.java:SecureRequestAction",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/events/SecureRequestAction.java",
+      "target": "function:portal-impl/src/com/liferay/portal/events/SecureRequestAction.java:run",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/events/SecureRequestAction.java",
+      "target": "function:portal-impl/src/com/liferay/portal/events/SecureRequestAction.java:run",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/events/SecureRequestAction.java",
+      "target": "function:portal-impl/src/com/liferay/portal/events/SecureRequestAction.java:getRedirect",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/events/SecureRequestAction.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/events/Action.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/events/SecureRequestAction.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/events/ActionException.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/events/SecureRequestAction.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/log/Log.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/events/SecureRequestAction.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/log/LogFactoryUtil.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/events/SecureRequestAction.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/util/Http.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/events/SecureRequestAction.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/util/PortalUtil.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/events/SecureRequestAction.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/util/StringUtil.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "function:portal-impl/src/com/liferay/portal/events/SecureRequestAction.java:run",
+      "target": "function:portal-impl/src/com/liferay/portal/events/SecureRequestAction.java:getRedirect",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/events/ServicePostAction.java",
+      "target": "class:portal-impl/src/com/liferay/portal/events/ServicePostAction.java:ServicePostAction",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/events/ServicePostAction.java",
+      "target": "class:portal-impl/src/com/liferay/portal/events/ServicePostAction.java:ServicePostAction",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/events/ServicePostAction.java",
+      "target": "function:portal-impl/src/com/liferay/portal/events/ServicePostAction.java:run",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/events/ServicePostAction.java",
+      "target": "function:portal-impl/src/com/liferay/portal/events/ServicePostAction.java:run",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/events/ServicePostAction.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/events/Action.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/events/ServicePostAction.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/log/Log.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/events/ServicePostAction.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/log/LogFactoryUtil.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/events/SessionCreateAction.java",
+      "target": "function:portal-impl/src/com/liferay/portal/events/SessionCreateAction.java:run",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/events/SessionCreateAction.java",
+      "target": "function:portal-impl/src/com/liferay/portal/events/SessionCreateAction.java:run",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/events/SessionCreateAction.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/events/SessionAction.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/events/SessionCreateAction.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/log/Log.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/events/SessionCreateAction.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/log/LogFactoryUtil.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/events/SessionDestroyAction.java",
+      "target": "function:portal-impl/src/com/liferay/portal/events/SessionDestroyAction.java:run",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/events/SessionDestroyAction.java",
+      "target": "function:portal-impl/src/com/liferay/portal/events/SessionDestroyAction.java:run",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/events/SessionDestroyAction.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/events/SessionAction.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/events/SessionDestroyAction.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/log/Log.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/events/SessionDestroyAction.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/log/LogFactoryUtil.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/events/SetupAdminAutoLoginStartupAction.java",
+      "target": "function:portal-impl/src/com/liferay/portal/events/SetupAdminAutoLoginStartupAction.java:run",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/events/SetupAdminAutoLoginStartupAction.java",
+      "target": "function:portal-impl/src/com/liferay/portal/events/SetupAdminAutoLoginStartupAction.java:run",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/events/SetupAdminAutoLoginStartupAction.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/events/ActionException.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/events/SetupAdminAutoLoginStartupAction.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/events/SimpleAction.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/events/SetupAdminAutoLoginStartupAction.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/module/util/SystemBundleUtil.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/events/SetupAdminAutoLoginStartupAction.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/security/auto/login/AutoLogin.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/events/SetupAdminAutoLoginStartupAction.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/util/HashMapDictionaryBuilder.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/events/StartupHelperUtil.java",
+      "target": "class:portal-impl/src/com/liferay/portal/events/StartupHelperUtil.java:StartupHelperUtil",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/events/StartupHelperUtil.java",
+      "target": "class:portal-impl/src/com/liferay/portal/events/StartupHelperUtil.java:StartupHelperUtil",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/events/StartupHelperUtil.java",
+      "target": "function:portal-impl/src/com/liferay/portal/events/StartupHelperUtil.java:initResourceActions",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/events/StartupHelperUtil.java",
+      "target": "function:portal-impl/src/com/liferay/portal/events/StartupHelperUtil.java:initResourceActions",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/events/StartupHelperUtil.java",
+      "target": "function:portal-impl/src/com/liferay/portal/events/StartupHelperUtil.java:isDBNew",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/events/StartupHelperUtil.java",
+      "target": "function:portal-impl/src/com/liferay/portal/events/StartupHelperUtil.java:isDBNew",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/events/StartupHelperUtil.java",
+      "target": "function:portal-impl/src/com/liferay/portal/events/StartupHelperUtil.java:isDBWarmed",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/events/StartupHelperUtil.java",
+      "target": "function:portal-impl/src/com/liferay/portal/events/StartupHelperUtil.java:isDBWarmed",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/events/StartupHelperUtil.java",
+      "target": "function:portal-impl/src/com/liferay/portal/events/StartupHelperUtil.java:isNewRelease",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/events/StartupHelperUtil.java",
+      "target": "function:portal-impl/src/com/liferay/portal/events/StartupHelperUtil.java:isNewRelease",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/events/StartupHelperUtil.java",
+      "target": "function:portal-impl/src/com/liferay/portal/events/StartupHelperUtil.java:isUpgrading",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/events/StartupHelperUtil.java",
+      "target": "function:portal-impl/src/com/liferay/portal/events/StartupHelperUtil.java:isUpgrading",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/events/StartupHelperUtil.java",
+      "target": "function:portal-impl/src/com/liferay/portal/events/StartupHelperUtil.java:printPatchLevel",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/events/StartupHelperUtil.java",
+      "target": "function:portal-impl/src/com/liferay/portal/events/StartupHelperUtil.java:printPatchLevel",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/events/StartupHelperUtil.java",
+      "target": "function:portal-impl/src/com/liferay/portal/events/StartupHelperUtil.java:setDBNew",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/events/StartupHelperUtil.java",
+      "target": "function:portal-impl/src/com/liferay/portal/events/StartupHelperUtil.java:setDBNew",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/events/StartupHelperUtil.java",
+      "target": "function:portal-impl/src/com/liferay/portal/events/StartupHelperUtil.java:setNewRelease",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/events/StartupHelperUtil.java",
+      "target": "function:portal-impl/src/com/liferay/portal/events/StartupHelperUtil.java:setNewRelease",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/events/StartupHelperUtil.java",
+      "target": "function:portal-impl/src/com/liferay/portal/events/StartupHelperUtil.java:setUpgrading",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/events/StartupHelperUtil.java",
+      "target": "function:portal-impl/src/com/liferay/portal/events/StartupHelperUtil.java:setUpgrading",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/events/StartupHelperUtil.java",
+      "target": "function:portal-impl/src/com/liferay/portal/events/StartupHelperUtil.java:upgradeProcess",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/events/StartupHelperUtil.java",
+      "target": "function:portal-impl/src/com/liferay/portal/events/StartupHelperUtil.java:upgradeProcess",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/events/StartupHelperUtil.java",
+      "target": "function:portal-impl/src/com/liferay/portal/events/StartupHelperUtil.java:verifyRequiredSchemaVersion",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/events/StartupHelperUtil.java",
+      "target": "function:portal-impl/src/com/liferay/portal/events/StartupHelperUtil.java:verifyRequiredSchemaVersion",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/events/StartupHelperUtil.java",
+      "target": "function:portal-impl/src/com/liferay/portal/events/StartupHelperUtil.java:_isDBWarmed",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/events/StartupHelperUtil.java",
+      "target": "file:portal-impl/src/com/liferay/portal/upgrade/log/UpgradeLogContext.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/events/StartupHelperUtil.java",
+      "target": "file:portal-impl/src/com/liferay/portal/upgrade/PortalUpgradeProcess.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/events/StartupHelperUtil.java",
+      "target": "file:portal-impl/src/com/liferay/portal/util/PropsValues.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/events/StartupHelperUtil.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/dao/jdbc/DataAccess.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/events/StartupHelperUtil.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/exception/ResourceActionsException.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/events/StartupHelperUtil.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/feature/flag/FeatureFlagManagerUtil.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/events/StartupHelperUtil.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/log/Log.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/events/StartupHelperUtil.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/log/LogContext.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/events/StartupHelperUtil.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/log/LogFactoryUtil.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/events/StartupHelperUtil.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/module/util/SystemBundleUtil.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/events/StartupHelperUtil.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/patcher/PatcherValues.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/events/StartupHelperUtil.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/security/permission/ResourceActionsUtil.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/events/StartupHelperUtil.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/service/ResourceActionLocalServiceUtil.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/events/StartupHelperUtil.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/upgrade/UpgradeException.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/events/StartupHelperUtil.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/upgrade/UpgradeProcess.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/events/StartupHelperUtil.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/upgrade/util/UpgradeProcessUtil.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/events/StartupHelperUtil.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/util/FileUtil.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/events/StartupHelperUtil.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/util/PortalClassLoaderUtil.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/events/StartupHelperUtil.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/util/StringUtil.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/events/StartupHelperUtil.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/util/Validator.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/events/StartupHelperUtil.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/version/Version.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    }
+  ]
+}

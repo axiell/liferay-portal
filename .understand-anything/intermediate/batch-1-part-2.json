@@ -1,0 +1,1493 @@
+{
+  "nodes": [
+    {
+      "id": "file:portal-impl/src/com/liferay/portal/dao/db/DB2DB.java",
+      "type": "file",
+      "name": "DB2DB",
+      "filePath": "portal-impl/src/com/liferay/portal/dao/db/DB2DB.java",
+      "summary": "DB2DB in the persistence/DAO layer",
+      "tags": [
+        "java",
+        "dao",
+        "persistence"
+      ],
+      "complexity": "medium"
+    },
+    {
+      "id": "file:portal-impl/src/com/liferay/portal/dao/db/FirebirdDB.java",
+      "type": "file",
+      "name": "FirebirdDB",
+      "filePath": "portal-impl/src/com/liferay/portal/dao/db/FirebirdDB.java",
+      "summary": "FirebirdDB in the persistence/DAO layer",
+      "tags": [
+        "java",
+        "dao",
+        "persistence"
+      ],
+      "complexity": "medium"
+    },
+    {
+      "id": "file:portal-impl/src/com/liferay/portal/dao/db/HSQLDB.java",
+      "type": "file",
+      "name": "HSQLDB",
+      "filePath": "portal-impl/src/com/liferay/portal/dao/db/HSQLDB.java",
+      "summary": "HSQLDB in the persistence/DAO layer",
+      "tags": [
+        "java",
+        "dao",
+        "persistence"
+      ],
+      "complexity": "medium"
+    },
+    {
+      "id": "file:portal-impl/src/com/liferay/portal/dao/db/JDataStoreDB.java",
+      "type": "file",
+      "name": "JDataStoreDB",
+      "filePath": "portal-impl/src/com/liferay/portal/dao/db/JDataStoreDB.java",
+      "summary": "JDataStoreDB in the persistence/DAO layer",
+      "tags": [
+        "java",
+        "dao",
+        "persistence"
+      ],
+      "complexity": "medium"
+    },
+    {
+      "id": "file:portal-impl/src/com/liferay/portal/dao/db/OracleDB.java",
+      "type": "file",
+      "name": "OracleDB",
+      "filePath": "portal-impl/src/com/liferay/portal/dao/db/OracleDB.java",
+      "summary": "OracleDB in the persistence/DAO layer",
+      "tags": [
+        "java",
+        "dao",
+        "persistence"
+      ],
+      "complexity": "medium"
+    },
+    {
+      "id": "file:portal-impl/src/com/liferay/portal/dao/db/PostgreSQLDB.java",
+      "type": "file",
+      "name": "PostgreSQLDB",
+      "filePath": "portal-impl/src/com/liferay/portal/dao/db/PostgreSQLDB.java",
+      "summary": "PostgreSQLDB in the persistence/DAO layer",
+      "tags": [
+        "java",
+        "dao",
+        "persistence"
+      ],
+      "complexity": "high"
+    },
+    {
+      "id": "file:portal-impl/src/com/liferay/portal/dao/db/SAPDB.java",
+      "type": "file",
+      "name": "SAPDB",
+      "filePath": "portal-impl/src/com/liferay/portal/dao/db/SAPDB.java",
+      "summary": "SAPDB in the persistence/DAO layer",
+      "tags": [
+        "java",
+        "dao",
+        "persistence"
+      ],
+      "complexity": "medium"
+    },
+    {
+      "id": "file:portal-impl/src/com/liferay/portal/dao/db/SQLServerDB.java",
+      "type": "file",
+      "name": "SQLServerDB",
+      "filePath": "portal-impl/src/com/liferay/portal/dao/db/SQLServerDB.java",
+      "summary": "SQLServerDB in the persistence/DAO layer",
+      "tags": [
+        "java",
+        "dao",
+        "persistence"
+      ],
+      "complexity": "medium"
+    },
+    {
+      "id": "file:portal-impl/src/com/liferay/portal/dao/db/SybaseDB.java",
+      "type": "file",
+      "name": "SybaseDB",
+      "filePath": "portal-impl/src/com/liferay/portal/dao/db/SybaseDB.java",
+      "summary": "SybaseDB in the persistence/DAO layer",
+      "tags": [
+        "java",
+        "dao",
+        "persistence"
+      ],
+      "complexity": "medium"
+    },
+    {
+      "id": "class:portal-impl/src/com/liferay/portal/dao/db/OracleDB.java:OracleDB",
+      "type": "class",
+      "name": "OracleDB",
+      "filePath": "portal-impl/src/com/liferay/portal/dao/db/OracleDB.java",
+      "lineRange": [
+        45,
+        539
+      ],
+      "summary": "OracleDB class in OracleDB",
+      "tags": [
+        "java",
+        "class"
+      ],
+      "complexity": "high"
+    },
+    {
+      "id": "function:portal-impl/src/com/liferay/portal/dao/db/OracleDB.java:OracleDB",
+      "type": "function",
+      "name": "OracleDB",
+      "filePath": "portal-impl/src/com/liferay/portal/dao/db/OracleDB.java",
+      "lineRange": [
+        47,
+        49
+      ],
+      "summary": "Method OracleDB in OracleDB(majorVersion, minorVersion)",
+      "tags": [
+        "java",
+        "method"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "function:portal-impl/src/com/liferay/portal/dao/db/OracleDB.java:alterColumnType",
+      "type": "function",
+      "name": "alterColumnType",
+      "filePath": "portal-impl/src/com/liferay/portal/dao/db/OracleDB.java",
+      "lineRange": [
+        51,
+        123
+      ],
+      "summary": "Method alterColumnType in OracleDB(connection, tableName, columnName, newColumnType)",
+      "tags": [
+        "java",
+        "method"
+      ],
+      "complexity": "high"
+    },
+    {
+      "id": "function:portal-impl/src/com/liferay/portal/dao/db/OracleDB.java:buildSQL",
+      "type": "function",
+      "name": "buildSQL",
+      "filePath": "portal-impl/src/com/liferay/portal/dao/db/OracleDB.java",
+      "lineRange": [
+        125,
+        134
+      ],
+      "summary": "Method buildSQL in OracleDB(template)",
+      "tags": [
+        "java",
+        "method"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "function:portal-impl/src/com/liferay/portal/dao/db/OracleDB.java:getIndexes",
+      "type": "function",
+      "name": "getIndexes",
+      "filePath": "portal-impl/src/com/liferay/portal/dao/db/OracleDB.java",
+      "lineRange": [
+        136,
+        163
+      ],
+      "summary": "Method getIndexes in OracleDB(connection)",
+      "tags": [
+        "java",
+        "method"
+      ],
+      "complexity": "medium"
+    },
+    {
+      "id": "function:portal-impl/src/com/liferay/portal/dao/db/OracleDB.java:getIndexResultSet",
+      "type": "function",
+      "name": "getIndexResultSet",
+      "filePath": "portal-impl/src/com/liferay/portal/dao/db/OracleDB.java",
+      "lineRange": [
+        165,
+        177
+      ],
+      "summary": "Method getIndexResultSet in OracleDB(connection, tableName, onlyUnique)",
+      "tags": [
+        "java",
+        "method"
+      ],
+      "complexity": "medium"
+    },
+    {
+      "id": "function:portal-impl/src/com/liferay/portal/dao/db/OracleDB.java:getPopulateSQL",
+      "type": "function",
+      "name": "getPopulateSQL",
+      "filePath": "portal-impl/src/com/liferay/portal/dao/db/OracleDB.java",
+      "lineRange": [
+        179,
+        183
+      ],
+      "summary": "Method getPopulateSQL in OracleDB(databaseName, sqlContent)",
+      "tags": [
+        "java",
+        "method"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "function:portal-impl/src/com/liferay/portal/dao/db/OracleDB.java:getRecreateSQL",
+      "type": "function",
+      "name": "getRecreateSQL",
+      "filePath": "portal-impl/src/com/liferay/portal/dao/db/OracleDB.java",
+      "lineRange": [
+        185,
+        189
+      ],
+      "summary": "Method getRecreateSQL in OracleDB(databaseName)",
+      "tags": [
+        "java",
+        "method"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "function:portal-impl/src/com/liferay/portal/dao/db/OracleDB.java:isSupportsInlineDistinct",
+      "type": "function",
+      "name": "isSupportsInlineDistinct",
+      "filePath": "portal-impl/src/com/liferay/portal/dao/db/OracleDB.java",
+      "lineRange": [
+        191,
+        194
+      ],
+      "summary": "Method isSupportsInlineDistinct in OracleDB()",
+      "tags": [
+        "java",
+        "method"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "function:portal-impl/src/com/liferay/portal/dao/db/OracleDB.java:buildColumnTypeTokens",
+      "type": "function",
+      "name": "buildColumnTypeTokens",
+      "filePath": "portal-impl/src/com/liferay/portal/dao/db/OracleDB.java",
+      "lineRange": [
+        196,
+        214
+      ],
+      "summary": "Method buildColumnTypeTokens in OracleDB(line)",
+      "tags": [
+        "java",
+        "method"
+      ],
+      "complexity": "medium"
+    },
+    {
+      "id": "function:portal-impl/src/com/liferay/portal/dao/db/OracleDB.java:createSyncDeleteTrigger",
+      "type": "function",
+      "name": "createSyncDeleteTrigger",
+      "filePath": "portal-impl/src/com/liferay/portal/dao/db/OracleDB.java",
+      "lineRange": [
+        216,
+        245
+      ],
+      "summary": "Method createSyncDeleteTrigger in OracleDB(connection, sourceTableName, targetTableName, triggerName, sourcePrimaryKeyColumnNames, targetPrimaryKeyColumnNames)",
+      "tags": [
+        "java",
+        "method"
+      ],
+      "complexity": "medium"
+    },
+    {
+      "id": "function:portal-impl/src/com/liferay/portal/dao/db/OracleDB.java:createSyncInsertTrigger",
+      "type": "function",
+      "name": "createSyncInsertTrigger",
+      "filePath": "portal-impl/src/com/liferay/portal/dao/db/OracleDB.java",
+      "lineRange": [
+        247,
+        293
+      ],
+      "summary": "Method createSyncInsertTrigger in OracleDB(connection, sourceTableName, targetTableName, triggerName, sourceColumnNames, targetColumnNames, sourcePrimaryKeyColumnNames, targetPrimaryKeyColumnNames, defaultValuesMap)",
+      "tags": [
+        "java",
+        "method"
+      ],
+      "complexity": "high"
+    },
+    {
+      "id": "function:portal-impl/src/com/liferay/portal/dao/db/OracleDB.java:createSyncUpdateTrigger",
+      "type": "function",
+      "name": "createSyncUpdateTrigger",
+      "filePath": "portal-impl/src/com/liferay/portal/dao/db/OracleDB.java",
+      "lineRange": [
+        295,
+        352
+      ],
+      "summary": "Method createSyncUpdateTrigger in OracleDB(connection, sourceTableName, targetTableName, triggerName, sourceColumnNames, targetColumnNames, sourcePrimaryKeyColumnNames, targetPrimaryKeyColumnNames, defaultValuesMap)",
+      "tags": [
+        "java",
+        "method"
+      ],
+      "complexity": "high"
+    },
+    {
+      "id": "function:portal-impl/src/com/liferay/portal/dao/db/OracleDB.java:getRenameTableSQL",
+      "type": "function",
+      "name": "getRenameTableSQL",
+      "filePath": "portal-impl/src/com/liferay/portal/dao/db/OracleDB.java",
+      "lineRange": [
+        354,
+        360
+      ],
+      "summary": "Method getRenameTableSQL in OracleDB(oldTableName, newTableName)",
+      "tags": [
+        "java",
+        "method"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "function:portal-impl/src/com/liferay/portal/dao/db/OracleDB.java:getSQLTypes",
+      "type": "function",
+      "name": "getSQLTypes",
+      "filePath": "portal-impl/src/com/liferay/portal/dao/db/OracleDB.java",
+      "lineRange": [
+        362,
+        365
+      ],
+      "summary": "Method getSQLTypes in OracleDB()",
+      "tags": [
+        "java",
+        "method"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "function:portal-impl/src/com/liferay/portal/dao/db/OracleDB.java:getSQLVarcharSizes",
+      "type": "function",
+      "name": "getSQLVarcharSizes",
+      "filePath": "portal-impl/src/com/liferay/portal/dao/db/OracleDB.java",
+      "lineRange": [
+        367,
+        374
+      ],
+      "summary": "Method getSQLVarcharSizes in OracleDB()",
+      "tags": [
+        "java",
+        "method"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "function:portal-impl/src/com/liferay/portal/dao/db/OracleDB.java:getTemplate",
+      "type": "function",
+      "name": "getTemplate",
+      "filePath": "portal-impl/src/com/liferay/portal/dao/db/OracleDB.java",
+      "lineRange": [
+        376,
+        379
+      ],
+      "summary": "Method getTemplate in OracleDB()",
+      "tags": [
+        "java",
+        "method"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "function:portal-impl/src/com/liferay/portal/dao/db/OracleDB.java:isNullable",
+      "type": "function",
+      "name": "isNullable",
+      "filePath": "portal-impl/src/com/liferay/portal/dao/db/OracleDB.java",
+      "lineRange": [
+        381,
+        389
+      ],
+      "summary": "Method isNullable in OracleDB(tableName, columnName)",
+      "tags": [
+        "java",
+        "method"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "function:portal-impl/src/com/liferay/portal/dao/db/OracleDB.java:isSupportsDDLRollback",
+      "type": "function",
+      "name": "isSupportsDDLRollback",
+      "filePath": "portal-impl/src/com/liferay/portal/dao/db/OracleDB.java",
+      "lineRange": [
+        391,
+        394
+      ],
+      "summary": "Method isSupportsDDLRollback in OracleDB()",
+      "tags": [
+        "java",
+        "method"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "function:portal-impl/src/com/liferay/portal/dao/db/OracleDB.java:isSupportsDuplicatedIndexName",
+      "type": "function",
+      "name": "isSupportsDuplicatedIndexName",
+      "filePath": "portal-impl/src/com/liferay/portal/dao/db/OracleDB.java",
+      "lineRange": [
+        396,
+        399
+      ],
+      "summary": "Method isSupportsDuplicatedIndexName in OracleDB()",
+      "tags": [
+        "java",
+        "method"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "function:portal-impl/src/com/liferay/portal/dao/db/OracleDB.java:limitColumnLength",
+      "type": "function",
+      "name": "limitColumnLength",
+      "filePath": "portal-impl/src/com/liferay/portal/dao/db/OracleDB.java",
+      "lineRange": [
+        401,
+        404
+      ],
+      "summary": "Method limitColumnLength in OracleDB(column, length)",
+      "tags": [
+        "java",
+        "method"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "function:portal-impl/src/com/liferay/portal/dao/db/OracleDB.java:replaceTemplate",
+      "type": "function",
+      "name": "replaceTemplate",
+      "filePath": "portal-impl/src/com/liferay/portal/dao/db/OracleDB.java",
+      "lineRange": [
+        406,
+        430
+      ],
+      "summary": "Method replaceTemplate in OracleDB(template)",
+      "tags": [
+        "java",
+        "method"
+      ],
+      "complexity": "medium"
+    },
+    {
+      "id": "function:portal-impl/src/com/liferay/portal/dao/db/OracleDB.java:reword",
+      "type": "function",
+      "name": "reword",
+      "filePath": "portal-impl/src/com/liferay/portal/dao/db/OracleDB.java",
+      "lineRange": [
+        432,
+        512
+      ],
+      "summary": "Method reword in OracleDB(data)",
+      "tags": [
+        "java",
+        "method"
+      ],
+      "complexity": "high"
+    },
+    {
+      "id": "class:portal-impl/src/com/liferay/portal/dao/db/PostgreSQLDB.java:PostgreSQLDB",
+      "type": "class",
+      "name": "PostgreSQLDB",
+      "filePath": "portal-impl/src/com/liferay/portal/dao/db/PostgreSQLDB.java",
+      "lineRange": [
+        38,
+        506
+      ],
+      "summary": "PostgreSQLDB class in PostgreSQLDB",
+      "tags": [
+        "java",
+        "class"
+      ],
+      "complexity": "high"
+    },
+    {
+      "id": "function:portal-impl/src/com/liferay/portal/dao/db/PostgreSQLDB.java:getCreateRulesSQL",
+      "type": "function",
+      "name": "getCreateRulesSQL",
+      "filePath": "portal-impl/src/com/liferay/portal/dao/db/PostgreSQLDB.java",
+      "lineRange": [
+        40,
+        61
+      ],
+      "summary": "Method getCreateRulesSQL in PostgreSQLDB(tableName, columnName)",
+      "tags": [
+        "java",
+        "method"
+      ],
+      "complexity": "medium"
+    },
+    {
+      "id": "function:portal-impl/src/com/liferay/portal/dao/db/PostgreSQLDB.java:PostgreSQLDB",
+      "type": "function",
+      "name": "PostgreSQLDB",
+      "filePath": "portal-impl/src/com/liferay/portal/dao/db/PostgreSQLDB.java",
+      "lineRange": [
+        63,
+        72
+      ],
+      "summary": "Method PostgreSQLDB in PostgreSQLDB(majorVersion, minorVersion)",
+      "tags": [
+        "java",
+        "method"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "function:portal-impl/src/com/liferay/portal/dao/db/PostgreSQLDB.java:buildSQL",
+      "type": "function",
+      "name": "buildSQL",
+      "filePath": "portal-impl/src/com/liferay/portal/dao/db/PostgreSQLDB.java",
+      "lineRange": [
+        74,
+        81
+      ],
+      "summary": "Method buildSQL in PostgreSQLDB(template)",
+      "tags": [
+        "java",
+        "method"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "function:portal-impl/src/com/liferay/portal/dao/db/PostgreSQLDB.java:getIndexes",
+      "type": "function",
+      "name": "getIndexes",
+      "filePath": "portal-impl/src/com/liferay/portal/dao/db/PostgreSQLDB.java",
+      "lineRange": [
+        83,
+        114
+      ],
+      "summary": "Method getIndexes in PostgreSQLDB(connection)",
+      "tags": [
+        "java",
+        "method"
+      ],
+      "complexity": "high"
+    },
+    {
+      "id": "function:portal-impl/src/com/liferay/portal/dao/db/PostgreSQLDB.java:getNewUuidFunctionName",
+      "type": "function",
+      "name": "getNewUuidFunctionName",
+      "filePath": "portal-impl/src/com/liferay/portal/dao/db/PostgreSQLDB.java",
+      "lineRange": [
+        116,
+        119
+      ],
+      "summary": "Method getNewUuidFunctionName in PostgreSQLDB()",
+      "tags": [
+        "java",
+        "method"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "function:portal-impl/src/com/liferay/portal/dao/db/PostgreSQLDB.java:getPopulateSQL",
+      "type": "function",
+      "name": "getPopulateSQL",
+      "filePath": "portal-impl/src/com/liferay/portal/dao/db/PostgreSQLDB.java",
+      "lineRange": [
+        121,
+        124
+      ],
+      "summary": "Method getPopulateSQL in PostgreSQLDB(databaseName, sqlContent)",
+      "tags": [
+        "java",
+        "method"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "function:portal-impl/src/com/liferay/portal/dao/db/PostgreSQLDB.java:getRecreateSQL",
+      "type": "function",
+      "name": "getRecreateSQL",
+      "filePath": "portal-impl/src/com/liferay/portal/dao/db/PostgreSQLDB.java",
+      "lineRange": [
+        126,
+        131
+      ],
+      "summary": "Method getRecreateSQL in PostgreSQLDB(databaseName)",
+      "tags": [
+        "java",
+        "method"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "function:portal-impl/src/com/liferay/portal/dao/db/PostgreSQLDB.java:isSupportsDBPartition",
+      "type": "function",
+      "name": "isSupportsDBPartition",
+      "filePath": "portal-impl/src/com/liferay/portal/dao/db/PostgreSQLDB.java",
+      "lineRange": [
+        133,
+        136
+      ],
+      "summary": "Method isSupportsDBPartition in PostgreSQLDB()",
+      "tags": [
+        "java",
+        "method"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "function:portal-impl/src/com/liferay/portal/dao/db/PostgreSQLDB.java:isSupportsNewUuidFunction",
+      "type": "function",
+      "name": "isSupportsNewUuidFunction",
+      "filePath": "portal-impl/src/com/liferay/portal/dao/db/PostgreSQLDB.java",
+      "lineRange": [
+        138,
+        141
+      ],
+      "summary": "Method isSupportsNewUuidFunction in PostgreSQLDB()",
+      "tags": [
+        "java",
+        "method"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "function:portal-impl/src/com/liferay/portal/dao/db/PostgreSQLDB.java:isSupportsQueryingAfterException",
+      "type": "function",
+      "name": "isSupportsQueryingAfterException",
+      "filePath": "portal-impl/src/com/liferay/portal/dao/db/PostgreSQLDB.java",
+      "lineRange": [
+        143,
+        146
+      ],
+      "summary": "Method isSupportsQueryingAfterException in PostgreSQLDB()",
+      "tags": [
+        "java",
+        "method"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "function:portal-impl/src/com/liferay/portal/dao/db/PostgreSQLDB.java:createSyncDeleteTrigger",
+      "type": "function",
+      "name": "createSyncDeleteTrigger",
+      "filePath": "portal-impl/src/com/liferay/portal/dao/db/PostgreSQLDB.java",
+      "lineRange": [
+        148,
+        176
+      ],
+      "summary": "Method createSyncDeleteTrigger in PostgreSQLDB(connection, sourceTableName, targetTableName, triggerName, sourcePrimaryKeyColumnNames, targetPrimaryKeyColumnNames)",
+      "tags": [
+        "java",
+        "method"
+      ],
+      "complexity": "medium"
+    },
+    {
+      "id": "function:portal-impl/src/com/liferay/portal/dao/db/PostgreSQLDB.java:createSyncInsertTrigger",
+      "type": "function",
+      "name": "createSyncInsertTrigger",
+      "filePath": "portal-impl/src/com/liferay/portal/dao/db/PostgreSQLDB.java",
+      "lineRange": [
+        178,
+        223
+      ],
+      "summary": "Method createSyncInsertTrigger in PostgreSQLDB(connection, sourceTableName, targetTableName, triggerName, sourceColumnNames, targetColumnNames, sourcePrimaryKeyColumnNames, targetPrimaryKeyColumnNames, defaultValuesMap)",
+      "tags": [
+        "java",
+        "method"
+      ],
+      "complexity": "high"
+    },
+    {
+      "id": "function:portal-impl/src/com/liferay/portal/dao/db/PostgreSQLDB.java:createSyncUpdateTrigger",
+      "type": "function",
+      "name": "createSyncUpdateTrigger",
+      "filePath": "portal-impl/src/com/liferay/portal/dao/db/PostgreSQLDB.java",
+      "lineRange": [
+        225,
+        281
+      ],
+      "summary": "Method createSyncUpdateTrigger in PostgreSQLDB(connection, sourceTableName, targetTableName, triggerName, sourceColumnNames, targetColumnNames, sourcePrimaryKeyColumnNames, targetPrimaryKeyColumnNames, defaultValuesMap)",
+      "tags": [
+        "java",
+        "method"
+      ],
+      "complexity": "high"
+    },
+    {
+      "id": "function:portal-impl/src/com/liferay/portal/dao/db/PostgreSQLDB.java:dropTrigger",
+      "type": "function",
+      "name": "dropTrigger",
+      "filePath": "portal-impl/src/com/liferay/portal/dao/db/PostgreSQLDB.java",
+      "lineRange": [
+        283,
+        294
+      ],
+      "summary": "Method dropTrigger in PostgreSQLDB(connection, tableName, triggerName)",
+      "tags": [
+        "java",
+        "method"
+      ],
+      "complexity": "medium"
+    },
+    {
+      "id": "function:portal-impl/src/com/liferay/portal/dao/db/PostgreSQLDB.java:getCopyTableStructureSQL",
+      "type": "function",
+      "name": "getCopyTableStructureSQL",
+      "filePath": "portal-impl/src/com/liferay/portal/dao/db/PostgreSQLDB.java",
+      "lineRange": [
+        296,
+        303
+      ],
+      "summary": "Method getCopyTableStructureSQL in PostgreSQLDB(tableName, newTableName)",
+      "tags": [
+        "java",
+        "method"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "function:portal-impl/src/com/liferay/portal/dao/db/PostgreSQLDB.java:getIndexColumnName",
+      "type": "function",
+      "name": "getIndexColumnName",
+      "filePath": "portal-impl/src/com/liferay/portal/dao/db/PostgreSQLDB.java",
+      "lineRange": [
+        305,
+        308
+      ],
+      "summary": "Method getIndexColumnName in PostgreSQLDB(indexColumnName)",
+      "tags": [
+        "java",
+        "method"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "function:portal-impl/src/com/liferay/portal/dao/db/PostgreSQLDB.java:getSQLTypes",
+      "type": "function",
+      "name": "getSQLTypes",
+      "filePath": "portal-impl/src/com/liferay/portal/dao/db/PostgreSQLDB.java",
+      "lineRange": [
+        310,
+        313
+      ],
+      "summary": "Method getSQLTypes in PostgreSQLDB()",
+      "tags": [
+        "java",
+        "method"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "function:portal-impl/src/com/liferay/portal/dao/db/PostgreSQLDB.java:getSQLVarcharSizes",
+      "type": "function",
+      "name": "getSQLVarcharSizes",
+      "filePath": "portal-impl/src/com/liferay/portal/dao/db/PostgreSQLDB.java",
+      "lineRange": [
+        315,
+        322
+      ],
+      "summary": "Method getSQLVarcharSizes in PostgreSQLDB()",
+      "tags": [
+        "java",
+        "method"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "function:portal-impl/src/com/liferay/portal/dao/db/PostgreSQLDB.java:getTemplate",
+      "type": "function",
+      "name": "getTemplate",
+      "filePath": "portal-impl/src/com/liferay/portal/dao/db/PostgreSQLDB.java",
+      "lineRange": [
+        324,
+        327
+      ],
+      "summary": "Method getTemplate in PostgreSQLDB()",
+      "tags": [
+        "java",
+        "method"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "function:portal-impl/src/com/liferay/portal/dao/db/PostgreSQLDB.java:isSupportsDuplicatedIndexName",
+      "type": "function",
+      "name": "isSupportsDuplicatedIndexName",
+      "filePath": "portal-impl/src/com/liferay/portal/dao/db/PostgreSQLDB.java",
+      "lineRange": [
+        329,
+        332
+      ],
+      "summary": "Method isSupportsDuplicatedIndexName in PostgreSQLDB()",
+      "tags": [
+        "java",
+        "method"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "function:portal-impl/src/com/liferay/portal/dao/db/PostgreSQLDB.java:limitColumnLength",
+      "type": "function",
+      "name": "limitColumnLength",
+      "filePath": "portal-impl/src/com/liferay/portal/dao/db/PostgreSQLDB.java",
+      "lineRange": [
+        334,
+        337
+      ],
+      "summary": "Method limitColumnLength in PostgreSQLDB(column, length)",
+      "tags": [
+        "java",
+        "method"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "function:portal-impl/src/com/liferay/portal/dao/db/PostgreSQLDB.java:reword",
+      "type": "function",
+      "name": "reword",
+      "filePath": "portal-impl/src/com/liferay/portal/dao/db/PostgreSQLDB.java",
+      "lineRange": [
+        339,
+        457
+      ],
+      "summary": "Method reword in PostgreSQLDB(data)",
+      "tags": [
+        "java",
+        "method"
+      ],
+      "complexity": "high"
+    },
+    {
+      "id": "function:portal-impl/src/com/liferay/portal/dao/db/PostgreSQLDB.java:_createTrigger",
+      "type": "function",
+      "name": "_createTrigger",
+      "filePath": "portal-impl/src/com/liferay/portal/dao/db/PostgreSQLDB.java",
+      "lineRange": [
+        459,
+        470
+      ],
+      "summary": "Method _createTrigger in PostgreSQLDB(connection, tableName, triggerEvent, triggerName)",
+      "tags": [
+        "java",
+        "method"
+      ],
+      "complexity": "medium"
+    },
+    {
+      "id": "function:portal-impl/src/com/liferay/portal/dao/db/PostgreSQLDB.java:_createTriggerFunction",
+      "type": "function",
+      "name": "_createTriggerFunction",
+      "filePath": "portal-impl/src/com/liferay/portal/dao/db/PostgreSQLDB.java",
+      "lineRange": [
+        472,
+        486
+      ],
+      "summary": "Method _createTriggerFunction in PostgreSQLDB(connection, functionName, functionStatement)",
+      "tags": [
+        "java",
+        "method"
+      ],
+      "complexity": "medium"
+    }
+  ],
+  "edges": [
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/dao/db/DB2DB.java",
+      "target": "file:portal-impl/src/com/liferay/portal/dao/db/BaseDB.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/dao/db/FirebirdDB.java",
+      "target": "file:portal-impl/src/com/liferay/portal/dao/db/BaseDB.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/dao/db/HSQLDB.java",
+      "target": "file:portal-impl/src/com/liferay/portal/dao/db/BaseDB.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/dao/db/JDataStoreDB.java",
+      "target": "file:portal-impl/src/com/liferay/portal/dao/db/BaseDB.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/dao/db/OracleDB.java",
+      "target": "file:portal-impl/src/com/liferay/portal/dao/db/BaseDB.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/dao/db/OracleDB.java",
+      "target": "file:portal-impl/src/com/liferay/portal/dao/db/IndexMetadata.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/dao/db/OracleDB.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/dao/db/DB.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/dao/db/OracleDB.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/dao/db/DBManagerUtil.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/dao/db/OracleDB.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/dao/db/DBType.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/dao/db/PostgreSQLDB.java",
+      "target": "file:portal-impl/src/com/liferay/portal/dao/db/BaseDB.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/dao/db/PostgreSQLDB.java",
+      "target": "file:portal-impl/src/com/liferay/portal/dao/db/IndexMetadata.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/dao/db/PostgreSQLDB.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/dao/db/DB.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/dao/db/PostgreSQLDB.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/dao/db/DBManagerUtil.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/dao/db/PostgreSQLDB.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/dao/db/DBType.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/dao/db/SAPDB.java",
+      "target": "file:portal-impl/src/com/liferay/portal/dao/db/BaseDB.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/dao/db/SQLServerDB.java",
+      "target": "file:portal-impl/src/com/liferay/portal/dao/db/BaseDB.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/dao/db/SQLServerDB.java",
+      "target": "file:portal-impl/src/com/liferay/portal/dao/db/IndexMetadata.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/dao/db/SybaseDB.java",
+      "target": "file:portal-impl/src/com/liferay/portal/dao/db/BaseDB.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/dao/db/OracleDB.java",
+      "target": "class:portal-impl/src/com/liferay/portal/dao/db/OracleDB.java:OracleDB",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/dao/db/OracleDB.java",
+      "target": "function:portal-impl/src/com/liferay/portal/dao/db/OracleDB.java:OracleDB",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/dao/db/OracleDB.java",
+      "target": "function:portal-impl/src/com/liferay/portal/dao/db/OracleDB.java:alterColumnType",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/dao/db/OracleDB.java",
+      "target": "function:portal-impl/src/com/liferay/portal/dao/db/OracleDB.java:buildSQL",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/dao/db/OracleDB.java",
+      "target": "function:portal-impl/src/com/liferay/portal/dao/db/OracleDB.java:getIndexes",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/dao/db/OracleDB.java",
+      "target": "function:portal-impl/src/com/liferay/portal/dao/db/OracleDB.java:getIndexResultSet",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/dao/db/OracleDB.java",
+      "target": "function:portal-impl/src/com/liferay/portal/dao/db/OracleDB.java:getPopulateSQL",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/dao/db/OracleDB.java",
+      "target": "function:portal-impl/src/com/liferay/portal/dao/db/OracleDB.java:getRecreateSQL",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/dao/db/OracleDB.java",
+      "target": "function:portal-impl/src/com/liferay/portal/dao/db/OracleDB.java:isSupportsInlineDistinct",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/dao/db/OracleDB.java",
+      "target": "function:portal-impl/src/com/liferay/portal/dao/db/OracleDB.java:buildColumnTypeTokens",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/dao/db/OracleDB.java",
+      "target": "function:portal-impl/src/com/liferay/portal/dao/db/OracleDB.java:createSyncDeleteTrigger",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/dao/db/OracleDB.java",
+      "target": "function:portal-impl/src/com/liferay/portal/dao/db/OracleDB.java:createSyncInsertTrigger",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/dao/db/OracleDB.java",
+      "target": "function:portal-impl/src/com/liferay/portal/dao/db/OracleDB.java:createSyncUpdateTrigger",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/dao/db/OracleDB.java",
+      "target": "function:portal-impl/src/com/liferay/portal/dao/db/OracleDB.java:getRenameTableSQL",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/dao/db/OracleDB.java",
+      "target": "function:portal-impl/src/com/liferay/portal/dao/db/OracleDB.java:getSQLTypes",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/dao/db/OracleDB.java",
+      "target": "function:portal-impl/src/com/liferay/portal/dao/db/OracleDB.java:getSQLVarcharSizes",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/dao/db/OracleDB.java",
+      "target": "function:portal-impl/src/com/liferay/portal/dao/db/OracleDB.java:getTemplate",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/dao/db/OracleDB.java",
+      "target": "function:portal-impl/src/com/liferay/portal/dao/db/OracleDB.java:isNullable",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/dao/db/OracleDB.java",
+      "target": "function:portal-impl/src/com/liferay/portal/dao/db/OracleDB.java:isSupportsDDLRollback",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/dao/db/OracleDB.java",
+      "target": "function:portal-impl/src/com/liferay/portal/dao/db/OracleDB.java:isSupportsDuplicatedIndexName",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/dao/db/OracleDB.java",
+      "target": "function:portal-impl/src/com/liferay/portal/dao/db/OracleDB.java:limitColumnLength",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/dao/db/OracleDB.java",
+      "target": "function:portal-impl/src/com/liferay/portal/dao/db/OracleDB.java:replaceTemplate",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/dao/db/OracleDB.java",
+      "target": "function:portal-impl/src/com/liferay/portal/dao/db/OracleDB.java:reword",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/dao/db/PostgreSQLDB.java",
+      "target": "class:portal-impl/src/com/liferay/portal/dao/db/PostgreSQLDB.java:PostgreSQLDB",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/dao/db/PostgreSQLDB.java",
+      "target": "function:portal-impl/src/com/liferay/portal/dao/db/PostgreSQLDB.java:getCreateRulesSQL",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/dao/db/PostgreSQLDB.java",
+      "target": "function:portal-impl/src/com/liferay/portal/dao/db/PostgreSQLDB.java:PostgreSQLDB",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/dao/db/PostgreSQLDB.java",
+      "target": "function:portal-impl/src/com/liferay/portal/dao/db/PostgreSQLDB.java:buildSQL",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/dao/db/PostgreSQLDB.java",
+      "target": "function:portal-impl/src/com/liferay/portal/dao/db/PostgreSQLDB.java:getIndexes",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/dao/db/PostgreSQLDB.java",
+      "target": "function:portal-impl/src/com/liferay/portal/dao/db/PostgreSQLDB.java:getNewUuidFunctionName",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/dao/db/PostgreSQLDB.java",
+      "target": "function:portal-impl/src/com/liferay/portal/dao/db/PostgreSQLDB.java:getPopulateSQL",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/dao/db/PostgreSQLDB.java",
+      "target": "function:portal-impl/src/com/liferay/portal/dao/db/PostgreSQLDB.java:getRecreateSQL",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/dao/db/PostgreSQLDB.java",
+      "target": "function:portal-impl/src/com/liferay/portal/dao/db/PostgreSQLDB.java:isSupportsDBPartition",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/dao/db/PostgreSQLDB.java",
+      "target": "function:portal-impl/src/com/liferay/portal/dao/db/PostgreSQLDB.java:isSupportsNewUuidFunction",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/dao/db/PostgreSQLDB.java",
+      "target": "function:portal-impl/src/com/liferay/portal/dao/db/PostgreSQLDB.java:isSupportsQueryingAfterException",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/dao/db/PostgreSQLDB.java",
+      "target": "function:portal-impl/src/com/liferay/portal/dao/db/PostgreSQLDB.java:createSyncDeleteTrigger",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/dao/db/PostgreSQLDB.java",
+      "target": "function:portal-impl/src/com/liferay/portal/dao/db/PostgreSQLDB.java:createSyncInsertTrigger",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/dao/db/PostgreSQLDB.java",
+      "target": "function:portal-impl/src/com/liferay/portal/dao/db/PostgreSQLDB.java:createSyncUpdateTrigger",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/dao/db/PostgreSQLDB.java",
+      "target": "function:portal-impl/src/com/liferay/portal/dao/db/PostgreSQLDB.java:dropTrigger",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/dao/db/PostgreSQLDB.java",
+      "target": "function:portal-impl/src/com/liferay/portal/dao/db/PostgreSQLDB.java:getCopyTableStructureSQL",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/dao/db/PostgreSQLDB.java",
+      "target": "function:portal-impl/src/com/liferay/portal/dao/db/PostgreSQLDB.java:getIndexColumnName",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/dao/db/PostgreSQLDB.java",
+      "target": "function:portal-impl/src/com/liferay/portal/dao/db/PostgreSQLDB.java:getSQLTypes",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/dao/db/PostgreSQLDB.java",
+      "target": "function:portal-impl/src/com/liferay/portal/dao/db/PostgreSQLDB.java:getSQLVarcharSizes",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/dao/db/PostgreSQLDB.java",
+      "target": "function:portal-impl/src/com/liferay/portal/dao/db/PostgreSQLDB.java:getTemplate",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/dao/db/PostgreSQLDB.java",
+      "target": "function:portal-impl/src/com/liferay/portal/dao/db/PostgreSQLDB.java:isSupportsDuplicatedIndexName",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/dao/db/PostgreSQLDB.java",
+      "target": "function:portal-impl/src/com/liferay/portal/dao/db/PostgreSQLDB.java:limitColumnLength",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/dao/db/PostgreSQLDB.java",
+      "target": "function:portal-impl/src/com/liferay/portal/dao/db/PostgreSQLDB.java:reword",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/dao/db/PostgreSQLDB.java",
+      "target": "function:portal-impl/src/com/liferay/portal/dao/db/PostgreSQLDB.java:_createTrigger",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/dao/db/PostgreSQLDB.java",
+      "target": "function:portal-impl/src/com/liferay/portal/dao/db/PostgreSQLDB.java:_createTriggerFunction",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/dao/db/OracleDB.java",
+      "target": "class:portal-impl/src/com/liferay/portal/dao/db/OracleDB.java:OracleDB",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/dao/db/OracleDB.java",
+      "target": "class:portal-impl/src/com/liferay/portal/dao/db/OracleDB.java:alterColumnType",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/dao/db/OracleDB.java",
+      "target": "class:portal-impl/src/com/liferay/portal/dao/db/OracleDB.java:buildSQL",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/dao/db/OracleDB.java",
+      "target": "class:portal-impl/src/com/liferay/portal/dao/db/OracleDB.java:getIndexes",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/dao/db/OracleDB.java",
+      "target": "class:portal-impl/src/com/liferay/portal/dao/db/OracleDB.java:getIndexResultSet",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/dao/db/OracleDB.java",
+      "target": "class:portal-impl/src/com/liferay/portal/dao/db/OracleDB.java:getPopulateSQL",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/dao/db/OracleDB.java",
+      "target": "class:portal-impl/src/com/liferay/portal/dao/db/OracleDB.java:getRecreateSQL",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/dao/db/OracleDB.java",
+      "target": "class:portal-impl/src/com/liferay/portal/dao/db/OracleDB.java:isSupportsInlineDistinct",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/dao/db/OracleDB.java",
+      "target": "class:portal-impl/src/com/liferay/portal/dao/db/OracleDB.java:OracleDB",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/dao/db/PostgreSQLDB.java",
+      "target": "class:portal-impl/src/com/liferay/portal/dao/db/PostgreSQLDB.java:getCreateRulesSQL",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/dao/db/PostgreSQLDB.java",
+      "target": "class:portal-impl/src/com/liferay/portal/dao/db/PostgreSQLDB.java:PostgreSQLDB",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/dao/db/PostgreSQLDB.java",
+      "target": "class:portal-impl/src/com/liferay/portal/dao/db/PostgreSQLDB.java:buildSQL",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/dao/db/PostgreSQLDB.java",
+      "target": "class:portal-impl/src/com/liferay/portal/dao/db/PostgreSQLDB.java:getIndexes",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/dao/db/PostgreSQLDB.java",
+      "target": "class:portal-impl/src/com/liferay/portal/dao/db/PostgreSQLDB.java:getNewUuidFunctionName",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/dao/db/PostgreSQLDB.java",
+      "target": "class:portal-impl/src/com/liferay/portal/dao/db/PostgreSQLDB.java:getPopulateSQL",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/dao/db/PostgreSQLDB.java",
+      "target": "class:portal-impl/src/com/liferay/portal/dao/db/PostgreSQLDB.java:getRecreateSQL",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/dao/db/PostgreSQLDB.java",
+      "target": "class:portal-impl/src/com/liferay/portal/dao/db/PostgreSQLDB.java:isSupportsDBPartition",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/dao/db/PostgreSQLDB.java",
+      "target": "class:portal-impl/src/com/liferay/portal/dao/db/PostgreSQLDB.java:isSupportsNewUuidFunction",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/dao/db/PostgreSQLDB.java",
+      "target": "class:portal-impl/src/com/liferay/portal/dao/db/PostgreSQLDB.java:isSupportsQueryingAfterException",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/dao/db/PostgreSQLDB.java",
+      "target": "class:portal-impl/src/com/liferay/portal/dao/db/PostgreSQLDB.java:PostgreSQLDB",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    }
+  ]
+}

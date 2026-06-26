@@ -1,0 +1,2037 @@
+{
+  "nodes": [
+    {
+      "id": "file:portal-impl/src/com/liferay/portal/events/EventsProcessorUtil.java",
+      "type": "file",
+      "name": "EventsProcessorUtil.java",
+      "filePath": "portal-impl/src/com/liferay/portal/events/EventsProcessorUtil.java",
+      "summary": "Portal lifecycle event handler for EventsProcessor processing.",
+      "tags": [
+        "event-handler",
+        "lifecycle",
+        "portal-events"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:portal-impl/src/com/liferay/portal/events/EventsProcessorUtil.java:process",
+      "type": "function",
+      "name": "process",
+      "filePath": "portal-impl/src/com/liferay/portal/events/EventsProcessorUtil.java",
+      "lineRange": [
+        32,
+        36
+      ],
+      "summary": "Method process in EventsProcessorUtil.java.",
+      "tags": [
+        "method"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:portal-impl/src/com/liferay/portal/events/EventsProcessorUtil.java:processEvent",
+      "type": "function",
+      "name": "processEvent",
+      "filePath": "portal-impl/src/com/liferay/portal/events/EventsProcessorUtil.java",
+      "lineRange": [
+        94,
+        99
+      ],
+      "summary": "Method processEvent in EventsProcessorUtil.java.",
+      "tags": [
+        "method"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:portal-impl/src/com/liferay/portal/events/EventsProcessorUtil.java:EventsProcessorUtil",
+      "type": "function",
+      "name": "EventsProcessorUtil",
+      "filePath": "portal-impl/src/com/liferay/portal/events/EventsProcessorUtil.java",
+      "lineRange": [
+        101,
+        102
+      ],
+      "summary": "Method EventsProcessorUtil in EventsProcessorUtil.java.",
+      "tags": [
+        "method"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:portal-impl/src/com/liferay/portal/events/EventsProcessorUtil.java:EventsProcessorUtil",
+      "type": "class",
+      "name": "EventsProcessorUtil",
+      "filePath": "portal-impl/src/com/liferay/portal/events/EventsProcessorUtil.java",
+      "lineRange": [
+        30,
+        111
+      ],
+      "summary": "Abstract base for conversion processes.",
+      "tags": [
+        "utility",
+        "conversion",
+        "class"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:portal-impl/src/com/liferay/portal/events/LoginPostAction.java",
+      "type": "file",
+      "name": "LoginPostAction.java",
+      "filePath": "portal-impl/src/com/liferay/portal/events/LoginPostAction.java",
+      "summary": "Portal lifecycle event handler for LoginPost processing.",
+      "tags": [
+        "event-handler",
+        "lifecycle",
+        "portal-events"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "Heavy use of portal-kernel utility and service APIs."
+    },
+    {
+      "id": "function:portal-impl/src/com/liferay/portal/events/LoginPostAction.java:run",
+      "type": "function",
+      "name": "run",
+      "filePath": "portal-impl/src/com/liferay/portal/events/LoginPostAction.java",
+      "lineRange": [
+        44,
+        140
+      ],
+      "summary": "Method run in LoginPostAction.java.",
+      "tags": [
+        "method"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:portal-impl/src/com/liferay/portal/events/LoginPostAction.java:_setPasswordExpirationMessage",
+      "type": "function",
+      "name": "_setPasswordExpirationMessage",
+      "filePath": "portal-impl/src/com/liferay/portal/events/LoginPostAction.java",
+      "lineRange": [
+        142,
+        188
+      ],
+      "summary": "Method _setPasswordExpirationMessage in LoginPostAction.java.",
+      "tags": [
+        "method"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "class:portal-impl/src/com/liferay/portal/events/LoginPostAction.java:LoginPostAction",
+      "type": "class",
+      "name": "LoginPostAction",
+      "filePath": "portal-impl/src/com/liferay/portal/events/LoginPostAction.java",
+      "lineRange": [
+        42,
+        193
+      ],
+      "summary": "Struts action class dispatching run, _setPasswordExpirationMessage requests.",
+      "tags": [
+        "api-handler",
+        "struts-action",
+        "class"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:portal-impl/src/com/liferay/portal/events/RandomLayoutAction.java",
+      "type": "file",
+      "name": "RandomLayoutAction.java",
+      "filePath": "portal-impl/src/com/liferay/portal/events/RandomLayoutAction.java",
+      "summary": "Portal lifecycle event handler for RandomLayout processing.",
+      "tags": [
+        "event-handler",
+        "lifecycle",
+        "portal-events"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "Moderate use of portal-kernel utility classes."
+    },
+    {
+      "id": "function:portal-impl/src/com/liferay/portal/events/RandomLayoutAction.java:run",
+      "type": "function",
+      "name": "run",
+      "filePath": "portal-impl/src/com/liferay/portal/events/RandomLayoutAction.java",
+      "lineRange": [
+        33,
+        91
+      ],
+      "summary": "Method run in RandomLayoutAction.java.",
+      "tags": [
+        "method"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "class:portal-impl/src/com/liferay/portal/events/RandomLayoutAction.java:RandomLayoutAction",
+      "type": "class",
+      "name": "RandomLayoutAction",
+      "filePath": "portal-impl/src/com/liferay/portal/events/RandomLayoutAction.java",
+      "lineRange": [
+        31,
+        96
+      ],
+      "summary": "Struts action class dispatching run requests.",
+      "tags": [
+        "api-handler",
+        "struts-action",
+        "class"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:portal-impl/src/com/liferay/portal/events/RandomLookAndFeelAction.java",
+      "type": "file",
+      "name": "RandomLookAndFeelAction.java",
+      "filePath": "portal-impl/src/com/liferay/portal/events/RandomLookAndFeelAction.java",
+      "summary": "Portal lifecycle event handler for RandomLookAndFeel processing.",
+      "tags": [
+        "event-handler",
+        "lifecycle",
+        "portal-events"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "Moderate use of portal-kernel utility classes."
+    },
+    {
+      "id": "function:portal-impl/src/com/liferay/portal/events/RandomLookAndFeelAction.java:run",
+      "type": "function",
+      "name": "run",
+      "filePath": "portal-impl/src/com/liferay/portal/events/RandomLookAndFeelAction.java",
+      "lineRange": [
+        32,
+        99
+      ],
+      "summary": "Method run in RandomLookAndFeelAction.java.",
+      "tags": [
+        "method"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "class:portal-impl/src/com/liferay/portal/events/RandomLookAndFeelAction.java:RandomLookAndFeelAction",
+      "type": "class",
+      "name": "RandomLookAndFeelAction",
+      "filePath": "portal-impl/src/com/liferay/portal/events/RandomLookAndFeelAction.java",
+      "lineRange": [
+        30,
+        104
+      ],
+      "summary": "Struts action class dispatching run requests.",
+      "tags": [
+        "api-handler",
+        "struts-action",
+        "class"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:portal-impl/src/com/liferay/portal/events/ServicePreAction.java",
+      "type": "file",
+      "name": "ServicePreAction.java",
+      "filePath": "portal-impl/src/com/liferay/portal/events/ServicePreAction.java",
+      "summary": "Portal lifecycle event handler for ServicePre processing.",
+      "tags": [
+        "event-handler",
+        "lifecycle",
+        "portal-events"
+      ],
+      "complexity": "complex",
+      "languageNotes": "Heavy use of portal-kernel utility and service APIs."
+    },
+    {
+      "id": "function:portal-impl/src/com/liferay/portal/events/ServicePreAction.java:ServicePreAction",
+      "type": "function",
+      "name": "ServicePreAction",
+      "filePath": "portal-impl/src/com/liferay/portal/events/ServicePreAction.java",
+      "lineRange": [
+        134,
+        136
+      ],
+      "summary": "Method ServicePreAction in ServicePreAction.java.",
+      "tags": [
+        "method"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:portal-impl/src/com/liferay/portal/events/ServicePreAction.java:run",
+      "type": "function",
+      "name": "run",
+      "filePath": "portal-impl/src/com/liferay/portal/events/ServicePreAction.java",
+      "lineRange": [
+        138,
+        158
+      ],
+      "summary": "Method run in ServicePreAction.java.",
+      "tags": [
+        "method"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:portal-impl/src/com/liferay/portal/events/ServicePreAction.java:servicePre",
+      "type": "function",
+      "name": "servicePre",
+      "filePath": "portal-impl/src/com/liferay/portal/events/ServicePreAction.java",
+      "lineRange": [
+        160,
+        195
+      ],
+      "summary": "Method servicePre in ServicePreAction.java.",
+      "tags": [
+        "method"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:portal-impl/src/com/liferay/portal/events/ServicePreAction.java:_addDefaultLayoutsByLAR",
+      "type": "function",
+      "name": "_addDefaultLayoutsByLAR",
+      "filePath": "portal-impl/src/com/liferay/portal/events/ServicePreAction.java",
+      "lineRange": [
+        220,
+        271
+      ],
+      "summary": "Method _addDefaultLayoutsByLAR in ServicePreAction.java.",
+      "tags": [
+        "method"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:portal-impl/src/com/liferay/portal/events/ServicePreAction.java:_addDefaultUserPrivateLayoutByProperties",
+      "type": "function",
+      "name": "_addDefaultUserPrivateLayoutByProperties",
+      "filePath": "portal-impl/src/com/liferay/portal/events/ServicePreAction.java",
+      "lineRange": [
+        273,
+        345
+      ],
+      "summary": "Method _addDefaultUserPrivateLayoutByProperties in ServicePreAction.java.",
+      "tags": [
+        "method"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:portal-impl/src/com/liferay/portal/events/ServicePreAction.java:_addDefaultUserPrivateLayouts",
+      "type": "function",
+      "name": "_addDefaultUserPrivateLayouts",
+      "filePath": "portal-impl/src/com/liferay/portal/events/ServicePreAction.java",
+      "lineRange": [
+        347,
+        358
+      ],
+      "summary": "Method _addDefaultUserPrivateLayouts in ServicePreAction.java.",
+      "tags": [
+        "method"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:portal-impl/src/com/liferay/portal/events/ServicePreAction.java:_addDefaultUserPublicLayoutByProperties",
+      "type": "function",
+      "name": "_addDefaultUserPublicLayoutByProperties",
+      "filePath": "portal-impl/src/com/liferay/portal/events/ServicePreAction.java",
+      "lineRange": [
+        360,
+        431
+      ],
+      "summary": "Method _addDefaultUserPublicLayoutByProperties in ServicePreAction.java.",
+      "tags": [
+        "method"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:portal-impl/src/com/liferay/portal/events/ServicePreAction.java:_addDefaultUserPublicLayouts",
+      "type": "function",
+      "name": "_addDefaultUserPublicLayouts",
+      "filePath": "portal-impl/src/com/liferay/portal/events/ServicePreAction.java",
+      "lineRange": [
+        433,
+        444
+      ],
+      "summary": "Method _addDefaultUserPublicLayouts in ServicePreAction.java.",
+      "tags": [
+        "method"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:portal-impl/src/com/liferay/portal/events/ServicePreAction.java:_getDefaultUserPersonalSiteLayoutComposite",
+      "type": "function",
+      "name": "_getDefaultUserPersonalSiteLayoutComposite",
+      "filePath": "portal-impl/src/com/liferay/portal/events/ServicePreAction.java",
+      "lineRange": [
+        460,
+        481
+      ],
+      "summary": "Method _getDefaultUserPersonalSiteLayoutComposite in ServicePreAction.java.",
+      "tags": [
+        "method"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:portal-impl/src/com/liferay/portal/events/ServicePreAction.java:_getDefaultUserSitesLayoutComposite",
+      "type": "function",
+      "name": "_getDefaultUserSitesLayoutComposite",
+      "filePath": "portal-impl/src/com/liferay/portal/events/ServicePreAction.java",
+      "lineRange": [
+        483,
+        541
+      ],
+      "summary": "Method _getDefaultUserSitesLayoutComposite in ServicePreAction.java.",
+      "tags": [
+        "method"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:portal-impl/src/com/liferay/portal/events/ServicePreAction.java:_getDefaultViewableLayoutComposite",
+      "type": "function",
+      "name": "_getDefaultViewableLayoutComposite",
+      "filePath": "portal-impl/src/com/liferay/portal/events/ServicePreAction.java",
+      "lineRange": [
+        543,
+        586
+      ],
+      "summary": "Method _getDefaultViewableLayoutComposite in ServicePreAction.java.",
+      "tags": [
+        "method"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:portal-impl/src/com/liferay/portal/events/ServicePreAction.java:_getDefaultVirtualHostLayoutComposite",
+      "type": "function",
+      "name": "_getDefaultVirtualHostLayoutComposite",
+      "filePath": "portal-impl/src/com/liferay/portal/events/ServicePreAction.java",
+      "lineRange": [
+        588,
+        642
+      ],
+      "summary": "Method _getDefaultVirtualHostLayoutComposite in ServicePreAction.java.",
+      "tags": [
+        "method"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:portal-impl/src/com/liferay/portal/events/ServicePreAction.java:_getGuestSiteLayoutComposite",
+      "type": "function",
+      "name": "_getGuestSiteLayoutComposite",
+      "filePath": "portal-impl/src/com/liferay/portal/events/ServicePreAction.java",
+      "lineRange": [
+        650,
+        667
+      ],
+      "summary": "Method _getGuestSiteLayoutComposite in ServicePreAction.java.",
+      "tags": [
+        "method"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:portal-impl/src/com/liferay/portal/events/ServicePreAction.java:_getPortalDomain",
+      "type": "function",
+      "name": "_getPortalDomain",
+      "filePath": "portal-impl/src/com/liferay/portal/events/ServicePreAction.java",
+      "lineRange": [
+        669,
+        679
+      ],
+      "summary": "Method _getPortalDomain in ServicePreAction.java.",
+      "tags": [
+        "method"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:portal-impl/src/com/liferay/portal/events/ServicePreAction.java:_getViewableLayoutComposite",
+      "type": "function",
+      "name": "_getViewableLayoutComposite",
+      "filePath": "portal-impl/src/com/liferay/portal/events/ServicePreAction.java",
+      "lineRange": [
+        681,
+        735
+      ],
+      "summary": "Method _getViewableLayoutComposite in ServicePreAction.java.",
+      "tags": [
+        "method"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:portal-impl/src/com/liferay/portal/events/ServicePreAction.java:_initImportLARFiles",
+      "type": "function",
+      "name": "_initImportLARFiles",
+      "filePath": "portal-impl/src/com/liferay/portal/events/ServicePreAction.java",
+      "lineRange": [
+        752,
+        797
+      ],
+      "summary": "Method _initImportLARFiles in ServicePreAction.java.",
+      "tags": [
+        "method"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:portal-impl/src/com/liferay/portal/events/ServicePreAction.java:_initThemeDisplay",
+      "type": "function",
+      "name": "_initThemeDisplay",
+      "filePath": "portal-impl/src/com/liferay/portal/events/ServicePreAction.java",
+      "lineRange": [
+        799,
+        1802
+      ],
+      "summary": "Method _initThemeDisplay in ServicePreAction.java.",
+      "tags": [
+        "method"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "function:portal-impl/src/com/liferay/portal/events/ServicePreAction.java:_isLoginRequest",
+      "type": "function",
+      "name": "_isLoginRequest",
+      "filePath": "portal-impl/src/com/liferay/portal/events/ServicePreAction.java",
+      "lineRange": [
+        1813,
+        1841
+      ],
+      "summary": "Method _isLoginRequest in ServicePreAction.java.",
+      "tags": [
+        "method"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:portal-impl/src/com/liferay/portal/events/ServicePreAction.java:_mergeAdditionalLayouts",
+      "type": "function",
+      "name": "_mergeAdditionalLayouts",
+      "filePath": "portal-impl/src/com/liferay/portal/events/ServicePreAction.java",
+      "lineRange": [
+        1843,
+        1942
+      ],
+      "summary": "Method _mergeAdditionalLayouts in ServicePreAction.java.",
+      "tags": [
+        "method"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "function:portal-impl/src/com/liferay/portal/events/ServicePreAction.java:_rememberVisitedGroupIds",
+      "type": "function",
+      "name": "_rememberVisitedGroupIds",
+      "filePath": "portal-impl/src/com/liferay/portal/events/ServicePreAction.java",
+      "lineRange": [
+        1944,
+        1985
+      ],
+      "summary": "Method _rememberVisitedGroupIds in ServicePreAction.java.",
+      "tags": [
+        "method"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:portal-impl/src/com/liferay/portal/events/ServicePreAction.java:_trackThemeDisplay",
+      "type": "function",
+      "name": "_trackThemeDisplay",
+      "filePath": "portal-impl/src/com/liferay/portal/events/ServicePreAction.java",
+      "lineRange": [
+        1987,
+        2068
+      ],
+      "summary": "Method _trackThemeDisplay in ServicePreAction.java.",
+      "tags": [
+        "method"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:portal-impl/src/com/liferay/portal/events/ServicePreAction.java:_updateUserLayouts",
+      "type": "function",
+      "name": "_updateUserLayouts",
+      "filePath": "portal-impl/src/com/liferay/portal/events/ServicePreAction.java",
+      "lineRange": [
+        2070,
+        2200
+      ],
+      "summary": "Method _updateUserLayouts in ServicePreAction.java.",
+      "tags": [
+        "method"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "class:portal-impl/src/com/liferay/portal/events/ServicePreAction.java:ServicePreAction",
+      "type": "class",
+      "name": "ServicePreAction",
+      "filePath": "portal-impl/src/com/liferay/portal/events/ServicePreAction.java",
+      "lineRange": [
+        132,
+        2232
+      ],
+      "summary": "Struts action class dispatching ServicePreAction, run, servicePre, _addDefaultLayoutsByLAR, _addDefaultUserPrivateLayoutByProperties, _addDefaultUserPrivateLayouts, _addDefaultUserPublicLayoutByProperties, _addDefaultUserPublicLayouts, _deleteDefaultUserPrivateLayouts, _deleteDefaultUserPublicLayouts, _getDefaultUserPersonalSiteLayoutComposite, _getDefaultUserSitesLayoutComposite, _getDefaultViewableLayoutComposite, _getDefaultVirtualHostLayoutComposite, _getFriendlyURL, _getGuestSiteLayoutComposite, _getPortalDomain, _getViewableLayoutComposite, _hasAccessPermission, _hasPowerUserRole, _initImportLARFiles, _initThemeDisplay, _isLoginRequest, _mergeAdditionalLayouts, _rememberVisitedGroupIds, _trackThemeDisplay, _updateUserLayouts requests.",
+      "tags": [
+        "api-handler",
+        "struts-action",
+        "class"
+      ],
+      "complexity": "complex"
+    }
+  ],
+  "edges": [
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/events/EventsProcessorUtil.java",
+      "target": "function:portal-impl/src/com/liferay/portal/events/EventsProcessorUtil.java:process",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/events/EventsProcessorUtil.java",
+      "target": "function:portal-impl/src/com/liferay/portal/events/EventsProcessorUtil.java:process",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/events/EventsProcessorUtil.java",
+      "target": "function:portal-impl/src/com/liferay/portal/events/EventsProcessorUtil.java:process",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/events/EventsProcessorUtil.java",
+      "target": "function:portal-impl/src/com/liferay/portal/events/EventsProcessorUtil.java:process",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/events/EventsProcessorUtil.java",
+      "target": "function:portal-impl/src/com/liferay/portal/events/EventsProcessorUtil.java:process",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/events/EventsProcessorUtil.java",
+      "target": "function:portal-impl/src/com/liferay/portal/events/EventsProcessorUtil.java:process",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/events/EventsProcessorUtil.java",
+      "target": "function:portal-impl/src/com/liferay/portal/events/EventsProcessorUtil.java:process",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/events/EventsProcessorUtil.java",
+      "target": "function:portal-impl/src/com/liferay/portal/events/EventsProcessorUtil.java:process",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/events/EventsProcessorUtil.java",
+      "target": "function:portal-impl/src/com/liferay/portal/events/EventsProcessorUtil.java:process",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/events/EventsProcessorUtil.java",
+      "target": "function:portal-impl/src/com/liferay/portal/events/EventsProcessorUtil.java:process",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/events/EventsProcessorUtil.java",
+      "target": "function:portal-impl/src/com/liferay/portal/events/EventsProcessorUtil.java:processEvent",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/events/EventsProcessorUtil.java",
+      "target": "function:portal-impl/src/com/liferay/portal/events/EventsProcessorUtil.java:processEvent",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/events/EventsProcessorUtil.java",
+      "target": "function:portal-impl/src/com/liferay/portal/events/EventsProcessorUtil.java:EventsProcessorUtil",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/events/EventsProcessorUtil.java",
+      "target": "function:portal-impl/src/com/liferay/portal/events/EventsProcessorUtil.java:EventsProcessorUtil",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/events/EventsProcessorUtil.java",
+      "target": "class:portal-impl/src/com/liferay/portal/events/EventsProcessorUtil.java:EventsProcessorUtil",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/events/EventsProcessorUtil.java",
+      "target": "class:portal-impl/src/com/liferay/portal/events/EventsProcessorUtil.java:EventsProcessorUtil",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/events/EventsProcessorUtil.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/events/ActionException.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/events/EventsProcessorUtil.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/events/LifecycleAction.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/events/EventsProcessorUtil.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/events/LifecycleEvent.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/events/EventsProcessorUtil.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/log/Log.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/events/EventsProcessorUtil.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/log/LogFactoryUtil.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/events/EventsProcessorUtil.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/module/util/SystemBundleUtil.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/events/EventsProcessorUtil.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/util/InstancePool.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/events/EventsProcessorUtil.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/util/Validator.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/events/LoginPostAction.java",
+      "target": "function:portal-impl/src/com/liferay/portal/events/LoginPostAction.java:run",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/events/LoginPostAction.java",
+      "target": "function:portal-impl/src/com/liferay/portal/events/LoginPostAction.java:run",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/events/LoginPostAction.java",
+      "target": "function:portal-impl/src/com/liferay/portal/events/LoginPostAction.java:_setPasswordExpirationMessage",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/events/LoginPostAction.java",
+      "target": "class:portal-impl/src/com/liferay/portal/events/LoginPostAction.java:LoginPostAction",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/events/LoginPostAction.java",
+      "target": "class:portal-impl/src/com/liferay/portal/events/LoginPostAction.java:LoginPostAction",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/events/LoginPostAction.java",
+      "target": "file:portal-impl/src/com/liferay/portal/util/PropsValues.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/events/LoginPostAction.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/cluster/ClusterExecutorUtil.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/events/LoginPostAction.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/cluster/ClusterNode.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/events/LoginPostAction.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/events/Action.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/events/LoginPostAction.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/events/ActionException.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/events/LoginPostAction.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/exception/PortalException.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/events/LoginPostAction.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/json/JSONFactoryUtil.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/events/LoginPostAction.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/json/JSONObject.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/events/LoginPostAction.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/log/Log.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/events/LoginPostAction.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/log/LogFactoryUtil.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/events/LoginPostAction.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/messaging/DestinationNames.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/events/LoginPostAction.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/messaging/MessageBusUtil.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/events/LoginPostAction.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/model/PasswordPolicy.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/events/LoginPostAction.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/model/User.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/events/LoginPostAction.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/search/Indexer.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/events/LoginPostAction.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/search/IndexerRegistryUtil.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/events/LoginPostAction.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/service/UserLocalServiceUtil.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/events/LoginPostAction.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/servlet/HttpHeaders.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/events/LoginPostAction.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/servlet/SessionMessages.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/events/LoginPostAction.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/util/PortalUtil.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/events/LoginPostAction.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/util/PrefsPropsUtil.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/events/LoginPostAction.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/util/PropsKeys.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/events/LoginPostAction.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/util/Time.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/events/LoginPostAction.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/util/WebKeys.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/events/RandomLayoutAction.java",
+      "target": "function:portal-impl/src/com/liferay/portal/events/RandomLayoutAction.java:run",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/events/RandomLayoutAction.java",
+      "target": "function:portal-impl/src/com/liferay/portal/events/RandomLayoutAction.java:run",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/events/RandomLayoutAction.java",
+      "target": "class:portal-impl/src/com/liferay/portal/events/RandomLayoutAction.java:RandomLayoutAction",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/events/RandomLayoutAction.java",
+      "target": "class:portal-impl/src/com/liferay/portal/events/RandomLayoutAction.java:RandomLayoutAction",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/events/RandomLayoutAction.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/events/Action.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/events/RandomLayoutAction.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/events/ActionException.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/events/RandomLayoutAction.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/log/Log.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/events/RandomLayoutAction.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/log/LogFactoryUtil.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/events/RandomLayoutAction.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/model/Group.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/events/RandomLayoutAction.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/model/GroupConstants.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/events/RandomLayoutAction.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/model/Layout.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/events/RandomLayoutAction.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/model/LayoutTypePortlet.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/events/RandomLayoutAction.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/security/RandomUtil.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/events/RandomLayoutAction.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/service/GroupLocalServiceUtil.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/events/RandomLayoutAction.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/service/LayoutLocalServiceUtil.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/events/RandomLayoutAction.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/theme/ThemeDisplay.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/events/RandomLayoutAction.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/util/GetterUtil.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/events/RandomLayoutAction.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/util/WebKeys.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/events/RandomLookAndFeelAction.java",
+      "target": "function:portal-impl/src/com/liferay/portal/events/RandomLookAndFeelAction.java:run",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/events/RandomLookAndFeelAction.java",
+      "target": "function:portal-impl/src/com/liferay/portal/events/RandomLookAndFeelAction.java:run",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/events/RandomLookAndFeelAction.java",
+      "target": "class:portal-impl/src/com/liferay/portal/events/RandomLookAndFeelAction.java:RandomLookAndFeelAction",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/events/RandomLookAndFeelAction.java",
+      "target": "class:portal-impl/src/com/liferay/portal/events/RandomLookAndFeelAction.java:RandomLookAndFeelAction",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/events/RandomLookAndFeelAction.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/events/Action.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/events/RandomLookAndFeelAction.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/events/ActionException.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/events/RandomLookAndFeelAction.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/log/Log.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/events/RandomLookAndFeelAction.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/log/LogFactoryUtil.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/events/RandomLookAndFeelAction.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/model/ColorScheme.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/events/RandomLookAndFeelAction.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/model/Layout.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/events/RandomLookAndFeelAction.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/model/Theme.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/events/RandomLookAndFeelAction.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/security/RandomUtil.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/events/RandomLookAndFeelAction.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/service/LayoutServiceUtil.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/events/RandomLookAndFeelAction.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/service/ThemeLocalServiceUtil.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/events/RandomLookAndFeelAction.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/theme/ThemeDisplay.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/events/RandomLookAndFeelAction.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/util/GetterUtil.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/events/RandomLookAndFeelAction.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/util/WebKeys.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/events/ServicePreAction.java",
+      "target": "function:portal-impl/src/com/liferay/portal/events/ServicePreAction.java:ServicePreAction",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/events/ServicePreAction.java",
+      "target": "function:portal-impl/src/com/liferay/portal/events/ServicePreAction.java:ServicePreAction",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/events/ServicePreAction.java",
+      "target": "function:portal-impl/src/com/liferay/portal/events/ServicePreAction.java:run",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/events/ServicePreAction.java",
+      "target": "function:portal-impl/src/com/liferay/portal/events/ServicePreAction.java:run",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/events/ServicePreAction.java",
+      "target": "function:portal-impl/src/com/liferay/portal/events/ServicePreAction.java:servicePre",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/events/ServicePreAction.java",
+      "target": "function:portal-impl/src/com/liferay/portal/events/ServicePreAction.java:servicePre",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/events/ServicePreAction.java",
+      "target": "function:portal-impl/src/com/liferay/portal/events/ServicePreAction.java:_addDefaultLayoutsByLAR",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/events/ServicePreAction.java",
+      "target": "function:portal-impl/src/com/liferay/portal/events/ServicePreAction.java:_addDefaultUserPrivateLayoutByProperties",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/events/ServicePreAction.java",
+      "target": "function:portal-impl/src/com/liferay/portal/events/ServicePreAction.java:_addDefaultUserPrivateLayouts",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/events/ServicePreAction.java",
+      "target": "function:portal-impl/src/com/liferay/portal/events/ServicePreAction.java:_addDefaultUserPublicLayoutByProperties",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/events/ServicePreAction.java",
+      "target": "function:portal-impl/src/com/liferay/portal/events/ServicePreAction.java:_addDefaultUserPublicLayouts",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/events/ServicePreAction.java",
+      "target": "function:portal-impl/src/com/liferay/portal/events/ServicePreAction.java:_getDefaultUserPersonalSiteLayoutComposite",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/events/ServicePreAction.java",
+      "target": "function:portal-impl/src/com/liferay/portal/events/ServicePreAction.java:_getDefaultUserSitesLayoutComposite",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/events/ServicePreAction.java",
+      "target": "function:portal-impl/src/com/liferay/portal/events/ServicePreAction.java:_getDefaultViewableLayoutComposite",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/events/ServicePreAction.java",
+      "target": "function:portal-impl/src/com/liferay/portal/events/ServicePreAction.java:_getDefaultVirtualHostLayoutComposite",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/events/ServicePreAction.java",
+      "target": "function:portal-impl/src/com/liferay/portal/events/ServicePreAction.java:_getGuestSiteLayoutComposite",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/events/ServicePreAction.java",
+      "target": "function:portal-impl/src/com/liferay/portal/events/ServicePreAction.java:_getPortalDomain",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/events/ServicePreAction.java",
+      "target": "function:portal-impl/src/com/liferay/portal/events/ServicePreAction.java:_getViewableLayoutComposite",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/events/ServicePreAction.java",
+      "target": "function:portal-impl/src/com/liferay/portal/events/ServicePreAction.java:_initImportLARFiles",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/events/ServicePreAction.java",
+      "target": "function:portal-impl/src/com/liferay/portal/events/ServicePreAction.java:_initThemeDisplay",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/events/ServicePreAction.java",
+      "target": "function:portal-impl/src/com/liferay/portal/events/ServicePreAction.java:_isLoginRequest",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/events/ServicePreAction.java",
+      "target": "function:portal-impl/src/com/liferay/portal/events/ServicePreAction.java:_mergeAdditionalLayouts",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/events/ServicePreAction.java",
+      "target": "function:portal-impl/src/com/liferay/portal/events/ServicePreAction.java:_rememberVisitedGroupIds",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/events/ServicePreAction.java",
+      "target": "function:portal-impl/src/com/liferay/portal/events/ServicePreAction.java:_trackThemeDisplay",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/events/ServicePreAction.java",
+      "target": "function:portal-impl/src/com/liferay/portal/events/ServicePreAction.java:_updateUserLayouts",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/events/ServicePreAction.java",
+      "target": "class:portal-impl/src/com/liferay/portal/events/ServicePreAction.java:ServicePreAction",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/events/ServicePreAction.java",
+      "target": "class:portal-impl/src/com/liferay/portal/events/ServicePreAction.java:ServicePreAction",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/events/ServicePreAction.java",
+      "target": "file:portal-impl/src/com/liferay/portal/image/ImageToolUtil.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/events/ServicePreAction.java",
+      "target": "file:portal-impl/src/com/liferay/portal/theme/ThemeDisplayFactory.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/events/ServicePreAction.java",
+      "target": "file:portal-impl/src/com/liferay/portal/util/LayoutClone.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/events/ServicePreAction.java",
+      "target": "file:portal-impl/src/com/liferay/portal/util/LayoutCloneFactory.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/events/ServicePreAction.java",
+      "target": "file:portal-impl/src/com/liferay/portal/util/LayoutTypeAccessPolicyTracker.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/events/ServicePreAction.java",
+      "target": "file:portal-impl/src/com/liferay/portal/util/PropsUtil.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/events/ServicePreAction.java",
+      "target": "file:portal-impl/src/com/liferay/portal/util/PropsValues.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/events/ServicePreAction.java",
+      "target": "file:portal-kernel/src/com/liferay/exportimport/kernel/configuration/constants/ExportImportConfigurationConstants.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/events/ServicePreAction.java",
+      "target": "file:portal-kernel/src/com/liferay/exportimport/kernel/configuration/ExportImportConfigurationSettingsMapFactoryUtil.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/events/ServicePreAction.java",
+      "target": "file:portal-kernel/src/com/liferay/exportimport/kernel/lar/PortletDataHandlerKeys.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/events/ServicePreAction.java",
+      "target": "file:portal-kernel/src/com/liferay/exportimport/kernel/model/ExportImportConfiguration.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/events/ServicePreAction.java",
+      "target": "file:portal-kernel/src/com/liferay/exportimport/kernel/service/ExportImportConfigurationLocalServiceUtil.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/events/ServicePreAction.java",
+      "target": "file:portal-kernel/src/com/liferay/exportimport/kernel/service/ExportImportLocalServiceUtil.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/events/ServicePreAction.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/cookies/CookiesManagerUtil.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/events/ServicePreAction.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/events/Action.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/events/ServicePreAction.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/events/ActionException.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/events/ServicePreAction.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/exception/LayoutPermissionException.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/events/ServicePreAction.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/exception/NoSuchGroupException.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/events/ServicePreAction.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/exception/NoSuchLayoutException.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/events/ServicePreAction.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/exception/NoSuchUserException.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/events/ServicePreAction.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/interval/IntervalActionProcessor.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/events/ServicePreAction.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/language/LanguageUtil.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/events/ServicePreAction.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/log/Log.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/events/ServicePreAction.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/log/LogFactoryUtil.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/events/ServicePreAction.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/login/AuthLoginGroupSettingsUtil.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/events/ServicePreAction.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/model/ColorScheme.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/events/ServicePreAction.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/model/Company.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/events/ServicePreAction.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/model/Group.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/events/ServicePreAction.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/model/GroupConstants.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/events/ServicePreAction.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/model/Image.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/events/ServicePreAction.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/model/impl/VirtualLayout.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/events/ServicePreAction.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/model/Layout.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/events/ServicePreAction.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/model/LayoutConstants.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/events/ServicePreAction.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/model/LayoutSet.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/events/ServicePreAction.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/model/LayoutTemplate.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/events/ServicePreAction.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/model/LayoutTypeAccessPolicy.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/events/ServicePreAction.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/model/LayoutTypePortlet.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/events/ServicePreAction.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/model/LayoutTypePortletConstants.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/events/ServicePreAction.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/model/role/RoleConstants.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/events/ServicePreAction.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/model/Theme.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/events/ServicePreAction.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/model/User.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/events/ServicePreAction.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/portlet/LiferayWindowState.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/events/ServicePreAction.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/portlet/PortletPreferencesFactoryUtil.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/events/ServicePreAction.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/portlet/PortletURLFactoryUtil.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/events/ServicePreAction.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/portlet/url/builder/PortletURLBuilder.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/events/ServicePreAction.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/security/auth/PrincipalException.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/events/ServicePreAction.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/security/permission/ActionKeys.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/events/ServicePreAction.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/security/permission/PermissionChecker.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/events/ServicePreAction.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/security/permission/PermissionThreadLocal.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/events/ServicePreAction.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/service/GroupLocalServiceUtil.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/events/ServicePreAction.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/service/ImageLocalServiceUtil.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/events/ServicePreAction.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/service/LayoutLocalServiceUtil.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/events/ServicePreAction.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/service/LayoutSetLocalServiceUtil.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/events/ServicePreAction.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/service/permission/GroupPermissionUtil.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/events/ServicePreAction.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/service/permission/LayoutPermissionUtil.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/events/ServicePreAction.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/service/permission/PortalPermissionUtil.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/events/ServicePreAction.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/service/RoleLocalServiceUtil.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/events/ServicePreAction.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/service/ServiceContext.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/events/ServicePreAction.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/service/ServiceContextFactory.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/events/ServicePreAction.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/service/ServiceContextThreadLocal.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/events/ServicePreAction.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/service/ThemeLocalServiceUtil.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/events/ServicePreAction.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/service/UserLocalServiceUtil.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/events/ServicePreAction.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/servlet/HttpHeaders.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/events/ServicePreAction.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/servlet/HttpMethods.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/events/ServicePreAction.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/servlet/PortalWebResourceConstants.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/events/ServicePreAction.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/servlet/PortalWebResourcesUtil.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/events/ServicePreAction.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/servlet/SessionErrors.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/events/ServicePreAction.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/theme/ThemeDisplay.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/events/ServicePreAction.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/util/ColorSchemeFactoryUtil.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/events/ServicePreAction.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/util/Digester.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/events/ServicePreAction.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/util/DigesterUtil.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/events/ServicePreAction.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/util/FriendlyURLNormalizerUtil.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/events/ServicePreAction.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/util/GetterUtil.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/events/ServicePreAction.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/util/HashMapBuilder.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/events/ServicePreAction.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/util/HttpComponentsUtil.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/events/ServicePreAction.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/util/LinkedHashMapBuilder.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/events/ServicePreAction.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/util/ListUtil.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/events/ServicePreAction.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/util/LocaleUtil.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/events/ServicePreAction.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/util/ParamUtil.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/events/ServicePreAction.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/util/PortalUtil.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/events/ServicePreAction.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/util/PortletKeys.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/events/ServicePreAction.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/util/PrefsPropsUtil.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/events/ServicePreAction.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/util/PropsKeys.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/events/ServicePreAction.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/util/SessionParamUtil.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/events/ServicePreAction.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/util/StringUtil.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/events/ServicePreAction.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/util/UnicodeProperties.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/events/ServicePreAction.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/util/UnicodePropertiesBuilder.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/events/ServicePreAction.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/util/Validator.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/events/ServicePreAction.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/util/WebKeys.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/events/ServicePreAction.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/webserver/WebServerServletTokenUtil.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/events/ServicePreAction.java",
+      "target": "file:portal-kernel/src/com/liferay/sites/kernel/util/SitesUtil.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    }
+  ]
+}

@@ -1,0 +1,1630 @@
+{
+  "scriptCompleted": true,
+  "filesAnalyzed": 4,
+  "filesSkipped": [
+    "portal-impl/src/com/liferay/portal/cluster/ClusterableAdvice.java",
+    "portal-impl/src/com/liferay/portal/cluster/ClusterableInvoker.java",
+    "portal-impl/src/com/liferay/portal/cluster/ClusterableRequest.java",
+    "portal-impl/src/com/liferay/portal/cluster/ClusterInvokeAcceptor.java",
+    "portal-impl/src/com/liferay/portal/cluster/ClusterInvokeThreadLocal.java",
+    "portal-impl/src/com/liferay/portal/events/StartupHelper.java",
+    "portal-impl/src/com/liferay/portal/file/install/FileInstall.java",
+    "portal-impl/src/com/liferay/portal/file/install/FileInstallImpl.java",
+    "portal-impl/src/com/liferay/portal/file/install/FileInstallImplBootstrapBundleActivator.java",
+    "portal-impl/src/com/liferay/portal/file/install/FileInstallImplCustomFilter.java",
+    "portal-impl/src/com/liferay/portal/file/install/FileInstallImplFileTracker.java",
+    "portal-impl/src/com/liferay/portal/file/install/FileInstallImplSubdirWalker.java",
+    "portal-impl/src/com/liferay/portal/file/install/FileInstallListener.java",
+    "portal-impl/src/com/liferay/portal/file/install/FileInstallManager.java",
+    "portal-impl/src/com/liferay/portal/file/install/Scanner.java",
+    "portal-impl/src/com/liferay/portal/file/install/ScannerImpl.java",
+    "portal-impl/src/com/liferay/portal/file/install/ScannerListener.java",
+    "portal-impl/src/com/liferay/portal/file/install/ScannerUtil.java",
+    "portal-impl/src/com/liferay/portal/file/install/SettingsFileInstall.java",
+    "portal-impl/src/com/liferay/portal/file/install/SettingsFileInstallJARScanner.java",
+    "portal-impl/src/com/liferay/portal/file/install/SettingsFileInstallWatcher.java",
+    "portal-impl/src/com/liferay/portal/file/install/SettingsFileInstallWatcherListener.java",
+    "portal-impl/src/com/liferay/portal/file/install/configuration/FileInstallConfiguration.java",
+    "portal-impl/src/com/liferay/portal/file/install/configuration/FileInstallConfigurationImpl.java",
+    "portal-impl/src/com/liferay/portal/file/install/configuration/FileInstallConfigurationListener.java",
+    "portal-impl/src/com/liferay/portal/file/install/configuration/FileInstallConfigurationManager.java",
+    "portal-impl/src/com/liferay/portal/file/install/internal/FileInstallImplBundleActivator.java",
+    "portal-impl/src/com/liferay/portal/file/install/internal/FileInstallImplBundleListener.java",
+    "portal-impl/src/com/liferay/portal/file/install/internal/FileInstallImplFilter.java",
+    "portal-impl/src/com/liferay/portal/file/install/internal/FileInstallImplMBean.java",
+    "portal-impl/src/com/liferay/portal/file/install/internal/FileInstallImplManagedFactoryRegistrar.java"
+  ],
+  "results": [
+    {
+      "path": "portal-impl/src/com/liferay/counter/model/impl/CounterModelImpl.java",
+      "language": "java",
+      "fileCategory": "code",
+      "totalLines": 519,
+      "nonEmptyLines": 388,
+      "functions": [
+        {
+          "name": "CounterModelImpl",
+          "startLine": 112,
+          "endLine": 113,
+          "params": []
+        },
+        {
+          "name": "getPrimaryKey",
+          "startLine": 115,
+          "endLine": 118,
+          "params": []
+        },
+        {
+          "name": "setPrimaryKey",
+          "startLine": 120,
+          "endLine": 123,
+          "params": [
+            "primaryKey"
+          ]
+        },
+        {
+          "name": "getPrimaryKeyObj",
+          "startLine": 125,
+          "endLine": 128,
+          "params": []
+        },
+        {
+          "name": "setPrimaryKeyObj",
+          "startLine": 130,
+          "endLine": 133,
+          "params": [
+            "primaryKeyObj"
+          ]
+        },
+        {
+          "name": "getModelClass",
+          "startLine": 135,
+          "endLine": 138,
+          "params": []
+        },
+        {
+          "name": "getModelClassName",
+          "startLine": 140,
+          "endLine": 143,
+          "params": []
+        },
+        {
+          "name": "getModelAttributes",
+          "startLine": 145,
+          "endLine": 164,
+          "params": []
+        },
+        {
+          "name": "setModelAttributes",
+          "startLine": 166,
+          "endLine": 182,
+          "params": [
+            "attributes"
+          ]
+        },
+        {
+          "name": "getAttributeGetterFunctions",
+          "startLine": 184,
+          "endLine": 188,
+          "params": []
+        },
+        {
+          "name": "getAttributeSetterBiConsumers",
+          "startLine": 190,
+          "endLine": 194,
+          "params": []
+        },
+        {
+          "name": "getName",
+          "startLine": 234,
+          "endLine": 242,
+          "params": []
+        },
+        {
+          "name": "setName",
+          "startLine": 244,
+          "endLine": 251,
+          "params": [
+            "name"
+          ]
+        },
+        {
+          "name": "getCurrentId",
+          "startLine": 253,
+          "endLine": 256,
+          "params": []
+        },
+        {
+          "name": "setCurrentId",
+          "startLine": 258,
+          "endLine": 265,
+          "params": [
+            "currentId"
+          ]
+        },
+        {
+          "name": "getColumnBitmask",
+          "startLine": 267,
+          "endLine": 289,
+          "params": []
+        },
+        {
+          "name": "toEscapedModel",
+          "startLine": 291,
+          "endLine": 304,
+          "params": []
+        },
+        {
+          "name": "clone",
+          "startLine": 306,
+          "endLine": 316,
+          "params": []
+        },
+        {
+          "name": "cloneWithOriginalValues",
+          "startLine": 318,
+          "endLine": 327,
+          "params": []
+        },
+        {
+          "name": "compareTo",
+          "startLine": 329,
+          "endLine": 334,
+          "params": [
+            "counter"
+          ]
+        },
+        {
+          "name": "equals",
+          "startLine": 336,
+          "endLine": 356,
+          "params": [
+            "object"
+          ]
+        },
+        {
+          "name": "hashCode",
+          "startLine": 358,
+          "endLine": 361,
+          "params": []
+        },
+        {
+          "name": "isEntityCacheEnabled",
+          "startLine": 366,
+          "endLine": 370,
+          "params": []
+        },
+        {
+          "name": "isFinderCacheEnabled",
+          "startLine": 375,
+          "endLine": 379,
+          "params": []
+        },
+        {
+          "name": "resetOriginalValues",
+          "startLine": 381,
+          "endLine": 386,
+          "params": []
+        },
+        {
+          "name": "toCacheModel",
+          "startLine": 388,
+          "endLine": 403,
+          "params": []
+        },
+        {
+          "name": "toString",
+          "startLine": 405,
+          "endLine": 452,
+          "params": []
+        },
+        {
+          "name": "getColumnValue",
+          "startLine": 466,
+          "endLine": 477,
+          "params": [
+            "columnName"
+          ]
+        },
+        {
+          "name": "getColumnOriginalValue",
+          "startLine": 479,
+          "endLine": 489,
+          "params": [
+            "columnName"
+          ]
+        },
+        {
+          "name": "_setColumnOriginalValues",
+          "startLine": 491,
+          "endLine": 496,
+          "params": []
+        },
+        {
+          "name": "getColumnBitmask",
+          "startLine": 500,
+          "endLine": 502,
+          "params": [
+            "columnName"
+          ]
+        }
+      ],
+      "classes": [
+        {
+          "name": "CounterModelImpl",
+          "startLine": 46,
+          "endLine": 519,
+          "methods": [
+            "CounterModelImpl",
+            "getPrimaryKey",
+            "setPrimaryKey",
+            "getPrimaryKeyObj",
+            "setPrimaryKeyObj",
+            "getModelClass",
+            "getModelClassName",
+            "getModelAttributes",
+            "setModelAttributes",
+            "getAttributeGetterFunctions",
+            "getAttributeSetterBiConsumers",
+            "getName",
+            "setName",
+            "getCurrentId",
+            "setCurrentId",
+            "getColumnBitmask",
+            "toEscapedModel",
+            "clone",
+            "cloneWithOriginalValues",
+            "compareTo",
+            "equals",
+            "hashCode",
+            "isEntityCacheEnabled",
+            "isFinderCacheEnabled",
+            "resetOriginalValues",
+            "toCacheModel",
+            "toString",
+            "getColumnValue",
+            "getColumnOriginalValue",
+            "_setColumnOriginalValues",
+            "getColumnBitmask"
+          ],
+          "properties": [
+            "TABLE_NAME",
+            "TABLE_COLUMNS",
+            "TABLE_COLUMNS_MAP",
+            "TABLE_SQL_CREATE",
+            "TABLE_SQL_DROP",
+            "ORDER_BY_JPQL",
+            "ORDER_BY_SQL",
+            "DATA_SOURCE",
+            "SESSION_FACTORY",
+            "TX_MANAGER",
+            "ENTITY_CACHE_ENABLED",
+            "FINDER_CACHE_ENABLED",
+            "COLUMN_BITMASK_ENABLED",
+            "NAME_COLUMN_BITMASK",
+            "LOCK_EXPIRATION_TIME",
+            "_name",
+            "_currentId",
+            "_columnOriginalValues",
+            "_columnBitmasks",
+            "_columnBitmask",
+            "_escapedModel"
+          ]
+        }
+      ],
+      "exports": [
+        {
+          "name": "TABLE_NAME",
+          "line": 54,
+          "isDefault": false
+        },
+        {
+          "name": "TABLE_COLUMNS",
+          "line": 56,
+          "isDefault": false
+        },
+        {
+          "name": "TABLE_COLUMNS_MAP",
+          "line": 60,
+          "isDefault": false
+        },
+        {
+          "name": "TABLE_SQL_CREATE",
+          "line": 68,
+          "isDefault": false
+        },
+        {
+          "name": "TABLE_SQL_DROP",
+          "line": 71,
+          "isDefault": false
+        },
+        {
+          "name": "ORDER_BY_JPQL",
+          "line": 73,
+          "isDefault": false
+        },
+        {
+          "name": "ORDER_BY_SQL",
+          "line": 75,
+          "isDefault": false
+        },
+        {
+          "name": "DATA_SOURCE",
+          "line": 77,
+          "isDefault": false
+        },
+        {
+          "name": "SESSION_FACTORY",
+          "line": 79,
+          "isDefault": false
+        },
+        {
+          "name": "TX_MANAGER",
+          "line": 81,
+          "isDefault": false
+        },
+        {
+          "name": "ENTITY_CACHE_ENABLED",
+          "line": 86,
+          "isDefault": false
+        },
+        {
+          "name": "FINDER_CACHE_ENABLED",
+          "line": 92,
+          "isDefault": false
+        },
+        {
+          "name": "COLUMN_BITMASK_ENABLED",
+          "line": 98,
+          "isDefault": false
+        },
+        {
+          "name": "NAME_COLUMN_BITMASK",
+          "line": 105,
+          "isDefault": false
+        },
+        {
+          "name": "LOCK_EXPIRATION_TIME",
+          "line": 108,
+          "isDefault": false
+        },
+        {
+          "name": "CounterModelImpl",
+          "line": 112,
+          "isDefault": false
+        },
+        {
+          "name": "getPrimaryKey",
+          "line": 115,
+          "isDefault": false
+        },
+        {
+          "name": "setPrimaryKey",
+          "line": 120,
+          "isDefault": false
+        },
+        {
+          "name": "getPrimaryKeyObj",
+          "line": 125,
+          "isDefault": false
+        },
+        {
+          "name": "setPrimaryKeyObj",
+          "line": 130,
+          "isDefault": false
+        },
+        {
+          "name": "getModelClass",
+          "line": 135,
+          "isDefault": false
+        },
+        {
+          "name": "getModelClassName",
+          "line": 140,
+          "isDefault": false
+        },
+        {
+          "name": "getModelAttributes",
+          "line": 145,
+          "isDefault": false
+        },
+        {
+          "name": "setModelAttributes",
+          "line": 166,
+          "isDefault": false
+        },
+        {
+          "name": "getAttributeGetterFunctions",
+          "line": 184,
+          "isDefault": false
+        },
+        {
+          "name": "getAttributeSetterBiConsumers",
+          "line": 190,
+          "isDefault": false
+        },
+        {
+          "name": "getName",
+          "line": 234,
+          "isDefault": false
+        },
+        {
+          "name": "setName",
+          "line": 244,
+          "isDefault": false
+        },
+        {
+          "name": "getCurrentId",
+          "line": 253,
+          "isDefault": false
+        },
+        {
+          "name": "setCurrentId",
+          "line": 258,
+          "isDefault": false
+        },
+        {
+          "name": "getColumnBitmask",
+          "line": 267,
+          "isDefault": false
+        },
+        {
+          "name": "toEscapedModel",
+          "line": 291,
+          "isDefault": false
+        },
+        {
+          "name": "clone",
+          "line": 306,
+          "isDefault": false
+        },
+        {
+          "name": "cloneWithOriginalValues",
+          "line": 318,
+          "isDefault": false
+        },
+        {
+          "name": "compareTo",
+          "line": 329,
+          "isDefault": false
+        },
+        {
+          "name": "equals",
+          "line": 336,
+          "isDefault": false
+        },
+        {
+          "name": "hashCode",
+          "line": 358,
+          "isDefault": false
+        },
+        {
+          "name": "isEntityCacheEnabled",
+          "line": 366,
+          "isDefault": false
+        },
+        {
+          "name": "isFinderCacheEnabled",
+          "line": 375,
+          "isDefault": false
+        },
+        {
+          "name": "resetOriginalValues",
+          "line": 381,
+          "isDefault": false
+        },
+        {
+          "name": "toCacheModel",
+          "line": 388,
+          "isDefault": false
+        },
+        {
+          "name": "toString",
+          "line": 405,
+          "isDefault": false
+        },
+        {
+          "name": "getColumnValue",
+          "line": 466,
+          "isDefault": false
+        },
+        {
+          "name": "getColumnOriginalValue",
+          "line": 479,
+          "isDefault": false
+        },
+        {
+          "name": "getColumnBitmask",
+          "line": 500,
+          "isDefault": false
+        },
+        {
+          "name": "CounterModelImpl",
+          "line": 46,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "setPrimaryKey",
+          "callee": "setName",
+          "lineNumber": 122
+        },
+        {
+          "caller": "setPrimaryKeyObj",
+          "callee": "setPrimaryKey",
+          "lineNumber": 132
+        },
+        {
+          "caller": "getModelClassName",
+          "callee": "Counter.class.getName",
+          "lineNumber": 142
+        },
+        {
+          "caller": "getModelAttributes",
+          "callee": "new HashMap<String, Object>",
+          "lineNumber": 147
+        },
+        {
+          "caller": "getModelAttributes",
+          "callee": "getAttributeGetterFunctions",
+          "lineNumber": 150
+        },
+        {
+          "caller": "getModelAttributes",
+          "callee": "attributeGetterFunctions.entrySet",
+          "lineNumber": 153
+        },
+        {
+          "caller": "getModelAttributes",
+          "callee": "entry.getKey",
+          "lineNumber": 155
+        },
+        {
+          "caller": "getModelAttributes",
+          "callee": "entry.getValue",
+          "lineNumber": 157
+        },
+        {
+          "caller": "getModelAttributes",
+          "callee": "attributes.put",
+          "lineNumber": 159
+        },
+        {
+          "caller": "getModelAttributes",
+          "callee": "attributeGetterFunction.apply",
+          "lineNumber": 160
+        },
+        {
+          "caller": "setModelAttributes",
+          "callee": "getAttributeSetterBiConsumers",
+          "lineNumber": 169
+        },
+        {
+          "caller": "setModelAttributes",
+          "callee": "attributes.entrySet",
+          "lineNumber": 171
+        },
+        {
+          "caller": "setModelAttributes",
+          "callee": "entry.getKey",
+          "lineNumber": 172
+        },
+        {
+          "caller": "setModelAttributes",
+          "callee": "attributeSetterBiConsumers.get",
+          "lineNumber": 175
+        },
+        {
+          "caller": "setModelAttributes",
+          "callee": "attributeSetterBiConsumer.accept",
+          "lineNumber": 178
+        },
+        {
+          "caller": "setModelAttributes",
+          "callee": "entry.getValue",
+          "lineNumber": 179
+        },
+        {
+          "caller": "setName",
+          "callee": "_setColumnOriginalValues",
+          "lineNumber": 247
+        },
+        {
+          "caller": "setCurrentId",
+          "callee": "_setColumnOriginalValues",
+          "lineNumber": 261
+        },
+        {
+          "caller": "getColumnBitmask",
+          "callee": "_columnOriginalValues.entrySet",
+          "lineNumber": 279
+        },
+        {
+          "caller": "getColumnBitmask",
+          "callee": "Objects.equals",
+          "lineNumber": 281
+        },
+        {
+          "caller": "getColumnBitmask",
+          "callee": "entry.getValue",
+          "lineNumber": 282
+        },
+        {
+          "caller": "getColumnBitmask",
+          "callee": "getColumnValue",
+          "lineNumber": 282
+        },
+        {
+          "caller": "getColumnBitmask",
+          "callee": "entry.getKey",
+          "lineNumber": 282
+        },
+        {
+          "caller": "getColumnBitmask",
+          "callee": "_columnBitmasks.get",
+          "lineNumber": 284
+        },
+        {
+          "caller": "getColumnBitmask",
+          "callee": "entry.getKey",
+          "lineNumber": 284
+        },
+        {
+          "caller": "toEscapedModel",
+          "callee": "escapedModelProxyProviderFunction.apply",
+          "lineNumber": 299
+        },
+        {
+          "caller": "toEscapedModel",
+          "callee": "new AutoEscapeBeanHandler",
+          "lineNumber": 300
+        },
+        {
+          "caller": "clone",
+          "callee": "new CounterImpl",
+          "lineNumber": 308
+        },
+        {
+          "caller": "clone",
+          "callee": "counterImpl.setName",
+          "lineNumber": 310
+        },
+        {
+          "caller": "clone",
+          "callee": "getName",
+          "lineNumber": 310
+        },
+        {
+          "caller": "clone",
+          "callee": "counterImpl.setCurrentId",
+          "lineNumber": 311
+        },
+        {
+          "caller": "clone",
+          "callee": "getCurrentId",
+          "lineNumber": 311
+        },
+        {
+          "caller": "clone",
+          "callee": "counterImpl.resetOriginalValues",
+          "lineNumber": 313
+        },
+        {
+          "caller": "cloneWithOriginalValues",
+          "callee": "new CounterImpl",
+          "lineNumber": 320
+        },
+        {
+          "caller": "cloneWithOriginalValues",
+          "callee": "counterImpl.setName",
+          "lineNumber": 322
+        },
+        {
+          "caller": "cloneWithOriginalValues",
+          "callee": "this.getColumnOriginalValue",
+          "lineNumber": 322
+        },
+        {
+          "caller": "cloneWithOriginalValues",
+          "callee": "counterImpl.setCurrentId",
+          "lineNumber": 323
+        },
+        {
+          "caller": "cloneWithOriginalValues",
+          "callee": "this.getColumnOriginalValue",
+          "lineNumber": 324
+        },
+        {
+          "caller": "compareTo",
+          "callee": "counter.getPrimaryKey",
+          "lineNumber": 331
+        },
+        {
+          "caller": "compareTo",
+          "callee": "getPrimaryKey().compareTo",
+          "lineNumber": 333
+        },
+        {
+          "caller": "compareTo",
+          "callee": "getPrimaryKey",
+          "lineNumber": 333
+        },
+        {
+          "caller": "equals",
+          "callee": "counter.getPrimaryKey",
+          "lineNumber": 348
+        },
+        {
+          "caller": "equals",
+          "callee": "getPrimaryKey().equals",
+          "lineNumber": 350
+        },
+        {
+          "caller": "equals",
+          "callee": "getPrimaryKey",
+          "lineNumber": 350
+        },
+        {
+          "caller": "hashCode",
+          "callee": "getPrimaryKey().hashCode",
+          "lineNumber": 360
+        },
+        {
+          "caller": "hashCode",
+          "callee": "getPrimaryKey",
+          "lineNumber": 360
+        },
+        {
+          "caller": "resetOriginalValues",
+          "callee": "Collections.emptyMap",
+          "lineNumber": 383
+        },
+        {
+          "caller": "toCacheModel",
+          "callee": "new CounterCacheModel",
+          "lineNumber": 390
+        },
+        {
+          "caller": "toCacheModel",
+          "callee": "getName",
+          "lineNumber": 392
+        },
+        {
+          "caller": "toCacheModel",
+          "callee": "name.length",
+          "lineNumber": 396
+        },
+        {
+          "caller": "toCacheModel",
+          "callee": "getCurrentId",
+          "lineNumber": 400
+        },
+        {
+          "caller": "toString",
+          "callee": "getAttributeGetterFunctions",
+          "lineNumber": 408
+        },
+        {
+          "caller": "toString",
+          "callee": "new StringBundler",
+          "lineNumber": 410
+        },
+        {
+          "caller": "toString",
+          "callee": "attributeGetterFunctions.size",
+          "lineNumber": 411
+        },
+        {
+          "caller": "toString",
+          "callee": "sb.append",
+          "lineNumber": 413
+        },
+        {
+          "caller": "toString",
+          "callee": "attributeGetterFunctions.entrySet",
+          "lineNumber": 416
+        },
+        {
+          "caller": "toString",
+          "callee": "entry.getKey",
+          "lineNumber": 418
+        },
+        {
+          "caller": "toString",
+          "callee": "entry.getValue",
+          "lineNumber": 420
+        },
+        {
+          "caller": "toString",
+          "callee": "sb.append",
+          "lineNumber": 422
+        },
+        {
+          "caller": "toString",
+          "callee": "sb.append",
+          "lineNumber": 423
+        },
+        {
+          "caller": "toString",
+          "callee": "sb.append",
+          "lineNumber": 424
+        },
+        {
+          "caller": "toString",
+          "callee": "attributeGetterFunction.apply",
+          "lineNumber": 426
+        },
+        {
+          "caller": "toString",
+          "callee": "sb.append",
+          "lineNumber": 429
+        },
+        {
+          "caller": "toString",
+          "callee": "sb.append",
+          "lineNumber": 434
+        },
+        {
+          "caller": "toString",
+          "callee": "StringUtil.replace",
+          "lineNumber": 435
+        },
+        {
+          "caller": "toString",
+          "callee": "value.toString",
+          "lineNumber": 435
+        },
+        {
+          "caller": "toString",
+          "callee": "sb.append",
+          "lineNumber": 439
+        },
+        {
+          "caller": "toString",
+          "callee": "sb.append",
+          "lineNumber": 442
+        },
+        {
+          "caller": "toString",
+          "callee": "sb.index",
+          "lineNumber": 445
+        },
+        {
+          "caller": "toString",
+          "callee": "sb.setIndex",
+          "lineNumber": 446
+        },
+        {
+          "caller": "toString",
+          "callee": "sb.index",
+          "lineNumber": 446
+        },
+        {
+          "caller": "toString",
+          "callee": "sb.append",
+          "lineNumber": 449
+        },
+        {
+          "caller": "toString",
+          "callee": "sb.toString",
+          "lineNumber": 451
+        },
+        {
+          "caller": "getColumnValue",
+          "callee": "AttributeGetterFunctionsHolder._attributeGetterFunctions.get",
+          "lineNumber": 468
+        },
+        {
+          "caller": "getColumnValue",
+          "callee": "new IllegalArgumentException",
+          "lineNumber": 472
+        },
+        {
+          "caller": "getColumnValue",
+          "callee": "function.apply",
+          "lineNumber": 476
+        },
+        {
+          "caller": "getColumnOriginalValue",
+          "callee": "_setColumnOriginalValues",
+          "lineNumber": 485
+        },
+        {
+          "caller": "getColumnOriginalValue",
+          "callee": "_columnOriginalValues.get",
+          "lineNumber": 488
+        },
+        {
+          "caller": "_setColumnOriginalValues",
+          "callee": "new HashMap<String, Object>",
+          "lineNumber": 492
+        },
+        {
+          "caller": "_setColumnOriginalValues",
+          "callee": "_columnOriginalValues.put",
+          "lineNumber": 494
+        },
+        {
+          "caller": "_setColumnOriginalValues",
+          "callee": "_columnOriginalValues.put",
+          "lineNumber": 495
+        },
+        {
+          "caller": "getColumnBitmask",
+          "callee": "_columnBitmasks.get",
+          "lineNumber": 501
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 46,
+        "functionCount": 31,
+        "classCount": 1
+      }
+    },
+    {
+      "path": "portal-impl/src/com/liferay/portal/change/tracking/registry/CTModelRegistration.java",
+      "language": "java",
+      "fileCategory": "code",
+      "totalLines": 37,
+      "nonEmptyLines": 28,
+      "functions": [
+        {
+          "name": "CTModelRegistration",
+          "startLine": 13,
+          "endLine": 19,
+          "params": [
+            "modelClass",
+            "tableName",
+            "primaryColumnName"
+          ]
+        },
+        {
+          "name": "getModelClass",
+          "startLine": 21,
+          "endLine": 23,
+          "params": []
+        },
+        {
+          "name": "getPrimaryColumnName",
+          "startLine": 25,
+          "endLine": 27,
+          "params": []
+        },
+        {
+          "name": "getTableName",
+          "startLine": 29,
+          "endLine": 31,
+          "params": []
+        }
+      ],
+      "classes": [
+        {
+          "name": "CTModelRegistration",
+          "startLine": 11,
+          "endLine": 37,
+          "methods": [
+            "CTModelRegistration",
+            "getModelClass",
+            "getPrimaryColumnName",
+            "getTableName"
+          ],
+          "properties": [
+            "_modelClass",
+            "_primaryColumnName",
+            "_tableName"
+          ]
+        }
+      ],
+      "exports": [
+        {
+          "name": "CTModelRegistration",
+          "line": 13,
+          "isDefault": false
+        },
+        {
+          "name": "getModelClass",
+          "line": 21,
+          "isDefault": false
+        },
+        {
+          "name": "getPrimaryColumnName",
+          "line": 25,
+          "isDefault": false
+        },
+        {
+          "name": "getTableName",
+          "line": 29,
+          "isDefault": false
+        },
+        {
+          "name": "CTModelRegistration",
+          "line": 11,
+          "isDefault": false
+        }
+      ],
+      "metrics": {
+        "importCount": 1,
+        "exportCount": 5,
+        "functionCount": 4,
+        "classCount": 1
+      }
+    },
+    {
+      "path": "portal-impl/src/com/liferay/portal/change/tracking/registry/CTModelRegistry.java",
+      "language": "java",
+      "fileCategory": "code",
+      "totalLines": 42,
+      "nonEmptyLines": 31,
+      "functions": [
+        {
+          "name": "getCTModelRegistration",
+          "startLine": 17,
+          "endLine": 19,
+          "params": [
+            "tableName"
+          ]
+        },
+        {
+          "name": "getTableNames",
+          "startLine": 21,
+          "endLine": 23,
+          "params": []
+        },
+        {
+          "name": "registerCTModel",
+          "startLine": 25,
+          "endLine": 30,
+          "params": [
+            "ctModelRegistration"
+          ]
+        },
+        {
+          "name": "unregisterCTModel",
+          "startLine": 32,
+          "endLine": 34,
+          "params": [
+            "tableName"
+          ]
+        },
+        {
+          "name": "CTModelRegistry",
+          "startLine": 36,
+          "endLine": 37,
+          "params": []
+        }
+      ],
+      "classes": [
+        {
+          "name": "CTModelRegistry",
+          "startLine": 15,
+          "endLine": 42,
+          "methods": [
+            "getCTModelRegistration",
+            "getTableNames",
+            "registerCTModel",
+            "unregisterCTModel",
+            "CTModelRegistry"
+          ],
+          "properties": [
+            "_tableNameCTModelRegistrationMap"
+          ]
+        }
+      ],
+      "exports": [
+        {
+          "name": "getCTModelRegistration",
+          "line": 17,
+          "isDefault": false
+        },
+        {
+          "name": "getTableNames",
+          "line": 21,
+          "isDefault": false
+        },
+        {
+          "name": "registerCTModel",
+          "line": 25,
+          "isDefault": false
+        },
+        {
+          "name": "unregisterCTModel",
+          "line": 32,
+          "isDefault": false
+        },
+        {
+          "name": "CTModelRegistry",
+          "line": 15,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "getCTModelRegistration",
+          "callee": "_tableNameCTModelRegistrationMap.get",
+          "lineNumber": 18
+        },
+        {
+          "caller": "getTableNames",
+          "callee": "_tableNameCTModelRegistrationMap.keySet",
+          "lineNumber": 22
+        },
+        {
+          "caller": "registerCTModel",
+          "callee": "_tableNameCTModelRegistrationMap.put",
+          "lineNumber": 28
+        },
+        {
+          "caller": "registerCTModel",
+          "callee": "ctModelRegistration.getTableName",
+          "lineNumber": 29
+        },
+        {
+          "caller": "unregisterCTModel",
+          "callee": "_tableNameCTModelRegistrationMap.remove",
+          "lineNumber": 33
+        }
+      ],
+      "metrics": {
+        "importCount": 4,
+        "exportCount": 5,
+        "functionCount": 5,
+        "classCount": 1
+      }
+    },
+    {
+      "path": "portal-impl/src/com/liferay/portal/events/StartupHelperUtil.java",
+      "language": "java",
+      "fileCategory": "code",
+      "totalLines": 270,
+      "nonEmptyLines": 216,
+      "functions": [
+        {
+          "name": "initResourceActions",
+          "startLine": 58,
+          "endLine": 74,
+          "params": []
+        },
+        {
+          "name": "isDBNew",
+          "startLine": 76,
+          "endLine": 78,
+          "params": []
+        },
+        {
+          "name": "isDBWarmed",
+          "startLine": 80,
+          "endLine": 83,
+          "params": []
+        },
+        {
+          "name": "isNewRelease",
+          "startLine": 85,
+          "endLine": 87,
+          "params": []
+        },
+        {
+          "name": "isUpgrading",
+          "startLine": 89,
+          "endLine": 91,
+          "params": []
+        },
+        {
+          "name": "printPatchLevel",
+          "startLine": 93,
+          "endLine": 107,
+          "params": []
+        },
+        {
+          "name": "setDBNew",
+          "startLine": 109,
+          "endLine": 115,
+          "params": [
+            "dbNew"
+          ]
+        },
+        {
+          "name": "setNewRelease",
+          "startLine": 117,
+          "endLine": 119,
+          "params": [
+            "newRelease"
+          ]
+        },
+        {
+          "name": "setUpgrading",
+          "startLine": 121,
+          "endLine": 150,
+          "params": [
+            "upgrading"
+          ]
+        },
+        {
+          "name": "upgradeProcess",
+          "startLine": 152,
+          "endLine": 177,
+          "params": [
+            "buildNumber"
+          ]
+        },
+        {
+          "name": "verifyRequiredSchemaVersion",
+          "startLine": 179,
+          "endLine": 213,
+          "params": []
+        },
+        {
+          "name": "_isDBWarmed",
+          "startLine": 215,
+          "endLine": 258,
+          "params": []
+        }
+      ],
+      "classes": [
+        {
+          "name": "StartupHelperUtil",
+          "startLine": 56,
+          "endLine": 270,
+          "methods": [
+            "initResourceActions",
+            "isDBNew",
+            "isDBWarmed",
+            "isNewRelease",
+            "isUpgrading",
+            "printPatchLevel",
+            "setDBNew",
+            "setNewRelease",
+            "setUpgrading",
+            "upgradeProcess",
+            "verifyRequiredSchemaVersion",
+            "_isDBWarmed"
+          ],
+          "properties": [
+            "_log",
+            "_dbNew",
+            "_dbWarmedSCLSingleton",
+            "_newRelease",
+            "_serviceRegistration",
+            "_upgrading"
+          ]
+        }
+      ],
+      "exports": [
+        {
+          "name": "initResourceActions",
+          "line": 58,
+          "isDefault": false
+        },
+        {
+          "name": "isDBNew",
+          "line": 76,
+          "isDefault": false
+        },
+        {
+          "name": "isDBWarmed",
+          "line": 80,
+          "isDefault": false
+        },
+        {
+          "name": "isNewRelease",
+          "line": 85,
+          "isDefault": false
+        },
+        {
+          "name": "isUpgrading",
+          "line": 89,
+          "isDefault": false
+        },
+        {
+          "name": "printPatchLevel",
+          "line": 93,
+          "isDefault": false
+        },
+        {
+          "name": "setDBNew",
+          "line": 109,
+          "isDefault": false
+        },
+        {
+          "name": "setNewRelease",
+          "line": 117,
+          "isDefault": false
+        },
+        {
+          "name": "setUpgrading",
+          "line": 121,
+          "isDefault": false
+        },
+        {
+          "name": "upgradeProcess",
+          "line": 152,
+          "isDefault": false
+        },
+        {
+          "name": "verifyRequiredSchemaVersion",
+          "line": 179,
+          "isDefault": false
+        },
+        {
+          "name": "StartupHelperUtil",
+          "line": 56,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "initResourceActions",
+          "callee": "ResourceActionLocalServiceUtil.checkResourceActions",
+          "lineNumber": 60
+        },
+        {
+          "caller": "initResourceActions",
+          "callee": "ReflectionUtil.throwException",
+          "lineNumber": 63
+        },
+        {
+          "caller": "initResourceActions",
+          "callee": "ResourceActionsUtil.populateModelResources",
+          "lineNumber": 67
+        },
+        {
+          "caller": "initResourceActions",
+          "callee": "StartupHelperUtil.class.getClassLoader",
+          "lineNumber": 68
+        },
+        {
+          "caller": "initResourceActions",
+          "callee": "ReflectionUtil.throwException",
+          "lineNumber": 72
+        },
+        {
+          "caller": "isDBWarmed",
+          "callee": "_dbWarmedSCLSingleton.getSingleton",
+          "lineNumber": 81
+        },
+        {
+          "caller": "printPatchLevel",
+          "callee": "_log.isInfoEnabled",
+          "lineNumber": 94
+        },
+        {
+          "caller": "printPatchLevel",
+          "callee": "StringUtil.merge",
+          "lineNumber": 95
+        },
+        {
+          "caller": "printPatchLevel",
+          "callee": "Validator.isNull",
+          "lineNumber": 99
+        },
+        {
+          "caller": "printPatchLevel",
+          "callee": "_log.info",
+          "lineNumber": 100
+        },
+        {
+          "caller": "printPatchLevel",
+          "callee": "_log.info",
+          "lineNumber": 103
+        },
+        {
+          "caller": "setDBNew",
+          "callee": "_dbWarmedSCLSingleton.destroy",
+          "lineNumber": 111
+        },
+        {
+          "caller": "setUpgrading",
+          "callee": "_dbWarmedSCLSingleton.destroy",
+          "lineNumber": 123
+        },
+        {
+          "caller": "setUpgrading",
+          "callee": "SystemBundleUtil.getBundleContext",
+          "lineNumber": 131
+        },
+        {
+          "caller": "setUpgrading",
+          "callee": "bundleContext.registerService",
+          "lineNumber": 133
+        },
+        {
+          "caller": "setUpgrading",
+          "callee": "UpgradeLogContext.getInstance",
+          "lineNumber": 134
+        },
+        {
+          "caller": "setUpgrading",
+          "callee": "DBUpgrader.startUpgradeLogAppender",
+          "lineNumber": 137
+        },
+        {
+          "caller": "setUpgrading",
+          "callee": "DBUpgrader.stopUpgradeLogAppender",
+          "lineNumber": 140
+        },
+        {
+          "caller": "setUpgrading",
+          "callee": "serviceRegistration.unregister",
+          "lineNumber": 145
+        },
+        {
+          "caller": "upgradeProcess",
+          "callee": "new ArrayList<>",
+          "lineNumber": 153
+        },
+        {
+          "caller": "upgradeProcess",
+          "callee": "FeatureFlagManagerUtil.isEnabled",
+          "lineNumber": 155
+        },
+        {
+          "caller": "upgradeProcess",
+          "callee": "Collections.addAll",
+          "lineNumber": 156
+        },
+        {
+          "caller": "upgradeProcess",
+          "callee": "Collections.addAll",
+          "lineNumber": 162
+        },
+        {
+          "caller": "upgradeProcess",
+          "callee": "UpgradeProcessUtil.initUpgradeProcesses",
+          "lineNumber": 172
+        },
+        {
+          "caller": "upgradeProcess",
+          "callee": "PortalClassLoaderUtil.getClassLoader",
+          "lineNumber": 173
+        },
+        {
+          "caller": "upgradeProcess",
+          "callee": "upgradeProcessClassNames.toArray",
+          "lineNumber": 174
+        },
+        {
+          "caller": "upgradeProcess",
+          "callee": "UpgradeProcessUtil.upgradeProcess",
+          "lineNumber": 176
+        },
+        {
+          "caller": "verifyRequiredSchemaVersion",
+          "callee": "_log.isDebugEnabled",
+          "lineNumber": 180
+        },
+        {
+          "caller": "verifyRequiredSchemaVersion",
+          "callee": "_log.debug",
+          "lineNumber": 181
+        },
+        {
+          "caller": "verifyRequiredSchemaVersion",
+          "callee": "DataAccess.getConnection",
+          "lineNumber": 184
+        },
+        {
+          "caller": "verifyRequiredSchemaVersion",
+          "callee": "PortalUpgradeProcess.isInRequiredSchemaVersion",
+          "lineNumber": 185
+        },
+        {
+          "caller": "verifyRequiredSchemaVersion",
+          "callee": "PortalUpgradeProcess.getCurrentSchemaVersion",
+          "lineNumber": 190
+        },
+        {
+          "caller": "verifyRequiredSchemaVersion",
+          "callee": "DataAccess.getConnection",
+          "lineNumber": 191
+        },
+        {
+          "caller": "verifyRequiredSchemaVersion",
+          "callee": "PortalUpgradeProcess.getRequiredSchemaVersion",
+          "lineNumber": 194
+        },
+        {
+          "caller": "verifyRequiredSchemaVersion",
+          "callee": "currentSchemaVersion.compareTo",
+          "lineNumber": 198
+        },
+        {
+          "caller": "verifyRequiredSchemaVersion",
+          "callee": "System.out.println",
+          "lineNumber": 209
+        },
+        {
+          "caller": "verifyRequiredSchemaVersion",
+          "callee": "new RuntimeException",
+          "lineNumber": 211
+        },
+        {
+          "caller": "_isDBWarmed",
+          "callee": "DBUpgrader.isUpgradeDatabaseAutoRunEnabled",
+          "lineNumber": 219
+        },
+        {
+          "caller": "_isDBWarmed",
+          "callee": "SystemBundleUtil.getBundleContext",
+          "lineNumber": 224
+        },
+        {
+          "caller": "_isDBWarmed",
+          "callee": "bundleContext.getDataFile",
+          "lineNumber": 226
+        },
+        {
+          "caller": "_isDBWarmed",
+          "callee": "dataFile.exists",
+          "lineNumber": 228
+        },
+        {
+          "caller": "_isDBWarmed",
+          "callee": "new Deserializer",
+          "lineNumber": 230
+        },
+        {
+          "caller": "_isDBWarmed",
+          "callee": "ByteBuffer.wrap",
+          "lineNumber": 231
+        },
+        {
+          "caller": "_isDBWarmed",
+          "callee": "FileUtil.getBytes",
+          "lineNumber": 231
+        },
+        {
+          "caller": "_isDBWarmed",
+          "callee": "deserializer.readBoolean",
+          "lineNumber": 233
+        },
+        {
+          "caller": "_isDBWarmed",
+          "callee": "_log.isWarnEnabled",
+          "lineNumber": 238
+        },
+        {
+          "caller": "_isDBWarmed",
+          "callee": "_log.warn",
+          "lineNumber": 239
+        },
+        {
+          "caller": "_isDBWarmed",
+          "callee": "new Serializer",
+          "lineNumber": 244
+        },
+        {
+          "caller": "_isDBWarmed",
+          "callee": "serializer.writeBoolean",
+          "lineNumber": 246
+        },
+        {
+          "caller": "_isDBWarmed",
+          "callee": "new FileOutputStream",
+          "lineNumber": 248
+        },
+        {
+          "caller": "_isDBWarmed",
+          "callee": "serializer.writeTo",
+          "lineNumber": 249
+        },
+        {
+          "caller": "_isDBWarmed",
+          "callee": "_log.isWarnEnabled",
+          "lineNumber": 252
+        },
+        {
+          "caller": "_isDBWarmed",
+          "callee": "_log.warn",
+          "lineNumber": 253
+        }
+      ],
+      "metrics": {
+        "importCount": 1,
+        "exportCount": 12,
+        "functionCount": 12,
+        "classCount": 1
+      }
+    }
+  ]
+}

@@ -6,8 +6,7 @@ Arena fork of Liferay Portal 7.4.3.129 GA129. Treat most code as upstream Lifera
 
 - `CLAUDE.md` just points here.
 - `README.markdown` is generic and low-signal.
-- `DESIGN.md` for module structure, REST Builder workflow, post-generation patches, and security decisions.
-  Load only when working on architecture-related tasks.
+- `DESIGN.md` has module boundaries, build boundary, Service Builder, REST Builder, and OSGi wiring. Load it for architecture or codegen work.
 
 ## Execution Discipline
 
@@ -51,14 +50,6 @@ Arena fork of Liferay Portal 7.4.3.129 GA129. Treat most code as upstream Lifera
 - Prefer the smallest native verifier for the area you changed: Ant for portal core, Gradle for `modules/**`.
 - `modules/build.gradle` disables `test` and `testIntegration` tasks automatically when that source set does not exist. A skipped task can be expected, not a misconfiguration.
 - `buildService` in modules is wired to the local service-builder tool under `modules/util/portal-tools-service-builder` when present; do not hand-edit generated Service Builder output and skip regeneration.
-
-## Layout That Changes Decisions
-
-- `portal-impl` contains core implementation and Spring/Hibernate-backed portal internals.
-- `portal-kernel` is public API/SPI; avoid putting implementation there.
-- `portal-web` is the legacy WAR/JSP/Struts layer.
-- `modules/` is the OSGi workspace. Typical app split is `-api`, `-service`, `-impl`, `-web`, `-test`.
-- Marker files under `modules/**` are operationally important. `.lfrbuild-portal` opts a module into `ant all`; `.lfrbuild-app-server-lib`, `.lfrbuild-static`, and `.lfrbuild-tool` change deploy destination.
 
 ## Formatting And Style Constraints
 

@@ -1,0 +1,165 @@
+# Merged from .graphifyignore + previous .understandignore
+
+# Compiled Java output
+**/classes/
+**/bin/
+**/build/
+**/logs/
+**/dist/
+**/target/
+classes/
+bin/
+lib/
+**/*.jar
+**/*.bat
+**/*.sh
+**/*.war
+**/*.class
+**/*.tgz
+**/*.zip
+**/sdk/
+api/
+definitions/
+**/benchmarks/
+
+# Gradle / Maven caches
+.gradle/
+**/.gradle/
+**/.nx/
+**/.cache/
+.m2/
+
+# Tools / IDE
+**/.git/
+**/.gitignore
+git-commit/
+graphify-out/
+.claude/
+.github/
+**/.idea/
+**/.settings/
+**/*.iml
+nbproject/
+
+# Node
+**/node_modules/
+**/node_modules_cache/
+node_modules_cache/
+**/.releng/
+
+# Test / generated artifacts
+**/test-results/
+**/tmp/
+**/test/
+**/tests/
+**/coverage/
+**/*.testcase
+tmp/
+
+# Service Builder generated base code (keep *Impl.java)
+**/service/base/
+**/service/persistence/impl/constants/
+
+# Root non-source dirs
+backup/
+configs/
+examples/
+docs/
+stage/
+themes/
+_templates/
+.obsidian/
+.playwright-mcp/
+.raw/
+.vault-meta/
+
+# Configs
+**/*.bnd
+**/*.xml
+**/*.xsd
+**/*.properties
+**/*.yaml
+**/*.yml
+**/*.conf
+**/*.cfg
+**/*.ini
+**/*.env
+**/*.lock
+**/*.tld
+
+# Web / styles
+**/*.css
+**/*.scss
+**/*.html
+
+# Documentation
+**/*.md
+**/*.markdown
+**/*.txt
+**/*.rst
+**/*.adoc
+
+# Images / media
+**/*.pdf
+**/*.mp4
+**/*.mp3
+**/*.mov
+**/*.ogg
+**/*.wav
+**/*.svg
+**/*.png
+**/*.jpg
+**/*.jpeg
+**/*.gif
+**/*.ico
+**/*.webp
+**/*.bmp
+**/*.toml
+
+# Generated source maps / flow
+**/*.map
+**/*.flow
+
+# Keys / certs
+**/*.pfx
+**/*.p12
+**/*.pem
+**/*.crt
+**/*.key
+
+# Large non-source data
+sql/
+oss-licenses/
+LICENSES/
+**/learn-resources/
+**/readme/
+learn-resources/
+find-security-bugs-false-positives.txt
+
+# Excluded portal modules (upstream Liferay, not Arena-specific)
+modules/
+portal/test/
+portal-test/
+portal-web/
+support-tomcat/
+util-bridges/
+util-java/
+util-slf4j/
+util-taglib/
+workspaces/
+tools/
+
+# Root-level doc files
+AGENTS.md
+CLAUDE.md
+DESIGN.md
+changes.txt
+copyright.txt
+title-casing.txt
+README.markdown
+
+# Root-level scripts
+gradlew
+
+# Scripts directory
+scripts/

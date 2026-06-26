@@ -1,0 +1,796 @@
+{
+  "nodes": [
+    {
+      "id": "function:com/liferay/portal/model/impl/UserGroupGroupRoleModelImpl:UserGroupGroupRoleModelImpl:getMvccVersion",
+      "type": "function",
+      "name": "getMvccVersion",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/UserGroupGroupRoleModelImpl.java",
+      "summary": "getMvccVersion() in UserGroupGroupRoleModelImpl.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "function:com/liferay/portal/model/impl/UserGroupGroupRoleModelImpl:UserGroupGroupRoleModelImpl:setMvccVersion",
+      "type": "function",
+      "name": "setMvccVersion",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/UserGroupGroupRoleModelImpl.java",
+      "summary": "setMvccVersion() in UserGroupGroupRoleModelImpl.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "function:com/liferay/portal/model/impl/UserGroupGroupRoleModelImpl:UserGroupGroupRoleModelImpl:getCtCollectionId",
+      "type": "function",
+      "name": "getCtCollectionId",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/UserGroupGroupRoleModelImpl.java",
+      "summary": "getCtCollectionId() in UserGroupGroupRoleModelImpl.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "function:com/liferay/portal/model/impl/UserGroupGroupRoleModelImpl:UserGroupGroupRoleModelImpl:setCtCollectionId",
+      "type": "function",
+      "name": "setCtCollectionId",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/UserGroupGroupRoleModelImpl.java",
+      "summary": "setCtCollectionId() in UserGroupGroupRoleModelImpl.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "function:com/liferay/portal/model/impl/UserGroupGroupRoleModelImpl:UserGroupGroupRoleModelImpl:getUserGroupGroupRoleId",
+      "type": "function",
+      "name": "getUserGroupGroupRoleId",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/UserGroupGroupRoleModelImpl.java",
+      "summary": "getUserGroupGroupRoleId() in UserGroupGroupRoleModelImpl.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "function:com/liferay/portal/model/impl/UserGroupGroupRoleModelImpl:UserGroupGroupRoleModelImpl:setUserGroupGroupRoleId",
+      "type": "function",
+      "name": "setUserGroupGroupRoleId",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/UserGroupGroupRoleModelImpl.java",
+      "summary": "setUserGroupGroupRoleId() in UserGroupGroupRoleModelImpl.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "function:com/liferay/portal/model/impl/UserGroupGroupRoleModelImpl:UserGroupGroupRoleModelImpl:getCompanyId",
+      "type": "function",
+      "name": "getCompanyId",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/UserGroupGroupRoleModelImpl.java",
+      "summary": "getCompanyId() in UserGroupGroupRoleModelImpl.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "function:com/liferay/portal/model/impl/UserGroupGroupRoleModelImpl:UserGroupGroupRoleModelImpl:setCompanyId",
+      "type": "function",
+      "name": "setCompanyId",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/UserGroupGroupRoleModelImpl.java",
+      "summary": "setCompanyId() in UserGroupGroupRoleModelImpl.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "function:com/liferay/portal/model/impl/UserGroupGroupRoleModelImpl:UserGroupGroupRoleModelImpl:getUserGroupId",
+      "type": "function",
+      "name": "getUserGroupId",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/UserGroupGroupRoleModelImpl.java",
+      "summary": "getUserGroupId() in UserGroupGroupRoleModelImpl.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "function:com/liferay/portal/model/impl/UserGroupGroupRoleModelImpl:UserGroupGroupRoleModelImpl:setUserGroupId",
+      "type": "function",
+      "name": "setUserGroupId",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/UserGroupGroupRoleModelImpl.java",
+      "summary": "setUserGroupId() in UserGroupGroupRoleModelImpl.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "function:com/liferay/portal/model/impl/UserGroupGroupRoleModelImpl:UserGroupGroupRoleModelImpl:getOriginalUserGroupId",
+      "type": "function",
+      "name": "getOriginalUserGroupId",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/UserGroupGroupRoleModelImpl.java",
+      "summary": "getOriginalUserGroupId() in UserGroupGroupRoleModelImpl.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "function:com/liferay/portal/model/impl/UserGroupGroupRoleModelImpl:UserGroupGroupRoleModelImpl:getGroupId",
+      "type": "function",
+      "name": "getGroupId",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/UserGroupGroupRoleModelImpl.java",
+      "summary": "getGroupId() in UserGroupGroupRoleModelImpl.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "function:com/liferay/portal/model/impl/UserGroupGroupRoleModelImpl:UserGroupGroupRoleModelImpl:setGroupId",
+      "type": "function",
+      "name": "setGroupId",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/UserGroupGroupRoleModelImpl.java",
+      "summary": "setGroupId() in UserGroupGroupRoleModelImpl.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "function:com/liferay/portal/model/impl/UserGroupGroupRoleModelImpl:UserGroupGroupRoleModelImpl:getOriginalGroupId",
+      "type": "function",
+      "name": "getOriginalGroupId",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/UserGroupGroupRoleModelImpl.java",
+      "summary": "getOriginalGroupId() in UserGroupGroupRoleModelImpl.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "function:com/liferay/portal/model/impl/UserGroupGroupRoleModelImpl:UserGroupGroupRoleModelImpl:getRoleId",
+      "type": "function",
+      "name": "getRoleId",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/UserGroupGroupRoleModelImpl.java",
+      "summary": "getRoleId() in UserGroupGroupRoleModelImpl.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "function:com/liferay/portal/model/impl/UserGroupGroupRoleModelImpl:UserGroupGroupRoleModelImpl:setRoleId",
+      "type": "function",
+      "name": "setRoleId",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/UserGroupGroupRoleModelImpl.java",
+      "summary": "setRoleId() in UserGroupGroupRoleModelImpl.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "function:com/liferay/portal/model/impl/UserGroupGroupRoleModelImpl:UserGroupGroupRoleModelImpl:getOriginalRoleId",
+      "type": "function",
+      "name": "getOriginalRoleId",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/UserGroupGroupRoleModelImpl.java",
+      "summary": "getOriginalRoleId() in UserGroupGroupRoleModelImpl.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "function:com/liferay/portal/model/impl/UserGroupGroupRoleModelImpl:UserGroupGroupRoleModelImpl:getColumnBitmask",
+      "type": "function",
+      "name": "getColumnBitmask",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/UserGroupGroupRoleModelImpl.java",
+      "summary": "getColumnBitmask() in UserGroupGroupRoleModelImpl.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "function:com/liferay/portal/model/impl/UserGroupGroupRoleModelImpl:UserGroupGroupRoleModelImpl:getExpandoBridge",
+      "type": "function",
+      "name": "getExpandoBridge",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/UserGroupGroupRoleModelImpl.java",
+      "summary": "getExpandoBridge() in UserGroupGroupRoleModelImpl.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "function:com/liferay/portal/model/impl/UserGroupGroupRoleModelImpl:UserGroupGroupRoleModelImpl:setExpandoBridgeAttributes",
+      "type": "function",
+      "name": "setExpandoBridgeAttributes",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/UserGroupGroupRoleModelImpl.java",
+      "summary": "setExpandoBridgeAttributes() in UserGroupGroupRoleModelImpl.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "function:com/liferay/portal/model/impl/UserGroupGroupRoleModelImpl:UserGroupGroupRoleModelImpl:toEscapedModel",
+      "type": "function",
+      "name": "toEscapedModel",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/UserGroupGroupRoleModelImpl.java",
+      "summary": "toEscapedModel() in UserGroupGroupRoleModelImpl.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "function:com/liferay/portal/model/impl/UserGroupGroupRoleModelImpl:UserGroupGroupRoleModelImpl:clone",
+      "type": "function",
+      "name": "clone",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/UserGroupGroupRoleModelImpl.java",
+      "summary": "clone() in UserGroupGroupRoleModelImpl.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "function:com/liferay/portal/model/impl/UserGroupGroupRoleModelImpl:UserGroupGroupRoleModelImpl:equals",
+      "type": "function",
+      "name": "equals",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/UserGroupGroupRoleModelImpl.java",
+      "summary": "equals() in UserGroupGroupRoleModelImpl.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "function:com/liferay/portal/model/impl/UserGroupGroupRoleModelImpl:UserGroupGroupRoleModelImpl:hashCode",
+      "type": "function",
+      "name": "hashCode",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/UserGroupGroupRoleModelImpl.java",
+      "summary": "hashCode() in UserGroupGroupRoleModelImpl.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "function:com/liferay/portal/model/impl/UserGroupGroupRoleModelImpl:UserGroupGroupRoleModelImpl:isEntityCacheEnabled",
+      "type": "function",
+      "name": "isEntityCacheEnabled",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/UserGroupGroupRoleModelImpl.java",
+      "summary": "isEntityCacheEnabled() in UserGroupGroupRoleModelImpl.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "function:com/liferay/portal/model/impl/UserGroupGroupRoleModelImpl:UserGroupGroupRoleModelImpl:isFinderCacheEnabled",
+      "type": "function",
+      "name": "isFinderCacheEnabled",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/UserGroupGroupRoleModelImpl.java",
+      "summary": "isFinderCacheEnabled() in UserGroupGroupRoleModelImpl.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "function:com/liferay/portal/model/impl/UserGroupGroupRoleModelImpl:UserGroupGroupRoleModelImpl:resetOriginalValues",
+      "type": "function",
+      "name": "resetOriginalValues",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/UserGroupGroupRoleModelImpl.java",
+      "summary": "resetOriginalValues() in UserGroupGroupRoleModelImpl.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "function:com/liferay/portal/model/impl/UserGroupGroupRoleModelImpl:UserGroupGroupRoleModelImpl:toCacheModel",
+      "type": "function",
+      "name": "toCacheModel",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/UserGroupGroupRoleModelImpl.java",
+      "summary": "toCacheModel() in UserGroupGroupRoleModelImpl.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "function:com/liferay/portal/model/impl/UserGroupGroupRoleModelImpl:UserGroupGroupRoleModelImpl:toString",
+      "type": "function",
+      "name": "toString",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/UserGroupGroupRoleModelImpl.java",
+      "summary": "toString() in UserGroupGroupRoleModelImpl.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "function:com/liferay/portal/model/impl/UserGroupGroupRoleModelImpl:UserGroupGroupRoleModelImpl:getColumnValue",
+      "type": "function",
+      "name": "getColumnValue",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/UserGroupGroupRoleModelImpl.java",
+      "summary": "getColumnValue() in UserGroupGroupRoleModelImpl.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "function:com/liferay/portal/model/impl/UserGroupGroupRoleModelImpl:UserGroupGroupRoleModelImpl:getColumnOriginalValue",
+      "type": "function",
+      "name": "getColumnOriginalValue",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/UserGroupGroupRoleModelImpl.java",
+      "summary": "getColumnOriginalValue() in UserGroupGroupRoleModelImpl.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "function:com/liferay/portal/model/impl/UserGroupGroupRoleModelImpl:UserGroupGroupRoleModelImpl:getColumnBitmask_2",
+      "type": "function",
+      "name": "getColumnBitmask",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/UserGroupGroupRoleModelImpl.java",
+      "summary": "getColumnBitmask() in UserGroupGroupRoleModelImpl.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "file:com/liferay/portal/kernel/model/UserGroupGroupRole",
+      "type": "file",
+      "name": "UserGroupGroupRole.java",
+      "filePath": "portal-kernel/src/com/liferay/portal/kernel/model/UserGroupGroupRole.java",
+      "summary": "UserGroupGroupRole.java - com/liferay/portal/kernel/model/UserGroupGroupRole",
+      "tags": [
+        "code",
+        "java",
+        "imported"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "file:com/liferay/portal/kernel/model/UserGroupGroupRoleModel",
+      "type": "file",
+      "name": "UserGroupGroupRoleModel.java",
+      "filePath": "portal-kernel/src/com/liferay/portal/kernel/model/UserGroupGroupRoleModel.java",
+      "summary": "UserGroupGroupRoleModel.java - com/liferay/portal/kernel/model/UserGroupGroupRoleModel",
+      "tags": [
+        "code",
+        "java",
+        "imported"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "file:com/liferay/portal/model/impl/UserGroupModelImpl",
+      "type": "file",
+      "name": "UserGroupModelImpl.java",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/UserGroupModelImpl.java",
+      "summary": "UserGroupModelImpl.java - com/liferay/portal/model/impl/UserGroupModelImpl",
+      "tags": [
+        "code",
+        "java",
+        "class-definition"
+      ],
+      "complexity": "high"
+    },
+    {
+      "id": "class:com/liferay/portal/model/impl/UserGroupModelImpl:UserGroupModelImpl",
+      "type": "class",
+      "name": "UserGroupModelImpl",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/UserGroupModelImpl.java",
+      "summary": "UserGroupModelImpl class in UserGroupModelImpl.java",
+      "tags": [
+        "class"
+      ],
+      "complexity": "high",
+      "methods": [
+        "UserGroupModelImpl",
+        "getPrimaryKey",
+        "setPrimaryKey",
+        "getPrimaryKeyObj",
+        "setPrimaryKeyObj",
+        "getModelClass",
+        "getModelClassName",
+        "getModelAttributes",
+        "setModelAttributes",
+        "getAttributeGetterFunctions",
+        "getAttributeSetterBiConsumers",
+        "getMvccVersion",
+        "setMvccVersion",
+        "getCtCollectionId",
+        "setCtCollectionId",
+        "getUuid",
+        "setUuid",
+        "getOriginalUuid",
+        "getExternalReferenceCode",
+        "setExternalReferenceCode",
+        "getOriginalExternalReferenceCode",
+        "getUserGroupId",
+        "setUserGroupId",
+        "getOriginalUserGroupId",
+        "getCompanyId",
+        "setCompanyId",
+        "getOriginalCompanyId",
+        "getUserId",
+        "setUserId",
+        "getUserUuid",
+        "setUserUuid",
+        "getUserName",
+        "setUserName",
+        "getCreateDate",
+        "setCreateDate",
+        "getModifiedDate",
+        "hasSetModifiedDate",
+        "setModifiedDate",
+        "getParentUserGroupId",
+        "setParentUserGroupId",
+        "getOriginalParentUserGroupId",
+        "getName",
+        "setName",
+        "getOriginalName",
+        "getDescription",
+        "setDescription",
+        "getAddedByLDAPImport",
+        "isAddedByLDAPImport",
+        "setAddedByLDAPImport",
+        "getStagedModelType",
+        "getColumnBitmask",
+        "getExpandoBridge",
+        "setExpandoBridgeAttributes",
+        "toEscapedModel",
+        "clone",
+        "cloneWithOriginalValues",
+        "compareTo",
+        "equals",
+        "hashCode",
+        "isEntityCacheEnabled",
+        "isFinderCacheEnabled",
+        "resetOriginalValues",
+        "toCacheModel",
+        "toString",
+        "getColumnValue",
+        "getColumnOriginalValue",
+        "_setColumnOriginalValues",
+        "getColumnBitmask"
+      ],
+      "properties": [
+        "TABLE_NAME",
+        "TABLE_COLUMNS",
+        "TABLE_COLUMNS_MAP",
+        "TABLE_SQL_CREATE",
+        "TABLE_SQL_DROP",
+        "ORDER_BY_JPQL",
+        "ORDER_BY_SQL",
+        "ORDER_BY_SQL_INLINE_DISTINCT",
+        "DATA_SOURCE",
+        "SESSION_FACTORY",
+        "TX_MANAGER",
+        "ENTITY_CACHE_ENABLED",
+        "FINDER_CACHE_ENABLED",
+        "COLUMN_BITMASK_ENABLED",
+        "COMPANYID_COLUMN_BITMASK",
+        "EXTERNALREFERENCECODE_COLUMN_BITMASK",
+        "NAME_COLUMN_BITMASK",
+        "PARENTUSERGROUPID_COLUMN_BITMASK",
+        "USERGROUPID_COLUMN_BITMASK",
+        "UUID_COLUMN_BITMASK",
+        "MAPPING_TABLE_GROUPS_USERGROUPS_NAME",
+        "MAPPING_TABLE_GROUPS_USERGROUPS_COLUMNS",
+        "MAPPING_TABLE_GROUPS_USERGROUPS_SQL_CREATE",
+        "FINDER_CACHE_ENABLED_GROUPS_USERGROUPS",
+        "MAPPING_TABLE_USERGROUPS_TEAMS_NAME",
+        "MAPPING_TABLE_USERGROUPS_TEAMS_COLUMNS",
+        "MAPPING_TABLE_USERGROUPS_TEAMS_SQL_CREATE",
+        "FINDER_CACHE_ENABLED_USERGROUPS_TEAMS",
+        "MAPPING_TABLE_USERS_USERGROUPS_NAME",
+        "MAPPING_TABLE_USERS_USERGROUPS_COLUMNS",
+        "MAPPING_TABLE_USERS_USERGROUPS_SQL_CREATE",
+        "FINDER_CACHE_ENABLED_USERS_USERGROUPS",
+        "LOCK_EXPIRATION_TIME",
+        "_mvccVersion",
+        "_ctCollectionId",
+        "_uuid",
+        "_externalReferenceCode",
+        "_userGroupId",
+        "_companyId",
+        "_userId",
+        "_userName",
+        "_createDate",
+        "_modifiedDate",
+        "_setModifiedDate",
+        "_parentUserGroupId",
+        "_name",
+        "_description",
+        "_addedByLDAPImport",
+        "_attributeNames",
+        "_columnOriginalValues",
+        "_columnBitmasks",
+        "_columnBitmask",
+        "_escapedModel"
+      ]
+    },
+    {
+      "id": "function:com/liferay/portal/model/impl/UserGroupModelImpl:UserGroupModelImpl:getPrimaryKey",
+      "type": "function",
+      "name": "getPrimaryKey",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/UserGroupModelImpl.java",
+      "summary": "getPrimaryKey() in UserGroupModelImpl.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "function:com/liferay/portal/model/impl/UserGroupModelImpl:UserGroupModelImpl:setPrimaryKey",
+      "type": "function",
+      "name": "setPrimaryKey",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/UserGroupModelImpl.java",
+      "summary": "setPrimaryKey() in UserGroupModelImpl.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "function:com/liferay/portal/model/impl/UserGroupModelImpl:UserGroupModelImpl:getPrimaryKeyObj",
+      "type": "function",
+      "name": "getPrimaryKeyObj",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/UserGroupModelImpl.java",
+      "summary": "getPrimaryKeyObj() in UserGroupModelImpl.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "function:com/liferay/portal/model/impl/UserGroupModelImpl:UserGroupModelImpl:setPrimaryKeyObj",
+      "type": "function",
+      "name": "setPrimaryKeyObj",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/UserGroupModelImpl.java",
+      "summary": "setPrimaryKeyObj() in UserGroupModelImpl.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "function:com/liferay/portal/model/impl/UserGroupModelImpl:UserGroupModelImpl:getModelClass",
+      "type": "function",
+      "name": "getModelClass",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/UserGroupModelImpl.java",
+      "summary": "getModelClass() in UserGroupModelImpl.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "function:com/liferay/portal/model/impl/UserGroupModelImpl:UserGroupModelImpl:getModelClassName",
+      "type": "function",
+      "name": "getModelClassName",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/UserGroupModelImpl.java",
+      "summary": "getModelClassName() in UserGroupModelImpl.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "function:com/liferay/portal/model/impl/UserGroupModelImpl:UserGroupModelImpl:getModelAttributes",
+      "type": "function",
+      "name": "getModelAttributes",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/UserGroupModelImpl.java",
+      "summary": "getModelAttributes() in UserGroupModelImpl.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "function:com/liferay/portal/model/impl/UserGroupModelImpl:UserGroupModelImpl:setModelAttributes",
+      "type": "function",
+      "name": "setModelAttributes",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/UserGroupModelImpl.java",
+      "summary": "setModelAttributes() in UserGroupModelImpl.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "function:com/liferay/portal/model/impl/UserGroupModelImpl:UserGroupModelImpl:getAttributeGetterFunctions",
+      "type": "function",
+      "name": "getAttributeGetterFunctions",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/UserGroupModelImpl.java",
+      "summary": "getAttributeGetterFunctions() in UserGroupModelImpl.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "function:com/liferay/portal/model/impl/UserGroupModelImpl:UserGroupModelImpl:getAttributeSetterBiConsumers",
+      "type": "function",
+      "name": "getAttributeSetterBiConsumers",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/UserGroupModelImpl.java",
+      "summary": "getAttributeSetterBiConsumers() in UserGroupModelImpl.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "function:com/liferay/portal/model/impl/UserGroupModelImpl:UserGroupModelImpl:getMvccVersion",
+      "type": "function",
+      "name": "getMvccVersion",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/UserGroupModelImpl.java",
+      "summary": "getMvccVersion() in UserGroupModelImpl.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "function:com/liferay/portal/model/impl/UserGroupModelImpl:UserGroupModelImpl:setMvccVersion",
+      "type": "function",
+      "name": "setMvccVersion",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/UserGroupModelImpl.java",
+      "summary": "setMvccVersion() in UserGroupModelImpl.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "function:com/liferay/portal/model/impl/UserGroupModelImpl:UserGroupModelImpl:getCtCollectionId",
+      "type": "function",
+      "name": "getCtCollectionId",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/UserGroupModelImpl.java",
+      "summary": "getCtCollectionId() in UserGroupModelImpl.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "function:com/liferay/portal/model/impl/UserGroupModelImpl:UserGroupModelImpl:setCtCollectionId",
+      "type": "function",
+      "name": "setCtCollectionId",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/UserGroupModelImpl.java",
+      "summary": "setCtCollectionId() in UserGroupModelImpl.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "function:com/liferay/portal/model/impl/UserGroupModelImpl:UserGroupModelImpl:getUuid",
+      "type": "function",
+      "name": "getUuid",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/UserGroupModelImpl.java",
+      "summary": "getUuid() in UserGroupModelImpl.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "function:com/liferay/portal/model/impl/UserGroupModelImpl:UserGroupModelImpl:setUuid",
+      "type": "function",
+      "name": "setUuid",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/UserGroupModelImpl.java",
+      "summary": "setUuid() in UserGroupModelImpl.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "function:com/liferay/portal/model/impl/UserGroupModelImpl:UserGroupModelImpl:getOriginalUuid",
+      "type": "function",
+      "name": "getOriginalUuid",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/UserGroupModelImpl.java",
+      "summary": "getOriginalUuid() in UserGroupModelImpl.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "function:com/liferay/portal/model/impl/UserGroupModelImpl:UserGroupModelImpl:getExternalReferenceCode",
+      "type": "function",
+      "name": "getExternalReferenceCode",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/UserGroupModelImpl.java",
+      "summary": "getExternalReferenceCode() in UserGroupModelImpl.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "function:com/liferay/portal/model/impl/UserGroupModelImpl:UserGroupModelImpl:setExternalReferenceCode",
+      "type": "function",
+      "name": "setExternalReferenceCode",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/UserGroupModelImpl.java",
+      "summary": "setExternalReferenceCode() in UserGroupModelImpl.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "function:com/liferay/portal/model/impl/UserGroupModelImpl:UserGroupModelImpl:getOriginalExternalReferenceCode",
+      "type": "function",
+      "name": "getOriginalExternalReferenceCode",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/UserGroupModelImpl.java",
+      "summary": "getOriginalExternalReferenceCode() in UserGroupModelImpl.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "function:com/liferay/portal/model/impl/UserGroupModelImpl:UserGroupModelImpl:getUserGroupId",
+      "type": "function",
+      "name": "getUserGroupId",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/UserGroupModelImpl.java",
+      "summary": "getUserGroupId() in UserGroupModelImpl.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "function:com/liferay/portal/model/impl/UserGroupModelImpl:UserGroupModelImpl:setUserGroupId",
+      "type": "function",
+      "name": "setUserGroupId",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/UserGroupModelImpl.java",
+      "summary": "setUserGroupId() in UserGroupModelImpl.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "function:com/liferay/portal/model/impl/UserGroupModelImpl:UserGroupModelImpl:getOriginalUserGroupId",
+      "type": "function",
+      "name": "getOriginalUserGroupId",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/UserGroupModelImpl.java",
+      "summary": "getOriginalUserGroupId() in UserGroupModelImpl.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "function:com/liferay/portal/model/impl/UserGroupModelImpl:UserGroupModelImpl:getCompanyId",
+      "type": "function",
+      "name": "getCompanyId",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/UserGroupModelImpl.java",
+      "summary": "getCompanyId() in UserGroupModelImpl.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low"
+    }
+  ],
+  "edges": []
+}

@@ -1,0 +1,1620 @@
+{
+  "nodes": [
+    {
+      "id": "file:com/liferay/portal/model/impl/RegionLocalizationBaseImpl",
+      "type": "file",
+      "name": "RegionLocalizationBaseImpl.java",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/RegionLocalizationBaseImpl.java",
+      "summary": "RegionLocalizationBaseImpl.java - com/liferay/portal/model/impl/RegionLocalizationBaseImpl",
+      "tags": [
+        "code",
+        "java",
+        "class-definition"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "class:com/liferay/portal/model/impl/RegionLocalizationBaseImpl:RegionLocalizationBaseImpl",
+      "type": "class",
+      "name": "RegionLocalizationBaseImpl",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/RegionLocalizationBaseImpl.java",
+      "summary": "RegionLocalizationBaseImpl class in RegionLocalizationBaseImpl.java",
+      "tags": [
+        "class"
+      ],
+      "complexity": "low",
+      "methods": [],
+      "properties": []
+    },
+    {
+      "id": "file:com/liferay/portal/kernel/model/RegionLocalization",
+      "type": "file",
+      "name": "RegionLocalization.java",
+      "filePath": "portal-kernel/src/com/liferay/portal/kernel/model/RegionLocalization.java",
+      "summary": "RegionLocalization.java - com/liferay/portal/kernel/model/RegionLocalization",
+      "tags": [
+        "code",
+        "java",
+        "imported"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "file:com/liferay/portal/model/impl/RegionLocalizationCacheModel",
+      "type": "file",
+      "name": "RegionLocalizationCacheModel.java",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/RegionLocalizationCacheModel.java",
+      "summary": "RegionLocalizationCacheModel.java - com/liferay/portal/model/impl/RegionLocalizationCacheModel",
+      "tags": [
+        "code",
+        "java",
+        "class-definition"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "class:com/liferay/portal/model/impl/RegionLocalizationCacheModel:RegionLocalizationCacheModel",
+      "type": "class",
+      "name": "RegionLocalizationCacheModel",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/RegionLocalizationCacheModel.java",
+      "summary": "RegionLocalizationCacheModel class in RegionLocalizationCacheModel.java",
+      "tags": [
+        "class"
+      ],
+      "complexity": "low",
+      "methods": [
+        "equals",
+        "hashCode",
+        "getMvccVersion",
+        "setMvccVersion",
+        "toString",
+        "toEntityModel",
+        "readExternal",
+        "writeExternal"
+      ],
+      "properties": [
+        "mvccVersion",
+        "ctCollectionId",
+        "regionLocalizationId",
+        "companyId",
+        "regionId",
+        "languageId",
+        "title"
+      ]
+    },
+    {
+      "id": "function:com/liferay/portal/model/impl/RegionLocalizationCacheModel:RegionLocalizationCacheModel:equals",
+      "type": "function",
+      "name": "equals",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/RegionLocalizationCacheModel.java",
+      "summary": "equals() in RegionLocalizationCacheModel.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "function:com/liferay/portal/model/impl/RegionLocalizationCacheModel:RegionLocalizationCacheModel:hashCode",
+      "type": "function",
+      "name": "hashCode",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/RegionLocalizationCacheModel.java",
+      "summary": "hashCode() in RegionLocalizationCacheModel.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "function:com/liferay/portal/model/impl/RegionLocalizationCacheModel:RegionLocalizationCacheModel:getMvccVersion",
+      "type": "function",
+      "name": "getMvccVersion",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/RegionLocalizationCacheModel.java",
+      "summary": "getMvccVersion() in RegionLocalizationCacheModel.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "function:com/liferay/portal/model/impl/RegionLocalizationCacheModel:RegionLocalizationCacheModel:setMvccVersion",
+      "type": "function",
+      "name": "setMvccVersion",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/RegionLocalizationCacheModel.java",
+      "summary": "setMvccVersion() in RegionLocalizationCacheModel.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "function:com/liferay/portal/model/impl/RegionLocalizationCacheModel:RegionLocalizationCacheModel:toString",
+      "type": "function",
+      "name": "toString",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/RegionLocalizationCacheModel.java",
+      "summary": "toString() in RegionLocalizationCacheModel.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "function:com/liferay/portal/model/impl/RegionLocalizationCacheModel:RegionLocalizationCacheModel:toEntityModel",
+      "type": "function",
+      "name": "toEntityModel",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/RegionLocalizationCacheModel.java",
+      "summary": "toEntityModel() in RegionLocalizationCacheModel.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "function:com/liferay/portal/model/impl/RegionLocalizationCacheModel:RegionLocalizationCacheModel:readExternal",
+      "type": "function",
+      "name": "readExternal",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/RegionLocalizationCacheModel.java",
+      "summary": "readExternal() in RegionLocalizationCacheModel.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "function:com/liferay/portal/model/impl/RegionLocalizationCacheModel:RegionLocalizationCacheModel:writeExternal",
+      "type": "function",
+      "name": "writeExternal",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/RegionLocalizationCacheModel.java",
+      "summary": "writeExternal() in RegionLocalizationCacheModel.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "file:com/liferay/portal/kernel/model/CacheModel",
+      "type": "file",
+      "name": "CacheModel.java",
+      "filePath": "portal-kernel/src/com/liferay/portal/kernel/model/CacheModel.java",
+      "summary": "CacheModel.java - com/liferay/portal/kernel/model/CacheModel",
+      "tags": [
+        "code",
+        "java",
+        "imported"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "file:com/liferay/portal/kernel/model/MVCCModel",
+      "type": "file",
+      "name": "MVCCModel.java",
+      "filePath": "portal-kernel/src/com/liferay/portal/kernel/model/MVCCModel.java",
+      "summary": "MVCCModel.java - com/liferay/portal/kernel/model/MVCCModel",
+      "tags": [
+        "code",
+        "java",
+        "imported"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "file:com/liferay/portal/model/impl/RegionLocalizationModelImpl",
+      "type": "file",
+      "name": "RegionLocalizationModelImpl.java",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/RegionLocalizationModelImpl.java",
+      "summary": "RegionLocalizationModelImpl.java - com/liferay/portal/model/impl/RegionLocalizationModelImpl",
+      "tags": [
+        "code",
+        "java",
+        "class-definition"
+      ],
+      "complexity": "medium"
+    },
+    {
+      "id": "class:com/liferay/portal/model/impl/RegionLocalizationModelImpl:RegionLocalizationModelImpl",
+      "type": "class",
+      "name": "RegionLocalizationModelImpl",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/RegionLocalizationModelImpl.java",
+      "summary": "RegionLocalizationModelImpl class in RegionLocalizationModelImpl.java",
+      "tags": [
+        "class"
+      ],
+      "complexity": "high",
+      "methods": [
+        "RegionLocalizationModelImpl",
+        "getPrimaryKey",
+        "setPrimaryKey",
+        "getPrimaryKeyObj",
+        "setPrimaryKeyObj",
+        "getModelClass",
+        "getModelClassName",
+        "getModelAttributes",
+        "setModelAttributes",
+        "getAttributeGetterFunctions",
+        "getAttributeSetterBiConsumers",
+        "getMvccVersion",
+        "setMvccVersion",
+        "getCtCollectionId",
+        "setCtCollectionId",
+        "getRegionLocalizationId",
+        "setRegionLocalizationId",
+        "getCompanyId",
+        "setCompanyId",
+        "getRegionId",
+        "setRegionId",
+        "getOriginalRegionId",
+        "getLanguageId",
+        "setLanguageId",
+        "getOriginalLanguageId",
+        "getTitle",
+        "setTitle",
+        "getColumnBitmask",
+        "getExpandoBridge",
+        "setExpandoBridgeAttributes",
+        "toEscapedModel",
+        "clone",
+        "cloneWithOriginalValues",
+        "compareTo",
+        "equals",
+        "hashCode",
+        "isEntityCacheEnabled",
+        "isFinderCacheEnabled",
+        "resetOriginalValues",
+        "toCacheModel",
+        "toString",
+        "getColumnValue",
+        "getColumnOriginalValue",
+        "_setColumnOriginalValues",
+        "getColumnBitmask"
+      ],
+      "properties": [
+        "TABLE_NAME",
+        "TABLE_COLUMNS",
+        "TABLE_COLUMNS_MAP",
+        "TABLE_SQL_CREATE",
+        "TABLE_SQL_DROP",
+        "ORDER_BY_JPQL",
+        "ORDER_BY_SQL",
+        "DATA_SOURCE",
+        "SESSION_FACTORY",
+        "TX_MANAGER",
+        "ENTITY_CACHE_ENABLED",
+        "FINDER_CACHE_ENABLED",
+        "COLUMN_BITMASK_ENABLED",
+        "LANGUAGEID_COLUMN_BITMASK",
+        "REGIONID_COLUMN_BITMASK",
+        "REGIONLOCALIZATIONID_COLUMN_BITMASK",
+        "LOCK_EXPIRATION_TIME",
+        "_mvccVersion",
+        "_ctCollectionId",
+        "_regionLocalizationId",
+        "_companyId",
+        "_regionId",
+        "_languageId",
+        "_title",
+        "_columnOriginalValues",
+        "_columnBitmasks",
+        "_columnBitmask",
+        "_escapedModel"
+      ]
+    },
+    {
+      "id": "function:com/liferay/portal/model/impl/RegionLocalizationModelImpl:RegionLocalizationModelImpl:getPrimaryKey",
+      "type": "function",
+      "name": "getPrimaryKey",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/RegionLocalizationModelImpl.java",
+      "summary": "getPrimaryKey() in RegionLocalizationModelImpl.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "function:com/liferay/portal/model/impl/RegionLocalizationModelImpl:RegionLocalizationModelImpl:setPrimaryKey",
+      "type": "function",
+      "name": "setPrimaryKey",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/RegionLocalizationModelImpl.java",
+      "summary": "setPrimaryKey() in RegionLocalizationModelImpl.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "function:com/liferay/portal/model/impl/RegionLocalizationModelImpl:RegionLocalizationModelImpl:getPrimaryKeyObj",
+      "type": "function",
+      "name": "getPrimaryKeyObj",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/RegionLocalizationModelImpl.java",
+      "summary": "getPrimaryKeyObj() in RegionLocalizationModelImpl.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "function:com/liferay/portal/model/impl/RegionLocalizationModelImpl:RegionLocalizationModelImpl:setPrimaryKeyObj",
+      "type": "function",
+      "name": "setPrimaryKeyObj",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/RegionLocalizationModelImpl.java",
+      "summary": "setPrimaryKeyObj() in RegionLocalizationModelImpl.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "function:com/liferay/portal/model/impl/RegionLocalizationModelImpl:RegionLocalizationModelImpl:getModelClass",
+      "type": "function",
+      "name": "getModelClass",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/RegionLocalizationModelImpl.java",
+      "summary": "getModelClass() in RegionLocalizationModelImpl.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "function:com/liferay/portal/model/impl/RegionLocalizationModelImpl:RegionLocalizationModelImpl:getModelClassName",
+      "type": "function",
+      "name": "getModelClassName",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/RegionLocalizationModelImpl.java",
+      "summary": "getModelClassName() in RegionLocalizationModelImpl.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "function:com/liferay/portal/model/impl/RegionLocalizationModelImpl:RegionLocalizationModelImpl:getModelAttributes",
+      "type": "function",
+      "name": "getModelAttributes",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/RegionLocalizationModelImpl.java",
+      "summary": "getModelAttributes() in RegionLocalizationModelImpl.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "function:com/liferay/portal/model/impl/RegionLocalizationModelImpl:RegionLocalizationModelImpl:setModelAttributes",
+      "type": "function",
+      "name": "setModelAttributes",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/RegionLocalizationModelImpl.java",
+      "summary": "setModelAttributes() in RegionLocalizationModelImpl.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "function:com/liferay/portal/model/impl/RegionLocalizationModelImpl:RegionLocalizationModelImpl:getAttributeGetterFunctions",
+      "type": "function",
+      "name": "getAttributeGetterFunctions",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/RegionLocalizationModelImpl.java",
+      "summary": "getAttributeGetterFunctions() in RegionLocalizationModelImpl.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "function:com/liferay/portal/model/impl/RegionLocalizationModelImpl:RegionLocalizationModelImpl:getAttributeSetterBiConsumers",
+      "type": "function",
+      "name": "getAttributeSetterBiConsumers",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/RegionLocalizationModelImpl.java",
+      "summary": "getAttributeSetterBiConsumers() in RegionLocalizationModelImpl.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "function:com/liferay/portal/model/impl/RegionLocalizationModelImpl:RegionLocalizationModelImpl:getMvccVersion",
+      "type": "function",
+      "name": "getMvccVersion",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/RegionLocalizationModelImpl.java",
+      "summary": "getMvccVersion() in RegionLocalizationModelImpl.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "function:com/liferay/portal/model/impl/RegionLocalizationModelImpl:RegionLocalizationModelImpl:setMvccVersion",
+      "type": "function",
+      "name": "setMvccVersion",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/RegionLocalizationModelImpl.java",
+      "summary": "setMvccVersion() in RegionLocalizationModelImpl.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "function:com/liferay/portal/model/impl/RegionLocalizationModelImpl:RegionLocalizationModelImpl:getCtCollectionId",
+      "type": "function",
+      "name": "getCtCollectionId",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/RegionLocalizationModelImpl.java",
+      "summary": "getCtCollectionId() in RegionLocalizationModelImpl.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "function:com/liferay/portal/model/impl/RegionLocalizationModelImpl:RegionLocalizationModelImpl:setCtCollectionId",
+      "type": "function",
+      "name": "setCtCollectionId",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/RegionLocalizationModelImpl.java",
+      "summary": "setCtCollectionId() in RegionLocalizationModelImpl.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "function:com/liferay/portal/model/impl/RegionLocalizationModelImpl:RegionLocalizationModelImpl:getRegionLocalizationId",
+      "type": "function",
+      "name": "getRegionLocalizationId",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/RegionLocalizationModelImpl.java",
+      "summary": "getRegionLocalizationId() in RegionLocalizationModelImpl.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "function:com/liferay/portal/model/impl/RegionLocalizationModelImpl:RegionLocalizationModelImpl:setRegionLocalizationId",
+      "type": "function",
+      "name": "setRegionLocalizationId",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/RegionLocalizationModelImpl.java",
+      "summary": "setRegionLocalizationId() in RegionLocalizationModelImpl.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "function:com/liferay/portal/model/impl/RegionLocalizationModelImpl:RegionLocalizationModelImpl:getCompanyId",
+      "type": "function",
+      "name": "getCompanyId",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/RegionLocalizationModelImpl.java",
+      "summary": "getCompanyId() in RegionLocalizationModelImpl.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "function:com/liferay/portal/model/impl/RegionLocalizationModelImpl:RegionLocalizationModelImpl:setCompanyId",
+      "type": "function",
+      "name": "setCompanyId",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/RegionLocalizationModelImpl.java",
+      "summary": "setCompanyId() in RegionLocalizationModelImpl.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "function:com/liferay/portal/model/impl/RegionLocalizationModelImpl:RegionLocalizationModelImpl:getRegionId",
+      "type": "function",
+      "name": "getRegionId",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/RegionLocalizationModelImpl.java",
+      "summary": "getRegionId() in RegionLocalizationModelImpl.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "function:com/liferay/portal/model/impl/RegionLocalizationModelImpl:RegionLocalizationModelImpl:setRegionId",
+      "type": "function",
+      "name": "setRegionId",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/RegionLocalizationModelImpl.java",
+      "summary": "setRegionId() in RegionLocalizationModelImpl.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "function:com/liferay/portal/model/impl/RegionLocalizationModelImpl:RegionLocalizationModelImpl:getOriginalRegionId",
+      "type": "function",
+      "name": "getOriginalRegionId",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/RegionLocalizationModelImpl.java",
+      "summary": "getOriginalRegionId() in RegionLocalizationModelImpl.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "function:com/liferay/portal/model/impl/RegionLocalizationModelImpl:RegionLocalizationModelImpl:getLanguageId",
+      "type": "function",
+      "name": "getLanguageId",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/RegionLocalizationModelImpl.java",
+      "summary": "getLanguageId() in RegionLocalizationModelImpl.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "function:com/liferay/portal/model/impl/RegionLocalizationModelImpl:RegionLocalizationModelImpl:setLanguageId",
+      "type": "function",
+      "name": "setLanguageId",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/RegionLocalizationModelImpl.java",
+      "summary": "setLanguageId() in RegionLocalizationModelImpl.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "function:com/liferay/portal/model/impl/RegionLocalizationModelImpl:RegionLocalizationModelImpl:getOriginalLanguageId",
+      "type": "function",
+      "name": "getOriginalLanguageId",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/RegionLocalizationModelImpl.java",
+      "summary": "getOriginalLanguageId() in RegionLocalizationModelImpl.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "function:com/liferay/portal/model/impl/RegionLocalizationModelImpl:RegionLocalizationModelImpl:getTitle",
+      "type": "function",
+      "name": "getTitle",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/RegionLocalizationModelImpl.java",
+      "summary": "getTitle() in RegionLocalizationModelImpl.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "function:com/liferay/portal/model/impl/RegionLocalizationModelImpl:RegionLocalizationModelImpl:setTitle",
+      "type": "function",
+      "name": "setTitle",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/RegionLocalizationModelImpl.java",
+      "summary": "setTitle() in RegionLocalizationModelImpl.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "function:com/liferay/portal/model/impl/RegionLocalizationModelImpl:RegionLocalizationModelImpl:getColumnBitmask",
+      "type": "function",
+      "name": "getColumnBitmask",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/RegionLocalizationModelImpl.java",
+      "summary": "getColumnBitmask() in RegionLocalizationModelImpl.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "function:com/liferay/portal/model/impl/RegionLocalizationModelImpl:RegionLocalizationModelImpl:getExpandoBridge",
+      "type": "function",
+      "name": "getExpandoBridge",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/RegionLocalizationModelImpl.java",
+      "summary": "getExpandoBridge() in RegionLocalizationModelImpl.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "function:com/liferay/portal/model/impl/RegionLocalizationModelImpl:RegionLocalizationModelImpl:setExpandoBridgeAttributes",
+      "type": "function",
+      "name": "setExpandoBridgeAttributes",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/RegionLocalizationModelImpl.java",
+      "summary": "setExpandoBridgeAttributes() in RegionLocalizationModelImpl.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "function:com/liferay/portal/model/impl/RegionLocalizationModelImpl:RegionLocalizationModelImpl:toEscapedModel",
+      "type": "function",
+      "name": "toEscapedModel",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/RegionLocalizationModelImpl.java",
+      "summary": "toEscapedModel() in RegionLocalizationModelImpl.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "function:com/liferay/portal/model/impl/RegionLocalizationModelImpl:RegionLocalizationModelImpl:clone",
+      "type": "function",
+      "name": "clone",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/RegionLocalizationModelImpl.java",
+      "summary": "clone() in RegionLocalizationModelImpl.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "function:com/liferay/portal/model/impl/RegionLocalizationModelImpl:RegionLocalizationModelImpl:equals",
+      "type": "function",
+      "name": "equals",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/RegionLocalizationModelImpl.java",
+      "summary": "equals() in RegionLocalizationModelImpl.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "function:com/liferay/portal/model/impl/RegionLocalizationModelImpl:RegionLocalizationModelImpl:hashCode",
+      "type": "function",
+      "name": "hashCode",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/RegionLocalizationModelImpl.java",
+      "summary": "hashCode() in RegionLocalizationModelImpl.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "function:com/liferay/portal/model/impl/RegionLocalizationModelImpl:RegionLocalizationModelImpl:isEntityCacheEnabled",
+      "type": "function",
+      "name": "isEntityCacheEnabled",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/RegionLocalizationModelImpl.java",
+      "summary": "isEntityCacheEnabled() in RegionLocalizationModelImpl.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "function:com/liferay/portal/model/impl/RegionLocalizationModelImpl:RegionLocalizationModelImpl:isFinderCacheEnabled",
+      "type": "function",
+      "name": "isFinderCacheEnabled",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/RegionLocalizationModelImpl.java",
+      "summary": "isFinderCacheEnabled() in RegionLocalizationModelImpl.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "function:com/liferay/portal/model/impl/RegionLocalizationModelImpl:RegionLocalizationModelImpl:resetOriginalValues",
+      "type": "function",
+      "name": "resetOriginalValues",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/RegionLocalizationModelImpl.java",
+      "summary": "resetOriginalValues() in RegionLocalizationModelImpl.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "function:com/liferay/portal/model/impl/RegionLocalizationModelImpl:RegionLocalizationModelImpl:toCacheModel",
+      "type": "function",
+      "name": "toCacheModel",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/RegionLocalizationModelImpl.java",
+      "summary": "toCacheModel() in RegionLocalizationModelImpl.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "function:com/liferay/portal/model/impl/RegionLocalizationModelImpl:RegionLocalizationModelImpl:toString",
+      "type": "function",
+      "name": "toString",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/RegionLocalizationModelImpl.java",
+      "summary": "toString() in RegionLocalizationModelImpl.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "function:com/liferay/portal/model/impl/RegionLocalizationModelImpl:RegionLocalizationModelImpl:getColumnValue",
+      "type": "function",
+      "name": "getColumnValue",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/RegionLocalizationModelImpl.java",
+      "summary": "getColumnValue() in RegionLocalizationModelImpl.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "function:com/liferay/portal/model/impl/RegionLocalizationModelImpl:RegionLocalizationModelImpl:getColumnOriginalValue",
+      "type": "function",
+      "name": "getColumnOriginalValue",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/RegionLocalizationModelImpl.java",
+      "summary": "getColumnOriginalValue() in RegionLocalizationModelImpl.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "function:com/liferay/portal/model/impl/RegionLocalizationModelImpl:RegionLocalizationModelImpl:getColumnBitmask_2",
+      "type": "function",
+      "name": "getColumnBitmask",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/RegionLocalizationModelImpl.java",
+      "summary": "getColumnBitmask() in RegionLocalizationModelImpl.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "file:com/liferay/expando/kernel/model/ExpandoBridge",
+      "type": "file",
+      "name": "ExpandoBridge.java",
+      "filePath": "portal-kernel/src/com/liferay/expando/kernel/model/ExpandoBridge.java",
+      "summary": "ExpandoBridge.java - com/liferay/expando/kernel/model/ExpandoBridge",
+      "tags": [
+        "code",
+        "java",
+        "imported"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "file:com/liferay/expando/kernel/util/ExpandoBridgeFactoryUtil",
+      "type": "file",
+      "name": "ExpandoBridgeFactoryUtil.java",
+      "filePath": "portal-kernel/src/com/liferay/expando/kernel/util/ExpandoBridgeFactoryUtil.java",
+      "summary": "ExpandoBridgeFactoryUtil.java - com/liferay/expando/kernel/util/ExpandoBridgeFactoryUtil",
+      "tags": [
+        "code",
+        "java",
+        "imported"
+      ],
+      "complexity": "low"
+    }
+  ],
+  "edges": [
+    {
+      "source": "file:com/liferay/portal/model/impl/RegionLocalizationBaseImpl",
+      "target": "class:com/liferay/portal/model/impl/RegionLocalizationBaseImpl:RegionLocalizationBaseImpl",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:com/liferay/portal/model/impl/RegionLocalizationBaseImpl",
+      "target": "class:com/liferay/portal/model/impl/RegionLocalizationBaseImpl:RegionLocalizationBaseImpl",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:com/liferay/portal/model/impl/RegionLocalizationBaseImpl",
+      "target": "file:com/liferay/portal/kernel/model/RegionLocalization",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:com/liferay/portal/model/impl/RegionLocalizationCacheModel",
+      "target": "class:com/liferay/portal/model/impl/RegionLocalizationCacheModel:RegionLocalizationCacheModel",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:com/liferay/portal/model/impl/RegionLocalizationCacheModel",
+      "target": "function:com/liferay/portal/model/impl/RegionLocalizationCacheModel:RegionLocalizationCacheModel:equals",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:com/liferay/portal/model/impl/RegionLocalizationCacheModel",
+      "target": "function:com/liferay/portal/model/impl/RegionLocalizationCacheModel:RegionLocalizationCacheModel:equals",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:com/liferay/portal/model/impl/RegionLocalizationCacheModel",
+      "target": "function:com/liferay/portal/model/impl/RegionLocalizationCacheModel:RegionLocalizationCacheModel:hashCode",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:com/liferay/portal/model/impl/RegionLocalizationCacheModel",
+      "target": "function:com/liferay/portal/model/impl/RegionLocalizationCacheModel:RegionLocalizationCacheModel:hashCode",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:com/liferay/portal/model/impl/RegionLocalizationCacheModel",
+      "target": "function:com/liferay/portal/model/impl/RegionLocalizationCacheModel:RegionLocalizationCacheModel:getMvccVersion",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:com/liferay/portal/model/impl/RegionLocalizationCacheModel",
+      "target": "function:com/liferay/portal/model/impl/RegionLocalizationCacheModel:RegionLocalizationCacheModel:getMvccVersion",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:com/liferay/portal/model/impl/RegionLocalizationCacheModel",
+      "target": "function:com/liferay/portal/model/impl/RegionLocalizationCacheModel:RegionLocalizationCacheModel:setMvccVersion",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:com/liferay/portal/model/impl/RegionLocalizationCacheModel",
+      "target": "function:com/liferay/portal/model/impl/RegionLocalizationCacheModel:RegionLocalizationCacheModel:setMvccVersion",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:com/liferay/portal/model/impl/RegionLocalizationCacheModel",
+      "target": "function:com/liferay/portal/model/impl/RegionLocalizationCacheModel:RegionLocalizationCacheModel:toString",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:com/liferay/portal/model/impl/RegionLocalizationCacheModel",
+      "target": "function:com/liferay/portal/model/impl/RegionLocalizationCacheModel:RegionLocalizationCacheModel:toString",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:com/liferay/portal/model/impl/RegionLocalizationCacheModel",
+      "target": "function:com/liferay/portal/model/impl/RegionLocalizationCacheModel:RegionLocalizationCacheModel:toEntityModel",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:com/liferay/portal/model/impl/RegionLocalizationCacheModel",
+      "target": "function:com/liferay/portal/model/impl/RegionLocalizationCacheModel:RegionLocalizationCacheModel:toEntityModel",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:com/liferay/portal/model/impl/RegionLocalizationCacheModel",
+      "target": "function:com/liferay/portal/model/impl/RegionLocalizationCacheModel:RegionLocalizationCacheModel:readExternal",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:com/liferay/portal/model/impl/RegionLocalizationCacheModel",
+      "target": "function:com/liferay/portal/model/impl/RegionLocalizationCacheModel:RegionLocalizationCacheModel:readExternal",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:com/liferay/portal/model/impl/RegionLocalizationCacheModel",
+      "target": "function:com/liferay/portal/model/impl/RegionLocalizationCacheModel:RegionLocalizationCacheModel:writeExternal",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:com/liferay/portal/model/impl/RegionLocalizationCacheModel",
+      "target": "function:com/liferay/portal/model/impl/RegionLocalizationCacheModel:RegionLocalizationCacheModel:writeExternal",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:com/liferay/portal/model/impl/RegionLocalizationCacheModel",
+      "target": "class:com/liferay/portal/model/impl/RegionLocalizationCacheModel:RegionLocalizationCacheModel",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:com/liferay/portal/model/impl/RegionLocalizationCacheModel",
+      "target": "file:com/liferay/portal/kernel/model/CacheModel",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:com/liferay/portal/model/impl/RegionLocalizationCacheModel",
+      "target": "file:com/liferay/portal/kernel/model/MVCCModel",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:com/liferay/portal/model/impl/RegionLocalizationCacheModel",
+      "target": "file:com/liferay/portal/kernel/model/RegionLocalization",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:com/liferay/portal/model/impl/RegionLocalizationModelImpl",
+      "target": "class:com/liferay/portal/model/impl/RegionLocalizationModelImpl:RegionLocalizationModelImpl",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:com/liferay/portal/model/impl/RegionLocalizationModelImpl",
+      "target": "function:com/liferay/portal/model/impl/RegionLocalizationModelImpl:RegionLocalizationModelImpl:getPrimaryKey",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:com/liferay/portal/model/impl/RegionLocalizationModelImpl",
+      "target": "function:com/liferay/portal/model/impl/RegionLocalizationModelImpl:RegionLocalizationModelImpl:getPrimaryKey",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:com/liferay/portal/model/impl/RegionLocalizationModelImpl",
+      "target": "function:com/liferay/portal/model/impl/RegionLocalizationModelImpl:RegionLocalizationModelImpl:setPrimaryKey",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:com/liferay/portal/model/impl/RegionLocalizationModelImpl",
+      "target": "function:com/liferay/portal/model/impl/RegionLocalizationModelImpl:RegionLocalizationModelImpl:setPrimaryKey",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:com/liferay/portal/model/impl/RegionLocalizationModelImpl",
+      "target": "function:com/liferay/portal/model/impl/RegionLocalizationModelImpl:RegionLocalizationModelImpl:getPrimaryKeyObj",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:com/liferay/portal/model/impl/RegionLocalizationModelImpl",
+      "target": "function:com/liferay/portal/model/impl/RegionLocalizationModelImpl:RegionLocalizationModelImpl:getPrimaryKeyObj",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:com/liferay/portal/model/impl/RegionLocalizationModelImpl",
+      "target": "function:com/liferay/portal/model/impl/RegionLocalizationModelImpl:RegionLocalizationModelImpl:setPrimaryKeyObj",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:com/liferay/portal/model/impl/RegionLocalizationModelImpl",
+      "target": "function:com/liferay/portal/model/impl/RegionLocalizationModelImpl:RegionLocalizationModelImpl:setPrimaryKeyObj",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:com/liferay/portal/model/impl/RegionLocalizationModelImpl",
+      "target": "function:com/liferay/portal/model/impl/RegionLocalizationModelImpl:RegionLocalizationModelImpl:getModelClass",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:com/liferay/portal/model/impl/RegionLocalizationModelImpl",
+      "target": "function:com/liferay/portal/model/impl/RegionLocalizationModelImpl:RegionLocalizationModelImpl:getModelClass",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:com/liferay/portal/model/impl/RegionLocalizationModelImpl",
+      "target": "function:com/liferay/portal/model/impl/RegionLocalizationModelImpl:RegionLocalizationModelImpl:getModelClassName",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:com/liferay/portal/model/impl/RegionLocalizationModelImpl",
+      "target": "function:com/liferay/portal/model/impl/RegionLocalizationModelImpl:RegionLocalizationModelImpl:getModelClassName",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:com/liferay/portal/model/impl/RegionLocalizationModelImpl",
+      "target": "function:com/liferay/portal/model/impl/RegionLocalizationModelImpl:RegionLocalizationModelImpl:getModelAttributes",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:com/liferay/portal/model/impl/RegionLocalizationModelImpl",
+      "target": "function:com/liferay/portal/model/impl/RegionLocalizationModelImpl:RegionLocalizationModelImpl:getModelAttributes",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:com/liferay/portal/model/impl/RegionLocalizationModelImpl",
+      "target": "function:com/liferay/portal/model/impl/RegionLocalizationModelImpl:RegionLocalizationModelImpl:setModelAttributes",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:com/liferay/portal/model/impl/RegionLocalizationModelImpl",
+      "target": "function:com/liferay/portal/model/impl/RegionLocalizationModelImpl:RegionLocalizationModelImpl:setModelAttributes",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:com/liferay/portal/model/impl/RegionLocalizationModelImpl",
+      "target": "function:com/liferay/portal/model/impl/RegionLocalizationModelImpl:RegionLocalizationModelImpl:getAttributeGetterFunctions",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:com/liferay/portal/model/impl/RegionLocalizationModelImpl",
+      "target": "function:com/liferay/portal/model/impl/RegionLocalizationModelImpl:RegionLocalizationModelImpl:getAttributeGetterFunctions",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:com/liferay/portal/model/impl/RegionLocalizationModelImpl",
+      "target": "function:com/liferay/portal/model/impl/RegionLocalizationModelImpl:RegionLocalizationModelImpl:getAttributeSetterBiConsumers",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:com/liferay/portal/model/impl/RegionLocalizationModelImpl",
+      "target": "function:com/liferay/portal/model/impl/RegionLocalizationModelImpl:RegionLocalizationModelImpl:getAttributeSetterBiConsumers",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:com/liferay/portal/model/impl/RegionLocalizationModelImpl",
+      "target": "function:com/liferay/portal/model/impl/RegionLocalizationModelImpl:RegionLocalizationModelImpl:getMvccVersion",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:com/liferay/portal/model/impl/RegionLocalizationModelImpl",
+      "target": "function:com/liferay/portal/model/impl/RegionLocalizationModelImpl:RegionLocalizationModelImpl:getMvccVersion",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:com/liferay/portal/model/impl/RegionLocalizationModelImpl",
+      "target": "function:com/liferay/portal/model/impl/RegionLocalizationModelImpl:RegionLocalizationModelImpl:setMvccVersion",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:com/liferay/portal/model/impl/RegionLocalizationModelImpl",
+      "target": "function:com/liferay/portal/model/impl/RegionLocalizationModelImpl:RegionLocalizationModelImpl:setMvccVersion",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:com/liferay/portal/model/impl/RegionLocalizationModelImpl",
+      "target": "function:com/liferay/portal/model/impl/RegionLocalizationModelImpl:RegionLocalizationModelImpl:getCtCollectionId",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:com/liferay/portal/model/impl/RegionLocalizationModelImpl",
+      "target": "function:com/liferay/portal/model/impl/RegionLocalizationModelImpl:RegionLocalizationModelImpl:getCtCollectionId",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:com/liferay/portal/model/impl/RegionLocalizationModelImpl",
+      "target": "function:com/liferay/portal/model/impl/RegionLocalizationModelImpl:RegionLocalizationModelImpl:setCtCollectionId",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:com/liferay/portal/model/impl/RegionLocalizationModelImpl",
+      "target": "function:com/liferay/portal/model/impl/RegionLocalizationModelImpl:RegionLocalizationModelImpl:setCtCollectionId",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:com/liferay/portal/model/impl/RegionLocalizationModelImpl",
+      "target": "function:com/liferay/portal/model/impl/RegionLocalizationModelImpl:RegionLocalizationModelImpl:getRegionLocalizationId",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:com/liferay/portal/model/impl/RegionLocalizationModelImpl",
+      "target": "function:com/liferay/portal/model/impl/RegionLocalizationModelImpl:RegionLocalizationModelImpl:getRegionLocalizationId",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:com/liferay/portal/model/impl/RegionLocalizationModelImpl",
+      "target": "function:com/liferay/portal/model/impl/RegionLocalizationModelImpl:RegionLocalizationModelImpl:setRegionLocalizationId",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:com/liferay/portal/model/impl/RegionLocalizationModelImpl",
+      "target": "function:com/liferay/portal/model/impl/RegionLocalizationModelImpl:RegionLocalizationModelImpl:setRegionLocalizationId",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:com/liferay/portal/model/impl/RegionLocalizationModelImpl",
+      "target": "function:com/liferay/portal/model/impl/RegionLocalizationModelImpl:RegionLocalizationModelImpl:getCompanyId",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:com/liferay/portal/model/impl/RegionLocalizationModelImpl",
+      "target": "function:com/liferay/portal/model/impl/RegionLocalizationModelImpl:RegionLocalizationModelImpl:getCompanyId",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:com/liferay/portal/model/impl/RegionLocalizationModelImpl",
+      "target": "function:com/liferay/portal/model/impl/RegionLocalizationModelImpl:RegionLocalizationModelImpl:setCompanyId",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:com/liferay/portal/model/impl/RegionLocalizationModelImpl",
+      "target": "function:com/liferay/portal/model/impl/RegionLocalizationModelImpl:RegionLocalizationModelImpl:setCompanyId",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:com/liferay/portal/model/impl/RegionLocalizationModelImpl",
+      "target": "function:com/liferay/portal/model/impl/RegionLocalizationModelImpl:RegionLocalizationModelImpl:getRegionId",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:com/liferay/portal/model/impl/RegionLocalizationModelImpl",
+      "target": "function:com/liferay/portal/model/impl/RegionLocalizationModelImpl:RegionLocalizationModelImpl:getRegionId",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:com/liferay/portal/model/impl/RegionLocalizationModelImpl",
+      "target": "function:com/liferay/portal/model/impl/RegionLocalizationModelImpl:RegionLocalizationModelImpl:setRegionId",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:com/liferay/portal/model/impl/RegionLocalizationModelImpl",
+      "target": "function:com/liferay/portal/model/impl/RegionLocalizationModelImpl:RegionLocalizationModelImpl:setRegionId",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:com/liferay/portal/model/impl/RegionLocalizationModelImpl",
+      "target": "function:com/liferay/portal/model/impl/RegionLocalizationModelImpl:RegionLocalizationModelImpl:getOriginalRegionId",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:com/liferay/portal/model/impl/RegionLocalizationModelImpl",
+      "target": "function:com/liferay/portal/model/impl/RegionLocalizationModelImpl:RegionLocalizationModelImpl:getOriginalRegionId",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:com/liferay/portal/model/impl/RegionLocalizationModelImpl",
+      "target": "function:com/liferay/portal/model/impl/RegionLocalizationModelImpl:RegionLocalizationModelImpl:getLanguageId",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:com/liferay/portal/model/impl/RegionLocalizationModelImpl",
+      "target": "function:com/liferay/portal/model/impl/RegionLocalizationModelImpl:RegionLocalizationModelImpl:getLanguageId",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:com/liferay/portal/model/impl/RegionLocalizationModelImpl",
+      "target": "function:com/liferay/portal/model/impl/RegionLocalizationModelImpl:RegionLocalizationModelImpl:setLanguageId",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:com/liferay/portal/model/impl/RegionLocalizationModelImpl",
+      "target": "function:com/liferay/portal/model/impl/RegionLocalizationModelImpl:RegionLocalizationModelImpl:setLanguageId",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:com/liferay/portal/model/impl/RegionLocalizationModelImpl",
+      "target": "function:com/liferay/portal/model/impl/RegionLocalizationModelImpl:RegionLocalizationModelImpl:getOriginalLanguageId",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:com/liferay/portal/model/impl/RegionLocalizationModelImpl",
+      "target": "function:com/liferay/portal/model/impl/RegionLocalizationModelImpl:RegionLocalizationModelImpl:getOriginalLanguageId",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:com/liferay/portal/model/impl/RegionLocalizationModelImpl",
+      "target": "function:com/liferay/portal/model/impl/RegionLocalizationModelImpl:RegionLocalizationModelImpl:getTitle",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:com/liferay/portal/model/impl/RegionLocalizationModelImpl",
+      "target": "function:com/liferay/portal/model/impl/RegionLocalizationModelImpl:RegionLocalizationModelImpl:getTitle",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:com/liferay/portal/model/impl/RegionLocalizationModelImpl",
+      "target": "function:com/liferay/portal/model/impl/RegionLocalizationModelImpl:RegionLocalizationModelImpl:setTitle",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:com/liferay/portal/model/impl/RegionLocalizationModelImpl",
+      "target": "function:com/liferay/portal/model/impl/RegionLocalizationModelImpl:RegionLocalizationModelImpl:setTitle",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:com/liferay/portal/model/impl/RegionLocalizationModelImpl",
+      "target": "function:com/liferay/portal/model/impl/RegionLocalizationModelImpl:RegionLocalizationModelImpl:getColumnBitmask",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:com/liferay/portal/model/impl/RegionLocalizationModelImpl",
+      "target": "function:com/liferay/portal/model/impl/RegionLocalizationModelImpl:RegionLocalizationModelImpl:getColumnBitmask",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:com/liferay/portal/model/impl/RegionLocalizationModelImpl",
+      "target": "function:com/liferay/portal/model/impl/RegionLocalizationModelImpl:RegionLocalizationModelImpl:getExpandoBridge",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:com/liferay/portal/model/impl/RegionLocalizationModelImpl",
+      "target": "function:com/liferay/portal/model/impl/RegionLocalizationModelImpl:RegionLocalizationModelImpl:getExpandoBridge",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:com/liferay/portal/model/impl/RegionLocalizationModelImpl",
+      "target": "function:com/liferay/portal/model/impl/RegionLocalizationModelImpl:RegionLocalizationModelImpl:setExpandoBridgeAttributes",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:com/liferay/portal/model/impl/RegionLocalizationModelImpl",
+      "target": "function:com/liferay/portal/model/impl/RegionLocalizationModelImpl:RegionLocalizationModelImpl:setExpandoBridgeAttributes",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:com/liferay/portal/model/impl/RegionLocalizationModelImpl",
+      "target": "function:com/liferay/portal/model/impl/RegionLocalizationModelImpl:RegionLocalizationModelImpl:toEscapedModel",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:com/liferay/portal/model/impl/RegionLocalizationModelImpl",
+      "target": "function:com/liferay/portal/model/impl/RegionLocalizationModelImpl:RegionLocalizationModelImpl:toEscapedModel",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:com/liferay/portal/model/impl/RegionLocalizationModelImpl",
+      "target": "function:com/liferay/portal/model/impl/RegionLocalizationModelImpl:RegionLocalizationModelImpl:clone",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:com/liferay/portal/model/impl/RegionLocalizationModelImpl",
+      "target": "function:com/liferay/portal/model/impl/RegionLocalizationModelImpl:RegionLocalizationModelImpl:clone",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:com/liferay/portal/model/impl/RegionLocalizationModelImpl",
+      "target": "function:com/liferay/portal/model/impl/RegionLocalizationModelImpl:RegionLocalizationModelImpl:equals",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:com/liferay/portal/model/impl/RegionLocalizationModelImpl",
+      "target": "function:com/liferay/portal/model/impl/RegionLocalizationModelImpl:RegionLocalizationModelImpl:equals",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:com/liferay/portal/model/impl/RegionLocalizationModelImpl",
+      "target": "function:com/liferay/portal/model/impl/RegionLocalizationModelImpl:RegionLocalizationModelImpl:hashCode",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:com/liferay/portal/model/impl/RegionLocalizationModelImpl",
+      "target": "function:com/liferay/portal/model/impl/RegionLocalizationModelImpl:RegionLocalizationModelImpl:hashCode",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:com/liferay/portal/model/impl/RegionLocalizationModelImpl",
+      "target": "function:com/liferay/portal/model/impl/RegionLocalizationModelImpl:RegionLocalizationModelImpl:isEntityCacheEnabled",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:com/liferay/portal/model/impl/RegionLocalizationModelImpl",
+      "target": "function:com/liferay/portal/model/impl/RegionLocalizationModelImpl:RegionLocalizationModelImpl:isEntityCacheEnabled",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:com/liferay/portal/model/impl/RegionLocalizationModelImpl",
+      "target": "function:com/liferay/portal/model/impl/RegionLocalizationModelImpl:RegionLocalizationModelImpl:isFinderCacheEnabled",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:com/liferay/portal/model/impl/RegionLocalizationModelImpl",
+      "target": "function:com/liferay/portal/model/impl/RegionLocalizationModelImpl:RegionLocalizationModelImpl:isFinderCacheEnabled",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:com/liferay/portal/model/impl/RegionLocalizationModelImpl",
+      "target": "function:com/liferay/portal/model/impl/RegionLocalizationModelImpl:RegionLocalizationModelImpl:resetOriginalValues",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:com/liferay/portal/model/impl/RegionLocalizationModelImpl",
+      "target": "function:com/liferay/portal/model/impl/RegionLocalizationModelImpl:RegionLocalizationModelImpl:resetOriginalValues",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:com/liferay/portal/model/impl/RegionLocalizationModelImpl",
+      "target": "function:com/liferay/portal/model/impl/RegionLocalizationModelImpl:RegionLocalizationModelImpl:toCacheModel",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:com/liferay/portal/model/impl/RegionLocalizationModelImpl",
+      "target": "function:com/liferay/portal/model/impl/RegionLocalizationModelImpl:RegionLocalizationModelImpl:toCacheModel",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:com/liferay/portal/model/impl/RegionLocalizationModelImpl",
+      "target": "function:com/liferay/portal/model/impl/RegionLocalizationModelImpl:RegionLocalizationModelImpl:toString",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:com/liferay/portal/model/impl/RegionLocalizationModelImpl",
+      "target": "function:com/liferay/portal/model/impl/RegionLocalizationModelImpl:RegionLocalizationModelImpl:toString",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:com/liferay/portal/model/impl/RegionLocalizationModelImpl",
+      "target": "function:com/liferay/portal/model/impl/RegionLocalizationModelImpl:RegionLocalizationModelImpl:getColumnValue",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:com/liferay/portal/model/impl/RegionLocalizationModelImpl",
+      "target": "function:com/liferay/portal/model/impl/RegionLocalizationModelImpl:RegionLocalizationModelImpl:getColumnValue",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:com/liferay/portal/model/impl/RegionLocalizationModelImpl",
+      "target": "function:com/liferay/portal/model/impl/RegionLocalizationModelImpl:RegionLocalizationModelImpl:getColumnOriginalValue",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:com/liferay/portal/model/impl/RegionLocalizationModelImpl",
+      "target": "function:com/liferay/portal/model/impl/RegionLocalizationModelImpl:RegionLocalizationModelImpl:getColumnOriginalValue",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:com/liferay/portal/model/impl/RegionLocalizationModelImpl",
+      "target": "function:com/liferay/portal/model/impl/RegionLocalizationModelImpl:RegionLocalizationModelImpl:getColumnBitmask_2",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:com/liferay/portal/model/impl/RegionLocalizationModelImpl",
+      "target": "function:com/liferay/portal/model/impl/RegionLocalizationModelImpl:RegionLocalizationModelImpl:getColumnBitmask_2",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:com/liferay/portal/model/impl/RegionLocalizationModelImpl",
+      "target": "class:com/liferay/portal/model/impl/RegionLocalizationModelImpl:RegionLocalizationModelImpl",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:com/liferay/portal/model/impl/RegionLocalizationModelImpl",
+      "target": "file:com/liferay/expando/kernel/model/ExpandoBridge",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:com/liferay/portal/model/impl/RegionLocalizationModelImpl",
+      "target": "file:com/liferay/expando/kernel/util/ExpandoBridgeFactoryUtil",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:com/liferay/portal/model/impl/RegionLocalizationModelImpl",
+      "target": "file:com/liferay/portal/kernel/model/CacheModel",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:com/liferay/portal/model/impl/RegionLocalizationModelImpl",
+      "target": "file:com/liferay/portal/kernel/model/RegionLocalization",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:com/liferay/portal/model/impl/RegionLocalizationBaseImpl",
+      "target": "file:com/liferay/portal/kernel/model/RegionLocalization",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.5
+    },
+    {
+      "source": "file:com/liferay/portal/model/impl/RegionLocalizationCacheModel",
+      "target": "file:com/liferay/portal/kernel/model/CacheModel",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.5
+    },
+    {
+      "source": "file:com/liferay/portal/model/impl/RegionLocalizationCacheModel",
+      "target": "file:com/liferay/portal/kernel/model/MVCCModel",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.5
+    },
+    {
+      "source": "file:com/liferay/portal/model/impl/RegionLocalizationCacheModel",
+      "target": "file:com/liferay/portal/kernel/model/RegionLocalization",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.5
+    },
+    {
+      "source": "file:com/liferay/portal/model/impl/RegionLocalizationModelImpl",
+      "target": "file:com/liferay/expando/kernel/model/ExpandoBridge",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.5
+    },
+    {
+      "source": "file:com/liferay/portal/model/impl/RegionLocalizationModelImpl",
+      "target": "file:com/liferay/expando/kernel/util/ExpandoBridgeFactoryUtil",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.5
+    },
+    {
+      "source": "file:com/liferay/portal/model/impl/RegionLocalizationModelImpl",
+      "target": "file:com/liferay/portal/kernel/model/CacheModel",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.5
+    },
+    {
+      "source": "file:com/liferay/portal/model/impl/RegionLocalizationModelImpl",
+      "target": "file:com/liferay/portal/kernel/model/RegionLocalization",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.5
+    }
+  ]
+}

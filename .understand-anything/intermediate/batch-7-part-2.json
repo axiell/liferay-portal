@@ -1,0 +1,2461 @@
+{
+  "nodes": [
+    {
+      "id": "function:com/liferay/portal/model/impl/UserImpl:setLanguageId",
+      "type": "function",
+      "name": "setLanguageId",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/UserImpl.java",
+      "summary": "setLanguageId() in UserImpl.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low",
+      "startLine": 1047,
+      "endLine": 1057
+    },
+    {
+      "id": "function:com/liferay/portal/model/impl/UserImpl:setTimeZoneId",
+      "type": "function",
+      "name": "setTimeZoneId",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/UserImpl.java",
+      "summary": "setTimeZoneId() in UserImpl.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low",
+      "startLine": 1084,
+      "endLine": 1095
+    },
+    {
+      "id": "function:com/liferay/portal/model/impl/UserImpl:getProfileFriendlyURL",
+      "type": "function",
+      "name": "getProfileFriendlyURL",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/UserImpl.java",
+      "summary": "getProfileFriendlyURL() in UserImpl.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low",
+      "startLine": 1102,
+      "endLine": 1117
+    },
+    {
+      "id": "function:com/liferay/portal/model/impl/UserImpl:_getOrganizationRelatedGroups",
+      "type": "function",
+      "name": "_getOrganizationRelatedGroups",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/UserImpl.java",
+      "summary": "_getOrganizationRelatedGroups() in UserImpl.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low",
+      "startLine": 1119,
+      "endLine": 1129
+    },
+    {
+      "id": "function:com/liferay/portal/model/impl/UserImpl:_getParentOrganizations",
+      "type": "function",
+      "name": "_getParentOrganizations",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/UserImpl.java",
+      "summary": "_getParentOrganizations() in UserImpl.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low",
+      "startLine": 1131,
+      "endLine": 1149
+    },
+    {
+      "id": "class:com/liferay/portal/model/impl/UserImpl:UserImpl",
+      "type": "class",
+      "name": "UserImpl",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/UserImpl.java",
+      "summary": "UserImpl class in UserImpl.java",
+      "tags": [
+        "class"
+      ],
+      "complexity": "high",
+      "methods": [
+        "fetchContact",
+        "fetchPortraitURL",
+        "getAddresses",
+        "getAllGroups",
+        "getAllRoles",
+        "getBirthday",
+        "getCompanyMx",
+        "getContact",
+        "getDigest",
+        "getDisplayEmailAddress",
+        "getDisplayURL",
+        "getDisplayURL",
+        "getEmailAddresses",
+        "getFemale",
+        "getFullName",
+        "getFullName",
+        "getGroup",
+        "getGroupId",
+        "getGroupIds",
+        "getGroups",
+        "getInheritedGroups",
+        "getInheritedRoles",
+        "getInheritedSiteGroups",
+        "getInheritedSiteRoles",
+        "getInitials",
+        "getLocale",
+        "getLogin",
+        "getMale",
+        "getMySiteGroups",
+        "getMySiteGroups",
+        "getMySiteGroups",
+        "getOrganizationIds",
+        "getOrganizationIds",
+        "getOrganizations",
+        "getOrganizations",
+        "getOrganizations",
+        "getOrganizationsGroups",
+        "getOrganizationsRoles",
+        "getOriginalEmailAddress",
+        "getPasswordModified",
+        "getPasswordPolicy",
+        "getPasswordUnencrypted",
+        "getPhones",
+        "getPortraitURL",
+        "getPrivateLayoutsPageCount",
+        "getPublicLayoutsPageCount",
+        "getReminderQueryQuestions",
+        "getRoleIds",
+        "getRoles",
+        "getSiteGroups",
+        "getSiteGroups",
+        "getSiteRoles",
+        "getTeamIds",
+        "getTeams",
+        "getTimeZone",
+        "getUnlockDate",
+        "getUnlockDate",
+        "getUserGroupIds",
+        "getUserGroupRoles",
+        "getUserGroups",
+        "getWebsites",
+        "hasCompanyMx",
+        "hasCompanyMx",
+        "hasMySites",
+        "hasOrganization",
+        "hasPrivateLayouts",
+        "hasPublicLayouts",
+        "hasReminderQuery",
+        "isActive",
+        "isDefaultUser",
+        "isEmailAddressComplete",
+        "isEmailAddressVerificationComplete",
+        "isFemale",
+        "isGuestUser",
+        "isMale",
+        "isOnDemandUser",
+        "isPasswordModified",
+        "isPasswordResetRequired",
+        "isReminderQueryComplete",
+        "isServiceAccountUser",
+        "isSetupComplete",
+        "isTermsOfUseComplete",
+        "setContact",
+        "setDigest",
+        "setGroup",
+        "setGroupId",
+        "setGroupIds",
+        "setLanguageId",
+        "setOrganizationIds",
+        "setPasswordModified",
+        "setPasswordUnencrypted",
+        "setRoleIds",
+        "setTeamIds",
+        "setTimeZoneId",
+        "setUserGroupIds",
+        "getProfileFriendlyURL",
+        "_getOrganizationRelatedGroups",
+        "_getParentOrganizations",
+        "_isRequirePasswordReset"
+      ],
+      "properties": [
+        "_HAS_USERS_PROFILE_FRIENDLY_URL",
+        "_NULL_CONTACT",
+        "_log",
+        "_contact",
+        "_group",
+        "_groupId",
+        "_groupIds",
+        "_locale",
+        "_organizationIds",
+        "_passwordModified",
+        "_passwordPolicy",
+        "_passwordUnencrypted",
+        "_roleIds",
+        "_teamIds",
+        "_timeZone",
+        "_userGroupIds"
+      ]
+    },
+    {
+      "id": "file:com/liferay/portal/model/impl/VirtualHostBaseImpl",
+      "type": "file",
+      "name": "VirtualHostBaseImpl.java",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/VirtualHostBaseImpl.java",
+      "summary": "VirtualHostBaseImpl.java - com.liferay.portal.model.impl.VirtualHostBaseImpl.java",
+      "tags": [
+        "code",
+        "java",
+        "class-definition",
+        "has-calls"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "file:com/liferay/portal/security/DefaultAdminUtil",
+      "type": "file",
+      "name": "DefaultAdminUtil.java",
+      "filePath": "portal-impl/src/com/liferay/portal/security/DefaultAdminUtil.java",
+      "summary": "DefaultAdminUtil.java - com.liferay.portal.security.DefaultAdminUtil.java",
+      "tags": [
+        "code",
+        "java",
+        "class-definition",
+        "has-calls"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "function:com/liferay/portal/security/DefaultAdminUtil:fetchDefaultAdmin",
+      "type": "function",
+      "name": "fetchDefaultAdmin",
+      "filePath": "portal-impl/src/com/liferay/portal/security/DefaultAdminUtil.java",
+      "summary": "fetchDefaultAdmin() in DefaultAdminUtil.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low",
+      "startLine": 21,
+      "endLine": 30
+    },
+    {
+      "id": "file:com/liferay/portal/security/auth/AuthTokenWhitelistImpl",
+      "type": "file",
+      "name": "AuthTokenWhitelistImpl.java",
+      "filePath": "portal-impl/src/com/liferay/portal/security/auth/AuthTokenWhitelistImpl.java",
+      "summary": "AuthTokenWhitelistImpl.java - com.liferay.portal.security.auth.AuthTokenWhitelistImpl.java",
+      "tags": [
+        "code",
+        "java",
+        "class-definition",
+        "has-calls"
+      ],
+      "complexity": "medium"
+    },
+    {
+      "id": "function:com/liferay/portal/security/auth/AuthTokenWhitelistImpl:isOriginCSRFWhitelisted",
+      "type": "function",
+      "name": "isOriginCSRFWhitelisted",
+      "filePath": "portal-impl/src/com/liferay/portal/security/auth/AuthTokenWhitelistImpl.java",
+      "summary": "isOriginCSRFWhitelisted() in AuthTokenWhitelistImpl.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low",
+      "startLine": 30,
+      "endLine": 42
+    },
+    {
+      "id": "function:com/liferay/portal/security/auth/AuthTokenWhitelistImpl:isPortletInvocationWhitelisted",
+      "type": "function",
+      "name": "isPortletInvocationWhitelisted",
+      "filePath": "portal-impl/src/com/liferay/portal/security/auth/AuthTokenWhitelistImpl.java",
+      "summary": "isPortletInvocationWhitelisted() in AuthTokenWhitelistImpl.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low",
+      "startLine": 54,
+      "endLine": 63
+    },
+    {
+      "id": "function:com/liferay/portal/security/auth/AuthTokenWhitelistImpl:isPortletURLCSRFWhitelisted",
+      "type": "function",
+      "name": "isPortletURLCSRFWhitelisted",
+      "filePath": "portal-impl/src/com/liferay/portal/security/auth/AuthTokenWhitelistImpl.java",
+      "summary": "isPortletURLCSRFWhitelisted() in AuthTokenWhitelistImpl.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low",
+      "startLine": 65,
+      "endLine": 76
+    },
+    {
+      "id": "function:com/liferay/portal/security/auth/AuthTokenWhitelistImpl:isPortletURLPortletInvocationWhitelisted",
+      "type": "function",
+      "name": "isPortletURLPortletInvocationWhitelisted",
+      "filePath": "portal-impl/src/com/liferay/portal/security/auth/AuthTokenWhitelistImpl.java",
+      "summary": "isPortletURLPortletInvocationWhitelisted() in AuthTokenWhitelistImpl.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low",
+      "startLine": 78,
+      "endLine": 88
+    },
+    {
+      "id": "function:com/liferay/portal/security/auth/AuthTokenWhitelistImpl:isValidSharedSecret",
+      "type": "function",
+      "name": "isValidSharedSecret",
+      "filePath": "portal-impl/src/com/liferay/portal/security/auth/AuthTokenWhitelistImpl.java",
+      "summary": "isValidSharedSecret() in AuthTokenWhitelistImpl.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low",
+      "startLine": 90,
+      "endLine": 100
+    },
+    {
+      "id": "function:com/liferay/portal/security/auth/AuthTokenWhitelistImpl:_createOriginCSRFWhitelist",
+      "type": "function",
+      "name": "_createOriginCSRFWhitelist",
+      "filePath": "portal-impl/src/com/liferay/portal/security/auth/AuthTokenWhitelistImpl.java",
+      "summary": "_createOriginCSRFWhitelist() in AuthTokenWhitelistImpl.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low",
+      "startLine": 102,
+      "endLine": 112
+    },
+    {
+      "id": "function:com/liferay/portal/security/auth/AuthTokenWhitelistImpl:_createPortletCSRFWhitelist",
+      "type": "function",
+      "name": "_createPortletCSRFWhitelist",
+      "filePath": "portal-impl/src/com/liferay/portal/security/auth/AuthTokenWhitelistImpl.java",
+      "summary": "_createPortletCSRFWhitelist() in AuthTokenWhitelistImpl.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low",
+      "startLine": 114,
+      "endLine": 124
+    },
+    {
+      "id": "function:com/liferay/portal/security/auth/AuthTokenWhitelistImpl:_createPortletInvocationWhitelist",
+      "type": "function",
+      "name": "_createPortletInvocationWhitelist",
+      "filePath": "portal-impl/src/com/liferay/portal/security/auth/AuthTokenWhitelistImpl.java",
+      "summary": "_createPortletInvocationWhitelist() in AuthTokenWhitelistImpl.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low",
+      "startLine": 126,
+      "endLine": 138
+    },
+    {
+      "id": "class:com/liferay/portal/security/auth/AuthTokenWhitelistImpl:AuthTokenWhitelistImpl",
+      "type": "class",
+      "name": "AuthTokenWhitelistImpl",
+      "filePath": "portal-impl/src/com/liferay/portal/security/auth/AuthTokenWhitelistImpl.java",
+      "summary": "AuthTokenWhitelistImpl class in AuthTokenWhitelistImpl.java",
+      "tags": [
+        "class"
+      ],
+      "complexity": "medium",
+      "methods": [
+        "isOriginCSRFWhitelisted",
+        "isPortletCSRFWhitelisted",
+        "isPortletInvocationWhitelisted",
+        "isPortletURLCSRFWhitelisted",
+        "isPortletURLPortletInvocationWhitelisted",
+        "isValidSharedSecret",
+        "_createOriginCSRFWhitelist",
+        "_createPortletCSRFWhitelist",
+        "_createPortletInvocationWhitelist"
+      ],
+      "properties": [
+        "_originCSRFWhitelist",
+        "_portletCSRFWhitelist",
+        "_portletInvocationWhitelist"
+      ]
+    },
+    {
+      "id": "file:com/liferay/portal/security/auth/InterruptedPortletRequestWhitelistUtil",
+      "type": "file",
+      "name": "InterruptedPortletRequestWhitelistUtil.java",
+      "filePath": "portal-impl/src/com/liferay/portal/security/auth/InterruptedPortletRequestWhitelistUtil.java",
+      "summary": "InterruptedPortletRequestWhitelistUtil.java - com.liferay.portal.security.auth.InterruptedPortletRequestWhitelistUtil.java",
+      "tags": [
+        "code",
+        "java",
+        "class-definition",
+        "has-calls"
+      ],
+      "complexity": "medium"
+    },
+    {
+      "id": "function:com/liferay/portal/security/auth/InterruptedPortletRequestWhitelistUtil:isPortletInvocationWhitelisted",
+      "type": "function",
+      "name": "isPortletInvocationWhitelisted",
+      "filePath": "portal-impl/src/com/liferay/portal/security/auth/InterruptedPortletRequestWhitelistUtil.java",
+      "summary": "isPortletInvocationWhitelisted() in InterruptedPortletRequestWhitelistUtil.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low",
+      "startLine": 26,
+      "endLine": 41
+    },
+    {
+      "id": "function:com/liferay/portal/security/auth/InterruptedPortletRequestWhitelistUtil:resetPortletInvocationWhitelist",
+      "type": "function",
+      "name": "resetPortletInvocationWhitelist",
+      "filePath": "portal-impl/src/com/liferay/portal/security/auth/InterruptedPortletRequestWhitelistUtil.java",
+      "summary": "resetPortletInvocationWhitelist() in InterruptedPortletRequestWhitelistUtil.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low",
+      "startLine": 43,
+      "endLine": 56
+    },
+    {
+      "id": "function:com/liferay/portal/security/auth/InterruptedPortletRequestWhitelistUtil:resetPortletInvocationWhitelistActions",
+      "type": "function",
+      "name": "resetPortletInvocationWhitelistActions",
+      "filePath": "portal-impl/src/com/liferay/portal/security/auth/InterruptedPortletRequestWhitelistUtil.java",
+      "summary": "resetPortletInvocationWhitelistActions() in InterruptedPortletRequestWhitelistUtil.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low",
+      "startLine": 58,
+      "endLine": 71
+    },
+    {
+      "id": "function:com/liferay/portal/security/auth/InterruptedPortletRequestWhitelistUtil:_isValidStrutsAction",
+      "type": "function",
+      "name": "_isValidStrutsAction",
+      "filePath": "portal-impl/src/com/liferay/portal/security/auth/InterruptedPortletRequestWhitelistUtil.java",
+      "summary": "_isValidStrutsAction() in InterruptedPortletRequestWhitelistUtil.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low",
+      "startLine": 73,
+      "endLine": 100
+    },
+    {
+      "id": "class:com/liferay/portal/security/auth/InterruptedPortletRequestWhitelistUtil:InterruptedPortletRequestWhitelistUtil",
+      "type": "class",
+      "name": "InterruptedPortletRequestWhitelistUtil",
+      "filePath": "portal-impl/src/com/liferay/portal/security/auth/InterruptedPortletRequestWhitelistUtil.java",
+      "summary": "InterruptedPortletRequestWhitelistUtil class in InterruptedPortletRequestWhitelistUtil.java",
+      "tags": [
+        "class"
+      ],
+      "complexity": "low",
+      "methods": [
+        "isPortletInvocationWhitelisted",
+        "resetPortletInvocationWhitelist",
+        "resetPortletInvocationWhitelistActions",
+        "_isValidStrutsAction"
+      ],
+      "properties": [
+        "_log",
+        "_portletInvocationWhitelist",
+        "_portletInvocationWhitelistActions"
+      ]
+    },
+    {
+      "id": "file:com/liferay/portal/security/auth/MVCPortletAuthTokenWhitelist",
+      "type": "file",
+      "name": "MVCPortletAuthTokenWhitelist.java",
+      "filePath": "portal-impl/src/com/liferay/portal/security/auth/MVCPortletAuthTokenWhitelist.java",
+      "summary": "MVCPortletAuthTokenWhitelist.java - com.liferay.portal.security.auth.MVCPortletAuthTokenWhitelist.java",
+      "tags": [
+        "code",
+        "java",
+        "class-definition",
+        "has-calls"
+      ],
+      "complexity": "medium"
+    },
+    {
+      "id": "function:com/liferay/portal/security/auth/MVCPortletAuthTokenWhitelist:MVCPortletAuthTokenWhitelist",
+      "type": "function",
+      "name": "MVCPortletAuthTokenWhitelist",
+      "filePath": "portal-impl/src/com/liferay/portal/security/auth/MVCPortletAuthTokenWhitelist.java",
+      "summary": "MVCPortletAuthTokenWhitelist() in MVCPortletAuthTokenWhitelist.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low",
+      "startLine": 47,
+      "endLine": 60
+    },
+    {
+      "id": "function:com/liferay/portal/security/auth/MVCPortletAuthTokenWhitelist:isPortletCSRFWhitelisted",
+      "type": "function",
+      "name": "isPortletCSRFWhitelisted",
+      "filePath": "portal-impl/src/com/liferay/portal/security/auth/MVCPortletAuthTokenWhitelist.java",
+      "summary": "isPortletCSRFWhitelisted() in MVCPortletAuthTokenWhitelist.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low",
+      "startLine": 62,
+      "endLine": 73
+    },
+    {
+      "id": "function:com/liferay/portal/security/auth/MVCPortletAuthTokenWhitelist:isPortletInvocationWhitelisted",
+      "type": "function",
+      "name": "isPortletInvocationWhitelisted",
+      "filePath": "portal-impl/src/com/liferay/portal/security/auth/MVCPortletAuthTokenWhitelist.java",
+      "summary": "isPortletInvocationWhitelisted() in MVCPortletAuthTokenWhitelist.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low",
+      "startLine": 75,
+      "endLine": 119
+    },
+    {
+      "id": "function:com/liferay/portal/security/auth/MVCPortletAuthTokenWhitelist:isPortletURLPortletInvocationWhitelisted",
+      "type": "function",
+      "name": "isPortletURLPortletInvocationWhitelisted",
+      "filePath": "portal-impl/src/com/liferay/portal/security/auth/MVCPortletAuthTokenWhitelist.java",
+      "summary": "isPortletURLPortletInvocationWhitelisted() in MVCPortletAuthTokenWhitelist.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low",
+      "startLine": 130,
+      "endLine": 160
+    },
+    {
+      "id": "function:com/liferay/portal/security/auth/MVCPortletAuthTokenWhitelist:trackWhitelistServices",
+      "type": "function",
+      "name": "trackWhitelistServices",
+      "filePath": "portal-impl/src/com/liferay/portal/security/auth/MVCPortletAuthTokenWhitelist.java",
+      "summary": "trackWhitelistServices() in MVCPortletAuthTokenWhitelist.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low",
+      "startLine": 187,
+      "endLine": 201
+    },
+    {
+      "id": "function:com/liferay/portal/security/auth/MVCPortletAuthTokenWhitelist:_contains",
+      "type": "function",
+      "name": "_contains",
+      "filePath": "portal-impl/src/com/liferay/portal/security/auth/MVCPortletAuthTokenWhitelist.java",
+      "summary": "_contains() in MVCPortletAuthTokenWhitelist.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low",
+      "startLine": 203,
+      "endLine": 213
+    },
+    {
+      "id": "function:com/liferay/portal/security/auth/MVCPortletAuthTokenWhitelist:_containsAll",
+      "type": "function",
+      "name": "_containsAll",
+      "filePath": "portal-impl/src/com/liferay/portal/security/auth/MVCPortletAuthTokenWhitelist.java",
+      "summary": "_containsAll() in MVCPortletAuthTokenWhitelist.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low",
+      "startLine": 215,
+      "endLine": 231
+    },
+    {
+      "id": "class:com/liferay/portal/security/auth/MVCPortletAuthTokenWhitelist:MVCPortletAuthTokenWhitelist",
+      "type": "class",
+      "name": "MVCPortletAuthTokenWhitelist",
+      "filePath": "portal-impl/src/com/liferay/portal/security/auth/MVCPortletAuthTokenWhitelist.java",
+      "summary": "MVCPortletAuthTokenWhitelist class in MVCPortletAuthTokenWhitelist.java",
+      "tags": [
+        "class"
+      ],
+      "complexity": "high",
+      "methods": [
+        "MVCPortletAuthTokenWhitelist",
+        "isPortletCSRFWhitelisted",
+        "isPortletInvocationWhitelisted",
+        "isPortletURLCSRFWhitelisted",
+        "isPortletURLPortletInvocationWhitelisted",
+        "getMVCActionCommandNames",
+        "getMVCActionCommandNames",
+        "getWhitelistValue",
+        "trackWhitelistServices",
+        "_contains",
+        "_containsAll"
+      ],
+      "properties": [
+        "_portletCSRFWhitelist",
+        "_portletInvocationWhitelistAction",
+        "_portletInvocationWhitelistRender",
+        "_portletInvocationWhitelistResource"
+      ]
+    },
+    {
+      "id": "file:com/liferay/portal/security/auth/SessionAuthToken",
+      "type": "file",
+      "name": "SessionAuthToken.java",
+      "filePath": "portal-impl/src/com/liferay/portal/security/auth/SessionAuthToken.java",
+      "summary": "SessionAuthToken.java - com.liferay.portal.security.auth.SessionAuthToken.java",
+      "tags": [
+        "code",
+        "java",
+        "class-definition",
+        "has-calls"
+      ],
+      "complexity": "medium"
+    },
+    {
+      "id": "function:com/liferay/portal/security/auth/SessionAuthToken:addCSRFToken",
+      "type": "function",
+      "name": "addCSRFToken",
+      "filePath": "portal-impl/src/com/liferay/portal/security/auth/SessionAuthToken.java",
+      "summary": "addCSRFToken() in SessionAuthToken.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low",
+      "startLine": 41,
+      "endLine": 60
+    },
+    {
+      "id": "function:com/liferay/portal/security/auth/SessionAuthToken:addPortletInvocationToken",
+      "type": "function",
+      "name": "addPortletInvocationToken",
+      "filePath": "portal-impl/src/com/liferay/portal/security/auth/SessionAuthToken.java",
+      "summary": "addPortletInvocationToken() in SessionAuthToken.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "medium",
+      "startLine": 62,
+      "endLine": 129
+    },
+    {
+      "id": "function:com/liferay/portal/security/auth/SessionAuthToken:checkCSRFToken",
+      "type": "function",
+      "name": "checkCSRFToken",
+      "filePath": "portal-impl/src/com/liferay/portal/security/auth/SessionAuthToken.java",
+      "summary": "checkCSRFToken() in SessionAuthToken.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "medium",
+      "startLine": 131,
+      "endLine": 185
+    },
+    {
+      "id": "function:com/liferay/portal/security/auth/SessionAuthToken:isValidPortletInvocationToken",
+      "type": "function",
+      "name": "isValidPortletInvocationToken",
+      "filePath": "portal-impl/src/com/liferay/portal/security/auth/SessionAuthToken.java",
+      "summary": "isValidPortletInvocationToken() in SessionAuthToken.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low",
+      "startLine": 201,
+      "endLine": 237
+    },
+    {
+      "id": "function:com/liferay/portal/security/auth/SessionAuthToken:getSessionAuthenticationToken",
+      "type": "function",
+      "name": "getSessionAuthenticationToken",
+      "filePath": "portal-impl/src/com/liferay/portal/security/auth/SessionAuthToken.java",
+      "summary": "getSessionAuthenticationToken() in SessionAuthToken.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low",
+      "startLine": 239,
+      "endLine": 251
+    },
+    {
+      "id": "function:com/liferay/portal/security/auth/SessionAuthToken:_getSessionAuthenticationToken",
+      "type": "function",
+      "name": "_getSessionAuthenticationToken",
+      "filePath": "portal-impl/src/com/liferay/portal/security/auth/SessionAuthToken.java",
+      "summary": "_getSessionAuthenticationToken() in SessionAuthToken.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low",
+      "startLine": 253,
+      "endLine": 300
+    },
+    {
+      "id": "function:com/liferay/portal/security/auth/SessionAuthToken:_setNullSessionAuthenticationToken",
+      "type": "function",
+      "name": "_setNullSessionAuthenticationToken",
+      "filePath": "portal-impl/src/com/liferay/portal/security/auth/SessionAuthToken.java",
+      "summary": "_setNullSessionAuthenticationToken() in SessionAuthToken.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low",
+      "startLine": 302,
+      "endLine": 314
+    },
+    {
+      "id": "class:com/liferay/portal/security/auth/SessionAuthToken:SessionAuthToken",
+      "type": "class",
+      "name": "SessionAuthToken",
+      "filePath": "portal-impl/src/com/liferay/portal/security/auth/SessionAuthToken.java",
+      "summary": "SessionAuthToken class in SessionAuthToken.java",
+      "tags": [
+        "class"
+      ],
+      "complexity": "medium",
+      "methods": [
+        "addCSRFToken",
+        "addPortletInvocationToken",
+        "checkCSRFToken",
+        "getToken",
+        "getToken",
+        "isValidPortletInvocationToken",
+        "getSessionAuthenticationToken",
+        "_getSessionAuthenticationToken",
+        "_setNullSessionAuthenticationToken"
+      ],
+      "properties": [
+        "_CSRF",
+        "_NULL_TOKEN",
+        "_log"
+      ]
+    },
+    {
+      "id": "file:com/liferay/portal/security/auth/StrutsPortletAuthTokenWhitelist",
+      "type": "file",
+      "name": "StrutsPortletAuthTokenWhitelist.java",
+      "filePath": "portal-impl/src/com/liferay/portal/security/auth/StrutsPortletAuthTokenWhitelist.java",
+      "summary": "StrutsPortletAuthTokenWhitelist.java - com.liferay.portal.security.auth.StrutsPortletAuthTokenWhitelist.java",
+      "tags": [
+        "code",
+        "java",
+        "class-definition",
+        "has-calls"
+      ],
+      "complexity": "medium"
+    },
+    {
+      "id": "function:com/liferay/portal/security/auth/StrutsPortletAuthTokenWhitelist:isPortletCSRFWhitelisted",
+      "type": "function",
+      "name": "isPortletCSRFWhitelisted",
+      "filePath": "portal-impl/src/com/liferay/portal/security/auth/StrutsPortletAuthTokenWhitelist.java",
+      "summary": "isPortletCSRFWhitelisted() in StrutsPortletAuthTokenWhitelist.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low",
+      "startLine": 34,
+      "endLine": 62
+    },
+    {
+      "id": "function:com/liferay/portal/security/auth/StrutsPortletAuthTokenWhitelist:isPortletInvocationWhitelisted",
+      "type": "function",
+      "name": "isPortletInvocationWhitelisted",
+      "filePath": "portal-impl/src/com/liferay/portal/security/auth/StrutsPortletAuthTokenWhitelist.java",
+      "summary": "isPortletInvocationWhitelisted() in StrutsPortletAuthTokenWhitelist.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low",
+      "startLine": 64,
+      "endLine": 95
+    },
+    {
+      "id": "function:com/liferay/portal/security/auth/StrutsPortletAuthTokenWhitelist:isPortletURLCSRFWhitelisted",
+      "type": "function",
+      "name": "isPortletURLCSRFWhitelisted",
+      "filePath": "portal-impl/src/com/liferay/portal/security/auth/StrutsPortletAuthTokenWhitelist.java",
+      "summary": "isPortletURLCSRFWhitelisted() in StrutsPortletAuthTokenWhitelist.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low",
+      "startLine": 97,
+      "endLine": 133
+    },
+    {
+      "id": "function:com/liferay/portal/security/auth/StrutsPortletAuthTokenWhitelist:isPortletURLPortletInvocationWhitelisted",
+      "type": "function",
+      "name": "isPortletURLPortletInvocationWhitelisted",
+      "filePath": "portal-impl/src/com/liferay/portal/security/auth/StrutsPortletAuthTokenWhitelist.java",
+      "summary": "isPortletURLPortletInvocationWhitelisted() in StrutsPortletAuthTokenWhitelist.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low",
+      "startLine": 135,
+      "endLine": 170
+    },
+    {
+      "id": "function:com/liferay/portal/security/auth/StrutsPortletAuthTokenWhitelist:isValidStrutsAction",
+      "type": "function",
+      "name": "isValidStrutsAction",
+      "filePath": "portal-impl/src/com/liferay/portal/security/auth/StrutsPortletAuthTokenWhitelist.java",
+      "summary": "isValidStrutsAction() in StrutsPortletAuthTokenWhitelist.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low",
+      "startLine": 172,
+      "endLine": 199
+    },
+    {
+      "id": "function:com/liferay/portal/security/auth/StrutsPortletAuthTokenWhitelist:_createPortletCSRFWhitelist",
+      "type": "function",
+      "name": "_createPortletCSRFWhitelist",
+      "filePath": "portal-impl/src/com/liferay/portal/security/auth/StrutsPortletAuthTokenWhitelist.java",
+      "summary": "_createPortletCSRFWhitelist() in StrutsPortletAuthTokenWhitelist.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low",
+      "startLine": 201,
+      "endLine": 211
+    },
+    {
+      "id": "function:com/liferay/portal/security/auth/StrutsPortletAuthTokenWhitelist:_createPortletInvocationWhitelist",
+      "type": "function",
+      "name": "_createPortletInvocationWhitelist",
+      "filePath": "portal-impl/src/com/liferay/portal/security/auth/StrutsPortletAuthTokenWhitelist.java",
+      "summary": "_createPortletInvocationWhitelist() in StrutsPortletAuthTokenWhitelist.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low",
+      "startLine": 213,
+      "endLine": 225
+    },
+    {
+      "id": "class:com/liferay/portal/security/auth/StrutsPortletAuthTokenWhitelist:StrutsPortletAuthTokenWhitelist",
+      "type": "class",
+      "name": "StrutsPortletAuthTokenWhitelist",
+      "filePath": "portal-impl/src/com/liferay/portal/security/auth/StrutsPortletAuthTokenWhitelist.java",
+      "summary": "StrutsPortletAuthTokenWhitelist class in StrutsPortletAuthTokenWhitelist.java",
+      "tags": [
+        "class"
+      ],
+      "complexity": "medium",
+      "methods": [
+        "isPortletCSRFWhitelisted",
+        "isPortletInvocationWhitelisted",
+        "isPortletURLCSRFWhitelisted",
+        "isPortletURLPortletInvocationWhitelisted",
+        "isValidStrutsAction",
+        "_createPortletCSRFWhitelist",
+        "_createPortletInvocationWhitelist"
+      ],
+      "properties": [
+        "_log",
+        "_portletCSRFWhitelistDCLSingleton",
+        "_portletInvocationWhitelistDCLSingleton"
+      ]
+    },
+    {
+      "id": "file:com/liferay/portal/security/auth/http/HttpAuthManagerUtil",
+      "type": "file",
+      "name": "HttpAuthManagerUtil.java",
+      "filePath": "portal-impl/src/com/liferay/portal/security/auth/http/HttpAuthManagerUtil.java",
+      "summary": "HttpAuthManagerUtil.java - com.liferay.portal.security.auth.http.HttpAuthManagerUtil.java",
+      "tags": [
+        "code",
+        "java",
+        "class-definition",
+        "has-calls"
+      ],
+      "complexity": "medium"
+    },
+    {
+      "id": "function:com/liferay/portal/security/auth/http/HttpAuthManagerUtil:generateChallenge",
+      "type": "function",
+      "name": "generateChallenge",
+      "filePath": "portal-impl/src/com/liferay/portal/security/auth/http/HttpAuthManagerUtil.java",
+      "summary": "generateChallenge() in HttpAuthManagerUtil.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low",
+      "startLine": 39,
+      "endLine": 86
+    },
+    {
+      "id": "function:com/liferay/portal/security/auth/http/HttpAuthManagerUtil:getBasicUserId",
+      "type": "function",
+      "name": "getBasicUserId",
+      "filePath": "portal-impl/src/com/liferay/portal/security/auth/http/HttpAuthManagerUtil.java",
+      "summary": "getBasicUserId() in HttpAuthManagerUtil.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low",
+      "startLine": 88,
+      "endLine": 103
+    },
+    {
+      "id": "function:com/liferay/portal/security/auth/http/HttpAuthManagerUtil:getDigestUserId",
+      "type": "function",
+      "name": "getDigestUserId",
+      "filePath": "portal-impl/src/com/liferay/portal/security/auth/http/HttpAuthManagerUtil.java",
+      "summary": "getDigestUserId() in HttpAuthManagerUtil.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low",
+      "startLine": 108,
+      "endLine": 124
+    },
+    {
+      "id": "function:com/liferay/portal/security/auth/http/HttpAuthManagerUtil:getUserId",
+      "type": "function",
+      "name": "getUserId",
+      "filePath": "portal-impl/src/com/liferay/portal/security/auth/http/HttpAuthManagerUtil.java",
+      "summary": "getUserId() in HttpAuthManagerUtil.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low",
+      "startLine": 126,
+      "endLine": 157
+    },
+    {
+      "id": "function:com/liferay/portal/security/auth/http/HttpAuthManagerUtil:parse",
+      "type": "function",
+      "name": "parse",
+      "filePath": "portal-impl/src/com/liferay/portal/security/auth/http/HttpAuthManagerUtil.java",
+      "summary": "parse() in HttpAuthManagerUtil.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low",
+      "startLine": 159,
+      "endLine": 195
+    },
+    {
+      "id": "function:com/liferay/portal/security/auth/http/HttpAuthManagerUtil:_generateDigestChallenge",
+      "type": "function",
+      "name": "_generateDigestChallenge",
+      "filePath": "portal-impl/src/com/liferay/portal/security/auth/http/HttpAuthManagerUtil.java",
+      "summary": "_generateDigestChallenge() in HttpAuthManagerUtil.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low",
+      "startLine": 206,
+      "endLine": 226
+    },
+    {
+      "id": "function:com/liferay/portal/security/auth/http/HttpAuthManagerUtil:_getBasicUserId",
+      "type": "function",
+      "name": "_getBasicUserId",
+      "filePath": "portal-impl/src/com/liferay/portal/security/auth/http/HttpAuthManagerUtil.java",
+      "summary": "_getBasicUserId() in HttpAuthManagerUtil.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low",
+      "startLine": 228,
+      "endLine": 266
+    }
+  ],
+  "edges": [
+    {
+      "source": "file:com/liferay/portal/model/impl/UserImpl",
+      "target": "function:com/liferay/portal/model/impl/UserImpl:setLanguageId",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:com/liferay/portal/model/impl/UserImpl",
+      "target": "function:com/liferay/portal/model/impl/UserImpl:setTimeZoneId",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:com/liferay/portal/model/impl/UserImpl",
+      "target": "function:com/liferay/portal/model/impl/UserImpl:getProfileFriendlyURL",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:com/liferay/portal/model/impl/UserImpl",
+      "target": "function:com/liferay/portal/model/impl/UserImpl:_getOrganizationRelatedGroups",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:com/liferay/portal/model/impl/UserImpl",
+      "target": "function:com/liferay/portal/model/impl/UserImpl:_getParentOrganizations",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:com/liferay/portal/model/impl/UserImpl",
+      "target": "class:com/liferay/portal/model/impl/UserImpl:UserImpl",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:com/liferay/portal/model/impl/UserImpl",
+      "target": "function:com/liferay/portal/model/impl/UserImpl:setLanguageId",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:com/liferay/portal/model/impl/UserImpl",
+      "target": "function:com/liferay/portal/model/impl/UserImpl:setTimeZoneId",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:com/liferay/portal/model/impl/UserImpl",
+      "target": "class:com/liferay/portal/model/impl/UserImpl:UserImpl",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:com/liferay/portal/model/impl/UserImpl:getDisplayURL",
+      "target": "function:com/liferay/portal/model/impl/UserImpl:getProfileFriendlyURL",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:com/liferay/portal/model/impl/UserImpl:getInheritedSiteGroups",
+      "target": "function:com/liferay/portal/model/impl/UserImpl:_getOrganizationRelatedGroups",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:com/liferay/portal/model/impl/UserImpl:getOrganizations",
+      "target": "function:com/liferay/portal/model/impl/UserImpl:_getParentOrganizations",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:com/liferay/portal/model/impl/UserImpl:_getOrganizationRelatedGroups",
+      "target": "function:com/liferay/portal/model/impl/UserImpl:getOrganizations",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:com/liferay/portal/model/impl/VirtualHostBaseImpl",
+      "target": "file:com/liferay/portal/kernel/model/VirtualHost",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:com/liferay/portal/model/impl/VirtualHostBaseImpl",
+      "target": "file:com/liferay/portal/kernel/service/VirtualHostLocalServiceUtil",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:com/liferay/portal/security/DefaultAdminUtil",
+      "target": "function:com/liferay/portal/security/DefaultAdminUtil:fetchDefaultAdmin",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:com/liferay/portal/security/DefaultAdminUtil",
+      "target": "file:com/liferay/portal/util/PropsValues_2",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:com/liferay/portal/security/DefaultAdminUtil",
+      "target": "file:com/liferay/portal/kernel/model/Company_2",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:com/liferay/portal/security/DefaultAdminUtil",
+      "target": "file:com/liferay/portal/kernel/model/User_2",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:com/liferay/portal/security/DefaultAdminUtil",
+      "target": "file:com/liferay/portal/kernel/service/CompanyLocalServiceUtil_2",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:com/liferay/portal/security/DefaultAdminUtil",
+      "target": "file:com/liferay/portal/kernel/service/UserLocalServiceUtil_3",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:com/liferay/portal/security/DefaultAdminUtil",
+      "target": "function:com/liferay/portal/security/DefaultAdminUtil:fetchDefaultAdmin",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:com/liferay/portal/security/auth/AuthTokenWhitelistImpl",
+      "target": "function:com/liferay/portal/security/auth/AuthTokenWhitelistImpl:isOriginCSRFWhitelisted",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:com/liferay/portal/security/auth/AuthTokenWhitelistImpl",
+      "target": "function:com/liferay/portal/security/auth/AuthTokenWhitelistImpl:isPortletInvocationWhitelisted",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:com/liferay/portal/security/auth/AuthTokenWhitelistImpl",
+      "target": "function:com/liferay/portal/security/auth/AuthTokenWhitelistImpl:isPortletURLCSRFWhitelisted",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:com/liferay/portal/security/auth/AuthTokenWhitelistImpl",
+      "target": "function:com/liferay/portal/security/auth/AuthTokenWhitelistImpl:isPortletURLPortletInvocationWhitelisted",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:com/liferay/portal/security/auth/AuthTokenWhitelistImpl",
+      "target": "function:com/liferay/portal/security/auth/AuthTokenWhitelistImpl:isValidSharedSecret",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:com/liferay/portal/security/auth/AuthTokenWhitelistImpl",
+      "target": "function:com/liferay/portal/security/auth/AuthTokenWhitelistImpl:_createOriginCSRFWhitelist",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:com/liferay/portal/security/auth/AuthTokenWhitelistImpl",
+      "target": "function:com/liferay/portal/security/auth/AuthTokenWhitelistImpl:_createPortletCSRFWhitelist",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:com/liferay/portal/security/auth/AuthTokenWhitelistImpl",
+      "target": "function:com/liferay/portal/security/auth/AuthTokenWhitelistImpl:_createPortletInvocationWhitelist",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:com/liferay/portal/security/auth/AuthTokenWhitelistImpl",
+      "target": "class:com/liferay/portal/security/auth/AuthTokenWhitelistImpl:AuthTokenWhitelistImpl",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:com/liferay/portal/security/auth/AuthTokenWhitelistImpl",
+      "target": "file:com/liferay/portal/util/PropsValues_3",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:com/liferay/portal/security/auth/AuthTokenWhitelistImpl",
+      "target": "file:com/liferay/portal/kernel/model/Portlet",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:com/liferay/portal/security/auth/AuthTokenWhitelistImpl",
+      "target": "file:com/liferay/portal/kernel/portlet/LiferayPortletURL",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:com/liferay/portal/security/auth/AuthTokenWhitelistImpl",
+      "target": "file:com/liferay/portal/kernel/portlet/PortletIdCodec",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:com/liferay/portal/security/auth/AuthTokenWhitelistImpl",
+      "target": "file:com/liferay/portal/kernel/security/auth/BaseAuthTokenWhitelist",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:com/liferay/portal/security/auth/AuthTokenWhitelistImpl",
+      "target": "file:com/liferay/portal/kernel/util/DigesterUtil_2",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:com/liferay/portal/security/auth/AuthTokenWhitelistImpl",
+      "target": "file:com/liferay/portal/kernel/util/PropsKeys_2",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:com/liferay/portal/security/auth/AuthTokenWhitelistImpl",
+      "target": "file:com/liferay/portal/kernel/util/Validator_4",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:com/liferay/portal/security/auth/AuthTokenWhitelistImpl",
+      "target": "function:com/liferay/portal/security/auth/AuthTokenWhitelistImpl:isOriginCSRFWhitelisted",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:com/liferay/portal/security/auth/AuthTokenWhitelistImpl",
+      "target": "function:com/liferay/portal/security/auth/AuthTokenWhitelistImpl:isPortletInvocationWhitelisted",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:com/liferay/portal/security/auth/AuthTokenWhitelistImpl",
+      "target": "function:com/liferay/portal/security/auth/AuthTokenWhitelistImpl:isPortletURLCSRFWhitelisted",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:com/liferay/portal/security/auth/AuthTokenWhitelistImpl",
+      "target": "function:com/liferay/portal/security/auth/AuthTokenWhitelistImpl:isPortletURLPortletInvocationWhitelisted",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:com/liferay/portal/security/auth/AuthTokenWhitelistImpl",
+      "target": "function:com/liferay/portal/security/auth/AuthTokenWhitelistImpl:isValidSharedSecret",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:com/liferay/portal/security/auth/AuthTokenWhitelistImpl",
+      "target": "class:com/liferay/portal/security/auth/AuthTokenWhitelistImpl:AuthTokenWhitelistImpl",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:com/liferay/portal/security/auth/InterruptedPortletRequestWhitelistUtil",
+      "target": "function:com/liferay/portal/security/auth/InterruptedPortletRequestWhitelistUtil:isPortletInvocationWhitelisted",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:com/liferay/portal/security/auth/InterruptedPortletRequestWhitelistUtil",
+      "target": "function:com/liferay/portal/security/auth/InterruptedPortletRequestWhitelistUtil:resetPortletInvocationWhitelist",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:com/liferay/portal/security/auth/InterruptedPortletRequestWhitelistUtil",
+      "target": "function:com/liferay/portal/security/auth/InterruptedPortletRequestWhitelistUtil:resetPortletInvocationWhitelistActions",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:com/liferay/portal/security/auth/InterruptedPortletRequestWhitelistUtil",
+      "target": "function:com/liferay/portal/security/auth/InterruptedPortletRequestWhitelistUtil:_isValidStrutsAction",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:com/liferay/portal/security/auth/InterruptedPortletRequestWhitelistUtil",
+      "target": "class:com/liferay/portal/security/auth/InterruptedPortletRequestWhitelistUtil:InterruptedPortletRequestWhitelistUtil",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:com/liferay/portal/security/auth/InterruptedPortletRequestWhitelistUtil",
+      "target": "file:com/liferay/portal/util/PropsValues_4",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:com/liferay/portal/security/auth/InterruptedPortletRequestWhitelistUtil",
+      "target": "file:com/liferay/portal/kernel/log/Log_3",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:com/liferay/portal/security/auth/InterruptedPortletRequestWhitelistUtil",
+      "target": "file:com/liferay/portal/kernel/log/LogFactoryUtil_3",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:com/liferay/portal/security/auth/InterruptedPortletRequestWhitelistUtil",
+      "target": "file:com/liferay/portal/kernel/model/Portlet_2",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:com/liferay/portal/security/auth/InterruptedPortletRequestWhitelistUtil",
+      "target": "file:com/liferay/portal/kernel/service/PortletLocalServiceUtil",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:com/liferay/portal/security/auth/InterruptedPortletRequestWhitelistUtil",
+      "target": "file:com/liferay/portal/kernel/util/SetUtil_2",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:com/liferay/portal/security/auth/InterruptedPortletRequestWhitelistUtil",
+      "target": "file:com/liferay/portal/kernel/util/Validator_5",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:com/liferay/portal/security/auth/InterruptedPortletRequestWhitelistUtil",
+      "target": "function:com/liferay/portal/security/auth/InterruptedPortletRequestWhitelistUtil:isPortletInvocationWhitelisted",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:com/liferay/portal/security/auth/InterruptedPortletRequestWhitelistUtil",
+      "target": "function:com/liferay/portal/security/auth/InterruptedPortletRequestWhitelistUtil:resetPortletInvocationWhitelist",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:com/liferay/portal/security/auth/InterruptedPortletRequestWhitelistUtil",
+      "target": "function:com/liferay/portal/security/auth/InterruptedPortletRequestWhitelistUtil:resetPortletInvocationWhitelistActions",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:com/liferay/portal/security/auth/InterruptedPortletRequestWhitelistUtil",
+      "target": "class:com/liferay/portal/security/auth/InterruptedPortletRequestWhitelistUtil:InterruptedPortletRequestWhitelistUtil",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:com/liferay/portal/security/auth/InterruptedPortletRequestWhitelistUtil:isPortletInvocationWhitelisted",
+      "target": "function:com/liferay/portal/security/auth/InterruptedPortletRequestWhitelistUtil:_isValidStrutsAction",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:com/liferay/portal/security/auth/MVCPortletAuthTokenWhitelist",
+      "target": "function:com/liferay/portal/security/auth/MVCPortletAuthTokenWhitelist:MVCPortletAuthTokenWhitelist",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:com/liferay/portal/security/auth/MVCPortletAuthTokenWhitelist",
+      "target": "function:com/liferay/portal/security/auth/MVCPortletAuthTokenWhitelist:isPortletCSRFWhitelisted",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:com/liferay/portal/security/auth/MVCPortletAuthTokenWhitelist",
+      "target": "function:com/liferay/portal/security/auth/MVCPortletAuthTokenWhitelist:isPortletInvocationWhitelisted",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:com/liferay/portal/security/auth/MVCPortletAuthTokenWhitelist",
+      "target": "function:com/liferay/portal/security/auth/MVCPortletAuthTokenWhitelist:isPortletURLPortletInvocationWhitelisted",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:com/liferay/portal/security/auth/MVCPortletAuthTokenWhitelist",
+      "target": "function:com/liferay/portal/security/auth/MVCPortletAuthTokenWhitelist:trackWhitelistServices",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:com/liferay/portal/security/auth/MVCPortletAuthTokenWhitelist",
+      "target": "function:com/liferay/portal/security/auth/MVCPortletAuthTokenWhitelist:_contains",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:com/liferay/portal/security/auth/MVCPortletAuthTokenWhitelist",
+      "target": "function:com/liferay/portal/security/auth/MVCPortletAuthTokenWhitelist:_containsAll",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:com/liferay/portal/security/auth/MVCPortletAuthTokenWhitelist",
+      "target": "class:com/liferay/portal/security/auth/MVCPortletAuthTokenWhitelist:MVCPortletAuthTokenWhitelist",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:com/liferay/portal/security/auth/MVCPortletAuthTokenWhitelist",
+      "target": "file:com/liferay/portal/kernel/model/Portlet_3",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:com/liferay/portal/security/auth/MVCPortletAuthTokenWhitelist",
+      "target": "file:com/liferay/portal/kernel/module/util/SystemBundleUtil",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:com/liferay/portal/security/auth/MVCPortletAuthTokenWhitelist",
+      "target": "file:com/liferay/portal/kernel/portlet/bridges/mvc/MVCActionCommand",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:com/liferay/portal/security/auth/MVCPortletAuthTokenWhitelist",
+      "target": "file:com/liferay/portal/kernel/portlet/bridges/mvc/MVCRenderCommand",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:com/liferay/portal/security/auth/MVCPortletAuthTokenWhitelist",
+      "target": "file:com/liferay/portal/kernel/portlet/bridges/mvc/MVCResourceCommand",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:com/liferay/portal/security/auth/MVCPortletAuthTokenWhitelist",
+      "target": "file:com/liferay/portal/kernel/portlet/LiferayPortletURL_2",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:com/liferay/portal/security/auth/MVCPortletAuthTokenWhitelist",
+      "target": "file:com/liferay/portal/kernel/portlet/PortletIdCodec_2",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:com/liferay/portal/security/auth/MVCPortletAuthTokenWhitelist",
+      "target": "file:com/liferay/portal/kernel/security/auth/BaseAuthTokenWhitelist_2",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:com/liferay/portal/security/auth/MVCPortletAuthTokenWhitelist",
+      "target": "file:com/liferay/portal/kernel/theme/ThemeDisplay_2",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:com/liferay/portal/security/auth/MVCPortletAuthTokenWhitelist",
+      "target": "file:com/liferay/portal/kernel/util/ArrayUtil",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:com/liferay/portal/security/auth/MVCPortletAuthTokenWhitelist",
+      "target": "file:com/liferay/portal/kernel/util/PortalUtil_3",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:com/liferay/portal/security/auth/MVCPortletAuthTokenWhitelist",
+      "target": "file:com/liferay/portal/kernel/util/StringUtil_2",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:com/liferay/portal/security/auth/MVCPortletAuthTokenWhitelist",
+      "target": "file:com/liferay/portal/kernel/util/Validator_6",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:com/liferay/portal/security/auth/MVCPortletAuthTokenWhitelist",
+      "target": "file:com/liferay/portal/kernel/util/WebKeys",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:com/liferay/portal/security/auth/MVCPortletAuthTokenWhitelist",
+      "target": "function:com/liferay/portal/security/auth/MVCPortletAuthTokenWhitelist:MVCPortletAuthTokenWhitelist",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:com/liferay/portal/security/auth/MVCPortletAuthTokenWhitelist",
+      "target": "function:com/liferay/portal/security/auth/MVCPortletAuthTokenWhitelist:isPortletCSRFWhitelisted",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:com/liferay/portal/security/auth/MVCPortletAuthTokenWhitelist",
+      "target": "function:com/liferay/portal/security/auth/MVCPortletAuthTokenWhitelist:isPortletInvocationWhitelisted",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:com/liferay/portal/security/auth/MVCPortletAuthTokenWhitelist",
+      "target": "function:com/liferay/portal/security/auth/MVCPortletAuthTokenWhitelist:isPortletURLPortletInvocationWhitelisted",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:com/liferay/portal/security/auth/MVCPortletAuthTokenWhitelist",
+      "target": "function:com/liferay/portal/security/auth/MVCPortletAuthTokenWhitelist:MVCPortletAuthTokenWhitelist",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:com/liferay/portal/security/auth/MVCPortletAuthTokenWhitelist:MVCPortletAuthTokenWhitelist",
+      "target": "function:com/liferay/portal/security/auth/MVCPortletAuthTokenWhitelist:trackWhitelistServices",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:com/liferay/portal/security/auth/MVCPortletAuthTokenWhitelist:MVCPortletAuthTokenWhitelist",
+      "target": "function:com/liferay/portal/security/auth/MVCPortletAuthTokenWhitelist:trackWhitelistServices",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:com/liferay/portal/security/auth/MVCPortletAuthTokenWhitelist:MVCPortletAuthTokenWhitelist",
+      "target": "function:com/liferay/portal/security/auth/MVCPortletAuthTokenWhitelist:trackWhitelistServices",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:com/liferay/portal/security/auth/MVCPortletAuthTokenWhitelist:MVCPortletAuthTokenWhitelist",
+      "target": "function:com/liferay/portal/security/auth/MVCPortletAuthTokenWhitelist:trackWhitelistServices",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:com/liferay/portal/security/auth/MVCPortletAuthTokenWhitelist:isPortletCSRFWhitelisted",
+      "target": "function:com/liferay/portal/security/auth/MVCPortletAuthTokenWhitelist:_containsAll",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:com/liferay/portal/security/auth/MVCPortletAuthTokenWhitelist:isPortletInvocationWhitelisted",
+      "target": "function:com/liferay/portal/security/auth/MVCPortletAuthTokenWhitelist:_containsAll",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:com/liferay/portal/security/auth/MVCPortletAuthTokenWhitelist:isPortletInvocationWhitelisted",
+      "target": "function:com/liferay/portal/security/auth/MVCPortletAuthTokenWhitelist:_contains",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:com/liferay/portal/security/auth/MVCPortletAuthTokenWhitelist:isPortletInvocationWhitelisted",
+      "target": "function:com/liferay/portal/security/auth/MVCPortletAuthTokenWhitelist:_contains",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:com/liferay/portal/security/auth/MVCPortletAuthTokenWhitelist:isPortletURLPortletInvocationWhitelisted",
+      "target": "function:com/liferay/portal/security/auth/MVCPortletAuthTokenWhitelist:_containsAll",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:com/liferay/portal/security/auth/MVCPortletAuthTokenWhitelist:isPortletURLPortletInvocationWhitelisted",
+      "target": "function:com/liferay/portal/security/auth/MVCPortletAuthTokenWhitelist:_contains",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:com/liferay/portal/security/auth/MVCPortletAuthTokenWhitelist:isPortletURLPortletInvocationWhitelisted",
+      "target": "function:com/liferay/portal/security/auth/MVCPortletAuthTokenWhitelist:_contains",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:com/liferay/portal/security/auth/SessionAuthToken",
+      "target": "function:com/liferay/portal/security/auth/SessionAuthToken:addCSRFToken",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:com/liferay/portal/security/auth/SessionAuthToken",
+      "target": "function:com/liferay/portal/security/auth/SessionAuthToken:addPortletInvocationToken",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:com/liferay/portal/security/auth/SessionAuthToken",
+      "target": "function:com/liferay/portal/security/auth/SessionAuthToken:checkCSRFToken",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:com/liferay/portal/security/auth/SessionAuthToken",
+      "target": "function:com/liferay/portal/security/auth/SessionAuthToken:isValidPortletInvocationToken",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:com/liferay/portal/security/auth/SessionAuthToken",
+      "target": "function:com/liferay/portal/security/auth/SessionAuthToken:getSessionAuthenticationToken",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:com/liferay/portal/security/auth/SessionAuthToken",
+      "target": "function:com/liferay/portal/security/auth/SessionAuthToken:_getSessionAuthenticationToken",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:com/liferay/portal/security/auth/SessionAuthToken",
+      "target": "function:com/liferay/portal/security/auth/SessionAuthToken:_setNullSessionAuthenticationToken",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:com/liferay/portal/security/auth/SessionAuthToken",
+      "target": "class:com/liferay/portal/security/auth/SessionAuthToken:SessionAuthToken",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:com/liferay/portal/security/auth/SessionAuthToken",
+      "target": "file:com/liferay/portal/util/PropsValues_5",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:com/liferay/portal/security/auth/SessionAuthToken",
+      "target": "file:com/liferay/portlet/SecurityPortletContainerWrapper",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:com/liferay/portal/security/auth/SessionAuthToken",
+      "target": "file:com/liferay/exportimport/kernel/staging/MergeLayoutPrototypesThreadLocal",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:com/liferay/portal/security/auth/SessionAuthToken",
+      "target": "file:com/liferay/portal/kernel/log/Log_4",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:com/liferay/portal/security/auth/SessionAuthToken",
+      "target": "file:com/liferay/portal/kernel/log/LogFactoryUtil_4",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:com/liferay/portal/security/auth/SessionAuthToken",
+      "target": "file:com/liferay/portal/kernel/model/Layout",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:com/liferay/portal/security/auth/SessionAuthToken",
+      "target": "file:com/liferay/portal/kernel/model/LayoutTypePortlet",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:com/liferay/portal/security/auth/SessionAuthToken",
+      "target": "file:com/liferay/portal/kernel/model/Portlet_4",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:com/liferay/portal/security/auth/SessionAuthToken",
+      "target": "file:com/liferay/portal/kernel/portlet/LiferayPortletURL_3",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:com/liferay/portal/security/auth/SessionAuthToken",
+      "target": "file:com/liferay/portal/kernel/security/auth/AuthToken",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:com/liferay/portal/security/auth/SessionAuthToken",
+      "target": "file:com/liferay/portal/kernel/security/auth/AuthTokenWhitelistUtil",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:com/liferay/portal/security/auth/SessionAuthToken",
+      "target": "file:com/liferay/portal/kernel/security/auth/PrincipalException",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:com/liferay/portal/security/auth/SessionAuthToken",
+      "target": "file:com/liferay/portal/kernel/service/LayoutLocalServiceUtil_2",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:com/liferay/portal/security/auth/SessionAuthToken",
+      "target": "file:com/liferay/portal/kernel/service/permission/PortletPermissionUtil",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:com/liferay/portal/security/auth/SessionAuthToken",
+      "target": "file:com/liferay/portal/kernel/service/PortletLocalServiceUtil_2",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:com/liferay/portal/security/auth/SessionAuthToken",
+      "target": "file:com/liferay/portal/kernel/util/GetterUtil",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:com/liferay/portal/security/auth/SessionAuthToken",
+      "target": "file:com/liferay/portal/kernel/util/ParamUtil",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:com/liferay/portal/security/auth/SessionAuthToken",
+      "target": "file:com/liferay/portal/kernel/util/PortalUtil_4",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:com/liferay/portal/security/auth/SessionAuthToken",
+      "target": "file:com/liferay/portal/kernel/util/PwdGenerator",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:com/liferay/portal/security/auth/SessionAuthToken",
+      "target": "file:com/liferay/portal/kernel/util/Validator_7",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:com/liferay/portal/security/auth/SessionAuthToken",
+      "target": "file:com/liferay/portal/kernel/util/WebKeys_2",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:com/liferay/portal/security/auth/SessionAuthToken",
+      "target": "function:com/liferay/portal/security/auth/SessionAuthToken:addCSRFToken",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:com/liferay/portal/security/auth/SessionAuthToken",
+      "target": "function:com/liferay/portal/security/auth/SessionAuthToken:addPortletInvocationToken",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:com/liferay/portal/security/auth/SessionAuthToken",
+      "target": "function:com/liferay/portal/security/auth/SessionAuthToken:checkCSRFToken",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:com/liferay/portal/security/auth/SessionAuthToken",
+      "target": "function:com/liferay/portal/security/auth/SessionAuthToken:isValidPortletInvocationToken",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:com/liferay/portal/security/auth/SessionAuthToken",
+      "target": "class:com/liferay/portal/security/auth/SessionAuthToken:SessionAuthToken",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:com/liferay/portal/security/auth/SessionAuthToken:addPortletInvocationToken",
+      "target": "function:com/liferay/portal/security/auth/SessionAuthToken:_getSessionAuthenticationToken",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:com/liferay/portal/security/auth/SessionAuthToken:addPortletInvocationToken",
+      "target": "function:com/liferay/portal/security/auth/SessionAuthToken:_setNullSessionAuthenticationToken",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:com/liferay/portal/security/auth/SessionAuthToken:addPortletInvocationToken",
+      "target": "function:com/liferay/portal/security/auth/SessionAuthToken:_setNullSessionAuthenticationToken",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:com/liferay/portal/security/auth/SessionAuthToken:checkCSRFToken",
+      "target": "function:com/liferay/portal/security/auth/SessionAuthToken:getSessionAuthenticationToken",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:com/liferay/portal/security/auth/SessionAuthToken:isValidPortletInvocationToken",
+      "target": "function:com/liferay/portal/security/auth/SessionAuthToken:getSessionAuthenticationToken",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:com/liferay/portal/security/auth/SessionAuthToken:getSessionAuthenticationToken",
+      "target": "function:com/liferay/portal/security/auth/SessionAuthToken:_getSessionAuthenticationToken",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:com/liferay/portal/security/auth/StrutsPortletAuthTokenWhitelist",
+      "target": "function:com/liferay/portal/security/auth/StrutsPortletAuthTokenWhitelist:isPortletCSRFWhitelisted",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:com/liferay/portal/security/auth/StrutsPortletAuthTokenWhitelist",
+      "target": "function:com/liferay/portal/security/auth/StrutsPortletAuthTokenWhitelist:isPortletInvocationWhitelisted",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:com/liferay/portal/security/auth/StrutsPortletAuthTokenWhitelist",
+      "target": "function:com/liferay/portal/security/auth/StrutsPortletAuthTokenWhitelist:isPortletURLCSRFWhitelisted",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:com/liferay/portal/security/auth/StrutsPortletAuthTokenWhitelist",
+      "target": "function:com/liferay/portal/security/auth/StrutsPortletAuthTokenWhitelist:isPortletURLPortletInvocationWhitelisted",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:com/liferay/portal/security/auth/StrutsPortletAuthTokenWhitelist",
+      "target": "function:com/liferay/portal/security/auth/StrutsPortletAuthTokenWhitelist:isValidStrutsAction",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:com/liferay/portal/security/auth/StrutsPortletAuthTokenWhitelist",
+      "target": "function:com/liferay/portal/security/auth/StrutsPortletAuthTokenWhitelist:_createPortletCSRFWhitelist",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:com/liferay/portal/security/auth/StrutsPortletAuthTokenWhitelist",
+      "target": "function:com/liferay/portal/security/auth/StrutsPortletAuthTokenWhitelist:_createPortletInvocationWhitelist",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:com/liferay/portal/security/auth/StrutsPortletAuthTokenWhitelist",
+      "target": "class:com/liferay/portal/security/auth/StrutsPortletAuthTokenWhitelist:StrutsPortletAuthTokenWhitelist",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:com/liferay/portal/security/auth/StrutsPortletAuthTokenWhitelist",
+      "target": "file:com/liferay/portal/kernel/log/Log_5",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:com/liferay/portal/security/auth/StrutsPortletAuthTokenWhitelist",
+      "target": "file:com/liferay/portal/kernel/log/LogFactoryUtil_5",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:com/liferay/portal/security/auth/StrutsPortletAuthTokenWhitelist",
+      "target": "file:com/liferay/portal/kernel/model/Layout_2",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:com/liferay/portal/security/auth/StrutsPortletAuthTokenWhitelist",
+      "target": "file:com/liferay/portal/kernel/model/Portlet_5",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:com/liferay/portal/security/auth/StrutsPortletAuthTokenWhitelist",
+      "target": "file:com/liferay/portal/kernel/portlet/LiferayPortletURL_4",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:com/liferay/portal/security/auth/StrutsPortletAuthTokenWhitelist",
+      "target": "file:com/liferay/portal/kernel/portlet/PortletIdCodec_3",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:com/liferay/portal/security/auth/StrutsPortletAuthTokenWhitelist",
+      "target": "file:com/liferay/portal/kernel/security/auth/BaseAuthTokenWhitelist_3",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:com/liferay/portal/security/auth/StrutsPortletAuthTokenWhitelist",
+      "target": "file:com/liferay/portal/kernel/service/LayoutLocalServiceUtil_3",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:com/liferay/portal/security/auth/StrutsPortletAuthTokenWhitelist",
+      "target": "file:com/liferay/portal/kernel/service/PortletLocalServiceUtil_3",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:com/liferay/portal/security/auth/StrutsPortletAuthTokenWhitelist",
+      "target": "file:com/liferay/portal/kernel/util/PortalUtil_5",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:com/liferay/portal/security/auth/StrutsPortletAuthTokenWhitelist",
+      "target": "file:com/liferay/portal/kernel/util/PropsKeys_3",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:com/liferay/portal/security/auth/StrutsPortletAuthTokenWhitelist",
+      "target": "file:com/liferay/portal/kernel/util/Validator_8",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:com/liferay/portal/security/auth/StrutsPortletAuthTokenWhitelist",
+      "target": "function:com/liferay/portal/security/auth/StrutsPortletAuthTokenWhitelist:isPortletCSRFWhitelisted",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:com/liferay/portal/security/auth/StrutsPortletAuthTokenWhitelist",
+      "target": "function:com/liferay/portal/security/auth/StrutsPortletAuthTokenWhitelist:isPortletInvocationWhitelisted",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:com/liferay/portal/security/auth/StrutsPortletAuthTokenWhitelist",
+      "target": "function:com/liferay/portal/security/auth/StrutsPortletAuthTokenWhitelist:isPortletURLCSRFWhitelisted",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:com/liferay/portal/security/auth/StrutsPortletAuthTokenWhitelist",
+      "target": "function:com/liferay/portal/security/auth/StrutsPortletAuthTokenWhitelist:isPortletURLPortletInvocationWhitelisted",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:com/liferay/portal/security/auth/StrutsPortletAuthTokenWhitelist",
+      "target": "class:com/liferay/portal/security/auth/StrutsPortletAuthTokenWhitelist:StrutsPortletAuthTokenWhitelist",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:com/liferay/portal/security/auth/StrutsPortletAuthTokenWhitelist:isPortletCSRFWhitelisted",
+      "target": "function:com/liferay/portal/security/auth/StrutsPortletAuthTokenWhitelist:isValidStrutsAction",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:com/liferay/portal/security/auth/StrutsPortletAuthTokenWhitelist:isPortletInvocationWhitelisted",
+      "target": "function:com/liferay/portal/security/auth/StrutsPortletAuthTokenWhitelist:isValidStrutsAction",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:com/liferay/portal/security/auth/StrutsPortletAuthTokenWhitelist:isPortletURLCSRFWhitelisted",
+      "target": "function:com/liferay/portal/security/auth/StrutsPortletAuthTokenWhitelist:isValidStrutsAction",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:com/liferay/portal/security/auth/StrutsPortletAuthTokenWhitelist:isPortletURLPortletInvocationWhitelisted",
+      "target": "function:com/liferay/portal/security/auth/StrutsPortletAuthTokenWhitelist:isValidStrutsAction",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:com/liferay/portal/security/auth/http/HttpAuthManagerUtil",
+      "target": "function:com/liferay/portal/security/auth/http/HttpAuthManagerUtil:generateChallenge",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:com/liferay/portal/security/auth/http/HttpAuthManagerUtil",
+      "target": "function:com/liferay/portal/security/auth/http/HttpAuthManagerUtil:getBasicUserId",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:com/liferay/portal/security/auth/http/HttpAuthManagerUtil",
+      "target": "function:com/liferay/portal/security/auth/http/HttpAuthManagerUtil:getDigestUserId",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:com/liferay/portal/security/auth/http/HttpAuthManagerUtil",
+      "target": "function:com/liferay/portal/security/auth/http/HttpAuthManagerUtil:getUserId",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:com/liferay/portal/security/auth/http/HttpAuthManagerUtil",
+      "target": "function:com/liferay/portal/security/auth/http/HttpAuthManagerUtil:parse",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:com/liferay/portal/security/auth/http/HttpAuthManagerUtil",
+      "target": "function:com/liferay/portal/security/auth/http/HttpAuthManagerUtil:_generateDigestChallenge",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:com/liferay/portal/security/auth/http/HttpAuthManagerUtil",
+      "target": "function:com/liferay/portal/security/auth/http/HttpAuthManagerUtil:_getBasicUserId",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:com/liferay/portal/security/auth/http/HttpAuthManagerUtil",
+      "target": "function:com/liferay/portal/security/auth/http/HttpAuthManagerUtil:_getDigestUserId",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:com/liferay/portal/security/auth/http/HttpAuthManagerUtil",
+      "target": "function:com/liferay/portal/security/auth/http/HttpAuthManagerUtil:_parseBasic",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:com/liferay/portal/security/auth/http/HttpAuthManagerUtil",
+      "target": "function:com/liferay/portal/security/auth/http/HttpAuthManagerUtil:_parseDigest",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:com/liferay/portal/security/auth/http/HttpAuthManagerUtil",
+      "target": "class:com/liferay/portal/security/auth/http/HttpAuthManagerUtil:HttpAuthManagerUtil",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:com/liferay/portal/security/auth/http/HttpAuthManagerUtil",
+      "target": "file:com/liferay/portal/security/auth/session/AuthenticatedSessionManagerUtil",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:com/liferay/portal/security/auth/http/HttpAuthManagerUtil",
+      "target": "file:com/liferay/portal/servlet/filters/secure/NonceUtil",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:com/liferay/portal/security/auth/http/HttpAuthManagerUtil",
+      "target": "file:com/liferay/portal/util/PortalInstances",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:com/liferay/portal/security/auth/http/HttpAuthManagerUtil",
+      "target": "file:com/liferay/portal/kernel/exception/PortalException_4",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:com/liferay/portal/security/auth/http/HttpAuthManagerUtil",
+      "target": "file:com/liferay/portal/kernel/log/Log_6",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:com/liferay/portal/security/auth/http/HttpAuthManagerUtil",
+      "target": "file:com/liferay/portal/kernel/log/LogFactoryUtil_6",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:com/liferay/portal/security/auth/http/HttpAuthManagerUtil",
+      "target": "file:com/liferay/portal/kernel/security/auth/AuthException",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:com/liferay/portal/security/auth/http/HttpAuthManagerUtil",
+      "target": "file:com/liferay/portal/kernel/security/auth/http/HttpAuthorizationHeader",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:com/liferay/portal/security/auth/http/HttpAuthManagerUtil",
+      "target": "file:com/liferay/portal/kernel/service/UserLocalServiceUtil_4",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:com/liferay/portal/security/auth/http/HttpAuthManagerUtil",
+      "target": "file:com/liferay/portal/kernel/servlet/HttpHeaders",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:com/liferay/portal/security/auth/http/HttpAuthManagerUtil",
+      "target": "file:com/liferay/portal/kernel/util/Base64",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:com/liferay/portal/security/auth/http/HttpAuthManagerUtil",
+      "target": "file:com/liferay/portal/kernel/util/HttpComponentsUtil",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:com/liferay/portal/security/auth/http/HttpAuthManagerUtil",
+      "target": "file:com/liferay/portal/kernel/util/Portal_2",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:com/liferay/portal/security/auth/http/HttpAuthManagerUtil",
+      "target": "file:com/liferay/portal/kernel/util/StringUtil_3",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:com/liferay/portal/security/auth/http/HttpAuthManagerUtil",
+      "target": "file:com/liferay/portal/kernel/util/UnicodeProperties_2",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:com/liferay/portal/security/auth/http/HttpAuthManagerUtil",
+      "target": "file:com/liferay/portal/kernel/util/UnicodePropertiesBuilder_2",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:com/liferay/portal/security/auth/http/HttpAuthManagerUtil",
+      "target": "file:com/liferay/portal/kernel/util/Validator_9",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:com/liferay/portal/security/auth/http/HttpAuthManagerUtil",
+      "target": "function:com/liferay/portal/security/auth/http/HttpAuthManagerUtil:generateChallenge",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:com/liferay/portal/security/auth/http/HttpAuthManagerUtil",
+      "target": "function:com/liferay/portal/security/auth/http/HttpAuthManagerUtil:getBasicUserId",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:com/liferay/portal/security/auth/http/HttpAuthManagerUtil",
+      "target": "function:com/liferay/portal/security/auth/http/HttpAuthManagerUtil:getDigestUserId",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:com/liferay/portal/security/auth/http/HttpAuthManagerUtil",
+      "target": "function:com/liferay/portal/security/auth/http/HttpAuthManagerUtil:getUserId",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:com/liferay/portal/security/auth/http/HttpAuthManagerUtil",
+      "target": "function:com/liferay/portal/security/auth/http/HttpAuthManagerUtil:parse",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:com/liferay/portal/security/auth/http/HttpAuthManagerUtil",
+      "target": "class:com/liferay/portal/security/auth/http/HttpAuthManagerUtil:HttpAuthManagerUtil",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:com/liferay/portal/security/auth/http/HttpAuthManagerUtil:generateChallenge",
+      "target": "function:com/liferay/portal/security/auth/http/HttpAuthManagerUtil:_generateDigestChallenge",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:com/liferay/portal/security/auth/http/HttpAuthManagerUtil:getBasicUserId",
+      "target": "function:com/liferay/portal/security/auth/http/HttpAuthManagerUtil:parse",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:com/liferay/portal/security/auth/http/HttpAuthManagerUtil:getBasicUserId",
+      "target": "function:com/liferay/portal/security/auth/http/HttpAuthManagerUtil:getUserId",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:com/liferay/portal/security/auth/http/HttpAuthManagerUtil:getDigestUserId",
+      "target": "function:com/liferay/portal/security/auth/http/HttpAuthManagerUtil:parse",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:com/liferay/portal/security/auth/http/HttpAuthManagerUtil:getDigestUserId",
+      "target": "function:com/liferay/portal/security/auth/http/HttpAuthManagerUtil:getUserId",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:com/liferay/portal/security/auth/http/HttpAuthManagerUtil:getUserId",
+      "target": "function:com/liferay/portal/security/auth/http/HttpAuthManagerUtil:_getBasicUserId",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:com/liferay/portal/security/auth/http/HttpAuthManagerUtil:getUserId",
+      "target": "function:com/liferay/portal/security/auth/http/HttpAuthManagerUtil:_getDigestUserId",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:com/liferay/portal/security/auth/http/HttpAuthManagerUtil:parse",
+      "target": "function:com/liferay/portal/security/auth/http/HttpAuthManagerUtil:_parseBasic",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:com/liferay/portal/security/auth/http/HttpAuthManagerUtil:parse",
+      "target": "function:com/liferay/portal/security/auth/http/HttpAuthManagerUtil:_parseDigest",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    }
+  ]
+}

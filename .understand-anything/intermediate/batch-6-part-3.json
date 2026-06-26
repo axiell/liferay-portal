@@ -1,0 +1,1741 @@
+{
+  "nodes": [
+    {
+      "id": "function:portal-impl/src/com/liferay/portal/model/impl/ResourcePermissionImpl.java:removeResourceAction",
+      "type": "function",
+      "name": "removeResourceAction",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/ResourcePermissionImpl.java",
+      "summary": "Exported function removeResourceAction",
+      "tags": [
+        "java",
+        "function",
+        "exported"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "file:portal-impl/src/com/liferay/portal/model/impl/SubscriptionBaseImpl.java",
+      "type": "file",
+      "name": "SubscriptionBaseImpl.java",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/SubscriptionBaseImpl.java",
+      "summary": "Subscription entity implementation in Liferay portal",
+      "tags": [
+        "java",
+        "code",
+        "base-impl",
+        "service-builder"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "class:portal-impl/src/com/liferay/portal/model/impl/SubscriptionBaseImpl.java:SubscriptionBaseImpl",
+      "type": "class",
+      "name": "SubscriptionBaseImpl",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/SubscriptionBaseImpl.java",
+      "summary": "SubscriptionBaseImpl class with 1 methods",
+      "tags": [
+        "java",
+        "class",
+        "methods:1"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "function:portal-impl/src/com/liferay/portal/model/impl/SubscriptionBaseImpl.java:persist",
+      "type": "function",
+      "name": "persist",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/SubscriptionBaseImpl.java",
+      "summary": "Exported function persist",
+      "tags": [
+        "java",
+        "function",
+        "exported"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "file:portal-impl/src/com/liferay/portal/model/impl/SubscriptionCacheModel.java",
+      "type": "file",
+      "name": "SubscriptionCacheModel.java",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/SubscriptionCacheModel.java",
+      "summary": "Subscription entity implementation in Liferay portal",
+      "tags": [
+        "java",
+        "code",
+        "cache-model",
+        "serialization"
+      ],
+      "complexity": "high"
+    },
+    {
+      "id": "class:portal-impl/src/com/liferay/portal/model/impl/SubscriptionCacheModel.java:SubscriptionCacheModel",
+      "type": "class",
+      "name": "SubscriptionCacheModel",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/SubscriptionCacheModel.java",
+      "summary": "SubscriptionCacheModel class with 8 methods",
+      "tags": [
+        "java",
+        "class",
+        "methods:8"
+      ],
+      "complexity": "high"
+    },
+    {
+      "id": "function:portal-impl/src/com/liferay/portal/model/impl/SubscriptionCacheModel.java:equals",
+      "type": "function",
+      "name": "equals",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/SubscriptionCacheModel.java",
+      "summary": "Exported function equals",
+      "tags": [
+        "java",
+        "function",
+        "exported"
+      ],
+      "complexity": "medium"
+    },
+    {
+      "id": "function:portal-impl/src/com/liferay/portal/model/impl/SubscriptionCacheModel.java:hashCode",
+      "type": "function",
+      "name": "hashCode",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/SubscriptionCacheModel.java",
+      "summary": "Exported function hashCode",
+      "tags": [
+        "java",
+        "function",
+        "exported"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "function:portal-impl/src/com/liferay/portal/model/impl/SubscriptionCacheModel.java:getMvccVersion",
+      "type": "function",
+      "name": "getMvccVersion",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/SubscriptionCacheModel.java",
+      "summary": "Exported function getMvccVersion",
+      "tags": [
+        "java",
+        "function",
+        "exported"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "function:portal-impl/src/com/liferay/portal/model/impl/SubscriptionCacheModel.java:setMvccVersion",
+      "type": "function",
+      "name": "setMvccVersion",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/SubscriptionCacheModel.java",
+      "summary": "Exported function setMvccVersion",
+      "tags": [
+        "java",
+        "function",
+        "exported"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "function:portal-impl/src/com/liferay/portal/model/impl/SubscriptionCacheModel.java:toString",
+      "type": "function",
+      "name": "toString",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/SubscriptionCacheModel.java",
+      "summary": "Exported function toString",
+      "tags": [
+        "java",
+        "function",
+        "exported"
+      ],
+      "complexity": "medium"
+    },
+    {
+      "id": "function:portal-impl/src/com/liferay/portal/model/impl/SubscriptionCacheModel.java:toEntityModel",
+      "type": "function",
+      "name": "toEntityModel",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/SubscriptionCacheModel.java",
+      "summary": "Exported function toEntityModel",
+      "tags": [
+        "java",
+        "function",
+        "exported"
+      ],
+      "complexity": "high"
+    },
+    {
+      "id": "function:portal-impl/src/com/liferay/portal/model/impl/SubscriptionCacheModel.java:readExternal",
+      "type": "function",
+      "name": "readExternal",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/SubscriptionCacheModel.java",
+      "summary": "Exported function readExternal",
+      "tags": [
+        "java",
+        "function",
+        "exported"
+      ],
+      "complexity": "medium"
+    },
+    {
+      "id": "function:portal-impl/src/com/liferay/portal/model/impl/SubscriptionCacheModel.java:writeExternal",
+      "type": "function",
+      "name": "writeExternal",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/SubscriptionCacheModel.java",
+      "summary": "Exported function writeExternal",
+      "tags": [
+        "java",
+        "function",
+        "exported"
+      ],
+      "complexity": "high"
+    },
+    {
+      "id": "file:portal-impl/src/com/liferay/portal/model/impl/TeamBaseImpl.java",
+      "type": "file",
+      "name": "TeamBaseImpl.java",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/TeamBaseImpl.java",
+      "summary": "Team entity implementation in Liferay portal",
+      "tags": [
+        "java",
+        "code",
+        "base-impl",
+        "service-builder"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "class:portal-impl/src/com/liferay/portal/model/impl/TeamBaseImpl.java:TeamBaseImpl",
+      "type": "class",
+      "name": "TeamBaseImpl",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/TeamBaseImpl.java",
+      "summary": "TeamBaseImpl class with 1 methods",
+      "tags": [
+        "java",
+        "class",
+        "methods:1"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "function:portal-impl/src/com/liferay/portal/model/impl/TeamBaseImpl.java:persist",
+      "type": "function",
+      "name": "persist",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/TeamBaseImpl.java",
+      "summary": "Exported function persist",
+      "tags": [
+        "java",
+        "function",
+        "exported"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "file:portal-impl/src/com/liferay/portal/model/impl/TeamCacheModel.java",
+      "type": "file",
+      "name": "TeamCacheModel.java",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/TeamCacheModel.java",
+      "summary": "Team entity implementation in Liferay portal",
+      "tags": [
+        "java",
+        "code",
+        "cache-model",
+        "serialization"
+      ],
+      "complexity": "high"
+    },
+    {
+      "id": "class:portal-impl/src/com/liferay/portal/model/impl/TeamCacheModel.java:TeamCacheModel",
+      "type": "class",
+      "name": "TeamCacheModel",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/TeamCacheModel.java",
+      "summary": "TeamCacheModel class with 8 methods",
+      "tags": [
+        "java",
+        "class",
+        "methods:8"
+      ],
+      "complexity": "high"
+    },
+    {
+      "id": "function:portal-impl/src/com/liferay/portal/model/impl/TeamCacheModel.java:equals",
+      "type": "function",
+      "name": "equals",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/TeamCacheModel.java",
+      "summary": "Exported function equals",
+      "tags": [
+        "java",
+        "function",
+        "exported"
+      ],
+      "complexity": "medium"
+    },
+    {
+      "id": "function:portal-impl/src/com/liferay/portal/model/impl/TeamCacheModel.java:hashCode",
+      "type": "function",
+      "name": "hashCode",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/TeamCacheModel.java",
+      "summary": "Exported function hashCode",
+      "tags": [
+        "java",
+        "function",
+        "exported"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "function:portal-impl/src/com/liferay/portal/model/impl/TeamCacheModel.java:getMvccVersion",
+      "type": "function",
+      "name": "getMvccVersion",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/TeamCacheModel.java",
+      "summary": "Exported function getMvccVersion",
+      "tags": [
+        "java",
+        "function",
+        "exported"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "function:portal-impl/src/com/liferay/portal/model/impl/TeamCacheModel.java:setMvccVersion",
+      "type": "function",
+      "name": "setMvccVersion",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/TeamCacheModel.java",
+      "summary": "Exported function setMvccVersion",
+      "tags": [
+        "java",
+        "function",
+        "exported"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "function:portal-impl/src/com/liferay/portal/model/impl/TeamCacheModel.java:toString",
+      "type": "function",
+      "name": "toString",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/TeamCacheModel.java",
+      "summary": "Exported function toString",
+      "tags": [
+        "java",
+        "function",
+        "exported"
+      ],
+      "complexity": "high"
+    },
+    {
+      "id": "function:portal-impl/src/com/liferay/portal/model/impl/TeamCacheModel.java:toEntityModel",
+      "type": "function",
+      "name": "toEntityModel",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/TeamCacheModel.java",
+      "summary": "Exported function toEntityModel",
+      "tags": [
+        "java",
+        "function",
+        "exported"
+      ],
+      "complexity": "high"
+    },
+    {
+      "id": "function:portal-impl/src/com/liferay/portal/model/impl/TeamCacheModel.java:readExternal",
+      "type": "function",
+      "name": "readExternal",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/TeamCacheModel.java",
+      "summary": "Exported function readExternal",
+      "tags": [
+        "java",
+        "function",
+        "exported"
+      ],
+      "complexity": "medium"
+    },
+    {
+      "id": "function:portal-impl/src/com/liferay/portal/model/impl/TeamCacheModel.java:writeExternal",
+      "type": "function",
+      "name": "writeExternal",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/TeamCacheModel.java",
+      "summary": "Exported function writeExternal",
+      "tags": [
+        "java",
+        "function",
+        "exported"
+      ],
+      "complexity": "high"
+    },
+    {
+      "id": "file:portal-impl/src/com/liferay/portal/model/impl/UserIdMapperBaseImpl.java",
+      "type": "file",
+      "name": "UserIdMapperBaseImpl.java",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/UserIdMapperBaseImpl.java",
+      "summary": "UserIdMapper entity implementation in Liferay portal",
+      "tags": [
+        "java",
+        "code",
+        "base-impl",
+        "service-builder"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "class:portal-impl/src/com/liferay/portal/model/impl/UserIdMapperBaseImpl.java:UserIdMapperBaseImpl",
+      "type": "class",
+      "name": "UserIdMapperBaseImpl",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/UserIdMapperBaseImpl.java",
+      "summary": "UserIdMapperBaseImpl class with 1 methods",
+      "tags": [
+        "java",
+        "class",
+        "methods:1"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "function:portal-impl/src/com/liferay/portal/model/impl/UserIdMapperBaseImpl.java:persist",
+      "type": "function",
+      "name": "persist",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/UserIdMapperBaseImpl.java",
+      "summary": "Exported function persist",
+      "tags": [
+        "java",
+        "function",
+        "exported"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "file:portal-impl/src/com/liferay/portal/model/impl/UserIdMapperCacheModel.java",
+      "type": "file",
+      "name": "UserIdMapperCacheModel.java",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/UserIdMapperCacheModel.java",
+      "summary": "UserIdMapper entity implementation in Liferay portal",
+      "tags": [
+        "java",
+        "code",
+        "cache-model",
+        "serialization"
+      ],
+      "complexity": "high"
+    },
+    {
+      "id": "class:portal-impl/src/com/liferay/portal/model/impl/UserIdMapperCacheModel.java:UserIdMapperCacheModel",
+      "type": "class",
+      "name": "UserIdMapperCacheModel",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/UserIdMapperCacheModel.java",
+      "summary": "UserIdMapperCacheModel class with 8 methods",
+      "tags": [
+        "java",
+        "class",
+        "methods:8"
+      ],
+      "complexity": "high"
+    },
+    {
+      "id": "function:portal-impl/src/com/liferay/portal/model/impl/UserIdMapperCacheModel.java:equals",
+      "type": "function",
+      "name": "equals",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/UserIdMapperCacheModel.java",
+      "summary": "Exported function equals",
+      "tags": [
+        "java",
+        "function",
+        "exported"
+      ],
+      "complexity": "medium"
+    },
+    {
+      "id": "function:portal-impl/src/com/liferay/portal/model/impl/UserIdMapperCacheModel.java:hashCode",
+      "type": "function",
+      "name": "hashCode",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/UserIdMapperCacheModel.java",
+      "summary": "Exported function hashCode",
+      "tags": [
+        "java",
+        "function",
+        "exported"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "function:portal-impl/src/com/liferay/portal/model/impl/UserIdMapperCacheModel.java:getMvccVersion",
+      "type": "function",
+      "name": "getMvccVersion",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/UserIdMapperCacheModel.java",
+      "summary": "Exported function getMvccVersion",
+      "tags": [
+        "java",
+        "function",
+        "exported"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "function:portal-impl/src/com/liferay/portal/model/impl/UserIdMapperCacheModel.java:setMvccVersion",
+      "type": "function",
+      "name": "setMvccVersion",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/UserIdMapperCacheModel.java",
+      "summary": "Exported function setMvccVersion",
+      "tags": [
+        "java",
+        "function",
+        "exported"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "function:portal-impl/src/com/liferay/portal/model/impl/UserIdMapperCacheModel.java:toString",
+      "type": "function",
+      "name": "toString",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/UserIdMapperCacheModel.java",
+      "summary": "Exported function toString",
+      "tags": [
+        "java",
+        "function",
+        "exported"
+      ],
+      "complexity": "medium"
+    },
+    {
+      "id": "function:portal-impl/src/com/liferay/portal/model/impl/UserIdMapperCacheModel.java:toEntityModel",
+      "type": "function",
+      "name": "toEntityModel",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/UserIdMapperCacheModel.java",
+      "summary": "Exported function toEntityModel",
+      "tags": [
+        "java",
+        "function",
+        "exported"
+      ],
+      "complexity": "high"
+    },
+    {
+      "id": "function:portal-impl/src/com/liferay/portal/model/impl/UserIdMapperCacheModel.java:readExternal",
+      "type": "function",
+      "name": "readExternal",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/UserIdMapperCacheModel.java",
+      "summary": "Exported function readExternal",
+      "tags": [
+        "java",
+        "function",
+        "exported"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "function:portal-impl/src/com/liferay/portal/model/impl/UserIdMapperCacheModel.java:writeExternal",
+      "type": "function",
+      "name": "writeExternal",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/UserIdMapperCacheModel.java",
+      "summary": "Exported function writeExternal",
+      "tags": [
+        "java",
+        "function",
+        "exported"
+      ],
+      "complexity": "medium"
+    },
+    {
+      "id": "file:portal-impl/src/com/liferay/portal/model/impl/UserNotificationDeliveryBaseImpl.java",
+      "type": "file",
+      "name": "UserNotificationDeliveryBaseImpl.java",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/UserNotificationDeliveryBaseImpl.java",
+      "summary": "UserNotificationDelivery entity implementation in Liferay portal",
+      "tags": [
+        "java",
+        "code",
+        "base-impl",
+        "service-builder"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "class:portal-impl/src/com/liferay/portal/model/impl/UserNotificationDeliveryBaseImpl.java:UserNotificationDeliveryBaseImpl",
+      "type": "class",
+      "name": "UserNotificationDeliveryBaseImpl",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/UserNotificationDeliveryBaseImpl.java",
+      "summary": "UserNotificationDeliveryBaseImpl class with 1 methods",
+      "tags": [
+        "java",
+        "class",
+        "methods:1"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "function:portal-impl/src/com/liferay/portal/model/impl/UserNotificationDeliveryBaseImpl.java:persist",
+      "type": "function",
+      "name": "persist",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/UserNotificationDeliveryBaseImpl.java",
+      "summary": "Exported function persist",
+      "tags": [
+        "java",
+        "function",
+        "exported"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "file:portal-impl/src/com/liferay/portal/model/impl/UserNotificationDeliveryCacheModel.java",
+      "type": "file",
+      "name": "UserNotificationDeliveryCacheModel.java",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/UserNotificationDeliveryCacheModel.java",
+      "summary": "UserNotificationDelivery entity implementation in Liferay portal",
+      "tags": [
+        "java",
+        "code",
+        "cache-model",
+        "serialization"
+      ],
+      "complexity": "high"
+    },
+    {
+      "id": "class:portal-impl/src/com/liferay/portal/model/impl/UserNotificationDeliveryCacheModel.java:UserNotificationDeliveryCacheModel",
+      "type": "class",
+      "name": "UserNotificationDeliveryCacheModel",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/UserNotificationDeliveryCacheModel.java",
+      "summary": "UserNotificationDeliveryCacheModel class with 8 methods",
+      "tags": [
+        "java",
+        "class",
+        "methods:8"
+      ],
+      "complexity": "high"
+    },
+    {
+      "id": "function:portal-impl/src/com/liferay/portal/model/impl/UserNotificationDeliveryCacheModel.java:equals",
+      "type": "function",
+      "name": "equals",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/UserNotificationDeliveryCacheModel.java",
+      "summary": "Exported function equals",
+      "tags": [
+        "java",
+        "function",
+        "exported"
+      ],
+      "complexity": "medium"
+    },
+    {
+      "id": "function:portal-impl/src/com/liferay/portal/model/impl/UserNotificationDeliveryCacheModel.java:hashCode",
+      "type": "function",
+      "name": "hashCode",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/UserNotificationDeliveryCacheModel.java",
+      "summary": "Exported function hashCode",
+      "tags": [
+        "java",
+        "function",
+        "exported"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "function:portal-impl/src/com/liferay/portal/model/impl/UserNotificationDeliveryCacheModel.java:getMvccVersion",
+      "type": "function",
+      "name": "getMvccVersion",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/UserNotificationDeliveryCacheModel.java",
+      "summary": "Exported function getMvccVersion",
+      "tags": [
+        "java",
+        "function",
+        "exported"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "function:portal-impl/src/com/liferay/portal/model/impl/UserNotificationDeliveryCacheModel.java:setMvccVersion",
+      "type": "function",
+      "name": "setMvccVersion",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/UserNotificationDeliveryCacheModel.java",
+      "summary": "Exported function setMvccVersion",
+      "tags": [
+        "java",
+        "function",
+        "exported"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "function:portal-impl/src/com/liferay/portal/model/impl/UserNotificationDeliveryCacheModel.java:toString",
+      "type": "function",
+      "name": "toString",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/UserNotificationDeliveryCacheModel.java",
+      "summary": "Exported function toString",
+      "tags": [
+        "java",
+        "function",
+        "exported"
+      ],
+      "complexity": "medium"
+    },
+    {
+      "id": "function:portal-impl/src/com/liferay/portal/model/impl/UserNotificationDeliveryCacheModel.java:toEntityModel",
+      "type": "function",
+      "name": "toEntityModel",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/UserNotificationDeliveryCacheModel.java",
+      "summary": "Exported function toEntityModel",
+      "tags": [
+        "java",
+        "function",
+        "exported"
+      ],
+      "complexity": "medium"
+    },
+    {
+      "id": "function:portal-impl/src/com/liferay/portal/model/impl/UserNotificationDeliveryCacheModel.java:readExternal",
+      "type": "function",
+      "name": "readExternal",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/UserNotificationDeliveryCacheModel.java",
+      "summary": "Exported function readExternal",
+      "tags": [
+        "java",
+        "function",
+        "exported"
+      ],
+      "complexity": "medium"
+    },
+    {
+      "id": "function:portal-impl/src/com/liferay/portal/model/impl/UserNotificationDeliveryCacheModel.java:writeExternal",
+      "type": "function",
+      "name": "writeExternal",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/UserNotificationDeliveryCacheModel.java",
+      "summary": "Exported function writeExternal",
+      "tags": [
+        "java",
+        "function",
+        "exported"
+      ],
+      "complexity": "medium"
+    },
+    {
+      "id": "file:portal-impl/src/com/liferay/portal/model/impl/UserNotificationEventBaseImpl.java",
+      "type": "file",
+      "name": "UserNotificationEventBaseImpl.java",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/UserNotificationEventBaseImpl.java",
+      "summary": "UserNotificationEvent entity implementation in Liferay portal",
+      "tags": [
+        "java",
+        "code",
+        "base-impl",
+        "service-builder"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "class:portal-impl/src/com/liferay/portal/model/impl/UserNotificationEventBaseImpl.java:UserNotificationEventBaseImpl",
+      "type": "class",
+      "name": "UserNotificationEventBaseImpl",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/UserNotificationEventBaseImpl.java",
+      "summary": "UserNotificationEventBaseImpl class with 1 methods",
+      "tags": [
+        "java",
+        "class",
+        "methods:1"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "function:portal-impl/src/com/liferay/portal/model/impl/UserNotificationEventBaseImpl.java:persist",
+      "type": "function",
+      "name": "persist",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/UserNotificationEventBaseImpl.java",
+      "summary": "Exported function persist",
+      "tags": [
+        "java",
+        "function",
+        "exported"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "file:portal-impl/src/com/liferay/portal/model/impl/UserNotificationEventCacheModel.java",
+      "type": "file",
+      "name": "UserNotificationEventCacheModel.java",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/UserNotificationEventCacheModel.java",
+      "summary": "UserNotificationEvent entity implementation in Liferay portal",
+      "tags": [
+        "java",
+        "code",
+        "cache-model",
+        "serialization"
+      ],
+      "complexity": "high"
+    },
+    {
+      "id": "class:portal-impl/src/com/liferay/portal/model/impl/UserNotificationEventCacheModel.java:UserNotificationEventCacheModel",
+      "type": "class",
+      "name": "UserNotificationEventCacheModel",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/UserNotificationEventCacheModel.java",
+      "summary": "UserNotificationEventCacheModel class with 8 methods",
+      "tags": [
+        "java",
+        "class",
+        "methods:8"
+      ],
+      "complexity": "high"
+    },
+    {
+      "id": "function:portal-impl/src/com/liferay/portal/model/impl/UserNotificationEventCacheModel.java:equals",
+      "type": "function",
+      "name": "equals",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/UserNotificationEventCacheModel.java",
+      "summary": "Exported function equals",
+      "tags": [
+        "java",
+        "function",
+        "exported"
+      ],
+      "complexity": "medium"
+    },
+    {
+      "id": "function:portal-impl/src/com/liferay/portal/model/impl/UserNotificationEventCacheModel.java:hashCode",
+      "type": "function",
+      "name": "hashCode",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/UserNotificationEventCacheModel.java",
+      "summary": "Exported function hashCode",
+      "tags": [
+        "java",
+        "function",
+        "exported"
+      ],
+      "complexity": "low"
+    }
+  ],
+  "edges": [
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/model/impl/SubscriptionBaseImpl.java",
+      "target": "class:portal-impl/src/com/liferay/portal/model/impl/SubscriptionBaseImpl.java:SubscriptionBaseImpl",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/model/impl/SubscriptionBaseImpl.java",
+      "target": "class:portal-impl/src/com/liferay/portal/model/impl/SubscriptionBaseImpl.java:SubscriptionBaseImpl",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/model/impl/SubscriptionBaseImpl.java",
+      "target": "function:portal-impl/src/com/liferay/portal/model/impl/SubscriptionBaseImpl.java:persist",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/model/impl/SubscriptionBaseImpl.java",
+      "target": "function:portal-impl/src/com/liferay/portal/model/impl/SubscriptionBaseImpl.java:persist",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/model/impl/SubscriptionBaseImpl.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/model/Subscription.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/model/impl/SubscriptionBaseImpl.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/service/SubscriptionLocalServiceUtil.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/model/impl/SubscriptionCacheModel.java",
+      "target": "class:portal-impl/src/com/liferay/portal/model/impl/SubscriptionCacheModel.java:SubscriptionCacheModel",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/model/impl/SubscriptionCacheModel.java",
+      "target": "class:portal-impl/src/com/liferay/portal/model/impl/SubscriptionCacheModel.java:SubscriptionCacheModel",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/model/impl/SubscriptionCacheModel.java",
+      "target": "function:portal-impl/src/com/liferay/portal/model/impl/SubscriptionCacheModel.java:equals",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/model/impl/SubscriptionCacheModel.java",
+      "target": "function:portal-impl/src/com/liferay/portal/model/impl/SubscriptionCacheModel.java:equals",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/model/impl/SubscriptionCacheModel.java",
+      "target": "function:portal-impl/src/com/liferay/portal/model/impl/SubscriptionCacheModel.java:hashCode",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/model/impl/SubscriptionCacheModel.java",
+      "target": "function:portal-impl/src/com/liferay/portal/model/impl/SubscriptionCacheModel.java:hashCode",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/model/impl/SubscriptionCacheModel.java",
+      "target": "function:portal-impl/src/com/liferay/portal/model/impl/SubscriptionCacheModel.java:getMvccVersion",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/model/impl/SubscriptionCacheModel.java",
+      "target": "function:portal-impl/src/com/liferay/portal/model/impl/SubscriptionCacheModel.java:getMvccVersion",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/model/impl/SubscriptionCacheModel.java",
+      "target": "function:portal-impl/src/com/liferay/portal/model/impl/SubscriptionCacheModel.java:setMvccVersion",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/model/impl/SubscriptionCacheModel.java",
+      "target": "function:portal-impl/src/com/liferay/portal/model/impl/SubscriptionCacheModel.java:setMvccVersion",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/model/impl/SubscriptionCacheModel.java",
+      "target": "function:portal-impl/src/com/liferay/portal/model/impl/SubscriptionCacheModel.java:toString",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/model/impl/SubscriptionCacheModel.java",
+      "target": "function:portal-impl/src/com/liferay/portal/model/impl/SubscriptionCacheModel.java:toString",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/model/impl/SubscriptionCacheModel.java",
+      "target": "function:portal-impl/src/com/liferay/portal/model/impl/SubscriptionCacheModel.java:toEntityModel",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/model/impl/SubscriptionCacheModel.java",
+      "target": "function:portal-impl/src/com/liferay/portal/model/impl/SubscriptionCacheModel.java:toEntityModel",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/model/impl/SubscriptionCacheModel.java",
+      "target": "function:portal-impl/src/com/liferay/portal/model/impl/SubscriptionCacheModel.java:readExternal",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/model/impl/SubscriptionCacheModel.java",
+      "target": "function:portal-impl/src/com/liferay/portal/model/impl/SubscriptionCacheModel.java:readExternal",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/model/impl/SubscriptionCacheModel.java",
+      "target": "function:portal-impl/src/com/liferay/portal/model/impl/SubscriptionCacheModel.java:writeExternal",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/model/impl/SubscriptionCacheModel.java",
+      "target": "function:portal-impl/src/com/liferay/portal/model/impl/SubscriptionCacheModel.java:writeExternal",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/model/impl/SubscriptionCacheModel.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/model/CacheModel.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/model/impl/SubscriptionCacheModel.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/model/MVCCModel.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/model/impl/SubscriptionCacheModel.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/model/Subscription.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/model/impl/TeamBaseImpl.java",
+      "target": "class:portal-impl/src/com/liferay/portal/model/impl/TeamBaseImpl.java:TeamBaseImpl",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/model/impl/TeamBaseImpl.java",
+      "target": "class:portal-impl/src/com/liferay/portal/model/impl/TeamBaseImpl.java:TeamBaseImpl",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/model/impl/TeamBaseImpl.java",
+      "target": "function:portal-impl/src/com/liferay/portal/model/impl/TeamBaseImpl.java:persist",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/model/impl/TeamBaseImpl.java",
+      "target": "function:portal-impl/src/com/liferay/portal/model/impl/TeamBaseImpl.java:persist",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/model/impl/TeamBaseImpl.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/model/Team.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/model/impl/TeamBaseImpl.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/service/TeamLocalServiceUtil.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/model/impl/TeamCacheModel.java",
+      "target": "class:portal-impl/src/com/liferay/portal/model/impl/TeamCacheModel.java:TeamCacheModel",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/model/impl/TeamCacheModel.java",
+      "target": "class:portal-impl/src/com/liferay/portal/model/impl/TeamCacheModel.java:TeamCacheModel",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/model/impl/TeamCacheModel.java",
+      "target": "function:portal-impl/src/com/liferay/portal/model/impl/TeamCacheModel.java:equals",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/model/impl/TeamCacheModel.java",
+      "target": "function:portal-impl/src/com/liferay/portal/model/impl/TeamCacheModel.java:equals",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/model/impl/TeamCacheModel.java",
+      "target": "function:portal-impl/src/com/liferay/portal/model/impl/TeamCacheModel.java:hashCode",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/model/impl/TeamCacheModel.java",
+      "target": "function:portal-impl/src/com/liferay/portal/model/impl/TeamCacheModel.java:hashCode",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/model/impl/TeamCacheModel.java",
+      "target": "function:portal-impl/src/com/liferay/portal/model/impl/TeamCacheModel.java:getMvccVersion",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/model/impl/TeamCacheModel.java",
+      "target": "function:portal-impl/src/com/liferay/portal/model/impl/TeamCacheModel.java:getMvccVersion",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/model/impl/TeamCacheModel.java",
+      "target": "function:portal-impl/src/com/liferay/portal/model/impl/TeamCacheModel.java:setMvccVersion",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/model/impl/TeamCacheModel.java",
+      "target": "function:portal-impl/src/com/liferay/portal/model/impl/TeamCacheModel.java:setMvccVersion",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/model/impl/TeamCacheModel.java",
+      "target": "function:portal-impl/src/com/liferay/portal/model/impl/TeamCacheModel.java:toString",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/model/impl/TeamCacheModel.java",
+      "target": "function:portal-impl/src/com/liferay/portal/model/impl/TeamCacheModel.java:toString",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/model/impl/TeamCacheModel.java",
+      "target": "function:portal-impl/src/com/liferay/portal/model/impl/TeamCacheModel.java:toEntityModel",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/model/impl/TeamCacheModel.java",
+      "target": "function:portal-impl/src/com/liferay/portal/model/impl/TeamCacheModel.java:toEntityModel",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/model/impl/TeamCacheModel.java",
+      "target": "function:portal-impl/src/com/liferay/portal/model/impl/TeamCacheModel.java:readExternal",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/model/impl/TeamCacheModel.java",
+      "target": "function:portal-impl/src/com/liferay/portal/model/impl/TeamCacheModel.java:readExternal",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/model/impl/TeamCacheModel.java",
+      "target": "function:portal-impl/src/com/liferay/portal/model/impl/TeamCacheModel.java:writeExternal",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/model/impl/TeamCacheModel.java",
+      "target": "function:portal-impl/src/com/liferay/portal/model/impl/TeamCacheModel.java:writeExternal",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/model/impl/TeamCacheModel.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/model/CacheModel.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/model/impl/TeamCacheModel.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/model/MVCCModel.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/model/impl/TeamCacheModel.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/model/Team.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/model/impl/UserIdMapperBaseImpl.java",
+      "target": "class:portal-impl/src/com/liferay/portal/model/impl/UserIdMapperBaseImpl.java:UserIdMapperBaseImpl",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/model/impl/UserIdMapperBaseImpl.java",
+      "target": "class:portal-impl/src/com/liferay/portal/model/impl/UserIdMapperBaseImpl.java:UserIdMapperBaseImpl",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/model/impl/UserIdMapperBaseImpl.java",
+      "target": "function:portal-impl/src/com/liferay/portal/model/impl/UserIdMapperBaseImpl.java:persist",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/model/impl/UserIdMapperBaseImpl.java",
+      "target": "function:portal-impl/src/com/liferay/portal/model/impl/UserIdMapperBaseImpl.java:persist",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/model/impl/UserIdMapperBaseImpl.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/model/UserIdMapper.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/model/impl/UserIdMapperBaseImpl.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/service/UserIdMapperLocalServiceUtil.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/model/impl/UserIdMapperCacheModel.java",
+      "target": "class:portal-impl/src/com/liferay/portal/model/impl/UserIdMapperCacheModel.java:UserIdMapperCacheModel",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/model/impl/UserIdMapperCacheModel.java",
+      "target": "class:portal-impl/src/com/liferay/portal/model/impl/UserIdMapperCacheModel.java:UserIdMapperCacheModel",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/model/impl/UserIdMapperCacheModel.java",
+      "target": "function:portal-impl/src/com/liferay/portal/model/impl/UserIdMapperCacheModel.java:equals",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/model/impl/UserIdMapperCacheModel.java",
+      "target": "function:portal-impl/src/com/liferay/portal/model/impl/UserIdMapperCacheModel.java:equals",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/model/impl/UserIdMapperCacheModel.java",
+      "target": "function:portal-impl/src/com/liferay/portal/model/impl/UserIdMapperCacheModel.java:hashCode",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/model/impl/UserIdMapperCacheModel.java",
+      "target": "function:portal-impl/src/com/liferay/portal/model/impl/UserIdMapperCacheModel.java:hashCode",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/model/impl/UserIdMapperCacheModel.java",
+      "target": "function:portal-impl/src/com/liferay/portal/model/impl/UserIdMapperCacheModel.java:getMvccVersion",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/model/impl/UserIdMapperCacheModel.java",
+      "target": "function:portal-impl/src/com/liferay/portal/model/impl/UserIdMapperCacheModel.java:getMvccVersion",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/model/impl/UserIdMapperCacheModel.java",
+      "target": "function:portal-impl/src/com/liferay/portal/model/impl/UserIdMapperCacheModel.java:setMvccVersion",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/model/impl/UserIdMapperCacheModel.java",
+      "target": "function:portal-impl/src/com/liferay/portal/model/impl/UserIdMapperCacheModel.java:setMvccVersion",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/model/impl/UserIdMapperCacheModel.java",
+      "target": "function:portal-impl/src/com/liferay/portal/model/impl/UserIdMapperCacheModel.java:toString",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/model/impl/UserIdMapperCacheModel.java",
+      "target": "function:portal-impl/src/com/liferay/portal/model/impl/UserIdMapperCacheModel.java:toString",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/model/impl/UserIdMapperCacheModel.java",
+      "target": "function:portal-impl/src/com/liferay/portal/model/impl/UserIdMapperCacheModel.java:toEntityModel",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/model/impl/UserIdMapperCacheModel.java",
+      "target": "function:portal-impl/src/com/liferay/portal/model/impl/UserIdMapperCacheModel.java:toEntityModel",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/model/impl/UserIdMapperCacheModel.java",
+      "target": "function:portal-impl/src/com/liferay/portal/model/impl/UserIdMapperCacheModel.java:readExternal",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/model/impl/UserIdMapperCacheModel.java",
+      "target": "function:portal-impl/src/com/liferay/portal/model/impl/UserIdMapperCacheModel.java:readExternal",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/model/impl/UserIdMapperCacheModel.java",
+      "target": "function:portal-impl/src/com/liferay/portal/model/impl/UserIdMapperCacheModel.java:writeExternal",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/model/impl/UserIdMapperCacheModel.java",
+      "target": "function:portal-impl/src/com/liferay/portal/model/impl/UserIdMapperCacheModel.java:writeExternal",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/model/impl/UserIdMapperCacheModel.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/model/CacheModel.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/model/impl/UserIdMapperCacheModel.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/model/MVCCModel.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/model/impl/UserIdMapperCacheModel.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/model/UserIdMapper.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/model/impl/UserNotificationDeliveryBaseImpl.java",
+      "target": "class:portal-impl/src/com/liferay/portal/model/impl/UserNotificationDeliveryBaseImpl.java:UserNotificationDeliveryBaseImpl",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/model/impl/UserNotificationDeliveryBaseImpl.java",
+      "target": "class:portal-impl/src/com/liferay/portal/model/impl/UserNotificationDeliveryBaseImpl.java:UserNotificationDeliveryBaseImpl",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/model/impl/UserNotificationDeliveryBaseImpl.java",
+      "target": "function:portal-impl/src/com/liferay/portal/model/impl/UserNotificationDeliveryBaseImpl.java:persist",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/model/impl/UserNotificationDeliveryBaseImpl.java",
+      "target": "function:portal-impl/src/com/liferay/portal/model/impl/UserNotificationDeliveryBaseImpl.java:persist",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/model/impl/UserNotificationDeliveryBaseImpl.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/model/UserNotificationDelivery.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/model/impl/UserNotificationDeliveryBaseImpl.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/service/UserNotificationDeliveryLocalServiceUtil.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/model/impl/UserNotificationDeliveryCacheModel.java",
+      "target": "class:portal-impl/src/com/liferay/portal/model/impl/UserNotificationDeliveryCacheModel.java:UserNotificationDeliveryCacheModel",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/model/impl/UserNotificationDeliveryCacheModel.java",
+      "target": "class:portal-impl/src/com/liferay/portal/model/impl/UserNotificationDeliveryCacheModel.java:UserNotificationDeliveryCacheModel",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/model/impl/UserNotificationDeliveryCacheModel.java",
+      "target": "function:portal-impl/src/com/liferay/portal/model/impl/UserNotificationDeliveryCacheModel.java:equals",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/model/impl/UserNotificationDeliveryCacheModel.java",
+      "target": "function:portal-impl/src/com/liferay/portal/model/impl/UserNotificationDeliveryCacheModel.java:equals",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/model/impl/UserNotificationDeliveryCacheModel.java",
+      "target": "function:portal-impl/src/com/liferay/portal/model/impl/UserNotificationDeliveryCacheModel.java:hashCode",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/model/impl/UserNotificationDeliveryCacheModel.java",
+      "target": "function:portal-impl/src/com/liferay/portal/model/impl/UserNotificationDeliveryCacheModel.java:hashCode",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/model/impl/UserNotificationDeliveryCacheModel.java",
+      "target": "function:portal-impl/src/com/liferay/portal/model/impl/UserNotificationDeliveryCacheModel.java:getMvccVersion",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/model/impl/UserNotificationDeliveryCacheModel.java",
+      "target": "function:portal-impl/src/com/liferay/portal/model/impl/UserNotificationDeliveryCacheModel.java:getMvccVersion",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/model/impl/UserNotificationDeliveryCacheModel.java",
+      "target": "function:portal-impl/src/com/liferay/portal/model/impl/UserNotificationDeliveryCacheModel.java:setMvccVersion",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/model/impl/UserNotificationDeliveryCacheModel.java",
+      "target": "function:portal-impl/src/com/liferay/portal/model/impl/UserNotificationDeliveryCacheModel.java:setMvccVersion",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/model/impl/UserNotificationDeliveryCacheModel.java",
+      "target": "function:portal-impl/src/com/liferay/portal/model/impl/UserNotificationDeliveryCacheModel.java:toString",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/model/impl/UserNotificationDeliveryCacheModel.java",
+      "target": "function:portal-impl/src/com/liferay/portal/model/impl/UserNotificationDeliveryCacheModel.java:toString",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/model/impl/UserNotificationDeliveryCacheModel.java",
+      "target": "function:portal-impl/src/com/liferay/portal/model/impl/UserNotificationDeliveryCacheModel.java:toEntityModel",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/model/impl/UserNotificationDeliveryCacheModel.java",
+      "target": "function:portal-impl/src/com/liferay/portal/model/impl/UserNotificationDeliveryCacheModel.java:toEntityModel",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/model/impl/UserNotificationDeliveryCacheModel.java",
+      "target": "function:portal-impl/src/com/liferay/portal/model/impl/UserNotificationDeliveryCacheModel.java:readExternal",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/model/impl/UserNotificationDeliveryCacheModel.java",
+      "target": "function:portal-impl/src/com/liferay/portal/model/impl/UserNotificationDeliveryCacheModel.java:readExternal",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/model/impl/UserNotificationDeliveryCacheModel.java",
+      "target": "function:portal-impl/src/com/liferay/portal/model/impl/UserNotificationDeliveryCacheModel.java:writeExternal",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/model/impl/UserNotificationDeliveryCacheModel.java",
+      "target": "function:portal-impl/src/com/liferay/portal/model/impl/UserNotificationDeliveryCacheModel.java:writeExternal",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/model/impl/UserNotificationDeliveryCacheModel.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/model/CacheModel.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/model/impl/UserNotificationDeliveryCacheModel.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/model/MVCCModel.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/model/impl/UserNotificationDeliveryCacheModel.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/model/UserNotificationDelivery.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/model/impl/UserNotificationEventBaseImpl.java",
+      "target": "class:portal-impl/src/com/liferay/portal/model/impl/UserNotificationEventBaseImpl.java:UserNotificationEventBaseImpl",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/model/impl/UserNotificationEventBaseImpl.java",
+      "target": "class:portal-impl/src/com/liferay/portal/model/impl/UserNotificationEventBaseImpl.java:UserNotificationEventBaseImpl",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/model/impl/UserNotificationEventBaseImpl.java",
+      "target": "function:portal-impl/src/com/liferay/portal/model/impl/UserNotificationEventBaseImpl.java:persist",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/model/impl/UserNotificationEventBaseImpl.java",
+      "target": "function:portal-impl/src/com/liferay/portal/model/impl/UserNotificationEventBaseImpl.java:persist",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/model/impl/UserNotificationEventBaseImpl.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/model/UserNotificationEvent.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/model/impl/UserNotificationEventBaseImpl.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/service/UserNotificationEventLocalServiceUtil.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/model/impl/UserNotificationEventCacheModel.java",
+      "target": "class:portal-impl/src/com/liferay/portal/model/impl/UserNotificationEventCacheModel.java:UserNotificationEventCacheModel",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/model/impl/UserNotificationEventCacheModel.java",
+      "target": "class:portal-impl/src/com/liferay/portal/model/impl/UserNotificationEventCacheModel.java:UserNotificationEventCacheModel",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/model/impl/UserNotificationEventCacheModel.java",
+      "target": "function:portal-impl/src/com/liferay/portal/model/impl/UserNotificationEventCacheModel.java:equals",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/model/impl/UserNotificationEventCacheModel.java",
+      "target": "function:portal-impl/src/com/liferay/portal/model/impl/UserNotificationEventCacheModel.java:equals",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/model/impl/UserNotificationEventCacheModel.java",
+      "target": "function:portal-impl/src/com/liferay/portal/model/impl/UserNotificationEventCacheModel.java:hashCode",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/model/impl/UserNotificationEventCacheModel.java",
+      "target": "function:portal-impl/src/com/liferay/portal/model/impl/UserNotificationEventCacheModel.java:hashCode",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/model/impl/UserNotificationEventCacheModel.java",
+      "target": "function:portal-impl/src/com/liferay/portal/model/impl/UserNotificationEventCacheModel.java:getMvccVersion",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/model/impl/UserNotificationEventCacheModel.java",
+      "target": "function:portal-impl/src/com/liferay/portal/model/impl/UserNotificationEventCacheModel.java:getMvccVersion",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/model/impl/UserNotificationEventCacheModel.java",
+      "target": "function:portal-impl/src/com/liferay/portal/model/impl/UserNotificationEventCacheModel.java:setMvccVersion",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/model/impl/UserNotificationEventCacheModel.java",
+      "target": "function:portal-impl/src/com/liferay/portal/model/impl/UserNotificationEventCacheModel.java:setMvccVersion",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/model/impl/UserNotificationEventCacheModel.java",
+      "target": "function:portal-impl/src/com/liferay/portal/model/impl/UserNotificationEventCacheModel.java:toString",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/model/impl/UserNotificationEventCacheModel.java",
+      "target": "function:portal-impl/src/com/liferay/portal/model/impl/UserNotificationEventCacheModel.java:toString",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/model/impl/UserNotificationEventCacheModel.java",
+      "target": "function:portal-impl/src/com/liferay/portal/model/impl/UserNotificationEventCacheModel.java:toEntityModel",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/model/impl/UserNotificationEventCacheModel.java",
+      "target": "function:portal-impl/src/com/liferay/portal/model/impl/UserNotificationEventCacheModel.java:toEntityModel",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/model/impl/UserNotificationEventCacheModel.java",
+      "target": "function:portal-impl/src/com/liferay/portal/model/impl/UserNotificationEventCacheModel.java:readExternal",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/model/impl/UserNotificationEventCacheModel.java",
+      "target": "function:portal-impl/src/com/liferay/portal/model/impl/UserNotificationEventCacheModel.java:readExternal",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/model/impl/UserNotificationEventCacheModel.java",
+      "target": "function:portal-impl/src/com/liferay/portal/model/impl/UserNotificationEventCacheModel.java:writeExternal",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/model/impl/UserNotificationEventCacheModel.java",
+      "target": "function:portal-impl/src/com/liferay/portal/model/impl/UserNotificationEventCacheModel.java:writeExternal",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/model/impl/UserNotificationEventCacheModel.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/model/CacheModel.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/model/impl/UserNotificationEventCacheModel.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/model/MVCCModel.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/model/impl/UserNotificationEventCacheModel.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/model/UserNotificationEvent.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    }
+  ]
+}

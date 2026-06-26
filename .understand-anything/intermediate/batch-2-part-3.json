@@ -1,0 +1,1477 @@
+{
+  "batchIndex": 2,
+  "partIndex": 3,
+  "partCount": 7,
+  "nodes": [
+    {
+      "id": "function:portal-impl/src/com/liferay/portal/action/UpdatePasswordAction.java:getTicket",
+      "type": "function",
+      "name": "getTicket",
+      "filePath": "portal-impl/src/com/liferay/portal/action/UpdatePasswordAction.java",
+      "lineRange": [
+        151,
+        190
+      ],
+      "summary": "getTicket(httpServletRequest)",
+      "tags": [
+        "liferay",
+        "portal",
+        "action",
+        "getticket"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:portal-impl/src/com/liferay/portal/action/UpdatePasswordAction.java:isValidatePassword",
+      "type": "function",
+      "name": "isValidatePassword",
+      "filePath": "portal-impl/src/com/liferay/portal/action/UpdatePasswordAction.java",
+      "lineRange": [
+        192,
+        207
+      ],
+      "summary": "isValidatePassword(httpServletRequest)",
+      "tags": [
+        "liferay",
+        "portal",
+        "action",
+        "isvalidatepassword"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:portal-impl/src/com/liferay/portal/action/UpdatePasswordAction.java:resendAsPost",
+      "type": "function",
+      "name": "resendAsPost",
+      "filePath": "portal-impl/src/com/liferay/portal/action/UpdatePasswordAction.java",
+      "lineRange": [
+        209,
+        249
+      ],
+      "summary": "resendAsPost(httpServletRequest, httpServletResponse)",
+      "tags": [
+        "liferay",
+        "portal",
+        "action",
+        "resendaspost"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:portal-impl/src/com/liferay/portal/action/UpdatePasswordAction.java:updatePassword",
+      "type": "function",
+      "name": "updatePassword",
+      "filePath": "portal-impl/src/com/liferay/portal/action/UpdatePasswordAction.java",
+      "lineRange": [
+        251,
+        351
+      ],
+      "summary": "updatePassword(httpServletRequest, httpServletResponse, themeDisplay, ticket)",
+      "tags": [
+        "liferay",
+        "portal",
+        "action",
+        "updatepassword"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:portal-impl/src/com/liferay/portal/action/UpdatePasswordAction.java:_isUserDefaultAdmin",
+      "type": "function",
+      "name": "_isUserDefaultAdmin",
+      "filePath": "portal-impl/src/com/liferay/portal/action/UpdatePasswordAction.java",
+      "lineRange": [
+        353,
+        364
+      ],
+      "summary": "_isUserDefaultAdmin(user)",
+      "tags": [
+        "liferay",
+        "portal",
+        "action",
+        "_isuserdefaultadmin"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:portal-impl/src/com/liferay/portal/action/UpdateReminderQueryAction.java",
+      "type": "file",
+      "name": "UpdateReminderQueryAction.java",
+      "filePath": "portal-impl/src/com/liferay/portal/action/UpdateReminderQueryAction.java",
+      "summary": "UpdateReminderQueryAction class in liferay/portal module",
+      "tags": [
+        "liferay",
+        "portal",
+        "action"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "class:portal-impl/src/com/liferay/portal/action/UpdateReminderQueryAction.java:UpdateReminderQueryAction",
+      "type": "class",
+      "name": "UpdateReminderQueryAction",
+      "filePath": "portal-impl/src/com/liferay/portal/action/UpdateReminderQueryAction.java",
+      "lineRange": [
+        31,
+        98
+      ],
+      "summary": "UpdateReminderQueryAction class",
+      "tags": [
+        "liferay",
+        "portal",
+        "action",
+        "updatereminderqueryaction"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:portal-impl/src/com/liferay/portal/action/UpdateReminderQueryAction.java:execute",
+      "type": "function",
+      "name": "execute",
+      "filePath": "portal-impl/src/com/liferay/portal/action/UpdateReminderQueryAction.java",
+      "lineRange": [
+        33,
+        72
+      ],
+      "summary": "execute(actionMapping, httpServletRequest, httpServletResponse)",
+      "tags": [
+        "liferay",
+        "portal",
+        "action",
+        "execute"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:portal-impl/src/com/liferay/portal/action/UpdateReminderQueryAction.java:updateReminderQuery",
+      "type": "function",
+      "name": "updateReminderQuery",
+      "filePath": "portal-impl/src/com/liferay/portal/action/UpdateReminderQueryAction.java",
+      "lineRange": [
+        74,
+        96
+      ],
+      "summary": "updateReminderQuery(httpServletRequest, httpServletResponse)",
+      "tags": [
+        "liferay",
+        "portal",
+        "action",
+        "updatereminderquery"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:portal-impl/src/com/liferay/portal/action/UpdateTermsOfUseAction.java",
+      "type": "file",
+      "name": "UpdateTermsOfUseAction.java",
+      "filePath": "portal-impl/src/com/liferay/portal/action/UpdateTermsOfUseAction.java",
+      "summary": "UpdateTermsOfUseAction class in liferay/portal module",
+      "tags": [
+        "liferay",
+        "portal",
+        "action"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "class:portal-impl/src/com/liferay/portal/action/UpdateTermsOfUseAction.java:UpdateTermsOfUseAction",
+      "type": "class",
+      "name": "UpdateTermsOfUseAction",
+      "filePath": "portal-impl/src/com/liferay/portal/action/UpdateTermsOfUseAction.java",
+      "lineRange": [
+        26,
+        63
+      ],
+      "summary": "UpdateTermsOfUseAction class",
+      "tags": [
+        "liferay",
+        "portal",
+        "action",
+        "updatetermsofuseaction"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:portal-impl/src/com/liferay/portal/action/UpdateTermsOfUseAction.java:execute",
+      "type": "function",
+      "name": "execute",
+      "filePath": "portal-impl/src/com/liferay/portal/action/UpdateTermsOfUseAction.java",
+      "lineRange": [
+        28,
+        58
+      ],
+      "summary": "execute(actionMapping, httpServletRequest, httpServletResponse)",
+      "tags": [
+        "liferay",
+        "portal",
+        "action",
+        "execute"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:portal-impl/src/com/liferay/portal/action/VerifyEmailAddressAction.java",
+      "type": "file",
+      "name": "VerifyEmailAddressAction.java",
+      "filePath": "portal-impl/src/com/liferay/portal/action/VerifyEmailAddressAction.java",
+      "summary": "VerifyEmailAddressAction class in liferay/portal module",
+      "tags": [
+        "liferay",
+        "portal",
+        "action"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "class:portal-impl/src/com/liferay/portal/action/VerifyEmailAddressAction.java:VerifyEmailAddressAction",
+      "type": "class",
+      "name": "VerifyEmailAddressAction",
+      "filePath": "portal-impl/src/com/liferay/portal/action/VerifyEmailAddressAction.java",
+      "lineRange": [
+        44,
+        144
+      ],
+      "summary": "VerifyEmailAddressAction class",
+      "tags": [
+        "liferay",
+        "portal",
+        "action",
+        "verifyemailaddressaction"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:portal-impl/src/com/liferay/portal/action/VerifyEmailAddressAction.java:execute",
+      "type": "function",
+      "name": "execute",
+      "filePath": "portal-impl/src/com/liferay/portal/action/VerifyEmailAddressAction.java",
+      "lineRange": [
+        46,
+        103
+      ],
+      "summary": "execute(actionMapping, httpServletRequest, httpServletResponse)",
+      "tags": [
+        "liferay",
+        "portal",
+        "action",
+        "execute"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:portal-impl/src/com/liferay/portal/action/VerifyEmailAddressAction.java:sendEmailAddressVerification",
+      "type": "function",
+      "name": "sendEmailAddressVerification",
+      "filePath": "portal-impl/src/com/liferay/portal/action/VerifyEmailAddressAction.java",
+      "lineRange": [
+        105,
+        129
+      ],
+      "summary": "sendEmailAddressVerification(httpServletRequest, httpServletResponse, themeDisplay)",
+      "tags": [
+        "liferay",
+        "portal",
+        "action",
+        "sendemailaddressverification"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:portal-impl/src/com/liferay/portal/action/VerifyEmailAddressAction.java:verifyEmailAddress",
+      "type": "function",
+      "name": "verifyEmailAddress",
+      "filePath": "portal-impl/src/com/liferay/portal/action/VerifyEmailAddressAction.java",
+      "lineRange": [
+        131,
+        142
+      ],
+      "summary": "verifyEmailAddress(httpServletRequest, httpServletResponse, themeDisplay)",
+      "tags": [
+        "liferay",
+        "portal",
+        "action",
+        "verifyemailaddress"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:portal-impl/src/com/liferay/portal/bean/BeanPropertiesImpl.java",
+      "type": "file",
+      "name": "BeanPropertiesImpl.java",
+      "filePath": "portal-impl/src/com/liferay/portal/bean/BeanPropertiesImpl.java",
+      "summary": "BeanPropertiesImpl class in liferay/portal module",
+      "tags": [
+        "liferay",
+        "portal",
+        "bean"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "class:portal-impl/src/com/liferay/portal/bean/BeanPropertiesImpl.java:BeanPropertiesImpl",
+      "type": "class",
+      "name": "BeanPropertiesImpl",
+      "filePath": "portal-impl/src/com/liferay/portal/bean/BeanPropertiesImpl.java",
+      "lineRange": [
+        40,
+        695
+      ],
+      "summary": "BeanPropertiesImpl class",
+      "tags": [
+        "liferay",
+        "portal",
+        "bean",
+        "beanpropertiesimpl"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "function:portal-impl/src/com/liferay/portal/bean/BeanPropertiesImpl.java:copyProperties",
+      "type": "function",
+      "name": "copyProperties",
+      "filePath": "portal-impl/src/com/liferay/portal/bean/BeanPropertiesImpl.java",
+      "lineRange": [
+        42,
+        52
+      ],
+      "summary": "copyProperties(source, target)",
+      "tags": [
+        "liferay",
+        "portal",
+        "bean",
+        "copyproperties"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:portal-impl/src/com/liferay/portal/bean/BeanPropertiesImpl.java:deepCopyProperties",
+      "type": "function",
+      "name": "deepCopyProperties",
+      "filePath": "portal-impl/src/com/liferay/portal/bean/BeanPropertiesImpl.java",
+      "lineRange": [
+        54,
+        74
+      ],
+      "summary": "deepCopyProperties(source)",
+      "tags": [
+        "liferay",
+        "portal",
+        "bean",
+        "deepcopyproperties"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:portal-impl/src/com/liferay/portal/bean/BeanPropertiesImpl.java:getBoolean",
+      "type": "function",
+      "name": "getBoolean",
+      "filePath": "portal-impl/src/com/liferay/portal/bean/BeanPropertiesImpl.java",
+      "lineRange": [
+        76,
+        79
+      ],
+      "summary": "getBoolean(bean, param)",
+      "tags": [
+        "liferay",
+        "portal",
+        "bean",
+        "getboolean"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:portal-impl/src/com/liferay/portal/bean/BeanPropertiesImpl.java:getBooleanSilent",
+      "type": "function",
+      "name": "getBooleanSilent",
+      "filePath": "portal-impl/src/com/liferay/portal/bean/BeanPropertiesImpl.java",
+      "lineRange": [
+        99,
+        102
+      ],
+      "summary": "getBooleanSilent(bean, param)",
+      "tags": [
+        "liferay",
+        "portal",
+        "bean",
+        "getbooleansilent"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:portal-impl/src/com/liferay/portal/bean/BeanPropertiesImpl.java:getByte",
+      "type": "function",
+      "name": "getByte",
+      "filePath": "portal-impl/src/com/liferay/portal/bean/BeanPropertiesImpl.java",
+      "lineRange": [
+        126,
+        129
+      ],
+      "summary": "getByte(bean, param)",
+      "tags": [
+        "liferay",
+        "portal",
+        "bean",
+        "getbyte"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:portal-impl/src/com/liferay/portal/bean/BeanPropertiesImpl.java:getByteSilent",
+      "type": "function",
+      "name": "getByteSilent",
+      "filePath": "portal-impl/src/com/liferay/portal/bean/BeanPropertiesImpl.java",
+      "lineRange": [
+        149,
+        152
+      ],
+      "summary": "getByteSilent(bean, param)",
+      "tags": [
+        "liferay",
+        "portal",
+        "bean",
+        "getbytesilent"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:portal-impl/src/com/liferay/portal/bean/BeanPropertiesImpl.java:getDouble",
+      "type": "function",
+      "name": "getDouble",
+      "filePath": "portal-impl/src/com/liferay/portal/bean/BeanPropertiesImpl.java",
+      "lineRange": [
+        174,
+        177
+      ],
+      "summary": "getDouble(bean, param)",
+      "tags": [
+        "liferay",
+        "portal",
+        "bean",
+        "getdouble"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:portal-impl/src/com/liferay/portal/bean/BeanPropertiesImpl.java:getDoubleSilent",
+      "type": "function",
+      "name": "getDoubleSilent",
+      "filePath": "portal-impl/src/com/liferay/portal/bean/BeanPropertiesImpl.java",
+      "lineRange": [
+        197,
+        200
+      ],
+      "summary": "getDoubleSilent(bean, param)",
+      "tags": [
+        "liferay",
+        "portal",
+        "bean",
+        "getdoublesilent"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:portal-impl/src/com/liferay/portal/bean/BeanPropertiesImpl.java:getFloat",
+      "type": "function",
+      "name": "getFloat",
+      "filePath": "portal-impl/src/com/liferay/portal/bean/BeanPropertiesImpl.java",
+      "lineRange": [
+        224,
+        227
+      ],
+      "summary": "getFloat(bean, param)",
+      "tags": [
+        "liferay",
+        "portal",
+        "bean",
+        "getfloat"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:portal-impl/src/com/liferay/portal/bean/BeanPropertiesImpl.java:getFloatSilent",
+      "type": "function",
+      "name": "getFloatSilent",
+      "filePath": "portal-impl/src/com/liferay/portal/bean/BeanPropertiesImpl.java",
+      "lineRange": [
+        247,
+        250
+      ],
+      "summary": "getFloatSilent(bean, param)",
+      "tags": [
+        "liferay",
+        "portal",
+        "bean",
+        "getfloatsilent"
+      ],
+      "complexity": "simple"
+    }
+  ],
+  "edges": [
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/action/UpdatePasswordAction.java",
+      "target": "function:portal-impl/src/com/liferay/portal/action/UpdatePasswordAction.java:getTicket",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/action/UpdatePasswordAction.java",
+      "target": "function:portal-impl/src/com/liferay/portal/action/UpdatePasswordAction.java:isValidatePassword",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/action/UpdatePasswordAction.java",
+      "target": "function:portal-impl/src/com/liferay/portal/action/UpdatePasswordAction.java:resendAsPost",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/action/UpdatePasswordAction.java",
+      "target": "function:portal-impl/src/com/liferay/portal/action/UpdatePasswordAction.java:updatePassword",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/action/UpdatePasswordAction.java",
+      "target": "function:portal-impl/src/com/liferay/portal/action/UpdatePasswordAction.java:_isUserDefaultAdmin",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/action/UpdateReminderQueryAction.java",
+      "target": "class:portal-impl/src/com/liferay/portal/action/UpdateReminderQueryAction.java:UpdateReminderQueryAction",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/action/UpdateReminderQueryAction.java",
+      "target": "function:portal-impl/src/com/liferay/portal/action/UpdateReminderQueryAction.java:execute",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/action/UpdateReminderQueryAction.java",
+      "target": "function:portal-impl/src/com/liferay/portal/action/UpdateReminderQueryAction.java:execute",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/action/UpdateReminderQueryAction.java",
+      "target": "function:portal-impl/src/com/liferay/portal/action/UpdateReminderQueryAction.java:updateReminderQuery",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/action/UpdateReminderQueryAction.java",
+      "target": "class:portal-impl/src/com/liferay/portal/action/UpdateReminderQueryAction.java:UpdateReminderQueryAction",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/action/UpdateReminderQueryAction.java",
+      "target": "file:portal-impl/src/com/liferay/portal/struts/Action.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/action/UpdateReminderQueryAction.java",
+      "target": "file:portal-impl/src/com/liferay/portal/struts/constants/ActionConstants.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/action/UpdateReminderQueryAction.java",
+      "target": "file:portal-impl/src/com/liferay/portal/struts/model/ActionForward.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/action/UpdateReminderQueryAction.java",
+      "target": "file:portal-impl/src/com/liferay/portal/struts/model/ActionMapping.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/action/UpdateReminderQueryAction.java",
+      "target": "file:portal-impl/src/com/liferay/portlet/usersadmin/util/UsersAdminUtil.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/action/UpdateReminderQueryAction.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/exception/NoSuchUserException.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/action/UpdateReminderQueryAction.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/exception/UserReminderQueryException.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/action/UpdateReminderQueryAction.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/security/auth/AuthTokenUtil.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/action/UpdateReminderQueryAction.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/security/auth/PrincipalException.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/action/UpdateReminderQueryAction.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/service/UserServiceUtil.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/action/UpdateReminderQueryAction.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/servlet/SessionErrors.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/action/UpdateReminderQueryAction.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/util/Constants.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/action/UpdateReminderQueryAction.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/util/ParamUtil.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/action/UpdateReminderQueryAction.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/util/Portal.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/action/UpdateReminderQueryAction.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/util/PortalUtil.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/action/UpdateReminderQueryAction.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/util/Validator.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/action/UpdateTermsOfUseAction.java",
+      "target": "class:portal-impl/src/com/liferay/portal/action/UpdateTermsOfUseAction.java:UpdateTermsOfUseAction",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/action/UpdateTermsOfUseAction.java",
+      "target": "function:portal-impl/src/com/liferay/portal/action/UpdateTermsOfUseAction.java:execute",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/action/UpdateTermsOfUseAction.java",
+      "target": "function:portal-impl/src/com/liferay/portal/action/UpdateTermsOfUseAction.java:execute",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/action/UpdateTermsOfUseAction.java",
+      "target": "class:portal-impl/src/com/liferay/portal/action/UpdateTermsOfUseAction.java:UpdateTermsOfUseAction",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/action/UpdateTermsOfUseAction.java",
+      "target": "file:portal-impl/src/com/liferay/portal/struts/Action.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/action/UpdateTermsOfUseAction.java",
+      "target": "file:portal-impl/src/com/liferay/portal/struts/constants/ActionConstants.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/action/UpdateTermsOfUseAction.java",
+      "target": "file:portal-impl/src/com/liferay/portal/struts/model/ActionForward.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/action/UpdateTermsOfUseAction.java",
+      "target": "file:portal-impl/src/com/liferay/portal/struts/model/ActionMapping.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/action/UpdateTermsOfUseAction.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/log/Log.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/action/UpdateTermsOfUseAction.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/log/LogFactoryUtil.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/action/UpdateTermsOfUseAction.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/security/auth/AuthTokenUtil.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/action/UpdateTermsOfUseAction.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/security/auth/PrincipalException.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/action/UpdateTermsOfUseAction.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/service/UserServiceUtil.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/action/UpdateTermsOfUseAction.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/servlet/SessionErrors.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/action/UpdateTermsOfUseAction.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/util/PortalUtil.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/action/VerifyEmailAddressAction.java",
+      "target": "class:portal-impl/src/com/liferay/portal/action/VerifyEmailAddressAction.java:VerifyEmailAddressAction",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/action/VerifyEmailAddressAction.java",
+      "target": "function:portal-impl/src/com/liferay/portal/action/VerifyEmailAddressAction.java:execute",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/action/VerifyEmailAddressAction.java",
+      "target": "function:portal-impl/src/com/liferay/portal/action/VerifyEmailAddressAction.java:execute",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/action/VerifyEmailAddressAction.java",
+      "target": "function:portal-impl/src/com/liferay/portal/action/VerifyEmailAddressAction.java:sendEmailAddressVerification",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/action/VerifyEmailAddressAction.java",
+      "target": "function:portal-impl/src/com/liferay/portal/action/VerifyEmailAddressAction.java:verifyEmailAddress",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/action/VerifyEmailAddressAction.java",
+      "target": "class:portal-impl/src/com/liferay/portal/action/VerifyEmailAddressAction.java:VerifyEmailAddressAction",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/action/VerifyEmailAddressAction.java",
+      "target": "file:portal-impl/src/com/liferay/portal/struts/Action.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/action/VerifyEmailAddressAction.java",
+      "target": "file:portal-impl/src/com/liferay/portal/struts/constants/ActionConstants.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/action/VerifyEmailAddressAction.java",
+      "target": "file:portal-impl/src/com/liferay/portal/struts/model/ActionForward.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/action/VerifyEmailAddressAction.java",
+      "target": "file:portal-impl/src/com/liferay/portal/struts/model/ActionMapping.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/action/VerifyEmailAddressAction.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/exception/PortalException.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/action/VerifyEmailAddressAction.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/exception/SystemException.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/action/VerifyEmailAddressAction.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/model/Ticket.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/action/VerifyEmailAddressAction.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/model/TicketConstants.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/action/VerifyEmailAddressAction.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/model/User.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/action/VerifyEmailAddressAction.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/portlet/PortletURLFactoryUtil.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/action/VerifyEmailAddressAction.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/security/auth/AuthTokenUtil.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/action/VerifyEmailAddressAction.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/service/ServiceContext.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/action/VerifyEmailAddressAction.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/service/ServiceContextFactory.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/action/VerifyEmailAddressAction.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/service/TicketLocalServiceUtil.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/action/VerifyEmailAddressAction.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/service/UserLocalServiceUtil.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/action/VerifyEmailAddressAction.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/servlet/SessionErrors.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/action/VerifyEmailAddressAction.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/theme/ThemeDisplay.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/action/VerifyEmailAddressAction.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/util/Constants.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/action/VerifyEmailAddressAction.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/util/ListUtil.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/action/VerifyEmailAddressAction.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/util/ParamUtil.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/action/VerifyEmailAddressAction.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/util/PortalUtil.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/action/VerifyEmailAddressAction.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/util/PortletKeys.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/action/VerifyEmailAddressAction.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/util/Validator.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/action/VerifyEmailAddressAction.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/util/WebKeys.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/bean/BeanPropertiesImpl.java",
+      "target": "class:portal-impl/src/com/liferay/portal/bean/BeanPropertiesImpl.java:BeanPropertiesImpl",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/bean/BeanPropertiesImpl.java",
+      "target": "function:portal-impl/src/com/liferay/portal/bean/BeanPropertiesImpl.java:copyProperties",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/bean/BeanPropertiesImpl.java",
+      "target": "function:portal-impl/src/com/liferay/portal/bean/BeanPropertiesImpl.java:copyProperties",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/bean/BeanPropertiesImpl.java",
+      "target": "function:portal-impl/src/com/liferay/portal/bean/BeanPropertiesImpl.java:deepCopyProperties",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/bean/BeanPropertiesImpl.java",
+      "target": "function:portal-impl/src/com/liferay/portal/bean/BeanPropertiesImpl.java:deepCopyProperties",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/bean/BeanPropertiesImpl.java",
+      "target": "function:portal-impl/src/com/liferay/portal/bean/BeanPropertiesImpl.java:getBoolean",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/bean/BeanPropertiesImpl.java",
+      "target": "function:portal-impl/src/com/liferay/portal/bean/BeanPropertiesImpl.java:getBoolean",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/bean/BeanPropertiesImpl.java",
+      "target": "function:portal-impl/src/com/liferay/portal/bean/BeanPropertiesImpl.java:getBooleanSilent",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/bean/BeanPropertiesImpl.java",
+      "target": "function:portal-impl/src/com/liferay/portal/bean/BeanPropertiesImpl.java:getBooleanSilent",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/bean/BeanPropertiesImpl.java",
+      "target": "function:portal-impl/src/com/liferay/portal/bean/BeanPropertiesImpl.java:getByte",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/bean/BeanPropertiesImpl.java",
+      "target": "function:portal-impl/src/com/liferay/portal/bean/BeanPropertiesImpl.java:getByte",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/bean/BeanPropertiesImpl.java",
+      "target": "function:portal-impl/src/com/liferay/portal/bean/BeanPropertiesImpl.java:getByteSilent",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/bean/BeanPropertiesImpl.java",
+      "target": "function:portal-impl/src/com/liferay/portal/bean/BeanPropertiesImpl.java:getByteSilent",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/bean/BeanPropertiesImpl.java",
+      "target": "function:portal-impl/src/com/liferay/portal/bean/BeanPropertiesImpl.java:getDouble",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/bean/BeanPropertiesImpl.java",
+      "target": "function:portal-impl/src/com/liferay/portal/bean/BeanPropertiesImpl.java:getDouble",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/bean/BeanPropertiesImpl.java",
+      "target": "function:portal-impl/src/com/liferay/portal/bean/BeanPropertiesImpl.java:getDoubleSilent",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/bean/BeanPropertiesImpl.java",
+      "target": "function:portal-impl/src/com/liferay/portal/bean/BeanPropertiesImpl.java:getDoubleSilent",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/bean/BeanPropertiesImpl.java",
+      "target": "function:portal-impl/src/com/liferay/portal/bean/BeanPropertiesImpl.java:getFloat",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/bean/BeanPropertiesImpl.java",
+      "target": "function:portal-impl/src/com/liferay/portal/bean/BeanPropertiesImpl.java:getFloat",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/bean/BeanPropertiesImpl.java",
+      "target": "function:portal-impl/src/com/liferay/portal/bean/BeanPropertiesImpl.java:getFloatSilent",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/bean/BeanPropertiesImpl.java",
+      "target": "function:portal-impl/src/com/liferay/portal/bean/BeanPropertiesImpl.java:getFloatSilent",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/bean/BeanPropertiesImpl.java",
+      "target": "function:portal-impl/src/com/liferay/portal/bean/BeanPropertiesImpl.java:getInteger",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/bean/BeanPropertiesImpl.java",
+      "target": "function:portal-impl/src/com/liferay/portal/bean/BeanPropertiesImpl.java:getInteger",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/bean/BeanPropertiesImpl.java",
+      "target": "function:portal-impl/src/com/liferay/portal/bean/BeanPropertiesImpl.java:getIntegerSilent",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/bean/BeanPropertiesImpl.java",
+      "target": "function:portal-impl/src/com/liferay/portal/bean/BeanPropertiesImpl.java:getIntegerSilent",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/bean/BeanPropertiesImpl.java",
+      "target": "function:portal-impl/src/com/liferay/portal/bean/BeanPropertiesImpl.java:getLong",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/bean/BeanPropertiesImpl.java",
+      "target": "function:portal-impl/src/com/liferay/portal/bean/BeanPropertiesImpl.java:getLong",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/bean/BeanPropertiesImpl.java",
+      "target": "function:portal-impl/src/com/liferay/portal/bean/BeanPropertiesImpl.java:getLongSilent",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/bean/BeanPropertiesImpl.java",
+      "target": "function:portal-impl/src/com/liferay/portal/bean/BeanPropertiesImpl.java:getLongSilent",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/bean/BeanPropertiesImpl.java",
+      "target": "function:portal-impl/src/com/liferay/portal/bean/BeanPropertiesImpl.java:getObject",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/bean/BeanPropertiesImpl.java",
+      "target": "function:portal-impl/src/com/liferay/portal/bean/BeanPropertiesImpl.java:getObject",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/bean/BeanPropertiesImpl.java",
+      "target": "function:portal-impl/src/com/liferay/portal/bean/BeanPropertiesImpl.java:getObjectSilent",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/bean/BeanPropertiesImpl.java",
+      "target": "function:portal-impl/src/com/liferay/portal/bean/BeanPropertiesImpl.java:getObjectSilent",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/bean/BeanPropertiesImpl.java",
+      "target": "function:portal-impl/src/com/liferay/portal/bean/BeanPropertiesImpl.java:getObjectType",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/bean/BeanPropertiesImpl.java",
+      "target": "function:portal-impl/src/com/liferay/portal/bean/BeanPropertiesImpl.java:getObjectType",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/bean/BeanPropertiesImpl.java",
+      "target": "function:portal-impl/src/com/liferay/portal/bean/BeanPropertiesImpl.java:getObjectTypeSilent",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/bean/BeanPropertiesImpl.java",
+      "target": "function:portal-impl/src/com/liferay/portal/bean/BeanPropertiesImpl.java:getObjectTypeSilent",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/bean/BeanPropertiesImpl.java",
+      "target": "function:portal-impl/src/com/liferay/portal/bean/BeanPropertiesImpl.java:getShort",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/bean/BeanPropertiesImpl.java",
+      "target": "function:portal-impl/src/com/liferay/portal/bean/BeanPropertiesImpl.java:getShort",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/bean/BeanPropertiesImpl.java",
+      "target": "function:portal-impl/src/com/liferay/portal/bean/BeanPropertiesImpl.java:getShortSilent",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/bean/BeanPropertiesImpl.java",
+      "target": "function:portal-impl/src/com/liferay/portal/bean/BeanPropertiesImpl.java:getShortSilent",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/bean/BeanPropertiesImpl.java",
+      "target": "function:portal-impl/src/com/liferay/portal/bean/BeanPropertiesImpl.java:getString",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/bean/BeanPropertiesImpl.java",
+      "target": "function:portal-impl/src/com/liferay/portal/bean/BeanPropertiesImpl.java:getString",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/bean/BeanPropertiesImpl.java",
+      "target": "function:portal-impl/src/com/liferay/portal/bean/BeanPropertiesImpl.java:getStringSilent",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/bean/BeanPropertiesImpl.java",
+      "target": "function:portal-impl/src/com/liferay/portal/bean/BeanPropertiesImpl.java:getStringSilent",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/bean/BeanPropertiesImpl.java",
+      "target": "function:portal-impl/src/com/liferay/portal/bean/BeanPropertiesImpl.java:setProperties",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/bean/BeanPropertiesImpl.java",
+      "target": "function:portal-impl/src/com/liferay/portal/bean/BeanPropertiesImpl.java:setProperties",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/bean/BeanPropertiesImpl.java",
+      "target": "function:portal-impl/src/com/liferay/portal/bean/BeanPropertiesImpl.java:setProperty",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/bean/BeanPropertiesImpl.java",
+      "target": "function:portal-impl/src/com/liferay/portal/bean/BeanPropertiesImpl.java:setProperty",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/bean/BeanPropertiesImpl.java",
+      "target": "function:portal-impl/src/com/liferay/portal/bean/BeanPropertiesImpl.java:setPropertySilent",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/bean/BeanPropertiesImpl.java",
+      "target": "function:portal-impl/src/com/liferay/portal/bean/BeanPropertiesImpl.java:setPropertySilent",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/bean/BeanPropertiesImpl.java",
+      "target": "function:portal-impl/src/com/liferay/portal/bean/BeanPropertiesImpl.java:getDate",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/bean/BeanPropertiesImpl.java",
+      "target": "class:portal-impl/src/com/liferay/portal/bean/BeanPropertiesImpl.java:BeanPropertiesImpl",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/bean/BeanPropertiesImpl.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/bean/BeanProperties.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/bean/BeanPropertiesImpl.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/exception/PortalException.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/bean/BeanPropertiesImpl.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/io/unsync/UnsyncByteArrayInputStream.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/bean/BeanPropertiesImpl.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/io/unsync/UnsyncByteArrayOutputStream.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/bean/BeanPropertiesImpl.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/log/Log.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/bean/BeanPropertiesImpl.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/log/LogFactoryUtil.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/bean/BeanPropertiesImpl.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/model/User.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/bean/BeanPropertiesImpl.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/theme/ThemeDisplay.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/bean/BeanPropertiesImpl.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/util/ArrayUtil.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/bean/BeanPropertiesImpl.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/util/GetterUtil.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/bean/BeanPropertiesImpl.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/util/ParamUtil.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/bean/BeanPropertiesImpl.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/util/PortalUtil.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/bean/BeanPropertiesImpl.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/util/Validator.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/bean/BeanPropertiesImpl.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/util/WebKeys.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    }
+  ]
+}

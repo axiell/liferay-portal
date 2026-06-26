@@ -1,0 +1,797 @@
+{
+  "nodes": [
+    {
+      "id": "function:com/liferay/portal/model/impl/RepositoryEntryModelImpl:RepositoryEntryModelImpl:getCompanyId",
+      "type": "function",
+      "name": "getCompanyId",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/RepositoryEntryModelImpl.java",
+      "summary": "getCompanyId() in RepositoryEntryModelImpl.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "function:com/liferay/portal/model/impl/RepositoryEntryModelImpl:RepositoryEntryModelImpl:setCompanyId",
+      "type": "function",
+      "name": "setCompanyId",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/RepositoryEntryModelImpl.java",
+      "summary": "setCompanyId() in RepositoryEntryModelImpl.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "function:com/liferay/portal/model/impl/RepositoryEntryModelImpl:RepositoryEntryModelImpl:getOriginalCompanyId",
+      "type": "function",
+      "name": "getOriginalCompanyId",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/RepositoryEntryModelImpl.java",
+      "summary": "getOriginalCompanyId() in RepositoryEntryModelImpl.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "function:com/liferay/portal/model/impl/RepositoryEntryModelImpl:RepositoryEntryModelImpl:getUserId",
+      "type": "function",
+      "name": "getUserId",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/RepositoryEntryModelImpl.java",
+      "summary": "getUserId() in RepositoryEntryModelImpl.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "function:com/liferay/portal/model/impl/RepositoryEntryModelImpl:RepositoryEntryModelImpl:setUserId",
+      "type": "function",
+      "name": "setUserId",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/RepositoryEntryModelImpl.java",
+      "summary": "setUserId() in RepositoryEntryModelImpl.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "function:com/liferay/portal/model/impl/RepositoryEntryModelImpl:RepositoryEntryModelImpl:getUserUuid",
+      "type": "function",
+      "name": "getUserUuid",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/RepositoryEntryModelImpl.java",
+      "summary": "getUserUuid() in RepositoryEntryModelImpl.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "function:com/liferay/portal/model/impl/RepositoryEntryModelImpl:RepositoryEntryModelImpl:setUserUuid",
+      "type": "function",
+      "name": "setUserUuid",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/RepositoryEntryModelImpl.java",
+      "summary": "setUserUuid() in RepositoryEntryModelImpl.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "function:com/liferay/portal/model/impl/RepositoryEntryModelImpl:RepositoryEntryModelImpl:getUserName",
+      "type": "function",
+      "name": "getUserName",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/RepositoryEntryModelImpl.java",
+      "summary": "getUserName() in RepositoryEntryModelImpl.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "function:com/liferay/portal/model/impl/RepositoryEntryModelImpl:RepositoryEntryModelImpl:setUserName",
+      "type": "function",
+      "name": "setUserName",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/RepositoryEntryModelImpl.java",
+      "summary": "setUserName() in RepositoryEntryModelImpl.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "function:com/liferay/portal/model/impl/RepositoryEntryModelImpl:RepositoryEntryModelImpl:getCreateDate",
+      "type": "function",
+      "name": "getCreateDate",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/RepositoryEntryModelImpl.java",
+      "summary": "getCreateDate() in RepositoryEntryModelImpl.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "function:com/liferay/portal/model/impl/RepositoryEntryModelImpl:RepositoryEntryModelImpl:setCreateDate",
+      "type": "function",
+      "name": "setCreateDate",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/RepositoryEntryModelImpl.java",
+      "summary": "setCreateDate() in RepositoryEntryModelImpl.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "function:com/liferay/portal/model/impl/RepositoryEntryModelImpl:RepositoryEntryModelImpl:getModifiedDate",
+      "type": "function",
+      "name": "getModifiedDate",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/RepositoryEntryModelImpl.java",
+      "summary": "getModifiedDate() in RepositoryEntryModelImpl.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "function:com/liferay/portal/model/impl/RepositoryEntryModelImpl:RepositoryEntryModelImpl:setModifiedDate",
+      "type": "function",
+      "name": "setModifiedDate",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/RepositoryEntryModelImpl.java",
+      "summary": "setModifiedDate() in RepositoryEntryModelImpl.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "function:com/liferay/portal/model/impl/RepositoryEntryModelImpl:RepositoryEntryModelImpl:getRepositoryId",
+      "type": "function",
+      "name": "getRepositoryId",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/RepositoryEntryModelImpl.java",
+      "summary": "getRepositoryId() in RepositoryEntryModelImpl.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "function:com/liferay/portal/model/impl/RepositoryEntryModelImpl:RepositoryEntryModelImpl:setRepositoryId",
+      "type": "function",
+      "name": "setRepositoryId",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/RepositoryEntryModelImpl.java",
+      "summary": "setRepositoryId() in RepositoryEntryModelImpl.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "function:com/liferay/portal/model/impl/RepositoryEntryModelImpl:RepositoryEntryModelImpl:getOriginalRepositoryId",
+      "type": "function",
+      "name": "getOriginalRepositoryId",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/RepositoryEntryModelImpl.java",
+      "summary": "getOriginalRepositoryId() in RepositoryEntryModelImpl.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "function:com/liferay/portal/model/impl/RepositoryEntryModelImpl:RepositoryEntryModelImpl:getMappedId",
+      "type": "function",
+      "name": "getMappedId",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/RepositoryEntryModelImpl.java",
+      "summary": "getMappedId() in RepositoryEntryModelImpl.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "function:com/liferay/portal/model/impl/RepositoryEntryModelImpl:RepositoryEntryModelImpl:setMappedId",
+      "type": "function",
+      "name": "setMappedId",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/RepositoryEntryModelImpl.java",
+      "summary": "setMappedId() in RepositoryEntryModelImpl.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "function:com/liferay/portal/model/impl/RepositoryEntryModelImpl:RepositoryEntryModelImpl:getOriginalMappedId",
+      "type": "function",
+      "name": "getOriginalMappedId",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/RepositoryEntryModelImpl.java",
+      "summary": "getOriginalMappedId() in RepositoryEntryModelImpl.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "function:com/liferay/portal/model/impl/RepositoryEntryModelImpl:RepositoryEntryModelImpl:getManualCheckInRequired",
+      "type": "function",
+      "name": "getManualCheckInRequired",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/RepositoryEntryModelImpl.java",
+      "summary": "getManualCheckInRequired() in RepositoryEntryModelImpl.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "function:com/liferay/portal/model/impl/RepositoryEntryModelImpl:RepositoryEntryModelImpl:isManualCheckInRequired",
+      "type": "function",
+      "name": "isManualCheckInRequired",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/RepositoryEntryModelImpl.java",
+      "summary": "isManualCheckInRequired() in RepositoryEntryModelImpl.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "function:com/liferay/portal/model/impl/RepositoryEntryModelImpl:RepositoryEntryModelImpl:setManualCheckInRequired",
+      "type": "function",
+      "name": "setManualCheckInRequired",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/RepositoryEntryModelImpl.java",
+      "summary": "setManualCheckInRequired() in RepositoryEntryModelImpl.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "function:com/liferay/portal/model/impl/RepositoryEntryModelImpl:RepositoryEntryModelImpl:getLastPublishDate",
+      "type": "function",
+      "name": "getLastPublishDate",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/RepositoryEntryModelImpl.java",
+      "summary": "getLastPublishDate() in RepositoryEntryModelImpl.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "function:com/liferay/portal/model/impl/RepositoryEntryModelImpl:RepositoryEntryModelImpl:setLastPublishDate",
+      "type": "function",
+      "name": "setLastPublishDate",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/RepositoryEntryModelImpl.java",
+      "summary": "setLastPublishDate() in RepositoryEntryModelImpl.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "function:com/liferay/portal/model/impl/RepositoryEntryModelImpl:RepositoryEntryModelImpl:getStagedModelType",
+      "type": "function",
+      "name": "getStagedModelType",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/RepositoryEntryModelImpl.java",
+      "summary": "getStagedModelType() in RepositoryEntryModelImpl.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "function:com/liferay/portal/model/impl/RepositoryEntryModelImpl:RepositoryEntryModelImpl:getColumnBitmask",
+      "type": "function",
+      "name": "getColumnBitmask",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/RepositoryEntryModelImpl.java",
+      "summary": "getColumnBitmask() in RepositoryEntryModelImpl.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "function:com/liferay/portal/model/impl/RepositoryEntryModelImpl:RepositoryEntryModelImpl:getExpandoBridge",
+      "type": "function",
+      "name": "getExpandoBridge",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/RepositoryEntryModelImpl.java",
+      "summary": "getExpandoBridge() in RepositoryEntryModelImpl.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "function:com/liferay/portal/model/impl/RepositoryEntryModelImpl:RepositoryEntryModelImpl:setExpandoBridgeAttributes",
+      "type": "function",
+      "name": "setExpandoBridgeAttributes",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/RepositoryEntryModelImpl.java",
+      "summary": "setExpandoBridgeAttributes() in RepositoryEntryModelImpl.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "function:com/liferay/portal/model/impl/RepositoryEntryModelImpl:RepositoryEntryModelImpl:toEscapedModel",
+      "type": "function",
+      "name": "toEscapedModel",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/RepositoryEntryModelImpl.java",
+      "summary": "toEscapedModel() in RepositoryEntryModelImpl.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "function:com/liferay/portal/model/impl/RepositoryEntryModelImpl:RepositoryEntryModelImpl:clone",
+      "type": "function",
+      "name": "clone",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/RepositoryEntryModelImpl.java",
+      "summary": "clone() in RepositoryEntryModelImpl.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "function:com/liferay/portal/model/impl/RepositoryEntryModelImpl:RepositoryEntryModelImpl:equals",
+      "type": "function",
+      "name": "equals",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/RepositoryEntryModelImpl.java",
+      "summary": "equals() in RepositoryEntryModelImpl.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "function:com/liferay/portal/model/impl/RepositoryEntryModelImpl:RepositoryEntryModelImpl:hashCode",
+      "type": "function",
+      "name": "hashCode",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/RepositoryEntryModelImpl.java",
+      "summary": "hashCode() in RepositoryEntryModelImpl.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "function:com/liferay/portal/model/impl/RepositoryEntryModelImpl:RepositoryEntryModelImpl:isEntityCacheEnabled",
+      "type": "function",
+      "name": "isEntityCacheEnabled",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/RepositoryEntryModelImpl.java",
+      "summary": "isEntityCacheEnabled() in RepositoryEntryModelImpl.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "function:com/liferay/portal/model/impl/RepositoryEntryModelImpl:RepositoryEntryModelImpl:isFinderCacheEnabled",
+      "type": "function",
+      "name": "isFinderCacheEnabled",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/RepositoryEntryModelImpl.java",
+      "summary": "isFinderCacheEnabled() in RepositoryEntryModelImpl.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "function:com/liferay/portal/model/impl/RepositoryEntryModelImpl:RepositoryEntryModelImpl:resetOriginalValues",
+      "type": "function",
+      "name": "resetOriginalValues",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/RepositoryEntryModelImpl.java",
+      "summary": "resetOriginalValues() in RepositoryEntryModelImpl.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "function:com/liferay/portal/model/impl/RepositoryEntryModelImpl:RepositoryEntryModelImpl:toCacheModel",
+      "type": "function",
+      "name": "toCacheModel",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/RepositoryEntryModelImpl.java",
+      "summary": "toCacheModel() in RepositoryEntryModelImpl.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "function:com/liferay/portal/model/impl/RepositoryEntryModelImpl:RepositoryEntryModelImpl:toString",
+      "type": "function",
+      "name": "toString",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/RepositoryEntryModelImpl.java",
+      "summary": "toString() in RepositoryEntryModelImpl.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "function:com/liferay/portal/model/impl/RepositoryEntryModelImpl:RepositoryEntryModelImpl:getColumnValue",
+      "type": "function",
+      "name": "getColumnValue",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/RepositoryEntryModelImpl.java",
+      "summary": "getColumnValue() in RepositoryEntryModelImpl.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "function:com/liferay/portal/model/impl/RepositoryEntryModelImpl:RepositoryEntryModelImpl:getColumnOriginalValue",
+      "type": "function",
+      "name": "getColumnOriginalValue",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/RepositoryEntryModelImpl.java",
+      "summary": "getColumnOriginalValue() in RepositoryEntryModelImpl.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "function:com/liferay/portal/model/impl/RepositoryEntryModelImpl:RepositoryEntryModelImpl:getColumnBitmask_2",
+      "type": "function",
+      "name": "getColumnBitmask",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/RepositoryEntryModelImpl.java",
+      "summary": "getColumnBitmask() in RepositoryEntryModelImpl.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "file:com/liferay/portal/kernel/model/RepositoryEntry",
+      "type": "file",
+      "name": "RepositoryEntry.java",
+      "filePath": "portal-kernel/src/com/liferay/portal/kernel/model/RepositoryEntry.java",
+      "summary": "RepositoryEntry.java - com/liferay/portal/kernel/model/RepositoryEntry",
+      "tags": [
+        "code",
+        "java",
+        "imported"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "file:com/liferay/portal/kernel/model/RepositoryEntryModel",
+      "type": "file",
+      "name": "RepositoryEntryModel.java",
+      "filePath": "portal-kernel/src/com/liferay/portal/kernel/model/RepositoryEntryModel.java",
+      "summary": "RepositoryEntryModel.java - com/liferay/portal/kernel/model/RepositoryEntryModel",
+      "tags": [
+        "code",
+        "java",
+        "imported"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "file:com/liferay/portal/model/impl/RepositoryModelImpl",
+      "type": "file",
+      "name": "RepositoryModelImpl.java",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/RepositoryModelImpl.java",
+      "summary": "RepositoryModelImpl.java - com/liferay/portal/model/impl/RepositoryModelImpl",
+      "tags": [
+        "code",
+        "java",
+        "class-definition"
+      ],
+      "complexity": "high"
+    },
+    {
+      "id": "class:com/liferay/portal/model/impl/RepositoryModelImpl:RepositoryModelImpl",
+      "type": "class",
+      "name": "RepositoryModelImpl",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/RepositoryModelImpl.java",
+      "summary": "RepositoryModelImpl class in RepositoryModelImpl.java",
+      "tags": [
+        "class"
+      ],
+      "complexity": "high",
+      "methods": [
+        "RepositoryModelImpl",
+        "getPrimaryKey",
+        "setPrimaryKey",
+        "getPrimaryKeyObj",
+        "setPrimaryKeyObj",
+        "getModelClass",
+        "getModelClassName",
+        "getModelAttributes",
+        "setModelAttributes",
+        "getAttributeGetterFunctions",
+        "getAttributeSetterBiConsumers",
+        "getMvccVersion",
+        "setMvccVersion",
+        "getCtCollectionId",
+        "setCtCollectionId",
+        "getUuid",
+        "setUuid",
+        "getOriginalUuid",
+        "getExternalReferenceCode",
+        "setExternalReferenceCode",
+        "getOriginalExternalReferenceCode",
+        "getRepositoryId",
+        "setRepositoryId",
+        "getGroupId",
+        "setGroupId",
+        "getOriginalGroupId",
+        "getCompanyId",
+        "setCompanyId",
+        "getOriginalCompanyId",
+        "getUserId",
+        "setUserId",
+        "getUserUuid",
+        "setUserUuid",
+        "getUserName",
+        "setUserName",
+        "getCreateDate",
+        "setCreateDate",
+        "getModifiedDate",
+        "hasSetModifiedDate",
+        "setModifiedDate",
+        "getClassName",
+        "setClassName",
+        "getClassNameId",
+        "setClassNameId",
+        "getName",
+        "setName",
+        "getOriginalName",
+        "getDescription",
+        "setDescription",
+        "getPortletId",
+        "setPortletId",
+        "getOriginalPortletId",
+        "getTypeSettings",
+        "setTypeSettings",
+        "getDlFolderId",
+        "setDlFolderId",
+        "getLastPublishDate",
+        "setLastPublishDate",
+        "getStagedModelType",
+        "getColumnBitmask",
+        "getExpandoBridge",
+        "setExpandoBridgeAttributes",
+        "toEscapedModel",
+        "clone",
+        "cloneWithOriginalValues",
+        "compareTo",
+        "equals",
+        "hashCode",
+        "isEntityCacheEnabled",
+        "isFinderCacheEnabled",
+        "resetOriginalValues",
+        "toCacheModel",
+        "toString",
+        "getColumnValue",
+        "getColumnOriginalValue",
+        "_setColumnOriginalValues",
+        "getColumnBitmask"
+      ],
+      "properties": [
+        "TABLE_NAME",
+        "TABLE_COLUMNS",
+        "TABLE_COLUMNS_MAP",
+        "TABLE_SQL_CREATE",
+        "TABLE_SQL_DROP",
+        "ORDER_BY_JPQL",
+        "ORDER_BY_SQL",
+        "DATA_SOURCE",
+        "SESSION_FACTORY",
+        "TX_MANAGER",
+        "ENTITY_CACHE_ENABLED",
+        "FINDER_CACHE_ENABLED",
+        "COLUMN_BITMASK_ENABLED",
+        "COMPANYID_COLUMN_BITMASK",
+        "EXTERNALREFERENCECODE_COLUMN_BITMASK",
+        "GROUPID_COLUMN_BITMASK",
+        "NAME_COLUMN_BITMASK",
+        "PORTLETID_COLUMN_BITMASK",
+        "UUID_COLUMN_BITMASK",
+        "REPOSITORYID_COLUMN_BITMASK",
+        "LOCK_EXPIRATION_TIME",
+        "_mvccVersion",
+        "_ctCollectionId",
+        "_uuid",
+        "_externalReferenceCode",
+        "_repositoryId",
+        "_groupId",
+        "_companyId",
+        "_userId",
+        "_userName",
+        "_createDate",
+        "_modifiedDate",
+        "_setModifiedDate",
+        "_classNameId",
+        "_name",
+        "_description",
+        "_portletId",
+        "_typeSettings",
+        "_dlFolderId",
+        "_lastPublishDate",
+        "_attributeNames",
+        "_columnOriginalValues",
+        "_columnBitmasks",
+        "_columnBitmask",
+        "_escapedModel"
+      ]
+    },
+    {
+      "id": "function:com/liferay/portal/model/impl/RepositoryModelImpl:RepositoryModelImpl:getPrimaryKey",
+      "type": "function",
+      "name": "getPrimaryKey",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/RepositoryModelImpl.java",
+      "summary": "getPrimaryKey() in RepositoryModelImpl.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "function:com/liferay/portal/model/impl/RepositoryModelImpl:RepositoryModelImpl:setPrimaryKey",
+      "type": "function",
+      "name": "setPrimaryKey",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/RepositoryModelImpl.java",
+      "summary": "setPrimaryKey() in RepositoryModelImpl.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "function:com/liferay/portal/model/impl/RepositoryModelImpl:RepositoryModelImpl:getPrimaryKeyObj",
+      "type": "function",
+      "name": "getPrimaryKeyObj",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/RepositoryModelImpl.java",
+      "summary": "getPrimaryKeyObj() in RepositoryModelImpl.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "function:com/liferay/portal/model/impl/RepositoryModelImpl:RepositoryModelImpl:setPrimaryKeyObj",
+      "type": "function",
+      "name": "setPrimaryKeyObj",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/RepositoryModelImpl.java",
+      "summary": "setPrimaryKeyObj() in RepositoryModelImpl.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "function:com/liferay/portal/model/impl/RepositoryModelImpl:RepositoryModelImpl:getModelClass",
+      "type": "function",
+      "name": "getModelClass",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/RepositoryModelImpl.java",
+      "summary": "getModelClass() in RepositoryModelImpl.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "function:com/liferay/portal/model/impl/RepositoryModelImpl:RepositoryModelImpl:getModelClassName",
+      "type": "function",
+      "name": "getModelClassName",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/RepositoryModelImpl.java",
+      "summary": "getModelClassName() in RepositoryModelImpl.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "function:com/liferay/portal/model/impl/RepositoryModelImpl:RepositoryModelImpl:getModelAttributes",
+      "type": "function",
+      "name": "getModelAttributes",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/RepositoryModelImpl.java",
+      "summary": "getModelAttributes() in RepositoryModelImpl.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "function:com/liferay/portal/model/impl/RepositoryModelImpl:RepositoryModelImpl:setModelAttributes",
+      "type": "function",
+      "name": "setModelAttributes",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/RepositoryModelImpl.java",
+      "summary": "setModelAttributes() in RepositoryModelImpl.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "function:com/liferay/portal/model/impl/RepositoryModelImpl:RepositoryModelImpl:getAttributeGetterFunctions",
+      "type": "function",
+      "name": "getAttributeGetterFunctions",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/RepositoryModelImpl.java",
+      "summary": "getAttributeGetterFunctions() in RepositoryModelImpl.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "function:com/liferay/portal/model/impl/RepositoryModelImpl:RepositoryModelImpl:getAttributeSetterBiConsumers",
+      "type": "function",
+      "name": "getAttributeSetterBiConsumers",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/RepositoryModelImpl.java",
+      "summary": "getAttributeSetterBiConsumers() in RepositoryModelImpl.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "function:com/liferay/portal/model/impl/RepositoryModelImpl:RepositoryModelImpl:getMvccVersion",
+      "type": "function",
+      "name": "getMvccVersion",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/RepositoryModelImpl.java",
+      "summary": "getMvccVersion() in RepositoryModelImpl.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "function:com/liferay/portal/model/impl/RepositoryModelImpl:RepositoryModelImpl:setMvccVersion",
+      "type": "function",
+      "name": "setMvccVersion",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/RepositoryModelImpl.java",
+      "summary": "setMvccVersion() in RepositoryModelImpl.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "function:com/liferay/portal/model/impl/RepositoryModelImpl:RepositoryModelImpl:getCtCollectionId",
+      "type": "function",
+      "name": "getCtCollectionId",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/RepositoryModelImpl.java",
+      "summary": "getCtCollectionId() in RepositoryModelImpl.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "function:com/liferay/portal/model/impl/RepositoryModelImpl:RepositoryModelImpl:setCtCollectionId",
+      "type": "function",
+      "name": "setCtCollectionId",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/RepositoryModelImpl.java",
+      "summary": "setCtCollectionId() in RepositoryModelImpl.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "function:com/liferay/portal/model/impl/RepositoryModelImpl:RepositoryModelImpl:getUuid",
+      "type": "function",
+      "name": "getUuid",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/RepositoryModelImpl.java",
+      "summary": "getUuid() in RepositoryModelImpl.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low"
+    },
+    {
+      "id": "function:com/liferay/portal/model/impl/RepositoryModelImpl:RepositoryModelImpl:setUuid",
+      "type": "function",
+      "name": "setUuid",
+      "filePath": "portal-impl/src/com/liferay/portal/model/impl/RepositoryModelImpl.java",
+      "summary": "setUuid() in RepositoryModelImpl.java",
+      "tags": [
+        "function"
+      ],
+      "complexity": "low"
+    }
+  ],
+  "edges": []
+}

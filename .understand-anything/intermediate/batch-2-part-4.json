@@ -1,0 +1,1041 @@
+{
+  "batchIndex": 2,
+  "partIndex": 4,
+  "partCount": 7,
+  "nodes": [
+    {
+      "id": "function:portal-impl/src/com/liferay/portal/bean/BeanPropertiesImpl.java:getInteger",
+      "type": "function",
+      "name": "getInteger",
+      "filePath": "portal-impl/src/com/liferay/portal/bean/BeanPropertiesImpl.java",
+      "lineRange": [
+        272,
+        275
+      ],
+      "summary": "getInteger(bean, param)",
+      "tags": [
+        "liferay",
+        "portal",
+        "bean",
+        "getinteger"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:portal-impl/src/com/liferay/portal/bean/BeanPropertiesImpl.java:getIntegerSilent",
+      "type": "function",
+      "name": "getIntegerSilent",
+      "filePath": "portal-impl/src/com/liferay/portal/bean/BeanPropertiesImpl.java",
+      "lineRange": [
+        295,
+        298
+      ],
+      "summary": "getIntegerSilent(bean, param)",
+      "tags": [
+        "liferay",
+        "portal",
+        "bean",
+        "getintegersilent"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:portal-impl/src/com/liferay/portal/bean/BeanPropertiesImpl.java:getLong",
+      "type": "function",
+      "name": "getLong",
+      "filePath": "portal-impl/src/com/liferay/portal/bean/BeanPropertiesImpl.java",
+      "lineRange": [
+        320,
+        323
+      ],
+      "summary": "getLong(bean, param)",
+      "tags": [
+        "liferay",
+        "portal",
+        "bean",
+        "getlong"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:portal-impl/src/com/liferay/portal/bean/BeanPropertiesImpl.java:getLongSilent",
+      "type": "function",
+      "name": "getLongSilent",
+      "filePath": "portal-impl/src/com/liferay/portal/bean/BeanPropertiesImpl.java",
+      "lineRange": [
+        343,
+        346
+      ],
+      "summary": "getLongSilent(bean, param)",
+      "tags": [
+        "liferay",
+        "portal",
+        "bean",
+        "getlongsilent"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:portal-impl/src/com/liferay/portal/bean/BeanPropertiesImpl.java:getObject",
+      "type": "function",
+      "name": "getObject",
+      "filePath": "portal-impl/src/com/liferay/portal/bean/BeanPropertiesImpl.java",
+      "lineRange": [
+        368,
+        371
+      ],
+      "summary": "getObject(bean, param)",
+      "tags": [
+        "liferay",
+        "portal",
+        "bean",
+        "getobject"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:portal-impl/src/com/liferay/portal/bean/BeanPropertiesImpl.java:getObjectSilent",
+      "type": "function",
+      "name": "getObjectSilent",
+      "filePath": "portal-impl/src/com/liferay/portal/bean/BeanPropertiesImpl.java",
+      "lineRange": [
+        393,
+        396
+      ],
+      "summary": "getObjectSilent(bean, param)",
+      "tags": [
+        "liferay",
+        "portal",
+        "bean",
+        "getobjectsilent"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:portal-impl/src/com/liferay/portal/bean/BeanPropertiesImpl.java:getObjectType",
+      "type": "function",
+      "name": "getObjectType",
+      "filePath": "portal-impl/src/com/liferay/portal/bean/BeanPropertiesImpl.java",
+      "lineRange": [
+        422,
+        425
+      ],
+      "summary": "getObjectType(bean, param)",
+      "tags": [
+        "liferay",
+        "portal",
+        "bean",
+        "getobjecttype"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:portal-impl/src/com/liferay/portal/bean/BeanPropertiesImpl.java:getObjectTypeSilent",
+      "type": "function",
+      "name": "getObjectTypeSilent",
+      "filePath": "portal-impl/src/com/liferay/portal/bean/BeanPropertiesImpl.java",
+      "lineRange": [
+        449,
+        452
+      ],
+      "summary": "getObjectTypeSilent(bean, param)",
+      "tags": [
+        "liferay",
+        "portal",
+        "bean",
+        "getobjecttypesilent"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:portal-impl/src/com/liferay/portal/bean/BeanPropertiesImpl.java:getShort",
+      "type": "function",
+      "name": "getShort",
+      "filePath": "portal-impl/src/com/liferay/portal/bean/BeanPropertiesImpl.java",
+      "lineRange": [
+        478,
+        481
+      ],
+      "summary": "getShort(bean, param)",
+      "tags": [
+        "liferay",
+        "portal",
+        "bean",
+        "getshort"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:portal-impl/src/com/liferay/portal/bean/BeanPropertiesImpl.java:getShortSilent",
+      "type": "function",
+      "name": "getShortSilent",
+      "filePath": "portal-impl/src/com/liferay/portal/bean/BeanPropertiesImpl.java",
+      "lineRange": [
+        501,
+        504
+      ],
+      "summary": "getShortSilent(bean, param)",
+      "tags": [
+        "liferay",
+        "portal",
+        "bean",
+        "getshortsilent"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:portal-impl/src/com/liferay/portal/bean/BeanPropertiesImpl.java:getString",
+      "type": "function",
+      "name": "getString",
+      "filePath": "portal-impl/src/com/liferay/portal/bean/BeanPropertiesImpl.java",
+      "lineRange": [
+        526,
+        529
+      ],
+      "summary": "getString(bean, param)",
+      "tags": [
+        "liferay",
+        "portal",
+        "bean",
+        "getstring"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:portal-impl/src/com/liferay/portal/bean/BeanPropertiesImpl.java:getStringSilent",
+      "type": "function",
+      "name": "getStringSilent",
+      "filePath": "portal-impl/src/com/liferay/portal/bean/BeanPropertiesImpl.java",
+      "lineRange": [
+        549,
+        552
+      ],
+      "summary": "getStringSilent(bean, param)",
+      "tags": [
+        "liferay",
+        "portal",
+        "bean",
+        "getstringsilent"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:portal-impl/src/com/liferay/portal/bean/BeanPropertiesImpl.java:setProperties",
+      "type": "function",
+      "name": "setProperties",
+      "filePath": "portal-impl/src/com/liferay/portal/bean/BeanPropertiesImpl.java",
+      "lineRange": [
+        576,
+        581
+      ],
+      "summary": "setProperties(bean, httpServletRequest)",
+      "tags": [
+        "liferay",
+        "portal",
+        "bean",
+        "setproperties"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:portal-impl/src/com/liferay/portal/bean/BeanPropertiesImpl.java:setProperty",
+      "type": "function",
+      "name": "setProperty",
+      "filePath": "portal-impl/src/com/liferay/portal/bean/BeanPropertiesImpl.java",
+      "lineRange": [
+        633,
+        641
+      ],
+      "summary": "setProperty(bean, param, value)",
+      "tags": [
+        "liferay",
+        "portal",
+        "bean",
+        "setproperty"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:portal-impl/src/com/liferay/portal/bean/BeanPropertiesImpl.java:setPropertySilent",
+      "type": "function",
+      "name": "setPropertySilent",
+      "filePath": "portal-impl/src/com/liferay/portal/bean/BeanPropertiesImpl.java",
+      "lineRange": [
+        643,
+        646
+      ],
+      "summary": "setPropertySilent(bean, param, value)",
+      "tags": [
+        "liferay",
+        "portal",
+        "bean",
+        "setpropertysilent"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:portal-impl/src/com/liferay/portal/bean/BeanPropertiesImpl.java:getDate",
+      "type": "function",
+      "name": "getDate",
+      "filePath": "portal-impl/src/com/liferay/portal/bean/BeanPropertiesImpl.java",
+      "lineRange": [
+        648,
+        688
+      ],
+      "summary": "getDate(param, httpServletRequest)",
+      "tags": [
+        "liferay",
+        "portal",
+        "bean",
+        "getdate"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:portal-impl/src/com/liferay/portal/ccpp/PortalProfileFactory.java",
+      "type": "file",
+      "name": "PortalProfileFactory.java",
+      "filePath": "portal-impl/src/com/liferay/portal/ccpp/PortalProfileFactory.java",
+      "summary": "PortalProfileFactory class in liferay/portal module",
+      "tags": [
+        "liferay",
+        "portal",
+        "ccpp"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:portal-impl/src/com/liferay/portal/ccpp/PortalProfileFactory.java:PortalProfileFactory",
+      "type": "class",
+      "name": "PortalProfileFactory",
+      "filePath": "portal-impl/src/com/liferay/portal/ccpp/PortalProfileFactory.java",
+      "lineRange": [
+        13,
+        17
+      ],
+      "summary": "PortalProfileFactory class",
+      "tags": [
+        "liferay",
+        "portal",
+        "ccpp",
+        "portalprofilefactory"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:portal-impl/src/com/liferay/portal/dao/orm/hibernate/jmx/HibernateStatisticsService.java",
+      "type": "file",
+      "name": "HibernateStatisticsService.java",
+      "filePath": "portal-impl/src/com/liferay/portal/dao/orm/hibernate/jmx/HibernateStatisticsService.java",
+      "summary": "HibernateStatisticsService class in liferay/portal module",
+      "tags": [
+        "liferay",
+        "portal",
+        "dao",
+        "orm",
+        "hibernate"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "class:portal-impl/src/com/liferay/portal/dao/orm/hibernate/jmx/HibernateStatisticsService.java:HibernateStatisticsService",
+      "type": "class",
+      "name": "HibernateStatisticsService",
+      "filePath": "portal-impl/src/com/liferay/portal/dao/orm/hibernate/jmx/HibernateStatisticsService.java",
+      "lineRange": [
+        26,
+        56
+      ],
+      "summary": "HibernateStatisticsService class",
+      "tags": [
+        "liferay",
+        "portal",
+        "dao",
+        "orm",
+        "hibernate"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:portal-impl/src/com/liferay/portal/dao/orm/hibernate/jmx/HibernateStatisticsService.java:afterPropertiesSet",
+      "type": "function",
+      "name": "afterPropertiesSet",
+      "filePath": "portal-impl/src/com/liferay/portal/dao/orm/hibernate/jmx/HibernateStatisticsService.java",
+      "lineRange": [
+        28,
+        46
+      ],
+      "summary": "afterPropertiesSet()",
+      "tags": [
+        "liferay",
+        "portal",
+        "dao",
+        "orm",
+        "hibernate"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:portal-impl/src/com/liferay/portal/dao/orm/hibernate/jmx/HibernateStatisticsService.java:destroy",
+      "type": "function",
+      "name": "destroy",
+      "filePath": "portal-impl/src/com/liferay/portal/dao/orm/hibernate/jmx/HibernateStatisticsService.java",
+      "lineRange": [
+        48,
+        52
+      ],
+      "summary": "destroy()",
+      "tags": [
+        "liferay",
+        "portal",
+        "dao",
+        "orm",
+        "hibernate"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:portal-impl/src/com/liferay/portal/events/DefaultLandingPageAction.java",
+      "type": "file",
+      "name": "DefaultLandingPageAction.java",
+      "filePath": "portal-impl/src/com/liferay/portal/events/DefaultLandingPageAction.java",
+      "summary": "DefaultLandingPageAction class in liferay/portal module",
+      "tags": [
+        "liferay",
+        "portal",
+        "events"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "class:portal-impl/src/com/liferay/portal/events/DefaultLandingPageAction.java:DefaultLandingPageAction",
+      "type": "class",
+      "name": "DefaultLandingPageAction",
+      "filePath": "portal-impl/src/com/liferay/portal/events/DefaultLandingPageAction.java",
+      "lineRange": [
+        30,
+        105
+      ],
+      "summary": "DefaultLandingPageAction class",
+      "tags": [
+        "liferay",
+        "portal",
+        "events",
+        "defaultlandingpageaction"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:portal-impl/src/com/liferay/portal/events/DefaultLandingPageAction.java:run",
+      "type": "function",
+      "name": "run",
+      "filePath": "portal-impl/src/com/liferay/portal/events/DefaultLandingPageAction.java",
+      "lineRange": [
+        32,
+        44
+      ],
+      "summary": "run(httpServletRequest, httpServletResponse)",
+      "tags": [
+        "liferay",
+        "portal",
+        "events",
+        "run"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:portal-impl/src/com/liferay/portal/events/DefaultLandingPageAction.java:doRun",
+      "type": "function",
+      "name": "doRun",
+      "filePath": "portal-impl/src/com/liferay/portal/events/DefaultLandingPageAction.java",
+      "lineRange": [
+        46,
+        100
+      ],
+      "summary": "doRun(httpServletRequest, httpServletResponse)",
+      "tags": [
+        "liferay",
+        "portal",
+        "events",
+        "dorun"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:portal-impl/src/com/liferay/portal/events/DefaultLogoutPageAction.java",
+      "type": "file",
+      "name": "DefaultLogoutPageAction.java",
+      "filePath": "portal-impl/src/com/liferay/portal/events/DefaultLogoutPageAction.java",
+      "summary": "DefaultLogoutPageAction class in liferay/portal module",
+      "tags": [
+        "liferay",
+        "portal",
+        "events"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "class:portal-impl/src/com/liferay/portal/events/DefaultLogoutPageAction.java:DefaultLogoutPageAction",
+      "type": "class",
+      "name": "DefaultLogoutPageAction",
+      "filePath": "portal-impl/src/com/liferay/portal/events/DefaultLogoutPageAction.java",
+      "lineRange": [
+        25,
+        76
+      ],
+      "summary": "DefaultLogoutPageAction class",
+      "tags": [
+        "liferay",
+        "portal",
+        "events",
+        "defaultlogoutpageaction"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:portal-impl/src/com/liferay/portal/events/DefaultLogoutPageAction.java:run",
+      "type": "function",
+      "name": "run",
+      "filePath": "portal-impl/src/com/liferay/portal/events/DefaultLogoutPageAction.java",
+      "lineRange": [
+        27,
+        39
+      ],
+      "summary": "run(httpServletRequest, httpServletResponse)",
+      "tags": [
+        "liferay",
+        "portal",
+        "events",
+        "run"
+      ],
+      "complexity": "simple"
+    }
+  ],
+  "edges": [
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/bean/BeanPropertiesImpl.java",
+      "target": "function:portal-impl/src/com/liferay/portal/bean/BeanPropertiesImpl.java:getInteger",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/bean/BeanPropertiesImpl.java",
+      "target": "function:portal-impl/src/com/liferay/portal/bean/BeanPropertiesImpl.java:getInteger",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/bean/BeanPropertiesImpl.java",
+      "target": "function:portal-impl/src/com/liferay/portal/bean/BeanPropertiesImpl.java:getIntegerSilent",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/bean/BeanPropertiesImpl.java",
+      "target": "function:portal-impl/src/com/liferay/portal/bean/BeanPropertiesImpl.java:getIntegerSilent",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/bean/BeanPropertiesImpl.java",
+      "target": "function:portal-impl/src/com/liferay/portal/bean/BeanPropertiesImpl.java:getLong",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/bean/BeanPropertiesImpl.java",
+      "target": "function:portal-impl/src/com/liferay/portal/bean/BeanPropertiesImpl.java:getLong",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/bean/BeanPropertiesImpl.java",
+      "target": "function:portal-impl/src/com/liferay/portal/bean/BeanPropertiesImpl.java:getLongSilent",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/bean/BeanPropertiesImpl.java",
+      "target": "function:portal-impl/src/com/liferay/portal/bean/BeanPropertiesImpl.java:getLongSilent",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/bean/BeanPropertiesImpl.java",
+      "target": "function:portal-impl/src/com/liferay/portal/bean/BeanPropertiesImpl.java:getObject",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/bean/BeanPropertiesImpl.java",
+      "target": "function:portal-impl/src/com/liferay/portal/bean/BeanPropertiesImpl.java:getObject",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/bean/BeanPropertiesImpl.java",
+      "target": "function:portal-impl/src/com/liferay/portal/bean/BeanPropertiesImpl.java:getObjectSilent",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/bean/BeanPropertiesImpl.java",
+      "target": "function:portal-impl/src/com/liferay/portal/bean/BeanPropertiesImpl.java:getObjectSilent",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/bean/BeanPropertiesImpl.java",
+      "target": "function:portal-impl/src/com/liferay/portal/bean/BeanPropertiesImpl.java:getObjectType",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/bean/BeanPropertiesImpl.java",
+      "target": "function:portal-impl/src/com/liferay/portal/bean/BeanPropertiesImpl.java:getObjectType",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/bean/BeanPropertiesImpl.java",
+      "target": "function:portal-impl/src/com/liferay/portal/bean/BeanPropertiesImpl.java:getObjectTypeSilent",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/bean/BeanPropertiesImpl.java",
+      "target": "function:portal-impl/src/com/liferay/portal/bean/BeanPropertiesImpl.java:getObjectTypeSilent",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/bean/BeanPropertiesImpl.java",
+      "target": "function:portal-impl/src/com/liferay/portal/bean/BeanPropertiesImpl.java:getShort",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/bean/BeanPropertiesImpl.java",
+      "target": "function:portal-impl/src/com/liferay/portal/bean/BeanPropertiesImpl.java:getShort",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/bean/BeanPropertiesImpl.java",
+      "target": "function:portal-impl/src/com/liferay/portal/bean/BeanPropertiesImpl.java:getShortSilent",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/bean/BeanPropertiesImpl.java",
+      "target": "function:portal-impl/src/com/liferay/portal/bean/BeanPropertiesImpl.java:getShortSilent",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/bean/BeanPropertiesImpl.java",
+      "target": "function:portal-impl/src/com/liferay/portal/bean/BeanPropertiesImpl.java:getString",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/bean/BeanPropertiesImpl.java",
+      "target": "function:portal-impl/src/com/liferay/portal/bean/BeanPropertiesImpl.java:getString",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/bean/BeanPropertiesImpl.java",
+      "target": "function:portal-impl/src/com/liferay/portal/bean/BeanPropertiesImpl.java:getStringSilent",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/bean/BeanPropertiesImpl.java",
+      "target": "function:portal-impl/src/com/liferay/portal/bean/BeanPropertiesImpl.java:getStringSilent",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/bean/BeanPropertiesImpl.java",
+      "target": "function:portal-impl/src/com/liferay/portal/bean/BeanPropertiesImpl.java:setProperties",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/bean/BeanPropertiesImpl.java",
+      "target": "function:portal-impl/src/com/liferay/portal/bean/BeanPropertiesImpl.java:setProperties",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/bean/BeanPropertiesImpl.java",
+      "target": "function:portal-impl/src/com/liferay/portal/bean/BeanPropertiesImpl.java:setProperty",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/bean/BeanPropertiesImpl.java",
+      "target": "function:portal-impl/src/com/liferay/portal/bean/BeanPropertiesImpl.java:setProperty",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/bean/BeanPropertiesImpl.java",
+      "target": "function:portal-impl/src/com/liferay/portal/bean/BeanPropertiesImpl.java:setPropertySilent",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/bean/BeanPropertiesImpl.java",
+      "target": "function:portal-impl/src/com/liferay/portal/bean/BeanPropertiesImpl.java:setPropertySilent",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/bean/BeanPropertiesImpl.java",
+      "target": "function:portal-impl/src/com/liferay/portal/bean/BeanPropertiesImpl.java:getDate",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/ccpp/PortalProfileFactory.java",
+      "target": "class:portal-impl/src/com/liferay/portal/ccpp/PortalProfileFactory.java:PortalProfileFactory",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/ccpp/PortalProfileFactory.java",
+      "target": "class:portal-impl/src/com/liferay/portal/ccpp/PortalProfileFactory.java:PortalProfileFactory",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/dao/orm/hibernate/jmx/HibernateStatisticsService.java",
+      "target": "class:portal-impl/src/com/liferay/portal/dao/orm/hibernate/jmx/HibernateStatisticsService.java:HibernateStatisticsService",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/dao/orm/hibernate/jmx/HibernateStatisticsService.java",
+      "target": "function:portal-impl/src/com/liferay/portal/dao/orm/hibernate/jmx/HibernateStatisticsService.java:afterPropertiesSet",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/dao/orm/hibernate/jmx/HibernateStatisticsService.java",
+      "target": "function:portal-impl/src/com/liferay/portal/dao/orm/hibernate/jmx/HibernateStatisticsService.java:afterPropertiesSet",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/dao/orm/hibernate/jmx/HibernateStatisticsService.java",
+      "target": "function:portal-impl/src/com/liferay/portal/dao/orm/hibernate/jmx/HibernateStatisticsService.java:destroy",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/dao/orm/hibernate/jmx/HibernateStatisticsService.java",
+      "target": "function:portal-impl/src/com/liferay/portal/dao/orm/hibernate/jmx/HibernateStatisticsService.java:destroy",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/dao/orm/hibernate/jmx/HibernateStatisticsService.java",
+      "target": "class:portal-impl/src/com/liferay/portal/dao/orm/hibernate/jmx/HibernateStatisticsService.java:HibernateStatisticsService",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/dao/orm/hibernate/jmx/HibernateStatisticsService.java",
+      "target": "file:portal-impl/src/com/liferay/portal/util/PropsValues.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/dao/orm/hibernate/jmx/HibernateStatisticsService.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/module/util/SystemBundleUtil.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/dao/orm/hibernate/jmx/HibernateStatisticsService.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/util/InfrastructureUtil.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/dao/orm/hibernate/jmx/HibernateStatisticsService.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/util/MapUtil.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/events/DefaultLandingPageAction.java",
+      "target": "class:portal-impl/src/com/liferay/portal/events/DefaultLandingPageAction.java:DefaultLandingPageAction",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/events/DefaultLandingPageAction.java",
+      "target": "function:portal-impl/src/com/liferay/portal/events/DefaultLandingPageAction.java:run",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/events/DefaultLandingPageAction.java",
+      "target": "function:portal-impl/src/com/liferay/portal/events/DefaultLandingPageAction.java:run",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/events/DefaultLandingPageAction.java",
+      "target": "function:portal-impl/src/com/liferay/portal/events/DefaultLandingPageAction.java:doRun",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/events/DefaultLandingPageAction.java",
+      "target": "class:portal-impl/src/com/liferay/portal/events/DefaultLandingPageAction.java:DefaultLandingPageAction",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/events/DefaultLandingPageAction.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/events/Action.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/events/DefaultLandingPageAction.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/events/ActionException.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/events/DefaultLandingPageAction.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/log/Log.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/events/DefaultLandingPageAction.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/log/LogFactoryUtil.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/events/DefaultLandingPageAction.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/model/User.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/events/DefaultLandingPageAction.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/struts/LastPath.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/events/DefaultLandingPageAction.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/util/HtmlUtil.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/events/DefaultLandingPageAction.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/util/PortalUtil.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/events/DefaultLandingPageAction.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/util/PrefsPropsUtil.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/events/DefaultLandingPageAction.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/util/PropsKeys.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/events/DefaultLandingPageAction.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/util/StringUtil.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/events/DefaultLandingPageAction.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/util/Validator.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/events/DefaultLandingPageAction.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/util/WebKeys.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/events/DefaultLogoutPageAction.java",
+      "target": "class:portal-impl/src/com/liferay/portal/events/DefaultLogoutPageAction.java:DefaultLogoutPageAction",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/events/DefaultLogoutPageAction.java",
+      "target": "function:portal-impl/src/com/liferay/portal/events/DefaultLogoutPageAction.java:run",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/events/DefaultLogoutPageAction.java",
+      "target": "function:portal-impl/src/com/liferay/portal/events/DefaultLogoutPageAction.java:run",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/events/DefaultLogoutPageAction.java",
+      "target": "function:portal-impl/src/com/liferay/portal/events/DefaultLogoutPageAction.java:doRun",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/events/DefaultLogoutPageAction.java",
+      "target": "class:portal-impl/src/com/liferay/portal/events/DefaultLogoutPageAction.java:DefaultLogoutPageAction",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/events/DefaultLogoutPageAction.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/events/Action.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/events/DefaultLogoutPageAction.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/events/ActionException.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/events/DefaultLogoutPageAction.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/log/Log.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/events/DefaultLogoutPageAction.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/log/LogFactoryUtil.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/events/DefaultLogoutPageAction.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/util/PortalUtil.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/events/DefaultLogoutPageAction.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/util/PrefsPropsUtil.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/events/DefaultLogoutPageAction.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/util/PropsKeys.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/events/DefaultLogoutPageAction.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/util/Validator.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:portal-impl/src/com/liferay/portal/events/DefaultLogoutPageAction.java",
+      "target": "file:portal-kernel/src/com/liferay/portal/kernel/util/WebKeys.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    }
+  ]
+}

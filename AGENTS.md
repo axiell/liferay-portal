@@ -68,23 +68,17 @@ Arena fork of Liferay Portal 7.4.3.129 GA129. Treat most code as upstream Lifera
 - `deploy-maven-artifacts.sh` is for publishing portal artifacts to Axiell Artifactory during upgrade/release work, not normal development.
 - `.claude/agents/*` definitions mentioning eHub are for a different product and should be ignored in this repo.
 
-## Knowledge Graph (graphify)
+## Knowledge Graph (understand-anything)
 
-A graphify knowledge graph of `portal-kernel` + `portal-impl` lives in `graphify-out/`.
+An understand-anything knowledge graph of `portal-impl` lives in `portal-impl/.understand-anything/knowledge-graph.json`.
 
-- **130,197 nodes · 329,838 edges · 4,734 communities** (built 2026-06-15)
-- Scope: all Java/shell/Gradle code under `portal-kernel/` and `portal-impl/`
-- Interactive viz: open `graphify-out/graph.html` in a browser
-- Query in-session: `/graphify query "<question>"`
-- Path between two concepts: `graphify path "ThemeDisplay" "PermissionChecker"`
-- Explain a node: `graphify explain "MVCCModel"`
-- Rebuild after major changes: `/graphify portal-kernel portal-impl`
-- Update incrementally: `graphify update .` (AST-only, no API cost)
-- From a dependent project: `graphify query "<question>" /opt/projects/liferay/portal/arena-7.4.3.129-ga129/portal`
+- **10,292 nodes · 11,619 edges** (built 2026-06-27, scope: `portal-impl/src/`)
+- Query in-session: `/understand-chat` (loads the graph and answers questions)
+- From a dependent project: invoke `/understand-chat` with `project=/opt/projects/liferay/portal/arena-7.4.3.129-ga129/portal/portal-impl`
+- Rebuild: run `/understand` from within `portal-impl/` to regenerate
+- Graph is a local artifact (untracked); regenerate after major refactors
 
-Key god nodes (highest cross-community connectivity): `MVCCModel`, `ThemeDisplay`, `PropsKeys`, `PortletWrapper`, `GroupPersistenceImpl`.
-
-PreToolUse hooks are active — Claude will consult the graph before grep/find/Read on source files. Auto-rebuild on commit is intentionally disabled; run `graphify update .` manually after significant changes.
+PreToolUse hooks mandate consulting the graph before grepping or reading source files.
 
 ## Useful Local Runtime Paths
 

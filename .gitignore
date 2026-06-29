@@ -197,8 +197,8 @@
 /workspaces/node_modules
 _sass_cache_*.css
 poshi-warnings.xml
-# graphify knowledge graph (regenerate with: /graphify portal-kernel portal-impl)
-graphify-out/
+# understand-anything knowledge graphs (local artifacts; regenerate with /understand)
+portal-impl/.understand-anything/
 
 # Eclipse IDE project files
 .classpath

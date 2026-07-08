@@ -86,3 +86,7 @@ PreToolUse hooks mandate consulting the graph before grepping or reading source 
 - Main Tomcat log: `../bundles/tomcat-9.0.90/logs/catalina.out`
 - Liferay logs: `../bundles/logs/liferay.*.log`
 - OSGi shell: `telnet localhost 11611`
+
+## Axiell Vault
+
+This repo is ingested into the Axiell Obsidian vault as `Arena Liferay Portal: Portal Fork Project`. Check it for upgrade history, module boundary rationale, and cross-repo Arena context before assuming this fork matches upstream Liferay behavior — route lookups through `@obsidian-helper`.

@@ -25,6 +25,16 @@
 #   AIKIDO_SECRET_KEY  — API key from app.aikido.dev/settings/integrations
 #                        (also accepted as AIKIDO_LOCAL_SCANNER_TOKEN)
 #
+# This token is separate from the Aikido public REST API, which uses OAuth2
+# client-credentials (AIKIDO_CLIENT_ID / AIKIDO_CLIENT_SECRET from
+# app.aikido.dev/settings/integrations/public-api) instead:
+#   TOKEN=$(curl -s -X POST https://app.aikido.dev/api/oauth/token \
+#     -u "$AIKIDO_CLIENT_ID:$AIKIDO_CLIENT_SECRET" -d grant_type=client_credentials \
+#     | jq -r .access_token)
+#   curl -H "Authorization: Bearer $TOKEN" \
+#     https://app.aikido.dev/api/public/v1/repositories/code
+# Token expires in 3600s; re-request per session, don't cache to disk.
+#
 # Examples:
 #   AIKIDO_SECRET_KEY=xxx bin/aikido-scan.sh --full   # first time / new repo
 #   AIKIDO_SECRET_KEY=xxx bin/aikido-scan.sh

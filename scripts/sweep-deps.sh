@@ -27,6 +27,12 @@ CACHE_PATH=.gradle/caches/modules-2/files-2.1
 ARTIFACTORY=https://artifactory.axiell.com/artifactory/simple/ext-release-local
 UNRESOLVED=0
 
+if ! command -v gh > /dev/null 2>&1 && ! command -v python3 > /dev/null 2>&1; then
+	echo "error: neither 'gh' (authenticated) nor 'python3' is available." >&2
+	echo "       one of the two is required to query the GitHub API for $CACHE_REPO." >&2
+	exit 1
+fi
+
 api() { # <path> <jq-filter: .[].path | .[] name+download_url | .download_url>
 	if command -v gh > /dev/null 2>&1; then
 		gh api "repos/$CACHE_REPO/contents/$1" --jq "$2" 2>/dev/null
@@ -106,19 +112,38 @@ ensure() { # group name version — .m2 -> Central -> binaries-cache
 	return 1
 }
 
-echo "== 1/6 Gradle distribution zip (tools/, not tracked in git)"
+echo "== 1/7 Gradle distribution zip (tools/, not tracked in git)"
 GRADLE_ZIP=gradle-3.3.LIFERAY-PATCHED-1-bin.zip
 if [ ! -f "$PORTAL/tools/$GRADLE_ZIP" ]; then
+	# Pin to the exact commit the contents API resolved, not the moving
+	# master branch, so a compromised/force-pushed master can't swap the jar.
+	sha=$(api "$GRADLE_ZIP" '.sha' | head -1)
 	url=$(api "$GRADLE_ZIP" '.download_url' | head -1)
+	[ -z "$url" ] && [ -n "$sha" ] && url="https://raw.githubusercontent.com/$CACHE_REPO/$sha/$GRADLE_ZIP"
 	[ -z "$url" ] && url="https://raw.githubusercontent.com/$CACHE_REPO/master/$GRADLE_ZIP"
-	curl -sfL --max-time 900 -o "$PORTAL/tools/$GRADLE_ZIP" "$url" &&
-		echo "  fetched tools/$GRADLE_ZIP" ||
-		{ echo "  UNRESOLVED tools/$GRADLE_ZIP"; UNRESOLVED=$((UNRESOLVED + 1)); }
+	if curl -sfL --max-time 900 -o "$PORTAL/tools/$GRADLE_ZIP" "$url"; then
+		# Verify against the git blob sha1 the contents API reported, when known.
+		if [ -n "$sha" ] && command -v git > /dev/null 2>&1; then
+			got_sha=$(git hash-object "$PORTAL/tools/$GRADLE_ZIP")
+			if [ "$got_sha" != "$sha" ]; then
+				rm -f "$PORTAL/tools/$GRADLE_ZIP"
+				echo "  UNRESOLVED tools/$GRADLE_ZIP (checksum mismatch)"
+				UNRESOLVED=$((UNRESOLVED + 1))
+			else
+				echo "  fetched tools/$GRADLE_ZIP (checksum verified)"
+			fi
+		else
+			echo "  fetched tools/$GRADLE_ZIP (unverified — sha unavailable)"
+		fi
+	else
+		echo "  UNRESOLVED tools/$GRADLE_ZIP"
+		UNRESOLVED=$((UNRESOLVED + 1))
+	fi
 else
 	echo "  present"
 fi
 
-echo "== 2/6 SDK bootstrap Ivy jar (~/.liferay/mirrors, exact dead-snapshot path)"
+echo "== 2/7 SDK bootstrap Ivy jar (~/.liferay/mirrors, exact dead-snapshot path)"
 IVY_SNAP=2.4.0.LIFERAY-PATCHED-1-SNAPSHOT
 IVY_REL=2.4.0.LIFERAY-PATCHED-1
 IVY_DIR=$HOME/.liferay/mirrors/cdn.lfrs.sl/repository.liferay.com/nexus/content/repositories/liferay-public-snapshots/com/liferay/org.apache.ivy/$IVY_SNAP
@@ -134,7 +159,7 @@ else
 	echo "  present"
 fi
 
-echo "== 3/6 lib/*/dependencies.properties artifacts missing from Central"
+echo "== 3/7 lib/*/dependencies.properties artifacts missing from Central"
 for dir in development global portal; do
 	props=$PORTAL/lib/$dir/dependencies.properties
 	[ -f "$props" ] || continue
@@ -160,13 +185,13 @@ for dir in development global portal; do
 	done < "$props"
 done
 
-echo "== 4/6 Pinned *-LIFERAY-CACHED Equinox artifacts (binaries-cache)"
+echo "== 4/7 Pinned *-LIFERAY-CACHED Equinox artifacts (binaries-cache)"
 ensure com.liferay org.eclipse.osgi 3.10.200-20150904.172142-1-LIFERAY-CACHED
 ensure com.liferay org.eclipse.osgi.services 3.5.0-20150611.165350-3-LIFERAY-CACHED
 ensure com.liferay org.eclipse.equinox.metatype 1.4.200-20150831.175616-1-LIFERAY-CACHED
 ensure com.liferay org.eclipse.equinox.console 1.1.100-20150308.220103-2-LIFERAY-CACHED
 
-echo "== 5/6 Special-source artifacts"
+echo "== 5/7 Special-source artifacts"
 # Axiell-built lexicon webjar — only on Axiell Artifactory (anonymous read)
 if ! in_m2 com.liferay.webjars com.liferay.webjars.lexicon 1.0.25a; then
 	install_url com.liferay.webjars com.liferay.webjars.lexicon 1.0.25a \

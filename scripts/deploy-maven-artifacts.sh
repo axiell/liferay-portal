@@ -20,8 +20,8 @@ function downloadIfMissing {
     echo "Downloading missing artifact: ${groupId}:${file}:${version}:${packaging}"
     mkdir -p "$(dirname "${local_path}")"
     mvn dependency:get \
-      -DremoteRepositories=${repo_url}/artifactory/ext-release-local/ \
-      -Dartifact=${groupId}:${file}:${version}:${packaging}
+      "-DremoteRepositories=ext-release-local::default::${repo_url}/artifactory/ext-release-local/" \
+      "-Dartifact=${groupId}:${file}:${version}:${packaging}"
   fi
 }
 

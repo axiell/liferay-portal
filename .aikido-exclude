@@ -25,13 +25,18 @@
 # palma-style scope exclusions elsewhere, this is a security-coverage
 # decision, not cleanup. If scan time/volume becomes a problem, discuss
 # before adding an exclude for it.
+# NOTE: "scripts" and "readme" are deliberately NOT in this list, even
+# though they match the same stock-reference-noise pattern as the rest.
+# scripts/ now also holds this branch's own security tooling
+# (scripts/sweep-deps.sh, scripts/deploy-maven-artifacts.sh) — excluding
+# the bare name would silently hide that from scanning. "readme" is a
+# generic enough name to risk matching unintended paths depending on repo
+# layout; narrow it to the actual guideline docs if it needs excluding.
 bin
 benchmarks
 classes
 definitions
 gradle
 sql
-scripts
-readme
 support-resin
 support-websphere

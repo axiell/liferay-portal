@@ -25,6 +25,11 @@
 # palma-style scope exclusions elsewhere, this is a security-coverage
 # decision, not cleanup. If scan time/volume becomes a problem, discuss
 # before adding an exclude for it.
+bin
+benchmarks
+classes
+definitions
+gradle
 sql
 scripts
 readme

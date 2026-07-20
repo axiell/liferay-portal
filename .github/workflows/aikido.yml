@@ -20,13 +20,25 @@ jobs:
   aikido-scan:
     name: Aikido scan
     runs-on: ubuntu-latest
-    timeout-minutes: 240
+    # INVARIANT: this must stay above checkout (~4m) + the `timeout` wrapper
+    # on the scan step, so the wrapper always fires first and reports a real
+    # error. A job-cap cancellation is silent and destroys the run's output.
+    # Currently: 4m + 150m = 154m < 180m < the 360m GitHub ceiling.
+    # Violating this is not theoretical: run 29806107406 was left at 180m
+    # while the wrapper said 300m, and a healthy scan that had been running
+    # 2h56m was silently cancelled mid-flight with nothing to show for it.
+    timeout-minutes: 180
 
     steps:
       - name: Checkout code
         uses: actions/checkout@v4
         with:
-          fetch-depth: 1
+          # Full history + all branches so the PR-gate merge-base is resolvable.
+          fetch-depth: 0
+          # Blobless partial clone: commits and trees are still complete (so
+          # `git merge-base` works), but file contents are fetched on demand.
+          # A full fetch-depth:0 clone of this repo took 31 minutes.
+          filter: blob:none
 
       - name: Cache Aikido scanner
         id: cache-scanner
@@ -43,20 +55,96 @@ jobs:
           echo "${{ env.AIKIDO_SCANNER_SHA256 }}  /tmp/aikido-scanner.zip" | sha256sum -c -
           unzip /tmp/aikido-scanner.zip -d ~/aikido-scanner/
           chmod +x ~/aikido-scanner/aikido-local-scanner
-      - name: Detect new vulnerabilities (manual)
+      - name: Full-tree vulnerability inventory (manual)
         if: github.event_name == 'workflow_dispatch'
         env:
           AIKIDO_API_KEY: ${{ secrets.AIKIDO_SECRET_KEY }}
           REPO: ${{ github.repository }}
           REF_NAME: ${{ github.ref_name }}
+          # Timeout budget mirrors the vault-verified local recipe for this
+          # tree (~/.agents/manual-skills/aikido-scan, recipe in
+          # KnowledgeBase/docs/security/aikido-security-scanning.md):
+          # 5m per scan tool, 30m Trivy/SCA. The previous 60m-per-tool /
+          # 180m-Trivy budget let four silent stages sum past the wrapper:
+          # runs 32858466262, 29986162523 and 29821732611 all died at exactly
+          # 300m (exit 124) having printed nothing beyond
+          # "Scan with id ... started.".
+          TRIVY_TIMEOUT: "30m"
         run: |
+          # Honor the repo-root .aikido-exclude (same file the local
+          # aikido-scan wrapper reads) so CI and local scans share one
+          # exclude list. One glob per line; blank lines and # comments skipped.
+          EXCLUDES=()
+          if [[ -f .aikido-exclude ]]; then
+            while IFS= read -r pattern; do
+              [[ -z "$pattern" || "$pattern" == \#* ]] && continue
+              EXCLUDES+=(--exclude "$pattern")
+            done < .aikido-exclude
+          fi
+
+          # Same generic build-output excludes the local aikido-scan.sh
+          # wrapper always passes, so CI and local scans see identical scope.
+          # Patterns are quoted so bash cannot pathname-expand them against
+          # the checkout (e.g. a root-level target/ would split the word).
+          EXCLUDES+=(
+            --exclude .gradle
+            --exclude .m2
+            --exclude .ai
+            --exclude target
+            --exclude '**/classes/**'
+            --exclude '**/tmp/**'
+          )
+
+          # Print what actually reached the scanner. The GitHub log group only
+          # echoes the script source ("${EXCLUDES[@]}"), never the expansion,
+          # so without this there is no way to confirm from a run log that the
+          # exclude list was applied at all.
+          echo "Full-tree release-gated scan of $REF_NAME"
+          echo "Applying ${#EXCLUDES[@]} args from .aikido-exclude:"
+          printf '  %s %s\n' "${EXCLUDES[@]}"
+
+          # Release gating scans the WHOLE checkout, not a diff. The earlier
+          # PR-gate config (--gating-mode pr --git-based-pr-gating) was
+          # structurally incapable of reporting anything on a branch whose diff
+          # touches no dependency manifests: run 29803997677 passed in 7s with
+          # "No scannable files for dependencies scan". Release mode is what
+          # produced real findings before (run 27670920600: 1h44m, exit 1).
+          #
+          # The Aikido repo is registered with default branch arena-7.0.6-ga7,
+          # so a plain release scan of any other branch is rejected with "Repo
+          # already exists with default branch ..." (runs 29805404382,
+          # 29805748897). --force-create-repository-for-branch is the
+          # documented workaround and is used here deliberately as an INTERIM
+          # measure: it creates a SEPARATE Aikido repo for this branch, so
+          # findings do not share history with the main repo and more repos
+          # appear as branches multiply. The clean fix is for an Aikido admin
+          # to re-register this fork's mainline; once that is done, drop this
+          # flag and delete the per-branch repo.
+          #
+          # `timeout` wraps the scanner because its own --scan-timeout only
+          # bounds individual scan tools and --max-polling-attempts only bounds
+          # post-upload result polling; neither covers the pre-scan backend
+          # registration, which is exactly where run 29784926428 hung 5h29m.
+          # Without this the job dies as a silent GitHub cancellation.
+          #
+          # Budget: worst case is 4 tools x 5m (--scan-timeout) + 30m Trivy
+          # ~= 50m, so 150m leaves ~3x headroom while capping any repeat of
+          # the silent multi-hour deaths at 2.5h. Artifact scanning stays
+          # disabled, matching the local wrapper: unpacking every committed
+          # jar/war dominates runtime on this tree without adding findings
+          # beyond the manifests SCA already reads.
+          timeout -k 60s 150m \
           ~/aikido-scanner/aikido-local-scanner scan \
             "$GITHUB_WORKSPACE" \
             --apikey "$AIKIDO_API_KEY" \
             --repositoryname "$REPO" \
             --branchname "$REF_NAME" \
+            --gating-mode release \
+            --force-create-repository-for-branch \
             --fail-on critical \
-            --scan-types dependencies \
-            --exclude portal-test \
-            --exclude modules/test \
+            --disable-artifact-scanning \
+            --scan-types code dependencies secrets iac \
+            --scan-timeout 300000 \
+            --max-polling-attempts 60 \
+            "${EXCLUDES[@]}" \
             ${{ inputs.debug && '--debug' || '' }}

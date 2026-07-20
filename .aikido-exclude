@@ -1,0 +1,93 @@
+# Arena Liferay Portal 7.4.3.129-ga129-specific Aikido scan excludes.
+# One glob pattern per line (# comments allowed), passed as --exclude by BOTH
+# scan consumers - keep them in parity when tuning scope or timeouts:
+#   local: ~/.agents/manual-skills/aikido-scan/scripts/aikido-scan.sh
+#   CI:    .github/workflows/aikido.yml (manual dispatch)
+# Kept here (repo root) rather than inside either consumer so the skill
+# stays portable to other projects unmodified and CI picks up the same list.
+
+# IDE-generated build/compiled-class output for the Ant-built core modules
+# (portal-impl, portal-kernel, portal-test, portal-test-integration,
+# support-tomcat, util-bridges, util-java, util-slf4j, util-taglib, ...).
+# This repo's own .gitignore predates these paths (it lists per-module
+# classes/test-classes/woven-classes, not build/) so they show up untracked.
+# Verified via `git ls-files | grep -E "(^|/)build/"` — zero tracked files
+# live under any build/ directory anywhere in this repo, so this is safe.
+**/build/**
+
+# Stray JVM heap dump left in the working tree (modules/apps/foundation/
+# portal/java_pid83209.hprof) — not build output, but pure scan noise either
+# way. Consider deleting it directly; it may contain sensitive memory
+# contents and has no reason to exist in the working tree.
+**/*.hprof
+
+# NOTE: node_modules (~267 directories under modules/**) is intentionally
+# NOT excluded here. Aikido's JS supply-chain coverage (package-lock.json /
+# node_modules CVEs) is real scanning surface, not noise — unlike the
+# palma-style scope exclusions elsewhere, this is a security-coverage
+# decision, not cleanup. If scan time/volume becomes a problem, discuss
+# before adding an exclude for it.
+# NOTE: "scripts" and "tools" are deliberately NOT in this list, even though
+# they match the same stock-reference-noise pattern as the rest. scripts/
+# holds this branch's own release tooling (scripts/deploy-maven-artifacts.sh)
+# and tools/ holds dev/release shell scripts — both stay in scope on purpose
+# as secret-scan surface. The docs-only root readme/ tree IS excluded below
+# (slash-anchored, so no bare-name matchBase risk).
+# Root-only non-production trees. Written as `<name>/**` (with a slash) on
+# purpose: a slash makes the pattern start-anchored and immune to minimatch's
+# matchBase, so it excludes only the top-level dir's contents and never the
+# same-named dirs nested under production modules (e.g. modules/**/sql,
+# modules/**/gradle, modules/**/definitions). A bare `sql` would leak into
+# those nested production paths if the scanner enables matchBase.
+bin/**
+benchmarks/**
+definitions/**
+learn-resources/**
+gradle/**
+sql/**
+workspaces/**
+portal-test/**
+oss-licenses/**
+# NetBeans IDE project metadata.
+nbproject/**
+# Docs-only tree (see NOTE above: slash-anchored, root only).
+readme/**
+# JSF test-batch build config, not shipped.
+build-test-batch/**
+# Development-time classpath jars (ant-contrib, bsh, ...) consumed by the Ant
+# build only; nothing here ships. Artifact scanning is disabled anyway, so
+# these jars cost scan time without ever yielding manifest-based findings.
+lib/**
+
+# Test/integration-test source inside otherwise-in-scope production modules.
+# None of it ships in the deploy-maven-artifacts.sh outputs (the osgi zip,
+# portal-*.jar/war, util-*.jar) — it is not production surface. Trade-off:
+# secrets or vulnerable test-scope deps living only under test sources will
+# no longer be flagged; SCA on package-lock.json / pom test deps is
+# unaffected since those manifests sit above src/. Anchored to src/ so main
+# sources are untouched.
+**/src/test/**
+**/src/testIntegration/**
+
+# Integration-test helper MODULES under modules/** (552 dirs, ~1.9k tracked
+# files). Their sources sit in their own src/main/java, so the src/test
+# excludes above never reach them. `<artifact>-test` and `-test-util` bundles
+# exist only to run tests inside a live portal; upstream release dists do not
+# ship them, and scripts/deploy-maven-artifacts.sh produces none of them
+# (db-upgrade-client jar, com.liferay.portal.osgi dist zip, unstyled theme,
+# portal-impl/-kernel/support-tomcat/util-* jars, portal-web war).
+# Slash-containing globs, so no matchBase leakage into e.g. a production
+# "latest" dir would be possible anyway (hyphen required before -test).
+**/*-test/**
+**/*-test-util/**
+
+# Local npm tarball cache under modules/ (untracked @pkg-version.tgz files,
+# reproducible from yarn.lock). Duplicates what node_modules scanning already
+# reports. Untracked, so CI checkouts never contain it — this only trims
+# local scan time.
+modules/node_modules_cache/**
+
+# Whole test-only module tree. Preserves the CI workflow's prior
+# `--exclude modules/test`; not production. Slash-anchored so only this path
+# matches, never other `test` dirs.
+modules/test/**

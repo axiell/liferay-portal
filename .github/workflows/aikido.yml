@@ -45,16 +45,17 @@ jobs:
           chmod +x ~/aikido-scanner/aikido-local-scanner
       - name: Detect new vulnerabilities
         env:
-          AIKIDO_API_KEY: ${{ secrets.AIKIDO_SECRET_KEY }}
-          REPO: ${{ github.repository }}
+          AIKIDO_SECRET_KEY: ${{ secrets.AIKIDO_SECRET_KEY }}
+          REPO: ${{ github.event.repository.name }}
           REF_NAME: ${{ github.ref_name }}
         run: |
           ~/aikido-scanner/aikido-local-scanner scan \
+            "$GITHUB_WORKSPACE" \
+            --apikey "$AIKIDO_SECRET_KEY" \
             --repositoryname "$REPO" \
             --branchname "$REF_NAME" \
             --fail-on critical \
             --scan-types dependencies \
             --exclude portal-test \
             --exclude modules/test \
-            ${{ inputs.debug && '--debug' || '' }} \
-            -- "$GITHUB_WORKSPACE"
+            ${{ inputs.debug && '--debug' || '' }}

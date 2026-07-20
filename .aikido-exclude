@@ -1,4 +1,4 @@
-# Arena Liferay Portal 7.0.6-ga7-specific Aikido scan excludes.
+# Arena Liferay Portal 7.4.3.129-ga129-specific Aikido scan excludes.
 # One glob pattern per line (# comments allowed), passed as --exclude to
 # .claude/skills/aikido-scan/scripts/aikido-scan.sh.
 # Kept here (repo root) rather than in the aikido-scan skill so the skill
@@ -27,19 +27,33 @@
 # before adding an exclude for it.
 # NOTE: "scripts" and "readme" are deliberately NOT in this list, even
 # though they match the same stock-reference-noise pattern as the rest.
-# scripts/ now also holds this branch's own security tooling
-# (scripts/sweep-deps.sh, scripts/deploy-maven-artifacts.sh) — excluding
-# the bare name would silently hide that from scanning. "readme" is a
+# scripts/ now also holds this branch's own release tooling
+# (scripts/deploy-maven-artifacts.sh) — excluding the bare name would
+# silently hide that from scanning. "readme" is a
 # generic enough name to risk matching unintended paths depending on repo
 # layout; narrow it to the actual guideline docs if it needs excluding.
-bin
-benchmarks
-classes
-definitions
-gradle
-sql
-workspaces
-portal-test
-oss-licenses
-definitions/
-**/benchmarks/
+# Root-only non-production trees. Written as `<name>/**` (with a slash) on
+# purpose: a slash makes the pattern start-anchored and immune to minimatch's
+# matchBase, so it excludes only the top-level dir's contents and never the
+# same-named dirs nested under production modules (e.g. modules/**/sql,
+# modules/**/gradle, modules/**/definitions). A bare `sql` would leak into
+# those nested production paths if the scanner enables matchBase.
+bin/**
+benchmarks/**
+definitions/**
+learn-resources/**
+gradle/**
+sql/**
+workspaces/**
+portal-test/**
+oss-licenses/**
+
+# Test/integration-test source inside otherwise-in-scope production modules.
+# None of it ships in the deploy-maven-artifacts.sh outputs (the osgi zip,
+# portal-*.jar/war, util-*.jar) — it is not production surface. Trade-off:
+# secrets or vulnerable test-scope deps living only under test sources will
+# no longer be flagged; SCA on package-lock.json / pom test deps is
+# unaffected since those manifests sit above src/. Anchored to src/ so main
+# sources are untouched.
+**/src/test/**
+**/src/testIntegration/**

@@ -1,4 +1,4 @@
-# Arena Liferay Portal 7.0.6-ga7-specific extra pre-scan cleanup paths.
+# Arena Liferay Portal 7.4.3.129-ga129-specific extra pre-scan cleanup paths.
 # One glob pattern per line (# comments allowed), relative to the repo root.
 # Read by .claude/skills/aikido-scan/scripts/pre-aikido-scan.sh, in addition
 # to its built-in generic patterns (**/target, **/assembly/overlays,

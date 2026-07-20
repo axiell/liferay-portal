@@ -43,9 +43,13 @@
 		<sequential>
 			<property file="${project.dir}/portal-impl/src/portal.properties" prefix="portal" />
 
-			<mirrors-get
-				dest="@{app.server.lib.portal.dir}/${portal.setup.liferay.pool.provider.jar.name[hikaricp]}"
-				src="${portal.setup.liferay.pool.provider.jar.url[hikaricp]}"
+			<!-- lib/portal/hikaricp.jar must stay in lockstep with the HikariCP version
+				pinned in setup.liferay.pool.provider.jar.url[hikaricp] in portal.properties
+				and lib/portal/dependencies.properties — this copy ships the checked-in jar
+				as-is, it does not re-download or verify against that URL. -->
+			<copy
+				file="${project.dir}/lib/portal/hikaricp.jar"
+				tofile="@{app.server.lib.portal.dir}/${portal.setup.liferay.pool.provider.jar.name[hikaricp]}"
 			/>
 		</sequential>
 	</macrodef>

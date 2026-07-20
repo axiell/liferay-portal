@@ -1,0 +1,15 @@
+# Arena Liferay Portal 7.0.6-ga7 accepted-risk Aikido issue groups.
+# Read by .claude/skills/aikido-analyse/scripts/bulk-ignore-groups.sh and
+# .claude/skills/aikido-analyse/scripts/check-accepted-risk-drift.sh.
+# One group per line: <group_id> <reason>. Reason may contain spaces, `#`
+# comments and blank lines are ignored.
+#
+# Reviewed accepted-risk groups from current export triage.
+# Keep each reason specific, with owner and review date.
+
+21255858 accepted risk - Log4j 1.x SocketServer never started; no practical exposure on this branch; owner Arena Portal maintainers; review 2026-07-16; see SECURITY_REVIEW-2.md
+33507626 accepted risk - xalan 2.7.x has no safe patch line; reachable only through authenticated admin XSLT path; owner Arena Portal maintainers; review 2026-07-16; see SECURITY_REVIEW-2.md
+33507407 accepted risk - zlib comes from Node.js 6.6.0 legacy theme build toolchain only, not deployed runtime; owner Arena Portal maintainers; review 2026-07-16; see SECURITY_REVIEW-2.md
+33507404 accepted risk - openssl comes from Node.js 6.6.0 legacy theme build toolchain only, not deployed runtime; owner Arena Portal maintainers; review 2026-07-16; see SECURITY_REVIEW-2.md
+33507406 accepted risk - c-ares comes from Node.js 6.6.0 legacy theme build toolchain only, not deployed runtime; owner Arena Portal maintainers; review 2026-07-16; see SECURITY_REVIEW-2.md
+33507411 accepted risk - v8 comes from Node.js 6.6.0 legacy theme build toolchain only, not deployed runtime; owner Arena Portal maintainers; review 2026-07-16; see SECURITY_REVIEW-2.md

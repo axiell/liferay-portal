@@ -1,4 +1,7 @@
 Bundle-SymbolicName: system.packages.extra
+
+-fixupmessages: "Classes found in the wrong directory*";is:=ignore
+
 Export-Package:\
 	!*.dependencies.*,\
 	\
@@ -110,7 +113,7 @@ Export-Package:\
 	com.sun.syndication.io;version='1.0',\
 	com.sun.syndication.io.impl;version='1.0',\
 	\
-	com.thoughtworks.xstream.*;version='1.4.7',\
+	com.thoughtworks.xstream.*;version='1.4.21',\
 	\
 	java_cup.runtime.*;version='2.7.1',\
 	\
@@ -198,27 +201,25 @@ Export-Package:\
 	org.apache.commons.logging;version="1.2",\
 	org.apache.commons.logging.impl;version="1.2",\
 	org.apache.commons.validator.routines;version='1.5.0',\
-	org.apache.log4j;version='1.2.17',\
-	org.apache.log4j.chainsaw;version='1.2.17',\
-	org.apache.log4j.config;version='1.2.17',\
+	org.apache.log4j;version='1.2.26',\
+	org.apache.log4j.chainsaw;version='1.2.26',\
+	org.apache.log4j.config;version='1.2.26',\
 	org.apache.log4j.extras;version='1.1',\
 	org.apache.log4j.filter;version='1.1',\
-	org.apache.log4j.helpers;version='1.2.17',\
-	org.apache.log4j.jdbc;version='1.2.17',\
-	org.apache.log4j.jmx;version='1.2.17',\
-	org.apache.log4j.net;version='1.2.17',\
-	org.apache.log4j.nt;version='1.2.17',\
-	org.apache.log4j.or;version='1.2.17',\
-	org.apache.log4j.or.jms;version='1.2.17',\
-	org.apache.log4j.or.sax;version='1.2.17',\
-	org.apache.log4j.pattern;version='1.2.17',\
-	org.apache.log4j.rewrite;version='1.2.17',\
+	org.apache.log4j.helpers;version='1.2.26',\
+	org.apache.log4j.jdbc;version='1.2.26',\
+	org.apache.log4j.net;version='1.2.26',\
+	org.apache.log4j.or;version='1.2.26',\
+	org.apache.log4j.or.jms;version='1.2.26',\
+	org.apache.log4j.or.sax;version='1.2.26',\
+	org.apache.log4j.pattern;version='1.2.26',\
+	org.apache.log4j.rewrite;version='1.2.26',\
 	org.apache.log4j.rolling;version='1.1',\
 	org.apache.log4j.rolling.helper;version='1.1',\
 	org.apache.log4j.rule;version='1.1',\
-	org.apache.log4j.spi;version='1.2.17',\
-	org.apache.log4j.varia;version='1.2.17',\
-	org.apache.log4j.xml;version='1.2.17',\
+	org.apache.log4j.spi;version='1.2.26',\
+	org.apache.log4j.varia;version='1.2.26',\
+	org.apache.log4j.xml;version='1.2.26',\
 	org.apache.naming.java,\
 	org.apache.regexp;version='2.7.1',\
 	org.apache.struts.*;version='1.3.10',\
@@ -244,7 +245,7 @@ Export-Package:\
 	\
 	org.jdom.*;version='1.0',\
 	\
-	org.json.*;version='2012.6.16.c7d2d9161321e9',\
+	org.json.*;version='20240303.0.0',\
 	\
 	org.objectweb.asm;version='5.0.1',\
 	org.objectweb.asm.attrs;version='5.0.1',\

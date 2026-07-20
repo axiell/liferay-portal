@@ -20,13 +20,14 @@ jobs:
   aikido-scan:
     name: Aikido scan
     runs-on: ubuntu-latest
-    timeout-minutes: 240
+    timeout-minutes: 360
 
     steps:
       - name: Checkout code
         uses: actions/checkout@v4
         with:
-          fetch-depth: 1
+          # Full history + all branches so the PR-gate merge-base is resolvable.
+          fetch-depth: 0
 
       - name: Cache Aikido scanner
         id: cache-scanner
@@ -49,6 +50,14 @@ jobs:
           AIKIDO_API_KEY: ${{ secrets.AIKIDO_SECRET_KEY }}
           REPO: ${{ github.repository }}
           REF_NAME: ${{ github.ref_name }}
+          HEAD_SHA: ${{ github.sha }}
+          # Override to diff against a different mainline; the loop below falls
+          # back through these in order and finally to HEAD~1, so the scan can
+          # never fail just because a base branch name is wrong/missing.
+          AIKIDO_BASE_BRANCH: ""
+          # Long timeouts for this large tree: 60m per scan tool, 3h Trivy/SCA,
+          # 60 backend-result polls. Job wall-clock cap is timeout-minutes: 360.
+          TRIVY_TIMEOUT: "180m"
         run: |
           # Honor the repo-root .aikido-exclude (same file the local
           # aikido-scan wrapper reads) so CI and local scans share one
@@ -60,12 +69,34 @@ jobs:
               EXCLUDES+=(--exclude "$pattern")
             done < .aikido-exclude
           fi
+
+          # PR-gated diff of the CURRENT branch ($REF_NAME) vs its fork point.
+          # The Aikido repo is registered with a different default branch, so a
+          # release-mode scan is rejected; PR mode compares commits instead.
+          # Resolve a base commit robustly — never let a bad base branch fail
+          # the run.
+          BASE=""
+          for b in "$AIKIDO_BASE_BRANCH" arena-7.4.3.129-ga129 arena-7.0.6-ga7 support/experimental master main; do
+            [[ -z "$b" || "$b" == "$REF_NAME" ]] && continue
+            if git rev-parse --verify -q "origin/$b" >/dev/null; then
+              BASE="$(git merge-base HEAD "origin/$b" 2>/dev/null || true)"
+              [[ -n "$BASE" && "$BASE" != "$HEAD_SHA" ]] && break || BASE=""
+            fi
+          done
+          [[ -z "$BASE" ]] && BASE="$(git rev-parse HEAD~1)"
+          echo "PR-gate base=$BASE head=$HEAD_SHA branch=$REF_NAME"
+
           ~/aikido-scanner/aikido-local-scanner scan \
             "$GITHUB_WORKSPACE" \
             --apikey "$AIKIDO_API_KEY" \
             --repositoryname "$REPO" \
             --branchname "$REF_NAME" \
+            --gating-mode pr \
+            --base-commit-id "$BASE" \
+            --head-commit-id "$HEAD_SHA" \
             --fail-on critical \
             --scan-types dependencies \
+            --scan-timeout 3600000 \
+            --max-polling-attempts 60 \
             "${EXCLUDES[@]}" \
             ${{ inputs.debug && '--debug' || '' }}

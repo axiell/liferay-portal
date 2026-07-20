@@ -40,3 +40,12 @@ gradle
 sql
 support-resin
 support-websphere
+
+# opensocial-portlet: confirmed never deployed through arena-parent (its
+# .war is excluded from the published com.liferay.portal.osgi zip in
+# scripts/deploy-maven-artifacts.sh) — exclude the whole module rather than
+# tracking its vendored blobs (OpenAjax_Hub_2.0.5_r1293.zip,
+# shindig-server-2.0.2.war, ...) one file at a time as new ones surface.
+modules/apps/opensocial/opensocial-portlet/**
+
+modules/apps/wiki-engine-mediawiki/wiki-engine-mediawiki/jamwiki-1.0.7-src.zip

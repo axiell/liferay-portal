@@ -53,7 +53,7 @@ packaging=zip
 rm -rf ${repo_dir}/com/liferay/portal/${file}/${version}
 mkdir -p ${repo_dir}/com/liferay/portal/${file}/${version}
 pushd ${bundles_dir}
-zip -rX ${repo_dir}/com/liferay/portal/${file}/${version}/${file}-${version}.${packaging} osgi -x osgi/portal/com.liferay.portal.search.elasticsearch.jar -x osgi/war/porygon-theme.war osgi/war/westeros-bank-theme.war osgi/war/fjord-theme.war osgi/war/1975-london-theme.war
+zip -rX ${repo_dir}/com/liferay/portal/${file}/${version}/${file}-${version}.${packaging} osgi -x osgi/portal/com.liferay.portal.search.elasticsearch.jar -x osgi/war/porygon-theme.war osgi/war/westeros-bank-theme.war osgi/war/fjord-theme.war osgi/war/1975-london-theme.war "osgi/war/opensocial-portlet-*.war"
 popd
 deployFile ${file} ${packaging} ${version}
 

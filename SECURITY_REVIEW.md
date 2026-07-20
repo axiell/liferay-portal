@@ -51,7 +51,7 @@ Development-only: hsqldb 2.3.3 → 2.7.1 (`lib/development/dependencies.properti
 
 - `.aikido-ignore` — reviewed accepted-risk registry (one Aikido group id per line with owner, reason, review date), consumed by drift-check tooling so silent divergence between documented accepted risks and dashboard state is detected.
 - `.aikido-exclude` / `.aikido-clean` — scan-scope excludes and pre-scan cleanup globs, so scans run against tracked source instead of generated `build/`/`classes/` trees (earlier scans were dominated by generated-artifact noise).
-- `.claude/skills/aikido-scan`, `.claude/skills/aikido-analyse` (with `bulk-ignore-groups.sh`, `check-accepted-risk-drift.sh`), `cve-triage`, and `release-cut` skills plus `.opencode` command shims codify the scan → triage → accepted-risk workflow.
+- `aikido-scan`, `aikido-analyse` (with `bulk-ignore-groups.sh`, `check-accepted-risk-drift.sh`), `cve-triage`, and `release-cut` skills codify the scan → triage → accepted-risk workflow; `aikido-scan`/`aikido-analyse` are maintained centrally as portable manual skills (`~/.agents/manual-skills/`, invoked via `/aikido-scan` / `/aikido-analyse`) rather than checked into this repo, so they stay identical across every Axiell project. `cve-triage` and `release-cut` remain repo-local under `.claude/skills/`.
 
 ## Decisions and rationale
 
@@ -74,7 +74,7 @@ Platform context: this is a frozen fork of Liferay Portal 7.0.6-ga7 on Java 8. I
 
 1. Audit the flagged path-traversal servlets (`WebServerServlet`, `DynamicResourceServlet`) for docroot normalisation, and SSRF-flagged callers (`SimpleHTTPSender`, `SocketUtil`) for user-controlled URLs.
 2. ~~Add HAProxy belt-and-suspenders rules...~~ **Done** — arena-install `feature/security-patch` (`d225089d`) adds the path-traversal regex deny (`\.\./`, `%2e%2e%2f`, `\.\.%2f`, `%2e%2e/`) closing the CVE-2018-1272 gap, plus `p_p_id` 82/167 (Script Console, DDM template-editor) denies restricted to the internal source whitelist. Live `p_p_id` re-verification against a running deployment remains an open pre-flight check — see arena-install's review, Future recommendations #1.
-3. Confirm whether Arena deployments ship the opensocial portlet at all; if unused, remove the portlet rather than maintaining it.
+3. ~~Confirm whether Arena deployments ship the opensocial portlet at all...~~ **Confirmed not shipped** (2026-07-20) — the opensocial portlet is never deployed through arena-parent. `scripts/deploy-maven-artifacts.sh` now excludes `osgi/war/opensocial-portlet-*.war` from the published `com.liferay.portal.osgi` zip, and `.aikido-exclude` drops the whole `modules/apps/opensocial/opensocial-portlet/**` module from scan scope (superseding the earlier per-vendor-file entries) rather than tracking its blobs one at a time. `jamwiki-1.0.7-src.zip` (`wiki-engine-mediawiki`) is excluded separately — that module's jar *is* present in the built bundle, so its deployment status is unconfirmed and only the vendor source archive is excluded, not the module. Fully removing the opensocial-portlet build target instead of excluding+building is still open if it's confirmed dead weight end-to-end.
 4. Audit `BeanPropertiesImpl` (Struts parameter binding) for user-controlled deserialised input.
 5. Replace xalan with Saxon-HE if the admin XSLT feature must stay; otherwise keep the accepted-risk entry.
 6. Migrate the theme build toolchain off gulp 3 / Node 6 so the Node.js runtime (and its bundled zlib/openssl/v8/c-ares) can be upgraded.

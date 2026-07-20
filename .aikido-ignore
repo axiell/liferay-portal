@@ -1,6 +1,7 @@
 # Arena Liferay Portal 7.0.6-ga7 accepted-risk Aikido issue groups.
-# Read by .claude/skills/aikido-analyse/scripts/bulk-ignore-groups.sh and
-# .claude/skills/aikido-analyse/scripts/check-accepted-risk-drift.sh.
+# Read by the aikido-analyse skill's bulk-ignore-groups.sh and
+# check-accepted-risk-drift.sh (~/.agents/manual-skills/aikido-analyse/scripts/,
+# invoked via /aikido-analyse).
 # One group per line: <group_id> <reason>. Reason may contain spaces, `#`
 # comments and blank lines are ignored.
 #

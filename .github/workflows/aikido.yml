@@ -45,13 +45,13 @@ jobs:
           chmod +x ~/aikido-scanner/aikido-local-scanner
       - name: Detect new vulnerabilities
         env:
-          AIKIDO_SECRET_KEY: ${{ secrets.AIKIDO_SECRET_KEY }}
-          REPO: ${{ github.event.repository.name }}
+          AIKIDO_API_KEY: ${{ secrets.AIKIDO_SECRET_KEY }}
+          REPO: ${{ github.repository }}
           REF_NAME: ${{ github.ref_name }}
         run: |
           ~/aikido-scanner/aikido-local-scanner scan \
             "$GITHUB_WORKSPACE" \
-            --apikey "$AIKIDO_SECRET_KEY" \
+            --apikey "$AIKIDO_API_KEY" \
             --repositoryname "$REPO" \
             --branchname "$REF_NAME" \
             --fail-on critical \

@@ -51,11 +51,12 @@ jobs:
           REF_NAME: ${{ github.ref_name }}
         run: |
           ~/aikido-scanner/aikido-local-scanner scan \
+            "$GITHUB_WORKSPACE" \
+            --apikey "$AIKIDO_API_KEY" \
             --repositoryname "$REPO" \
             --branchname "$REF_NAME" \
             --fail-on critical \
             --scan-types dependencies \
             --exclude portal-test \
             --exclude modules/test \
-            ${{ inputs.debug && '--debug' || '' }} \
-            -- "$GITHUB_WORKSPACE"
+            ${{ inputs.debug && '--debug' || '' }}

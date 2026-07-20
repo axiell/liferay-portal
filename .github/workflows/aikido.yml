@@ -50,6 +50,16 @@ jobs:
           REPO: ${{ github.repository }}
           REF_NAME: ${{ github.ref_name }}
         run: |
+          # Honor the repo-root .aikido-exclude (same file the local
+          # aikido-scan wrapper reads) so CI and local scans share one
+          # exclude list. One glob per line; blank lines and # comments skipped.
+          EXCLUDES=()
+          if [[ -f .aikido-exclude ]]; then
+            while IFS= read -r pattern; do
+              [[ -z "$pattern" || "$pattern" == \#* ]] && continue
+              EXCLUDES+=(--exclude "$pattern")
+            done < .aikido-exclude
+          fi
           ~/aikido-scanner/aikido-local-scanner scan \
             "$GITHUB_WORKSPACE" \
             --apikey "$AIKIDO_API_KEY" \
@@ -57,6 +67,5 @@ jobs:
             --branchname "$REF_NAME" \
             --fail-on critical \
             --scan-types dependencies \
-            --exclude portal-test \
-            --exclude modules/test \
+            "${EXCLUDES[@]}" \
             ${{ inputs.debug && '--debug' || '' }}

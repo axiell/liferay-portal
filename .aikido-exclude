@@ -57,3 +57,8 @@ oss-licenses/**
 # sources are untouched.
 **/src/test/**
 **/src/testIntegration/**
+
+# Whole test-only module tree. Preserves the CI workflow's prior
+# `--exclude modules/test`; not production. Slash-anchored so only this path
+# matches, never other `test` dirs.
+modules/test/**

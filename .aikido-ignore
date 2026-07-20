@@ -1,0 +1,20 @@
+# Accepted-risk Aikido finding GROUPS for this repo. One entry per line:
+#   <group_id> <reason - include owner and review date>
+#
+# An empty file is the valid default: no risks accepted yet. Both consumers
+# tolerate this file being empty or absent.
+#
+# WHEN TO USE: only after a /aikido-analyse triage buckets an open finding
+# group as "accepted platform risk". Never ignore single issues one at a
+# time - bucket by group_id first (one dependency pinned across 50 modules
+# is ONE decision). The bulk-ignore script only PRINTS the API call; a
+# human always reviews and runs it.
+#
+# EXAMPLES (commented out; uncomment only for risks actually accepted in
+# triage, with real group ids from /aikido-analyse export):
+#   48213 jquery <3.5 XSS GHSA-gxr4-xjj5-5px2 - not reachable, no DOM sink on shipped pages [wos, review 2026-11]
+#   51042 commons-text CVE-2022-42889 - lookup interpolation disabled by our config; bump blocked on 7.4.x line [arena-platform, review 2026-Q4]
+#
+# Consumers:
+#   ~/.agents/manual-skills/aikido-analyse/scripts/bulk-ignore-groups.sh
+#   ~/.agents/manual-skills/aikido-analyse/scripts/check-accepted-risk-drift.sh

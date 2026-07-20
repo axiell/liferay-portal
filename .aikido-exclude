@@ -1,0 +1,114 @@
+# Arena Liferay Portal 7.4.3.129-ga129-specific Aikido scan excludes.
+#
+# ---------------------------------------------------------------------------
+# EXCLUDE SEMANTICS — measured against local-scanner v1.0.139 on 2026-08-29
+# (synthetic-repo probe; see KnowledgeBase docs/security/aikido-security-scanning.md).
+# `--exclude` is a plain SUBSTRING match on the candidate path. NOT a glob.
+#   * any pattern containing `*` is INERT and fails silently: `**/build/**`,
+#     `build/**` and `bin/**` match nothing, and the scan runs at full scope.
+#     Every pattern in this file before 2026-08-29 was of that form, i.e. the
+#     entire file was a no-op.
+#   * a bare word matches anywhere inside a path, including inside a longer
+#     name (`uild` excludes `build/`), so always slash-wrap: `/build/`.
+#   * there is NO root anchoring. `/bin/` also hits nested bin dirs.
+#   * the secrets stage (gitleaks) ignores --exclude completely and walks
+#     everything; only pre-scan cleanup or --scan-types affects its cost.
+# The local wrapper warns about inert patterns before every scan.
+# ---------------------------------------------------------------------------
+#
+# One pattern per line (# comments allowed), passed as --exclude by BOTH
+# scan consumers - keep them in parity when tuning scope or timeouts:
+#   local: ~/.agents/manual-skills/aikido-scan/scripts/aikido-scan.sh
+#   CI:    .github/workflows/aikido.yml (manual dispatch)
+# Kept here (repo root) rather than inside either consumer so the skill
+# stays portable to other projects unmodified and CI picks up the same list.
+
+# IDE-generated build/compiled-class output for the Ant-built core modules.
+# Verified via `git ls-files | grep -E "(^|/)build/"` - zero tracked files
+# live under any build/ directory anywhere in this repo, so matching every
+# depth is safe.
+/build/
+
+# Stray JVM heap dump left in the working tree (modules/apps/foundation/
+# portal/java_pid83209.hprof). May contain sensitive memory contents and has
+# no reason to exist in the working tree - consider deleting it directly.
+.hprof
+
+# Test/integration-test source inside otherwise-in-scope production modules.
+# Segment-precise, so main sources are untouched.
+/src/test/
+/src/testIntegration/
+
+# Integration-test helper MODULES under modules/** (552 dirs, ~1.9k tracked
+# files). Their sources sit in their own src/main/java, so the src/test
+# excludes above never reach them. `<artifact>-test` and `-test-util` bundles
+# exist only to run tests inside a live portal and ship in no release dist.
+#
+# NEVER write these as `-test/` / `-test-util/`. A pattern starting with a
+# hyphen is forwarded verbatim into checkov's `--skip-path` and Semgrep's
+# argv, where argparse reads it as a flag: the IaC scan dies with
+# "argument --skip-path: expected one argument" and the SAST scan with
+# "failed to output result". Both types then produce NO findings while the
+# run still exits 0 - two silently dead scanners. Measured 2026-08-29 on
+# v1.0.139; the scan wrapper now refuses such patterns.
+#
+# The hyphen-free forms below cover the same modules (substring match, so
+# "test/" is contained in "<artifact>-test/"). Safe in THIS repo because it
+# holds no `latest/` path (verified: `git ls-files | grep -c latest/` = 0) -
+# recheck that before copying these two lines to another repo, since
+# "latest/" contains "test/".
+test/
+test-util/
+
+# Local npm tarball cache under modules/ (untracked @pkg-version.tgz files,
+# reproducible from yarn.lock). Untracked, so CI checkouts never contain it.
+/modules/node_modules_cache/
+
+# Whole test-only module tree. Parent-qualified so only this path matches,
+# never other `test` dirs.
+/modules/test/
+
+# Release-engineering metadata mirror: artifact/app .properties, .changelog
+# and icons recording upstream coordinates. None of it is built or shipped.
+/modules/.releng/
+
+# Upstream DXP-only sources, mirrored for upgrade parity but never built or
+# deployed by this CE fork. Verified against the release bundle: no leaf
+# project under modules/dxp/** matches any of the 1434 shipped jars.
+/modules/dxp/
+
+# Docs-only and non-production ROOT trees whose name occurs nowhere nested
+# (verified 2026-08-29 with `git ls-files | grep -E "/<name>/"` = 0 hits), so
+# the un-anchorable substring form is exact here.
+/learn-resources/
+/portal-test/
+/oss-licenses/
+/nbproject/
+/readme/
+/build-test-batch/
+
+# NOTE: node_modules is intentionally NOT excluded. Aikido's JS supply-chain
+# coverage is real scanning surface, not noise - a security-coverage decision,
+# not cleanup. Discuss before adding it.
+# NOTE: "scripts" and "tools" are deliberately NOT excluded: scripts/ holds
+# this branch's release tooling and tools/ holds dev/release shell scripts -
+# both stay in scope as secret-scan surface.
+#
+# UNRESOLVED - root-only trees that CANNOT be expressed under substring
+# semantics. Each was root-anchored on purpose in the pre-2026-08-29 file to
+# avoid hitting same-named dirs under production modules, and there is no way
+# to anchor now. Tracked-file counts measured 2026-08-29 as root/nested:
+#   bin              0 / 11        gradle            2 / 459
+#   benchmarks       2 / 8         sql              25 / 554
+#   definitions    227 / 314       workspaces     5472 / 115
+#   lib             20 / 25
+# Enabling any line below also drops the nested production paths from the
+# scan. That is a security-scope decision - decide per tree, do not bulk
+# uncomment.
+# /bin/
+# /benchmarks/
+# /definitions/
+# /gradle/
+# /sql/
+# /workspaces/
+# /lib/

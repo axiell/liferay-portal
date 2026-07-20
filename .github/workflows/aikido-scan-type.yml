@@ -1,0 +1,235 @@
+name: Aikido scan (one type)
+
+# Reusable: one Aikido scan of one scan type. Called once per type by
+# aikido.yml so each type gets its own job budget and its own result.
+# Not callable directly - use the Aikido Security workflow.
+
+on:
+  workflow_call:
+    inputs:
+      scan_type:
+        description: "Single Aikido scan type (code | dependencies | secrets | iac)"
+        type: string
+        required: true
+      debug:
+        description: "Enable scanner --debug output"
+        type: boolean
+        default: false
+
+permissions:
+  contents: read
+
+env:
+  AIKIDO_SCANNER_VERSION: "1.0.139"
+  AIKIDO_SCANNER_SHA256: "41b4368ee0ffbb195015a39119a7cc9db2ff0aefa8388bc01e48b747c6d4d2d1"
+  FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
+
+jobs:
+  scan:
+    name: ${{ inputs.scan_type }}
+    runs-on: ubuntu-latest
+    # INVARIANT: this must stay above checkout (~5m) + the `timeout` wrapper
+    # on the scan step, so the wrapper always fires first and reports a real
+    # error. A job-cap cancellation is silent and destroys the run's output.
+    # Currently: 5m + 345m = 350m < 355m < the 360m GitHub ceiling.
+    # Violating this is not theoretical: run 29806107406 was left at 180m
+    # while the wrapper said 300m, and a healthy scan that had been running
+    # 2h56m was silently cancelled mid-flight with nothing to show for it.
+    timeout-minutes: 355
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+        with:
+          # Shallow full-blob checkout: release gating scans the whole tree
+          # and needs no history. The earlier blobless partial clone
+          # (filter: blob:none) turned every in-scope file read during the
+          # scan into an on-demand network blob fetch — uncapped by
+          # --scan-timeout — and run 32941047677 died at the 150m wrapper
+          # without ever reaching upload.
+          fetch-depth: 1
+
+      - name: Cache Aikido scanner
+        id: cache-scanner
+        uses: actions/cache@v4
+        with:
+          path: ~/aikido-scanner
+          key: aikido-scanner-${{ env.AIKIDO_SCANNER_VERSION }}-${{ env.AIKIDO_SCANNER_SHA256 }}-linux-x86_64
+
+      - name: Download Aikido scanner
+        if: steps.cache-scanner.outputs.cache-hit != 'true'
+        run: |
+          curl -fsL "https://aikido-local-scanner.s3.eu-west-1.amazonaws.com/v${{ env.AIKIDO_SCANNER_VERSION }}/linux_X86_64/aikido-local-scanner.zip" \
+            -o /tmp/aikido-scanner.zip
+          echo "${{ env.AIKIDO_SCANNER_SHA256 }}  /tmp/aikido-scanner.zip" | sha256sum -c -
+          unzip /tmp/aikido-scanner.zip -d ~/aikido-scanner/
+          chmod +x ~/aikido-scanner/aikido-local-scanner
+      - name: Full-tree vulnerability inventory
+        env:
+          AIKIDO_API_KEY: ${{ secrets.AIKIDO_SECRET_KEY }}
+          REPO: ${{ github.repository }}
+          REF_NAME: ${{ github.ref_name }}
+          # Timeout budget mirrors the vault-verified local recipe for this
+          # tree (~/.agents/manual-skills/aikido-scan, recipe in
+          # KnowledgeBase/docs/security/aikido-security-scanning.md):
+          # 5m per scan tool, 30m Trivy/SCA. The previous 60m-per-tool /
+          # 180m-Trivy budget let four silent stages sum past the wrapper:
+          # runs 32858466262, 29986162523 and 29821732611 all died at exactly
+          # 300m (exit 124) having printed nothing beyond
+          # "Scan with id ... started.".
+          TRIVY_TIMEOUT: "30m"
+        run: |
+          # Honor the repo-root .aikido-exclude (same file the local
+          # aikido-scan wrapper reads) so CI and local scans share one
+          # exclude list. One glob per line; blank lines and # comments skipped.
+          EXCLUDES=()
+          if [[ -f .aikido-exclude ]]; then
+            while IFS= read -r pattern; do
+              [[ -z "$pattern" || "$pattern" == \#* ]] && continue
+              EXCLUDES+=(--exclude "$pattern")
+            done < .aikido-exclude
+          fi
+
+          # Same generic build-output excludes the local aikido-scan.sh
+          # wrapper always passes, so CI and local scans see identical scope.
+          # Patterns are quoted so bash cannot pathname-expand them against
+          # the checkout (e.g. a root-level target/ would split the word).
+          # Slash-wrapped segments, NOT globs: --exclude is a plain substring
+          # match on the path (measured against v1.0.139 on 2026-08-29). Any
+          # pattern containing '*' matches nothing and fails silently, which
+          # is what every pattern here and in .aikido-exclude used to do.
+          EXCLUDES+=(
+            --exclude /.gradle/
+            --exclude /.m2/
+            --exclude /.ai/
+            --exclude /target/
+            --exclude /classes/
+            --exclude /tmp/
+          )
+
+          # Fail loudly rather than scanning at full scope by accident.
+          INERT=()
+          for e in "${EXCLUDES[@]}"; do
+            case "$e" in --exclude) continue ;; *[\*\?]*|./*) INERT+=("$e") ;; esac
+          done
+          # A leading hyphen is not merely useless: the pattern is forwarded
+          # verbatim into checkov's --skip-path and Semgrep's argv, which parse
+          # it as a flag. The IaC and SAST stages then fail while the run still
+          # exits 0 - two silently dead scanners. Fail the job instead.
+          BADDASH=()
+          for e in "${EXCLUDES[@]}"; do
+            case "$e" in --exclude) continue ;; -*) BADDASH+=("$e") ;; esac
+          done
+          if [[ ${#BADDASH[@]} -gt 0 ]]; then
+            echo "::error::exclude pattern(s) start with '-' and will break the IaC and SAST scans: ${BADDASH[*]}. Drop the leading hyphen ('test/' covers '-test/')."
+            exit 1
+          fi
+          if [[ ${#INERT[@]} -gt 0 ]]; then
+            echo "::warning::${#INERT[@]} exclude pattern(s) can never match (--exclude is a substring match, not a glob): ${INERT[*]}"
+          fi
+
+          # Print what actually reached the scanner. The GitHub log group only
+          # echoes the script source ("${EXCLUDES[@]}"), never the expansion,
+          # so without this there is no way to confirm from a run log that the
+          # exclude list was applied at all.
+          echo "Full-tree release-gated scan of $REF_NAME"
+          echo "Applying ${#EXCLUDES[@]} args from .aikido-exclude:"
+          printf '  %s %s\n' "${EXCLUDES[@]}"
+
+          # Release gating scans the WHOLE checkout, not a diff. The earlier
+          # PR-gate config (--gating-mode pr --git-based-pr-gating) was
+          # structurally incapable of reporting anything on a branch whose diff
+          # touches no dependency manifests: run 29803997677 passed in 7s with
+          # "No scannable files for dependencies scan". Release mode is what
+          # produced real findings before (run 27670920600: 1h44m, exit 1).
+          #
+          # MEASURED REALITY (run 32957427732, this tree, full blobs): the
+          # scanner prints NOTHING between "Scan with id ... started." and the
+          # end of its file walk -- not even at --debug. On the small old tree
+          # (arena-7.0.6-ga7, deps-only) that silent phase was ~106m; on THIS
+          # tree it exceeds 150m, so the old wrapper killed a healthy scan at
+          # exactly 150m (exit 124). The scanner is slow here, not hung. A
+          # heartbeat loop below prints elapsed time every 5m so any future
+          # failure shows how far the silent phase actually got.
+          #
+          # The Aikido repo is registered with default branch arena-7.0.6-ga7,
+          # so a plain release scan of any other branch is rejected with "Repo
+          # already exists with default branch ..." (runs 29805404382,
+          # 29805748897). --force-create-repository-for-branch is the
+          # documented workaround and is used here deliberately as an INTERIM
+          # measure: it creates a SEPARATE Aikido repo for this branch, so
+          # findings do not share history with the main repo and more repos
+          # appear as branches multiply. The clean fix is for an Aikido admin
+          # to re-register this fork's mainline; once that is done, drop this
+          # flag and delete the per-branch repo.
+          #
+          # `timeout` wraps the scanner because its own --scan-timeout only
+          # bounds individual scan tools and --max-polling-attempts only bounds
+          # post-upload result polling; neither covers the pre-scan backend
+          # registration or the silent file-walk phase, which is exactly where
+          # runs 29784926428 (hung 5h29m in registration) and 32957427732
+          # (slow walk >150m) died silently. Without this wrapper the job dies
+          # as a silent GitHub cancellation.
+          #
+          # NOTE (2026-08-29): --scan-timeout was 300000 (5m). On this tree the
+          # SAST and IaC stages hit that wall and ERRORED, and the run still
+          # printed "no open issues" - a false green from two dead sub-scans.
+          # At 900000 (the scanner's own default) every stage completed, ~40m
+          # total. A per-tool timeout is the wrong tool for bounding a slow
+          # scan: it turns "slow" into "silently incomplete". The outer
+          # `timeout` wrapper is what bounds the run.
+          #
+          # Budget: one scan type per run now, so this is that type's tool time
+          # bounded tool time, plus an UNBOUNDED-IN-TOOL-TERMS silent walk
+          # phase (~106m on the much smaller 7.0.6 tree; unknown but >150m on
+          # this one). 345m gives the walk up to ~295m of headroom under the
+          # tool budget while still fitting job cap 355m (355 < 360 GitHub
+          # ceiling; checkout + download + kill grace fit in the remaining
+          # ~10m). If the heartbeat shows the walk alone exceeding ~290m,
+          # trim scope in .aikido-exclude instead of raising caps again --
+          # there is almost nothing left under the 360m ceiling.
+          # Artifact scanning stays disabled, matching the local wrapper:
+          # unpacking every committed jar/war dominates runtime on this tree
+          # without adding findings beyond the manifests SCA already reads.
+          SCAN_LOG=/tmp/aikido-scan.log
+          START_EPOCH=$(date +%s)
+          (
+            timeout -k 60s 345m \
+            ~/aikido-scanner/aikido-local-scanner scan \
+              "$GITHUB_WORKSPACE" \
+              --apikey "$AIKIDO_API_KEY" \
+              --repositoryname "$REPO" \
+              --branchname "$REF_NAME" \
+              --gating-mode release \
+              --force-create-repository-for-branch \
+              --fail-on critical \
+              --disable-artifact-scanning \
+              --scan-types ${{ inputs.scan_type }} \
+              --scan-timeout 900000 \
+              --max-polling-attempts 60 \
+              "${EXCLUDES[@]}" \
+              ${{ inputs.debug && '--debug' || '' }}
+          ) > >(tee "$SCAN_LOG") 2>&1 &
+          SCANNER_PID=$!
+          while kill -0 "$SCANNER_PID" 2>/dev/null; do
+            sleep 300
+            echo "[heartbeat] scan still in progress: $(( ($(date +%s) - START_EPOCH) / 60 ))m elapsed"
+          done
+          # `set -e` is on in GitHub run steps, and a failing `wait` would end
+          # the step right here - before the dead-stage check below ever runs.
+          SCAN_STATUS=0
+          wait "$SCANNER_PID" || SCAN_STATUS=$?
+
+          # A stage can fail while the run still exits 0 and prints a findings
+          # summary, which reads as a healthy scan that found nothing in those
+          # categories. Seen on this tree from both a too-low --scan-timeout
+          # (run of 2026-08-29: SAST and IaC errored, output said "no open
+          # issues") and an exclude pattern checkov could not parse. Neither is
+          # a findings verdict, so fail the job independently of the gate.
+          if grep -qiE 'scan failed|failed to output result|checkov: error' "$SCAN_LOG"; then
+            echo "::error::One or more Aikido scan stages FAILED - these results are incomplete and must not be read as clean."
+            grep -iE 'scan failed|failed to output result|checkov: error' "$SCAN_LOG" | sed 's/^/  /'
+            exit 3
+          fi
+
+          exit "$SCAN_STATUS"

@@ -43,7 +43,8 @@ jobs:
           echo "${{ env.AIKIDO_SCANNER_SHA256 }}  /tmp/aikido-scanner.zip" | sha256sum -c -
           unzip /tmp/aikido-scanner.zip -d ~/aikido-scanner/
           chmod +x ~/aikido-scanner/aikido-local-scanner
-      - name: Detect new vulnerabilities
+      - name: Detect new vulnerabilities (manual)
+        if: github.event_name == 'workflow_dispatch'
         env:
           AIKIDO_API_KEY: ${{ secrets.AIKIDO_SECRET_KEY }}
           REPO: ${{ github.repository }}

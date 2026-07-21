@@ -91,13 +91,16 @@ jobs:
           # "No scannable files for dependencies scan". Release mode is what
           # produced real findings before (run 27670920600: 1h44m, exit 1).
           #
-          # PREREQUISITE: the Aikido repo is registered with default branch
-          # arena-7.0.6-ga7, so scanning any other branch is rejected with
-          # "Repo already exists with default branch ...". An Aikido admin must
-          # re-register this fork's mainline before this step can pass. Until
-          # then the run fails in ~60s with that message. Do NOT "fix" it with
-          # --force-create-repository-for-branch: that creates a separate
-          # Aikido repo per branch and fragments finding history.
+          # The Aikido repo is registered with default branch arena-7.0.6-ga7,
+          # so a plain release scan of any other branch is rejected with "Repo
+          # already exists with default branch ..." (runs 29805404382,
+          # 29805748897). --force-create-repository-for-branch is the
+          # documented workaround and is used here deliberately as an INTERIM
+          # measure: it creates a SEPARATE Aikido repo for this branch, so
+          # findings do not share history with the main repo and more repos
+          # appear as branches multiply. The clean fix is for an Aikido admin
+          # to re-register this fork's mainline; once that is done, drop this
+          # flag and delete the per-branch repo.
           #
           # `timeout` wraps the scanner because its own --scan-timeout only
           # bounds individual scan tools and --max-polling-attempts only bounds
@@ -111,6 +114,7 @@ jobs:
             --repositoryname "$REPO" \
             --branchname "$REF_NAME" \
             --gating-mode release \
+            --force-create-repository-for-branch \
             --fail-on critical \
             --scan-types code dependencies secrets iac \
             --scan-timeout 3600000 \

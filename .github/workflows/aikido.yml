@@ -20,13 +20,14 @@ jobs:
   aikido-scan:
     name: Aikido scan
     runs-on: ubuntu-latest
-    # Well under the 6h job ceiling so a scanner hang fails fast instead of
-    # burning a whole runner day (run 29784926428 hung 5h29m in PR-gate
-    # registration before GitHub cancelled it at 360m). Kept above
-    # checkout + the 120m `timeout` wrapper on the scan step so that wrapper
-    # always fires first and its error is visible; a job-cap cancellation is
-    # silent.
-    timeout-minutes: 180
+    # INVARIANT: this must stay above checkout (~4m) + the `timeout` wrapper
+    # on the scan step, so the wrapper always fires first and reports a real
+    # error. A job-cap cancellation is silent and destroys the run's output.
+    # Currently: 4m + 300m = 304m < 350m < the 360m GitHub ceiling.
+    # Violating this is not theoretical: run 29806107406 was left at 180m
+    # while the wrapper said 300m, and a healthy scan that had been running
+    # 2h56m was silently cancelled mid-flight with nothing to show for it.
+    timeout-minutes: 350
 
     steps:
       - name: Checkout code

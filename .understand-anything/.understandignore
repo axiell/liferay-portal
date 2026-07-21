@@ -134,7 +134,198 @@ LICENSES/
 **/learn-resources/
 **/readme/
 learn-resources/
-find-security-bugs-false-positives.txt
+find-security-bugs-false-positives.txtRead
+                                      allocate-address.sh
+                                      Found it — real bug, not user error. allocate-address.sh:22 computes VAULT_ROOT as its own parent directory ($(dirname "${BASH_SOURCE[0]}")/..), which only worked in the original plugin layout where scripts/ sat directly at the vault root. Now that I've placed a copy inside each skill folder, VAULT_ROOT resolves to ~/.agents/manual-skills/wiki-ingest instead of the actual Obsidian vault — so it scanned a nonexistent wiki-ingest/wiki/ dir, found nothing, and "recovered" the counter to 1 instead of picking up the real max (c-000068 already exists in the Axiell vault).
+
+                                      Checking whether the other three scripts share this same self-location assumption before fixing anything:
+
+
+                                      Ran a command, read a file
+                                      Confirmed — reverting. The single vault-path assumption baked into these scripts doesn't fit this deployment (skills global in ~/.agents/manual-skills, vault data split across two separate Obsidian vaults), and leaving broken copies in place risks silent address collisions (it already tried to hand out c-000001 over the real c-000068+ in Axiell). Removing them:
+
+                                      Removed the 13 backfilled scripts that turned out to be broken; leave the pre-existing wiki-mode/wiki-retrieve scripts alone
+                                      Reverted. State is back to before the backfill — the missing-script references are absent again, which is safer than the broken copies (wiki-ingest's own gate — [ -x ./scripts/allocate-address.sh ] && [ -d ./.vault-meta ] — was designed to skip addressing when the script's absent, failing safe).
+
+                                      The real problem: these scripts hardcode VAULT_ROOT = own_script_dir/.., which only works under the original design (scripts/ living at the vault root, one script set per one vault). This setup has neither — skills are global in ~/.agents/manual-skills, and there are two separate vaults (Axiell, KnowledgeBase). wiki-mode.py makes it worse: it uses that same path for both its own templates/ (needs the skill dir) and .vault-meta (needs the vault dir) — one variable can't satisfy both anymore.
+
+                                      These vendored scripts assume a layout this setup doesn't have (single vault = script location). How should we resolve that?
+
+                                      Rewrite the SKILL.md refs (Recommended)
+
+
+                                      Ran 2 commands, read a file
+                                      Now applying the rewrite to wiki-ingest/SKILL.md:
+
+                                      Edited
+                                      SKILL.md
+                                      +13
+                                      -40
+                                      Now the 10-principle table reference:
+
+
+                                      Read a file, ran 4 commands, edited a file
+                                      These are the 3 explanatory mentions I just wrote (correctly saying the scripts don't exist) — no leftover invocations. wiki-ingest is clean. Moving to the other 6 files. Let's check each one's exact context.
+
+
+                                      Ran a command, read a file, edited a file
+                                      save done. Now autoresearch:
+
+
+                                      Read a file, edited a file
+                                      Now the concurrency section in autoresearch:
+
+                                      Edited
+                                      SKILL.md
+                                      +2
+                                      -12
+                                      autoresearch done. Now wiki-cli:
+
+
+                                      Read a file, edited a file
+                                      Now the remaining two wiki-cli mentions (line ~150 and ~159 in the original):
+
+
+                                      Ran a command, read a file, edited a file
+                                      wiki-cli done. Now wiki-fold:
+
+
+                                      Read a file, edited a file
+                                      wiki-fold done. Now wiki-lint:
+
+
+                                      Read a file, edited a file
+                                      Now the DragonScale/address-validation section in wiki-lint:
+
+
+                                      Read a file, ran a command
+                                      wiki-lint done (its allocate-address.sh mentions are already existence-gated, same as wiki-ingest, so no change needed there). Now wiki-query:
+
+
+                                      Read a file, edited a file
+                                      Final sweep across the entire manual-skills tree to make sure nothing was missed (including references/ subfiles, not just SKILL.md):
+
+                                      Swept every markdown file under manual-skills for any remaining invocation-style references to the four scripts
+                                      One more file to fix — wiki/references/transport-fallback.md is the decision tree all the other skills point to, and it still describes detect-transport.sh as active:
+
+
+                                      Read a file, edited a file
+                                      Now the Refresh policy and Manual override sections:
+
+                                      Edited
+                                      transport-fallback.md
+                                      +1
+                                      -19
+                                      Final verification sweep across the whole tree:
+
+                                      Found any remaining unguarded invocation-style references after all edits
+                                      All remaining hits are inside the already-gated DragonScale opt-in blocks (if [ -x ./scripts/allocate-address.sh ] ...) — correct as-is since the feature safely no-ops without the script, which the surrounding prose already explains.
+
+                                      Checked whether ~/.agents is version-controlled
+                                      Not version-controlled — no commit step needed there, and the portal repo itself is already clean (fetch and lockfile removed earlier).
+
+                                      Done. Summary:
+
+                                      Reverted the 13 broken script copies (confirmed they'd silently reset the address counter, risking collisions with real addresses like c-000068 already in the Axiell vault).
+                                      Rewrote the SKILL.md references across wiki-ingest, save, autoresearch, wiki-cli, wiki-fold, wiki-lint, wiki-query, and the shared wiki/references/transport-fallback.md decision-tree doc to describe manual equivalents instead of invoking the nonexistent scripts:
+                                      Transport detection → inline command -v obsidian-cli check, no cache file.
+                                      Mode-aware routing → the routing table spelled out directly, read .vault-meta/mode.json manually if present.
+                                      Advisory locking → dropped; documented as single-writer discipline (no parallel writers to the same vault/page) instead of claiming a lock that doesn't work.
+                                      DragonScale address allocation (in wiki-ingest/wiki-lint) — left untouched; it was already existence-gated and safely no-ops without the script.
+                                      Left wiki-mode/scripts/setup-mode.sh and wiki-retrieve/scripts/setup-retrieve.sh alone — those are real, working, unrelated to this bug.
+                                      This resolves the earlier spawned task in favor of the "rewrite SKILL.md" branch rather than "implement the scripts" — worth dismissing that chip since it's now handled.
+
+                                      Used ccd_session: dismiss task
+                                      That chip was already cleared. Everything's resolved — the vendored-script gap is now documented as a deliberate manual fallback rather than a silent correctness bug.
+
+                                      But maybe instead of rewriting the skills we change the KnowledgeBase vault. Actually I use the KnowledgeBase vault only for storing the documents in docs. Never ingesting, never understand anything. Never hot. This could be removed. I do not need it in knowledge base. This is only a vault for documents. So you can safely assume that all wiki operations, understand-anything is always Axiell vault.
+
+
+                                      Ran 3 commands, edited 4 files
+                                      That one's fine (already reads "the vault" concretely with just one candidate). Now the address-allocation question — this is the one place a real fix (not prose) is worth restoring:
+
+
+                                      Ran 2 commands
+                                      Good simplification — and it surfaces something bigger. The Axiell vault already has a fully provisioned .vault-meta/ (real transport.json cache from 2026-06-07, locks/, address-counter.txt) — this setup was working before the skills got split out from the vault in the July reorg. That changes the calculus on one script specifically:
+
+
+                                      Ran 2 commands
+                                      Tightened the prose to name Axiell directly (dropped the multi-vault hedging in wiki-ingest, save, wiki-cli, and transport-fallback.md) — done.
+
+                                      But digging into "does restoring allocate-address.sh make sense" turned up a real, pre-existing data-integrity bug, unrelated to anything from this session:
+
+                                      Address collision: two different pages both claim address: c-000068 — wiki/sources/headless-delivery-ext-moc.md and wiki/analyses/arena-parent-heap-incidents-2026-07.md.
+                                      Counter drift: .vault-meta/address-counter.txt says 54, but 66 pages already have addresses and the real max is 68. The counter is stale by at least 14.
+                                      This is exactly what wiki-lint's Address Validation section exists to catch — it's just never been run against current state (or was, and the errors were never resolved). This predates the July script split; it's not something my edits caused.
+
+                                      Given that, here's the actual state of play on your "always Axiell" simplification, per script:
+
+                                      detect-transport.sh / wiki-mode.py — restoring these adds nothing: the transport check is cheap enough to redo inline every session, and mode is always generic (no mode.json, and per your last message it'll stay that way). The prose fallback already covers both.
+                                      wiki-lock.sh — marginal value in a single-user interactive session; prose ("don't run concurrent writers") is adequate.
+                                      allocate-address.sh — this is the one with real value (atomic counter, race-free), and since it's always Axiell now, it can go back to ~/Documents/Obsidian/Axiell/scripts/ with zero code changes (its script_dir/.. assumption resolves correctly there, matching the original design). But it shouldn't be turned back on until the collision + drift above are resolved, or it'll keep handing out addresses that either collide or waste ranges.
+                                      Want me to: (1) fix the c-000068 collision (rename one page's address — need you to say which page keeps c-000068, or I pick by creation order) and rebuild the counter to the real max (69), then (2) restore just allocate-address.sh at the vault root and re-point wiki-ingest/wiki-lint?
+
+                                      Neither wiki in KnowledgeBase
+
+                                      I can fetch the original skills again
+
+
+                                      Ran 4 commands, read a file, edited a file
+                                      Now updating the counter file to the real max + 1 (69 + 1 = 70):
+
+
+                                      Read a file, edited a file
+                                      That block is actually correct — the skill's own docs warn against hand-editing address-counter.txt directly (it should only be mutated via the script's flock-protected path). Let me do this properly: place allocate-address.sh at the vault root first, then use its own --rebuild mode to fix the counter instead of hand-editing.
+
+                                      Place allocate-address.sh at the Axiell vault root, matching its original script_dir/.. = vault assumption
+                                      running
+                                      KnowledgeBase has wiki, but it should be simplified. Remove wiki and hot from KnowledgeBase
+
+                                      There should be only docs where the documents are placed and assets for the attachments
+
+
+
+
+
+
+                                      Settings
+                                      Search
+                                      Settings
+
+                                      General
+
+                                      Account
+
+                                      Privacy
+
+                                      Billing
+
+                                      Usage
+
+                                      Capabilities
+
+                                      Claude Code
+
+                                      Cowork
+
+                                      Claude in Chrome
+                                      Desktop app
+
+                                      General
+
+                                      Extensions
+
+                                      Developer
+                                      Customize
+
+                                      Skills
+
+                                      Connectors
+
+                                      Plugins
+
+                                      Memory
+
 
 # Excluded portal modules (upstream Liferay, not Arena-specific)
 modules/

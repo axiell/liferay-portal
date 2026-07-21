@@ -20,7 +20,13 @@ jobs:
   aikido-scan:
     name: Aikido scan
     runs-on: ubuntu-latest
-    timeout-minutes: 360
+    # Well under the 6h job ceiling so a scanner hang fails fast instead of
+    # burning a whole runner day (run 29784926428 hung 5h29m in PR-gate
+    # registration before GitHub cancelled it at 360m). Kept above
+    # checkout + the 120m `timeout` wrapper on the scan step so that wrapper
+    # always fires first and its error is visible; a job-cap cancellation is
+    # silent.
+    timeout-minutes: 180
 
     steps:
       - name: Checkout code
@@ -28,6 +34,10 @@ jobs:
         with:
           # Full history + all branches so the PR-gate merge-base is resolvable.
           fetch-depth: 0
+          # Blobless partial clone: commits and trees are still complete (so
+          # `git merge-base` works), but file contents are fetched on demand.
+          # A full fetch-depth:0 clone of this repo took 31 minutes.
+          filter: blob:none
 
       - name: Cache Aikido scanner
         id: cache-scanner
@@ -55,9 +65,10 @@ jobs:
           # back through these in order and finally to HEAD~1, so the scan can
           # never fail just because a base branch name is wrong/missing.
           AIKIDO_BASE_BRANCH: ""
-          # Long timeouts for this large tree: 60m per scan tool, 3h Trivy/SCA,
-          # 60 backend-result polls. Job wall-clock cap is timeout-minutes: 360.
-          TRIVY_TIMEOUT: "180m"
+          # Long timeouts for this large tree: 60m per scan tool, 90m
+          # Trivy/SCA, 60 backend-result polls. All must stay under the 120m
+          # `timeout` wrapper below and the 180m job cap.
+          TRIVY_TIMEOUT: "90m"
         run: |
           # Honor the repo-root .aikido-exclude (same file the local
           # aikido-scan wrapper reads) so CI and local scans share one
@@ -86,6 +97,12 @@ jobs:
           [[ -z "$BASE" ]] && BASE="$(git rev-parse HEAD~1)"
           echo "PR-gate base=$BASE head=$HEAD_SHA branch=$REF_NAME"
 
+          # `timeout` wraps the scanner because its own --scan-timeout only
+          # bounds individual scan tools and --max-polling-attempts only bounds
+          # post-upload result polling; neither covers the pre-scan backend
+          # registration, which is exactly where run 29784926428 hung. Without
+          # this the job dies as a silent GitHub cancellation with no error.
+          timeout -k 30s 120m \
           ~/aikido-scanner/aikido-local-scanner scan \
             "$GITHUB_WORKSPACE" \
             --apikey "$AIKIDO_API_KEY" \
@@ -94,6 +111,7 @@ jobs:
             --gating-mode pr \
             --base-commit-id "$BASE" \
             --head-commit-id "$HEAD_SHA" \
+            --git-based-pr-gating \
             --fail-on critical \
             --scan-types dependencies \
             --scan-timeout 3600000 \

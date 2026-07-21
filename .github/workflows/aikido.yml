@@ -54,21 +54,16 @@ jobs:
           echo "${{ env.AIKIDO_SCANNER_SHA256 }}  /tmp/aikido-scanner.zip" | sha256sum -c -
           unzip /tmp/aikido-scanner.zip -d ~/aikido-scanner/
           chmod +x ~/aikido-scanner/aikido-local-scanner
-      - name: Detect new vulnerabilities (manual)
+      - name: Full-tree vulnerability inventory (manual)
         if: github.event_name == 'workflow_dispatch'
         env:
           AIKIDO_API_KEY: ${{ secrets.AIKIDO_SECRET_KEY }}
           REPO: ${{ github.repository }}
           REF_NAME: ${{ github.ref_name }}
-          HEAD_SHA: ${{ github.sha }}
-          # Override to diff against a different mainline; the loop below falls
-          # back through these in order and finally to HEAD~1, so the scan can
-          # never fail just because a base branch name is wrong/missing.
-          AIKIDO_BASE_BRANCH: ""
-          # Long timeouts for this large tree: 60m per scan tool, 90m
-          # Trivy/SCA, 60 backend-result polls. All must stay under the 120m
-          # `timeout` wrapper below and the 180m job cap.
-          TRIVY_TIMEOUT: "90m"
+          # Long timeouts for this large tree: 60m per scan tool, 3h Trivy/SCA,
+          # 60 backend-result polls. All must stay under the 300m `timeout`
+          # wrapper below and the 350m job cap.
+          TRIVY_TIMEOUT: "180m"
         run: |
           # Honor the repo-root .aikido-exclude (same file the local
           # aikido-scan wrapper reads) so CI and local scans share one
@@ -81,39 +76,43 @@ jobs:
             done < .aikido-exclude
           fi
 
-          # PR-gated diff of the CURRENT branch ($REF_NAME) vs its fork point.
-          # The Aikido repo is registered with a different default branch, so a
-          # release-mode scan is rejected; PR mode compares commits instead.
-          # Resolve a base commit robustly — never let a bad base branch fail
-          # the run.
-          BASE=""
-          for b in "$AIKIDO_BASE_BRANCH" arena-7.4.3.129-ga129 arena-7.0.6-ga7 support/experimental master main; do
-            [[ -z "$b" || "$b" == "$REF_NAME" ]] && continue
-            if git rev-parse --verify -q "origin/$b" >/dev/null; then
-              BASE="$(git merge-base HEAD "origin/$b" 2>/dev/null || true)"
-              [[ -n "$BASE" && "$BASE" != "$HEAD_SHA" ]] && break || BASE=""
-            fi
-          done
-          [[ -z "$BASE" ]] && BASE="$(git rev-parse HEAD~1)"
-          echo "PR-gate base=$BASE head=$HEAD_SHA branch=$REF_NAME"
+          # Print what actually reached the scanner. The GitHub log group only
+          # echoes the script source ("${EXCLUDES[@]}"), never the expansion,
+          # so without this there is no way to confirm from a run log that the
+          # exclude list was applied at all.
+          echo "Full-tree release-gated scan of $REF_NAME"
+          echo "Applying ${#EXCLUDES[@]} args from .aikido-exclude:"
+          printf '  %s %s\n' "${EXCLUDES[@]}"
 
+          # Release gating scans the WHOLE checkout, not a diff. The earlier
+          # PR-gate config (--gating-mode pr --git-based-pr-gating) was
+          # structurally incapable of reporting anything on a branch whose diff
+          # touches no dependency manifests: run 29803997677 passed in 7s with
+          # "No scannable files for dependencies scan". Release mode is what
+          # produced real findings before (run 27670920600: 1h44m, exit 1).
+          #
+          # PREREQUISITE: the Aikido repo is registered with default branch
+          # arena-7.0.6-ga7, so scanning any other branch is rejected with
+          # "Repo already exists with default branch ...". An Aikido admin must
+          # re-register this fork's mainline before this step can pass. Until
+          # then the run fails in ~60s with that message. Do NOT "fix" it with
+          # --force-create-repository-for-branch: that creates a separate
+          # Aikido repo per branch and fragments finding history.
+          #
           # `timeout` wraps the scanner because its own --scan-timeout only
           # bounds individual scan tools and --max-polling-attempts only bounds
           # post-upload result polling; neither covers the pre-scan backend
-          # registration, which is exactly where run 29784926428 hung. Without
-          # this the job dies as a silent GitHub cancellation with no error.
-          timeout -k 30s 120m \
+          # registration, which is exactly where run 29784926428 hung 5h29m.
+          # Without this the job dies as a silent GitHub cancellation.
+          timeout -k 60s 300m \
           ~/aikido-scanner/aikido-local-scanner scan \
             "$GITHUB_WORKSPACE" \
             --apikey "$AIKIDO_API_KEY" \
             --repositoryname "$REPO" \
             --branchname "$REF_NAME" \
-            --gating-mode pr \
-            --base-commit-id "$BASE" \
-            --head-commit-id "$HEAD_SHA" \
-            --git-based-pr-gating \
+            --gating-mode release \
             --fail-on critical \
-            --scan-types dependencies \
+            --scan-types code dependencies secrets iac \
             --scan-timeout 3600000 \
             --max-polling-attempts 60 \
             "${EXCLUDES[@]}" \

@@ -89,4 +89,15 @@ PreToolUse hooks mandate consulting the graph before grepping or reading source 
 
 ## Axiell Vault
 
-This repo is ingested into the Axiell Obsidian vault as `Arena Liferay Portal: Portal Fork Project`. Check it for upgrade history, module boundary rationale, and cross-repo Arena context before assuming this fork matches upstream Liferay behavior — route lookups through `@obsidian-helper`.
+Decision and history questions — why something is like this, what changed, which branch or pin we are on, whether it was already investigated — go to the Axiell Obsidian vault before grepping source. A grep is the fallback when the vault has no answer, not the first move. Check it for upgrade history, module boundary rationale, and cross-repo Arena context before assuming this fork matches upstream Liferay behavior; route context-heavy lookups through `@obsidian-helper`.
+
+Canonical notes: `Arena-Liferay-Portal` (entity), `arena-liferay-portal-repo-docs` (source), `project-summary-arena-liferay-portal` (analysis), `arena-liferay-portal-moc` (entry point), `arena-liferay-portal-repo-summary` (reference).
+
+**Read those notes with the checkout in mind.** The entity, source, analysis and MOC pages currently track `/opt/projects/liferay/portal/arena-7.4.3.149-2026.q2.0/portal` — a separate release line, not a continuation of this tree (the entity page's own freshness note records that this checkout's HEAD is not an ancestor of theirs). Their architecture and build-boundary material applies here; their branch, HEAD and pin facts do not. `arena-liferay-portal-repo-summary` is the note still describing `7.4.3.129-ga129`. Do not use `arena-liferay-workspace` notes for this repo — that is the separate Blade workspace.
+
+How to reach it — the same in Claude Code, OpenCode and Hermes:
+- The vault is selected by `.claude-obsidian.json` at this repo's root, which also carries the opt-in (`"session_context": true`). It is host-local and untracked because it holds an absolute path, so a fresh clone must recreate it. No such file means no vault, and every mechanism here is correctly silent.
+- Emission additionally requires this vault to be listed in the user's `~/.config/claude-obsidian/allowed-vaults`. No `CLAUDE_OBSIDIAN_*` variable is exported machine-wide.
+- `wiki/hot.md` arrives at session start via each harness's adapter around `claude-obsidian hook session-start`. If it is absent from session context, read it yourself.
+- `/wiki-query` for anything deeper. After substantive findings run `/wiki-save`; `wiki/hot.md` is a cache, not a journal — four sections, under 500 words, overwritten whole.
+- `/audit-vault-config` verifies the whole chain from this repo and says which half is missing.

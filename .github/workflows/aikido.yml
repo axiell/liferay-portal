@@ -33,12 +33,13 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v4
         with:
-          # Full history + all branches so the PR-gate merge-base is resolvable.
-          fetch-depth: 0
-          # Blobless partial clone: commits and trees are still complete (so
-          # `git merge-base` works), but file contents are fetched on demand.
-          # A full fetch-depth:0 clone of this repo took 31 minutes.
-          filter: blob:none
+          # Shallow full-blob checkout: release gating scans the whole tree
+          # and needs no history. The earlier blobless partial clone
+          # (filter: blob:none) turned every in-scope file read during the
+          # scan into an on-demand network blob fetch — uncapped by
+          # --scan-timeout — and run 32941047677 died at the 150m wrapper
+          # without ever reaching upload.
+          fetch-depth: 1
 
       - name: Cache Aikido scanner
         id: cache-scanner

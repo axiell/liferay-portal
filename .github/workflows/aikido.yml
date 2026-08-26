@@ -20,14 +20,14 @@ jobs:
   aikido-scan:
     name: Aikido scan
     runs-on: ubuntu-latest
-    # INVARIANT: this must stay above checkout (~4m) + the `timeout` wrapper
+    # INVARIANT: this must stay above checkout (~5m) + the `timeout` wrapper
     # on the scan step, so the wrapper always fires first and reports a real
     # error. A job-cap cancellation is silent and destroys the run's output.
-    # Currently: 4m + 150m = 154m < 180m < the 360m GitHub ceiling.
+    # Currently: 5m + 345m = 350m < 355m < the 360m GitHub ceiling.
     # Violating this is not theoretical: run 29806107406 was left at 180m
     # while the wrapper said 300m, and a healthy scan that had been running
     # 2h56m was silently cancelled mid-flight with nothing to show for it.
-    timeout-minutes: 180
+    timeout-minutes: 355
 
     steps:
       - name: Checkout code
@@ -111,6 +111,15 @@ jobs:
           # "No scannable files for dependencies scan". Release mode is what
           # produced real findings before (run 27670920600: 1h44m, exit 1).
           #
+          # MEASURED REALITY (run 32957427732, this tree, full blobs): the
+          # scanner prints NOTHING between "Scan with id ... started." and the
+          # end of its file walk -- not even at --debug. On the small old tree
+          # (arena-7.0.6-ga7, deps-only) that silent phase was ~106m; on THIS
+          # tree it exceeds 150m, so the old wrapper killed a healthy scan at
+          # exactly 150m (exit 124). The scanner is slow here, not hung. A
+          # heartbeat loop below prints elapsed time every 5m so any future
+          # failure shows how far the silent phase actually got.
+          #
           # The Aikido repo is registered with default branch arena-7.0.6-ga7,
           # so a plain release scan of any other branch is rejected with "Repo
           # already exists with default branch ..." (runs 29805404382,
@@ -125,27 +134,44 @@ jobs:
           # `timeout` wraps the scanner because its own --scan-timeout only
           # bounds individual scan tools and --max-polling-attempts only bounds
           # post-upload result polling; neither covers the pre-scan backend
-          # registration, which is exactly where run 29784926428 hung 5h29m.
-          # Without this the job dies as a silent GitHub cancellation.
+          # registration or the silent file-walk phase, which is exactly where
+          # runs 29784926428 (hung 5h29m in registration) and 32957427732
+          # (slow walk >150m) died silently. Without this wrapper the job dies
+          # as a silent GitHub cancellation.
           #
-          # Budget: worst case is 4 tools x 5m (--scan-timeout) + 30m Trivy
-          # ~= 50m, so 150m leaves ~3x headroom while capping any repeat of
-          # the silent multi-hour deaths at 2.5h. Artifact scanning stays
-          # disabled, matching the local wrapper: unpacking every committed
-          # jar/war dominates runtime on this tree without adding findings
-          # beyond the manifests SCA already reads.
-          timeout -k 60s 150m \
-          ~/aikido-scanner/aikido-local-scanner scan \
-            "$GITHUB_WORKSPACE" \
-            --apikey "$AIKIDO_API_KEY" \
-            --repositoryname "$REPO" \
-            --branchname "$REF_NAME" \
-            --gating-mode release \
-            --force-create-repository-for-branch \
-            --fail-on critical \
-            --disable-artifact-scanning \
-            --scan-types code dependencies secrets iac \
-            --scan-timeout 300000 \
-            --max-polling-attempts 60 \
-            "${EXCLUDES[@]}" \
-            ${{ inputs.debug && '--debug' || '' }}
+          # Budget: worst case is 4 tools x 5m (--scan-timeout) + 30m Trivy of
+          # bounded tool time, plus an UNBOUNDED-IN-TOOL-TERMS silent walk
+          # phase (~106m on the much smaller 7.0.6 tree; unknown but >150m on
+          # this one). 345m gives the walk up to ~295m of headroom under the
+          # tool budget while still fitting job cap 355m (355 < 360 GitHub
+          # ceiling; checkout + download + kill grace fit in the remaining
+          # ~10m). If the heartbeat shows the walk alone exceeding ~290m,
+          # trim scope in .aikido-exclude instead of raising caps again --
+          # there is almost nothing left under the 360m ceiling.
+          # Artifact scanning stays disabled, matching the local wrapper:
+          # unpacking every committed jar/war dominates runtime on this tree
+          # without adding findings beyond the manifests SCA already reads.
+          START_EPOCH=$(date +%s)
+          (
+            timeout -k 60s 345m \
+            ~/aikido-scanner/aikido-local-scanner scan \
+              "$GITHUB_WORKSPACE" \
+              --apikey "$AIKIDO_API_KEY" \
+              --repositoryname "$REPO" \
+              --branchname "$REF_NAME" \
+              --gating-mode release \
+              --force-create-repository-for-branch \
+              --fail-on critical \
+              --disable-artifact-scanning \
+              --scan-types code dependencies secrets iac \
+              --scan-timeout 300000 \
+              --max-polling-attempts 60 \
+              "${EXCLUDES[@]}" \
+              ${{ inputs.debug && '--debug' || '' }}
+          ) &
+          SCANNER_PID=$!
+          while kill -0 "$SCANNER_PID" 2>/dev/null; do
+            sleep 300
+            echo "[heartbeat] scan still in progress: $(( ($(date +%s) - START_EPOCH) / 60 ))m elapsed"
+          done
+          wait "$SCANNER_PID"

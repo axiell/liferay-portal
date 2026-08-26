@@ -91,3 +91,21 @@ modules/node_modules_cache/**
 # `--exclude modules/test`; not production. Slash-anchored so only this path
 # matches, never other `test` dirs.
 modules/test/**
+
+# Release-engineering metadata mirror (modules/.releng/**: 2103
+# artifact/app .properties, 1899 .changelog, 11 icon PNGs — verified by
+# extension census; the only "token"/"secret" grep hits are public CDN urls
+# for the frontend-token feature). Records upstream artifact coordinates and
+# changelogs per module; none of it is built or shipped.
+modules/.releng/**
+
+# Upstream DXP-only sources, mirrored for upgrade parity but never built or
+# deployed by this CE fork. Verified against the actual release bundle:
+# names of every leaf project under modules/dxp/** were intersected with all
+# 1434 jars in bundles.org/osgi/{portal,static,test,marketplace} -> ZERO
+# matches. Confusable deployed jars are false friends that build from
+# modules/apps instead (com.liferay.analytics.dxp.entity.rest.* <- apps/
+# analytics; portal-reports-engine.*, portal-rules-engine.* <- apps/
+# portal-{reports,rules}-engine). scripts/deploy-maven-artifacts.sh ships
+# nothing from here either.
+modules/dxp/**

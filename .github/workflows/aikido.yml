@@ -107,6 +107,7 @@ jobs:
           echo "Applying ${#EXCLUDES[@]} args from .aikido-exclude:"
           printf '  %s %s\n' "${EXCLUDES[@]}"
 
+          SCAN_LOG=/tmp/aikido-scan.log
           ~/aikido-scanner/aikido-local-scanner scan \
             --repositoryname "$REPO" \
             --branchname "$REF_NAME" \
@@ -114,4 +115,16 @@ jobs:
             --scan-types dependencies \
             "${EXCLUDES[@]}" \
             ${{ inputs.debug && '--debug' || '' }} \
-            -- "$GITHUB_WORKSPACE"
+            -- "$GITHUB_WORKSPACE" 2>&1 | tee "$SCAN_LOG"
+          SCAN_STATUS=${PIPESTATUS[0]}
+
+          # A stage can fail while the run still exits 0 and prints a findings
+          # summary, which reads as a healthy scan that found nothing. Not a
+          # findings verdict, so fail the job independently of the gate.
+          if grep -qiE 'scan failed|failed to output result|checkov: error' "$SCAN_LOG"; then
+            echo "::error::One or more Aikido scan stages FAILED - these results are incomplete and must not be read as clean."
+            grep -iE 'scan failed|failed to output result|checkov: error' "$SCAN_LOG" | sed 's/^/  /'
+            exit 3
+          fi
+
+          exit "$SCAN_STATUS"

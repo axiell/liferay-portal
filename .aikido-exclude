@@ -1,51 +1,79 @@
 # Arena Liferay Portal 7.0.6-ga7-specific Aikido scan excludes.
-# One glob pattern per line (# comments allowed), passed as --exclude to
-# .claude/skills/aikido-scan/scripts/aikido-scan.sh.
+# One pattern per line (# comments allowed), passed as --exclude to the
+# aikido-scan wrapper.
 # Kept here (repo root) rather than in the aikido-scan skill so the skill
 # itself stays portable to other projects unmodified.
+#
+# ---------------------------------------------------------------------------
+# EXCLUDE SEMANTICS - measured against local-scanner v1.0.139 on 2026-08-29
+# (synthetic-repo probe; see KnowledgeBase docs/security/aikido-security-scanning.md).
+# `--exclude` is a plain, CASE-SENSITIVE SUBSTRING match on the candidate
+# path. It is NOT a glob and NOT a path matcher:
+#   * any pattern containing `*` is INERT and fails silently: `docs/**`,
+#     `**/src/test/**` and `modules/**/bin/**` match nothing at all.
+#   * a bare word matches anywhere inside a path, mid-name included:
+#     `build` also excludes `service-builder/` and every `build.gradle`;
+#     `bin` also excludes `binding`, `binary`, `combine`; `sql` also
+#     excludes `mysql`/`postgresql`. Silent over-exclusion, and excluding
+#     build.gradle blinds dependency scanning entirely.
+#   * the correct idiom is a SLASH-WRAPPED segment: `/build/` matches every
+#     directory named exactly `build`, at any depth, and nothing else.
+#   * there is NO root anchoring. `/bin/` hits nested bin dirs as well as the
+#     top-level one; the pre-2026-08-29 claim that a slash makes a pattern
+#     "start-anchored and immune to minimatch matchBase" was wrong on both
+#     counts - minimatch is not what does the matching.
+#   * the secrets stage (gitleaks) ignores --exclude entirely and walks
+#     everything; only pre-scan cleanup or --scan-types affects its cost.
+# The scan wrapper warns about inert patterns before every scan.
+# ---------------------------------------------------------------------------
 
 # IDE-generated build/compiled-class output for the Ant-built core modules
 # (portal-impl, portal-kernel, portal-test, portal-test-integration,
 # support-tomcat, util-bridges, util-java, util-slf4j, util-taglib, ...).
 # This repo's own .gitignore predates these paths (it lists per-module
 # classes/test-classes/woven-classes, not build/) so they show up untracked.
-# Verified via `git ls-files | grep -E "(^|/)build/"` — zero tracked files
+# Verified via `git ls-files | grep -E "(^|/)build/"` - zero tracked files
 # live under any build/ directory anywhere in this repo, so this is safe.
-**/build/**
+/build/
 
 # Stray JVM heap dump left in the working tree (modules/apps/foundation/
-# portal/java_pid83209.hprof) — not build output, but pure scan noise either
+# portal/java_pid83209.hprof) - not build output, but pure scan noise either
 # way. Consider deleting it directly; it may contain sensitive memory
 # contents and has no reason to exist in the working tree.
-**/*.hprof
+.hprof
 
-# NOTE: node_modules (~267 directories under modules/**) is intentionally
-# NOT excluded here. Aikido's JS supply-chain coverage (package-lock.json /
-# node_modules CVEs) is real scanning surface, not noise — unlike the
-# palma-style scope exclusions elsewhere, this is a security-coverage
-# decision, not cleanup. If scan time/volume becomes a problem, discuss
-# before adding an exclude for it.
-# NOTE: "scripts" and "readme" are deliberately NOT in this list, even
-# though they match the same stock-reference-noise pattern as the rest.
-# scripts/ now also holds this branch's own security tooling
-# (scripts/sweep-deps.sh, scripts/deploy-maven-artifacts.sh) — excluding
-# the bare name would silently hide that from scanning. "readme" is a
-# generic enough name to risk matching unintended paths depending on repo
-# layout; narrow it to the actual guideline docs if it needs excluding.
-bin
-benchmarks
-classes
-definitions
-gradle
-sql
-support-resin
-support-websphere
+# NOTE: node_modules is intentionally NOT excluded here. Aikido's JS
+# supply-chain coverage (package-lock.json / node_modules CVEs) is real
+# scanning surface, not noise - unlike the palma-style scope exclusions
+# elsewhere, this is a security-coverage decision, not cleanup. If scan
+# time/volume becomes a problem, discuss before adding an exclude for it.
+# NOTE: "scripts" and "readme" are deliberately NOT in this list. scripts/
+# holds this branch's own security tooling (sweep-deps.sh,
+# deploy-maven-artifacts.sh); excluding it would silently hide that from
+# scanning.
+#
+# NOTE (2026-08-29): these were bare words and were over-matching badly.
+# Bare `gradle` dropped 1160 tracked files that are not in a gradle/ dir -
+# every build.gradle / settings.gradle / gradle.properties in the repo -
+# which silently disabled Gradle dependency scanning. Bare `sql` dropped 69
+# (mysql/postgresql/sqlserver names), `bin` 16 (binding/binary/...) and
+# `definitions` 15. The slash-wrapped forms below match only directories
+# with those exact names, so the scan now covers more than it did.
+/bin/
+/benchmarks/
+/classes/
+/definitions/
+/gradle/
+/sql/
+/support-resin/
+/support-websphere/
 
 # opensocial-portlet: confirmed never deployed through arena-parent (its
 # .war is excluded from the published com.liferay.portal.osgi zip in
-# scripts/deploy-maven-artifacts.sh) — exclude the whole module rather than
+# scripts/deploy-maven-artifacts.sh) - exclude the whole module rather than
 # tracking its vendored blobs (OpenAjax_Hub_2.0.5_r1293.zip,
 # shindig-server-2.0.2.war, ...) one file at a time as new ones surface.
-modules/apps/opensocial/opensocial-portlet/**
+/modules/apps/opensocial/opensocial-portlet/
 
+# Single vendored source archive (the path form works as a plain substring).
 modules/apps/wiki-engine-mediawiki/wiki-engine-mediawiki/jamwiki-1.0.7-src.zip

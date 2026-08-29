@@ -54,12 +54,52 @@ jobs:
           REPO: ${{ github.repository }}
           REF_NAME: ${{ github.ref_name }}
         run: |
+          # Honor the repo-root .aikido-exclude so CI and local scans share one
+          # exclude list. One pattern per line; blank lines and # comments skipped.
+          #
+          # --exclude is a plain, case-sensitive SUBSTRING match on the path
+          # (measured against scanner v1.0.139 on 2026-08-29), not a glob and not
+          # a path matcher: any pattern containing '*' matches nothing and fails
+          # silently, and a bare name matches mid-word (`modules/test` would also
+          # drop `modules/test-util*`). Slash-wrapped segments are the correct
+          # form. See .aikido-exclude for the full rules.
+          EXCLUDES=()
+          if [[ -f .aikido-exclude ]]; then
+            while IFS= read -r pattern; do
+              [[ -z "$pattern" || "$pattern" == \#* ]] && continue
+              EXCLUDES+=(--exclude "$pattern")
+            done < .aikido-exclude
+          fi
+
+          # Generic build-tool cache/output excludes, mirroring the local wrapper.
+          EXCLUDES+=(
+            --exclude /.gradle/
+            --exclude /.m2/
+            --exclude /.ai/
+            --exclude /target/
+            --exclude /classes/
+            --exclude /tmp/
+          )
+
+          # Fail loudly rather than scanning at full scope by accident.
+          INERT=()
+          for e in "${EXCLUDES[@]}"; do
+            case "$e" in --exclude) continue ;; *[\*\?]*|./*) INERT+=("$e") ;; esac
+          done
+          if [[ ${#INERT[@]} -gt 0 ]]; then
+            echo "::warning::${#INERT[@]} exclude pattern(s) can never match (--exclude is a substring match, not a glob): ${INERT[*]}"
+          fi
+
+          # Print what actually reached the scanner; the GitHub log only echoes
+          # the script source, never the expansion.
+          echo "Applying ${#EXCLUDES[@]} args from .aikido-exclude:"
+          printf '  %s %s\n' "${EXCLUDES[@]}"
+
           ~/aikido-scanner/aikido-local-scanner scan \
             --repositoryname "$REPO" \
             --branchname "$REF_NAME" \
             --fail-on critical \
             --scan-types dependencies \
-            --exclude portal-test \
-            --exclude modules/test \
+            "${EXCLUDES[@]}" \
             ${{ inputs.debug && '--debug' || '' }} \
             -- "$GITHUB_WORKSPACE"

@@ -164,7 +164,15 @@ jobs:
           # (slow walk >150m) died silently. Without this wrapper the job dies
           # as a silent GitHub cancellation.
           #
-          # Budget: worst case is 4 tools x 5m (--scan-timeout) + 30m Trivy of
+          # NOTE (2026-08-29): --scan-timeout was 300000 (5m). On this tree the
+          # SAST and IaC stages hit that wall and ERRORED, and the run still
+          # printed "no open issues" - a false green from two dead sub-scans.
+          # At 900000 (the scanner's own default) every stage completed, ~40m
+          # total. A per-tool timeout is the wrong tool for bounding a slow
+          # scan: it turns "slow" into "silently incomplete". The outer
+          # `timeout` wrapper is what bounds the run.
+          #
+          # Budget: worst case is 4 tools x 15m (--scan-timeout) + 30m Trivy of
           # bounded tool time, plus an UNBOUNDED-IN-TOOL-TERMS silent walk
           # phase (~106m on the much smaller 7.0.6 tree; unknown but >150m on
           # this one). 345m gives the walk up to ~295m of headroom under the
@@ -176,6 +184,7 @@ jobs:
           # Artifact scanning stays disabled, matching the local wrapper:
           # unpacking every committed jar/war dominates runtime on this tree
           # without adding findings beyond the manifests SCA already reads.
+          SCAN_LOG=/tmp/aikido-scan.log
           START_EPOCH=$(date +%s)
           (
             timeout -k 60s 345m \
@@ -189,14 +198,29 @@ jobs:
               --fail-on critical \
               --disable-artifact-scanning \
               --scan-types code dependencies secrets iac \
-              --scan-timeout 300000 \
+              --scan-timeout 900000 \
               --max-polling-attempts 60 \
               "${EXCLUDES[@]}" \
               ${{ inputs.debug && '--debug' || '' }}
-          ) &
+          ) > >(tee "$SCAN_LOG") 2>&1 &
           SCANNER_PID=$!
           while kill -0 "$SCANNER_PID" 2>/dev/null; do
             sleep 300
             echo "[heartbeat] scan still in progress: $(( ($(date +%s) - START_EPOCH) / 60 ))m elapsed"
           done
           wait "$SCANNER_PID"
+          SCAN_STATUS=$?
+
+          # A stage can fail while the run still exits 0 and prints a findings
+          # summary, which reads as a healthy scan that found nothing in those
+          # categories. Seen on this tree from both a too-low --scan-timeout
+          # (run of 2026-08-29: SAST and IaC errored, output said "no open
+          # issues") and an exclude pattern checkov could not parse. Neither is
+          # a findings verdict, so fail the job independently of the gate.
+          if grep -qiE 'scan failed|failed to output result|checkov: error' "$SCAN_LOG"; then
+            echo "::error::One or more Aikido scan stages FAILED - these results are incomplete and must not be read as clean."
+            grep -iE 'scan failed|failed to output result|checkov: error' "$SCAN_LOG" | sed 's/^/  /'
+            exit 3
+          fi
+
+          exit "$SCAN_STATUS"

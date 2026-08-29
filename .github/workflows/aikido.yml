@@ -87,14 +87,27 @@ jobs:
           # wrapper always passes, so CI and local scans see identical scope.
           # Patterns are quoted so bash cannot pathname-expand them against
           # the checkout (e.g. a root-level target/ would split the word).
+          # Slash-wrapped segments, NOT globs: --exclude is a plain substring
+          # match on the path (measured against v1.0.139 on 2026-08-29). Any
+          # pattern containing '*' matches nothing and fails silently, which
+          # is what every pattern here and in .aikido-exclude used to do.
           EXCLUDES+=(
-            --exclude .gradle
-            --exclude .m2
-            --exclude .ai
-            --exclude target
-            --exclude '**/classes/**'
-            --exclude '**/tmp/**'
+            --exclude /.gradle/
+            --exclude /.m2/
+            --exclude /.ai/
+            --exclude /target/
+            --exclude /classes/
+            --exclude /tmp/
           )
+
+          # Fail loudly rather than scanning at full scope by accident.
+          INERT=()
+          for e in "${EXCLUDES[@]}"; do
+            case "$e" in --exclude) continue ;; *[\*\?]*|./*) INERT+=("$e") ;; esac
+          done
+          if [[ ${#INERT[@]} -gt 0 ]]; then
+            echo "::warning::${#INERT[@]} exclude pattern(s) can never match (--exclude is a substring match, not a glob): ${INERT[*]}"
+          fi
 
           # Print what actually reached the scanner. The GitHub log group only
           # echoes the script source ("${EXCLUDES[@]}"), never the expansion,

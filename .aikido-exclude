@@ -1,111 +1,100 @@
 # Arena Liferay Portal 7.4.3.129-ga129-specific Aikido scan excludes.
-# One glob pattern per line (# comments allowed), passed as --exclude by BOTH
+#
+# ---------------------------------------------------------------------------
+# EXCLUDE SEMANTICS — measured against local-scanner v1.0.139 on 2026-08-29
+# (synthetic-repo probe; see KnowledgeBase docs/security/aikido-security-scanning.md).
+# `--exclude` is a plain SUBSTRING match on the candidate path. NOT a glob.
+#   * any pattern containing `*` is INERT and fails silently: `**/build/**`,
+#     `build/**` and `bin/**` match nothing, and the scan runs at full scope.
+#     Every pattern in this file before 2026-08-29 was of that form, i.e. the
+#     entire file was a no-op.
+#   * a bare word matches anywhere inside a path, including inside a longer
+#     name (`uild` excludes `build/`), so always slash-wrap: `/build/`.
+#   * there is NO root anchoring. `/bin/` also hits nested bin dirs.
+#   * the secrets stage (gitleaks) ignores --exclude completely and walks
+#     everything; only pre-scan cleanup or --scan-types affects its cost.
+# The local wrapper warns about inert patterns before every scan.
+# ---------------------------------------------------------------------------
+#
+# One pattern per line (# comments allowed), passed as --exclude by BOTH
 # scan consumers - keep them in parity when tuning scope or timeouts:
 #   local: ~/.agents/manual-skills/aikido-scan/scripts/aikido-scan.sh
 #   CI:    .github/workflows/aikido.yml (manual dispatch)
 # Kept here (repo root) rather than inside either consumer so the skill
 # stays portable to other projects unmodified and CI picks up the same list.
 
-# IDE-generated build/compiled-class output for the Ant-built core modules
-# (portal-impl, portal-kernel, portal-test, portal-test-integration,
-# support-tomcat, util-bridges, util-java, util-slf4j, util-taglib, ...).
-# This repo's own .gitignore predates these paths (it lists per-module
-# classes/test-classes/woven-classes, not build/) so they show up untracked.
-# Verified via `git ls-files | grep -E "(^|/)build/"` — zero tracked files
-# live under any build/ directory anywhere in this repo, so this is safe.
-**/build/**
+# IDE-generated build/compiled-class output for the Ant-built core modules.
+# Verified via `git ls-files | grep -E "(^|/)build/"` - zero tracked files
+# live under any build/ directory anywhere in this repo, so matching every
+# depth is safe.
+/build/
 
 # Stray JVM heap dump left in the working tree (modules/apps/foundation/
-# portal/java_pid83209.hprof) — not build output, but pure scan noise either
-# way. Consider deleting it directly; it may contain sensitive memory
-# contents and has no reason to exist in the working tree.
-**/*.hprof
-
-# NOTE: node_modules (~267 directories under modules/**) is intentionally
-# NOT excluded here. Aikido's JS supply-chain coverage (package-lock.json /
-# node_modules CVEs) is real scanning surface, not noise — unlike the
-# palma-style scope exclusions elsewhere, this is a security-coverage
-# decision, not cleanup. If scan time/volume becomes a problem, discuss
-# before adding an exclude for it.
-# NOTE: "scripts" and "tools" are deliberately NOT in this list, even though
-# they match the same stock-reference-noise pattern as the rest. scripts/
-# holds this branch's own release tooling (scripts/deploy-maven-artifacts.sh)
-# and tools/ holds dev/release shell scripts — both stay in scope on purpose
-# as secret-scan surface. The docs-only root readme/ tree IS excluded below
-# (slash-anchored, so no bare-name matchBase risk).
-# Root-only non-production trees. Written as `<name>/**` (with a slash) on
-# purpose: a slash makes the pattern start-anchored and immune to minimatch's
-# matchBase, so it excludes only the top-level dir's contents and never the
-# same-named dirs nested under production modules (e.g. modules/**/sql,
-# modules/**/gradle, modules/**/definitions). A bare `sql` would leak into
-# those nested production paths if the scanner enables matchBase.
-bin/**
-benchmarks/**
-definitions/**
-learn-resources/**
-gradle/**
-sql/**
-workspaces/**
-portal-test/**
-oss-licenses/**
-# NetBeans IDE project metadata.
-nbproject/**
-# Docs-only tree (see NOTE above: slash-anchored, root only).
-readme/**
-# JSF test-batch build config, not shipped.
-build-test-batch/**
-# Development-time classpath jars (ant-contrib, bsh, ...) consumed by the Ant
-# build only; nothing here ships. Artifact scanning is disabled anyway, so
-# these jars cost scan time without ever yielding manifest-based findings.
-lib/**
+# portal/java_pid83209.hprof). May contain sensitive memory contents and has
+# no reason to exist in the working tree - consider deleting it directly.
+.hprof
 
 # Test/integration-test source inside otherwise-in-scope production modules.
-# None of it ships in the deploy-maven-artifacts.sh outputs (the osgi zip,
-# portal-*.jar/war, util-*.jar) — it is not production surface. Trade-off:
-# secrets or vulnerable test-scope deps living only under test sources will
-# no longer be flagged; SCA on package-lock.json / pom test deps is
-# unaffected since those manifests sit above src/. Anchored to src/ so main
-# sources are untouched.
-**/src/test/**
-**/src/testIntegration/**
+# Segment-precise, so main sources are untouched.
+/src/test/
+/src/testIntegration/
 
 # Integration-test helper MODULES under modules/** (552 dirs, ~1.9k tracked
 # files). Their sources sit in their own src/main/java, so the src/test
 # excludes above never reach them. `<artifact>-test` and `-test-util` bundles
-# exist only to run tests inside a live portal; upstream release dists do not
-# ship them, and scripts/deploy-maven-artifacts.sh produces none of them
-# (db-upgrade-client jar, com.liferay.portal.osgi dist zip, unstyled theme,
-# portal-impl/-kernel/support-tomcat/util-* jars, portal-web war).
-# Slash-containing globs, so no matchBase leakage into e.g. a production
-# "latest" dir would be possible anyway (hyphen required before -test).
-**/*-test/**
-**/*-test-util/**
+# exist only to run tests inside a live portal and ship in no release dist.
+-test/
+-test-util/
 
 # Local npm tarball cache under modules/ (untracked @pkg-version.tgz files,
-# reproducible from yarn.lock). Duplicates what node_modules scanning already
-# reports. Untracked, so CI checkouts never contain it — this only trims
-# local scan time.
-modules/node_modules_cache/**
+# reproducible from yarn.lock). Untracked, so CI checkouts never contain it.
+/modules/node_modules_cache/
 
-# Whole test-only module tree. Preserves the CI workflow's prior
-# `--exclude modules/test`; not production. Slash-anchored so only this path
-# matches, never other `test` dirs.
-modules/test/**
+# Whole test-only module tree. Parent-qualified so only this path matches,
+# never other `test` dirs.
+/modules/test/
 
-# Release-engineering metadata mirror (modules/.releng/**: 2103
-# artifact/app .properties, 1899 .changelog, 11 icon PNGs — verified by
-# extension census; the only "token"/"secret" grep hits are public CDN urls
-# for the frontend-token feature). Records upstream artifact coordinates and
-# changelogs per module; none of it is built or shipped.
-modules/.releng/**
+# Release-engineering metadata mirror: artifact/app .properties, .changelog
+# and icons recording upstream coordinates. None of it is built or shipped.
+/modules/.releng/
 
 # Upstream DXP-only sources, mirrored for upgrade parity but never built or
-# deployed by this CE fork. Verified against the actual release bundle:
-# names of every leaf project under modules/dxp/** were intersected with all
-# 1434 jars in bundles.org/osgi/{portal,static,test,marketplace} -> ZERO
-# matches. Confusable deployed jars are false friends that build from
-# modules/apps instead (com.liferay.analytics.dxp.entity.rest.* <- apps/
-# analytics; portal-reports-engine.*, portal-rules-engine.* <- apps/
-# portal-{reports,rules}-engine). scripts/deploy-maven-artifacts.sh ships
-# nothing from here either.
-modules/dxp/**
+# deployed by this CE fork. Verified against the release bundle: no leaf
+# project under modules/dxp/** matches any of the 1434 shipped jars.
+/modules/dxp/
+
+# Docs-only and non-production ROOT trees whose name occurs nowhere nested
+# (verified 2026-08-29 with `git ls-files | grep -E "/<name>/"` = 0 hits), so
+# the un-anchorable substring form is exact here.
+/learn-resources/
+/portal-test/
+/oss-licenses/
+/nbproject/
+/readme/
+/build-test-batch/
+
+# NOTE: node_modules is intentionally NOT excluded. Aikido's JS supply-chain
+# coverage is real scanning surface, not noise - a security-coverage decision,
+# not cleanup. Discuss before adding it.
+# NOTE: "scripts" and "tools" are deliberately NOT excluded: scripts/ holds
+# this branch's release tooling and tools/ holds dev/release shell scripts -
+# both stay in scope as secret-scan surface.
+#
+# UNRESOLVED - root-only trees that CANNOT be expressed under substring
+# semantics. Each was root-anchored on purpose in the pre-2026-08-29 file to
+# avoid hitting same-named dirs under production modules, and there is no way
+# to anchor now. Tracked-file counts measured 2026-08-29 as root/nested:
+#   bin              0 / 11        gradle            2 / 459
+#   benchmarks       2 / 8         sql              25 / 554
+#   definitions    227 / 314       workspaces     5472 / 115
+#   lib             20 / 25
+# Enabling any line below also drops the nested production paths from the
+# scan. That is a security-scope decision - decide per tree, do not bulk
+# uncomment.
+# /bin/
+# /benchmarks/
+# /definitions/
+# /gradle/
+# /sql/
+# /workspaces/
+# /lib/

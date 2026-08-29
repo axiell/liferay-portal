@@ -45,6 +45,15 @@ Arena fork of Liferay Portal 7.4.3.129 GA129. Treat most code as upstream Lifera
 - From a module dir, formatter check only: `../../../../gradlew checkSourceFormatting`
 - From a `*-service` module after changing `service.xml`: `../../../../gradlew buildService`
 
+## Security Scanning (Aikido)
+
+- Full scan of the checked-out branch: `/aikido-scan --full --no-fail --force-create-repository-for-branch`. Defaults are correct for this tree; do not hand-tune them.
+- `--force-create-repository-for-branch` is interim: the Aikido repo is registered with default branch `arena-7.0.6-ga7`, so a plain scan of this branch is rejected in ~1.5s. The per-branch row it creates lands **deactivated** and must be activated once in the Aikido UI.
+- `.aikido-exclude` patterns are plain **substring** matches, not globs. A `*` matches nothing, a leading `-` breaks the IaC and SAST stages, and a bare word matches mid-name. Slash-wrap: `/build/`. The wrapper refuses bad patterns.
+- Never lower `--scan-timeout` to speed a scan up — a stage that hits that wall *fails* while the run still exits 0 and prints a clean-looking summary. Use `--run-timeout`.
+- A green run is not sign-off: check the log for `No scannable files` and for failed stages.
+- Full reference: `docs/security/aikido-security-scanning` in the KnowledgeBase vault.
+
 ## Verification Quirks
 
 - Prefer the smallest native verifier for the area you changed: Ant for portal core, Gradle for `modules/**`.

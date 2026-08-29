@@ -43,8 +43,22 @@
 # files). Their sources sit in their own src/main/java, so the src/test
 # excludes above never reach them. `<artifact>-test` and `-test-util` bundles
 # exist only to run tests inside a live portal and ship in no release dist.
--test/
--test-util/
+#
+# NEVER write these as `-test/` / `-test-util/`. A pattern starting with a
+# hyphen is forwarded verbatim into checkov's `--skip-path` and Semgrep's
+# argv, where argparse reads it as a flag: the IaC scan dies with
+# "argument --skip-path: expected one argument" and the SAST scan with
+# "failed to output result". Both types then produce NO findings while the
+# run still exits 0 - two silently dead scanners. Measured 2026-08-29 on
+# v1.0.139; the scan wrapper now refuses such patterns.
+#
+# The hyphen-free forms below cover the same modules (substring match, so
+# "test/" is contained in "<artifact>-test/"). Safe in THIS repo because it
+# holds no `latest/` path (verified: `git ls-files | grep -c latest/` = 0) -
+# recheck that before copying these two lines to another repo, since
+# "latest/" contains "test/".
+test/
+test-util/
 
 # Local npm tarball cache under modules/ (untracked @pkg-version.tgz files,
 # reproducible from yarn.lock). Untracked, so CI checkouts never contain it.

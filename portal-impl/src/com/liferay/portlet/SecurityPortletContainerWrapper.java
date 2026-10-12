@@ -35,12 +35,15 @@ import com.liferay.portal.kernel.servlet.HttpHeaders;
 import com.liferay.portal.kernel.servlet.TempAttributesServletRequest;
 import com.liferay.portal.kernel.struts.LastPath;
 import com.liferay.portal.kernel.theme.ThemeDisplay;
+import com.liferay.portal.kernel.util.ContentTypes;
 import com.liferay.portal.kernel.util.GetterUtil;
 import com.liferay.portal.kernel.util.PortalUtil;
 import com.liferay.portal.kernel.util.WebKeys;
 import com.liferay.portal.util.LayoutTypeAccessPolicyTracker;
 import com.liferay.portal.util.PropsValues;
 
+import java.io.IOException;
+import java.io.PrintWriter;
 import java.util.List;
 import java.util.Map;
 
@@ -358,6 +361,44 @@ public class SecurityPortletContainerWrapper implements PortletContainer {
 		}
 
 		String url = getOriginalURL(request);
+
+		if (pe instanceof PrincipalException.MustBeAuthenticated) {
+			// Invalid or stale auth token: the session that produced the URL
+			// no longer matches the request (expired session, crawler with no
+			// session, tab left open past the session timeout). An empty
+			// action result would let the servlet fall through and re-render
+			// the whole page for an AJAX request, whose resources then come
+			// back as new denied requests. Answer the action instead, like
+			// processServeResourceException().
+
+			try {
+				response.setContentType(ContentTypes.TEXT_PLAIN_UTF8);
+
+				response.setHeader(
+					HttpHeaders.CACHE_CONTROL,
+					HttpHeaders.CACHE_CONTROL_NO_CACHE_VALUE);
+
+				response.setStatus(HttpServletResponse.SC_FORBIDDEN);
+
+				try (PrintWriter printWriter = response.getWriter()) {
+					printWriter.print(CharPool.NEW_LINE);
+				}
+			}
+			catch (IOException ioe) {
+				_log.error(ioe, ioe);
+			}
+
+			if (_log.isDebugEnabled()) {
+				_log.debug(
+					String.format(
+						"User %s is not allowed to access URL %s and " +
+						"portlet %s",
+						PortalUtil.getUserId(request), url,
+						portlet.getPortletId()));
+			}
+
+			return ActionResult.EMPTY_ACTION_RESULT;
+		}
 
 		if (_log.isWarnEnabled()) {
 			_log.warn(

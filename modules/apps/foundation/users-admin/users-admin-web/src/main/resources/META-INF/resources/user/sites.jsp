@@ -163,7 +163,7 @@ currentURLObj.setParameter("historyKey", renderResponse.getNamespace() + "sites"
 
 						var rowColumns = [];
 
-						rowColumns.push(event.entityname);
+						rowColumns.push(Util.escapeHTML(event.entityname));
 						rowColumns.push('');
 						rowColumns.push('<a class="modify-link" data-rowId="' + entityId + '" href="javascript:;"><%= UnicodeFormatter.toString(removeGroupIcon) %></a>');
 

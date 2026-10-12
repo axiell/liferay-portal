@@ -7,7 +7,7 @@ version=7.0.6f
 lexicon_version=1.0.25a
 repo_url=https://artifactory.axiell.com
 repo_dir=~/.m2/repository
-bundles_dir=/opt/liferay/portal/arena-7.0.6-ga7/bundles.org
+bundles_dir=/opt/playground/liferay/portal/arena-7.0.6-ga7/bundles.org
 
 function downloadIfMissing {
   local file=${1}
@@ -95,14 +95,15 @@ do
 deployFile ${file} ${packaging} ${version}
 done
 
-file=com.liferay.portal.web
+file=liferay-portal
 packaging=war
+mkdir -p ${repo_dir}/com/liferay/portal/${file}/${version}
+cp "$(dirname "${BASH_SOURCE[0]}")/../dist/liferay-portal-7.0.0.war" ${repo_dir}/com/liferay/portal/${file}/${version}/${file}-${version}.${packaging}
 deployFile ${file} ${packaging} ${version}
 
 file=com.liferay.webjars.lexicon
 packaging=jar
 groupId="com.liferay.webjars"
 deployFile ${file} ${packaging} ${lexicon_version} ${groupId}
-
 
 

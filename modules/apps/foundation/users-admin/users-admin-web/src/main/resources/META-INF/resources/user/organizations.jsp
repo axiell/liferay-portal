@@ -209,7 +209,7 @@ currentURLObj.setParameter("historyKey", renderResponse.getNamespace() + "organi
 							var rowColumns = [];
 
 							rowColumns.push(event.entityname);
-							rowColumns.push(event.type);
+							rowColumns.push(Util.escapeHTML(event.type));
 							rowColumns.push('');
 							rowColumns.push('<a class="modify-link" data-rowId="' + entityId + '" href="javascript:;"><%= UnicodeFormatter.toString(removeOrganizationIcon) %></a>');
 

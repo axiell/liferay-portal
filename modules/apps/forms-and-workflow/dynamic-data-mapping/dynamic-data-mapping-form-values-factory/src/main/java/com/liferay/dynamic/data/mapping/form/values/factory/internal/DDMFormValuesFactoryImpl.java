@@ -155,8 +155,12 @@ public class DDMFormValuesFactoryImpl implements DDMFormValuesFactory {
 
 		ddmFormFieldValue.setName(fieldName);
 
-		ddmFormFieldValue.setInstanceId(
-			getFieldInstanceId(lastDDMFormFieldParameterNameParts));
+		String instanceId = getFieldInstanceId(
+			lastDDMFormFieldParameterNameParts);
+
+		if (instanceId.matches("[a-zA-Z0-9]*")) {
+			ddmFormFieldValue.setInstanceId(instanceId);
+		}
 
 		DDMFormField ddmFormField = ddmFormFieldsMap.get(fieldName);
 

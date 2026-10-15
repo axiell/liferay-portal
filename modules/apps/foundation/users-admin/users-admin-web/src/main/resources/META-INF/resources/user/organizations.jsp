@@ -68,7 +68,7 @@ currentURLObj.setParameter("historyKey", renderResponse.getNamespace() + "organi
 		<liferay-ui:search-container-column-text
 			cssClass="table-cell-content"
 			name="name"
-			value="<%= HtmlUtil.escape(organization.getName()) %>"
+			property="name"
 		/>
 
 		<liferay-ui:search-container-column-text
@@ -208,7 +208,7 @@ currentURLObj.setParameter("historyKey", renderResponse.getNamespace() + "organi
 
 							var rowColumns = [];
 
-							rowColumns.push(Util.escapeHTML(event.entityname));
+							rowColumns.push(event.entityname);
 							rowColumns.push(Util.escapeHTML(event.type));
 							rowColumns.push('');
 							rowColumns.push('<a class="modify-link" data-rowId="' + entityId + '" href="javascript:;"><%= UnicodeFormatter.toString(removeOrganizationIcon) %></a>');
